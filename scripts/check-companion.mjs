@@ -36,8 +36,8 @@ assert.ok(pumpkin.includes('Grows in'),'growth row');const apple=h.render('build
 assert.ok(/<details><summary>[^<]*archive map/.test(pumpkin),'archive maps collapsed');
 // Chain pages lead with the recipe; decoded steps are collapsed.
 const chain=h.render('production-chains/bakery/');
-assert.ok(chain.indexOf('In-game field guide')<chain.indexOf('Formula steps'));
-assert.ok(/<details>\s*<summary>[^<]*decoded steps/.test(chain),'steps collapsed');
+assert.ok(chain.indexOf('In-game field guide')<chain.indexOf('Production steps'));
+assert.ok(/<details>\s*<summary>Show the \d+ steps/.test(chain),'steps collapsed');
 // Buildings catalog has type and produces columns.
 const dir=h.render('buildings/');assert.ok(dir.includes('<th scope="col">Type</th>'));assert.ok(dir.includes('<th scope="col">Produces</th>'));
 // Spoiler pages keep neutral report titles.
@@ -47,7 +47,7 @@ console.log('PASS: infoboxes, verification badge, objective and recipe backlinks
 const bakeryBox=bakery.slice(bakery.indexOf('class="infobox"'),bakery.indexOf('</aside>'));
 assert.ok(bakeryBox.includes('8 Bread'),'infobox shows per-cycle output');assert.ok(bakery.includes('ratio per 1 Flour'),'formula-graph ratio still shown as supporting detail');
 const recipeRow=bakeryBox.slice(bakeryBox.indexOf('<dt>Recipe</dt>'),bakeryBox.indexOf('</div>',bakeryBox.indexOf('<dt>Recipe</dt>')));assert.ok(recipeRow&&!/\b40\b/.test(recipeRow),'recipe row must not present 40 Bread as output');
-assert.ok(bakery.includes('not a batch size, a storage capacity or a production rate'));
+assert.ok(bakery.includes('not a batch size, a storage limit or a speed'));
 assert.ok(h.render('verification/buildings/bakery/').includes('holds 40 Bread'),'capacity observation on research page');
 console.log('PASS: ratio presentation and Bakery capacity observation.');
 // Per-cycle recipe and capacity come from the gameplay block.

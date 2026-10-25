@@ -14,9 +14,9 @@ for(const l of w.levels){
  assert.equal(l.scenario.optional_objective_count,l.scenario.objectives.filter(x=>x.IsSecondary).length);
 }
 const page=id=>h.render(h.pages.find(p=>p.type==='levels'&&p.id===id).path);
-const binge=page('Level02B');assert.ok(binge.includes('≥ 120'));assert.ok(binge.includes('65 days'));assert.ok(binge.includes('Unspecified in this file'));
+const binge=page('Level02B');assert.ok(binge.includes('≥ 120'));assert.ok(binge.includes('65 days'));assert.ok(binge.includes('Not set (older map)'));
 const town=page('Single_C_Villagers100');assert.ok(town.includes('≥ 100'));assert.ok(!town.includes('AudioEventBase'));
-const first=page('Level01A');assert.ok(first.includes('2 distinct configured entries'));assert.ok(first.includes('/buildings/foragers-hut/'));
+const first=page('Level01A');assert.ok(first.includes('2 buildings and plants can be built'));assert.ok(first.includes('/buildings/foragers-hut/'));
 assert.ok(h.render('buildings/foragers-hut/').includes('Where it can be built'));
 assert.equal(linked,133);assert.equal(w.levels.filter(l=>!l.scenario).length,0);
 console.log(`PASS: ${linked} decoded scenario pages, primary/optional counts, exact targets, needs, legacy unknowns, asset links, and build-list backlinks.`);
