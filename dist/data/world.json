@@ -85003,6 +85003,22 @@
   ],
   "contributions": [
     {
+      "id": "bakery-bread-capacity",
+      "target": {
+        "type": "buildings",
+        "id": "57395"
+      },
+      "claim": "The Bakery holds up to 40 Bread. The decoded balance of 5 Flour + 4 Stick → 40 Bread is a whole-number ratio (1 Flour + 0.8 Stick per 8 Bread), not a batch of 40 produced at once.",
+      "status": "open",
+      "evidence": {
+        "kind": "player-report",
+        "game_version": "30 (254)",
+        "date": "2026-10-25",
+        "reference": "Maintainer report, 25 October 2026. The 40 Bread figure shown by earlier builds of this wiki was the ratio artifact; a 40-unit capacity is reported from play."
+      },
+      "notes": "Storage capacities are not decoded for any building. Pages now show ratios per primary input. A controlled test should confirm the Bakery capacity and record capacities for other production buildings."
+    },
+    {
       "id": "clay-pit-late-start",
       "target": {
         "type": "buildings",

@@ -42,3 +42,10 @@ const dir=h.render('buildings/');assert.ok(dir.includes('<th scope="col">Type</t
 // Spoiler pages keep neutral report titles.
 const oona=h.render('heroes/oona/');assert.ok(!/issues\/new\?[^"]*Oona/.test(oona),'spoiler name in issue title');
 console.log('PASS: infoboxes, verification badge, objective and recipe backlinks, grouped availability, story context, navboxes, collapsed research detail, catalog columns and contribution links.');
+// Derived balances are ratios, not batches or capacities.
+const bakeryBox=bakery.slice(bakery.indexOf('class="infobox"'),bakery.indexOf('</aside>'));
+assert.ok(bakeryBox.includes('8 Bread'),'infobox shows per-flour ratio');assert.ok(bakeryBox.includes('0.8 Stick'),'infobox shows fuel per flour');
+assert.ok(!/40 Bread|40<\/strong> Bread/.test(bakeryBox),'infobox must not present 40 Bread as output');
+assert.ok(bakery.includes('not a batch size, a storage capacity or a production rate'));
+assert.ok(h.render('verification/buildings/bakery/').includes('holds up to 40 Bread'),'capacity observation on research page');
+console.log('PASS: ratio presentation and Bakery capacity observation.');

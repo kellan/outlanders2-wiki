@@ -6,6 +6,7 @@ A reviewed, data-backed reference: static pages generated from individual JSON r
 - [Content format and editing locations](content/README.md)
 - [Publishing plan](docs/PUBLISHING.md)
 - [Tools, public/private boundaries and rights review](docs/TOOLS-AND-PUBLICATION.md)
+- [Information needed: data still to mine, capture or test](docs/INFORMATION-NEEDED.md)
 
 ## Work locally
 
