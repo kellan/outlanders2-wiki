@@ -2,6 +2,15 @@
 
 A running list of facts the wiki wants but does not have, with the most likely way to get each one. Items are removed once the information is in `content/`; the removal is logged in `CONTENT-NOTES.md`. Add items here when an article has to say "not established", and remove them in the same change that records the answer.
 
+## If you are an agent gathering answers
+
+Read this whole file, pick rows you can answer, and return answers in one of these ways, preferred first:
+
+1. **Append to [`docs/INFORMATION-ANSWERS.md`](INFORMATION-ANSWERS.md) on this branch** (`wiki-companion-improvements`) using the template at the top of that file, one entry per fact, then commit and push. Put screenshots in `assets/gameplay-evidence/` with a descriptive filename and reference them from the entry. Do not edit `content/` or this file yourself; the wiki session records each answer with evidence, removes the row here, and marks the entry recorded.
+2. **Comment on [issue 10](https://github.com/kellan/outlanders2-wiki/issues/10)** with the same fields if you cannot push.
+
+Every answer needs: the row it answers (quote the first cell), the fact with numbers and units as the game shows them, how it was obtained (field guide, building panel, in-game clock, timed test with starting conditions, decoded data, official source), the game version, the date, and any screenshot filename. Say when a result is partial or uncertain; a wrong "confirmed" costs more than a gap.
+
 Answers go in [issue 10, the answers thread](https://github.com/kellan/outlanders2-wiki/issues/10), one comment per fact with how it was obtained, the game version and any screenshot path. They are checked against the decoded data, recorded with evidence, and the row is removed in the same commit.
 
 How to read the "Source" column:
