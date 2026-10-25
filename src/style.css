@@ -7,7 +7,7 @@
 /* Static navigation remains available without JavaScript. */
 @media(max-width:900px){#sidebar{position:relative;transform:none;width:auto;height:auto;inset:auto;padding:18px}#nav{display:flex;flex-wrap:wrap;gap:4px}.shell{margin-left:0}.sidebar-footer,.side-label,.side-note{display:none}.topbar{position:static}.nav-link{padding:7px 10px}.nav-divider{display:none}}
 
-/* Field-guide hierarchy: quiet surfaces, compact facts, explicit article links. */
+/* Wiki hierarchy: quiet surfaces, compact facts, explicit article links. */
 :root{--paper:#f7f4f1;--white:#fffdfa;--ink:#403747;--muted:#756e78;--line:#ddd7d4;--pale:#eee9e5;--green:#544663}
 body{color:var(--ink)}
 h1,h2,h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:650;letter-spacing:-.35px}

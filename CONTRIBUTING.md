@@ -6,7 +6,7 @@ This is a community-maintained reference with reviewed changes. Pages are genera
 
 Open a [content correction issue](https://github.com/kellan/outlanders2-wiki/issues/new?template=content-correction.md). Include the page, what it currently says, your proposed correction, the game version, and evidence. A screenshot of the field guide or a reproducible gameplay test is useful. Describe starting conditions and what you actually observed. You do not need to change code to contribute.
 
-The repository is currently private, so issues and pull requests require collaborator access. These links become available to everyone if the repository is made public.
+The [GitHub repository](https://github.com/kellan/outlanders2-wiki) is public. Everyone is welcome to report corrections and contribute through issues and pull requests.
 
 ## Make an edit
 

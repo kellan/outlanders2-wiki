@@ -89,14 +89,6 @@
       "spoiler": false
     },
     {
-      "type": "spoilers",
-      "id": "",
-      "name": "Spoilers",
-      "category": "Directory",
-      "path": "spoilers/",
-      "spoiler": false
-    },
-    {
       "type": "contribute",
       "id": "",
       "name": "Contribute",
@@ -113,20 +105,28 @@
       "spoiler": false
     },
     {
+      "type": "spoilers",
+      "id": "",
+      "name": "Spoilers",
+      "category": "Directory",
+      "path": "spoilers/",
+      "spoiler": false
+    },
+    {
       "type": "buildings",
       "id": "35460",
       "name": "Advanced Warehouse",
       "category": "Building",
-      "path": "buildings/advanced-warehouse/",
-      "spoiler": false
+      "path": "spoilers/buildings/advanced-warehouse/",
+      "spoiler": true
     },
     {
       "type": "chains",
       "id": "35460",
       "name": "Advanced Warehouse — production",
       "category": "Production chain",
-      "path": "production-chains/advanced-warehouse/",
-      "spoiler": false
+      "path": "spoilers/production-chains/advanced-warehouse/",
+      "spoiler": true
     },
     {
       "type": "buildings",
@@ -285,8 +285,8 @@
       "id": "116136",
       "name": "Brick Road",
       "category": "Building",
-      "path": "buildings/brick-road-116136/",
-      "spoiler": false
+      "path": "spoilers/buildings/brick-road-116136/",
+      "spoiler": true
     },
     {
       "type": "buildings",
@@ -429,16 +429,16 @@
       "id": "105706",
       "name": "Concoction Shop",
       "category": "Building",
-      "path": "buildings/concoction-shop/",
-      "spoiler": false
+      "path": "spoilers/buildings/concoction-shop/",
+      "spoiler": true
     },
     {
       "type": "chains",
       "id": "105706",
       "name": "Concoction Shop — production",
       "category": "Production chain",
-      "path": "production-chains/concoction-shop/",
-      "spoiler": false
+      "path": "spoilers/production-chains/concoction-shop/",
+      "spoiler": true
     },
     {
       "type": "buildings",
@@ -1773,32 +1773,32 @@
       "id": "105717",
       "name": "Stroganoff Cookhouse",
       "category": "Building",
-      "path": "buildings/stroganoff-cookhouse/",
-      "spoiler": false
+      "path": "spoilers/buildings/stroganoff-cookhouse/",
+      "spoiler": true
     },
     {
       "type": "chains",
       "id": "105717",
       "name": "Stroganoff Cookhouse — production",
       "category": "Production chain",
-      "path": "production-chains/stroganoff-cookhouse/",
-      "spoiler": false
+      "path": "spoilers/production-chains/stroganoff-cookhouse/",
+      "spoiler": true
     },
     {
       "type": "buildings",
       "id": "80803",
       "name": "Swamp Trappers' Hut",
       "category": "Building",
-      "path": "buildings/swamp-trappers-hut/",
-      "spoiler": false
+      "path": "spoilers/buildings/swamp-trappers-hut/",
+      "spoiler": true
     },
     {
       "type": "chains",
       "id": "80803",
       "name": "Swamp Trappers' Hut — production",
       "category": "Production chain",
-      "path": "production-chains/swamp-trappers-hut/",
-      "spoiler": false
+      "path": "spoilers/production-chains/swamp-trappers-hut/",
+      "spoiler": true
     },
     {
       "type": "buildings",
@@ -2094,22 +2094,6 @@
       "name": "Zen Garden",
       "category": "Building",
       "path": "buildings/zen-garden-105734/",
-      "spoiler": false
-    },
-    {
-      "type": "buildings",
-      "id": "92319",
-      "name": "_Field Orchard Base",
-      "category": "Building",
-      "path": "buildings/field-orchard-base/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "92319",
-      "name": "_Field Orchard Base — production",
-      "category": "Production chain",
-      "path": "production-chains/field-orchard-base/",
       "spoiler": false
     },
     {
@@ -2685,8 +2669,8 @@
       "id": "286342",
       "name": "DriedPot",
       "category": "Intermediate",
-      "path": "resources/driedpot/",
-      "spoiler": false
+      "path": "spoilers/resources/driedpot/",
+      "spoiler": true
     },
     {
       "type": "resources",
@@ -2717,8 +2701,8 @@
       "id": "286346",
       "name": "Sliced Mushroom",
       "category": "Intermediate",
-      "path": "resources/sliced-mushroom/",
-      "spoiler": false
+      "path": "spoilers/resources/sliced-mushroom/",
+      "spoiler": true
     },
     {
       "type": "resources",
@@ -2741,16 +2725,16 @@
       "id": "286349",
       "name": "WetPot",
       "category": "Intermediate",
-      "path": "resources/wetpot/",
-      "spoiler": false
+      "path": "spoilers/resources/wetpot/",
+      "spoiler": true
     },
     {
       "type": "resources",
       "id": "286350",
       "name": "StrogMix",
       "category": "Intermediate",
-      "path": "resources/strogmix/",
-      "spoiler": false
+      "path": "spoilers/resources/strogmix/",
+      "spoiler": true
     },
     {
       "type": "resources",
@@ -2805,8 +2789,8 @@
       "id": "286357",
       "name": "ConcoctionReady",
       "category": "Intermediate",
-      "path": "resources/concoctionready/",
-      "spoiler": false
+      "path": "spoilers/resources/concoctionready/",
+      "spoiler": true
     },
     {
       "type": "resources",
@@ -3749,8 +3733,8 @@
       "id": "319673",
       "name": "Concoction",
       "category": "Resource",
-      "path": "resources/concoction/",
-      "spoiler": false
+      "path": "spoilers/resources/concoction/",
+      "spoiler": true
     },
     {
       "type": "resources",
@@ -3773,8 +3757,8 @@
       "id": "319676",
       "name": "Stroganoff",
       "category": "Food",
-      "path": "food/stroganoff/",
-      "spoiler": false
+      "path": "spoilers/food/stroganoff/",
+      "spoiler": true
     },
     {
       "type": "resources",
@@ -4013,8 +3997,8 @@
       "id": "319706",
       "name": "HuntersSwampTrap",
       "category": "Intermediate",
-      "path": "resources/huntersswamptrap/",
-      "spoiler": false
+      "path": "spoilers/resources/huntersswamptrap/",
+      "spoiler": true
     },
     {
       "type": "resources",
@@ -4053,8 +4037,8 @@
       "id": "319711",
       "name": "HuntersSwampTrapFull",
       "category": "Intermediate",
-      "path": "resources/huntersswamptrapfull/",
-      "spoiler": false
+      "path": "spoilers/resources/huntersswamptrapfull/",
+      "spoiler": true
     },
     {
       "type": "resources",
@@ -4085,8 +4069,8 @@
       "id": "320441",
       "name": "Mushroom",
       "category": "Resource",
-      "path": "resources/mushroom/",
-      "spoiler": false
+      "path": "spoilers/resources/mushroom/",
+      "spoiler": true
     },
     {
       "type": "resources",
@@ -5413,7 +5397,7 @@
       "id": "buildings/35460",
       "name": "Advanced Warehouse — research",
       "category": "Research",
-      "path": "verification/buildings/advanced-warehouse/",
+      "path": "verification/spoilers/buildings/advanced-warehouse/",
       "spoiler": false
     },
     {
@@ -5421,7 +5405,7 @@
       "id": "chains/35460",
       "name": "Advanced Warehouse — production — research",
       "category": "Research",
-      "path": "verification/production-chains/advanced-warehouse/",
+      "path": "verification/spoilers/production-chains/advanced-warehouse/",
       "spoiler": false
     },
     {
@@ -5581,7 +5565,7 @@
       "id": "buildings/116136",
       "name": "Brick Road — research",
       "category": "Research",
-      "path": "verification/buildings/brick-road-116136/",
+      "path": "verification/spoilers/buildings/brick-road-116136/",
       "spoiler": false
     },
     {
@@ -5725,7 +5709,7 @@
       "id": "buildings/105706",
       "name": "Concoction Shop — research",
       "category": "Research",
-      "path": "verification/buildings/concoction-shop/",
+      "path": "verification/spoilers/buildings/concoction-shop/",
       "spoiler": false
     },
     {
@@ -5733,7 +5717,7 @@
       "id": "chains/105706",
       "name": "Concoction Shop — production — research",
       "category": "Research",
-      "path": "verification/production-chains/concoction-shop/",
+      "path": "verification/spoilers/production-chains/concoction-shop/",
       "spoiler": false
     },
     {
@@ -7069,7 +7053,7 @@
       "id": "buildings/105717",
       "name": "Stroganoff Cookhouse — research",
       "category": "Research",
-      "path": "verification/buildings/stroganoff-cookhouse/",
+      "path": "verification/spoilers/buildings/stroganoff-cookhouse/",
       "spoiler": false
     },
     {
@@ -7077,7 +7061,7 @@
       "id": "chains/105717",
       "name": "Stroganoff Cookhouse — production — research",
       "category": "Research",
-      "path": "verification/production-chains/stroganoff-cookhouse/",
+      "path": "verification/spoilers/production-chains/stroganoff-cookhouse/",
       "spoiler": false
     },
     {
@@ -7085,7 +7069,7 @@
       "id": "buildings/80803",
       "name": "Swamp Trappers' Hut — research",
       "category": "Research",
-      "path": "verification/buildings/swamp-trappers-hut/",
+      "path": "verification/spoilers/buildings/swamp-trappers-hut/",
       "spoiler": false
     },
     {
@@ -7093,7 +7077,7 @@
       "id": "chains/80803",
       "name": "Swamp Trappers' Hut — production — research",
       "category": "Research",
-      "path": "verification/production-chains/swamp-trappers-hut/",
+      "path": "verification/spoilers/production-chains/swamp-trappers-hut/",
       "spoiler": false
     },
     {
@@ -7390,22 +7374,6 @@
       "name": "Zen Garden — research",
       "category": "Research",
       "path": "verification/buildings/zen-garden-105734/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
-      "id": "buildings/92319",
-      "name": "_Field Orchard Base — research",
-      "category": "Research",
-      "path": "verification/buildings/field-orchard-base/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
-      "id": "chains/92319",
-      "name": "_Field Orchard Base — production — research",
-      "category": "Research",
-      "path": "verification/production-chains/field-orchard-base/",
       "spoiler": false
     },
     {
@@ -7981,7 +7949,7 @@
       "id": "resources/286342",
       "name": "DriedPot — research",
       "category": "Research",
-      "path": "verification/resources/driedpot/",
+      "path": "verification/spoilers/resources/driedpot/",
       "spoiler": false
     },
     {
@@ -8013,7 +7981,7 @@
       "id": "resources/286346",
       "name": "Sliced Mushroom — research",
       "category": "Research",
-      "path": "verification/resources/sliced-mushroom/",
+      "path": "verification/spoilers/resources/sliced-mushroom/",
       "spoiler": false
     },
     {
@@ -8037,7 +8005,7 @@
       "id": "resources/286349",
       "name": "WetPot — research",
       "category": "Research",
-      "path": "verification/resources/wetpot/",
+      "path": "verification/spoilers/resources/wetpot/",
       "spoiler": false
     },
     {
@@ -8045,7 +8013,7 @@
       "id": "resources/286350",
       "name": "StrogMix — research",
       "category": "Research",
-      "path": "verification/resources/strogmix/",
+      "path": "verification/spoilers/resources/strogmix/",
       "spoiler": false
     },
     {
@@ -8101,7 +8069,7 @@
       "id": "resources/286357",
       "name": "ConcoctionReady — research",
       "category": "Research",
-      "path": "verification/resources/concoctionready/",
+      "path": "verification/spoilers/resources/concoctionready/",
       "spoiler": false
     },
     {
@@ -9045,7 +9013,7 @@
       "id": "resources/319673",
       "name": "Concoction — research",
       "category": "Research",
-      "path": "verification/resources/concoction/",
+      "path": "verification/spoilers/resources/concoction/",
       "spoiler": false
     },
     {
@@ -9069,7 +9037,7 @@
       "id": "resources/319676",
       "name": "Stroganoff — research",
       "category": "Research",
-      "path": "verification/food/stroganoff/",
+      "path": "verification/spoilers/food/stroganoff/",
       "spoiler": false
     },
     {
@@ -9309,7 +9277,7 @@
       "id": "resources/319706",
       "name": "HuntersSwampTrap — research",
       "category": "Research",
-      "path": "verification/resources/huntersswamptrap/",
+      "path": "verification/spoilers/resources/huntersswamptrap/",
       "spoiler": false
     },
     {
@@ -9349,7 +9317,7 @@
       "id": "resources/319711",
       "name": "HuntersSwampTrapFull — research",
       "category": "Research",
-      "path": "verification/resources/huntersswamptrapfull/",
+      "path": "verification/spoilers/resources/huntersswamptrapfull/",
       "spoiler": false
     },
     {
@@ -9381,7 +9349,7 @@
       "id": "resources/320441",
       "name": "Mushroom — research",
       "category": "Research",
-      "path": "verification/resources/mushroom/",
+      "path": "verification/spoilers/resources/mushroom/",
       "spoiler": false
     },
     {
@@ -10693,11 +10661,11 @@
     "heroes/",
     "index/",
     "verification/",
-    "spoilers/",
     "contribute/",
     "about/",
-    "buildings/advanced-warehouse/",
-    "production-chains/advanced-warehouse/",
+    "spoilers/",
+    "spoilers/buildings/advanced-warehouse/",
+    "spoilers/production-chains/advanced-warehouse/",
     "buildings/author-s-stand/",
     "buildings/bakery/",
     "production-chains/bakery/",
@@ -10717,7 +10685,7 @@
     "production-chains/brewery/",
     "buildings/brick-house/",
     "buildings/brick-road/",
-    "buildings/brick-road-116136/",
+    "spoilers/buildings/brick-road-116136/",
     "buildings/brickyard/",
     "production-chains/brickyard/",
     "buildings/bridge/",
@@ -10735,8 +10703,8 @@
     "buildings/communal-plaza/",
     "buildings/communal-plaza-115541/",
     "buildings/concert-stage/",
-    "buildings/concoction-shop/",
-    "production-chains/concoction-shop/",
+    "spoilers/buildings/concoction-shop/",
+    "spoilers/production-chains/concoction-shop/",
     "buildings/cookie-shop/",
     "production-chains/cookie-shop/",
     "buildings/crane-flower-planter/",
@@ -10903,10 +10871,10 @@
     "production-chains/stone-mine/",
     "buildings/stone-road/",
     "buildings/stone-road-116138/",
-    "buildings/stroganoff-cookhouse/",
-    "production-chains/stroganoff-cookhouse/",
-    "buildings/swamp-trappers-hut/",
-    "production-chains/swamp-trappers-hut/",
+    "spoilers/buildings/stroganoff-cookhouse/",
+    "spoilers/production-chains/stroganoff-cookhouse/",
+    "spoilers/buildings/swamp-trappers-hut/",
+    "spoilers/production-chains/swamp-trappers-hut/",
     "buildings/swimming-pier/",
     "buildings/tailor/",
     "production-chains/tailor/",
@@ -10944,8 +10912,6 @@
     "buildings/wood-statue/",
     "buildings/zen-garden/",
     "buildings/zen-garden-105734/",
-    "buildings/field-orchard-base/",
-    "production-chains/field-orchard-base/",
     "buildings/zbeer-stand/",
     "production-chains/zbeer-stand/",
     "resources/bakerypeel/",
@@ -11017,22 +10983,22 @@
     "resources/fermentingmust/",
     "resources/vodkajar/",
     "resources/winemust/",
-    "resources/driedpot/",
+    "spoilers/resources/driedpot/",
     "resources/ice-pop/",
     "food/dried-meat/",
     "resources/juiceinmold/",
-    "resources/sliced-mushroom/",
+    "spoilers/resources/sliced-mushroom/",
     "resources/nopalito/",
     "resources/mixture/",
-    "resources/wetpot/",
-    "resources/strogmix/",
+    "spoilers/resources/wetpot/",
+    "spoilers/resources/strogmix/",
     "resources/fruitjuiceforicepop/",
     "resources/almost-dried-meat/",
     "resources/chicken-poop/",
     "resources/sliced-meat/",
     "resources/frozenjuice/",
     "resources/milk/",
-    "resources/concoctionready/",
+    "spoilers/resources/concoctionready/",
     "resources/egg/",
     "resources/egg-286359/",
     "resources/drying-meat/",
@@ -11150,10 +11116,10 @@
     "resources/ovencookies/",
     "resources/cheese-wheel/",
     "resources/singledough-319672/",
-    "resources/concoction/",
+    "spoilers/resources/concoction/",
     "resources/rawcookies/",
     "resources/molten-cheese/",
-    "food/stroganoff/",
+    "spoilers/food/stroganoff/",
     "resources/dry-cheese-mold/",
     "resources/tannedleather/",
     "food/fondue-319679/",
@@ -11183,16 +11149,16 @@
     "resources/cheesemakerbucket/",
     "resources/cooking-pot/",
     "resources/pick/",
-    "resources/huntersswamptrap/",
+    "spoilers/resources/huntersswamptrap/",
     "resources/glassmakerbucket/",
     "resources/papermold/",
     "resources/claystep0bucket/",
     "resources/basket/",
-    "resources/huntersswamptrapfull/",
+    "spoilers/resources/huntersswamptrapfull/",
     "resources/foundrytray-319712/",
     "resources/axe-rock/",
     "resources/huntertrap/",
-    "resources/mushroom/",
+    "spoilers/resources/mushroom/",
     "food/fondue-320491/",
     "resources/wheattrade/",
     "resources/barleyready/",
@@ -11358,8 +11324,8 @@
     "campaigns/campaign-1/",
     "campaigns/campaign-2/",
     "campaigns/campaign-3/",
-    "verification/buildings/advanced-warehouse/",
-    "verification/production-chains/advanced-warehouse/",
+    "verification/spoilers/buildings/advanced-warehouse/",
+    "verification/spoilers/production-chains/advanced-warehouse/",
     "verification/buildings/author-s-stand/",
     "verification/buildings/bakery/",
     "verification/production-chains/bakery/",
@@ -11379,7 +11345,7 @@
     "verification/production-chains/brewery/",
     "verification/buildings/brick-house/",
     "verification/buildings/brick-road/",
-    "verification/buildings/brick-road-116136/",
+    "verification/spoilers/buildings/brick-road-116136/",
     "verification/buildings/brickyard/",
     "verification/production-chains/brickyard/",
     "verification/buildings/bridge/",
@@ -11397,8 +11363,8 @@
     "verification/buildings/communal-plaza/",
     "verification/buildings/communal-plaza-115541/",
     "verification/buildings/concert-stage/",
-    "verification/buildings/concoction-shop/",
-    "verification/production-chains/concoction-shop/",
+    "verification/spoilers/buildings/concoction-shop/",
+    "verification/spoilers/production-chains/concoction-shop/",
     "verification/buildings/cookie-shop/",
     "verification/production-chains/cookie-shop/",
     "verification/buildings/crane-flower-planter/",
@@ -11565,10 +11531,10 @@
     "verification/production-chains/stone-mine/",
     "verification/buildings/stone-road/",
     "verification/buildings/stone-road-116138/",
-    "verification/buildings/stroganoff-cookhouse/",
-    "verification/production-chains/stroganoff-cookhouse/",
-    "verification/buildings/swamp-trappers-hut/",
-    "verification/production-chains/swamp-trappers-hut/",
+    "verification/spoilers/buildings/stroganoff-cookhouse/",
+    "verification/spoilers/production-chains/stroganoff-cookhouse/",
+    "verification/spoilers/buildings/swamp-trappers-hut/",
+    "verification/spoilers/production-chains/swamp-trappers-hut/",
     "verification/buildings/swimming-pier/",
     "verification/buildings/tailor/",
     "verification/production-chains/tailor/",
@@ -11606,8 +11572,6 @@
     "verification/buildings/wood-statue/",
     "verification/buildings/zen-garden/",
     "verification/buildings/zen-garden-105734/",
-    "verification/buildings/field-orchard-base/",
-    "verification/production-chains/field-orchard-base/",
     "verification/buildings/zbeer-stand/",
     "verification/production-chains/zbeer-stand/",
     "verification/resources/bakerypeel/",
@@ -11679,22 +11643,22 @@
     "verification/resources/fermentingmust/",
     "verification/resources/vodkajar/",
     "verification/resources/winemust/",
-    "verification/resources/driedpot/",
+    "verification/spoilers/resources/driedpot/",
     "verification/resources/ice-pop/",
     "verification/food/dried-meat/",
     "verification/resources/juiceinmold/",
-    "verification/resources/sliced-mushroom/",
+    "verification/spoilers/resources/sliced-mushroom/",
     "verification/resources/nopalito/",
     "verification/resources/mixture/",
-    "verification/resources/wetpot/",
-    "verification/resources/strogmix/",
+    "verification/spoilers/resources/wetpot/",
+    "verification/spoilers/resources/strogmix/",
     "verification/resources/fruitjuiceforicepop/",
     "verification/resources/almost-dried-meat/",
     "verification/resources/chicken-poop/",
     "verification/resources/sliced-meat/",
     "verification/resources/frozenjuice/",
     "verification/resources/milk/",
-    "verification/resources/concoctionready/",
+    "verification/spoilers/resources/concoctionready/",
     "verification/resources/egg/",
     "verification/resources/egg-286359/",
     "verification/resources/drying-meat/",
@@ -11812,10 +11776,10 @@
     "verification/resources/ovencookies/",
     "verification/resources/cheese-wheel/",
     "verification/resources/singledough-319672/",
-    "verification/resources/concoction/",
+    "verification/spoilers/resources/concoction/",
     "verification/resources/rawcookies/",
     "verification/resources/molten-cheese/",
-    "verification/food/stroganoff/",
+    "verification/spoilers/food/stroganoff/",
     "verification/resources/dry-cheese-mold/",
     "verification/resources/tannedleather/",
     "verification/food/fondue-319679/",
@@ -11845,16 +11809,16 @@
     "verification/resources/cheesemakerbucket/",
     "verification/resources/cooking-pot/",
     "verification/resources/pick/",
-    "verification/resources/huntersswamptrap/",
+    "verification/spoilers/resources/huntersswamptrap/",
     "verification/resources/glassmakerbucket/",
     "verification/resources/papermold/",
     "verification/resources/claystep0bucket/",
     "verification/resources/basket/",
-    "verification/resources/huntersswamptrapfull/",
+    "verification/spoilers/resources/huntersswamptrapfull/",
     "verification/resources/foundrytray-319712/",
     "verification/resources/axe-rock/",
     "verification/resources/huntertrap/",
-    "verification/resources/mushroom/",
+    "verification/spoilers/resources/mushroom/",
     "verification/food/fondue-320491/",
     "verification/resources/wheattrade/",
     "verification/resources/barleyready/",
@@ -12017,6 +11981,11 @@
     "verification/levels/unnamed-scenario-archive-20-3/",
     "verification/levels/unnamed-scenario-archive-22-3/",
     "verification/levels/unnamed-scenario-archive-19-3/",
+    "buildings/advanced-warehouse/",
+    "production-chains/advanced-warehouse/",
+    "buildings/brick-road-116136/",
+    "buildings/concoction-shop/",
+    "production-chains/concoction-shop/",
     "buildings/field-appletree/",
     "production-chains/field-appletree/",
     "buildings/field-ashtree/",
@@ -12085,6 +12054,20 @@
     "production-chains/field-willowtree/",
     "buildings/field-winter-pinetree/",
     "production-chains/field-winter-pinetree/",
+    "buildings/stroganoff-cookhouse/",
+    "production-chains/stroganoff-cookhouse/",
+    "buildings/swamp-trappers-hut/",
+    "production-chains/swamp-trappers-hut/",
+    "resources/driedpot/",
+    "resources/sliced-mushroom/",
+    "resources/wetpot/",
+    "resources/strogmix/",
+    "resources/concoctionready/",
+    "resources/concoction/",
+    "food/stroganoff/",
+    "resources/huntersswamptrap/",
+    "resources/huntersswamptrapfull/",
+    "resources/mushroom/",
     "heroes/oona/",
     "biomes/wetlands/",
     "levels/clause/",
@@ -12112,7 +12095,6 @@
     "levels/single-l-insidevolc/",
     "levels/single-l-pomeloisland/",
     "levels/single-l-tefiti/",
-    "building/advanced-warehouse/",
     "building/author-s-stand/",
     "building/bakery/",
     "building/banner/",
@@ -12125,7 +12107,6 @@
     "building/brewery/",
     "building/brick-house/",
     "building/brick-road/",
-    "building/brick-road-116136/",
     "building/brickyard/",
     "building/bridge/",
     "building/building/",
@@ -12138,7 +12119,6 @@
     "building/communal-plaza/",
     "building/communal-plaza-115541/",
     "building/concert-stage/",
-    "building/concoction-shop/",
     "building/cookie-shop/",
     "building/crane-flower-planter/",
     "building/crane-flower-planter-105698/",
@@ -12238,8 +12218,6 @@
     "building/stone-mine/",
     "building/stone-road/",
     "building/stone-road-116138/",
-    "building/stroganoff-cookhouse/",
-    "building/swamp-trappers-hut/",
     "building/swimming-pier/",
     "building/tailor/",
     "building/tiny-man-statue/",
@@ -12264,7 +12242,6 @@
     "building/wood-statue/",
     "building/zen-garden/",
     "building/zen-garden-105734/",
-    "building/field-orchard-base/",
     "building/zbeer-stand/",
     "resources/fondue/",
     "resources/fondue-279217/",
@@ -12293,7 +12270,6 @@
     "resources/fondue-314863/",
     "resources/fondue-318457/",
     "resources/bread/",
-    "resources/stroganoff/",
     "resources/fondue-319679/",
     "resources/cookie/",
     "resources/cheese/",

@@ -14,4 +14,16 @@ const h=await harness();const guide=h.render('contribute/');assert.ok(guide.incl
 for(const p of ['', 'heroes/','levels/','biomes/','index/','campaigns/campaign-3/'])assert.ok(!/Oona|Wetlands/.test(h.render(p)),p+' leaked spoiler names');
 assert.ok(h.query('Oona').includes('0 matches'));assert.ok(!h.query('Oona').includes('spoilers/heroes/oona'));assert.ok(h.render('spoilers/').includes('Oona'));assert.ok(h.render('spoilers/').includes('release unconfirmed'));
 assert.ok(h.lookup['spoilers/heroes/oona/']);assert.ok(h.render('heroes/oona/').includes('Spoilers: unreleased'));assert.ok(h.render('verification/buildings/clay-pit/').includes('Contributed observations'));
+
+// Spoiler visibility and the home teaser are independent requirements.
+const spoilerNames=['Advanced Warehouse','Stroganoff','Mushroom','Concoction Shop',"Swamp Trappers"];
+for(const route of ['', 'buildings/', 'food/', 'resources/', 'production-chains/', 'index/', 'resources/stick/']){
+ const html=h.render(route);for(const name of spoilerNames)assert.ok(!html.includes(name),route+' leaked '+name);
+}
+const spoilerIndex=h.render('spoilers/');for(const name of spoilerNames)assert.ok(spoilerIndex.includes(name),'Spoiler index missing '+name);
+for(const name of ['Mushroom','Stroganoff','Advanced Warehouse'])assert.ok(h.query(name).includes('0 matches'),'Search leaked '+name);
+assert.ok(h.render('spoilers/food/stroganoff/').includes('Spoilers: unreleased'));
+const home=h.query('');assert.ok(home.includes('Looking to look ahead?'));assert.ok(home.lastIndexOf('<h2>Spoilers</h2>')>home.indexOf('<h2>Reference</h2>'));
+assert.ok(!home.includes('Advanced Warehouse'));assert.ok(!home.includes('field-orchard-base'));
+
 console.log('PASS: contribution guide, invalid-content rejection, observation references, spoiler classification, navigation, search and old URLs.');

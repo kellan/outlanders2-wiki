@@ -28,7 +28,7 @@ The Contribute page is built from `CONTRIBUTING.md`, so repository and website i
 
 ## Current status
 
-The repository is private. The public site is live at https://kellanem.com/outlanders2-wiki/ through GitHub Pages; https://kellan.github.io/outlanders2-wiki/ redirects there because of the account’s existing Pages domain. The gh-pages branch contains the generated site. outlanders2wiki.com is the planned second-stage domain; its DNS has not been changed. No custom deployment workflow is installed.
+The [repository](https://github.com/kellan/outlanders2-wiki) is public. The public site is live at https://kellanem.com/outlanders2-wiki/ through GitHub Pages; https://kellan.github.io/outlanders2-wiki/ redirects there because of the account’s existing Pages domain. The gh-pages branch contains the generated site. outlanders2wiki.com is the planned second-stage domain; its DNS has not been changed. No custom deployment workflow is installed.
 
 Original tooling, extracted game material and contributed writing have different provenance. Original contributions are MIT-licensed; game artwork, text and other third-party material are explicitly excluded. See LICENSE and THIRD_PARTY_NOTICES.md. See the publication notes before redistributing repository contents.
 

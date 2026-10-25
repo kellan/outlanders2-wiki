@@ -1,10 +1,145 @@
 {
   "description": "Editorial spoiler placement is separate from factual release status. Related content can be withheld without asserting that it is unreleased.",
   "entries": [
-    {"type":"heroes","id":"Oona.000","status":"reported-unreleased","as_of":"2026-10-23","reason":"Reported unreleased by the user; packaged update-28 references and menu observations are retained in availability evidence."},
-    {"type":"levels","id":"Campaign3_Level2A","status":"related-release-unconfirmed","as_of":"2026-10-23","reason":"Associated with the reported-unreleased leader story; current release not independently established."},
-    {"type":"levels","id":"Campaign3_Level2B","status":"related-release-unconfirmed","as_of":"2026-10-23","reason":"Associated with the reported-unreleased leader story; current release not independently established."},
-    {"type":"levels","id":"Campaign3_Level2C","status":"related-release-unconfirmed","as_of":"2026-10-23","reason":"Associated with the reported-unreleased leader story; current release not independently established."},
-    {"type":"biomes","id":"Swamp","status":"related-release-unconfirmed","as_of":"2026-10-23","reason":"Packaged update text links this biome to the reported-unreleased story. Association does not establish a release date."}
+    {
+      "type": "heroes",
+      "id": "Oona.000",
+      "status": "reported-unreleased",
+      "as_of": "2026-10-23",
+      "reason": "Reported unreleased by the user; packaged update-28 references and menu observations are retained in availability evidence."
+    },
+    {
+      "type": "levels",
+      "id": "Campaign3_Level2A",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-23",
+      "reason": "Associated with the reported-unreleased leader story; current release not independently established."
+    },
+    {
+      "type": "levels",
+      "id": "Campaign3_Level2B",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-23",
+      "reason": "Associated with the reported-unreleased leader story; current release not independently established."
+    },
+    {
+      "type": "levels",
+      "id": "Campaign3_Level2C",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-23",
+      "reason": "Associated with the reported-unreleased leader story; current release not independently established."
+    },
+    {
+      "type": "biomes",
+      "id": "Swamp",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-23",
+      "reason": "Packaged update text links this biome to the reported-unreleased story. Association does not establish a release date."
+    },
+    {
+      "type": "buildings",
+      "id": "35460",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Associated with Oona’s reported-unreleased story: listed only in its scenarios."
+    },
+    {
+      "type": "buildings",
+      "id": "116136",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Associated with Oona’s reported-unreleased story: listed only in its scenarios."
+    },
+    {
+      "type": "buildings",
+      "id": "105706",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Associated with Oona’s reported-unreleased story: listed only in its scenarios."
+    },
+    {
+      "type": "buildings",
+      "id": "105717",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Associated with Oona’s reported-unreleased story: listed only in its scenarios."
+    },
+    {
+      "type": "buildings",
+      "id": "80803",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Associated with Oona’s reported-unreleased story: listed only in its scenarios."
+    },
+    {
+      "type": "resources",
+      "id": "319673",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Associated with Oona’s reported-unreleased story: used only by its associated building processes in the recovered formula links."
+    },
+    {
+      "type": "resources",
+      "id": "320441",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Associated with Oona’s reported-unreleased story: used only by its associated building processes in the recovered formula links."
+    },
+    {
+      "type": "resources",
+      "id": "286357",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Associated with Oona’s reported-unreleased story: used only by its associated building processes in the recovered formula links."
+    },
+    {
+      "type": "resources",
+      "id": "286350",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Associated with Oona’s reported-unreleased story: used only by its associated building processes in the recovered formula links."
+    },
+    {
+      "type": "resources",
+      "id": "286346",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Associated with Oona’s reported-unreleased story: used only by its associated building processes in the recovered formula links."
+    },
+    {
+      "type": "resources",
+      "id": "319706",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Associated with Oona’s reported-unreleased story: used only by its associated building processes in the recovered formula links."
+    },
+    {
+      "type": "resources",
+      "id": "319711",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Associated with Oona’s reported-unreleased story: used only by its associated building processes in the recovered formula links."
+    },
+    {
+      "type": "resources",
+      "id": "319676",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Associated with Oona’s reported-unreleased story: used only by its associated building processes in the recovered formula links."
+    },
+    {
+      "type": "resources",
+      "id": "286349",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Associated with Oona’s reported-unreleased story: used only by its associated building processes in the recovered formula links."
+    },
+    {
+      "type": "resources",
+      "id": "286342",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Associated with Oona’s reported-unreleased story: used only by its associated building processes in the recovered formula links."
+    }
   ]
 }
