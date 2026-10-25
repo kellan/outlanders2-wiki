@@ -9,14 +9,6 @@
       "spoiler": false
     },
     {
-      "type": "spoilers",
-      "id": "",
-      "name": "Spoilers",
-      "category": "Directory",
-      "path": "spoilers/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "",
       "name": "Buildings",
@@ -134,6 +126,14 @@
       "name": "Sources & artwork",
       "category": "Directory",
       "path": "about/",
+      "spoiler": false
+    },
+    {
+      "type": "spoilers",
+      "id": "",
+      "name": "Spoilers",
+      "category": "Directory",
+      "path": "spoilers/",
       "spoiler": false
     },
     {
@@ -10683,7 +10683,6 @@
   ],
   "paths": [
     "",
-    "spoilers/",
     "buildings/",
     "resources/",
     "food/",
@@ -10699,6 +10698,7 @@
     "verification/",
     "contribute/",
     "about/",
+    "spoilers/",
     "spoilers/buildings/advanced-warehouse/",
     "buildings/advanced-warehouse/",
     "spoilers/production-chains/advanced-warehouse/",
