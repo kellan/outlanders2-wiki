@@ -36,7 +36,7 @@ for(const route of ['', 'buildings/','resources/','food/','production-chains/','
 assert.ok(clean.render('').includes('Browse Spoilers'));
 assert.ok(!clean.render('').includes('Verification status'));
 assert.ok(clean.render('resources/mushroom/').includes('Spoilers: unreleased'));
-assert.ok(clean.render('production-chains/advanced-warehouse/').includes('Formula steps'));
+assert.ok(clean.render('production-chains/advanced-warehouse/').includes('Production steps'));
 assert.ok(!/<details(?![^>]*\bopen\b)/.test(clean.render('verification/')));
 {const navHtml=clean.elements['#nav'].innerHTML;assert.ok(navHtml.lastIndexOf('Spoilers')>navHtml.indexOf('Sources &amp; artwork'),'Spoilers is the last navigation entry')}
 console.log('PASS: mushroom chain isolation, demoted spoiler navigation, expanded evidence and clean home page.');
