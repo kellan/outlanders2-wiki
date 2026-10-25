@@ -25,7 +25,7 @@ main a:not(.button):not(.card){color:#365d7c}main a:hover{text-decoration:underl
 .alphabet{top:54px}.top-status{font-size:12px}.tag{font-size:10px}.small{font-size:12px}
 @media(max-width:900px){#nav{flex-direction:row}.top-status{font-size:12px}.alphabet{top:0}}
 
-#sidebar{overflow-y:auto}#nav a[href$="/spoilers/"]{font-weight:700;border:1px solid #b8a2bf}
+#sidebar{overflow-y:auto}#nav a[href$="/spoilers/"]{color:#8a8290}
 
 /* Companion layer: infobox, verification badge, story context, navbox, contribution links. */
 .infobox{float:right;width:270px;margin:0 0 18px 26px;border:1px solid var(--line);border-radius:3px;background:var(--white);font-size:12px}
@@ -42,7 +42,7 @@ main a:not(.button):not(.card){color:#365d7c}main a:hover{text-decoration:underl
 .history-table{font-size:13px;border-collapse:collapse;width:100%}.history-table td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}.history-table td:first-child{width:110px;white-space:nowrap}
 .facts-4{grid-template-columns:repeat(4,1fr)}.start-grid div{display:grid;grid-template-columns:110px minmax(0,1fr);gap:8px;font-size:13px}.start-grid dt{color:var(--muted);font-weight:600}.start-grid dd{margin:0}@media(max-width:700px){.facts-4{grid-template-columns:repeat(2,1fr)}}
 .rule-section{clear:none}.balance-note{font-size:11px;color:var(--muted);margin:6px 0 0}
-@media(max-width:700px){.infobox{float:none;width:auto;margin:0 0 18px}.infobox-image{display:none}.navbox-row{grid-template-columns:1fr}}
+@media(max-width:700px){.infobox{float:none;width:auto;margin:0 0 14px;font-size:12px}.infobox-image{display:none}.infobox-title{display:none}.infobox dl{display:grid;grid-template-columns:1fr 1fr;gap:0 14px;padding:2px 11px 6px}.infobox dl div{grid-template-columns:62px minmax(0,1fr);gap:6px;padding:5px 0}.navbox-row{grid-template-columns:1fr}}
 
 /* Compact header on narrow screens: brand row with a Menu toggle; navigation hidden until opened (pure CSS, the published pages carry no script). */
 .nav-toggle,.nav-toggle-label{display:none}
@@ -55,7 +55,7 @@ main a:not(.button):not(.card){color:#365d7c}main a:hover{text-decoration:underl
 .nav-toggle:checked+.nav-toggle-label{background:#e1dbe4}
 #nav{display:none;width:100%;margin-top:4px;padding-top:8px;border-top:1px solid var(--line)}
 .nav-toggle:checked~#nav{display:flex}
-.nav-link{padding:6px 9px;font-size:13px}
+.nav-link{padding:6px 9px;font-size:13px}.nav-icon{white-space:nowrap}
 .topbar{height:auto;min-height:0;padding:6px 14px;font-size:12px;gap:12px}
 main{padding-top:14px}
 }
