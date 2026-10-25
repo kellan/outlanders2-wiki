@@ -80,5 +80,39 @@
   &quot;original_display_name&quot;: &quot;Field WillowTree&quot;
 }</pre></div></details><details open class="source"><summary>Sandbox assignment records</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>[]</pre></div></details><section class="rule-section"><h2>Sandbox biome references</h2><p>These are references in sandbox configuration, not a verified crop-availability table. Shared defaults, exclusions, farm compatibility and runtime filtering still need interpretation.</p><ul></ul></section><details open class="source"><summary>Work schedule fields</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>{
   &quot;interpretation&quot;: &quot;Normalized work-cycle interval; time origin and clock mapping unverified.&quot;
-}</pre></div></details><section class="rule-section"><h2>Sandbox biome references</h2><p>These are references in sandbox configuration, not a verified crop-availability table. Shared defaults, exclusions, farm compatibility and runtime filtering still need interpretation.</p><ul></ul><details open class="source"><summary>Sandbox assignment records</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>[]</pre></div></details></section></main><footer class="page-footer"><span>OUTLANDERS 2 WIKI <span class="dot-sep">·</span> An unofficial Outlanders 2 reference</span><a href="../../../about/">Sources & artwork credits ↗</a><a href="https://github.com/kellan/outlanders2-wiki">GitHub repository ↗</a></footer></div><footer style="padding:1rem;text-align:center;font-size:.85rem">Unofficial community guide. Outlanders 2 artwork and game text belong to Pomelo Games and their respective rights holders. <a href="../../../THIRD_PARTY_NOTICES.txt">Attribution</a> · <a href="../../../LICENSE.txt">Original contributions: MIT</a></footer>
+}</pre></div></details><section class="rule-section"><h2>Growth stages</h2><p>The sapling definition stores 4 stages totalling 10 days: 2.5 + 2.5 + 2.5 + 2.5. sum of configured stages; regrowth, season effects, overrides and final-stage semantics not verified Nobody has timed this plant in play, so whether a stored day equals a clock day, and whether the last stage is the harvestable state or a wait before it, are open questions.</p><details open class="source"><summary>Sapling growth definition</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>{
+  &quot;name&quot;: &quot;Willow Sapling&quot;,
+  &quot;paths&quot;: [
+    &quot;content/tree/swamp/willow sapling&quot;
+  ],
+  &quot;stages&quot;: [
+    {
+      &quot;stage_id&quot;: 282104,
+      &quot;days_duration&quot;: 2.5
+    },
+    {
+      &quot;stage_id&quot;: 283793,
+      &quot;days_duration&quot;: 2.5
+    },
+    {
+      &quot;stage_id&quot;: 293501,
+      &quot;days_duration&quot;: 2.5
+    },
+    {
+      &quot;stage_id&quot;: 278151,
+      &quot;days_duration&quot;: 2.5
+    }
+  ],
+  &quot;total_configured_stage_days&quot;: 10,
+  &quot;source&quot;: {
+    &quot;asset_file&quot;: &quot;resources.assets&quot;,
+    &quot;path_id&quot;: 296931,
+    &quot;class&quot;: &quot;SaplingBehaviour&quot;,
+    &quot;hierarchy_path&quot;: &quot;Willow Sapling&quot;,
+    &quot;fields&quot;: [
+      &quot;Stages&quot;
+    ]
+  },
+  &quot;caveat&quot;: &quot;sum of configured stages; regrowth, season effects, overrides and final-stage semantics not verified&quot;
+}</pre></div></details></section><section class="rule-section"><h2>Sandbox biome references</h2><p>These are references in sandbox configuration, not a verified crop-availability table. Shared defaults, exclusions, farm compatibility and runtime filtering still need interpretation.</p><ul></ul><details open class="source"><summary>Sandbox assignment records</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>[]</pre></div></details></section></main><footer class="page-footer"><span>OUTLANDERS 2 WIKI <span class="dot-sep">·</span> An unofficial Outlanders 2 reference</span><a href="../../../about/">Sources & artwork credits ↗</a><a href="https://github.com/kellan/outlanders2-wiki">GitHub repository ↗</a></footer></div><footer style="padding:1rem;text-align:center;font-size:.85rem">Unofficial community guide. Outlanders 2 artwork and game text belong to Pomelo Games and their respective rights holders. <a href="../../../THIRD_PARTY_NOTICES.txt">Attribution</a> · <a href="../../../LICENSE.txt">Original contributions: MIT</a></footer>
 </body></html>

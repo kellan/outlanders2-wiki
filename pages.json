@@ -346,14 +346,6 @@
     },
     {
       "type": "buildings",
-      "id": "105719",
-      "name": "Building Template",
-      "category": "Building",
-      "path": "buildings/building-template/",
-      "spoiler": false
-    },
-    {
-      "type": "buildings",
       "id": "85248",
       "name": "Calla Lilly Planter",
       "category": "Building",
@@ -1006,22 +998,6 @@
       "name": "Pumpkin — production",
       "category": "Production chain",
       "path": "production-chains/pumpkin-99686/",
-      "spoiler": false
-    },
-    {
-      "type": "buildings",
-      "id": "81952",
-      "name": "Template",
-      "category": "Building",
-      "path": "buildings/template/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "81952",
-      "name": "Template — production",
-      "category": "Production chain",
-      "path": "production-chains/template/",
       "spoiler": false
     },
     {
@@ -5626,14 +5602,6 @@
     },
     {
       "type": "evidence",
-      "id": "buildings/105719",
-      "name": "Building Template — research",
-      "category": "Research",
-      "path": "verification/buildings/building-template/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
       "id": "buildings/85248",
       "name": "Calla Lilly Planter — research",
       "category": "Research",
@@ -6286,22 +6254,6 @@
       "name": "Pumpkin — production — research",
       "category": "Research",
       "path": "verification/production-chains/pumpkin-99686/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
-      "id": "buildings/81952",
-      "name": "Template — research",
-      "category": "Research",
-      "path": "verification/buildings/template/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
-      "id": "chains/81952",
-      "name": "Template — production — research",
-      "category": "Research",
-      "path": "verification/production-chains/template/",
       "spoiler": false
     },
     {
@@ -10729,7 +10681,6 @@
     "production-chains/brickyard/",
     "buildings/bridge/",
     "buildings/building/",
-    "buildings/building-template/",
     "buildings/calla-lilly-planter/",
     "buildings/canteen-factory/",
     "production-chains/canteen-factory/",
@@ -10814,8 +10765,6 @@
     "production-chains/pumpkin/",
     "buildings/pumpkin-99686/",
     "production-chains/pumpkin-99686/",
-    "buildings/template/",
-    "production-chains/template/",
     "buildings/tomato/",
     "production-chains/tomato/",
     "buildings/watermelon/",
@@ -11411,7 +11360,6 @@
     "verification/production-chains/brickyard/",
     "verification/buildings/bridge/",
     "verification/buildings/building/",
-    "verification/buildings/building-template/",
     "verification/buildings/calla-lilly-planter/",
     "verification/buildings/canteen-factory/",
     "verification/production-chains/canteen-factory/",
@@ -11494,8 +11442,6 @@
     "verification/production-chains/pumpkin/",
     "verification/buildings/pumpkin-99686/",
     "verification/production-chains/pumpkin-99686/",
-    "verification/buildings/template/",
-    "verification/production-chains/template/",
     "verification/buildings/tomato/",
     "verification/production-chains/tomato/",
     "verification/buildings/watermelon/",
@@ -12099,8 +12045,6 @@
     "production-chains/field-pumpkin/",
     "buildings/field-pumpkin-halloween/",
     "production-chains/field-pumpkin-halloween/",
-    "buildings/field-template/",
-    "production-chains/field-template/",
     "buildings/field-tomato/",
     "production-chains/field-tomato/",
     "buildings/field-watermelon/",
@@ -12147,7 +12091,6 @@
     "building/brickyard/",
     "building/bridge/",
     "building/building/",
-    "building/building-template/",
     "building/calla-lilly-planter/",
     "building/canteen-factory/",
     "building/cheesery/",
@@ -12192,7 +12135,6 @@
     "building/potato/",
     "building/pumpkin/",
     "building/pumpkin-99686/",
-    "building/template/",
     "building/tomato/",
     "building/watermelon/",
     "building/wheat/",

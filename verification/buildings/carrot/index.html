@@ -355,7 +355,41 @@
   }
 ]</pre></div></details><section class="rule-section"><h2>Sandbox biome references</h2><p>These are references in sandbox configuration, not a verified crop-availability table. Shared defaults, exclusions, farm compatibility and runtime filtering still need interpretation.</p><ul><li>Drylands</li><li>Evergreen</li></ul></section><p class="small">This exact definition appears in the stored build/plant lists below. Runtime unlocks and menu visibility remain untested.</p><details open class="source"><summary>Work schedule fields</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>{
   &quot;interpretation&quot;: &quot;Normalized work-cycle interval; time origin and clock mapping unverified.&quot;
-}</pre></div></details><section class="rule-section"><h2>Sandbox biome references</h2><p>These are references in sandbox configuration, not a verified crop-availability table. Shared defaults, exclusions, farm compatibility and runtime filtering still need interpretation.</p><ul><li>Drylands</li><li>Evergreen</li></ul><details open class="source"><summary>Sandbox assignment records</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>[
+}</pre></div></details><section class="rule-section"><h2>Growth stages</h2><p>The sapling definition stores 4 stages totalling 9 days: 2.25 + 2.25 + 2.25 + 2.25. sum of configured stages; regrowth, season effects, overrides and final-stage semantics not verified Nobody has timed this plant in play, so whether a stored day equals a clock day, and whether the last stage is the harvestable state or a wait before it, are open questions.</p><details open class="source"><summary>Sapling growth definition</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>{
+  &quot;name&quot;: &quot;Carrot Sapling&quot;,
+  &quot;paths&quot;: [
+    &quot;content/plants/crops/carrot/carrot sapling&quot;
+  ],
+  &quot;stages&quot;: [
+    {
+      &quot;stage_id&quot;: 295893,
+      &quot;days_duration&quot;: 2.25
+    },
+    {
+      &quot;stage_id&quot;: 291644,
+      &quot;days_duration&quot;: 2.25
+    },
+    {
+      &quot;stage_id&quot;: 284559,
+      &quot;days_duration&quot;: 2.25
+    },
+    {
+      &quot;stage_id&quot;: 296892,
+      &quot;days_duration&quot;: 2.25
+    }
+  ],
+  &quot;total_configured_stage_days&quot;: 9,
+  &quot;source&quot;: {
+    &quot;asset_file&quot;: &quot;resources.assets&quot;,
+    &quot;path_id&quot;: 278046,
+    &quot;class&quot;: &quot;SaplingBehaviour&quot;,
+    &quot;hierarchy_path&quot;: &quot;Carrot Sapling&quot;,
+    &quot;fields&quot;: [
+      &quot;Stages&quot;
+    ]
+  },
+  &quot;caveat&quot;: &quot;sum of configured stages; regrowth, season effects, overrides and final-stage semantics not verified&quot;
+}</pre></div></details></section><section class="rule-section"><h2>Sandbox biome references</h2><p>These are references in sandbox configuration, not a verified crop-availability table. Shared defaults, exclusions, farm compatibility and runtime filtering still need interpretation.</p><ul><li>Drylands</li><li>Evergreen</li></ul><details open class="source"><summary>Sandbox assignment records</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>[
   {
     &quot;biome&quot;: &quot;Drylands&quot;,
     &quot;source&quot;: {
