@@ -28,7 +28,7 @@ export function assembleContent(base=project){
   const group=o.target.type==='buildings'?result.rules.buildings:o.target.type==='resources'?result.rules.resources:result.world[o.target.type==='heroes'?'leaders':o.target.type];assert.ok(Array.isArray(group)&&group.some(x=>String(x.gameobject_id??x.id)===String(o.target.id)),'Unknown observation target '+file);return o;
  });
  result.world.spoiler_policy=read('content/spoilers.json');
- for(const e of result.world.spoiler_policy.entries){const list=['buildings','resources'].includes(e.type)?result.rules[e.type]:result.world[e.type==='heroes'?'leaders':e.type];assert.ok(list?.some(x=>String(x.gameobject_id??x.id)===String(e.id)),'Unknown spoiler target '+e.id);assert.ok(['reported-unreleased','confirmed-unreleased','related-release-unconfirmed'].includes(e.status),'Invalid spoiler status '+e.id);assert.ok(e.reason&&e.as_of,'Missing spoiler evidence '+e.id);}
+ for(const e of result.world.spoiler_policy.entries){const list=['buildings','chains'].includes(e.type)?result.rules.buildings:e.type==='resources'?result.rules.resources:result.world[e.type==='heroes'?'leaders':e.type];assert.ok(list?.some(x=>String(x.gameobject_id||x.id)===String(e.id)),'Unknown spoiler target '+e.id);assert.ok(['reported-unreleased','confirmed-unreleased','related-release-unconfirmed'].includes(e.status),'Invalid spoiler status '+e.id);assert.ok(e.reason&&e.as_of,'Missing spoiler evidence '+e.id);}
  result.world.contribution_guide=fs.readFileSync(path.join(base,'CONTRIBUTING.md'),'utf8');
  return {datasets:result,count};
 }

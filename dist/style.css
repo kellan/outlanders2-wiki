@@ -24,3 +24,5 @@ main a:not(.button):not(.card){color:#365d7c}main a:hover{text-decoration:underl
 .prose p{color:#625b66}.balance{background:#f0ece6;border-color:var(--line)}
 .alphabet{top:54px}.top-status{font-size:12px}.tag{font-size:10px}.small{font-size:12px}
 @media(max-width:900px){#nav{flex-direction:row}.top-status{font-size:12px}.alphabet{top:0}}
+
+#sidebar{overflow-y:auto}#nav a[href$="/spoilers/"]{font-weight:700;border:1px solid #b8a2bf}

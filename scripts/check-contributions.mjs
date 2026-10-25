@@ -27,3 +27,13 @@ const home=h.query('');assert.ok(home.includes('Looking to look ahead?'));assert
 assert.ok(!home.includes('Advanced Warehouse'));assert.ok(!home.includes('field-orchard-base'));
 
 console.log('PASS: contribution guide, invalid-content rejection, observation references, spoiler classification, navigation, search and old URLs.');
+
+const clean=await harness();
+for(const route of ['', 'buildings/','resources/','food/','production-chains/','index/'])assert.ok(!/Mushroom|Concoction Shop|Stroganoff|Advanced Warehouse|Brick Road|Swamp Trappers/.test(clean.render(route)),route+' leaked mushroom or Oona content');
+assert.ok(clean.render('').includes('Browse Spoilers'));
+assert.ok(!clean.render('').includes('Verification status'));
+assert.ok(clean.render('resources/mushroom/').includes('Spoilers: unreleased'));
+assert.ok(clean.render('production-chains/advanced-warehouse/').includes('Formula steps'));
+assert.ok(!/<details(?![^>]*\bopen\b)/.test(clean.render('verification/')));
+assert.ok(clean.elements['#nav'].innerHTML.indexOf('Spoilers')<clean.elements['#nav'].innerHTML.indexOf('Buildings'));
+console.log('PASS: mushroom chain isolation, prominent spoiler navigation, expanded evidence and clean home page.');
