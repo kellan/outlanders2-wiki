@@ -1,0 +1,30 @@
+{
+  "id": 286781,
+  "internal_name": "Flour",
+  "name": "Flour",
+  "localization_key": "Resource.Flour",
+  "publicly_named": true,
+  "paths": [
+    "content/resources_/flour"
+  ],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 286781,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "Flour",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

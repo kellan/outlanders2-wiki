@@ -1,0 +1,30 @@
+{
+  "id": 279352,
+  "internal_name": "Barley Porridge",
+  "name": "Barley Porridge",
+  "localization_key": "Resource.BarleyPorridge",
+  "publicly_named": true,
+  "paths": [
+    "content/resources_/barley porridge shop/barley porridge"
+  ],
+  "need_units": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 279352,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "Barley Porridge",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

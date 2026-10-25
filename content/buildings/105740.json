@@ -1,0 +1,136 @@
+{
+  "name": "Winery",
+  "internal_name": "Winery",
+  "gameobject_id": 105740,
+  "paths": [
+    "content/buildings/winery/winery"
+  ],
+  "localization_key": "Building.Winery",
+  "description": "Winemakers take <style=Input>{Resource.Fruit.WithIconPlural}</style> and transform them into <style=Output>{Resource.GlassOfWine.WithIcon}</style>, which is aged in glass <style=Input>{Resource.Bottle.WithIconPlural}</style> and then served in fancy glasses.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 4,
+  "workplace_config": {
+    "MaxWorkers": 4,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 1,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304308,
+    "build_site_gameobject_id": 57056,
+    "material_inputs": [
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 8
+      },
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 10
+      }
+    ],
+    "material_formula_ids": [
+      305108
+    ],
+    "all_formula_ids": [
+      285183,
+      305108
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 8.0,
+    "y": 4.0,
+    "z": 8.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    306809,
+    306819,
+    318340,
+    320555
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 300126,
+          "name": "Fruit",
+          "count": 2
+        },
+        {
+          "resource_id": 308078,
+          "name": "Bottle",
+          "count": 1
+        },
+        {
+          "resource_id": 322436,
+          "name": "WineGlassEmpty",
+          "count": 4
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 285897,
+          "name": "Wine",
+          "count": 4
+        }
+      ],
+      "formula_ids": [
+        306809,
+        306819,
+        318340,
+        320555
+      ],
+      "equipment_category_ids": [],
+      "caveats": [
+        "unresolved_internal_input"
+      ],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316572,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Winery",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 301325,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Winery",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

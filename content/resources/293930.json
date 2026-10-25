@@ -1,0 +1,28 @@
+{
+  "id": 293930,
+  "internal_name": "IronInOven",
+  "name": "IronInOven",
+  "localization_key": "Resource.Foundry.IronInOven",
+  "publicly_named": false,
+  "paths": [],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 293930,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "IronInOven",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

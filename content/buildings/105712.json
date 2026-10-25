@@ -1,0 +1,110 @@
+{
+  "name": "Reed Harvester",
+  "internal_name": "Reed Cutter",
+  "gameobject_id": 105712,
+  "paths": [
+    "content/buildings/reed cutter/reed cutter"
+  ],
+  "localization_key": "Building.ReedCutter",
+  "description": "Reed cutters harvest <style=Input>{Sources.Reed.WithIconPlural}</style> from the highlighted area and bind them into <style=Output>{Resource.Reed.WithIconPlural}</style> as Construction Materials.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 3,
+  "workplace_config": {
+    "MaxWorkers": 3,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 273072
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304370,
+    "build_site_gameobject_id": 57118,
+    "material_inputs": [
+      {
+        "resource_id": 284894,
+        "name": "Stick",
+        "count": 6
+      }
+    ],
+    "material_formula_ids": [
+      305169
+    ],
+    "all_formula_ids": [
+      279169,
+      305169
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 6.0,
+    "y": 2.0,
+    "z": 6.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    287482
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "resource_id": 312704,
+          "name": "Reed Bunch",
+          "count": 1
+        }
+      ],
+      "formula_ids": [
+        287482
+      ],
+      "equipment_category_ids": [],
+      "caveats": [
+        "resource_extraction_requires_source",
+        "source_or_nonmaterial_process_not_free_production"
+      ],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316544,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Reed Cutter",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 319077,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Reed Cutter",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

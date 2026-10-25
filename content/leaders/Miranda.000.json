@@ -1,0 +1,30 @@
+{
+  "id": "Miranda.000",
+  "name": "Miranda",
+  "biography": "Keeps a low profile, yet her inner life is full of undiscovered talents.",
+  "effect": "Wheat now grows faster!",
+  "source_entries": [
+    {
+      "key": "Names.Leader.Miranda.000",
+      "english": "Miranda",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Bios.Leader.Miranda.000",
+      "english": "Keeps a low profile, yet her inner life is full of undiscovered talents.",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Effects.Leader.Miranda.000",
+      "english": "Wheat now grows faster!",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "localized_description; effect_magnitude_and_gameplay_unverified"
+}

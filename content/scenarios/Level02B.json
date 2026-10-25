@@ -1,0 +1,603 @@
+{
+  "id": "Level02B",
+  "name": "The Binge",
+  "description": "With fame came expectations, and Miranda had to move her town to a larger island that would be the entertainment capital of the Outlands.",
+  "objectives": [
+    {
+      "id": "Objective.Main.1",
+      "text": "Brew <b>{count}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Beer.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level02B.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Have <b>{count}</b> <b>{Resource.Veggie.WithIconPlural}</b> in stock.",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level02B.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Have <b>{count}</b> <b>{Resource.Plank.WithIconPlural}</b> in stock.",
+      "unresolved_placeholders": [
+        "Resource.Plank.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level02B.Objective.Secondary.1"
+    },
+    {
+      "id": "Objective.Secondary.2",
+      "text": "Have <b>{count}</b> bags of <b>{Resource.Flour.WithIcon}</b> in stock.",
+      "unresolved_placeholders": [
+        "Resource.Flour.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level02B.Objective.Secondary.2"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Level02B.Name",
+      "english": "The Binge",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Level02B.Description",
+      "english": "With fame came expectations, and Miranda had to move her town to a larger island that would be the entertainment capital of the Outlands.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Level02B.Objective.Main.1",
+      "english": "Brew <b>{count}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Resource.Beer.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Level02B.Objective.Main.2",
+      "english": "Have <b>{count}</b> <b>{Resource.Veggie.WithIconPlural}</b> in stock.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Level02B.Objective.Secondary.1",
+      "english": "Have <b>{count}</b> <b>{Resource.Plank.WithIconPlural}</b> in stock.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Resource.Plank.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Level02B.Objective.Secondary.2",
+      "english": "Have <b>{count}</b> bags of <b>{Resource.Flour.WithIcon}</b> in stock.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Resource.Flour.WithIcon",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6241,
+  "campaign_number": 1,
+  "category": "campaign",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Level02B",
+    "title": "The Binge",
+    "text_asset_id": 6241,
+    "source_level_path": "Assets/Resources/Content/Levels/Campaign/Campaign 1/Level02B.bytes",
+    "sha256": "3ec54cccc73a9b1a83c0ff1b346bcf35ae2561393edc5c2cad64d36087983177",
+    "header_bytes": 1450,
+    "primary_objective_count": 3,
+    "optional_objective_count": 2,
+    "day_limit": 65,
+    "objectives": [
+      {
+        "NeededAmount": 120,
+        "PrefabKeyToCount": "917d01092a87344f883ca658c52685ba",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 42880,
+          "name": "Beer",
+          "localization_key": "Resource.Beer"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 497
+      },
+      {
+        "NeededAmount": 100,
+        "PrefabKeyToCount": "68146c529eba242b59a824d74431fc86",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.8500000238418579,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 90296,
+          "name": "Veggie",
+          "localization_key": "Resource.Veggie"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 658
+      },
+      {
+        "NeededAmount": 40,
+        "PrefabKeyToCount": "072e26590746a594b931ce8ea70714f0",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 75090,
+          "name": "Plank",
+          "localization_key": "Resource.Plank"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 819
+      },
+      {
+        "NeededAmount": 4,
+        "PrefabKeyToCount": "4d6e67db404b4014586ba62b62ee4118",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 67665,
+          "name": "Brick House",
+          "localization_key": "Building.BrickHouse"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 980
+      },
+      {
+        "NeededAmount": 40,
+        "PrefabKeyToCount": "39c81ad5a30184c52868b34fa8391f73",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 40043,
+          "name": "Flour",
+          "localization_key": "Resource.Flour"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 1141
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main.1",
+        "text": "Brew <b>{count}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Beer.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level02B.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Have <b>{count}</b> <b>{Resource.Veggie.WithIconPlural}</b> in stock.",
+        "unresolved_placeholders": [
+          "Resource.Veggie.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level02B.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Have <b>{count}</b> <b>{Resource.Plank.WithIconPlural}</b> in stock.",
+        "unresolved_placeholders": [
+          "Resource.Plank.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level02B.Objective.Secondary.1"
+      },
+      {
+        "id": "Objective.Secondary.2",
+        "text": "Have <b>{count}</b> bags of <b>{Resource.Flour.WithIcon}</b> in stock.",
+        "unresolved_placeholders": [
+          "Resource.Flour.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level02B.Objective.Secondary.2"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": false,
+        "IsConcernRefreshmentAvailable": false,
+        "LeaderboardType": 0
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "045b7542e94934d189e3d89b72a36b40",
+        "gameobject_id": 45826,
+        "name": "Brewery",
+        "localization_key": "Building.Brewery"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "ffa49475cb05e0c48b7efdb975d2ad5a",
+        "gameobject_id": 71100,
+        "name": "Corn Field",
+        "localization_key": "Field.Corn"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "instance_count": 1,
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "instance_count": 1,
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "2ac4c7de8c339264c937f75c9ad89a01",
+        "instance_count": 4,
+        "gameobject_id": 79276,
+        "name": "Scythe - Rock",
+        "localization_key": "Tool.ScytheRock"
+      },
+      {
+        "guid": "b8501c41316a6a14b92793239c8cf4e7",
+        "instance_count": 4,
+        "gameobject_id": 99576,
+        "name": "SeedBag",
+        "localization_key": ""
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 4,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "d1f8e2782f2f644fab802d5c755a8204",
+        "instance_count": 4,
+        "gameobject_id": 72858,
+        "name": "Axe - Iron",
+        "localization_key": "Tool.AxeIron"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "instance_count": 1,
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "instance_count": 2,
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "instance_count": 1,
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "1563b62a2b7064b3ab44ddd9f6a04262",
+        "instance_count": 9,
+        "gameobject_id": 92214,
+        "name": "FigTree",
+        "localization_key": "Tree.Fig"
+      },
+      {
+        "guid": "e8c6f4a4dbf7846e3a18c1a001a66163",
+        "instance_count": 7,
+        "gameobject_id": 92222,
+        "name": "AppleTree",
+        "localization_key": "Tree.Apple"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 5,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 84,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "95ab3ec13fc224ea5a49e126af375afb",
+        "instance_count": 5,
+        "gameobject_id": 62711,
+        "name": "PineTree",
+        "localization_key": "Tree.Pine"
+      },
+      {
+        "guid": "9183f122e9398c044a761a651ba885c4",
+        "instance_count": 1,
+        "gameobject_id": 107087,
+        "name": "2-2 FerryDock",
+        "localization_key": "Decorations.FerryDock"
+      },
+      {
+        "guid": "8c3cbfc6d021dcd49b11d90787b2c5f4",
+        "instance_count": 2,
+        "gameobject_id": 107086,
+        "name": "Festival Ornament 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "322d5d439cb10fc4c88deb3cd6ddaecc",
+        "instance_count": 1,
+        "gameobject_id": 107060,
+        "name": "Festival Ornament 3",
+        "localization_key": ""
+      },
+      {
+        "guid": "ffa49475cb05e0c48b7efdb975d2ad5a",
+        "instance_count": 45,
+        "gameobject_id": 71100,
+        "name": "Corn Field",
+        "localization_key": "Field.Corn"
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 10,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "2f75a3fea3f854460ba75c2c08ecb57f",
+        "instance_count": 2,
+        "gameobject_id": 105961,
+        "name": "Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "0a30a12e4d99609428460ff07994f3bf",
+        "instance_count": 1,
+        "gameobject_id": 45090,
+        "name": "Leader Miranda B",
+        "localization_key": ""
+      },
+      {
+        "guid": "5e298903dabe44a25b2581fcc96f0900",
+        "instance_count": 17,
+        "gameobject_id": 90295,
+        "name": "Fruit",
+        "localization_key": "Resource.Fruit"
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 85,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 7,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "e53f3b47ed960e143ac36f3d2fe9e75a",
+        "instance_count": 1,
+        "gameobject_id": 55507,
+        "name": "Birds flock Seagull",
+        "localization_key": ""
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "campaign"
+  }
+}

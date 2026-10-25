@@ -1,0 +1,590 @@
+{
+  "id": "Single05_L_Icecream",
+  "name": "Smoothie Sunsets",
+  "description": "Lobster Cove, a quaint beach town, is famous for its Smoothie Sunset Sessions—chill, intimate, feel-good parties that run all summer long. As the season draws to a close, the most exotic flavors make their debut!",
+  "objectives": [
+    {
+      "id": "Objective.Main.1",
+      "text": "Make <b>{count}</b> <b>{Resource.IcePop.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Resource.IcePop.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6290,
+      "source_key": "Level.Single05_L_Icecream.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Make <b>{count}</b> <b>{Resource.FruitJuice.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Resource.FruitJuice.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6290,
+      "source_key": "Level.Single05_L_Icecream.Objective.Main.2"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single05_L_Icecream.Name",
+      "english": "Smoothie Sunsets",
+      "source_text_asset_id": 6290,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single05_L_Icecream.Description",
+      "english": "Lobster Cove, a quaint beach town, is famous for its Smoothie Sunset Sessions—chill, intimate, feel-good parties that run all summer long. As the season draws to a close, the most exotic flavors make their debut!",
+      "source_text_asset_id": 6290,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single05_L_Icecream.Objective.Main.1",
+      "english": "Make <b>{count}</b> <b>{Resource.IcePop.WithIconPlural}</b>.",
+      "source_text_asset_id": 6290,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.IcePop.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single05_L_Icecream.Objective.Main.2",
+      "english": "Make <b>{count}</b> <b>{Resource.FruitJuice.WithIconPlural}</b>.",
+      "source_text_asset_id": 6290,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.FruitJuice.WithIconPlural",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6512,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single05_L_Icecream",
+    "title": "Smoothie Sunsets",
+    "text_asset_id": 6512,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch05/Levels/Single05_L_Icecream.bytes",
+    "sha256": "af3ee2c2d51650621188e0ab03514e3f64b07ca8fbb93901002b25060c60eba4",
+    "header_bytes": 1012,
+    "primary_objective_count": 2,
+    "optional_objective_count": 0,
+    "day_limit": -1,
+    "objectives": [
+      {
+        "NeededAmount": 130,
+        "PrefabKeyToCount": "1a3eef9b1ef49a64c96592fd97b263ef",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 43384,
+          "name": "Ice Pop",
+          "localization_key": "Resource.IcePop"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 411
+      },
+      {
+        "NeededAmount": 90,
+        "PrefabKeyToCount": "f199493215b865c4aba60ba926ab6d06",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 43402,
+          "name": "Smoothie",
+          "localization_key": "Resource.FruitJuice"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 572
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main.1",
+        "text": "Make <b>{count}</b> <b>{Resource.IcePop.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Resource.IcePop.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6290,
+        "source_key": "Level.Single05_L_Icecream.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Make <b>{count}</b> <b>{Resource.FruitJuice.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Resource.FruitJuice.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6290,
+        "source_key": "Level.Single05_L_Icecream.Objective.Main.2"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelTropical",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": true,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "b201a00f09a3e054696148769cbc38eb",
+        "gameobject_id": 67917,
+        "name": "Banana Tree",
+        "localization_key": "Field.BananaTree"
+      },
+      {
+        "guid": "c92cdefe57c4bb84faa4d9fd873e64c5",
+        "gameobject_id": 67919,
+        "name": "Dragon Fruit Tree",
+        "localization_key": "Field.DragonFruitTree"
+      },
+      {
+        "guid": "c027dd0faeda0be45b5ee9a1db7c0c92",
+        "gameobject_id": 67918,
+        "name": "Palm Tree",
+        "localization_key": "Field.PalmTree"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "20ecb7af470ed634e8ab471eaf7e5611",
+        "gameobject_id": 57394,
+        "name": "Ice Pop Stand",
+        "localization_key": "Building.IcepopShop"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "bc256ee0d241047c685e39ff9a7a5537",
+        "gameobject_id": 40308,
+        "name": "Orchard",
+        "localization_key": "Building.Orchard"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "5a5005ef2e8af421faa668d8e3f8c4ef",
+        "gameobject_id": 105712,
+        "name": "Reed Harvester",
+        "localization_key": "Building.ReedCutter"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "b181a6ade2121eb4c97d69ef08097932",
+        "gameobject_id": 57397,
+        "name": "Smoothie Stand",
+        "localization_key": "Building.FruitJuiceStand"
+      },
+      {
+        "guid": "8ea44fb4d4532294da18cbe0cc5656a0",
+        "gameobject_id": 67672,
+        "name": "Tropical Shelter",
+        "localization_key": "Building.TropicalHouse"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "3e57df531fabd46629afc046c6386fe7",
+        "instance_count": 5,
+        "gameobject_id": 59933,
+        "name": "Reed Plant",
+        "localization_key": ""
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 5,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "ce14c2ef50b8da3408ca5bcfb8e85920",
+        "instance_count": 18,
+        "gameobject_id": 92219,
+        "name": "BananaTree",
+        "localization_key": "Tree.Banana"
+      },
+      {
+        "guid": "c1e8ec7725790ea458b2fac5bfa88389",
+        "instance_count": 13,
+        "gameobject_id": 92218,
+        "name": "DragonFruitTree",
+        "localization_key": "Tree.DragonFruit"
+      },
+      {
+        "guid": "57113efc44b82409195c4f67a631462d",
+        "instance_count": 22,
+        "gameobject_id": 115334,
+        "name": "Palm Tree",
+        "localization_key": "Tree.Palm"
+      },
+      {
+        "guid": "bb7eebb8e1cacc042a9b9be69c303529",
+        "instance_count": 11,
+        "gameobject_id": 64026,
+        "name": "Jungle Big Tree",
+        "localization_key": "Field.JungleBigTree"
+      },
+      {
+        "guid": "551d21748adb743a8b46dac8d60b6cd1",
+        "instance_count": 8,
+        "gameobject_id": 64024,
+        "name": "Jungle Tree",
+        "localization_key": "Field.JungleTree"
+      },
+      {
+        "guid": "43e48c4a558d9e44eb4b08043f372505",
+        "instance_count": 1,
+        "gameobject_id": 107066,
+        "name": "Festival Ornament Broken 3",
+        "localization_key": ""
+      },
+      {
+        "guid": "5a055b164b764a4418ce295ddf52da77",
+        "instance_count": 1,
+        "gameobject_id": 107071,
+        "name": "Festival Ornament Broken 4",
+        "localization_key": ""
+      },
+      {
+        "guid": "f8d38775d573ab64698f8b08beabf991",
+        "instance_count": 1,
+        "gameobject_id": 81603,
+        "name": "Sign L Arrow 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "8421bce3e99173f42969fa3d0131d2e7",
+        "instance_count": 1,
+        "gameobject_id": 81586,
+        "name": "Sign R Arrow 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "c7e3faa2d53c9bb418daa5a6853df5b7",
+        "instance_count": 3,
+        "gameobject_id": 81595,
+        "name": "Canoe Paddle",
+        "localization_key": ""
+      },
+      {
+        "guid": "024bed5ceaf376d479f859f226430977",
+        "instance_count": 2,
+        "gameobject_id": 81574,
+        "name": "Tool Bucket small",
+        "localization_key": ""
+      },
+      {
+        "guid": "edcccc5248abcfb45912850fd57aaf3f",
+        "instance_count": 1,
+        "gameobject_id": 81600,
+        "name": "Tool Shovel small",
+        "localization_key": ""
+      },
+      {
+        "guid": "b181a6ade2121eb4c97d69ef08097932",
+        "instance_count": 1,
+        "gameobject_id": 57397,
+        "name": "Smoothie Stand",
+        "localization_key": "Building.FruitJuiceStand"
+      },
+      {
+        "guid": "20ecb7af470ed634e8ab471eaf7e5611",
+        "instance_count": 1,
+        "gameobject_id": 57394,
+        "name": "Ice Pop Stand",
+        "localization_key": "Building.IcepopShop"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "instance_count": 1,
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "instance_count": 1,
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "instance_count": 1,
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "instance_count": 1,
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "5a5005ef2e8af421faa668d8e3f8c4ef",
+        "instance_count": 1,
+        "gameobject_id": 105712,
+        "name": "Reed Harvester",
+        "localization_key": "Building.ReedCutter"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "instance_count": 1,
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 4,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "d1f8e2782f2f644fab802d5c755a8204",
+        "instance_count": 5,
+        "gameobject_id": 72858,
+        "name": "Axe - Iron",
+        "localization_key": "Tool.AxeIron"
+      },
+      {
+        "guid": "da94570ec2cdb4a25a2f961098233dc1",
+        "instance_count": 2,
+        "gameobject_id": 107108,
+        "name": "Canoe",
+        "localization_key": "Decoration.Canoe"
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "instance_count": 1,
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "8ea44fb4d4532294da18cbe0cc5656a0",
+        "instance_count": 1,
+        "gameobject_id": 67672,
+        "name": "Tropical Shelter",
+        "localization_key": "Building.TropicalHouse"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "instance_count": 40,
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "1463615b6545341b98ccb2b984c03a74",
+        "instance_count": 5,
+        "gameobject_id": 57061,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "e53f3b47ed960e143ac36f3d2fe9e75a",
+        "instance_count": 1,
+        "gameobject_id": 55507,
+        "name": "Birds flock Seagull",
+        "localization_key": ""
+      },
+      {
+        "guid": "ff844fc4f8ea1864fb7e53344cc0156a",
+        "instance_count": 1,
+        "gameobject_id": 55509,
+        "name": "Birds flock Colorful",
+        "localization_key": ""
+      },
+      {
+        "guid": "4cba8ea5cad041c48ab1ce5912afd930",
+        "instance_count": 1,
+        "gameobject_id": 98766,
+        "name": "Ice Pop Stand",
+        "localization_key": "Building.IcepopShop"
+      },
+      {
+        "guid": "5a41258aa6bbf461e83cc60ca43c7e5d",
+        "instance_count": 11,
+        "gameobject_id": 110893,
+        "name": "Tropical Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "e998bf8debe484d3bb02ff5de23f6fb0",
+        "instance_count": 4,
+        "gameobject_id": 51390,
+        "name": "Tropical Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "5e298903dabe44a25b2581fcc96f0900",
+        "instance_count": 33,
+        "gameobject_id": 90295,
+        "name": "Fruit",
+        "localization_key": "Resource.Fruit"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 12,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 16,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "929aae2b8ffd74855bc95bba925a30f4",
+        "instance_count": 7,
+        "gameobject_id": 71019,
+        "name": "Clay",
+        "localization_key": "Resource.Clay"
+      },
+      {
+        "guid": "f3b1053427a2142d7aeeea5816689b3b",
+        "instance_count": 10,
+        "gameobject_id": 108200,
+        "name": "Reed Bunch",
+        "localization_key": "Resource.Reed"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

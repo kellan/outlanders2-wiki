@@ -1,0 +1,358 @@
+{
+  "id": "Level01A",
+  "name": "The End of the World",
+  "description": "Pablo knows all about the Outlands—except where they end. On his quest to find answers, a group of new settlers recognized him and begged him for one last lesson.",
+  "objectives": [
+    {
+      "id": "Objective.Main.1",
+      "text": "Have a <b>{Building.Forager.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.Forager.WithIcon"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level01A.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Have a <b>{Building.Lumberjack.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.Lumberjack.WithIcon"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level01A.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Main.3",
+      "text": "Have <b>{count}</b> <b>{Resource.Wood.WithIconPlural}</b> in stock.",
+      "unresolved_placeholders": [
+        "Resource.Wood.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level01A.Objective.Main.3"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Recycle the <b>{Decoration.Canoe.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Decoration.Canoe.WithIcon"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level01A.Objective.Secondary.1"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Level01A.Name",
+      "english": "The End of the World",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Level01A.Description",
+      "english": "Pablo knows all about the Outlands—except where they end. On his quest to find answers, a group of new settlers recognized him and begged him for one last lesson.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Level01A.Objective.Main.1",
+      "english": "Have a <b>{Building.Forager.WithIcon}</b>.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Building.Forager.WithIcon"
+      ]
+    },
+    {
+      "key": "Level.Level01A.Objective.Main.2",
+      "english": "Have a <b>{Building.Lumberjack.WithIcon}</b>.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Building.Lumberjack.WithIcon"
+      ]
+    },
+    {
+      "key": "Level.Level01A.Objective.Main.3",
+      "english": "Have <b>{count}</b> <b>{Resource.Wood.WithIconPlural}</b> in stock.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Resource.Wood.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Level01A.Objective.Secondary.1",
+      "english": "Recycle the <b>{Decoration.Canoe.WithIcon}</b>.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Decoration.Canoe.WithIcon"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6328,
+  "campaign_number": 1,
+  "category": "campaign",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Level01A",
+    "title": "The End of the World",
+    "text_asset_id": 6328,
+    "source_level_path": "Assets/Resources/Content/Levels/Campaign/Campaign 1/Level01A.bytes",
+    "sha256": "6d8c5be79a7efb947a326a6a7bfce91416b376158434082f9baa2f2fd241f0d1",
+    "header_bytes": 1289,
+    "primary_objective_count": 3,
+    "optional_objective_count": 1,
+    "day_limit": -1,
+    "objectives": [
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "391cf060938854285ba68a34e1957e74",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 38476,
+          "name": "Foragers' Hut",
+          "localization_key": "Building.Forager"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 497
+      },
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "e7924e2353ad64cd5a0ff1e676be414b",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 38478,
+          "name": "Lumberjacks' Base",
+          "localization_key": "Building.Lumberjack"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 658
+      },
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "da94570ec2cdb4a25a2f961098233dc1",
+        "PrefabKeyForBuilding": "",
+        "Condition": 2,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Consume",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 107108,
+          "name": "Canoe",
+          "localization_key": "Decoration.Canoe"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 819
+      },
+      {
+        "NeededAmount": 6,
+        "PrefabKeyToCount": "cbdef787909bb1842b47662d86ce4ad4",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 80725,
+          "name": "Log",
+          "localization_key": "Resource.Wood"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 980
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main.1",
+        "text": "Have a <b>{Building.Forager.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.Forager.WithIcon"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level01A.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Have a <b>{Building.Lumberjack.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.Lumberjack.WithIcon"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level01A.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Main.3",
+        "text": "Have <b>{count}</b> <b>{Resource.Wood.WithIconPlural}</b> in stock.",
+        "unresolved_placeholders": [
+          "Resource.Wood.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level01A.Objective.Main.3"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Recycle the <b>{Decoration.Canoe.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Decoration.Canoe.WithIcon"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level01A.Objective.Secondary.1"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": false,
+        "IsConcernEntertainmentAvailable": false,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": false,
+        "IsConcernRefreshmentAvailable": false,
+        "LeaderboardType": 0
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "da94570ec2cdb4a25a2f961098233dc1",
+        "instance_count": 1,
+        "gameobject_id": 107108,
+        "name": "Canoe",
+        "localization_key": "Decoration.Canoe"
+      },
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 17,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "95ab3ec13fc224ea5a49e126af375afb",
+        "instance_count": 9,
+        "gameobject_id": 62711,
+        "name": "PineTree",
+        "localization_key": "Tree.Pine"
+      },
+      {
+        "guid": "e8c6f4a4dbf7846e3a18c1a001a66163",
+        "instance_count": 6,
+        "gameobject_id": 92222,
+        "name": "AppleTree",
+        "localization_key": "Tree.Apple"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 8,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "dc919016aab64014c95e60e291cdf5ff",
+        "instance_count": 1,
+        "gameobject_id": 107110,
+        "name": "1-1 Sign#1",
+        "localization_key": "Decorations.SignPost1"
+      },
+      {
+        "guid": "db48f3ce62ba34755aaf46b9a189d0f4",
+        "instance_count": 1,
+        "gameobject_id": 52516,
+        "name": "Level 01A",
+        "localization_key": ""
+      },
+      {
+        "guid": "e53f3b47ed960e143ac36f3d2fe9e75a",
+        "instance_count": 1,
+        "gameobject_id": 55507,
+        "name": "Birds flock Seagull",
+        "localization_key": ""
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 2,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "47a4af2b6cf158d45b87d9c5b13ba761",
+        "instance_count": 1,
+        "gameobject_id": 45099,
+        "name": "Leader Pablo",
+        "localization_key": ""
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 8,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "campaign"
+  }
+}

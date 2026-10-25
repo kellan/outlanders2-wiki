@@ -1,0 +1,10 @@
+{
+  "description": "Editorial spoiler placement is separate from factual release status. Related content can be withheld without asserting that it is unreleased.",
+  "entries": [
+    {"type":"heroes","id":"Oona.000","status":"reported-unreleased","as_of":"2026-10-23","reason":"Reported unreleased by the user; packaged update-28 references and menu observations are retained in availability evidence."},
+    {"type":"levels","id":"Campaign3_Level2A","status":"related-release-unconfirmed","as_of":"2026-10-23","reason":"Associated with the reported-unreleased leader story; current release not independently established."},
+    {"type":"levels","id":"Campaign3_Level2B","status":"related-release-unconfirmed","as_of":"2026-10-23","reason":"Associated with the reported-unreleased leader story; current release not independently established."},
+    {"type":"levels","id":"Campaign3_Level2C","status":"related-release-unconfirmed","as_of":"2026-10-23","reason":"Associated with the reported-unreleased leader story; current release not independently established."},
+    {"type":"biomes","id":"Swamp","status":"related-release-unconfirmed","as_of":"2026-10-23","reason":"Packaged update text links this biome to the reported-unreleased story. Association does not establish a release date."}
+  ]
+}

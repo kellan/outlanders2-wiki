@@ -1,3 +1,5 @@
+import {compileContent} from './compile-content.mjs';
+compileContent();
 import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';import {harness,root} from './render-harness.mjs';
 const project=fileURLToPath(new URL('../',import.meta.url));const template=fs.readFileSync(project+'src/template.html','utf8');
 const h=await harness();const manifests=[];
@@ -10,3 +12,7 @@ for(const [route,rec] of Object.entries(h.lookup)){
  const folder=path.join(root,route);fs.mkdirSync(folder,{recursive:true});fs.writeFileSync(path.join(folder,'index.html'),html);manifests.push(route);
 }
 fs.writeFileSync(root+'pages.json',JSON.stringify({canonical_pages:h.pages,paths:manifests},null,2));console.log(`Built ${h.pages.length} canonical pages and ${manifests.length-h.pages.length} aliases. Clean paths, static HTML, relative assets.`);
+
+fs.writeFileSync(root+'.nojekyll','');
+
+for(const name of ['LICENSE','THIRD_PARTY_NOTICES.md'])fs.copyFileSync(project+name,root+(name==='LICENSE'?'LICENSE.txt':'THIRD_PARTY_NOTICES.txt'));

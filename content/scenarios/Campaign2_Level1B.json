@@ -1,0 +1,715 @@
+{
+  "id": "Campaign2_Level1B",
+  "name": "Slope Maze",
+  "description": "Jelena noticed that every expedition failed at the slope maze due to running out of resources. But by growing their own food, they could navigate it at their own pace.",
+  "objectives": [
+    {
+      "id": "Objective.Main.1",
+      "text": "Build the <b>{Building.StoneRoad.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.StoneRoad.WithIcon"
+      ],
+      "source_text_asset_id": 6484,
+      "source_key": "Level.Campaign2_Level1B.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Have <b>{count} {Resource.Veggie.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6484,
+      "source_key": "Level.Campaign2_Level1B.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Have <b>{count} {Building.Playground.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.Playground.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6484,
+      "source_key": "Level.Campaign2_Level1B.Objective.Secondary.1"
+    },
+    {
+      "id": "Objective.Secondary.2",
+      "text": "Have <b>{count} {Building.ZenGarden.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.ZenGarden.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6484,
+      "source_key": "Level.Campaign2_Level1B.Objective.Secondary.2"
+    },
+    {
+      "id": "Objective.Secondary.3",
+      "text": "Have <b>{count} {Building.HouseWithChimney.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.HouseWithChimney.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6484,
+      "source_key": "Level.Campaign2_Level1B.Objective.Secondary.3"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Campaign2_Level1B.Name",
+      "english": "Slope Maze",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Campaign2_Level1B.Description",
+      "english": "Jelena noticed that every expedition failed at the slope maze due to running out of resources. But by growing their own food, they could navigate it at their own pace.",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Campaign2_Level1B.Objective.Main.1",
+      "english": "Build the <b>{Building.StoneRoad.WithIcon}</b>.",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": [
+        "Building.StoneRoad.WithIcon"
+      ]
+    },
+    {
+      "key": "Level.Campaign2_Level1B.Objective.Main.2",
+      "english": "Have <b>{count} {Resource.Veggie.WithIconPlural}</b>.",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Campaign2_Level1B.Objective.Secondary.1",
+      "english": "Have <b>{count} {Building.Playground.WithIconPlural}</b>.",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": [
+        "Building.Playground.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Campaign2_Level1B.Objective.Secondary.2",
+      "english": "Have <b>{count} {Building.ZenGarden.WithIconPlural}</b>.",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": [
+        "Building.ZenGarden.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Campaign2_Level1B.Objective.Secondary.3",
+      "english": "Have <b>{count} {Building.HouseWithChimney.WithIconPlural}</b>.",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": [
+        "Building.HouseWithChimney.WithIconPlural",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6341,
+  "campaign_number": 2,
+  "category": "campaign",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Campaign2_Level1B",
+    "title": "Slope Maze",
+    "text_asset_id": 6341,
+    "source_level_path": "Assets/Resources/Content/Levels/Campaign 2/Story 1/Campaign2_Level1B.bytes",
+    "sha256": "115abc2e8c2b0511e980503773684f01335250ac52907593b734b85077736c80",
+    "header_bytes": 1466,
+    "primary_objective_count": 2,
+    "optional_objective_count": 3,
+    "day_limit": 100,
+    "objectives": [
+      {
+        "NeededAmount": 164,
+        "PrefabKeyToCount": "8eebecf277142204ba189081928c90f8",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.47560974955558777,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 78174,
+          "name": "Stone Road",
+          "localization_key": "Building.StoneRoad"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 513
+      },
+      {
+        "NeededAmount": 65,
+        "PrefabKeyToCount": "68146c529eba242b59a824d74431fc86",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.4615384638309479,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 90296,
+          "name": "Veggie",
+          "localization_key": "Resource.Veggie"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 674
+      },
+      {
+        "NeededAmount": 2,
+        "PrefabKeyToCount": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 105699,
+          "name": "Playground",
+          "localization_key": "Building.Playground"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 835
+      },
+      {
+        "NeededAmount": 2,
+        "PrefabKeyToCount": "66b35e9bf1f909946830309193ad3f91",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 105716,
+          "name": "Zen Garden",
+          "localization_key": "Building.ZenGarden"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 996
+      },
+      {
+        "NeededAmount": 2,
+        "PrefabKeyToCount": "a122042526ded44a094f22861cb604f2",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 105729,
+          "name": "Winter Cabin",
+          "localization_key": "Building.HouseWithChimney"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 1157
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main.1",
+        "text": "Build the <b>{Building.StoneRoad.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.StoneRoad.WithIcon"
+        ],
+        "source_text_asset_id": 6484,
+        "source_key": "Level.Campaign2_Level1B.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Have <b>{count} {Resource.Veggie.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Veggie.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6484,
+        "source_key": "Level.Campaign2_Level1B.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Have <b>{count} {Building.Playground.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.Playground.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6484,
+        "source_key": "Level.Campaign2_Level1B.Objective.Secondary.1"
+      },
+      {
+        "id": "Objective.Secondary.2",
+        "text": "Have <b>{count} {Building.ZenGarden.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.ZenGarden.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6484,
+        "source_key": "Level.Campaign2_Level1B.Objective.Secondary.2"
+      },
+      {
+        "id": "Objective.Secondary.3",
+        "text": "Have <b>{count} {Building.HouseWithChimney.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.HouseWithChimney.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6484,
+        "source_key": "Level.Campaign2_Level1B.Objective.Secondary.3"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelSnow",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": true,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "LeaderboardType": 0
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "033493988e4a4d94b8f8ffd39ecadc63",
+        "gameobject_id": 105694,
+        "name": "Tailor",
+        "localization_key": "Building.CoatMaker"
+      },
+      {
+        "guid": "97798c772acc00442b4028893e05b090",
+        "gameobject_id": 71094,
+        "name": "Potato Field",
+        "localization_key": "Field.Potato"
+      },
+      {
+        "guid": "ff20cad8e3956e447a1e96962d5a9c52",
+        "gameobject_id": 67922,
+        "name": "Winter Pine Tree",
+        "localization_key": "Field.WinPineTree"
+      },
+      {
+        "guid": "6f91f0a136ebf4befa0e90bbbcbf3f79",
+        "gameobject_id": 40306,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "8793924bc37fc12429340646df423230",
+        "gameobject_id": 69352,
+        "name": "Greenhouse",
+        "localization_key": "Building.GreenHouse"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "a122042526ded44a094f22861cb604f2",
+        "gameobject_id": 105729,
+        "name": "Winter Cabin",
+        "localization_key": "Building.HouseWithChimney"
+      },
+      {
+        "guid": "ef055347ed1404c0fb79a68c6ddd4991",
+        "gameobject_id": 80802,
+        "name": "Trappers' Hut",
+        "localization_key": "Building.HuntersHut"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "7f0517aae7626244db91df74eabaffa7",
+        "gameobject_id": 105723,
+        "name": "Stone Mine",
+        "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 5,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "4c13d6cfb6b0dbe4c97e754e70de3611",
+        "instance_count": 4,
+        "gameobject_id": 107067,
+        "name": "Expedition Crate 1",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "b8cb8c52b58c565488e7ad9a085487cb",
+        "instance_count": 3,
+        "gameobject_id": 107099,
+        "name": "Expedition Crate 2",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "cf5986de1d3a05740bc86ab16ff8053a",
+        "instance_count": 2,
+        "gameobject_id": 107105,
+        "name": "Expedition Crate 3",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "395256b16efec674f87c1124fbdd0aec",
+        "instance_count": 24,
+        "gameobject_id": 80722,
+        "name": "Glass Pane",
+        "localization_key": "Resource.Glass"
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 30,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      },
+      {
+        "guid": "2771bbd4d544e4796b01566412994396",
+        "instance_count": 26,
+        "gameobject_id": 58011,
+        "name": "Stone",
+        "localization_key": "Resource.Stone"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 26,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 5,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "b337bbd3ab03d477fae2f76d8bfb8af2",
+        "instance_count": 76,
+        "gameobject_id": 97702,
+        "name": "Winter Pine",
+        "localization_key": "Tree.WinPine"
+      },
+      {
+        "guid": "50154c674f0f7eb48aab1b75189cd5e8",
+        "instance_count": 4,
+        "gameobject_id": 97625,
+        "name": "Pick",
+        "localization_key": "Tool.Pick"
+      },
+      {
+        "guid": "d1f8e2782f2f644fab802d5c755a8204",
+        "instance_count": 4,
+        "gameobject_id": 72858,
+        "name": "Axe - Iron",
+        "localization_key": "Tool.AxeIron"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "instance_count": 1,
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "instance_count": 1,
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "ef055347ed1404c0fb79a68c6ddd4991",
+        "instance_count": 1,
+        "gameobject_id": 80802,
+        "name": "Trappers' Hut",
+        "localization_key": "Building.HuntersHut"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "instance_count": 1,
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "edfecc7cf9db64da394c2f86a82bbc74",
+        "instance_count": 8,
+        "gameobject_id": 97634,
+        "name": "HunterTrap",
+        "localization_key": ""
+      },
+      {
+        "guid": "dcc4a2a85cac243a796ee1944133eaef",
+        "instance_count": 24,
+        "gameobject_id": 44039,
+        "name": "Plate",
+        "localization_key": "Resource.OpenKitchen.Plate"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "instance_count": 1,
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "instance_count": 2,
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "instance_count": 1,
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "8eebecf277142204ba189081928c90f8",
+        "instance_count": 78,
+        "gameobject_id": 78174,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "bc302923ea858224aa5adf78fcef7b53",
+        "instance_count": 86,
+        "gameobject_id": 72000,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "7731f20b5f518274a8705e29d35e1def",
+        "instance_count": 1,
+        "gameobject_id": 107079,
+        "name": "Expedition Cans",
+        "localization_key": ""
+      },
+      {
+        "guid": "55c55173ec3a7824ea3b6f0114b276f4",
+        "instance_count": 1,
+        "gameobject_id": 107070,
+        "name": "Expedition Campsite Trunk 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "21cb2b89ad1e20b499cfe1532aeba245",
+        "instance_count": 1,
+        "gameobject_id": 107056,
+        "name": "Expedition Campsite Fire 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "64bdab56cf1a91242a996303fef41219",
+        "instance_count": 1,
+        "gameobject_id": 107077,
+        "name": "Expedition Campsite Trunk 2",
+        "localization_key": ""
+      },
+      {
+        "guid": "93e763672d92e4b56bb06e8fe3269a70",
+        "instance_count": 8,
+        "gameobject_id": 110894,
+        "name": "Winter Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "ac3c375a164b340ecb49555349e7a453",
+        "instance_count": 3,
+        "gameobject_id": 51389,
+        "name": "Winter Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "619ca03c8a86b3c44b0775ef7975a8b3",
+        "instance_count": 1,
+        "gameobject_id": 57162,
+        "name": "Leader Jelena B",
+        "localization_key": ""
+      },
+      {
+        "guid": "929aae2b8ffd74855bc95bba925a30f4",
+        "instance_count": 13,
+        "gameobject_id": 71019,
+        "name": "Clay",
+        "localization_key": "Resource.Clay"
+      },
+      {
+        "guid": "0965e4b321001d34ebd83231720068a6",
+        "instance_count": 1,
+        "gameobject_id": 67037,
+        "name": "Higher Snow",
+        "localization_key": ""
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "campaign"
+  }
+}

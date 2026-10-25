@@ -1,0 +1,352 @@
+{
+  "id": "Single06_L_Crab",
+  "name": "Tomato Race",
+  "description": "As part of one of the strangest summer traditions in the southern outlands, farmers engage in an all-out race to harvest the finest, juiciest, most scrumptious tomatoes in the least amount of time. Bonus points are awarded to the group that manages to do so with the least amount of stress.",
+  "objectives": [
+    {
+      "id": "Objective.Main",
+      "text": "Harvest <b>{count_1}</b> <b>{Resource.Veggie.WithIconPlural}</b>, and satisfy <b>{Stat.Happiness.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "Stat.Happiness.WithIcon",
+        "count_1"
+      ],
+      "source_text_asset_id": 6517,
+      "source_key": "Level.Single06_L_Crab.Objective.Main"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Harvest <b>{count}</b> <b>{Resource.Veggie.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6517,
+      "source_key": "Level.Single06_L_Crab.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Satisfy <b>{Stat.Happiness.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Stat.Happiness.WithIcon"
+      ],
+      "source_text_asset_id": 6517,
+      "source_key": "Level.Single06_L_Crab.Objective.Main.2"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single06_L_Crab.Name",
+      "english": "Tomato Race",
+      "source_text_asset_id": 6517,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single06_L_Crab.Description",
+      "english": "As part of one of the strangest summer traditions in the southern outlands, farmers engage in an all-out race to harvest the finest, juiciest, most scrumptious tomatoes in the least amount of time. Bonus points are awarded to the group that manages to do so with the least amount of stress.",
+      "source_text_asset_id": 6517,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single06_L_Crab.Objective.Main",
+      "english": "Harvest <b>{count_1}</b> <b>{Resource.Veggie.WithIconPlural}</b>, and satisfy <b>{Stat.Happiness.WithIcon}</b>.",
+      "source_text_asset_id": 6517,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "Stat.Happiness.WithIcon",
+        "count_1"
+      ]
+    },
+    {
+      "key": "Level.Single06_L_Crab.Objective.Main.1",
+      "english": "Harvest <b>{count}</b> <b>{Resource.Veggie.WithIconPlural}</b>.",
+      "source_text_asset_id": 6517,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single06_L_Crab.Objective.Main.2",
+      "english": "Satisfy <b>{Stat.Happiness.WithIcon}</b>.",
+      "source_text_asset_id": 6517,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Stat.Happiness.WithIcon"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6300,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single06_L_Crab",
+    "title": "Tomato Race",
+    "text_asset_id": 6300,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch04/Levels/Single06_L_Crab.bytes",
+    "sha256": "3a2e6a9cb936758b21326d704eab264a795e243abec1691b4f8fd7b395d2eafd",
+    "header_bytes": 843,
+    "primary_objective_count": 1,
+    "optional_objective_count": 0,
+    "day_limit": -1,
+    "objectives": [
+      {
+        "NeededAmount": 5,
+        "PrefabKeyToCount": "68146c529eba242b59a824d74431fc86",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 90296,
+          "name": "Veggie",
+          "localization_key": "Resource.Veggie"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 403
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main",
+        "text": "Harvest <b>{count_1}</b> <b>{Resource.Veggie.WithIconPlural}</b>, and satisfy <b>{Stat.Happiness.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Veggie.WithIconPlural",
+          "Stat.Happiness.WithIcon",
+          "count_1"
+        ],
+        "source_text_asset_id": 6517,
+        "source_key": "Level.Single06_L_Crab.Objective.Main"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Harvest <b>{count}</b> <b>{Resource.Veggie.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Veggie.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6517,
+        "source_key": "Level.Single06_L_Crab.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Satisfy <b>{Stat.Happiness.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Stat.Happiness.WithIcon"
+        ],
+        "source_text_asset_id": 6517,
+        "source_key": "Level.Single06_L_Crab.Objective.Main.2"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": false,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "ba49332a824bb49599321ceee86e2462",
+        "gameobject_id": 71096,
+        "name": "Tomato Field",
+        "localization_key": "Field.Tomato"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "95ab3ec13fc224ea5a49e126af375afb",
+        "instance_count": 64,
+        "gameobject_id": 62711,
+        "name": "PineTree",
+        "localization_key": "Tree.Pine"
+      },
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 20,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "1563b62a2b7064b3ab44ddd9f6a04262",
+        "instance_count": 4,
+        "gameobject_id": 92214,
+        "name": "FigTree",
+        "localization_key": "Tree.Fig"
+      },
+      {
+        "guid": "842cbe9f256384ec4bf8aa72d3efc1d0",
+        "instance_count": 3,
+        "gameobject_id": 92217,
+        "name": "PomeloTree",
+        "localization_key": "Tree.Pomelo"
+      },
+      {
+        "guid": "e8c6f4a4dbf7846e3a18c1a001a66163",
+        "instance_count": 7,
+        "gameobject_id": 92222,
+        "name": "AppleTree",
+        "localization_key": "Tree.Apple"
+      },
+      {
+        "guid": "da94570ec2cdb4a25a2f961098233dc1",
+        "instance_count": 1,
+        "gameobject_id": 107108,
+        "name": "Canoe",
+        "localization_key": "Decoration.Canoe"
+      },
+      {
+        "guid": "412a08f4fa3298a4288ee8b3199526d9",
+        "instance_count": 1,
+        "gameobject_id": 107065,
+        "name": "Canoe Crashed",
+        "localization_key": "Decoration.Canoe"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "instance_count": 1,
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "instance_count": 1,
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "e53f3b47ed960e143ac36f3d2fe9e75a",
+        "instance_count": 1,
+        "gameobject_id": 55507,
+        "name": "Birds flock Seagull",
+        "localization_key": ""
+      },
+      {
+        "guid": "02cd43766b5ab824192f8fae7363e4fb",
+        "instance_count": 1,
+        "gameobject_id": 81575,
+        "name": "Tool Shovel planted",
+        "localization_key": ""
+      },
+      {
+        "guid": "76f15662f9436dd4bae5778e64127609",
+        "instance_count": 1,
+        "gameobject_id": 81585,
+        "name": "Tool Wheelbarrow",
+        "localization_key": ""
+      },
+      {
+        "guid": "e932b0755062c0d41af38ab422ff6e76",
+        "instance_count": 1,
+        "gameobject_id": 81598,
+        "name": "Tool Bucket",
+        "localization_key": ""
+      },
+      {
+        "guid": "f9e79a2d70e36944db7aae601779093c",
+        "instance_count": 1,
+        "gameobject_id": 107117,
+        "name": "Light Lantern",
+        "localization_key": "Decoration.Lantern"
+      },
+      {
+        "guid": "6d59220e4452d7f41b0fd87c26fb51d5",
+        "instance_count": 1,
+        "gameobject_id": 81584,
+        "name": "Tool Axe",
+        "localization_key": ""
+      },
+      {
+        "guid": "c7e3faa2d53c9bb418daa5a6853df5b7",
+        "instance_count": 1,
+        "gameobject_id": 81595,
+        "name": "Canoe Paddle",
+        "localization_key": ""
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 5,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

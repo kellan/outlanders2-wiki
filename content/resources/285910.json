@@ -1,0 +1,39 @@
+{
+  "id": 285910,
+  "internal_name": "House Drink",
+  "name": "Wheatshine",
+  "localization_key": "Resource.HouseDrink",
+  "publicly_named": true,
+  "paths": [
+    "content/resources_/winter pub/house drink"
+  ],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 4.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 4.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 42889
+    },
+    "m_Enabled": 1,
+    "m_Name": "",
+    "ConsumedByChildren": 0,
+    "ConsumedByAdults": 1
+  },
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 285910,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "House Drink",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

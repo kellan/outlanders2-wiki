@@ -1,0 +1,16 @@
+{
+  "id": "clay-pit-late-start",
+  "target": {
+    "type": "buildings",
+    "id": "69351"
+  },
+  "claim": "Clay pit workers appear to sleep in compared with other workers.",
+  "status": "open",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "30 (254)",
+    "date": "2026-10-25",
+    "reference": "Project discussion, 25 October 2026; no controlled timing recorded."
+  },
+  "notes": "The stored work interval differs from Farm, but this does not establish longer sleep or clock hours. Keep this in research until measured."
+}

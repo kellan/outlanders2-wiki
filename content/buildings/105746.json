@@ -1,0 +1,81 @@
+{
+  "name": "DairyFarm",
+  "internal_name": "DairyFarm",
+  "gameobject_id": 105746,
+  "paths": [
+    "content/buildings/dairy farm/dairyfarm"
+  ],
+  "localization_key": "Building.DairyFarm",
+  "description": null,
+  "is_base_or_campaign_asset": false,
+  "max_workers": 4,
+  "workplace_config": {
+    "MaxWorkers": 4,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304377,
+    "build_site_gameobject_id": 57125,
+    "material_inputs": [],
+    "material_formula_ids": [],
+    "all_formula_ids": [
+      305176
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 2.0,
+    "y": 1.0,
+    "z": 2.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    290640
+  ],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316578,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "DairyFarm",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 289729,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "DairyFarm",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

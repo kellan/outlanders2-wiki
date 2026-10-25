@@ -1,0 +1,112 @@
+{
+  "name": "Quarry",
+  "internal_name": "Quarry",
+  "gameobject_id": 105695,
+  "paths": [
+    "content/buildings/quarry/quarry"
+  ],
+  "localization_key": "Building.Quarry",
+  "description": "Quarry workers break down <style=Input>{Sources.Rock.WithIconPlural}</style> into polished <style=Output>{Resource.Stone.WithIconPlural}</style> ready for construction.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 4,
+  "workplace_config": {
+    "MaxWorkers": 4,
+    "WorkTimeRange": {
+      "Start": 0.0,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 273071
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304365,
+    "build_site_gameobject_id": 57113,
+    "material_inputs": [
+      {
+        "resource_id": 309169,
+        "name": "Log",
+        "count": 6
+      }
+    ],
+    "material_formula_ids": [
+      305164
+    ],
+    "all_formula_ids": [
+      279370,
+      305164
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 4.0,
+    "y": 1.0,
+    "z": 4.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    285722
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "resource_id": 293926,
+          "name": "Stone",
+          "count": 1
+        }
+      ],
+      "formula_ids": [
+        285722
+      ],
+      "equipment_category_ids": [
+        273141
+      ],
+      "caveats": [
+        "resource_extraction_requires_source",
+        "source_or_nonmaterial_process_not_free_production"
+      ],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316527,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Quarry",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 294811,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Quarry",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

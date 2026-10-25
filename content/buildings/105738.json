@@ -1,0 +1,140 @@
+{
+  "name": "Porridge Cookhouse",
+  "internal_name": "Barley Porridge Shop",
+  "gameobject_id": 105738,
+  "paths": [
+    "content/buildings/barley porridge shop/barley porridge shop"
+  ],
+  "localization_key": "Building.BarleyPorridgeShop",
+  "description": "Porridge cooks grow and harvest barley on site and use a fire fueled by <style=Input>{Resource.Stick.WithIconPlural}</style> to create <style=Output>{Resource.BarleyPorridge.WithIcon}</style>, a creamy dish that raises <style=Output>{Concern.Nutrition.WithIcon}</style> and <style=Output>{Concern.Community.WithIcon}</style>.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 2,
+  "workplace_config": {
+    "MaxWorkers": 2,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304340,
+    "build_site_gameobject_id": 57088,
+    "material_inputs": [
+      {
+        "resource_id": 309169,
+        "name": "Log",
+        "count": 16
+      },
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 12
+      }
+    ],
+    "material_formula_ids": [
+      305139
+    ],
+    "all_formula_ids": [
+      292682,
+      305139
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 12.0,
+    "y": 2.0,
+    "z": 12.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    293379,
+    308444,
+    311897,
+    315058,
+    317928,
+    318675,
+    320157
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 1
+        },
+        {
+          "resource_id": 279354,
+          "name": "BarleyPorridgeEmptyPlate",
+          "count": 10
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 279352,
+          "name": "Barley Porridge",
+          "count": 10
+        }
+      ],
+      "formula_ids": [
+        293379,
+        308444,
+        311897,
+        315058,
+        317928,
+        318675,
+        320157
+      ],
+      "equipment_category_ids": [
+        273142,
+        273143
+      ],
+      "caveats": [
+        "unresolved_internal_input"
+      ],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316570,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Barley Porridge Shop",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 322421,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Barley Porridge Shop",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

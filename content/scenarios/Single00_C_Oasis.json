@@ -1,0 +1,472 @@
+{
+  "id": "Single00_C_Oasis",
+  "name": "They/Them",
+  "description": "They called them crazy, and maybe they are. They say the old windmill is too far away, and it is; that they should forget about farming and stick to foraging, and there's some sense to that... but who are THEY to tell THEM what they can or can't do??",
+  "objectives": [
+    {
+      "id": "Objective.Main",
+      "text": "Bake <b>{count_1}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Bread.WithIcon",
+        "count_1"
+      ],
+      "source_text_asset_id": 6297,
+      "source_key": "Level.Single00_C_Oasis.Objective.Main"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Bake <b>{count}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Bread.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6297,
+      "source_key": "Level.Single00_C_Oasis.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Secondary",
+      "text": "Satisfy <b>{Concern.Housing.WithIcon}</b> and have a <b>{Building.Park.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.Park.WithIcon",
+        "Concern.Housing.WithIcon"
+      ],
+      "source_text_asset_id": 6297,
+      "source_key": "Level.Single00_C_Oasis.Objective.Secondary"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Have everyone settled.",
+      "unresolved_placeholders": [],
+      "source_text_asset_id": 6297,
+      "source_key": "Level.Single00_C_Oasis.Objective.Secondary.1"
+    },
+    {
+      "id": "Objective.Secondary.2",
+      "text": "Have a <b>{Building.Park.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.Park.WithIcon"
+      ],
+      "source_text_asset_id": 6297,
+      "source_key": "Level.Single00_C_Oasis.Objective.Secondary.2"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single00_C_Oasis.Name",
+      "english": "They/Them",
+      "source_text_asset_id": 6297,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single00_C_Oasis.Description",
+      "english": "They called them crazy, and maybe they are. They say the old windmill is too far away, and it is; that they should forget about farming and stick to foraging, and there's some sense to that... but who are THEY to tell THEM what they can or can't do??",
+      "source_text_asset_id": 6297,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single00_C_Oasis.Objective.Main",
+      "english": "Bake <b>{count_1}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+      "source_text_asset_id": 6297,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Bread.WithIcon",
+        "count_1"
+      ]
+    },
+    {
+      "key": "Level.Single00_C_Oasis.Objective.Main.1",
+      "english": "Bake <b>{count}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+      "source_text_asset_id": 6297,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Bread.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single00_C_Oasis.Objective.Secondary",
+      "english": "Satisfy <b>{Concern.Housing.WithIcon}</b> and have a <b>{Building.Park.WithIcon}</b>.",
+      "source_text_asset_id": 6297,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.Park.WithIcon",
+        "Concern.Housing.WithIcon"
+      ]
+    },
+    {
+      "key": "Level.Single00_C_Oasis.Objective.Secondary.1",
+      "english": "Have everyone settled.",
+      "source_text_asset_id": 6297,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single00_C_Oasis.Objective.Secondary.2",
+      "english": "Have a <b>{Building.Park.WithIcon}</b>.",
+      "source_text_asset_id": 6297,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.Park.WithIcon"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6251,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single00_C_Oasis",
+    "title": "They/Them",
+    "text_asset_id": 6251,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch00/Levels/Single00_C_Oasis.bytes",
+    "sha256": "ab0b87608c85455516c6fccc3b44366ae743d64b970c754ae2bc290716e087ac",
+    "header_bytes": 1103,
+    "primary_objective_count": 1,
+    "optional_objective_count": 2,
+    "day_limit": 110,
+    "objectives": [
+      {
+        "NeededAmount": 120,
+        "PrefabKeyToCount": "108be5f4bfad94ed79e7deea4a031409",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 97586,
+          "name": "Bread",
+          "localization_key": "Resource.Bread"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 405
+      },
+      {
+        "NeededAmount": 100,
+        "PrefabKeyToCount": "",
+        "PrefabKeyForBuilding": "",
+        "Condition": 7,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Housing",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 566
+      },
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 35463,
+          "name": "Fitness Park",
+          "localization_key": "Building.Park"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 663
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main",
+        "text": "Bake <b>{count_1}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Bread.WithIcon",
+          "count_1"
+        ],
+        "source_text_asset_id": 6297,
+        "source_key": "Level.Single00_C_Oasis.Objective.Main"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Bake <b>{count}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Bread.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6297,
+        "source_key": "Level.Single00_C_Oasis.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Secondary",
+        "text": "Satisfy <b>{Concern.Housing.WithIcon}</b> and have a <b>{Building.Park.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.Park.WithIcon",
+          "Concern.Housing.WithIcon"
+        ],
+        "source_text_asset_id": 6297,
+        "source_key": "Level.Single00_C_Oasis.Objective.Secondary"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Have everyone settled.",
+        "unresolved_placeholders": [],
+        "source_text_asset_id": 6297,
+        "source_key": "Level.Single00_C_Oasis.Objective.Secondary.1"
+      },
+      {
+        "id": "Objective.Secondary.2",
+        "text": "Have a <b>{Building.Park.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.Park.WithIcon"
+        ],
+        "source_text_asset_id": 6297,
+        "source_key": "Level.Single00_C_Oasis.Objective.Secondary.2"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "045b7542e94934d189e3d89b72a36b40",
+        "gameobject_id": 45826,
+        "name": "Brewery",
+        "localization_key": "Building.Brewery"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "ba49332a824bb49599321ceee86e2462",
+        "gameobject_id": 71096,
+        "name": "Tomato Field",
+        "localization_key": "Field.Tomato"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "instance_count": 3,
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 12,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 42,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "e8c6f4a4dbf7846e3a18c1a001a66163",
+        "instance_count": 8,
+        "gameobject_id": 92222,
+        "name": "AppleTree",
+        "localization_key": "Tree.Apple"
+      },
+      {
+        "guid": "1563b62a2b7064b3ab44ddd9f6a04262",
+        "instance_count": 7,
+        "gameobject_id": 92214,
+        "name": "FigTree",
+        "localization_key": "Tree.Fig"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "instance_count": 1,
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "instance_count": 1,
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 5,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "2f75a3fea3f854460ba75c2c08ecb57f",
+        "instance_count": 2,
+        "gameobject_id": 105961,
+        "name": "Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "4a5c87ee3b2331f49b07029ffb94d492",
+        "instance_count": 2,
+        "gameobject_id": 44812,
+        "name": "Villager Old",
+        "localization_key": ""
+      },
+      {
+        "guid": "5e298903dabe44a25b2581fcc96f0900",
+        "instance_count": 12,
+        "gameobject_id": 90295,
+        "name": "Fruit",
+        "localization_key": "Resource.Fruit"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

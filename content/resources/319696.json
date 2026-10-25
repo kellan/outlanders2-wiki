@@ -1,0 +1,30 @@
+{
+  "id": 319696,
+  "internal_name": "Cookie_Christmas",
+  "name": "Gingerbread Man",
+  "localization_key": "Resource.GingerbreadMan",
+  "publicly_named": true,
+  "paths": [
+    "content/resources_/cookieshop/cookie_christmas"
+  ],
+  "need_units": {
+    "FoodUnits": 1.0,
+    "EntertainmentUnits": 4.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 319696,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "Cookie_Christmas",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

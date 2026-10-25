@@ -1,0 +1,69 @@
+{
+  "name": "Wishing Well",
+  "internal_name": "zWishing Well",
+  "gameobject_id": 67663,
+  "paths": [
+    "content/buildings/_campaign buildings/miguel´s thingy/zwishing well"
+  ],
+  "localization_key": "Building.WishingWell",
+  "description": "A bottomless, watery pit of hopes, dreams, desires, fantasies, urges, longings, intentions, aspirations and endless optimism.",
+  "is_base_or_campaign_asset": true,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304304,
+    "build_site_gameobject_id": 57052,
+    "material_inputs": [
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 10
+      },
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 35
+      }
+    ],
+    "material_formula_ids": [
+      305104
+    ],
+    "all_formula_ids": [
+      298848,
+      305104
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 8.0,
+    "y": 4.0,
+    "z": 8.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 296476,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "zWishing Well",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

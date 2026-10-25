@@ -1,0 +1,72 @@
+{
+  "name": "Ritual of Hidden Light",
+  "internal_name": "Moon Ritual",
+  "gameobject_id": 67669,
+  "paths": [
+    "content/buildings/_level unique buildings/moon ritual/moon ritual"
+  ],
+  "localization_key": "Building.MoonRitual",
+  "description": "\"Turn the world upside down, and you may find what you seek.\"",
+  "is_base_or_campaign_asset": true,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304310,
+    "build_site_gameobject_id": 57058,
+    "material_inputs": [
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 16
+      },
+      {
+        "resource_id": 309166,
+        "name": "Glass Pane",
+        "count": 18
+      }
+    ],
+    "material_formula_ids": [
+      305110,
+      309596
+    ],
+    "all_formula_ids": [
+      305110,
+      309596,
+      319255
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 22.0,
+    "y": 2.0,
+    "z": 22.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3,
+      1
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 1000000.0,
+    "BlocksEntrances": 0,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 296482,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Moon Ritual",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

@@ -1,0 +1,624 @@
+{
+  "id": "Single_L_Up",
+  "name": "Last Minute Plan",
+  "description": "Dark, stormy clouds loom on the horizon. A blizzard is approaching, and this small town in the Winterlands faces a harsh reality: there won’t be enough food to survive if it hits. The plan is simple—build a second greenhouse as quickly as possible.",
+  "objectives": [
+    {
+      "id": "Objective.Main.1",
+      "text": "Have <b>{count} {Building.GreenHouse.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.GreenHouse.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6296,
+      "source_key": "Level.Single_L_Up.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Have <b>{count} {Building.GreenHouse.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.GreenHouse.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6452,
+      "source_key": "Level.Single_L_Up.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Have <b>{count} {Building.GreenHouse.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.GreenHouse.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single_L_Up.Objective.Main.1"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single_L_Up.Name",
+      "english": "Snowbound",
+      "source_text_asset_id": 6296,
+      "source_table": "LocalizationBatchesOctubre",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_L_Up.Description",
+      "english": "Holidays are going to be rough atop Hailstone Mountain, with heavier-than-usual snowfall blocking all roads to the small town. As long as they secure another food source quickly, they'll manage until the weather calms down.",
+      "source_text_asset_id": 6296,
+      "source_table": "LocalizationBatchesOctubre",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_L_Up.Objective.Main.1",
+      "english": "Have <b>{count} {Building.GreenHouse.WithIconPlural}</b>.",
+      "source_text_asset_id": 6296,
+      "source_table": "LocalizationBatchesOctubre",
+      "unresolved_placeholders": [
+        "Building.GreenHouse.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_L_Up.Name",
+      "english": "Snowbound",
+      "source_text_asset_id": 6452,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_L_Up.Description",
+      "english": "Holidays are going to be rough atop Hailstone Mountain, with heavier-than-usual snowfall blocking all roads to the small town. As long as they secure another food source quickly, they'll manage until the weather calms down.",
+      "source_text_asset_id": 6452,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_L_Up.Objective.Main.1",
+      "english": "Have <b>{count} {Building.GreenHouse.WithIconPlural}</b>.",
+      "source_text_asset_id": 6452,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.GreenHouse.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_L_Up.Name",
+      "english": "Last Minute Plan",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_L_Up.Description",
+      "english": "Dark, stormy clouds loom on the horizon. A blizzard is approaching, and this small town in the Winterlands faces a harsh reality: there won’t be enough food to survive if it hits. The plan is simple—build a second greenhouse as quickly as possible.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_L_Up.Objective.Main.1",
+      "english": "Have <b>{count} {Building.GreenHouse.WithIconPlural}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Building.GreenHouse.WithIconPlural",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6360,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single_L_Up",
+    "title": "Last Minute Plan",
+    "text_asset_id": 6360,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch10/Levels/Single_L_Up.bytes",
+    "sha256": "909c6f53c889b4334193307ef863755c0ef10ff8cd8e05e61f511fcc8d9922aa",
+    "header_bytes": 899,
+    "primary_objective_count": 1,
+    "optional_objective_count": 0,
+    "day_limit": -1,
+    "objectives": [
+      {
+        "NeededAmount": 2,
+        "PrefabKeyToCount": "8793924bc37fc12429340646df423230",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.5,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 69352,
+          "name": "Greenhouse",
+          "localization_key": "Building.GreenHouse"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 395
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main.1",
+        "text": "Have <b>{count} {Building.GreenHouse.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.GreenHouse.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6296,
+        "source_key": "Level.Single_L_Up.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Have <b>{count} {Building.GreenHouse.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.GreenHouse.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6452,
+        "source_key": "Level.Single_L_Up.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Have <b>{count} {Building.GreenHouse.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.GreenHouse.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6493,
+        "source_key": "Level.Single_L_Up.Objective.Main.1"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelChristmas",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": true,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "a1f9687f4e08b7e4296cccdfc75b9787",
+        "gameobject_id": 105730,
+        "name": "Cheesery",
+        "localization_key": "Building.CheeseMaker"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "033493988e4a4d94b8f8ffd39ecadc63",
+        "gameobject_id": 105694,
+        "name": "Tailor",
+        "localization_key": "Building.CoatMaker"
+      },
+      {
+        "guid": "4932d00b9da79c143a2b0f049d25461d",
+        "gameobject_id": 60667,
+        "name": "Gingerbread Man Shop",
+        "localization_key": "Building.GingerbreadManShop"
+      },
+      {
+        "guid": "d5e50ad68f1426f4d933a481fd0fcb94",
+        "gameobject_id": 71099,
+        "name": "Beet Field",
+        "localization_key": "Field.Beet"
+      },
+      {
+        "guid": "821e8494d9aa35140ba765e2dac5018b",
+        "gameobject_id": 71093,
+        "name": "Cabbage Field",
+        "localization_key": "Field.Cabbage"
+      },
+      {
+        "guid": "97798c772acc00442b4028893e05b090",
+        "gameobject_id": 71094,
+        "name": "Potato Field",
+        "localization_key": "Field.Potato"
+      },
+      {
+        "guid": "ff20cad8e3956e447a1e96962d5a9c52",
+        "gameobject_id": 67922,
+        "name": "Winter Pine Tree",
+        "localization_key": "Field.WinPineTree"
+      },
+      {
+        "guid": "398ef2a881962ad4cbf8572215838ef1",
+        "gameobject_id": 105705,
+        "name": "Fondue Bar",
+        "localization_key": "Building.FondueShop"
+      },
+      {
+        "guid": "6f91f0a136ebf4befa0e90bbbcbf3f79",
+        "gameobject_id": 40306,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "8793924bc37fc12429340646df423230",
+        "gameobject_id": 69352,
+        "name": "Greenhouse",
+        "localization_key": "Building.GreenHouse"
+      },
+      {
+        "guid": "578d4586224990b4099233f511e9ffd8",
+        "gameobject_id": 67667,
+        "name": "Two-Story House",
+        "localization_key": "Building.HouseStone"
+      },
+      {
+        "guid": "ef055347ed1404c0fb79a68c6ddd4991",
+        "gameobject_id": 80802,
+        "name": "Trappers' Hut",
+        "localization_key": "Building.HuntersHut"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "7f0517aae7626244db91df74eabaffa7",
+        "gameobject_id": 105723,
+        "name": "Stone Mine",
+        "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "d7d5d85f831fd4275ae951907b524658",
+        "gameobject_id": 75227,
+        "name": "Trading Outpost",
+        "localization_key": "Building.TradingPost"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "d1f8e2782f2f644fab802d5c755a8204",
+        "instance_count": 5,
+        "gameobject_id": 72858,
+        "name": "Axe - Iron",
+        "localization_key": "Tool.AxeIron"
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 7,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "2ac4c7de8c339264c937f75c9ad89a01",
+        "instance_count": 3,
+        "gameobject_id": 79276,
+        "name": "Scythe - Rock",
+        "localization_key": "Tool.ScytheRock"
+      },
+      {
+        "guid": "b8501c41316a6a14b92793239c8cf4e7",
+        "instance_count": 3,
+        "gameobject_id": 99576,
+        "name": "SeedBag",
+        "localization_key": ""
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "instance_count": 1,
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "instance_count": 1,
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "instance_count": 1,
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "instance_count": 1,
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "instance_count": 1,
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "dcc4a2a85cac243a796ee1944133eaef",
+        "instance_count": 24,
+        "gameobject_id": 44039,
+        "name": "Plate",
+        "localization_key": "Resource.OpenKitchen.Plate"
+      },
+      {
+        "guid": "50765ea07e608f04d9eddddf25637284",
+        "instance_count": 1,
+        "gameobject_id": 107068,
+        "name": "Christmas Gift 0 Coats",
+        "localization_key": "Decoration.Gift"
+      },
+      {
+        "guid": "fc81177954d91214586f09b6c95f83ec",
+        "instance_count": 1,
+        "gameobject_id": 44492,
+        "name": "Christmas Gift 3 Books and Coats",
+        "localization_key": "Decoration.Gift"
+      },
+      {
+        "guid": "4181c05e47b76e24d97b342937bb2162",
+        "instance_count": 1,
+        "gameobject_id": 44490,
+        "name": "Christmas Gift 4 Coats",
+        "localization_key": "Decoration.Gift"
+      },
+      {
+        "guid": "35cc11aedcd9c914e97d7abce86d9fe1",
+        "instance_count": 1,
+        "gameobject_id": 44488,
+        "name": "Christmas Gift 2 Coats",
+        "localization_key": "Decoration.Gift"
+      },
+      {
+        "guid": "578d4586224990b4099233f511e9ffd8",
+        "instance_count": 2,
+        "gameobject_id": 67667,
+        "name": "Two-Story House",
+        "localization_key": "Building.HouseStone"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "instance_count": 32,
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "instance_count": 16,
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b337bbd3ab03d477fae2f76d8bfb8af2",
+        "instance_count": 85,
+        "gameobject_id": 97702,
+        "name": "Winter Pine",
+        "localization_key": "Tree.WinPine"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 36,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "1463615b6545341b98ccb2b984c03a74",
+        "instance_count": 11,
+        "gameobject_id": 57061,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "0c321f13c77c2b54f85a7514dc423fcf",
+        "instance_count": 1,
+        "gameobject_id": 81578,
+        "name": "Sign 2 Arrows",
+        "localization_key": ""
+      },
+      {
+        "guid": "6d59220e4452d7f41b0fd87c26fb51d5",
+        "instance_count": 1,
+        "gameobject_id": 81584,
+        "name": "Tool Axe",
+        "localization_key": ""
+      },
+      {
+        "guid": "9900a1819cb6d754f81c08f520497838",
+        "instance_count": 1,
+        "gameobject_id": 107090,
+        "name": "Christmas Snowman 0",
+        "localization_key": ""
+      },
+      {
+        "guid": "5b095a6b2b0a482438c5b92d15264188",
+        "instance_count": 1,
+        "gameobject_id": 107073,
+        "name": "Christmas Snowman 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "9bb687950e471b54e9fceebf2dada633",
+        "instance_count": 4,
+        "gameobject_id": 107091,
+        "name": "Christmas Cane",
+        "localization_key": ""
+      },
+      {
+        "guid": "93e763672d92e4b56bb06e8fe3269a70",
+        "instance_count": 7,
+        "gameobject_id": 110894,
+        "name": "Winter Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "ac3c375a164b340ecb49555349e7a453",
+        "instance_count": 4,
+        "gameobject_id": 51389,
+        "name": "Winter Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "8793924bc37fc12429340646df423230",
+        "instance_count": 1,
+        "gameobject_id": 69352,
+        "name": "Greenhouse",
+        "localization_key": "Building.GreenHouse"
+      },
+      {
+        "guid": "97798c772acc00442b4028893e05b090",
+        "instance_count": 12,
+        "gameobject_id": 71094,
+        "name": "Potato Field",
+        "localization_key": "Field.Potato"
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 4,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 46,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 7,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "0b8694f450f0242d99f8015e57915185",
+        "instance_count": 18,
+        "gameobject_id": 44027,
+        "name": "Stew",
+        "localization_key": "Resource.Stew"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

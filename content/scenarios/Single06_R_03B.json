@@ -1,0 +1,542 @@
+{
+  "id": "Single06_R_03B",
+  "name": "Edgar is Missing",
+  "description": "Things have gone south in the islands since Edgar left. The joy of witnessing his self-worth journey was exhilarating for the villagers, and now, with the arrival of winter, snow, and winds, they take this opportunity for self-reflection, to cozy up and enjoy warm moments at home with loved ones and good meals.",
+  "objectives": [
+    {
+      "id": "Objective.Main",
+      "text": "Have <b>{count_1}</b> <b>{Building.HouseWithChimney.WithIconPlural}</b> and obtain <b>{count_2}</b> pieces of <b>{Resource.Meat.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.HouseWithChimney.WithIconPlural",
+        "Resource.Meat.WithIcon",
+        "count_1",
+        "count_2"
+      ],
+      "source_text_asset_id": 6510,
+      "source_key": "Level.Single06_R_03B.Objective.Main"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Have <b>{count}</b> <b>{Building.HouseWithChimney.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.HouseWithChimney.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6510,
+      "source_key": "Level.Single06_R_03B.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Obtain <b>{count}</b> pieces of <b>{Resource.Meat.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Meat.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6510,
+      "source_key": "Level.Single06_R_03B.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Secondary",
+      "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count_1}</b>.",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count_1"
+      ],
+      "source_text_asset_id": 6510,
+      "source_key": "Level.Single06_R_03B.Objective.Secondary"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count}</b>.",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6510,
+      "source_key": "Level.Single06_R_03B.Objective.Secondary.1"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single06_R_03B.Name",
+      "english": "Edgar is Missing",
+      "source_text_asset_id": 6510,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single06_R_03B.Description",
+      "english": "Things have gone south in the islands since Edgar left. The joy of witnessing his self-worth journey was exhilarating for the villagers, and now, with the arrival of winter, snow, and winds, they take this opportunity for self-reflection, to cozy up and enjoy warm moments at home with loved ones and good meals.",
+      "source_text_asset_id": 6510,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single06_R_03B.Objective.Main",
+      "english": "Have <b>{count_1}</b> <b>{Building.HouseWithChimney.WithIconPlural}</b> and obtain <b>{count_2}</b> pieces of <b>{Resource.Meat.WithIcon}</b>.",
+      "source_text_asset_id": 6510,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.HouseWithChimney.WithIconPlural",
+        "Resource.Meat.WithIcon",
+        "count_1",
+        "count_2"
+      ]
+    },
+    {
+      "key": "Level.Single06_R_03B.Objective.Main.1",
+      "english": "Have <b>{count}</b> <b>{Building.HouseWithChimney.WithIconPlural}</b>.",
+      "source_text_asset_id": 6510,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.HouseWithChimney.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single06_R_03B.Objective.Main.2",
+      "english": "Obtain <b>{count}</b> pieces of <b>{Resource.Meat.WithIcon}</b>.",
+      "source_text_asset_id": 6510,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Meat.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single06_R_03B.Objective.Secondary",
+      "english": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count_1}</b>.",
+      "source_text_asset_id": 6510,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count_1"
+      ]
+    },
+    {
+      "key": "Level.Single06_R_03B.Objective.Secondary.1",
+      "english": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count}</b>.",
+      "source_text_asset_id": 6510,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6261,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single06_R_03B",
+    "title": "Edgar is Missing",
+    "text_asset_id": 6261,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch06/Levels/Single06_R_03B.bytes",
+    "sha256": "7538fab35bd4098d003118245d984b99c72004adf29879cca8e761512ba6b1db",
+    "header_bytes": 1163,
+    "primary_objective_count": 2,
+    "optional_objective_count": 1,
+    "day_limit": 50,
+    "objectives": [
+      {
+        "NeededAmount": 10,
+        "PrefabKeyToCount": "a122042526ded44a094f22861cb604f2",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 105729,
+          "name": "Winter Cabin",
+          "localization_key": "Building.HouseWithChimney"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 401
+      },
+      {
+        "NeededAmount": 22,
+        "PrefabKeyToCount": "603207bba3fe83b4abb501a8dc519d76",
+        "PrefabKeyForBuilding": "",
+        "Condition": 3,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "VillagerCount",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 116137,
+          "name": "Bridge",
+          "localization_key": "Building.Bridge"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 562
+      },
+      {
+        "NeededAmount": 65,
+        "PrefabKeyToCount": "ca1242d5ba60d48fd9a917cb72e551e2",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 93256,
+          "name": "Meat",
+          "localization_key": "Resource.Meat"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 723
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main",
+        "text": "Have <b>{count_1}</b> <b>{Building.HouseWithChimney.WithIconPlural}</b> and obtain <b>{count_2}</b> pieces of <b>{Resource.Meat.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.HouseWithChimney.WithIconPlural",
+          "Resource.Meat.WithIcon",
+          "count_1",
+          "count_2"
+        ],
+        "source_text_asset_id": 6510,
+        "source_key": "Level.Single06_R_03B.Objective.Main"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Have <b>{count}</b> <b>{Building.HouseWithChimney.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.HouseWithChimney.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6510,
+        "source_key": "Level.Single06_R_03B.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Obtain <b>{count}</b> pieces of <b>{Resource.Meat.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Meat.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6510,
+        "source_key": "Level.Single06_R_03B.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Secondary",
+        "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count_1}</b>.",
+        "unresolved_placeholders": [
+          "Stat.Population.WithIcon",
+          "count_1"
+        ],
+        "source_text_asset_id": 6510,
+        "source_key": "Level.Single06_R_03B.Objective.Secondary"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count}</b>.",
+        "unresolved_placeholders": [
+          "Stat.Population.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6510,
+        "source_key": "Level.Single06_R_03B.Objective.Secondary.1"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelSnow",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": false,
+        "IsConcernHeatAvailable": true,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "033493988e4a4d94b8f8ffd39ecadc63",
+        "gameobject_id": 105694,
+        "name": "Tailor",
+        "localization_key": "Building.CoatMaker"
+      },
+      {
+        "guid": "a122042526ded44a094f22861cb604f2",
+        "gameobject_id": 105729,
+        "name": "Winter Cabin",
+        "localization_key": "Building.HouseWithChimney"
+      },
+      {
+        "guid": "ef055347ed1404c0fb79a68c6ddd4991",
+        "gameobject_id": 80802,
+        "name": "Trappers' Hut",
+        "localization_key": "Building.HuntersHut"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "7f0517aae7626244db91df74eabaffa7",
+        "gameobject_id": 105723,
+        "name": "Stone Mine",
+        "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "b337bbd3ab03d477fae2f76d8bfb8af2",
+        "instance_count": 97,
+        "gameobject_id": 97702,
+        "name": "Winter Pine",
+        "localization_key": "Tree.WinPine"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 17,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "95ab3ec13fc224ea5a49e126af375afb",
+        "instance_count": 26,
+        "gameobject_id": 62711,
+        "name": "PineTree",
+        "localization_key": "Tree.Pine"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "instance_count": 23,
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "instance_count": 1,
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "instance_count": 1,
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 4,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "d1f8e2782f2f644fab802d5c755a8204",
+        "instance_count": 3,
+        "gameobject_id": 72858,
+        "name": "Axe - Iron",
+        "localization_key": "Tool.AxeIron"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "instance_count": 1,
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "instance_count": 1,
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "instance_count": 1,
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "ef055347ed1404c0fb79a68c6ddd4991",
+        "instance_count": 1,
+        "gameobject_id": 80802,
+        "name": "Trappers' Hut",
+        "localization_key": "Building.HuntersHut"
+      },
+      {
+        "guid": "c2b53b746eabf40f29037cca460c2bae",
+        "instance_count": 3,
+        "gameobject_id": 97630,
+        "name": "Basket",
+        "localization_key": "Tool.Basket"
+      },
+      {
+        "guid": "edfecc7cf9db64da394c2f86a82bbc74",
+        "instance_count": 8,
+        "gameobject_id": 97634,
+        "name": "HunterTrap",
+        "localization_key": ""
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 24,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "2771bbd4d544e4796b01566412994396",
+        "instance_count": 6,
+        "gameobject_id": 58011,
+        "name": "Stone",
+        "localization_key": "Resource.Stone"
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 6,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "93e763672d92e4b56bb06e8fe3269a70",
+        "instance_count": 2,
+        "gameobject_id": 110894,
+        "name": "Winter Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 4,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      },
+      {
+        "guid": "072e26590746a594b931ce8ea70714f0",
+        "instance_count": 6,
+        "gameobject_id": 75090,
+        "name": "Plank",
+        "localization_key": "Resource.Plank"
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 72,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

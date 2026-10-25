@@ -1,0 +1,642 @@
+{
+  "id": "Campaign2_Level5C",
+  "name": "Sold Out",
+  "description": "The fame, the admiration, the parties... it all came so fast. Izzy was on his way to play the biggest concert the Outlands had ever seen.",
+  "objectives": [
+    {
+      "id": "Objective.Secondary.2",
+      "text": "Clear all the <b>{Sources.Rock.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Sources.Rock.WithIconPlural"
+      ],
+      "source_text_asset_id": 6484,
+      "source_key": "Level.Campaign2_Level5C.Objective.Secondary.2"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Campaign2_Level5C.Name",
+      "english": "Sold Out",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Campaign2_Level5C.Description",
+      "english": "The fame, the admiration, the parties... it all came so fast. Izzy was on his way to play the biggest concert the Outlands had ever seen.",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Campaign2_Level5C.Objective.Secondary.2",
+      "english": "Clear all the <b>{Sources.Rock.WithIconPlural}</b>.",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": [
+        "Sources.Rock.WithIconPlural"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6305,
+  "campaign_number": 2,
+  "category": "campaign",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Campaign2_Level5C",
+    "title": "Sold Out",
+    "text_asset_id": 6305,
+    "source_level_path": "Assets/Resources/Content/Levels/Campaign 2/Story 5/Campaign2_Level5C.bytes",
+    "sha256": "cc3364f572786149154a58d9bc6093483c75844eba27219dbcbc02dfaba74d70",
+    "header_bytes": 1917,
+    "primary_objective_count": 3,
+    "optional_objective_count": 2,
+    "day_limit": 70,
+    "objectives": [
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "55dd74fc52414704a86053eea623435d",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 67666,
+          "name": "Concert Stage",
+          "localization_key": "Building.FestivalStage"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 513
+      },
+      {
+        "NeededAmount": 500,
+        "PrefabKeyToCount": "917d01092a87344f883ca658c52685ba",
+        "PrefabKeyForBuilding": "ff60a053dc7152f4db00f22ed26df5ae",
+        "Condition": 2,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Consume",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 42880,
+          "name": "Beer",
+          "localization_key": "Resource.Beer"
+        },
+        "building": {
+          "gameobject_id": 35464,
+          "name": "zBeer Stand",
+          "localization_key": "Building.BeerStand"
+        },
+        "header_byte_offset": 738
+      },
+      {
+        "NeededAmount": 100,
+        "PrefabKeyToCount": "d69a1896465107d43ba4df5eaf06fa3d",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 7,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 1.0,
+        "condition_name": "Housing",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 67677,
+          "name": "Plank House",
+          "localization_key": "Building.PlankHouse"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 963
+      },
+      {
+        "NeededAmount": 120,
+        "PrefabKeyToCount": "68146c529eba242b59a824d74431fc86",
+        "PrefabKeyForBuilding": "72e328e1626c6427698be5ccdab7c343",
+        "Condition": 8,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "HaveInBuilding",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 90296,
+          "name": "Veggie",
+          "localization_key": "Resource.Veggie"
+        },
+        "building": {
+          "gameobject_id": 35462,
+          "name": "Market",
+          "localization_key": "Building.Market"
+        },
+        "header_byte_offset": 1188
+      },
+      {
+        "NeededAmount": 40,
+        "PrefabKeyToCount": "2771bbd4d544e4796b01566412994396",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 5,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Extract",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 58011,
+          "name": "Stone",
+          "localization_key": "Resource.Stone"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 1413
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Secondary.2",
+        "text": "Clear all the <b>{Sources.Rock.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Sources.Rock.WithIconPlural"
+        ],
+        "source_text_asset_id": 6484,
+        "source_key": "Level.Campaign2_Level5C.Objective.Secondary.2"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "Level",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "c089a131da7791748a577c633d5a2ff6",
+        "gameobject_id": 40309,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "8eebecf277142204ba189081928c90f8",
+        "gameobject_id": 78174,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "bce16e7ea8ff91e4da1bf626794075e0",
+        "gameobject_id": 116139,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "b181a6ade2121eb4c97d69ef08097932",
+        "gameobject_id": 57397,
+        "name": "Smoothie Stand",
+        "localization_key": "Building.FruitJuiceStand"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "ffa49475cb05e0c48b7efdb975d2ad5a",
+        "gameobject_id": 71100,
+        "name": "Corn Field",
+        "localization_key": "Field.Corn"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "9eb40effdb47a3243b119783975c8664",
+        "gameobject_id": 57396,
+        "name": "Cookie Shop",
+        "localization_key": "Building.CookieShop"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "045b7542e94934d189e3d89b72a36b40",
+        "gameobject_id": 45826,
+        "name": "Brewery",
+        "localization_key": "Building.Brewery"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "d949a2c67d18c477aa5ec656a09f063e",
+        "gameobject_id": 67920,
+        "name": "Pine Tree",
+        "localization_key": "Field.PineTree"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "a4b6e4aeda5edb243ab0f187bf9d2ace",
+        "gameobject_id": 105731,
+        "name": "Fishing Dock",
+        "localization_key": "Building.FishingDock"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "2ac4c7de8c339264c937f75c9ad89a01",
+        "instance_count": 8,
+        "gameobject_id": 79276,
+        "name": "Scythe - Rock",
+        "localization_key": "Tool.ScytheRock"
+      },
+      {
+        "guid": "b8501c41316a6a14b92793239c8cf4e7",
+        "instance_count": 8,
+        "gameobject_id": 99576,
+        "name": "SeedBag",
+        "localization_key": ""
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 12,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "3e1529491e1455a418db5d5667b48ecd",
+        "instance_count": 1,
+        "gameobject_id": 97623,
+        "name": "CheeseMakerBucket",
+        "localization_key": ""
+      },
+      {
+        "guid": "18e899ee9ddba7742b9326bd5ec6d125",
+        "instance_count": 3,
+        "gameobject_id": 97620,
+        "name": "Wheelbarrow",
+        "localization_key": "Tool.Wheelbarrow"
+      },
+      {
+        "guid": "95ab3ec13fc224ea5a49e126af375afb",
+        "instance_count": 354,
+        "gameobject_id": 62711,
+        "name": "PineTree",
+        "localization_key": "Tree.Pine"
+      },
+      {
+        "guid": "e8c6f4a4dbf7846e3a18c1a001a66163",
+        "instance_count": 19,
+        "gameobject_id": 92222,
+        "name": "AppleTree",
+        "localization_key": "Tree.Apple"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 4,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "instance_count": 2,
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "instance_count": 1,
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "instance_count": 1,
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "a1f9687f4e08b7e4296cccdfc75b9787",
+        "instance_count": 1,
+        "gameobject_id": 105730,
+        "name": "Cheesery",
+        "localization_key": "Building.CheeseMaker"
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 11,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "2f75a3fea3f854460ba75c2c08ecb57f",
+        "instance_count": 3,
+        "gameobject_id": 105961,
+        "name": "Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "35d84ca766846c645b387d7d42f14db5",
+        "instance_count": 1,
+        "gameobject_id": 80876,
+        "name": "Leader Izzy C",
+        "localization_key": ""
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "instance_count": 4,
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "ffa49475cb05e0c48b7efdb975d2ad5a",
+        "instance_count": 55,
+        "gameobject_id": 71100,
+        "name": "Corn Field",
+        "localization_key": "Field.Corn"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "instance_count": 54,
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "e40921875e1e2d94c884b1dcd558a208",
+        "instance_count": 1,
+        "gameobject_id": 57126,
+        "name": "Concert Stage",
+        "localization_key": "Building.FestivalStage"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "instance_count": 1,
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "78928447337dd6c4b8e73496588c9505",
+        "instance_count": 8,
+        "gameobject_id": 107080,
+        "name": "Fireflies",
+        "localization_key": ""
+      },
+      {
+        "guid": "102c5357045b4504ea21ae24b3ae7dc5",
+        "instance_count": 1,
+        "gameobject_id": 76559,
+        "name": "Izzy´s Tour Boat",
+        "localization_key": "Decoration.IzzysTourBoat"
+      },
+      {
+        "guid": "aa91c136987e9ad4b8dae78caed7d859",
+        "instance_count": 1,
+        "gameobject_id": 107096,
+        "name": "1-2 Sign#2",
+        "localization_key": ""
+      },
+      {
+        "guid": "21cb2b89ad1e20b499cfe1532aeba245",
+        "instance_count": 1,
+        "gameobject_id": 107056,
+        "name": "Expedition Campsite Fire 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "64bdab56cf1a91242a996303fef41219",
+        "instance_count": 1,
+        "gameobject_id": 107077,
+        "name": "Expedition Campsite Trunk 2",
+        "localization_key": ""
+      },
+      {
+        "guid": "55c55173ec3a7824ea3b6f0114b276f4",
+        "instance_count": 1,
+        "gameobject_id": 107070,
+        "name": "Expedition Campsite Trunk 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "6c8a02061577343418235fa311e69712",
+        "instance_count": 1,
+        "gameobject_id": 107078,
+        "name": "Bird Crow Idle",
+        "localization_key": ""
+      },
+      {
+        "guid": "866fafbe326a9414eaab7612e2dc4fb4",
+        "instance_count": 1,
+        "gameobject_id": 52508,
+        "name": "Spawn 30 Adults",
+        "localization_key": "Notification.SpawnPeople"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "instance_count": 1,
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "instance_count": 294,
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "73bc82e7a16304b908eeaaeb7ed606a3",
+        "instance_count": 13,
+        "gameobject_id": 103664,
+        "name": "Wheat",
+        "localization_key": "Resource.Wheat"
+      },
+      {
+        "guid": "5e298903dabe44a25b2581fcc96f0900",
+        "instance_count": 12,
+        "gameobject_id": 90295,
+        "name": "Fruit",
+        "localization_key": "Resource.Fruit"
+      },
+      {
+        "guid": "a3743572e9e6c7f4d8b8783be0b0844e",
+        "instance_count": 10,
+        "gameobject_id": 97602,
+        "name": "Cheese",
+        "localization_key": "Resource.Cheese"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 19,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "campaign"
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "id": "Campaign2_Level5A",
+  "name": "Anthology",
+  "description": "Out here in the desert, Izzy can finally hear his own thoughts: they're telling him to hydrate if he wants to survive.",
+  "objectives": [],
+  "source_entries": [
+    {
+      "key": "Level.Campaign2_Level5A.Name",
+      "english": "Anthology",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Campaign2_Level5A.Description",
+      "english": "Out here in the desert, Izzy can finally hear his own thoughts: they're telling him to hydrate if he wants to survive.",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6502,
+  "campaign_number": 2,
+  "category": "campaign",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Campaign2_Level5A",
+    "title": "Anthology",
+    "text_asset_id": 6502,
+    "source_level_path": "Assets/Resources/Content/Levels/Campaign 2/Story 5/Campaign2_Level5A.bytes",
+    "sha256": "b2ca27a01f392e023effe0bcf6e8287deed611eb727fc61f7a0432ea32ebbb91",
+    "header_bytes": 2074,
+    "primary_objective_count": 3,
+    "optional_objective_count": 3,
+    "day_limit": 55,
+    "objectives": [
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "PrefabKeyForBuilding": "ff60a053dc7152f4db00f22ed26df5ae",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 35463,
+          "name": "Fitness Park",
+          "localization_key": "Building.Park"
+        },
+        "building": {
+          "gameobject_id": 35464,
+          "name": "zBeer Stand",
+          "localization_key": "Building.BeerStand"
+        },
+        "header_byte_offset": 445
+      },
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 105699,
+          "name": "Playground",
+          "localization_key": "Building.Playground"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 670
+      },
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "a68392366cabc294c97f2daf7bf8b887",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 105732,
+          "name": "Communal Plaza",
+          "localization_key": "Building.Plaza"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 895
+      },
+      {
+        "NeededAmount": 0,
+        "PrefabKeyToCount": "d156686d36f840247b1d54ad1e691e9b",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 2,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 1.0,
+        "condition_name": "Consume",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 92220,
+          "name": "Nopal Tree",
+          "localization_key": "Tree.NopalTree"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 1120
+      },
+      {
+        "NeededAmount": 4,
+        "PrefabKeyToCount": "66b35e9bf1f909946830309193ad3f91",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.25,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 105716,
+          "name": "Zen Garden",
+          "localization_key": "Building.ZenGarden"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 1345
+      },
+      {
+        "NeededAmount": 100,
+        "PrefabKeyToCount": "8e4be3b34291dd54389a3b6b5db14948",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 7,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 1.0,
+        "condition_name": "Housing",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 99941,
+          "name": "AudioEventBase",
+          "localization_key": ""
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 1570
+      }
+    ],
+    "localized_objective_templates": [],
+    "level_config": [
+      {
+        "LevelScene": "LevelDesert",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": true,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "c4547f50c31efbd45b6f22024655b150",
+        "gameobject_id": 38477,
+        "name": "Nopalero's Hut",
+        "localization_key": "Building.DesertForager"
+      },
+      {
+        "guid": "8eebecf277142204ba189081928c90f8",
+        "gameobject_id": 78174,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "bce16e7ea8ff91e4da1bf626794075e0",
+        "gameobject_id": 116139,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "d4b7759971e24cd4fa2a8d0f6569cb3d",
+        "gameobject_id": 67676,
+        "name": "Desert Home",
+        "localization_key": "Building.DesertHouse"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 4,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "18e899ee9ddba7742b9326bd5ec6d125",
+        "instance_count": 3,
+        "gameobject_id": 97620,
+        "name": "Wheelbarrow",
+        "localization_key": "Tool.Wheelbarrow"
+      },
+      {
+        "guid": "d156686d36f840247b1d54ad1e691e9b",
+        "instance_count": 17,
+        "gameobject_id": 92220,
+        "name": "Nopal Tree",
+        "localization_key": "Tree.NopalTree"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 5,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "a385cac47026ac445aa0c74430691898",
+        "instance_count": 25,
+        "gameobject_id": 64025,
+        "name": "Mesquite Tree",
+        "localization_key": "Field.MesquiteTree"
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 1,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 10,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "instance_count": 1,
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "d4b7759971e24cd4fa2a8d0f6569cb3d",
+        "instance_count": 1,
+        "gameobject_id": 67676,
+        "name": "Desert Home",
+        "localization_key": "Building.DesertHouse"
+      },
+      {
+        "guid": "6019edc1cdf4a974299db7ad349a9b7e",
+        "instance_count": 2,
+        "gameobject_id": 72092,
+        "name": "Birds Eagle",
+        "localization_key": ""
+      },
+      {
+        "guid": "86098c379aaeae344a5ed8c64ee9d9af",
+        "instance_count": 1,
+        "gameobject_id": 52507,
+        "name": "Spawn 3 Villagers C2_Lvl05A",
+        "localization_key": "Notification.SpawnPeople"
+      },
+      {
+        "guid": "c41410e4b65648f4ca118471a599c828",
+        "instance_count": 1,
+        "gameobject_id": 52514,
+        "name": "Spawn 3 Villagers C2_Lvl05A 2",
+        "localization_key": "Notification.SpawnPeople"
+      },
+      {
+        "guid": "44e9c601fc5cb834f8c2816439167f71",
+        "instance_count": 1,
+        "gameobject_id": 52503,
+        "name": "Spawn 1 Villager",
+        "localization_key": "Notification.SpawnPeople"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "instance_count": 1,
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "instance_count": 1,
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "ea064053750708e4194ce29553f5eef2",
+        "instance_count": 1,
+        "gameobject_id": 80879,
+        "name": "Leader Izzy A",
+        "localization_key": ""
+      },
+      {
+        "guid": "399c474ffc06295488fa639dc2efbec7",
+        "instance_count": 1,
+        "gameobject_id": 110892,
+        "name": "Desert Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "instance_count": 34,
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 8,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 15,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "campaign"
+  }
+}

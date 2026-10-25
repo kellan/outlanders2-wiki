@@ -1,0 +1,30 @@
+{
+  "id": 279343,
+  "internal_name": "Stew",
+  "name": "Stew",
+  "localization_key": "Resource.Stew",
+  "publicly_named": true,
+  "paths": [
+    "content/resources_/open kitchen/stew"
+  ],
+  "need_units": {
+    "FoodUnits": 1.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 279343,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "Stew",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

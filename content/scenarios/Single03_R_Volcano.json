@@ -1,0 +1,532 @@
+{
+  "id": "Single03_R_Volcano",
+  "name": "Too Cold to Quit",
+  "description": "When they finally reached the top of this ancient, dormant volcano, they realized it looked far better from below. A constant supply of warm cookies will keep spirits high as they breathe new life into this important Outlands landmark.",
+  "objectives": [
+    {
+      "id": "Objective.Main",
+      "text": "Bake <b>{count_1}</b> <b>{Resource.Cookie.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Cookie.WithIconPlural",
+        "count_1"
+      ],
+      "source_text_asset_id": 6371,
+      "source_key": "Level.Single03_R_Volcano.Objective.Main"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Bake <b>{count}</b> <b>{Resource.Cookie.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Cookie.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6371,
+      "source_key": "Level.Single03_R_Volcano.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Secondary",
+      "text": "Have at least <b>{count_1}</b> <b>{Tree.WinPine.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Tree.WinPine.WithIconPlural",
+        "count_1"
+      ],
+      "source_text_asset_id": 6371,
+      "source_key": "Level.Single03_R_Volcano.Objective.Secondary"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Have at least <b>{count}</b> <b>{Tree.WinPine.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Tree.WinPine.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6371,
+      "source_key": "Level.Single03_R_Volcano.Objective.Secondary.1"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single03_R_Volcano.Name",
+      "english": "Too Cold to Quit",
+      "source_text_asset_id": 6371,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single03_R_Volcano.Description",
+      "english": "When they finally reached the top of this ancient, dormant volcano, they realized it looked far better from below. A constant supply of warm cookies will keep spirits high as they breathe new life into this important Outlands landmark.",
+      "source_text_asset_id": 6371,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single03_R_Volcano.Objective.Main",
+      "english": "Bake <b>{count_1}</b> <b>{Resource.Cookie.WithIconPlural}</b>.",
+      "source_text_asset_id": 6371,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Cookie.WithIconPlural",
+        "count_1"
+      ]
+    },
+    {
+      "key": "Level.Single03_R_Volcano.Objective.Main.1",
+      "english": "Bake <b>{count}</b> <b>{Resource.Cookie.WithIconPlural}</b>.",
+      "source_text_asset_id": 6371,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Cookie.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single03_R_Volcano.Objective.Secondary",
+      "english": "Have at least <b>{count_1}</b> <b>{Tree.WinPine.WithIconPlural}</b>.",
+      "source_text_asset_id": 6371,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Tree.WinPine.WithIconPlural",
+        "count_1"
+      ]
+    },
+    {
+      "key": "Level.Single03_R_Volcano.Objective.Secondary.1",
+      "english": "Have at least <b>{count}</b> <b>{Tree.WinPine.WithIconPlural}</b>.",
+      "source_text_asset_id": 6371,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Tree.WinPine.WithIconPlural",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6492,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single03_R_Volcano",
+    "title": "Too Cold to Quit",
+    "text_asset_id": 6492,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch03/Levels/Single03_R_Volcano.bytes",
+    "sha256": "c1ccee604710bbf60b3a7d266eda9305649ab902db069b7c5b97bc8b9ef233a6",
+    "header_bytes": 1010,
+    "primary_objective_count": 1,
+    "optional_objective_count": 1,
+    "day_limit": 70,
+    "objectives": [
+      {
+        "NeededAmount": 40,
+        "PrefabKeyToCount": "6c68de4f59b0c5543b8289f4f3f06ebc",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 97599,
+          "name": "Cookie",
+          "localization_key": "Resource.Cookie"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 409
+      },
+      {
+        "NeededAmount": 30,
+        "PrefabKeyToCount": "b337bbd3ab03d477fae2f76d8bfb8af2",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 97702,
+          "name": "Winter Pine",
+          "localization_key": "Tree.WinPine"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 570
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main",
+        "text": "Bake <b>{count_1}</b> <b>{Resource.Cookie.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Cookie.WithIconPlural",
+          "count_1"
+        ],
+        "source_text_asset_id": 6371,
+        "source_key": "Level.Single03_R_Volcano.Objective.Main"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Bake <b>{count}</b> <b>{Resource.Cookie.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Cookie.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6371,
+        "source_key": "Level.Single03_R_Volcano.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Secondary",
+        "text": "Have at least <b>{count_1}</b> <b>{Tree.WinPine.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Tree.WinPine.WithIconPlural",
+          "count_1"
+        ],
+        "source_text_asset_id": 6371,
+        "source_key": "Level.Single03_R_Volcano.Objective.Secondary"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Have at least <b>{count}</b> <b>{Tree.WinPine.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Tree.WinPine.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6371,
+        "source_key": "Level.Single03_R_Volcano.Objective.Secondary.1"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelSnow",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": true,
+        "IsConcernWellnessAvailable": false,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "033493988e4a4d94b8f8ffd39ecadc63",
+        "gameobject_id": 105694,
+        "name": "Tailor",
+        "localization_key": "Building.CoatMaker"
+      },
+      {
+        "guid": "9eb40effdb47a3243b119783975c8664",
+        "gameobject_id": 57396,
+        "name": "Cookie Shop",
+        "localization_key": "Building.CookieShop"
+      },
+      {
+        "guid": "821e8494d9aa35140ba765e2dac5018b",
+        "gameobject_id": 71093,
+        "name": "Cabbage Field",
+        "localization_key": "Field.Cabbage"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "ff20cad8e3956e447a1e96962d5a9c52",
+        "gameobject_id": 67922,
+        "name": "Winter Pine Tree",
+        "localization_key": "Field.WinPineTree"
+      },
+      {
+        "guid": "6f91f0a136ebf4befa0e90bbbcbf3f79",
+        "gameobject_id": 40306,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "8793924bc37fc12429340646df423230",
+        "gameobject_id": 69352,
+        "name": "Greenhouse",
+        "localization_key": "Building.GreenHouse"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "a122042526ded44a094f22861cb604f2",
+        "gameobject_id": 105729,
+        "name": "Winter Cabin",
+        "localization_key": "Building.HouseWithChimney"
+      },
+      {
+        "guid": "ef055347ed1404c0fb79a68c6ddd4991",
+        "gameobject_id": 80802,
+        "name": "Trappers' Hut",
+        "localization_key": "Building.HuntersHut"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "d7d5d85f831fd4275ae951907b524658",
+        "gameobject_id": 75227,
+        "name": "Trading Outpost",
+        "localization_key": "Building.TradingPost"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "c2b53b746eabf40f29037cca460c2bae",
+        "instance_count": 3,
+        "gameobject_id": 97630,
+        "name": "Basket",
+        "localization_key": "Tool.Basket"
+      },
+      {
+        "guid": "18e899ee9ddba7742b9326bd5ec6d125",
+        "instance_count": 3,
+        "gameobject_id": 97620,
+        "name": "Wheelbarrow",
+        "localization_key": "Tool.Wheelbarrow"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "instance_count": 1,
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 9,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "da94570ec2cdb4a25a2f961098233dc1",
+        "instance_count": 2,
+        "gameobject_id": 107108,
+        "name": "Canoe",
+        "localization_key": "Decoration.Canoe"
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 3,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "ca1242d5ba60d48fd9a917cb72e551e2",
+        "instance_count": 17,
+        "gameobject_id": 93256,
+        "name": "Meat",
+        "localization_key": "Resource.Meat"
+      },
+      {
+        "guid": "e5458553a52454008b3e3a702a5dca69",
+        "instance_count": 9,
+        "gameobject_id": 43399,
+        "name": "Egg",
+        "localization_key": "Resource.Egg"
+      },
+      {
+        "guid": "395256b16efec674f87c1124fbdd0aec",
+        "instance_count": 6,
+        "gameobject_id": 80722,
+        "name": "Glass Pane",
+        "localization_key": "Resource.Glass"
+      },
+      {
+        "guid": "072e26590746a594b931ce8ea70714f0",
+        "instance_count": 21,
+        "gameobject_id": 75090,
+        "name": "Plank",
+        "localization_key": "Resource.Plank"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "instance_count": 1,
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "ac3c375a164b340ecb49555349e7a453",
+        "instance_count": 2,
+        "gameobject_id": 51389,
+        "name": "Winter Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "93e763672d92e4b56bb06e8fe3269a70",
+        "instance_count": 7,
+        "gameobject_id": 110894,
+        "name": "Winter Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 3,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      },
+      {
+        "guid": "5e298903dabe44a25b2581fcc96f0900",
+        "instance_count": 36,
+        "gameobject_id": 90295,
+        "name": "Fruit",
+        "localization_key": "Resource.Fruit"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 39,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 45,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

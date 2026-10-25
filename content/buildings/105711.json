@@ -1,0 +1,140 @@
+{
+  "name": "Open Kitchen",
+  "internal_name": "Open Kitchen",
+  "gameobject_id": 105711,
+  "paths": [
+    "content/buildings/open kitchen/open kitchen"
+  ],
+  "localization_key": "Building.OpenKitchen",
+  "description": "Open Kitchen cooks take any combination of two <style=Input>{Resource.Veggie.WithIconPlural}</style>, <style=Input>{Resource.Meat.WithIconPlural}</style> or <style=Input>{Resource.Egg.WithIconPlural}</style> and cook them over a fire fueled by <style=Input>{Resource.Stick.WithIconPlural}</style>. The result is a delicious <style=Output>{Resource.Stew.WithIcon}</style> that provides <style=Output>{Concern.Nutrition.WithIcon}</style>, while the social environment raises <style=Output>{Concern.Community.WithIcon}</style>.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 3,
+  "workplace_config": {
+    "MaxWorkers": 3,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304346,
+    "build_site_gameobject_id": 57094,
+    "material_inputs": [
+      {
+        "resource_id": 284894,
+        "name": "Stick",
+        "count": 6
+      },
+      {
+        "resource_id": 292310,
+        "name": "Clay",
+        "count": 8
+      }
+    ],
+    "material_formula_ids": [
+      305145
+    ],
+    "all_formula_ids": [
+      292684,
+      305145
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 8.0,
+    "y": 2.0,
+    "z": 8.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    282090,
+    288995,
+    289608,
+    308186,
+    311894,
+    311929,
+    318672
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 279358,
+          "name": "FoodReady",
+          "count": 10
+        },
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 1
+        },
+        {
+          "resource_id": 279355,
+          "name": "Plate",
+          "count": 15
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 279343,
+          "name": "Stew",
+          "count": 15
+        }
+      ],
+      "formula_ids": [
+        288995,
+        289608,
+        311894,
+        318672
+      ],
+      "equipment_category_ids": [],
+      "caveats": [
+        "alternate_or_cyclic_intermediate",
+        "unresolved_internal_input"
+      ],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316543,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Open Kitchen",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 322418,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Open Kitchen",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

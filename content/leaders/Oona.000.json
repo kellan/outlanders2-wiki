@@ -1,0 +1,23 @@
+{
+  "id": "Oona.000",
+  "name": "Oona",
+  "biography": "Wherever she goes, her grimoire goes.",
+  "effect": null,
+  "source_entries": [
+    {
+      "key": "Names.Leader.Oona.000",
+      "english": "Oona",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Bios.Leader.Oona.000",
+      "english": "Wherever she goes, her grimoire goes.",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "localized_description; effect_magnitude_and_gameplay_unverified"
+}

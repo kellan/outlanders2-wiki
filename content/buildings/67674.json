@@ -1,0 +1,64 @@
+{
+  "name": "Gift Shop",
+  "internal_name": "zGift Shop",
+  "gameobject_id": 67674,
+  "paths": [
+    "content/buildings/_campaign buildings/gift shop/zgift shop"
+  ],
+  "localization_key": "Building.BookFairOrnament",
+  "description": "Get your Pablo plushies, Edgar t-shirts, and more memorabilia from Felix's book!",
+  "is_base_or_campaign_asset": true,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304301,
+    "build_site_gameobject_id": 57049,
+    "material_inputs": [
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 8
+      }
+    ],
+    "material_formula_ids": [
+      305101
+    ],
+    "all_formula_ids": [
+      305101,
+      307719
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 6.0,
+    "y": 4.0,
+    "z": 6.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 296487,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "zGift Shop",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

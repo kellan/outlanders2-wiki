@@ -1,0 +1,332 @@
+{
+  "name": "Swimming Pier",
+  "internal_name": "SwimmingPier",
+  "gameobject_id": 105718,
+  "paths": [
+    "content/buildings/swimming pier/swimmingpier"
+  ],
+  "localization_key": "Building.SwimmingPier",
+  "description": "A shoreside swimming spot where outlanders can dive in to raise their <style=Output>{Concern.Entertainment.WithIcon}</style> and <style=Output>{Concern.Refreshment.WithIcon}</style>.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304350,
+    "build_site_gameobject_id": 57098,
+    "material_inputs": [
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 16
+      },
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 8
+      }
+    ],
+    "material_formula_ids": [
+      305149
+    ],
+    "all_formula_ids": [
+      305149,
+      315784
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 8.0,
+    "y": 4.0,
+    "z": 8.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [],
+    "TileConstraints": [
+      {
+        "ValidTerrains": [
+          2,
+          3
+        ]
+      },
+      {
+        "ValidTerrains": [
+          2,
+          3
+        ]
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": [
+          2,
+          3
+        ]
+      },
+      {
+        "ValidTerrains": [
+          2,
+          3
+        ]
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": [
+          1
+        ]
+      },
+      {
+        "ValidTerrains": []
+      },
+      {
+        "ValidTerrains": []
+      }
+    ],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316550,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "SwimmingPier",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Nopal Tree",
+  "internal_name": "Field NopalTree",
+  "gameobject_id": 67916,
+  "paths": [
+    "content/buildings/orchard/fields/field nopaltree"
+  ],
+  "localization_key": "Field.NopalTree",
+  "description": null,
+  "is_base_or_campaign_asset": false,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 289094,
+    "build_site_gameobject_id": 78985,
+    "material_inputs": [],
+    "material_formula_ids": [],
+    "all_formula_ids": [
+      289779
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 4.0,
+    "y": 1.0,
+    "z": 4.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 0,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    305954,
+    308607
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "resource_id": 300126,
+          "name": "Fruit",
+          "count": 1
+        }
+      ],
+      "formula_ids": [
+        308607
+      ],
+      "equipment_category_ids": [],
+      "caveats": [
+        "resource_extraction_requires_source",
+        "source_or_nonmaterial_process_not_free_production"
+      ],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 296624,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Field NopalTree",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null,
+  "is_plant": true,
+  "original_display_name": "Field NopalTree"
+}

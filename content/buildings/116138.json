@@ -1,0 +1,69 @@
+{
+  "name": "Stone Road",
+  "internal_name": "Road Stone",
+  "gameobject_id": 116138,
+  "paths": [
+    "content/buildings/road stone/road stone"
+  ],
+  "localization_key": "Building.StoneRoad",
+  "description": "Outlanders walk much faster on stone roads than on regular roads.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304356,
+    "build_site_gameobject_id": 57104,
+    "material_inputs": [
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 1
+      }
+    ],
+    "material_formula_ids": [
+      305155
+    ],
+    "all_formula_ids": [
+      296399,
+      305155
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 2.0,
+    "y": 0.0,
+    "z": 2.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 1.0,
+    "BlocksEntrances": 0,
+    "ConnectsZones": 0,
+    "BuildOver": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 273048
+      }
+    ],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 1
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 322665,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Road Stone",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

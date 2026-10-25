@@ -1,0 +1,55 @@
+{
+  "name": "Stock",
+  "internal_name": "Stock",
+  "gameobject_id": 75802,
+  "paths": [
+    "content/buildings/stock/stock"
+  ],
+  "localization_key": "",
+  "description": null,
+  "is_base_or_campaign_asset": false,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304328,
+    "build_site_gameobject_id": 57076,
+    "material_inputs": [],
+    "material_formula_ids": [],
+    "all_formula_ids": [
+      305127
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 2.0,
+    "y": 2.0,
+    "z": 2.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 1.0,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 300803,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Stock",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

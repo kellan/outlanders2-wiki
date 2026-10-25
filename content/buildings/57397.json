@@ -1,0 +1,118 @@
+{
+  "name": "Smoothie Stand",
+  "internal_name": "Smoothie Stand",
+  "gameobject_id": 57397,
+  "paths": [
+    "content/buildings/smoothie stand/smoothie stand"
+  ],
+  "localization_key": "Building.FruitJuiceStand",
+  "description": "Workers at this stand take two <style=Input>{Resource.Fruit.WithIconPlural}</style> and blend them into a delicious <style=Output>{Resource.FruitJuice.WithIcon}</style> that raises <style=Output>{Concern.Wellness.WithIcon}</style>.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 2,
+  "workplace_config": {
+    "MaxWorkers": 2,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 281140,
+    "build_site_gameobject_id": 98769,
+    "material_inputs": [
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 6
+      },
+      {
+        "resource_id": 309169,
+        "name": "Log",
+        "count": 4
+      }
+    ],
+    "material_formula_ids": [
+      280520
+    ],
+    "all_formula_ids": [
+      280520,
+      298281
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 4.0,
+    "y": 3.0,
+    "z": 4.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    307101
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 300126,
+          "name": "Fruit",
+          "count": 1
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 286361,
+          "name": "Smoothie",
+          "count": 2
+        }
+      ],
+      "formula_ids": [
+        307101
+      ],
+      "equipment_category_ids": [],
+      "caveats": [],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 290253,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Smoothie Stand",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 313627,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Smoothie Stand",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

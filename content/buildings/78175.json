@@ -1,0 +1,69 @@
+{
+  "name": "Brick Road",
+  "internal_name": "zNonRecycle Road Brick",
+  "gameobject_id": 78175,
+  "paths": [
+    "content/buildings/road brick/znonrecycle road brick"
+  ],
+  "localization_key": "Building.BrickRoad",
+  "description": "Outlanders walk much faster on roads paved with <style=Output>{Resource.Brick.WithIconPlural}</style> compared to regular roads.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 307706,
+    "build_site_gameobject_id": 71999,
+    "material_inputs": [
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 1
+      }
+    ],
+    "material_formula_ids": [
+      307007
+    ],
+    "all_formula_ids": [
+      292584,
+      307007
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 2.0,
+    "y": 0.0,
+    "z": 2.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 1.0,
+    "BlocksEntrances": 0,
+    "ConnectsZones": 0,
+    "BuildOver": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 273048
+      }
+    ],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 1
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 302601,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "zNonRecycle Road Brick",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

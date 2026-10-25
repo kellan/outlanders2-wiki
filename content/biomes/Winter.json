@@ -1,0 +1,41 @@
+{
+  "id": "Winter",
+  "name": "Winterlands",
+  "source": {
+    "key": "Sandbox.Biome.Winter",
+    "english": "Winterlands",
+    "source_text_asset_id": 6291,
+    "source_table": "Game",
+    "unresolved_placeholders": []
+  },
+  "rules_text": [
+    {
+      "key": "Concern.Heat.Description",
+      "english": "Extreme low temperatures in the Winterlands make survival tough. <b>Being cold for too long will result in death.</b> Satisfying this need activates the <b>{UI.Boost.Heat.WithIcon}</b>, making it <b>easier to satisfy every other need.</b>",
+      "source_text_asset_id": 6291,
+      "source_table": "Game",
+      "unresolved_placeholders": [
+        "UI.Boost.Heat.WithIcon"
+      ]
+    },
+    {
+      "key": "Hints.Level02C.HeatIntro.Large",
+      "english": "Villagers need <style=Input>{Concern.Heat.WithIcon}</style> in order to survive in the cold in the <style=Input>Winterlands</style>, otherwise they'll freeze to death.",
+      "source_text_asset_id": 6410,
+      "source_table": "Hints",
+      "unresolved_placeholders": [
+        "Concern.Heat.WithIcon"
+      ]
+    },
+    {
+      "key": "Hints.Level02C.HuntingIntro.Large",
+      "english": "There's no farming or foraging in the Winterlands.\nYou'll need to trap animals to get <style=Input>{ResourceCategory.Food.WithIcon}</style>.",
+      "source_text_asset_id": 6410,
+      "source_table": "Hints",
+      "unresolved_placeholders": [
+        "ResourceCategory.Food.WithIcon"
+      ]
+    }
+  ],
+  "verification_status": "localized_name_and_help_text; environmental_values_and_level_assignments_unverified"
+}

@@ -1,0 +1,312 @@
+{
+  "id": "Single01_L_Andes",
+  "name": "Alike!",
+  "description": "While visiting the site of a famous accident, a group of tourists find themselves stranded. Having heard the survival story a thousand times, they should have no problem getting heat and making contact with the outside world in record time.",
+  "objectives": [
+    {
+      "id": "Objective.Main",
+      "text": "Have a <b>{Building.TradingPost.WithIcon}</b> and a <b>{Building.Bonfire.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.Bonfire.WithIcon",
+        "Building.TradingPost.WithIcon"
+      ],
+      "source_text_asset_id": 6257,
+      "source_key": "Level.Single01_L_Andes.Objective.Main"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Have a <b>{Building.TradingPost.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.TradingPost.WithIcon"
+      ],
+      "source_text_asset_id": 6257,
+      "source_key": "Level.Single01_L_Andes.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Have a <b>{Building.Bonfire.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.Bonfire.WithIcon"
+      ],
+      "source_text_asset_id": 6257,
+      "source_key": "Level.Single01_L_Andes.Objective.Main.2"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single01_L_Andes.Name",
+      "english": "Alike!",
+      "source_text_asset_id": 6257,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single01_L_Andes.Description",
+      "english": "While visiting the site of a famous accident, a group of tourists find themselves stranded. Having heard the survival story a thousand times, they should have no problem getting heat and making contact with the outside world in record time.",
+      "source_text_asset_id": 6257,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single01_L_Andes.Objective.Main",
+      "english": "Have a <b>{Building.TradingPost.WithIcon}</b> and a <b>{Building.Bonfire.WithIcon}</b>.",
+      "source_text_asset_id": 6257,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.Bonfire.WithIcon",
+        "Building.TradingPost.WithIcon"
+      ]
+    },
+    {
+      "key": "Level.Single01_L_Andes.Objective.Main.1",
+      "english": "Have a <b>{Building.TradingPost.WithIcon}</b>.",
+      "source_text_asset_id": 6257,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.TradingPost.WithIcon"
+      ]
+    },
+    {
+      "key": "Level.Single01_L_Andes.Objective.Main.2",
+      "english": "Have a <b>{Building.Bonfire.WithIcon}</b>.",
+      "source_text_asset_id": 6257,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.Bonfire.WithIcon"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6479,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single01_L_Andes",
+    "title": "Alike!",
+    "text_asset_id": 6479,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch01/Levels/Single01_L_Andes.bytes",
+    "sha256": "102d1dd6f22819536105df3b28648f101fb835a8bc64d6deacc10edb80dd44c9",
+    "header_bytes": 1006,
+    "primary_objective_count": 2,
+    "optional_objective_count": 0,
+    "day_limit": -1,
+    "objectives": [
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "d7d5d85f831fd4275ae951907b524658",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 75227,
+          "name": "Trading Outpost",
+          "localization_key": "Building.TradingPost"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 405
+      },
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "87484fda17028401dbd7af2eb9bab112",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 94267,
+          "name": "Bonfire",
+          "localization_key": "Building.Bonfire"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 566
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main",
+        "text": "Have a <b>{Building.TradingPost.WithIcon}</b> and a <b>{Building.Bonfire.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.Bonfire.WithIcon",
+          "Building.TradingPost.WithIcon"
+        ],
+        "source_text_asset_id": 6257,
+        "source_key": "Level.Single01_L_Andes.Objective.Main"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Have a <b>{Building.TradingPost.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.TradingPost.WithIcon"
+        ],
+        "source_text_asset_id": 6257,
+        "source_key": "Level.Single01_L_Andes.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Have a <b>{Building.Bonfire.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.Bonfire.WithIcon"
+        ],
+        "source_text_asset_id": 6257,
+        "source_key": "Level.Single01_L_Andes.Objective.Main.2"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelSnow",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": false,
+        "IsConcernEntertainmentAvailable": false,
+        "IsConcernHeatAvailable": true,
+        "IsConcernWellnessAvailable": false,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "a122042526ded44a094f22861cb604f2",
+        "gameobject_id": 105729,
+        "name": "Winter Cabin",
+        "localization_key": "Building.HouseWithChimney"
+      },
+      {
+        "guid": "ef055347ed1404c0fb79a68c6ddd4991",
+        "gameobject_id": 80802,
+        "name": "Trappers' Hut",
+        "localization_key": "Building.HuntersHut"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "d7d5d85f831fd4275ae951907b524658",
+        "gameobject_id": 75227,
+        "name": "Trading Outpost",
+        "localization_key": "Building.TradingPost"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "b337bbd3ab03d477fae2f76d8bfb8af2",
+        "instance_count": 70,
+        "gameobject_id": 97702,
+        "name": "Winter Pine",
+        "localization_key": "Tree.WinPine"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 7,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 8,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 1,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "034f36ac4e1afd44aa69391903e6c3db",
+        "instance_count": 1,
+        "gameobject_id": 52498,
+        "name": "No Reproduction Single00 L",
+        "localization_key": "Notification.NoReproduction"
+      },
+      {
+        "guid": "93e763672d92e4b56bb06e8fe3269a70",
+        "instance_count": 7,
+        "gameobject_id": 110894,
+        "name": "Winter Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 7,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

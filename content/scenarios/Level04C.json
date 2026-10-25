@@ -1,0 +1,547 @@
+{
+  "id": "Level04C",
+  "name": "Too Many Cookies",
+  "description": "As she outgrew her cookie van, she reached the end of the road. If she hadn't left all the previous towns behind, she might've realized how difficult it was to build her own.",
+  "objectives": [
+    {
+      "id": "Objective.Main.1",
+      "text": "Bake <b>{count}</b> <b>{Resource.Cookie.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Cookie.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level04C.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Have <b>{count}</b> <b>{Building.CookieShop.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.CookieShop.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level04C.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Have <b>{count}</b> <b>{Resource.Wood.WithIconPlural}</b> in stock.",
+      "unresolved_placeholders": [
+        "Resource.Wood.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level04C.Objective.Secondary.1"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Level04C.Name",
+      "english": "Too Many Cookies",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Level04C.Description",
+      "english": "As she outgrew her cookie van, she reached the end of the road. If she hadn't left all the previous towns behind, she might've realized how difficult it was to build her own.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Level04C.Objective.Main.1",
+      "english": "Bake <b>{count}</b> <b>{Resource.Cookie.WithIconPlural}</b>.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Resource.Cookie.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Level04C.Objective.Main.2",
+      "english": "Have <b>{count}</b> <b>{Building.CookieShop.WithIconPlural}</b>.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Building.CookieShop.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Level04C.Objective.Secondary.1",
+      "english": "Have <b>{count}</b> <b>{Resource.Wood.WithIconPlural}</b> in stock.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Resource.Wood.WithIconPlural",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6313,
+  "campaign_number": 1,
+  "category": "campaign",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Level04C",
+    "title": "Too Many Cookies",
+    "text_asset_id": 6313,
+    "source_level_path": "Assets/Resources/Content/Levels/Campaign/Campaign 1/Level04C.bytes",
+    "sha256": "0591f8c242ab334cef62f6bc86dccada2665d2aafba39ce818013dcca084de10",
+    "header_bytes": 1128,
+    "primary_objective_count": 2,
+    "optional_objective_count": 1,
+    "day_limit": 80,
+    "objectives": [
+      {
+        "NeededAmount": 200,
+        "PrefabKeyToCount": "6c68de4f59b0c5543b8289f4f3f06ebc",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 97599,
+          "name": "Cookie",
+          "localization_key": "Resource.Cookie"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 497
+      },
+      {
+        "NeededAmount": 7,
+        "PrefabKeyToCount": "9eb40effdb47a3243b119783975c8664",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 57396,
+          "name": "Cookie Shop",
+          "localization_key": "Building.CookieShop"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 658
+      },
+      {
+        "NeededAmount": 150,
+        "PrefabKeyToCount": "cbdef787909bb1842b47662d86ce4ad4",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 80725,
+          "name": "Log",
+          "localization_key": "Resource.Wood"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 819
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main.1",
+        "text": "Bake <b>{count}</b> <b>{Resource.Cookie.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Cookie.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level04C.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Have <b>{count}</b> <b>{Building.CookieShop.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.CookieShop.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level04C.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Have <b>{count}</b> <b>{Resource.Wood.WithIconPlural}</b> in stock.",
+        "unresolved_placeholders": [
+          "Resource.Wood.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level04C.Objective.Secondary.1"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "LeaderboardType": 0
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "045b7542e94934d189e3d89b72a36b40",
+        "gameobject_id": 45826,
+        "name": "Brewery",
+        "localization_key": "Building.Brewery"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "9eb40effdb47a3243b119783975c8664",
+        "gameobject_id": 57396,
+        "name": "Cookie Shop",
+        "localization_key": "Building.CookieShop"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "d949a2c67d18c477aa5ec656a09f063e",
+        "gameobject_id": 67920,
+        "name": "Pine Tree",
+        "localization_key": "Field.PineTree"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "6f91f0a136ebf4befa0e90bbbcbf3f79",
+        "gameobject_id": 40306,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "50154c674f0f7eb48aab1b75189cd5e8",
+        "instance_count": 8,
+        "gameobject_id": 97625,
+        "name": "Pick",
+        "localization_key": "Tool.Pick"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "instance_count": 2,
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "instance_count": 1,
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 14,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 58,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "1563b62a2b7064b3ab44ddd9f6a04262",
+        "instance_count": 6,
+        "gameobject_id": 92214,
+        "name": "FigTree",
+        "localization_key": "Tree.Fig"
+      },
+      {
+        "guid": "e8c6f4a4dbf7846e3a18c1a001a66163",
+        "instance_count": 17,
+        "gameobject_id": 92222,
+        "name": "AppleTree",
+        "localization_key": "Tree.Apple"
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 2,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "instance_count": 2,
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 7,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "072e26590746a594b931ce8ea70714f0",
+        "instance_count": 19,
+        "gameobject_id": 75090,
+        "name": "Plank",
+        "localization_key": "Resource.Plank"
+      },
+      {
+        "guid": "5e298903dabe44a25b2581fcc96f0900",
+        "instance_count": 27,
+        "gameobject_id": 90295,
+        "name": "Fruit",
+        "localization_key": "Resource.Fruit"
+      },
+      {
+        "guid": "b6dd3a11f4d7aaf49bf5ed246bc67956",
+        "instance_count": 1,
+        "gameobject_id": 107097,
+        "name": "4-3 CookieVan",
+        "localization_key": "Decorations.BrokenCookieVan"
+      },
+      {
+        "guid": "dbce2c22fd2121249aba32afc79fed77",
+        "instance_count": 2,
+        "gameobject_id": 107109,
+        "name": "4-3 DeadEndSign",
+        "localization_key": "Decorations.DeadEndSign"
+      },
+      {
+        "guid": "c3a893d6c31dd2047bc44e673d4b4b05",
+        "instance_count": 1,
+        "gameobject_id": 107102,
+        "name": "4-3 FoxTwinStatue",
+        "localization_key": "Decorations.StatueRonaldFox"
+      },
+      {
+        "guid": "049760704a44fd04cbc5aebc371afef1",
+        "instance_count": 3,
+        "gameobject_id": 81576,
+        "name": "Tool Pick",
+        "localization_key": ""
+      },
+      {
+        "guid": "aac5b3f1e7fa38a458d385042dcd5cfa",
+        "instance_count": 3,
+        "gameobject_id": 81590,
+        "name": "Tool Hammer",
+        "localization_key": ""
+      },
+      {
+        "guid": "e53f3b47ed960e143ac36f3d2fe9e75a",
+        "instance_count": 1,
+        "gameobject_id": 55507,
+        "name": "Birds flock Seagull",
+        "localization_key": ""
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 13,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "4a5c87ee3b2331f49b07029ffb94d492",
+        "instance_count": 1,
+        "gameobject_id": 44812,
+        "name": "Villager Old",
+        "localization_key": ""
+      },
+      {
+        "guid": "02e6033a8a816db45a67b38e659f990e",
+        "instance_count": 1,
+        "gameobject_id": 45088,
+        "name": "Leader Maddy C",
+        "localization_key": ""
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 13,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      },
+      {
+        "guid": "2771bbd4d544e4796b01566412994396",
+        "instance_count": 9,
+        "gameobject_id": 58011,
+        "name": "Stone",
+        "localization_key": "Resource.Stone"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "campaign"
+  }
+}

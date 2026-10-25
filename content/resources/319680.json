@@ -1,0 +1,30 @@
+{
+  "id": 319680,
+  "internal_name": "Cookie",
+  "name": "Cookie",
+  "localization_key": "Resource.Cookie",
+  "publicly_named": true,
+  "paths": [
+    "content/resources_/cookieshop/cookie"
+  ],
+  "need_units": {
+    "FoodUnits": 1.0,
+    "EntertainmentUnits": 4.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 319680,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "Cookie",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

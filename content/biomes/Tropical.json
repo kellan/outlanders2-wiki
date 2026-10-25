@@ -1,0 +1,50 @@
+{
+  "id": "Tropical",
+  "name": "Tropiclands",
+  "source": {
+    "key": "Sandbox.Biome.Tropical",
+    "english": "Tropiclands",
+    "source_text_asset_id": 6291,
+    "source_table": "Game",
+    "unresolved_placeholders": []
+  },
+  "rules_text": [
+    {
+      "key": "Concern.Refreshment.Description",
+      "english": "High temperatures in the Tropiclands make daytime work tough. <b>Lack of Cooling will reduce a villager's movement speed.</b> Satisfying this need activates the <b>{UI.Boost.Refreshment.WithIcon}</b>, making it <b>easier to satisfy every other need.</b>",
+      "source_text_asset_id": 6291,
+      "source_table": "Game",
+      "unresolved_placeholders": [
+        "UI.Boost.Refreshment.WithIcon"
+      ]
+    },
+    {
+      "key": "Hints.Level03C.TropicalIntro.Large",
+      "english": "Welcome to the <style=Input>Tropiclands</style>!",
+      "source_text_asset_id": 6410,
+      "source_table": "Hints",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Hints.Level03C.RefreshmentIntro.Large",
+      "english": "The high temperatures of the <style=Input>Tropiclands</style> make villagers walk much slower. \nThey now have a new need: <style=Input>{Concern.Refreshment.WithIcon}</style>.",
+      "source_text_asset_id": 6410,
+      "source_table": "Hints",
+      "unresolved_placeholders": [
+        "Concern.Refreshment.WithIcon"
+      ]
+    },
+    {
+      "key": "Hints.Level03C.ReedIntro.Large",
+      "english": "<style=Input>{Building.TropicalHouse.WithIconPlural}</style> are made of <style=Input>{Resource.Reed.WithIconPlural}</style>, a <style=Input>{ResourceCategory.Construction.WithIcon}</style> found exclusively in the <style=Input>Tropiclands</style>.",
+      "source_text_asset_id": 6410,
+      "source_table": "Hints",
+      "unresolved_placeholders": [
+        "Building.TropicalHouse.WithIconPlural",
+        "Resource.Reed.WithIconPlural",
+        "ResourceCategory.Construction.WithIcon"
+      ]
+    }
+  ],
+  "verification_status": "localized_name_and_help_text; environmental_values_and_level_assignments_unverified"
+}

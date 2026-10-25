@@ -1,0 +1,23 @@
+{
+  "id": "Desert",
+  "name": "Drylands",
+  "source": {
+    "key": "Sandbox.Biome.Desert",
+    "english": "Drylands",
+    "source_text_asset_id": 6291,
+    "source_table": "Game",
+    "unresolved_placeholders": []
+  },
+  "rules_text": [
+    {
+      "key": "Concern.Hydration.Description",
+      "english": "The conditions of the Drylands are a challenge for outlanders. <b>Being dehydrated for too long will result in death.</b> Satisfying this need activates the <b>{UI.Boost.Hydration.WithIcon}</b>, making it <b>easier to satisfy every other need.</b>",
+      "source_text_asset_id": 6291,
+      "source_table": "Game",
+      "unresolved_placeholders": [
+        "UI.Boost.Hydration.WithIcon"
+      ]
+    }
+  ],
+  "verification_status": "localized_name_and_help_text; environmental_values_and_level_assignments_unverified"
+}

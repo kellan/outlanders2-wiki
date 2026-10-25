@@ -1,0 +1,30 @@
+{
+  "id": "Pablo.000",
+  "name": "Pablo",
+  "biography": "Knows everything there is to know about the Outlands. Except where it ends.",
+  "effect": "Villagers are happy to be around Pablo!",
+  "source_entries": [
+    {
+      "key": "Names.Leader.Pablo.000",
+      "english": "Pablo",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Bios.Leader.Pablo.000",
+      "english": "Knows everything there is to know about the Outlands. Except where it ends.",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Effects.Leader.Pablo.000",
+      "english": "Villagers are happy to be around Pablo!",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "localized_description; effect_magnitude_and_gameplay_unverified"
+}

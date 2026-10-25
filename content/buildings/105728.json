@@ -1,0 +1,132 @@
+{
+  "name": "Glassworks",
+  "internal_name": "Glass Maker",
+  "gameobject_id": 105728,
+  "paths": [
+    "content/buildings/glass maker/glass maker"
+  ],
+  "localization_key": "Building.GlassMaker",
+  "description": "Glass workers light a fire with <style=Input>{Resource.Stick.WithIconPlural}</style> and, through the use of science, make <style=Output>{Resource.Glass.WithIconPlural}</style> out of common sand. You read that right.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 2,
+  "workplace_config": {
+    "MaxWorkers": 2,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304337,
+    "build_site_gameobject_id": 57085,
+    "material_inputs": [
+      {
+        "resource_id": 284026,
+        "name": "Brick",
+        "count": 8
+      },
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 13
+      }
+    ],
+    "material_formula_ids": [
+      305136
+    ],
+    "all_formula_ids": [
+      287229,
+      305136
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 10.0,
+    "y": 4.0,
+    "z": 10.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    277842,
+    290311,
+    290586,
+    291325,
+    300076,
+    301192,
+    302107,
+    304524
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 3
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 309166,
+          "name": "Glass Pane",
+          "count": 2
+        }
+      ],
+      "formula_ids": [
+        277842,
+        290311,
+        290586,
+        291325,
+        300076,
+        301192,
+        302107,
+        304524
+      ],
+      "equipment_category_ids": [],
+      "caveats": [],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316560,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Glass Maker",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 301324,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Glass Maker",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

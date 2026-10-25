@@ -1,0 +1,132 @@
+{
+  "name": "Oasis",
+  "internal_name": "Oasis",
+  "gameobject_id": 69350,
+  "paths": [
+    "content/buildings/oasis/oasis"
+  ],
+  "localization_key": "Building.Oasis",
+  "description": "Oasis workers can plant both <style=Input>{Sources.FruitTree.WithIconPlural}</style> and <style=Input>{Sources.Field.WithIconPlural}</style> on the highlighted area, and harvest their <style=Input>{Resource.Fruit.WithIconPlural}</style>, <style=Output>{Resource.Veggie.WithIconPlural}</style> and <style=Output>{Resource.Nopalito.WithIconPlural}</style> when they're ready.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 4,
+  "workplace_config": {
+    "MaxWorkers": 4,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 273069
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304380,
+    "build_site_gameobject_id": 57128,
+    "material_inputs": [
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 10
+      }
+    ],
+    "material_formula_ids": [
+      305178
+    ],
+    "all_formula_ids": [
+      290925,
+      305178
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 8.0,
+    "y": 4.0,
+    "z": 8.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    289975,
+    297818,
+    303468,
+    317563
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "resource_id": 300126,
+          "name": "Fruit",
+          "count": 1
+        }
+      ],
+      "formula_ids": [
+        289975
+      ],
+      "equipment_category_ids": [],
+      "caveats": [
+        "resource_extraction_requires_source",
+        "source_or_nonmaterial_process_not_free_production"
+      ],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    },
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "resource_id": 286347,
+          "name": "Nopalito",
+          "count": 1
+        }
+      ],
+      "formula_ids": [
+        317563
+      ],
+      "equipment_category_ids": [],
+      "caveats": [
+        "resource_extraction_requires_source",
+        "source_or_nonmaterial_process_not_free_production"
+      ],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 297593,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Oasis",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 316377,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Oasis",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

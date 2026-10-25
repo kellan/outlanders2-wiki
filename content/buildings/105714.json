@@ -1,0 +1,118 @@
+{
+  "name": "Beehive",
+  "internal_name": "Beehive",
+  "gameobject_id": 105714,
+  "paths": [
+    "content/buildings/beehive/beehive"
+  ],
+  "localization_key": "Building.Beehive",
+  "description": "Beekeepers extract <style=Output>{Resource.HoneyPot.WithIcon}</style> from bees, which raises <style=Output>{Concern.Wellness.WithIcon}</style>.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 1,
+  "workplace_config": {
+    "MaxWorkers": 1,
+    "WorkTimeRange": {
+      "Start": 0.949999988079071,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 293041,
+    "build_site_gameobject_id": 76746,
+    "material_inputs": [
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 6
+      },
+      {
+        "resource_id": 292310,
+        "name": "Clay",
+        "count": 8
+      }
+    ],
+    "material_formula_ids": [
+      293637
+    ],
+    "all_formula_ids": [
+      293637,
+      315142
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 4.0,
+    "y": 0.0,
+    "z": 4.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    289846,
+    300057,
+    309223
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "resource_id": 292311,
+          "name": "Honey",
+          "count": 1
+        }
+      ],
+      "formula_ids": [
+        289846,
+        300057,
+        309223
+      ],
+      "equipment_category_ids": [],
+      "caveats": [
+        "source_or_nonmaterial_process_not_free_production"
+      ],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316546,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Beehive",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 306764,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Beehive",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "id": "Campaign2_Level4A",
+  "name": "No memory",
+  "description": "After barely surviving being thrown overboard during a storm, Chico swears a talking fish granted him a wish—but he can't remember what! As he reached a nearby island, he rushed to find the fish again.",
+  "objectives": [],
+  "source_entries": [
+    {
+      "key": "Level.Campaign2_Level4A.Name",
+      "english": "No memory",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Campaign2_Level4A.Description",
+      "english": "After barely surviving being thrown overboard during a storm, Chico swears a talking fish granted him a wish—but he can't remember what! As he reached a nearby island, he rushed to find the fish again.",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6578,
+  "campaign_number": 2,
+  "category": "campaign",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Campaign2_Level4A",
+    "title": "No memory",
+    "text_asset_id": 6578,
+    "source_level_path": "Assets/Resources/Content/Levels/Campaign 2/Story 4/Campaign2_Level4A.bytes",
+    "sha256": "ca56a931b2fac81309ad00f4cae2f0876d2a720b7fbcdc9ff8fcc82caf827537",
+    "header_bytes": 1680,
+    "primary_objective_count": 2,
+    "optional_objective_count": 2,
+    "day_limit": 45,
+    "objectives": [
+      {
+        "NeededAmount": 20,
+        "PrefabKeyToCount": "ca1242d5ba60d48fd9a917cb72e551e2",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 93256,
+          "name": "Meat",
+          "localization_key": "Resource.Meat"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 513
+      },
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "578d4586224990b4099233f511e9ffd8",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 67667,
+          "name": "Two-Story House",
+          "localization_key": "Building.HouseStone"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 738
+      },
+      {
+        "NeededAmount": 5,
+        "PrefabKeyToCount": "fa8020660f384a8498fc4d700ffac0b0",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 1.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 85248,
+          "name": "Calla Lilly Planter",
+          "localization_key": "Building.PlanterCallaLilly"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 963
+      },
+      {
+        "NeededAmount": 3,
+        "PrefabKeyToCount": "806cee0400aaedf4f876b1d234bea487",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 1.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 105724,
+          "name": "Silky Oak Tree Pit",
+          "localization_key": "Building.SilkyOak"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 1188
+      }
+    ],
+    "localized_objective_templates": [],
+    "level_config": [
+      {
+        "LevelScene": "",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "LeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "a4b6e4aeda5edb243ab0f187bf9d2ace",
+        "gameobject_id": 105731,
+        "name": "Fishing Dock",
+        "localization_key": "Building.FishingDock"
+      },
+      {
+        "guid": "bce16e7ea8ff91e4da1bf626794075e0",
+        "gameobject_id": 116139,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "8eebecf277142204ba189081928c90f8",
+        "gameobject_id": 78174,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "578d4586224990b4099233f511e9ffd8",
+        "gameobject_id": 67667,
+        "name": "Two-Story House",
+        "localization_key": "Building.HouseStone"
+      },
+      {
+        "guid": "806cee0400aaedf4f876b1d234bea487",
+        "gameobject_id": 105724,
+        "name": "Silky Oak Tree Pit",
+        "localization_key": "Building.SilkyOak"
+      },
+      {
+        "guid": "fa8020660f384a8498fc4d700ffac0b0",
+        "gameobject_id": 85248,
+        "name": "Calla Lilly Planter",
+        "localization_key": "Building.PlanterCallaLilly"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "dcc4a2a85cac243a796ee1944133eaef",
+        "instance_count": 24,
+        "gameobject_id": 44039,
+        "name": "Plate",
+        "localization_key": "Resource.OpenKitchen.Plate"
+      },
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 15,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 2,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "e8c6f4a4dbf7846e3a18c1a001a66163",
+        "instance_count": 5,
+        "gameobject_id": 92222,
+        "name": "AppleTree",
+        "localization_key": "Tree.Apple"
+      },
+      {
+        "guid": "5c167dc8f95bbea4a86abebb4e359c59",
+        "instance_count": 1,
+        "gameobject_id": 107074,
+        "name": "2-1 Dock",
+        "localization_key": "Decorations.BrokenFerryDock"
+      },
+      {
+        "guid": "d5e93ef656a2280458607f66f790b179",
+        "instance_count": 1,
+        "gameobject_id": 98661,
+        "name": "Chico´s Ship",
+        "localization_key": "Decoration.ChicosShip"
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 2,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 4,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "fa8020660f384a8498fc4d700ffac0b0",
+        "instance_count": 5,
+        "gameobject_id": 85248,
+        "name": "Calla Lilly Planter",
+        "localization_key": "Building.PlanterCallaLilly"
+      },
+      {
+        "guid": "806cee0400aaedf4f876b1d234bea487",
+        "instance_count": 3,
+        "gameobject_id": 105724,
+        "name": "Silky Oak Tree Pit",
+        "localization_key": "Building.SilkyOak"
+      },
+      {
+        "guid": "acbd98a561cbae8438bc404b74e11f37",
+        "instance_count": 5,
+        "gameobject_id": 112633,
+        "name": "Plant Calla Lilly",
+        "localization_key": ""
+      },
+      {
+        "guid": "398b112be9d8e2b44b8e1f0696cba227",
+        "instance_count": 3,
+        "gameobject_id": 40291,
+        "name": "Plant Silky Oak",
+        "localization_key": ""
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 17,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "108be5f4bfad94ed79e7deea4a031409",
+        "instance_count": 6,
+        "gameobject_id": 97586,
+        "name": "Bread",
+        "localization_key": "Resource.Bread"
+      },
+      {
+        "guid": "a3743572e9e6c7f4d8b8783be0b0844e",
+        "instance_count": 6,
+        "gameobject_id": 97602,
+        "name": "Cheese",
+        "localization_key": "Resource.Cheese"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 4,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "instance_count": 1,
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "361df80818104484fbb33bba4863d8b9",
+        "instance_count": 1,
+        "gameobject_id": 72224,
+        "name": "Leader Chico A",
+        "localization_key": ""
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "instance_count": 26,
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 17,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "campaign"
+  }
+}

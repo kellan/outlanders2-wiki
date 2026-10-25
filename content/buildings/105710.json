@@ -1,0 +1,64 @@
+{
+  "name": "Jacaranda Tree Pit",
+  "internal_name": "Decorative Tree Jacaranda",
+  "gameobject_id": 105710,
+  "paths": [
+    "content/buildings/_decorative tree/jacaranda/decorative tree jacaranda"
+  ],
+  "localization_key": "Building.Jacaranda",
+  "description": "When its vibrant blue-violet flowers start to bloom, you know spring is around the corner.",
+  "is_base_or_campaign_asset": true,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304382,
+    "build_site_gameobject_id": 57130,
+    "material_inputs": [
+      {
+        "resource_id": 284026,
+        "name": "Brick",
+        "count": 6
+      }
+    ],
+    "material_formula_ids": [
+      305180
+    ],
+    "all_formula_ids": [
+      303655,
+      305180
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 4.0,
+    "y": 0.0,
+    "z": 4.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316542,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Decorative Tree Jacaranda",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

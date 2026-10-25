@@ -1,0 +1,23 @@
+{
+  "id": "Izzy.000",
+  "name": "Izzy",
+  "biography": "Thinks volume knobs are for cowards.",
+  "effect": null,
+  "source_entries": [
+    {
+      "key": "Names.Leader.Izzy.000",
+      "english": "Izzy",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Bios.Leader.Izzy.000",
+      "english": "Thinks volume knobs are for cowards.",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "localized_description; effect_magnitude_and_gameplay_unverified"
+}

@@ -1,0 +1,30 @@
+{
+  "id": 292311,
+  "internal_name": "HoneyPot",
+  "name": "Honey",
+  "localization_key": "Resource.HoneyPot",
+  "publicly_named": true,
+  "paths": [
+    "content/resources_/beehive/honeypot"
+  ],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 4.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": 8.782999992370605,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 292311,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "HoneyPot",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

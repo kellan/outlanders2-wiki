@@ -1,0 +1,773 @@
+{
+  "id": "Single07_R_05C",
+  "name": "Reenactment",
+  "description": "In 'Myths and Lore of the Outlands Vol. II', there's an account of a unique celebration held here by the 'first outlanders', marking the first gathering of leaders from different towns. This myth has a strong fanbase that organizes reenactments during the snowmelt season, with some playing as the visitors and others as the hosts.",
+  "objectives": [
+    {
+      "id": "Objective.Main",
+      "text": "Reach day <b>{count_1}</b> with <b>{Concern.Housing.WithIcon}</b> satisfied and a total <b>{Stat.Population.WithIcon}</b> of at least <b>{count_3}</b>.",
+      "unresolved_placeholders": [
+        "Concern.Housing.WithIcon",
+        "Stat.Population.WithIcon",
+        "count_1",
+        "count_3"
+      ],
+      "source_text_asset_id": 6542,
+      "source_key": "Level.Single07_R_05C.Objective.Main"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Reach day <b>{count}</b>.",
+      "unresolved_placeholders": [
+        "count"
+      ],
+      "source_text_asset_id": 6542,
+      "source_key": "Level.Single07_R_05C.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Have everyone settled.",
+      "unresolved_placeholders": [],
+      "source_text_asset_id": 6542,
+      "source_key": "Level.Single07_R_05C.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Main.3",
+      "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count}</b>.",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6542,
+      "source_key": "Level.Single07_R_05C.Objective.Main.3"
+    },
+    {
+      "id": "Objective.Secondary",
+      "text": "Bake <b>{count_1}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Bread.WithIcon",
+        "count_1"
+      ],
+      "source_text_asset_id": 6542,
+      "source_key": "Level.Single07_R_05C.Objective.Secondary"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Bake <b>{count}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Bread.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6542,
+      "source_key": "Level.Single07_R_05C.Objective.Secondary.1"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single07_R_05C.Name",
+      "english": "Reenactment",
+      "source_text_asset_id": 6542,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single07_R_05C.Description",
+      "english": "In 'Myths and Lore of the Outlands Vol. II', there's an account of a unique celebration held here by the 'first outlanders', marking the first gathering of leaders from different towns. This myth has a strong fanbase that organizes reenactments during the snowmelt season, with some playing as the visitors and others as the hosts.",
+      "source_text_asset_id": 6542,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single07_R_05C.Objective.Main",
+      "english": "Reach day <b>{count_1}</b> with <b>{Concern.Housing.WithIcon}</b> satisfied and a total <b>{Stat.Population.WithIcon}</b> of at least <b>{count_3}</b>.",
+      "source_text_asset_id": 6542,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Concern.Housing.WithIcon",
+        "Stat.Population.WithIcon",
+        "count_1",
+        "count_3"
+      ]
+    },
+    {
+      "key": "Level.Single07_R_05C.Objective.Main.1",
+      "english": "Reach day <b>{count}</b>.",
+      "source_text_asset_id": 6542,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single07_R_05C.Objective.Main.2",
+      "english": "Have everyone settled.",
+      "source_text_asset_id": 6542,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single07_R_05C.Objective.Main.3",
+      "english": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count}</b>.",
+      "source_text_asset_id": 6542,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single07_R_05C.Objective.Secondary",
+      "english": "Bake <b>{count_1}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+      "source_text_asset_id": 6542,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Bread.WithIcon",
+        "count_1"
+      ]
+    },
+    {
+      "key": "Level.Single07_R_05C.Objective.Secondary.1",
+      "english": "Bake <b>{count}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+      "source_text_asset_id": 6542,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Bread.WithIcon",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6571,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single07_R_05C",
+    "title": "Reenactment",
+    "text_asset_id": 6571,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch07/Levels/Single07_R_05C.bytes",
+    "sha256": "fb482331869280c48692767d063ad443fa82053de3101ef93258c69f893d0a80",
+    "header_bytes": 1196,
+    "primary_objective_count": 3,
+    "optional_objective_count": 1,
+    "day_limit": 70,
+    "objectives": [
+      {
+        "NeededAmount": 60,
+        "PrefabKeyToCount": "10fe2c811f28e5a4c83df3fb0245499e",
+        "PrefabKeyForBuilding": "",
+        "Condition": 9,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.01666666753590107,
+        "condition_name": "ReachDay",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 90293,
+          "name": "Coat",
+          "localization_key": "Resource.Coat"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 401
+      },
+      {
+        "NeededAmount": 100,
+        "PrefabKeyToCount": "",
+        "PrefabKeyForBuilding": "",
+        "Condition": 7,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Housing",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 562
+      },
+      {
+        "NeededAmount": 60,
+        "PrefabKeyToCount": "",
+        "PrefabKeyForBuilding": "",
+        "Condition": 3,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "VillagerCount",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 659
+      },
+      {
+        "NeededAmount": 350,
+        "PrefabKeyToCount": "108be5f4bfad94ed79e7deea4a031409",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 97586,
+          "name": "Bread",
+          "localization_key": "Resource.Bread"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 756
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main",
+        "text": "Reach day <b>{count_1}</b> with <b>{Concern.Housing.WithIcon}</b> satisfied and a total <b>{Stat.Population.WithIcon}</b> of at least <b>{count_3}</b>.",
+        "unresolved_placeholders": [
+          "Concern.Housing.WithIcon",
+          "Stat.Population.WithIcon",
+          "count_1",
+          "count_3"
+        ],
+        "source_text_asset_id": 6542,
+        "source_key": "Level.Single07_R_05C.Objective.Main"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Reach day <b>{count}</b>.",
+        "unresolved_placeholders": [
+          "count"
+        ],
+        "source_text_asset_id": 6542,
+        "source_key": "Level.Single07_R_05C.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Have everyone settled.",
+        "unresolved_placeholders": [],
+        "source_text_asset_id": 6542,
+        "source_key": "Level.Single07_R_05C.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Main.3",
+        "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count}</b>.",
+        "unresolved_placeholders": [
+          "Stat.Population.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6542,
+        "source_key": "Level.Single07_R_05C.Objective.Main.3"
+      },
+      {
+        "id": "Objective.Secondary",
+        "text": "Bake <b>{count_1}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Bread.WithIcon",
+          "count_1"
+        ],
+        "source_text_asset_id": 6542,
+        "source_key": "Level.Single07_R_05C.Objective.Secondary"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Bake <b>{count}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Bread.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6542,
+        "source_key": "Level.Single07_R_05C.Objective.Secondary.1"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "Level",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "045b7542e94934d189e3d89b72a36b40",
+        "gameobject_id": 45826,
+        "name": "Brewery",
+        "localization_key": "Building.Brewery"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "821e8494d9aa35140ba765e2dac5018b",
+        "gameobject_id": 71093,
+        "name": "Cabbage Field",
+        "localization_key": "Field.Cabbage"
+      },
+      {
+        "guid": "ba49332a824bb49599321ceee86e2462",
+        "gameobject_id": 71096,
+        "name": "Tomato Field",
+        "localization_key": "Field.Tomato"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "2ac4c7de8c339264c937f75c9ad89a01",
+        "instance_count": 4,
+        "gameobject_id": 79276,
+        "name": "Scythe - Rock",
+        "localization_key": "Tool.ScytheRock"
+      },
+      {
+        "guid": "b8501c41316a6a14b92793239c8cf4e7",
+        "instance_count": 4,
+        "gameobject_id": 99576,
+        "name": "SeedBag",
+        "localization_key": ""
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 8,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "50154c674f0f7eb48aab1b75189cd5e8",
+        "instance_count": 4,
+        "gameobject_id": 97625,
+        "name": "Pick",
+        "localization_key": "Tool.Pick"
+      },
+      {
+        "guid": "d1f8e2782f2f644fab802d5c755a8204",
+        "instance_count": 4,
+        "gameobject_id": 72858,
+        "name": "Axe - Iron",
+        "localization_key": "Tool.AxeIron"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "instance_count": 1,
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "instance_count": 2,
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "instance_count": 1,
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "instance_count": 1,
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "instance_count": 1,
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "instance_count": 1,
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "7cf0dcb49f1574350bcaf45c1ee7c1fb",
+        "instance_count": 1,
+        "gameobject_id": 46166,
+        "name": "BakeryPeel",
+        "localization_key": ""
+      },
+      {
+        "guid": "5a84359d73ace9a4392df4896ea2d3cf",
+        "instance_count": 20,
+        "gameobject_id": 42879,
+        "name": "BeerEmpty",
+        "localization_key": ""
+      },
+      {
+        "guid": "045b7542e94934d189e3d89b72a36b40",
+        "instance_count": 1,
+        "gameobject_id": 45826,
+        "name": "Brewery",
+        "localization_key": "Building.Brewery"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 12,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "95ab3ec13fc224ea5a49e126af375afb",
+        "instance_count": 77,
+        "gameobject_id": 62711,
+        "name": "PineTree",
+        "localization_key": "Tree.Pine"
+      },
+      {
+        "guid": "1563b62a2b7064b3ab44ddd9f6a04262",
+        "instance_count": 7,
+        "gameobject_id": 92214,
+        "name": "FigTree",
+        "localization_key": "Tree.Fig"
+      },
+      {
+        "guid": "b9fc82263f45b1e4e9a23fe480c97002",
+        "instance_count": 1,
+        "gameobject_id": 52513,
+        "name": "Spawn 30 Villagers",
+        "localization_key": "Notification.SpawnPeople"
+      },
+      {
+        "guid": "e53f3b47ed960e143ac36f3d2fe9e75a",
+        "instance_count": 1,
+        "gameobject_id": 55507,
+        "name": "Birds flock Seagull",
+        "localization_key": ""
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "instance_count": 70,
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "instance_count": 2,
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "instance_count": 1,
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "instance_count": 1,
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "instance_count": 27,
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "ba49332a824bb49599321ceee86e2462",
+        "instance_count": 27,
+        "gameobject_id": 71096,
+        "name": "Tomato Field",
+        "localization_key": "Field.Tomato"
+      },
+      {
+        "guid": "1463615b6545341b98ccb2b984c03a74",
+        "instance_count": 7,
+        "gameobject_id": 57061,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "2666277f909dc2e43a112c72894ac0bb",
+        "instance_count": 1,
+        "gameobject_id": 107058,
+        "name": "5-3 Arch NoSnow",
+        "localization_key": ""
+      },
+      {
+        "guid": "dc1480f17de18f54fb64a4afbe499412",
+        "instance_count": 1,
+        "gameobject_id": 81597,
+        "name": "Tool Scythe",
+        "localization_key": ""
+      },
+      {
+        "guid": "0c321f13c77c2b54f85a7514dc423fcf",
+        "instance_count": 1,
+        "gameobject_id": 81578,
+        "name": "Sign 2 Arrows",
+        "localization_key": ""
+      },
+      {
+        "guid": "aac5b3f1e7fa38a458d385042dcd5cfa",
+        "instance_count": 1,
+        "gameobject_id": 81590,
+        "name": "Tool Hammer",
+        "localization_key": ""
+      },
+      {
+        "guid": "ffb4c7fffd11dd846a20ccbcd7bcd289",
+        "instance_count": 1,
+        "gameobject_id": 81605,
+        "name": "Tool Ladder",
+        "localization_key": ""
+      },
+      {
+        "guid": "02cd43766b5ab824192f8fae7363e4fb",
+        "instance_count": 2,
+        "gameobject_id": 81575,
+        "name": "Tool Shovel planted",
+        "localization_key": ""
+      },
+      {
+        "guid": "c735b2e7583508a439b9cd943aa6a87d",
+        "instance_count": 1,
+        "gameobject_id": 81594,
+        "name": "Tool Shovel",
+        "localization_key": ""
+      },
+      {
+        "guid": "e932b0755062c0d41af38ab422ff6e76",
+        "instance_count": 1,
+        "gameobject_id": 81598,
+        "name": "Tool Bucket",
+        "localization_key": ""
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 8,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "2f75a3fea3f854460ba75c2c08ecb57f",
+        "instance_count": 8,
+        "gameobject_id": 105961,
+        "name": "Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "39c81ad5a30184c52868b34fa8391f73",
+        "instance_count": 13,
+        "gameobject_id": 40043,
+        "name": "Flour",
+        "localization_key": "Resource.Flour"
+      },
+      {
+        "guid": "73bc82e7a16304b908eeaaeb7ed606a3",
+        "instance_count": 9,
+        "gameobject_id": 103664,
+        "name": "Wheat",
+        "localization_key": "Resource.Wheat"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 11,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "2771bbd4d544e4796b01566412994396",
+        "instance_count": 4,
+        "gameobject_id": 58011,
+        "name": "Stone",
+        "localization_key": "Resource.Stone"
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 12,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      },
+      {
+        "guid": "108be5f4bfad94ed79e7deea4a031409",
+        "instance_count": 4,
+        "gameobject_id": 97586,
+        "name": "Bread",
+        "localization_key": "Resource.Bread"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

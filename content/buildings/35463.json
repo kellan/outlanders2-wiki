@@ -1,0 +1,93 @@
+{
+  "name": "Fitness Park",
+  "internal_name": "Park",
+  "gameobject_id": 35463,
+  "paths": [
+    "content/buildings/park/park"
+  ],
+  "localization_key": "Building.Park",
+  "description": "Fitness instructors utilize this space to lead various activities that raise the <style=Output>{Concern.Wellness.WithIcon}</style> levels of participants.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 2,
+  "workplace_config": {
+    "MaxWorkers": 2,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.550000011920929
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 292294,
+    "build_site_gameobject_id": 75883,
+    "material_inputs": [
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 6
+      },
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 10
+      }
+    ],
+    "material_formula_ids": [
+      291683
+    ],
+    "all_formula_ids": [
+      278925,
+      291683
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 12.0,
+    "y": 4.0,
+    "z": 12.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 277879,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Park",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 318869,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Park",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

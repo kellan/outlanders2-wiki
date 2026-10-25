@@ -1,0 +1,753 @@
+{
+  "id": "Single05_C_PeakResort",
+  "name": "Cliffside Resort",
+  "description": "The cliffside resort town is the most ambitious project for this group of seasoned town builders, but if they want to live to see it complete, they'll have to recruit the help of younger individuals.",
+  "objectives": [
+    {
+      "id": "Objective.Main",
+      "text": "Produce <b>{count_1}</b> <b>{Resource.FruitJuice.WithIconPlural}</b>, and brew <b>{count_2}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Beer.WithIcon",
+        "Resource.FruitJuice.WithIconPlural",
+        "count_1",
+        "count_2"
+      ],
+      "source_text_asset_id": 6290,
+      "source_key": "Level.Single05_C_PeakResort.Objective.Main"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Produce <b>{count}</b> <b>{Resource.FruitJuice.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Resource.FruitJuice.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6290,
+      "source_key": "Level.Single05_C_PeakResort.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Brew <b>{count}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Beer.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6290,
+      "source_key": "Level.Single05_C_PeakResort.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Secondary",
+      "text": "Satisfy <b>{Concern.Housing.WithIcon}</b> and produce <b>{count_2}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Concern.Housing.WithIcon",
+        "Resource.GlassOfWine.WithIcon",
+        "count_2"
+      ],
+      "source_text_asset_id": 6290,
+      "source_key": "Level.Single05_C_PeakResort.Objective.Secondary"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Satisfy <b>{Concern.Housing.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Concern.Housing.WithIcon"
+      ],
+      "source_text_asset_id": 6290,
+      "source_key": "Level.Single05_C_PeakResort.Objective.Secondary.1"
+    },
+    {
+      "id": "Objective.Secondary.2",
+      "text": "Produce <b>{count}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.GlassOfWine.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6290,
+      "source_key": "Level.Single05_C_PeakResort.Objective.Secondary.2"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single05_C_PeakResort.Name",
+      "english": "Cliffside Resort",
+      "source_text_asset_id": 6290,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single05_C_PeakResort.Description",
+      "english": "The cliffside resort town is the most ambitious project for this group of seasoned town builders, but if they want to live to see it complete, they'll have to recruit the help of younger individuals.",
+      "source_text_asset_id": 6290,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single05_C_PeakResort.Objective.Main",
+      "english": "Produce <b>{count_1}</b> <b>{Resource.FruitJuice.WithIconPlural}</b>, and brew <b>{count_2}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "source_text_asset_id": 6290,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Beer.WithIcon",
+        "Resource.FruitJuice.WithIconPlural",
+        "count_1",
+        "count_2"
+      ]
+    },
+    {
+      "key": "Level.Single05_C_PeakResort.Objective.Main.1",
+      "english": "Produce <b>{count}</b> <b>{Resource.FruitJuice.WithIconPlural}</b>.",
+      "source_text_asset_id": 6290,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.FruitJuice.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single05_C_PeakResort.Objective.Main.2",
+      "english": "Brew <b>{count}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "source_text_asset_id": 6290,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Beer.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single05_C_PeakResort.Objective.Secondary",
+      "english": "Satisfy <b>{Concern.Housing.WithIcon}</b> and produce <b>{count_2}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+      "source_text_asset_id": 6290,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Concern.Housing.WithIcon",
+        "Resource.GlassOfWine.WithIcon",
+        "count_2"
+      ]
+    },
+    {
+      "key": "Level.Single05_C_PeakResort.Objective.Secondary.1",
+      "english": "Satisfy <b>{Concern.Housing.WithIcon}</b>.",
+      "source_text_asset_id": 6290,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Concern.Housing.WithIcon"
+      ]
+    },
+    {
+      "key": "Level.Single05_C_PeakResort.Objective.Secondary.2",
+      "english": "Produce <b>{count}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+      "source_text_asset_id": 6290,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.GlassOfWine.WithIcon",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6494,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single05_C_PeakResort",
+    "title": "Cliffside Resort",
+    "text_asset_id": 6494,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch05/Levels/Single05_C_PeakResort.bytes",
+    "sha256": "67f0fe773472e8a3c1af0032273fe9132c5e32fca44a0af81d8859c4c2a05da5",
+    "header_bytes": 1274,
+    "primary_objective_count": 2,
+    "optional_objective_count": 2,
+    "day_limit": 57,
+    "objectives": [
+      {
+        "NeededAmount": 100,
+        "PrefabKeyToCount": "",
+        "PrefabKeyForBuilding": "",
+        "Condition": 6,
+        "Comparison": 0,
+        "ConcernType": 1,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Concern",
+        "comparison_name": "Equal",
+        "concern_name": "Housing",
+        "target": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 415
+      },
+      {
+        "NeededAmount": 70,
+        "PrefabKeyToCount": "f199493215b865c4aba60ba926ab6d06",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 43402,
+          "name": "Smoothie",
+          "localization_key": "Resource.FruitJuice"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 512
+      },
+      {
+        "NeededAmount": 80,
+        "PrefabKeyToCount": "917d01092a87344f883ca658c52685ba",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 42880,
+          "name": "Beer",
+          "localization_key": "Resource.Beer"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 673
+      },
+      {
+        "NeededAmount": 20,
+        "PrefabKeyToCount": "0a1952c398d5e9f448df41498b44e341",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 42876,
+          "name": "Wine",
+          "localization_key": "Resource.GlassOfWine"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 834
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main",
+        "text": "Produce <b>{count_1}</b> <b>{Resource.FruitJuice.WithIconPlural}</b>, and brew <b>{count_2}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Beer.WithIcon",
+          "Resource.FruitJuice.WithIconPlural",
+          "count_1",
+          "count_2"
+        ],
+        "source_text_asset_id": 6290,
+        "source_key": "Level.Single05_C_PeakResort.Objective.Main"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Produce <b>{count}</b> <b>{Resource.FruitJuice.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Resource.FruitJuice.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6290,
+        "source_key": "Level.Single05_C_PeakResort.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Brew <b>{count}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Beer.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6290,
+        "source_key": "Level.Single05_C_PeakResort.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Secondary",
+        "text": "Satisfy <b>{Concern.Housing.WithIcon}</b> and produce <b>{count_2}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Concern.Housing.WithIcon",
+          "Resource.GlassOfWine.WithIcon",
+          "count_2"
+        ],
+        "source_text_asset_id": 6290,
+        "source_key": "Level.Single05_C_PeakResort.Objective.Secondary"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Satisfy <b>{Concern.Housing.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Concern.Housing.WithIcon"
+        ],
+        "source_text_asset_id": 6290,
+        "source_key": "Level.Single05_C_PeakResort.Objective.Secondary.1"
+      },
+      {
+        "id": "Objective.Secondary.2",
+        "text": "Produce <b>{count}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.GlassOfWine.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6290,
+        "source_key": "Level.Single05_C_PeakResort.Objective.Secondary.2"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "4919451ed96016341b1214fd226da222",
+        "gameobject_id": 105709,
+        "name": "Bottle Factory",
+        "localization_key": "Building.GlassblowingFurnace"
+      },
+      {
+        "guid": "045b7542e94934d189e3d89b72a36b40",
+        "gameobject_id": 45826,
+        "name": "Brewery",
+        "localization_key": "Building.Brewery"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "569845ff63210476b9caf10ea7a9fbbe",
+        "gameobject_id": 67909,
+        "name": "Apple Tree",
+        "localization_key": "Field.AppleTree"
+      },
+      {
+        "guid": "99172bde957844cfeae005d0d1c316ad",
+        "gameobject_id": 67914,
+        "name": "Fig Tree",
+        "localization_key": "Field.FigTree"
+      },
+      {
+        "guid": "1be1dbc2454d46f47814aee50b42bdfd",
+        "gameobject_id": 67906,
+        "name": "Grape Vine",
+        "localization_key": "Field.GrapeTree"
+      },
+      {
+        "guid": "2368c403dc3c14ffd9024e22838e590c",
+        "gameobject_id": 67907,
+        "name": "Pomelo Tree",
+        "localization_key": "Field.PomeloTree"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "bc256ee0d241047c685e39ff9a7a5537",
+        "gameobject_id": 40308,
+        "name": "Orchard",
+        "localization_key": "Building.Orchard"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "b181a6ade2121eb4c97d69ef08097932",
+        "gameobject_id": 57397,
+        "name": "Smoothie Stand",
+        "localization_key": "Building.FruitJuiceStand"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "ccf5d666f7dae9b43ac4eb388a52b4f6",
+        "gameobject_id": 105740,
+        "name": "Winery",
+        "localization_key": "Building.Winery"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 82,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "1563b62a2b7064b3ab44ddd9f6a04262",
+        "instance_count": 46,
+        "gameobject_id": 92214,
+        "name": "FigTree",
+        "localization_key": "Tree.Fig"
+      },
+      {
+        "guid": "e8c6f4a4dbf7846e3a18c1a001a66163",
+        "instance_count": 21,
+        "gameobject_id": 92222,
+        "name": "AppleTree",
+        "localization_key": "Tree.Apple"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 7,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "1463615b6545341b98ccb2b984c03a74",
+        "instance_count": 43,
+        "gameobject_id": 57061,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "0b94907036335b44ea433ecdfafaa88a",
+        "instance_count": 1,
+        "gameobject_id": 57056,
+        "name": "Winery",
+        "localization_key": "Building.Winery"
+      },
+      {
+        "guid": "7dde29f3e8710144fa5b155f1a06405a",
+        "instance_count": 1,
+        "gameobject_id": 57103,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "6a9b952a510a4e94cbe2384a56d109bc",
+        "instance_count": 12,
+        "gameobject_id": 36876,
+        "name": "Brick",
+        "localization_key": "Resource.Brick"
+      },
+      {
+        "guid": "2771bbd4d544e4796b01566412994396",
+        "instance_count": 13,
+        "gameobject_id": 58011,
+        "name": "Stone",
+        "localization_key": "Resource.Stone"
+      },
+      {
+        "guid": "072e26590746a594b931ce8ea70714f0",
+        "instance_count": 5,
+        "gameobject_id": 75090,
+        "name": "Plank",
+        "localization_key": "Resource.Plank"
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 4,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "instance_count": 1,
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "instance_count": 1,
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "c2b53b746eabf40f29037cca460c2bae",
+        "instance_count": 3,
+        "gameobject_id": 97630,
+        "name": "Basket",
+        "localization_key": "Tool.Basket"
+      },
+      {
+        "guid": "5ae044f29c3d6304cbf66c364fdf0b31",
+        "instance_count": 1,
+        "gameobject_id": 52504,
+        "name": "Spawn 10 Villagers",
+        "localization_key": "Notification.SpawnPeople"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "instance_count": 92,
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "instance_count": 1,
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "02cd43766b5ab824192f8fae7363e4fb",
+        "instance_count": 3,
+        "gameobject_id": 81575,
+        "name": "Tool Shovel planted",
+        "localization_key": ""
+      },
+      {
+        "guid": "c735b2e7583508a439b9cd943aa6a87d",
+        "instance_count": 3,
+        "gameobject_id": 81594,
+        "name": "Tool Shovel",
+        "localization_key": ""
+      },
+      {
+        "guid": "0c321f13c77c2b54f85a7514dc423fcf",
+        "instance_count": 1,
+        "gameobject_id": 81578,
+        "name": "Sign 2 Arrows",
+        "localization_key": ""
+      },
+      {
+        "guid": "50bfbcbe835b25c45864c3c4629224bc",
+        "instance_count": 2,
+        "gameobject_id": 81580,
+        "name": "Sign R Arrow 0",
+        "localization_key": ""
+      },
+      {
+        "guid": "91f298eba5cc07c4ba37dd260880c93b",
+        "instance_count": 1,
+        "gameobject_id": 81587,
+        "name": "Tool Book",
+        "localization_key": ""
+      },
+      {
+        "guid": "76f15662f9436dd4bae5778e64127609",
+        "instance_count": 1,
+        "gameobject_id": 81585,
+        "name": "Tool Wheelbarrow",
+        "localization_key": ""
+      },
+      {
+        "guid": "06dd75cf17e63a54bae39d3032e5499b",
+        "instance_count": 1,
+        "gameobject_id": 81577,
+        "name": "Tool Wheel standing",
+        "localization_key": ""
+      },
+      {
+        "guid": "542526410f8106d448ca16433b5b9e03",
+        "instance_count": 1,
+        "gameobject_id": 81581,
+        "name": "Tool Wheelbarrow upside",
+        "localization_key": ""
+      },
+      {
+        "guid": "fa1afceb1070e4f4cad97b0c58981891",
+        "instance_count": 1,
+        "gameobject_id": 81604,
+        "name": "Tool Wheel",
+        "localization_key": ""
+      },
+      {
+        "guid": "049760704a44fd04cbc5aebc371afef1",
+        "instance_count": 1,
+        "gameobject_id": 81576,
+        "name": "Tool Pick",
+        "localization_key": ""
+      },
+      {
+        "guid": "7ab694c8a34d7462c9fa0c5d8478994a",
+        "instance_count": 1,
+        "gameobject_id": 75226,
+        "name": "Trading Outpost",
+        "localization_key": "Building.TradingPost"
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 2,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "4a5c87ee3b2331f49b07029ffb94d492",
+        "instance_count": 1,
+        "gameobject_id": 44812,
+        "name": "Villager Old",
+        "localization_key": ""
+      },
+      {
+        "guid": "8084f5a93e7688343b2f09bbff5fae41",
+        "instance_count": 1,
+        "gameobject_id": 57105,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 1,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 23,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      },
+      {
+        "guid": "108be5f4bfad94ed79e7deea4a031409",
+        "instance_count": 8,
+        "gameobject_id": 97586,
+        "name": "Bread",
+        "localization_key": "Resource.Bread"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

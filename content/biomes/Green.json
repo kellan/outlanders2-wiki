@@ -1,0 +1,13 @@
+{
+  "id": "Green",
+  "name": "Evergreen",
+  "source": {
+    "key": "Sandbox.Biome.Green",
+    "english": "Evergreen",
+    "source_text_asset_id": 6291,
+    "source_table": "Game",
+    "unresolved_placeholders": []
+  },
+  "rules_text": [],
+  "verification_status": "localized_name_and_help_text; environmental_values_and_level_assignments_unverified"
+}

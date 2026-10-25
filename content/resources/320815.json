@@ -1,0 +1,30 @@
+{
+  "id": 320815,
+  "internal_name": "BarleySeed",
+  "name": "BarleySeed",
+  "localization_key": null,
+  "publicly_named": false,
+  "paths": [
+    "content/resources_/barley porridge shop/barleyseed"
+  ],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 320815,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "BarleySeed",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

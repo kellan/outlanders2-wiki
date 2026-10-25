@@ -1,0 +1,119 @@
+{
+  "name": "Press",
+  "internal_name": "Journal",
+  "gameobject_id": 105707,
+  "paths": [
+    "content/buildings/journal/journal"
+  ],
+  "localization_key": "Building.Journal",
+  "description": "Members of the press use <style=Input>{Resource.Paper.WithIcon}</style> to write and publish <style=Output>{Resource.Newspaper.WithIconPlural}</style> containing mostly real news about the Outlands.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 4,
+  "workplace_config": {
+    "MaxWorkers": 4,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304307,
+    "build_site_gameobject_id": 57055,
+    "material_inputs": [
+      {
+        "resource_id": 284026,
+        "name": "Brick",
+        "count": 24
+      }
+    ],
+    "material_formula_ids": [
+      305107
+    ],
+    "all_formula_ids": [
+      286364,
+      305107
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 10.0,
+    "y": 4.0,
+    "z": 10.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    280769,
+    286549,
+    289119,
+    306807
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 308079,
+          "name": "Paper",
+          "count": 1
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 285908,
+          "name": "Newspaper",
+          "count": 3
+        }
+      ],
+      "formula_ids": [
+        280769,
+        286549,
+        289119,
+        306807
+      ],
+      "equipment_category_ids": [],
+      "caveats": [],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316539,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Journal",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 301319,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Journal",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

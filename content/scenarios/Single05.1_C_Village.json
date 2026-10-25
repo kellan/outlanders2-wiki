@@ -1,0 +1,872 @@
+{
+  "id": "Single05.1_C_Village",
+  "name": "Bashful Valley",
+  "description": "Hidden among the mountains, Bashful Valley has become a haven for the shy. Ironically, connecting through shared experiences has made the town more social, sparking a desire to grow and open up to the outside world.",
+  "objectives": [
+    {
+      "id": "Objective.Main.1",
+      "text": "Have <b>{count} {Building.HouseStone.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.HouseStone.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6333,
+      "source_key": "Level.Single05.1_C_Village.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Have <b>{count} {Building.Winery.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.Winery.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6333,
+      "source_key": "Level.Single05.1_C_Village.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Main.3",
+      "text": "Have <b>{count} {Building.TradingPost.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.TradingPost.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6333,
+      "source_key": "Level.Single05.1_C_Village.Objective.Main.3"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Produce <b>{count}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.GlassOfWine.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6333,
+      "source_key": "Level.Single05.1_C_Village.Objective.Secondary.1"
+    },
+    {
+      "id": "Objective.Secondary.2",
+      "text": "Have <b>{count} {Building.ZenGarden.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.ZenGarden.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6333,
+      "source_key": "Level.Single05.1_C_Village.Objective.Secondary.2"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Have <b>{count} {Building.HouseStone.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.HouseStone.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single05.1_C_Village.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Have <b>{count} {Building.Winery.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.Winery.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single05.1_C_Village.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Main.3",
+      "text": "Have <b>{count} {Building.TradingPost.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.TradingPost.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single05.1_C_Village.Objective.Main.3"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Produce <b>{count}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.GlassOfWine.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single05.1_C_Village.Objective.Secondary.1"
+    },
+    {
+      "id": "Objective.Secondary.2",
+      "text": "Have <b>{count} {Building.ZenGarden.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.ZenGarden.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single05.1_C_Village.Objective.Secondary.2"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single05.1_C_Village.Name",
+      "english": "Bashful Valley",
+      "source_text_asset_id": 6333,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single05.1_C_Village.Description",
+      "english": "Hidden among the mountains, Bashful Valley has become a haven for the shy. Ironically, connecting through shared experiences has made the town more social, sparking a desire to grow and open up to the outside world.",
+      "source_text_asset_id": 6333,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single05.1_C_Village.Objective.Main.1",
+      "english": "Have <b>{count} {Building.HouseStone.WithIconPlural}</b>.",
+      "source_text_asset_id": 6333,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.HouseStone.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single05.1_C_Village.Objective.Main.2",
+      "english": "Have <b>{count} {Building.Winery.WithIconPlural}</b>.",
+      "source_text_asset_id": 6333,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.Winery.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single05.1_C_Village.Objective.Main.3",
+      "english": "Have <b>{count} {Building.TradingPost.WithIconPlural}</b>.",
+      "source_text_asset_id": 6333,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.TradingPost.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single05.1_C_Village.Objective.Secondary.1",
+      "english": "Produce <b>{count}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+      "source_text_asset_id": 6333,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.GlassOfWine.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single05.1_C_Village.Objective.Secondary.2",
+      "english": "Have <b>{count} {Building.ZenGarden.WithIconPlural}</b>.",
+      "source_text_asset_id": 6333,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.ZenGarden.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single05.1_C_Village.Name",
+      "english": "Bashful Valley",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single05.1_C_Village.Description",
+      "english": "Hidden among the mountains, Bashful Valley has become a haven for the shy. Ironically, connecting through shared experiences has made the town more social, sparking a desire to grow and open up to the outside world.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single05.1_C_Village.Objective.Main.1",
+      "english": "Have <b>{count} {Building.HouseStone.WithIconPlural}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Building.HouseStone.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single05.1_C_Village.Objective.Main.2",
+      "english": "Have <b>{count} {Building.Winery.WithIconPlural}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Building.Winery.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single05.1_C_Village.Objective.Main.3",
+      "english": "Have <b>{count} {Building.TradingPost.WithIconPlural}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Building.TradingPost.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single05.1_C_Village.Objective.Secondary.1",
+      "english": "Produce <b>{count}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Resource.GlassOfWine.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single05.1_C_Village.Objective.Secondary.2",
+      "english": "Have <b>{count} {Building.ZenGarden.WithIconPlural}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Building.ZenGarden.WithIconPlural",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6536,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single05.1_C_Village",
+    "title": "Bashful Valley",
+    "text_asset_id": 6536,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch05.1/Levels/Single05.1_C_Village.bytes",
+    "sha256": "d834aa07ef50c2a2743b4de8b2263d30dd519df6e012e1fbe60207b950da22db",
+    "header_bytes": 1501,
+    "primary_objective_count": 3,
+    "optional_objective_count": 2,
+    "day_limit": 75,
+    "objectives": [
+      {
+        "NeededAmount": 40,
+        "PrefabKeyToCount": "0a1952c398d5e9f448df41498b44e341",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 42876,
+          "name": "Wine",
+          "localization_key": "Resource.GlassOfWine"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 417
+      },
+      {
+        "NeededAmount": 2,
+        "PrefabKeyToCount": "66b35e9bf1f909946830309193ad3f91",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 105716,
+          "name": "Zen Garden",
+          "localization_key": "Building.ZenGarden"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 578
+      },
+      {
+        "NeededAmount": 5,
+        "PrefabKeyToCount": "578d4586224990b4099233f511e9ffd8",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 67667,
+          "name": "Two-Story House",
+          "localization_key": "Building.HouseStone"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 739
+      },
+      {
+        "NeededAmount": 2,
+        "PrefabKeyToCount": "ccf5d666f7dae9b43ac4eb388a52b4f6",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 105740,
+          "name": "Winery",
+          "localization_key": "Building.Winery"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 900
+      },
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "7ab694c8a34d7462c9fa0c5d8478994a",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 75226,
+          "name": "Trading Outpost",
+          "localization_key": "Building.TradingPost"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 1061
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main.1",
+        "text": "Have <b>{count} {Building.HouseStone.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.HouseStone.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6333,
+        "source_key": "Level.Single05.1_C_Village.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Have <b>{count} {Building.Winery.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.Winery.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6333,
+        "source_key": "Level.Single05.1_C_Village.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Main.3",
+        "text": "Have <b>{count} {Building.TradingPost.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.TradingPost.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6333,
+        "source_key": "Level.Single05.1_C_Village.Objective.Main.3"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Produce <b>{count}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.GlassOfWine.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6333,
+        "source_key": "Level.Single05.1_C_Village.Objective.Secondary.1"
+      },
+      {
+        "id": "Objective.Secondary.2",
+        "text": "Have <b>{count} {Building.ZenGarden.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.ZenGarden.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6333,
+        "source_key": "Level.Single05.1_C_Village.Objective.Secondary.2"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Have <b>{count} {Building.HouseStone.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.HouseStone.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6493,
+        "source_key": "Level.Single05.1_C_Village.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Have <b>{count} {Building.Winery.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.Winery.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6493,
+        "source_key": "Level.Single05.1_C_Village.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Main.3",
+        "text": "Have <b>{count} {Building.TradingPost.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.TradingPost.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6493,
+        "source_key": "Level.Single05.1_C_Village.Objective.Main.3"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Produce <b>{count}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.GlassOfWine.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6493,
+        "source_key": "Level.Single05.1_C_Village.Objective.Secondary.1"
+      },
+      {
+        "id": "Objective.Secondary.2",
+        "text": "Have <b>{count} {Building.ZenGarden.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.ZenGarden.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6493,
+        "source_key": "Level.Single05.1_C_Village.Objective.Secondary.2"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "4919451ed96016341b1214fd226da222",
+        "gameobject_id": 105709,
+        "name": "Bottle Factory",
+        "localization_key": "Building.GlassblowingFurnace"
+      },
+      {
+        "guid": "045b7542e94934d189e3d89b72a36b40",
+        "gameobject_id": 45826,
+        "name": "Brewery",
+        "localization_key": "Building.Brewery"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "1be1dbc2454d46f47814aee50b42bdfd",
+        "gameobject_id": 67906,
+        "name": "Grape Vine",
+        "localization_key": "Field.GrapeTree"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "578d4586224990b4099233f511e9ffd8",
+        "gameobject_id": 67667,
+        "name": "Two-Story House",
+        "localization_key": "Building.HouseStone"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "bc256ee0d241047c685e39ff9a7a5537",
+        "gameobject_id": 40308,
+        "name": "Orchard",
+        "localization_key": "Building.Orchard"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "7f0517aae7626244db91df74eabaffa7",
+        "gameobject_id": 105723,
+        "name": "Stone Mine",
+        "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "7ab694c8a34d7462c9fa0c5d8478994a",
+        "gameobject_id": 75226,
+        "name": "Trading Outpost",
+        "localization_key": "Building.TradingPost"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "ccf5d666f7dae9b43ac4eb388a52b4f6",
+        "gameobject_id": 105740,
+        "name": "Winery",
+        "localization_key": "Building.Winery"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "instance_count": 116,
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "instance_count": 1,
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "instance_count": 2,
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "instance_count": 1,
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "95ab3ec13fc224ea5a49e126af375afb",
+        "instance_count": 102,
+        "gameobject_id": 62711,
+        "name": "PineTree",
+        "localization_key": "Tree.Pine"
+      },
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 87,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 21,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "e8c6f4a4dbf7846e3a18c1a001a66163",
+        "instance_count": 8,
+        "gameobject_id": 92222,
+        "name": "AppleTree",
+        "localization_key": "Tree.Apple"
+      },
+      {
+        "guid": "1563b62a2b7064b3ab44ddd9f6a04262",
+        "instance_count": 12,
+        "gameobject_id": 92214,
+        "name": "FigTree",
+        "localization_key": "Tree.Fig"
+      },
+      {
+        "guid": "842cbe9f256384ec4bf8aa72d3efc1d0",
+        "instance_count": 18,
+        "gameobject_id": 92217,
+        "name": "PomeloTree",
+        "localization_key": "Tree.Pomelo"
+      },
+      {
+        "guid": "50154c674f0f7eb48aab1b75189cd5e8",
+        "instance_count": 4,
+        "gameobject_id": 97625,
+        "name": "Pick",
+        "localization_key": "Tool.Pick"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "instance_count": 1,
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "instance_count": 2,
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "c2b53b746eabf40f29037cca460c2bae",
+        "instance_count": 6,
+        "gameobject_id": 97630,
+        "name": "Basket",
+        "localization_key": "Tool.Basket"
+      },
+      {
+        "guid": "929aae2b8ffd74855bc95bba925a30f4",
+        "instance_count": 20,
+        "gameobject_id": 71019,
+        "name": "Clay",
+        "localization_key": "Resource.Clay"
+      },
+      {
+        "guid": "38402218dfb78c246a104fd5a156783f",
+        "instance_count": 3,
+        "gameobject_id": 39603,
+        "name": "Fireflies Event",
+        "localization_key": ""
+      },
+      {
+        "guid": "f9e79a2d70e36944db7aae601779093c",
+        "instance_count": 4,
+        "gameobject_id": 107117,
+        "name": "Light Lantern",
+        "localization_key": "Decoration.Lantern"
+      },
+      {
+        "guid": "38f629d30e393c24e9ff79b95205239f",
+        "instance_count": 1,
+        "gameobject_id": 81579,
+        "name": "Tool Wheelbarrow no wheel",
+        "localization_key": ""
+      },
+      {
+        "guid": "fa1afceb1070e4f4cad97b0c58981891",
+        "instance_count": 1,
+        "gameobject_id": 81604,
+        "name": "Tool Wheel",
+        "localization_key": ""
+      },
+      {
+        "guid": "e932b0755062c0d41af38ab422ff6e76",
+        "instance_count": 1,
+        "gameobject_id": 81598,
+        "name": "Tool Bucket",
+        "localization_key": ""
+      },
+      {
+        "guid": "aac5b3f1e7fa38a458d385042dcd5cfa",
+        "instance_count": 1,
+        "gameobject_id": 81590,
+        "name": "Tool Hammer",
+        "localization_key": ""
+      },
+      {
+        "guid": "049760704a44fd04cbc5aebc371afef1",
+        "instance_count": 2,
+        "gameobject_id": 81576,
+        "name": "Tool Pick",
+        "localization_key": ""
+      },
+      {
+        "guid": "02cd43766b5ab824192f8fae7363e4fb",
+        "instance_count": 1,
+        "gameobject_id": 81575,
+        "name": "Tool Shovel planted",
+        "localization_key": ""
+      },
+      {
+        "guid": "76f15662f9436dd4bae5778e64127609",
+        "instance_count": 1,
+        "gameobject_id": 81585,
+        "name": "Tool Wheelbarrow",
+        "localization_key": ""
+      },
+      {
+        "guid": "6d59220e4452d7f41b0fd87c26fb51d5",
+        "instance_count": 1,
+        "gameobject_id": 81584,
+        "name": "Tool Axe",
+        "localization_key": ""
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 11,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "2f75a3fea3f854460ba75c2c08ecb57f",
+        "instance_count": 2,
+        "gameobject_id": 105961,
+        "name": "Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 20,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      },
+      {
+        "guid": "2771bbd4d544e4796b01566412994396",
+        "instance_count": 3,
+        "gameobject_id": 58011,
+        "name": "Stone",
+        "localization_key": "Resource.Stone"
+      },
+      {
+        "guid": "5e298903dabe44a25b2581fcc96f0900",
+        "instance_count": 108,
+        "gameobject_id": 90295,
+        "name": "Fruit",
+        "localization_key": "Resource.Fruit"
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 45,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

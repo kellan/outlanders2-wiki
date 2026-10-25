@@ -1,0 +1,114 @@
+{
+  "name": "Chicken Coop",
+  "internal_name": "Chicken Coop",
+  "gameobject_id": 105713,
+  "paths": [
+    "content/buildings/chicken coop/chicken coop"
+  ],
+  "localization_key": "Building.ChickenCoop",
+  "description": "Chicken farmers maintain the coop and collect <style=Output>{Resource.Egg.WithIconPlural}</style> from adult chickens.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 2,
+  "workplace_config": {
+    "MaxWorkers": 2,
+    "WorkTimeRange": {
+      "Start": 0.949999988079071,
+      "End": 0.550000011920929
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304325,
+    "build_site_gameobject_id": 57073,
+    "material_inputs": [
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 9
+      }
+    ],
+    "material_formula_ids": [
+      305124
+    ],
+    "all_formula_ids": [
+      292672,
+      305124
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 6.0,
+    "y": 2.0,
+    "z": 6.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    282694,
+    312383
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 286359,
+          "name": "Egg",
+          "count": 1
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 286358,
+          "name": "Egg",
+          "count": 1
+        }
+      ],
+      "formula_ids": [
+        282694
+      ],
+      "equipment_category_ids": [],
+      "caveats": [],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316545,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Chicken Coop",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 292711,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Chicken Coop",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

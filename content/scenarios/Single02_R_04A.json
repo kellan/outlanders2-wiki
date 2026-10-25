@@ -1,0 +1,490 @@
+{
+  "id": "Single02_R_04A",
+  "name": "Road Snow",
+  "description": "As the snow season set in and the roads became impassable, the cookie craze that had plagued the town slowly tapered off. The number one priority shifted to staying warm and cozy until the arrival of spring.",
+  "objectives": [
+    {
+      "id": "Objective.Main",
+      "text": "Bake <b>{count_1}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Bread.WithIcon",
+        "count_1"
+      ],
+      "source_text_asset_id": 6447,
+      "source_key": "Level.Single02_R_04A.Objective.Main"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Bake <b>{count}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Bread.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6447,
+      "source_key": "Level.Single02_R_04A.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Secondary",
+      "text": "Brew <b>{count_1}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Beer.WithIcon",
+        "count_1"
+      ],
+      "source_text_asset_id": 6447,
+      "source_key": "Level.Single02_R_04A.Objective.Secondary"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Brew <b>{count}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Beer.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6447,
+      "source_key": "Level.Single02_R_04A.Objective.Secondary.1"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single02_R_04A.Name",
+      "english": "Road Snow",
+      "source_text_asset_id": 6447,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single02_R_04A.Description",
+      "english": "As the snow season set in and the roads became impassable, the cookie craze that had plagued the town slowly tapered off. The number one priority shifted to staying warm and cozy until the arrival of spring.",
+      "source_text_asset_id": 6447,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single02_R_04A.Objective.Main",
+      "english": "Bake <b>{count_1}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+      "source_text_asset_id": 6447,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Bread.WithIcon",
+        "count_1"
+      ]
+    },
+    {
+      "key": "Level.Single02_R_04A.Objective.Main.1",
+      "english": "Bake <b>{count}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+      "source_text_asset_id": 6447,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Bread.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single02_R_04A.Objective.Secondary",
+      "english": "Brew <b>{count_1}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "source_text_asset_id": 6447,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Beer.WithIcon",
+        "count_1"
+      ]
+    },
+    {
+      "key": "Level.Single02_R_04A.Objective.Secondary.1",
+      "english": "Brew <b>{count}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "source_text_asset_id": 6447,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Beer.WithIcon",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6554,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single02_R_04A",
+    "title": "Road Snow",
+    "text_asset_id": 6554,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch02/Levels/Single02_R_04A.bytes",
+    "sha256": "523454e8360b6fa36984ce5aa82b5d3bf17f8a451d5a67dd42d4671cc888a51e",
+    "header_bytes": 1002,
+    "primary_objective_count": 1,
+    "optional_objective_count": 1,
+    "day_limit": 55,
+    "objectives": [
+      {
+        "NeededAmount": 30,
+        "PrefabKeyToCount": "108be5f4bfad94ed79e7deea4a031409",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 97586,
+          "name": "Bread",
+          "localization_key": "Resource.Bread"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 401
+      },
+      {
+        "NeededAmount": 10,
+        "PrefabKeyToCount": "917d01092a87344f883ca658c52685ba",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 42880,
+          "name": "Beer",
+          "localization_key": "Resource.Beer"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 562
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main",
+        "text": "Bake <b>{count_1}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Bread.WithIcon",
+          "count_1"
+        ],
+        "source_text_asset_id": 6447,
+        "source_key": "Level.Single02_R_04A.Objective.Main"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Bake <b>{count}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Bread.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6447,
+        "source_key": "Level.Single02_R_04A.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Secondary",
+        "text": "Brew <b>{count_1}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Beer.WithIcon",
+          "count_1"
+        ],
+        "source_text_asset_id": 6447,
+        "source_key": "Level.Single02_R_04A.Objective.Secondary"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Brew <b>{count}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Beer.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6447,
+        "source_key": "Level.Single02_R_04A.Objective.Secondary.1"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelSnow",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": true,
+        "IsConcernWellnessAvailable": false,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "045b7542e94934d189e3d89b72a36b40",
+        "gameobject_id": 45826,
+        "name": "Brewery",
+        "localization_key": "Building.Brewery"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "8793924bc37fc12429340646df423230",
+        "gameobject_id": 69352,
+        "name": "Greenhouse",
+        "localization_key": "Building.GreenHouse"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "a122042526ded44a094f22861cb604f2",
+        "gameobject_id": 105729,
+        "name": "Winter Cabin",
+        "localization_key": "Building.HouseWithChimney"
+      },
+      {
+        "guid": "ef055347ed1404c0fb79a68c6ddd4991",
+        "gameobject_id": 80802,
+        "name": "Trappers' Hut",
+        "localization_key": "Building.HuntersHut"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "d7d5d85f831fd4275ae951907b524658",
+        "gameobject_id": 75227,
+        "name": "Trading Outpost",
+        "localization_key": "Building.TradingPost"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "instance_count": 102,
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "18e899ee9ddba7742b9326bd5ec6d125",
+        "instance_count": 3,
+        "gameobject_id": 97620,
+        "name": "Wheelbarrow",
+        "localization_key": "Tool.Wheelbarrow"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "instance_count": 1,
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "instance_count": 1,
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "b337bbd3ab03d477fae2f76d8bfb8af2",
+        "instance_count": 86,
+        "gameobject_id": 97702,
+        "name": "Winter Pine",
+        "localization_key": "Tree.WinPine"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 7,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "dcc4a2a85cac243a796ee1944133eaef",
+        "instance_count": 18,
+        "gameobject_id": 44039,
+        "name": "Plate",
+        "localization_key": "Resource.OpenKitchen.Plate"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "instance_count": 1,
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "instance_count": 2,
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "instance_count": 1,
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "923781d13c500184e8e19b955b16b4b4",
+        "instance_count": 1,
+        "gameobject_id": 107088,
+        "name": "4-1 FoxTwinStatue",
+        "localization_key": "Decorations.StatueGeraldFox"
+      },
+      {
+        "guid": "93e763672d92e4b56bb06e8fe3269a70",
+        "instance_count": 4,
+        "gameobject_id": 110894,
+        "name": "Winter Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "5e298903dabe44a25b2581fcc96f0900",
+        "instance_count": 8,
+        "gameobject_id": 90295,
+        "name": "Fruit",
+        "localization_key": "Resource.Fruit"
+      },
+      {
+        "guid": "0b8694f450f0242d99f8015e57915185",
+        "instance_count": 5,
+        "gameobject_id": 44027,
+        "name": "Stew",
+        "localization_key": "Resource.Stew"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 12,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "2771bbd4d544e4796b01566412994396",
+        "instance_count": 6,
+        "gameobject_id": 58011,
+        "name": "Stone",
+        "localization_key": "Resource.Stone"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 5,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

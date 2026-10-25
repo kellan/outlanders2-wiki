@@ -1,0 +1,23 @@
+{
+  "id": "Maira.000",
+  "name": "Maira",
+  "biography": "Has a lifetime stock of black nail polish.",
+  "effect": null,
+  "source_entries": [
+    {
+      "key": "Names.Leader.Maira.000",
+      "english": "Maira",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Bios.Leader.Maira.000",
+      "english": "Has a lifetime stock of black nail polish.",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "localized_description; effect_magnitude_and_gameplay_unverified"
+}

@@ -1,0 +1,531 @@
+{
+  "id": "Single06_C_Vortex",
+  "name": "Tourist Trap",
+  "description": "Twice a year, on a treacherous island at the northernmost edge of the Outlands, the Trapper's Guild hosts an event where amateur trappers test their skills over a few intense days. The island is known as 'The Vortex,' a name coined by the guild to add an air of mystery and excitement to the event.",
+  "objectives": [
+    {
+      "id": "Objective.Main",
+      "text": "Obtain <b>{count_1}</b> pieces of <b>{Resource.Meat.WithIcon}</b> and satisfy <b>{Concern.Housing.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Concern.Housing.WithIcon",
+        "Resource.Meat.WithIcon",
+        "count_1"
+      ],
+      "source_text_asset_id": 6510,
+      "source_key": "Level.Single06_C_Vortex.Objective.Main"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Obtain <b>{count}</b> pieces of <b>{Resource.Meat.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Meat.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6510,
+      "source_key": "Level.Single06_C_Vortex.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Satisfy <b>{Concern.Housing.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Concern.Housing.WithIcon"
+      ],
+      "source_text_asset_id": 6510,
+      "source_key": "Level.Single06_C_Vortex.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Secondary",
+      "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count_1}</b>.",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count_1"
+      ],
+      "source_text_asset_id": 6510,
+      "source_key": "Level.Single06_C_Vortex.Objective.Secondary"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count}</b>.",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6510,
+      "source_key": "Level.Single06_C_Vortex.Objective.Secondary.1"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single06_C_Vortex.Name",
+      "english": "Tourist Trap",
+      "source_text_asset_id": 6510,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single06_C_Vortex.Description",
+      "english": "Twice a year, on a treacherous island at the northernmost edge of the Outlands, the Trapper's Guild hosts an event where amateur trappers test their skills over a few intense days. The island is known as 'The Vortex,' a name coined by the guild to add an air of mystery and excitement to the event.",
+      "source_text_asset_id": 6510,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single06_C_Vortex.Objective.Main",
+      "english": "Obtain <b>{count_1}</b> pieces of <b>{Resource.Meat.WithIcon}</b> and satisfy <b>{Concern.Housing.WithIcon}</b>.",
+      "source_text_asset_id": 6510,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Concern.Housing.WithIcon",
+        "Resource.Meat.WithIcon",
+        "count_1"
+      ]
+    },
+    {
+      "key": "Level.Single06_C_Vortex.Objective.Main.1",
+      "english": "Obtain <b>{count}</b> pieces of <b>{Resource.Meat.WithIcon}</b>.",
+      "source_text_asset_id": 6510,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Meat.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single06_C_Vortex.Objective.Main.2",
+      "english": "Satisfy <b>{Concern.Housing.WithIcon}</b>.",
+      "source_text_asset_id": 6510,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Concern.Housing.WithIcon"
+      ]
+    },
+    {
+      "key": "Level.Single06_C_Vortex.Objective.Secondary",
+      "english": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count_1}</b>.",
+      "source_text_asset_id": 6510,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count_1"
+      ]
+    },
+    {
+      "key": "Level.Single06_C_Vortex.Objective.Secondary.1",
+      "english": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count}</b>.",
+      "source_text_asset_id": 6510,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6279,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single06_C_Vortex",
+    "title": "Tourist Trap",
+    "text_asset_id": 6279,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch06/Levels/Single06_C_Vortex.bytes",
+    "sha256": "3a066558a36a792d0e6db5e4389f1b04f0c3a5e2057188ed618345bd15eadcdb",
+    "header_bytes": 1041,
+    "primary_objective_count": 2,
+    "optional_objective_count": 1,
+    "day_limit": 45,
+    "objectives": [
+      {
+        "NeededAmount": 150,
+        "PrefabKeyToCount": "ca1242d5ba60d48fd9a917cb72e551e2",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 93256,
+          "name": "Meat",
+          "localization_key": "Resource.Meat"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 407
+      },
+      {
+        "NeededAmount": 100,
+        "PrefabKeyToCount": "",
+        "PrefabKeyForBuilding": "",
+        "Condition": 7,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Housing",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 568
+      },
+      {
+        "NeededAmount": 20,
+        "PrefabKeyToCount": "",
+        "PrefabKeyForBuilding": "",
+        "Condition": 3,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "VillagerCount",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 665
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main",
+        "text": "Obtain <b>{count_1}</b> pieces of <b>{Resource.Meat.WithIcon}</b> and satisfy <b>{Concern.Housing.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Concern.Housing.WithIcon",
+          "Resource.Meat.WithIcon",
+          "count_1"
+        ],
+        "source_text_asset_id": 6510,
+        "source_key": "Level.Single06_C_Vortex.Objective.Main"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Obtain <b>{count}</b> pieces of <b>{Resource.Meat.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Meat.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6510,
+        "source_key": "Level.Single06_C_Vortex.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Satisfy <b>{Concern.Housing.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Concern.Housing.WithIcon"
+        ],
+        "source_text_asset_id": 6510,
+        "source_key": "Level.Single06_C_Vortex.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Secondary",
+        "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count_1}</b>.",
+        "unresolved_placeholders": [
+          "Stat.Population.WithIcon",
+          "count_1"
+        ],
+        "source_text_asset_id": 6510,
+        "source_key": "Level.Single06_C_Vortex.Objective.Secondary"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count}</b>.",
+        "unresolved_placeholders": [
+          "Stat.Population.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6510,
+        "source_key": "Level.Single06_C_Vortex.Objective.Secondary.1"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelSnow",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": true,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "033493988e4a4d94b8f8ffd39ecadc63",
+        "gameobject_id": 105694,
+        "name": "Tailor",
+        "localization_key": "Building.CoatMaker"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "a122042526ded44a094f22861cb604f2",
+        "gameobject_id": 105729,
+        "name": "Winter Cabin",
+        "localization_key": "Building.HouseWithChimney"
+      },
+      {
+        "guid": "ef055347ed1404c0fb79a68c6ddd4991",
+        "gameobject_id": 80802,
+        "name": "Trappers' Hut",
+        "localization_key": "Building.HuntersHut"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 16,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "b337bbd3ab03d477fae2f76d8bfb8af2",
+        "instance_count": 173,
+        "gameobject_id": 97702,
+        "name": "Winter Pine",
+        "localization_key": "Tree.WinPine"
+      },
+      {
+        "guid": "5ae044f29c3d6304cbf66c364fdf0b31",
+        "instance_count": 1,
+        "gameobject_id": 52504,
+        "name": "Spawn 10 Villagers",
+        "localization_key": "Notification.SpawnPeople"
+      },
+      {
+        "guid": "c2b53b746eabf40f29037cca460c2bae",
+        "instance_count": 3,
+        "gameobject_id": 97630,
+        "name": "Basket",
+        "localization_key": "Tool.Basket"
+      },
+      {
+        "guid": "18e899ee9ddba7742b9326bd5ec6d125",
+        "instance_count": 3,
+        "gameobject_id": 97620,
+        "name": "Wheelbarrow",
+        "localization_key": "Tool.Wheelbarrow"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "instance_count": 1,
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "instance_count": 1,
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "a122042526ded44a094f22861cb604f2",
+        "instance_count": 1,
+        "gameobject_id": 105729,
+        "name": "Winter Cabin",
+        "localization_key": "Building.HouseWithChimney"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "instance_count": 1,
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "instance_count": 1,
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 33,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "aac5b3f1e7fa38a458d385042dcd5cfa",
+        "instance_count": 1,
+        "gameobject_id": 81590,
+        "name": "Tool Hammer",
+        "localization_key": ""
+      },
+      {
+        "guid": "049760704a44fd04cbc5aebc371afef1",
+        "instance_count": 1,
+        "gameobject_id": 81576,
+        "name": "Tool Pick",
+        "localization_key": ""
+      },
+      {
+        "guid": "f1c79859a589c564f89cd9eb64ca8dbc",
+        "instance_count": 1,
+        "gameobject_id": 81602,
+        "name": "Tool Bucket wSand",
+        "localization_key": ""
+      },
+      {
+        "guid": "02cd43766b5ab824192f8fae7363e4fb",
+        "instance_count": 1,
+        "gameobject_id": 81575,
+        "name": "Tool Shovel planted",
+        "localization_key": ""
+      },
+      {
+        "guid": "067d54078093c24459db447f1533ec9e",
+        "instance_count": 4,
+        "gameobject_id": 71872,
+        "name": "Light Torch",
+        "localization_key": "Decoration.Torch"
+      },
+      {
+        "guid": "f9e79a2d70e36944db7aae601779093c",
+        "instance_count": 2,
+        "gameobject_id": 107117,
+        "name": "Light Lantern",
+        "localization_key": "Decoration.Lantern"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "instance_count": 1,
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "93e763672d92e4b56bb06e8fe3269a70",
+        "instance_count": 4,
+        "gameobject_id": 110894,
+        "name": "Winter Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 33,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 72,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 18,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

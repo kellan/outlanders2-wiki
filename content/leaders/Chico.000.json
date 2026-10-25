@@ -1,0 +1,23 @@
+{
+  "id": "Chico.000",
+  "name": "Chico",
+  "biography": "On a quest to fulfill his wish, whatever it may be.",
+  "effect": null,
+  "source_entries": [
+    {
+      "key": "Names.Leader.Chico.000",
+      "english": "Chico",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Bios.Leader.Chico.000",
+      "english": "On a quest to fulfill his wish, whatever it may be.",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "localized_description; effect_magnitude_and_gameplay_unverified"
+}

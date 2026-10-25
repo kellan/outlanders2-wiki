@@ -1,0 +1,93 @@
+{
+  "name": "Greenhouse",
+  "internal_name": "Greenhouse",
+  "gameobject_id": 69352,
+  "paths": [
+    "content/buildings/greenhouse/greenhouse"
+  ],
+  "localization_key": "Building.GreenHouse",
+  "description": "Greenhouses enable farmers to plant <style=Input>{Sources.Field.WithIconPlural}</style> and harvest <style=Output>{Resource.Veggie.WithIconPlural}</style> in the Winterland biome.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 3,
+  "workplace_config": {
+    "MaxWorkers": 3,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 273065
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304358,
+    "build_site_gameobject_id": 57106,
+    "material_inputs": [
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 6
+      },
+      {
+        "resource_id": 309166,
+        "name": "Glass Pane",
+        "count": 6
+      }
+    ],
+    "material_formula_ids": [
+      305157
+    ],
+    "all_formula_ids": [
+      289466,
+      305157
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 12.0,
+    "y": 4.0,
+    "z": 12.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 297595,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Greenhouse",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 316379,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Greenhouse",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": 319673,
+  "internal_name": "Concoction",
+  "name": "Concoction",
+  "localization_key": "Resource.Concoction",
+  "publicly_named": true,
+  "paths": [
+    "content/resources_/concoction shop/concoction"
+  ],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 4.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 319673,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "Concoction",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

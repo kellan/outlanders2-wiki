@@ -1,0 +1,304 @@
+{
+  "id": "Single00_L_Eden",
+  "name": "An Apple a Day",
+  "description": "This young couple's kid has developed a strange condition—bunny ears are sprouting from its head! The doctors say the only cure is to eat a very special apple that only grows in the soil of a secret, mystical island. While it's harmless now, if not treated quickly, the child might turn into a real bunny very soon!",
+  "objectives": [
+    {
+      "id": "Objective.Main",
+      "text": "Harvest one <b>{Resource.Fruit.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Fruit.WithIcon"
+      ],
+      "source_text_asset_id": 6297,
+      "source_key": "Level.Single00_L_Eden.Objective.Main"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Harvest one <b>{Resource.Fruit.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Fruit.WithIcon"
+      ],
+      "source_text_asset_id": 6297,
+      "source_key": "Level.Single00_L_Eden.Objective.Main.1"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single00_L_Eden.Name",
+      "english": "An Apple a Day",
+      "source_text_asset_id": 6297,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single00_L_Eden.Description",
+      "english": "This young couple's kid has developed a strange condition—bunny ears are sprouting from its head! The doctors say the only cure is to eat a very special apple that only grows in the soil of a secret, mystical island. While it's harmless now, if not treated quickly, the child might turn into a real bunny very soon!",
+      "source_text_asset_id": 6297,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single00_L_Eden.Objective.Main",
+      "english": "Harvest one <b>{Resource.Fruit.WithIcon}</b>.",
+      "source_text_asset_id": 6297,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Fruit.WithIcon"
+      ]
+    },
+    {
+      "key": "Level.Single00_L_Eden.Objective.Main.1",
+      "english": "Harvest one <b>{Resource.Fruit.WithIcon}</b>.",
+      "source_text_asset_id": 6297,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Fruit.WithIcon"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6534,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single00_L_Eden",
+    "title": "An Apple a Day",
+    "text_asset_id": 6534,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch00/Levels/Single00_L_Eden.bytes",
+    "sha256": "5a596261d9844448fdd4435dccb82c9dc7fc9837942ad4f1730b8d339135dd20",
+    "header_bytes": 843,
+    "primary_objective_count": 1,
+    "optional_objective_count": 0,
+    "day_limit": -1,
+    "objectives": [
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "5e298903dabe44a25b2581fcc96f0900",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 90295,
+          "name": "Fruit",
+          "localization_key": "Resource.Fruit"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 403
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main",
+        "text": "Harvest one <b>{Resource.Fruit.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Fruit.WithIcon"
+        ],
+        "source_text_asset_id": 6297,
+        "source_key": "Level.Single00_L_Eden.Objective.Main"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Harvest one <b>{Resource.Fruit.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Fruit.WithIcon"
+        ],
+        "source_text_asset_id": 6297,
+        "source_key": "Level.Single00_L_Eden.Objective.Main.1"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": false,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "569845ff63210476b9caf10ea7a9fbbe",
+        "gameobject_id": 67909,
+        "name": "Apple Tree",
+        "localization_key": "Field.AppleTree"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "bc256ee0d241047c685e39ff9a7a5537",
+        "gameobject_id": 40308,
+        "name": "Orchard",
+        "localization_key": "Building.Orchard"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 62,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 5,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 2,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "da94570ec2cdb4a25a2f961098233dc1",
+        "instance_count": 1,
+        "gameobject_id": 107108,
+        "name": "Canoe",
+        "localization_key": "Decoration.Canoe"
+      },
+      {
+        "guid": "2771bbd4d544e4796b01566412994396",
+        "instance_count": 4,
+        "gameobject_id": 58011,
+        "name": "Stone",
+        "localization_key": "Resource.Stone"
+      },
+      {
+        "guid": "929aae2b8ffd74855bc95bba925a30f4",
+        "instance_count": 9,
+        "gameobject_id": 71019,
+        "name": "Clay",
+        "localization_key": "Resource.Clay"
+      },
+      {
+        "guid": "39c81ad5a30184c52868b34fa8391f73",
+        "instance_count": 8,
+        "gameobject_id": 40043,
+        "name": "Flour",
+        "localization_key": "Resource.Flour"
+      },
+      {
+        "guid": "108be5f4bfad94ed79e7deea4a031409",
+        "instance_count": 15,
+        "gameobject_id": 97586,
+        "name": "Bread",
+        "localization_key": "Resource.Bread"
+      },
+      {
+        "guid": "afa18381d4de248d0b0f2d51e266962d",
+        "instance_count": 1,
+        "gameobject_id": 52512,
+        "name": "Rain",
+        "localization_key": "Notification.Rain"
+      },
+      {
+        "guid": "034f36ac4e1afd44aa69391903e6c3db",
+        "instance_count": 1,
+        "gameobject_id": 52498,
+        "name": "No Reproduction Single00 L",
+        "localization_key": "Notification.NoReproduction"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "instance_count": 1,
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "instance_count": 1,
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "94600512594a4514b9d5ed71a037afb8",
+        "instance_count": 1,
+        "gameobject_id": 107089,
+        "name": "3-1 Pond",
+        "localization_key": ""
+      },
+      {
+        "guid": "83a98825b2e8b411ab0c8fd15517a777",
+        "instance_count": 1,
+        "gameobject_id": 98767,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 2,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "2f75a3fea3f854460ba75c2c08ecb57f",
+        "instance_count": 1,
+        "gameobject_id": 105961,
+        "name": "Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 2,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

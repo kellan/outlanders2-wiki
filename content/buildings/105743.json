@@ -1,0 +1,140 @@
+{
+  "name": "Bootmakers' Shop",
+  "internal_name": "Boot Maker",
+  "gameobject_id": 105743,
+  "paths": [
+    "content/buildings/boot maker/boot maker"
+  ],
+  "localization_key": "Building.BootMaker",
+  "description": "Bootmakers use <style=Input>{Resource.AnimalHide.WithIconPlural}</style> and <style=Input>{Resource.Wood.WithIconPlural}</style> to craft Boots that increase the wearer's movement speed.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 3,
+  "workplace_config": {
+    "MaxWorkers": 3,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304353,
+    "build_site_gameobject_id": 57101,
+    "material_inputs": [
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 12
+      }
+    ],
+    "material_formula_ids": [
+      305152
+    ],
+    "all_formula_ids": [
+      305152,
+      305409
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 6.0,
+    "y": 4.0,
+    "z": 6.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    280139,
+    281639,
+    282292,
+    284303,
+    285325,
+    288546,
+    290510,
+    291265,
+    292646,
+    293377,
+    295282,
+    298078,
+    304517,
+    306810,
+    311405,
+    315940
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 304112,
+          "name": "Animal Hide",
+          "count": 2
+        },
+        {
+          "resource_id": 309169,
+          "name": "Log",
+          "count": 1
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 300125,
+          "name": "Boots",
+          "count": 1
+        }
+      ],
+      "formula_ids": [
+        281639,
+        290510,
+        291265,
+        292646,
+        293377,
+        295282,
+        298078,
+        306810
+      ],
+      "equipment_category_ids": [],
+      "caveats": [],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316575,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Boot Maker",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 301326,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Boot Maker",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

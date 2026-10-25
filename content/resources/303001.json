@@ -1,0 +1,30 @@
+{
+  "id": 303001,
+  "internal_name": "HotCrucible",
+  "name": "HotCrucible",
+  "localization_key": "Resource.BrickMaker.BrickDry",
+  "publicly_named": false,
+  "paths": [
+    "content/resources_/glass maker/hotcrucible"
+  ],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 303001,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "HotCrucible",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

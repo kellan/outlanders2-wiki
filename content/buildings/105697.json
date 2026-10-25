@@ -1,0 +1,124 @@
+{
+  "name": "Brickyard",
+  "internal_name": "Brick Maker",
+  "gameobject_id": 105697,
+  "paths": [
+    "content/buildings/brick maker/brick maker"
+  ],
+  "localization_key": "Building.BrickMaker",
+  "description": "Brick makers heat lumps of <style=Input>{Resource.Clay.WithIcon}</style> in a fire fueled by <style=Input>{Resource.Stick.WithIconPlural}</style> to turn them into <style=Output>{Resource.Brick.WithIconPlural}</style> for construction.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 2,
+  "workplace_config": {
+    "MaxWorkers": 2,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 1,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304347,
+    "build_site_gameobject_id": 57095,
+    "material_inputs": [
+      {
+        "resource_id": 284894,
+        "name": "Stick",
+        "count": 9
+      }
+    ],
+    "material_formula_ids": [
+      305146
+    ],
+    "all_formula_ids": [
+      300704,
+      305146
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 4.0,
+    "y": 2.0,
+    "z": 4.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    281497,
+    284725,
+    300608,
+    319150
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 292310,
+          "name": "Clay",
+          "count": 8
+        },
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 1
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 284026,
+          "name": "Brick",
+          "count": 8
+        }
+      ],
+      "formula_ids": [
+        281497,
+        284725,
+        300608,
+        319150
+      ],
+      "equipment_category_ids": [],
+      "caveats": [],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316529,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Brick Maker",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 305457,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Brick Maker",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

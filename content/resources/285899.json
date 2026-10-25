@@ -1,0 +1,39 @@
+{
+  "id": 285899,
+  "internal_name": "Mead",
+  "name": "Mead",
+  "localization_key": "Resource.Mead",
+  "publicly_named": true,
+  "paths": [
+    "content/resources_/mead hall/mead"
+  ],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 4.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 4.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 42878
+    },
+    "m_Enabled": 1,
+    "m_Name": "",
+    "ConsumedByChildren": 0,
+    "ConsumedByAdults": 1
+  },
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 285899,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "Mead",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

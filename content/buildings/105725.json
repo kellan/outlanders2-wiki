@@ -1,0 +1,64 @@
+{
+  "name": "Orchid Tree Pit",
+  "internal_name": "Decorative Tree Orchid Tree",
+  "gameobject_id": 105725,
+  "paths": [
+    "content/buildings/_decorative tree/orchid tree/decorative tree orchid tree"
+  ],
+  "localization_key": "Building.OrchidTree",
+  "description": "This bushy tree loves sun and heat. It's gorgeous flowers look an awful lot like orchids, even though they’re not.",
+  "is_base_or_campaign_asset": true,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304323,
+    "build_site_gameobject_id": 57071,
+    "material_inputs": [
+      {
+        "resource_id": 284026,
+        "name": "Brick",
+        "count": 6
+      }
+    ],
+    "material_formula_ids": [
+      305122
+    ],
+    "all_formula_ids": [
+      303654,
+      305122
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 4.0,
+    "y": 0.0,
+    "z": 4.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316557,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Decorative Tree Orchid Tree",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

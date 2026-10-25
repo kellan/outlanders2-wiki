@@ -1,0 +1,69 @@
+{
+  "name": "Author's Stand",
+  "internal_name": "zAuthor's Stand",
+  "gameobject_id": 67680,
+  "paths": [
+    "content/buildings/_campaign buildings/author's stand/zauthor's stand"
+  ],
+  "localization_key": "Building.BookFair",
+  "description": "The author will sign copies of his speculative fiction book about his estranged friends.",
+  "is_base_or_campaign_asset": true,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304334,
+    "build_site_gameobject_id": 57082,
+    "material_inputs": [
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 12
+      },
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 8
+      }
+    ],
+    "material_formula_ids": [
+      305133
+    ],
+    "all_formula_ids": [
+      305133,
+      307816
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 10.0,
+    "y": 2.0,
+    "z": 10.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 296493,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "zAuthor's Stand",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

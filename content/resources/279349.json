@@ -1,0 +1,30 @@
+{
+  "id": 279349,
+  "internal_name": "TripleStew_BarleyPorridgeShop",
+  "name": "TripleStew_BarleyPorridgeShop",
+  "localization_key": null,
+  "publicly_named": false,
+  "paths": [
+    "content/resources_/barley porridge shop/triplestew_barleyporridgeshop"
+  ],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 279349,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "TripleStew_BarleyPorridgeShop",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

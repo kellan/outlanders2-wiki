@@ -1,0 +1,78 @@
+{
+  "name": "Hanging Garden",
+  "internal_name": "Floating Garden",
+  "gameobject_id": 67673,
+  "paths": [
+    "content/buildings/_level unique buildings/floating garden/floating garden"
+  ],
+  "localization_key": "Building.FloatingGarden",
+  "description": "Its interior holds the freshest air and the quietest silence.",
+  "is_base_or_campaign_asset": true,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304302,
+    "build_site_gameobject_id": 57050,
+    "material_inputs": [
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 80
+      },
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 80
+      },
+      {
+        "resource_id": 292310,
+        "name": "Clay",
+        "count": 80
+      }
+    ],
+    "material_formula_ids": [
+      280410,
+      305102,
+      309609
+    ],
+    "all_formula_ids": [
+      280410,
+      305102,
+      309609,
+      319253
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 20.0,
+    "y": 16.0,
+    "z": 20.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 296486,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Floating Garden",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

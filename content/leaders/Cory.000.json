@@ -1,0 +1,23 @@
+{
+  "id": "Cory.000",
+  "name": "Cory",
+  "biography": "Struggles to keep a cool head. So they take turns.",
+  "effect": null,
+  "source_entries": [
+    {
+      "key": "Names.Leader.Cory.000",
+      "english": "Cory",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Bios.Leader.Cory.000",
+      "english": "Struggles to keep a cool head. So they take turns.",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "localized_description; effect_magnitude_and_gameplay_unverified"
+}

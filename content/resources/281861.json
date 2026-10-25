@@ -1,0 +1,30 @@
+{
+  "id": 281861,
+  "internal_name": "GlassOfWater",
+  "name": "Water",
+  "localization_key": "Resource.GlassOfWater",
+  "publicly_named": true,
+  "paths": [
+    "content/resources_/well/glassofwater"
+  ],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 1.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": 3.6670000553131104,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 281861,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "GlassOfWater",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

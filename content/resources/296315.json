@@ -1,0 +1,28 @@
+{
+  "id": 296315,
+  "internal_name": "Fondue",
+  "name": "Fondue",
+  "localization_key": "Resource.Fondue",
+  "publicly_named": true,
+  "paths": [],
+  "need_units": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 296315,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "Fondue Shop Eat Spot/Villagers_Strong_Woman_European_White/game_rig/MP_2HandsTool/Fondue",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

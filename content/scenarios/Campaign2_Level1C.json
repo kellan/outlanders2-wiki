@@ -1,0 +1,634 @@
+{
+  "id": "Campaign2_Level1C",
+  "name": "Summit Heat",
+  "description": "As they passed through the clouds concealing the summit, the air grew warmer and the ground greener. Once they saw what the mist was hiding, Jelena's goal became clearer.",
+  "objectives": [
+    {
+      "id": "Objective.Main.1",
+      "text": "Have <b>{count} {Building.HouseStone.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.HouseStone.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6484,
+      "source_key": "Level.Campaign2_Level1C.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Have <b>{count}</b> tiles of <b>{Building.StoneRoad.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.StoneRoad.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6484,
+      "source_key": "Level.Campaign2_Level1C.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Main.3",
+      "text": "Satisfy <b>{Stat.Happiness.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Stat.Happiness.WithIcon"
+      ],
+      "source_text_asset_id": 6484,
+      "source_key": "Level.Campaign2_Level1C.Objective.Main.3"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Have <b>{count} {Resource.Fruit.WithIconPlural}</b> stored in <b>{Building.Market.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.Market.WithIconPlural",
+        "Resource.Fruit.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6484,
+      "source_key": "Level.Campaign2_Level1C.Objective.Secondary.1"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Campaign2_Level1C.Name",
+      "english": "Summit Heat",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Campaign2_Level1C.Description",
+      "english": "As they passed through the clouds concealing the summit, the air grew warmer and the ground greener. Once they saw what the mist was hiding, Jelena's goal became clearer.",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Campaign2_Level1C.Objective.Main.1",
+      "english": "Have <b>{count} {Building.HouseStone.WithIconPlural}</b>.",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": [
+        "Building.HouseStone.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Campaign2_Level1C.Objective.Main.2",
+      "english": "Have <b>{count}</b> tiles of <b>{Building.StoneRoad.WithIcon}</b>.",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": [
+        "Building.StoneRoad.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Campaign2_Level1C.Objective.Main.3",
+      "english": "Satisfy <b>{Stat.Happiness.WithIcon}</b>.",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": [
+        "Stat.Happiness.WithIcon"
+      ]
+    },
+    {
+      "key": "Level.Campaign2_Level1C.Objective.Secondary.1",
+      "english": "Have <b>{count} {Resource.Fruit.WithIconPlural}</b> stored in <b>{Building.Market.WithIconPlural}</b>.",
+      "source_text_asset_id": 6484,
+      "source_table": "LevelsStandalone",
+      "unresolved_placeholders": [
+        "Building.Market.WithIconPlural",
+        "Resource.Fruit.WithIconPlural",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6294,
+  "campaign_number": 2,
+  "category": "campaign",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Campaign2_Level1C",
+    "title": "Summit Heat",
+    "text_asset_id": 6294,
+    "source_level_path": "Assets/Resources/Content/Levels/Campaign 2/Story 1/Campaign2_Level1C.bytes",
+    "sha256": "a128e4547a830fedd90652f6db8ec29e21159582efb4b304c829c6039dd3bce7",
+    "header_bytes": 1297,
+    "primary_objective_count": 3,
+    "optional_objective_count": 1,
+    "day_limit": 125,
+    "objectives": [
+      {
+        "NeededAmount": 5,
+        "PrefabKeyToCount": "578d4586224990b4099233f511e9ffd8",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 67667,
+          "name": "Two-Story House",
+          "localization_key": "Building.HouseStone"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 505
+      },
+      {
+        "NeededAmount": 90,
+        "PrefabKeyToCount": "aaa8f04679915e040a9b34b24734186d",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 116138,
+          "name": "Stone Road",
+          "localization_key": "Building.StoneRoad"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 666
+      },
+      {
+        "NeededAmount": 40,
+        "PrefabKeyToCount": "5e298903dabe44a25b2581fcc96f0900",
+        "PrefabKeyForBuilding": "72e328e1626c6427698be5ccdab7c343",
+        "Condition": 8,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "HaveInBuilding",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 90295,
+          "name": "Fruit",
+          "localization_key": "Resource.Fruit"
+        },
+        "building": {
+          "gameobject_id": 35462,
+          "name": "Market",
+          "localization_key": "Building.Market"
+        },
+        "header_byte_offset": 827
+      },
+      {
+        "NeededAmount": 80,
+        "PrefabKeyToCount": "",
+        "PrefabKeyForBuilding": "",
+        "Condition": 4,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 1.0,
+        "condition_name": "Happiness",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 1052
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main.1",
+        "text": "Have <b>{count} {Building.HouseStone.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.HouseStone.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6484,
+        "source_key": "Level.Campaign2_Level1C.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Have <b>{count}</b> tiles of <b>{Building.StoneRoad.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.StoneRoad.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6484,
+        "source_key": "Level.Campaign2_Level1C.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Main.3",
+        "text": "Satisfy <b>{Stat.Happiness.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Stat.Happiness.WithIcon"
+        ],
+        "source_text_asset_id": 6484,
+        "source_key": "Level.Campaign2_Level1C.Objective.Main.3"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Have <b>{count} {Resource.Fruit.WithIconPlural}</b> stored in <b>{Building.Market.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.Market.WithIconPlural",
+          "Resource.Fruit.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6484,
+        "source_key": "Level.Campaign2_Level1C.Objective.Secondary.1"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "LeaderboardType": 0
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "045b7542e94934d189e3d89b72a36b40",
+        "gameobject_id": 45826,
+        "name": "Brewery",
+        "localization_key": "Building.Brewery"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "9eb40effdb47a3243b119783975c8664",
+        "gameobject_id": 57396,
+        "name": "Cookie Shop",
+        "localization_key": "Building.CookieShop"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "821e8494d9aa35140ba765e2dac5018b",
+        "gameobject_id": 71093,
+        "name": "Cabbage Field",
+        "localization_key": "Field.Cabbage"
+      },
+      {
+        "guid": "ffa49475cb05e0c48b7efdb975d2ad5a",
+        "gameobject_id": 71100,
+        "name": "Corn Field",
+        "localization_key": "Field.Corn"
+      },
+      {
+        "guid": "ba49332a824bb49599321ceee86e2462",
+        "gameobject_id": 71096,
+        "name": "Tomato Field",
+        "localization_key": "Field.Tomato"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "578d4586224990b4099233f511e9ffd8",
+        "gameobject_id": 67667,
+        "name": "Two-Story House",
+        "localization_key": "Building.HouseStone"
+      },
+      {
+        "guid": "3e0a77d8aa71d734bbde24dc31944e28",
+        "gameobject_id": 105707,
+        "name": "Press",
+        "localization_key": "Building.Journal"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "40cbf11b6165740239a452b1c9a3f9b9",
+        "gameobject_id": 105708,
+        "name": "Paper Mill",
+        "localization_key": "Building.Papermill"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "b181a6ade2121eb4c97d69ef08097932",
+        "gameobject_id": 57397,
+        "name": "Smoothie Stand",
+        "localization_key": "Building.FruitJuiceStand"
+      },
+      {
+        "guid": "7f0517aae7626244db91df74eabaffa7",
+        "gameobject_id": 105723,
+        "name": "Stone Mine",
+        "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "95ab3ec13fc224ea5a49e126af375afb",
+        "instance_count": 68,
+        "gameobject_id": 62711,
+        "name": "PineTree",
+        "localization_key": "Tree.Pine"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 5,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "e8c6f4a4dbf7846e3a18c1a001a66163",
+        "instance_count": 18,
+        "gameobject_id": 92222,
+        "name": "AppleTree",
+        "localization_key": "Tree.Apple"
+      },
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 8,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "1563b62a2b7064b3ab44ddd9f6a04262",
+        "instance_count": 8,
+        "gameobject_id": 92214,
+        "name": "FigTree",
+        "localization_key": "Tree.Fig"
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 8,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 150,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      },
+      {
+        "guid": "929aae2b8ffd74855bc95bba925a30f4",
+        "instance_count": 18,
+        "gameobject_id": 71019,
+        "name": "Clay",
+        "localization_key": "Resource.Clay"
+      },
+      {
+        "guid": "2771bbd4d544e4796b01566412994396",
+        "instance_count": 24,
+        "gameobject_id": 58011,
+        "name": "Stone",
+        "localization_key": "Resource.Stone"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 18,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 15,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "8eebecf277142204ba189081928c90f8",
+        "instance_count": 28,
+        "gameobject_id": 78174,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "78928447337dd6c4b8e73496588c9505",
+        "instance_count": 7,
+        "gameobject_id": 107080,
+        "name": "Fireflies",
+        "localization_key": ""
+      },
+      {
+        "guid": "fcd405cb611987347b688f091cb1e099",
+        "instance_count": 1,
+        "gameobject_id": 107118,
+        "name": "Jelenas Backpack",
+        "localization_key": "Decorations.JelenasBackpack"
+      },
+      {
+        "guid": "0ae337e2a9b6ae2408858f32f0399961",
+        "instance_count": 13,
+        "gameobject_id": 107053,
+        "name": "Tool Used Coat",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "bd65f98014ca2cb419af2ee90fc8675c",
+        "instance_count": 3,
+        "gameobject_id": 95340,
+        "name": "Volcanic Fumes_1",
+        "localization_key": ""
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 9,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "2f75a3fea3f854460ba75c2c08ecb57f",
+        "instance_count": 3,
+        "gameobject_id": 105961,
+        "name": "Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "7fc667ba846ca0840ae9578ea149fd7a",
+        "instance_count": 1,
+        "gameobject_id": 105828,
+        "name": "Leader Jelena C",
+        "localization_key": ""
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 15,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "campaign"
+  }
+}

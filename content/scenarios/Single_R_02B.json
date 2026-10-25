@@ -1,0 +1,795 @@
+{
+  "id": "Single_R_02B",
+  "name": "The Homecoming",
+  "description": "Miranda and her crew are heading back after their failed resort project, unaware that winter has hit their hometown too. The villagers, anticipating the unpleasant surprise, are working hard to stock the town and welcome them back.",
+  "objectives": [
+    {
+      "id": "Objective.Main.1",
+      "text": "Have <b>{count} [Resource.Meat.WithIconPlural]</b> stored in <b>[Building.Market.NamePlural]</b>.",
+      "unresolved_placeholders": [
+        "count"
+      ],
+      "source_text_asset_id": 6391,
+      "source_key": "Level.Single_R_02B.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Harvest <b>{count} {Resource.Veggie.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6391,
+      "source_key": "Level.Single_R_02B.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Main.3",
+      "text": "Have <b>{count}</b> bags of <b>{Resource.Flour.WithIcon}</b> in stock.",
+      "unresolved_placeholders": [
+        "Resource.Flour.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6391,
+      "source_key": "Level.Single_R_02B.Objective.Main.3"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Have <b>{count} {Building.HouseStone.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.HouseStone.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6391,
+      "source_key": "Level.Single_R_02B.Objective.Secondary.1"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Obtain <b>{count}</b> pieces of <b>{Resource.Meat.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Meat.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single_R_02B.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Harvest <b>{count} {Resource.Veggie.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single_R_02B.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Main.3",
+      "text": "Have <b>{count}</b> bags of <b>{Resource.Flour.WithIcon}</b> in stock.",
+      "unresolved_placeholders": [
+        "Resource.Flour.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single_R_02B.Objective.Main.3"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Have <b>{count} {Building.HouseStone.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.HouseStone.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single_R_02B.Objective.Secondary.1"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single_R_02B.Name",
+      "english": "The Homecoming",
+      "source_text_asset_id": 6391,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_R_02B.Description",
+      "english": "Miranda and her crew are heading back after their failed resort project, unaware that winter has hit their hometown too. The villagers, anticipating the unpleasant surprise, are working hard to stock the town and welcome them back.",
+      "source_text_asset_id": 6391,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_R_02B.Objective.Main.1",
+      "english": "Have <b>{count} [Resource.Meat.WithIconPlural]</b> stored in <b>[Building.Market.NamePlural]</b>.",
+      "source_text_asset_id": 6391,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_R_02B.Objective.Main.2",
+      "english": "Harvest <b>{count} {Resource.Veggie.WithIconPlural}</b>.",
+      "source_text_asset_id": 6391,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_R_02B.Objective.Main.3",
+      "english": "Have <b>{count}</b> bags of <b>{Resource.Flour.WithIcon}</b> in stock.",
+      "source_text_asset_id": 6391,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Flour.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_R_02B.Objective.Secondary.1",
+      "english": "Have <b>{count} {Building.HouseStone.WithIconPlural}</b>.",
+      "source_text_asset_id": 6391,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.HouseStone.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_R_02B.Name",
+      "english": "The Homecoming",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_R_02B.Description",
+      "english": "Miranda and her crew are heading back after their failed resort project, unaware that winter has hit their hometown too. The villagers, anticipating the unpleasant surprise, are working hard to stock the town and welcome them back.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_R_02B.Objective.Main.1",
+      "english": "Obtain <b>{count}</b> pieces of <b>{Resource.Meat.WithIcon}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Resource.Meat.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_R_02B.Objective.Main.2",
+      "english": "Harvest <b>{count} {Resource.Veggie.WithIconPlural}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_R_02B.Objective.Main.3",
+      "english": "Have <b>{count}</b> bags of <b>{Resource.Flour.WithIcon}</b> in stock.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Resource.Flour.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_R_02B.Objective.Secondary.1",
+      "english": "Have <b>{count} {Building.HouseStone.WithIconPlural}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Building.HouseStone.WithIconPlural",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6441,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single_R_02B",
+    "title": "The Homecoming",
+    "text_asset_id": 6441,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch11/Levels/Single_R_02B.bytes",
+    "sha256": "35fcd308b030eaece5e73540aeecfb1a186753e700bbb6d3aec6acb8cde21d99",
+    "header_bytes": 1576,
+    "primary_objective_count": 3,
+    "optional_objective_count": 1,
+    "day_limit": 70,
+    "objectives": [
+      {
+        "NeededAmount": 75,
+        "PrefabKeyToCount": "ca1242d5ba60d48fd9a917cb72e551e2",
+        "PrefabKeyForBuilding": "72e328e1626c6427698be5ccdab7c343",
+        "Condition": 8,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "HaveInBuilding",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 93256,
+          "name": "Meat",
+          "localization_key": "Resource.Meat"
+        },
+        "building": {
+          "gameobject_id": 35462,
+          "name": "Market",
+          "localization_key": "Building.Market"
+        },
+        "header_byte_offset": 397
+      },
+      {
+        "NeededAmount": 50,
+        "PrefabKeyToCount": "68146c529eba242b59a824d74431fc86",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 90296,
+          "name": "Veggie",
+          "localization_key": "Resource.Veggie"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 622
+      },
+      {
+        "NeededAmount": 2,
+        "PrefabKeyToCount": "578d4586224990b4099233f511e9ffd8",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 67667,
+          "name": "Two-Story House",
+          "localization_key": "Building.HouseStone"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 847
+      },
+      {
+        "NeededAmount": 25,
+        "PrefabKeyToCount": "39c81ad5a30184c52868b34fa8391f73",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 40043,
+          "name": "Flour",
+          "localization_key": "Resource.Flour"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 1072
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main.1",
+        "text": "Have <b>{count} [Resource.Meat.WithIconPlural]</b> stored in <b>[Building.Market.NamePlural]</b>.",
+        "unresolved_placeholders": [
+          "count"
+        ],
+        "source_text_asset_id": 6391,
+        "source_key": "Level.Single_R_02B.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Harvest <b>{count} {Resource.Veggie.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Veggie.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6391,
+        "source_key": "Level.Single_R_02B.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Main.3",
+        "text": "Have <b>{count}</b> bags of <b>{Resource.Flour.WithIcon}</b> in stock.",
+        "unresolved_placeholders": [
+          "Resource.Flour.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6391,
+        "source_key": "Level.Single_R_02B.Objective.Main.3"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Have <b>{count} {Building.HouseStone.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.HouseStone.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6391,
+        "source_key": "Level.Single_R_02B.Objective.Secondary.1"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Obtain <b>{count}</b> pieces of <b>{Resource.Meat.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Meat.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6493,
+        "source_key": "Level.Single_R_02B.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Harvest <b>{count} {Resource.Veggie.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Veggie.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6493,
+        "source_key": "Level.Single_R_02B.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Main.3",
+        "text": "Have <b>{count}</b> bags of <b>{Resource.Flour.WithIcon}</b> in stock.",
+        "unresolved_placeholders": [
+          "Resource.Flour.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6493,
+        "source_key": "Level.Single_R_02B.Objective.Main.3"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Have <b>{count} {Building.HouseStone.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.HouseStone.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6493,
+        "source_key": "Level.Single_R_02B.Objective.Secondary.1"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelSnow",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": true,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "045b7542e94934d189e3d89b72a36b40",
+        "gameobject_id": 45826,
+        "name": "Brewery",
+        "localization_key": "Building.Brewery"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "033493988e4a4d94b8f8ffd39ecadc63",
+        "gameobject_id": 105694,
+        "name": "Tailor",
+        "localization_key": "Building.CoatMaker"
+      },
+      {
+        "guid": "ffa49475cb05e0c48b7efdb975d2ad5a",
+        "gameobject_id": 71100,
+        "name": "Corn Field",
+        "localization_key": "Field.Corn"
+      },
+      {
+        "guid": "6f91f0a136ebf4befa0e90bbbcbf3f79",
+        "gameobject_id": 40306,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "8793924bc37fc12429340646df423230",
+        "gameobject_id": 69352,
+        "name": "Greenhouse",
+        "localization_key": "Building.GreenHouse"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "578d4586224990b4099233f511e9ffd8",
+        "gameobject_id": 67667,
+        "name": "Two-Story House",
+        "localization_key": "Building.HouseStone"
+      },
+      {
+        "guid": "a122042526ded44a094f22861cb604f2",
+        "gameobject_id": 105729,
+        "name": "Winter Cabin",
+        "localization_key": "Building.HouseWithChimney"
+      },
+      {
+        "guid": "ef055347ed1404c0fb79a68c6ddd4991",
+        "gameobject_id": 80802,
+        "name": "Trappers' Hut",
+        "localization_key": "Building.HuntersHut"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "d7d5d85f831fd4275ae951907b524658",
+        "gameobject_id": 75227,
+        "name": "Trading Outpost",
+        "localization_key": "Building.TradingPost"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "edfecc7cf9db64da394c2f86a82bbc74",
+        "instance_count": 16,
+        "gameobject_id": 97634,
+        "name": "HunterTrap",
+        "localization_key": ""
+      },
+      {
+        "guid": "d1f8e2782f2f644fab802d5c755a8204",
+        "instance_count": 4,
+        "gameobject_id": 72858,
+        "name": "Axe - Iron",
+        "localization_key": "Tool.AxeIron"
+      },
+      {
+        "guid": "2ac4c7de8c339264c937f75c9ad89a01",
+        "instance_count": 3,
+        "gameobject_id": 79276,
+        "name": "Scythe - Rock",
+        "localization_key": "Tool.ScytheRock"
+      },
+      {
+        "guid": "b8501c41316a6a14b92793239c8cf4e7",
+        "instance_count": 3,
+        "gameobject_id": 99576,
+        "name": "SeedBag",
+        "localization_key": ""
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 3,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 1,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "instance_count": 1,
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "instance_count": 1,
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "ef055347ed1404c0fb79a68c6ddd4991",
+        "instance_count": 2,
+        "gameobject_id": 80802,
+        "name": "Trappers' Hut",
+        "localization_key": "Building.HuntersHut"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "instance_count": 1,
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 7,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "b337bbd3ab03d477fae2f76d8bfb8af2",
+        "instance_count": 122,
+        "gameobject_id": 97702,
+        "name": "Winter Pine",
+        "localization_key": "Tree.WinPine"
+      },
+      {
+        "guid": "9183f122e9398c044a761a651ba885c4",
+        "instance_count": 1,
+        "gameobject_id": 107087,
+        "name": "2-2 FerryDock",
+        "localization_key": "Decorations.FerryDock"
+      },
+      {
+        "guid": "8c3cbfc6d021dcd49b11d90787b2c5f4",
+        "instance_count": 2,
+        "gameobject_id": 107086,
+        "name": "Festival Ornament 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "322d5d439cb10fc4c88deb3cd6ddaecc",
+        "instance_count": 1,
+        "gameobject_id": 107060,
+        "name": "Festival Ornament 3",
+        "localization_key": ""
+      },
+      {
+        "guid": "e932b0755062c0d41af38ab422ff6e76",
+        "instance_count": 2,
+        "gameobject_id": 81598,
+        "name": "Tool Bucket",
+        "localization_key": ""
+      },
+      {
+        "guid": "049760704a44fd04cbc5aebc371afef1",
+        "instance_count": 1,
+        "gameobject_id": 81576,
+        "name": "Tool Pick",
+        "localization_key": ""
+      },
+      {
+        "guid": "6d59220e4452d7f41b0fd87c26fb51d5",
+        "instance_count": 2,
+        "gameobject_id": 81584,
+        "name": "Tool Axe",
+        "localization_key": ""
+      },
+      {
+        "guid": "76f15662f9436dd4bae5778e64127609",
+        "instance_count": 1,
+        "gameobject_id": 81585,
+        "name": "Tool Wheelbarrow",
+        "localization_key": ""
+      },
+      {
+        "guid": "06dd75cf17e63a54bae39d3032e5499b",
+        "instance_count": 1,
+        "gameobject_id": 81577,
+        "name": "Tool Wheel standing",
+        "localization_key": ""
+      },
+      {
+        "guid": "38f629d30e393c24e9ff79b95205239f",
+        "instance_count": 1,
+        "gameobject_id": 81579,
+        "name": "Tool Wheelbarrow no wheel",
+        "localization_key": ""
+      },
+      {
+        "guid": "e53f3b47ed960e143ac36f3d2fe9e75a",
+        "instance_count": 1,
+        "gameobject_id": 55507,
+        "name": "Birds flock Seagull",
+        "localization_key": ""
+      },
+      {
+        "guid": "929aae2b8ffd74855bc95bba925a30f4",
+        "instance_count": 8,
+        "gameobject_id": 71019,
+        "name": "Clay",
+        "localization_key": "Resource.Clay"
+      },
+      {
+        "guid": "93e763672d92e4b56bb06e8fe3269a70",
+        "instance_count": 10,
+        "gameobject_id": 110894,
+        "name": "Winter Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "ac3c375a164b340ecb49555349e7a453",
+        "instance_count": 2,
+        "gameobject_id": 51389,
+        "name": "Winter Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "8793924bc37fc12429340646df423230",
+        "instance_count": 1,
+        "gameobject_id": 69352,
+        "name": "Greenhouse",
+        "localization_key": "Building.GreenHouse"
+      },
+      {
+        "guid": "ffa49475cb05e0c48b7efdb975d2ad5a",
+        "instance_count": 12,
+        "gameobject_id": 71100,
+        "name": "Corn Field",
+        "localization_key": "Field.Corn"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 7,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "ca1242d5ba60d48fd9a917cb72e551e2",
+        "instance_count": 7,
+        "gameobject_id": 93256,
+        "name": "Meat",
+        "localization_key": "Resource.Meat"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

@@ -1,0 +1,607 @@
+{
+  "id": "Level02A",
+  "name": "The Itch",
+  "description": "Miranda has never been one to stand out, but with Pablo gone, she sees a chance to take the lead in her town, even if all she has to offer is her secret bread recipe.",
+  "objectives": [
+    {
+      "id": "Objective.Main.1",
+      "text": "Bake <b>{count}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Bread.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level02A.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Have <b>{count}</b> <b>{Building.PlankHouse.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.PlankHouse.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level02A.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Main.3",
+      "text": "Have <b>{count}</b> <b>{Resource.Wood.WithIconPlural}</b> stored in <b>{Building.Warehouse.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.Warehouse.WithIconPlural",
+        "Resource.Wood.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level02A.Objective.Main.3"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Have <b>{count}</b> <b>{Resource.Veggie.WithIconPlural}</b> in stock.",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level02A.Objective.Secondary.1"
+    },
+    {
+      "id": "Objective.Secondary.2",
+      "text": "Have <b>{count}</b> <b>{Building.Plaza.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.Plaza.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level02A.Objective.Secondary.2"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Level02A.Name",
+      "english": "The Itch",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Level02A.Description",
+      "english": "Miranda has never been one to stand out, but with Pablo gone, she sees a chance to take the lead in her town, even if all she has to offer is her secret bread recipe.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Level02A.Objective.Main.1",
+      "english": "Bake <b>{count}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Resource.Bread.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Level02A.Objective.Main.2",
+      "english": "Have <b>{count}</b> <b>{Building.PlankHouse.WithIconPlural}</b>.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Building.PlankHouse.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Level02A.Objective.Main.3",
+      "english": "Have <b>{count}</b> <b>{Resource.Wood.WithIconPlural}</b> stored in <b>{Building.Warehouse.WithIconPlural}</b>.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Building.Warehouse.WithIconPlural",
+        "Resource.Wood.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Level02A.Objective.Secondary.1",
+      "english": "Have <b>{count}</b> <b>{Resource.Veggie.WithIconPlural}</b> in stock.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Level02A.Objective.Secondary.2",
+      "english": "Have <b>{count}</b> <b>{Building.Plaza.WithIconPlural}</b>.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Building.Plaza.WithIconPlural",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6380,
+  "campaign_number": 1,
+  "category": "campaign",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Level02A",
+    "title": "The Itch",
+    "text_asset_id": 6380,
+    "source_level_path": "Assets/Resources/Content/Levels/Campaign/Campaign 1/Level02A.bytes",
+    "sha256": "2f262044b24cdbcb757360424c1b0012ece6f1c244087b6d6e1d96b86f9d55aa",
+    "header_bytes": 1514,
+    "primary_objective_count": 3,
+    "optional_objective_count": 2,
+    "day_limit": 50,
+    "objectives": [
+      {
+        "NeededAmount": 80,
+        "PrefabKeyToCount": "108be5f4bfad94ed79e7deea4a031409",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 97586,
+          "name": "Bread",
+          "localization_key": "Resource.Bread"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 497
+      },
+      {
+        "NeededAmount": 3,
+        "PrefabKeyToCount": "d69a1896465107d43ba4df5eaf06fa3d",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 67677,
+          "name": "Plank House",
+          "localization_key": "Building.PlankHouse"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 658
+      },
+      {
+        "NeededAmount": 20,
+        "PrefabKeyToCount": "cbdef787909bb1842b47662d86ce4ad4",
+        "PrefabKeyForBuilding": "72944978a58524b6a8d02456de83f702",
+        "Condition": 8,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "HaveInBuilding",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 80725,
+          "name": "Log",
+          "localization_key": "Resource.Wood"
+        },
+        "building": {
+          "gameobject_id": 35461,
+          "name": "Warehouse",
+          "localization_key": "Building.Warehouse"
+        },
+        "header_byte_offset": 819
+      },
+      {
+        "NeededAmount": 20,
+        "PrefabKeyToCount": "68146c529eba242b59a824d74431fc86",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 90296,
+          "name": "Veggie",
+          "localization_key": "Resource.Veggie"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 1044
+      },
+      {
+        "NeededAmount": 2,
+        "PrefabKeyToCount": "a68392366cabc294c97f2daf7bf8b887",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 105732,
+          "name": "Communal Plaza",
+          "localization_key": "Building.Plaza"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 1205
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main.1",
+        "text": "Bake <b>{count}</b> loaves of <b>{Resource.Bread.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Bread.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level02A.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Have <b>{count}</b> <b>{Building.PlankHouse.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.PlankHouse.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level02A.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Main.3",
+        "text": "Have <b>{count}</b> <b>{Resource.Wood.WithIconPlural}</b> stored in <b>{Building.Warehouse.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.Warehouse.WithIconPlural",
+          "Resource.Wood.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level02A.Objective.Main.3"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Have <b>{count}</b> <b>{Resource.Veggie.WithIconPlural}</b> in stock.",
+        "unresolved_placeholders": [
+          "Resource.Veggie.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level02A.Objective.Secondary.1"
+      },
+      {
+        "id": "Objective.Secondary.2",
+        "text": "Have <b>{count}</b> <b>{Building.Plaza.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.Plaza.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level02A.Objective.Secondary.2"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": false,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": false,
+        "IsConcernRefreshmentAvailable": false,
+        "LeaderboardType": 0
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "ba49332a824bb49599321ceee86e2462",
+        "gameobject_id": 71096,
+        "name": "Tomato Field",
+        "localization_key": "Field.Tomato"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "95ab3ec13fc224ea5a49e126af375afb",
+        "instance_count": 15,
+        "gameobject_id": 62711,
+        "name": "PineTree",
+        "localization_key": "Tree.Pine"
+      },
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 17,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 4,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "1563b62a2b7064b3ab44ddd9f6a04262",
+        "instance_count": 8,
+        "gameobject_id": 92214,
+        "name": "FigTree",
+        "localization_key": "Tree.Fig"
+      },
+      {
+        "guid": "e8c6f4a4dbf7846e3a18c1a001a66163",
+        "instance_count": 9,
+        "gameobject_id": 92222,
+        "name": "AppleTree",
+        "localization_key": "Tree.Apple"
+      },
+      {
+        "guid": "d1f8e2782f2f644fab802d5c755a8204",
+        "instance_count": 4,
+        "gameobject_id": 72858,
+        "name": "Axe - Iron",
+        "localization_key": "Tool.AxeIron"
+      },
+      {
+        "guid": "2ac4c7de8c339264c937f75c9ad89a01",
+        "instance_count": 4,
+        "gameobject_id": 79276,
+        "name": "Scythe - Rock",
+        "localization_key": "Tool.ScytheRock"
+      },
+      {
+        "guid": "b8501c41316a6a14b92793239c8cf4e7",
+        "instance_count": 4,
+        "gameobject_id": 99576,
+        "name": "SeedBag",
+        "localization_key": ""
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 4,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "instance_count": 1,
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "instance_count": 2,
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "instance_count": 1,
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 2,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "instance_count": 45,
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "5c167dc8f95bbea4a86abebb4e359c59",
+        "instance_count": 1,
+        "gameobject_id": 107074,
+        "name": "2-1 Dock",
+        "localization_key": "Decorations.BrokenFerryDock"
+      },
+      {
+        "guid": "dd5ec983f6179644cacbed7e269e8da4",
+        "instance_count": 1,
+        "gameobject_id": 107111,
+        "name": "2-1 BrokenWickerbread",
+        "localization_key": "Decorations.BreadMan"
+      },
+      {
+        "guid": "36ffeeddd6f534531beab31ea7553c75",
+        "instance_count": 1,
+        "gameobject_id": 98765,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "2f75a3fea3f854460ba75c2c08ecb57f",
+        "instance_count": 4,
+        "gameobject_id": 105961,
+        "name": "Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 6,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "176bbd47e851c994b86220e39e602868",
+        "instance_count": 1,
+        "gameobject_id": 45092,
+        "name": "Leader Miranda A",
+        "localization_key": ""
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "instance_count": 1,
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 2,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      },
+      {
+        "guid": "5e298903dabe44a25b2581fcc96f0900",
+        "instance_count": 25,
+        "gameobject_id": 90295,
+        "name": "Fruit",
+        "localization_key": "Resource.Fruit"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 6,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "929aae2b8ffd74855bc95bba925a30f4",
+        "instance_count": 8,
+        "gameobject_id": 71019,
+        "name": "Clay",
+        "localization_key": "Resource.Clay"
+      },
+      {
+        "guid": "e53f3b47ed960e143ac36f3d2fe9e75a",
+        "instance_count": 1,
+        "gameobject_id": 55507,
+        "name": "Birds flock Seagull",
+        "localization_key": ""
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "campaign"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": 285908,
+  "internal_name": "Newspaper",
+  "name": "Newspaper",
+  "localization_key": "Resource.Newspaper",
+  "publicly_named": true,
+  "paths": [
+    "content/resources_/newspaper"
+  ],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 1.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 6.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 285908,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "Newspaper",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

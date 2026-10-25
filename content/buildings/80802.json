@@ -1,0 +1,95 @@
+{
+  "name": "Trappers' Hut",
+  "internal_name": "HuntersHut",
+  "gameobject_id": 80802,
+  "paths": [
+    "content/buildings/huntershut/huntershut"
+  ],
+  "localization_key": "Building.HuntersHut",
+  "description": "Trappers lay traps near <style=Input>{Sources.Tree.WithIconPlural}</style> during the day to catch <style=Input>{Sources.Animal.WithIconPlural}</style> for their <style=Output>{Resource.AnimalHide.WithIconPlural}</style> and <style=Output>{Resource.Meat.WithIcon}</style> at night.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 3,
+  "workplace_config": {
+    "MaxWorkers": 3,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 273066
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 1
+  },
+  "construction": {
+    "build_site_component_id": 320031,
+    "build_site_gameobject_id": 44045,
+    "material_inputs": [
+      {
+        "resource_id": 309169,
+        "name": "Log",
+        "count": 4
+      },
+      {
+        "resource_id": 284894,
+        "name": "Stick",
+        "count": 8
+      }
+    ],
+    "material_formula_ids": [
+      320773
+    ],
+    "all_formula_ids": [
+      293122,
+      320773
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 4.0,
+    "y": 4.0,
+    "z": 4.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    312411
+  ],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 304197,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "HuntersHut",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 308901,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "HuntersHut",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

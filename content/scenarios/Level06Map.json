@@ -1,0 +1,71 @@
+{
+  "id": "Level06Map",
+  "name": "Unnamed scenario · additional map · 1",
+  "description": "",
+  "objectives": [],
+  "source_entries": [],
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "verification_status": "decoded_scenario; runtime_unverified",
+  "packaged_level_text_asset_id": 6314,
+  "scenario": {
+    "asset_name": "Level06Map",
+    "title": "Level06Map",
+    "text_asset_id": 6314,
+    "source_level_path": "Campaign/Campaign 2/Level06Map",
+    "sha256": "3af89ae05cc85c25b71518b6aa0f113f304ed06e080793dcd3f98a3da1988ca7",
+    "header_bytes": 467,
+    "primary_objective_count": 0,
+    "optional_objective_count": 0,
+    "day_limit": 30,
+    "objectives": [],
+    "localized_objective_templates": [],
+    "level_config": [
+      {
+        "LevelScene": "LevelTropical",
+        "IsConcernFoodAvailable": false,
+        "IsConcernHousingAvailable": false,
+        "IsConcernCommunityAvailable": false,
+        "IsConcernEntertainmentAvailable": false,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": false,
+        "IsConcernRefreshmentAvailable": false,
+        "LeaderboardType": 0
+      }
+    ],
+    "buildable_entries": [],
+    "initial_prefab_instances": [
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 6,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "551d21748adb743a8b46dac8d60b6cd1",
+        "instance_count": 44,
+        "gameobject_id": 64024,
+        "name": "Jungle Tree",
+        "localization_key": "Field.JungleTree"
+      },
+      {
+        "guid": "57113efc44b82409195c4f67a631462d",
+        "instance_count": 46,
+        "gameobject_id": 115334,
+        "name": "Palm Tree",
+        "localization_key": "Tree.Palm"
+      },
+      {
+        "guid": "bb7eebb8e1cacc042a9b9be69c303529",
+        "instance_count": 24,
+        "gameobject_id": 64026,
+        "name": "Jungle Big Tree",
+        "localization_key": "Field.JungleBigTree"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "campaign"
+  },
+  "display_title_status": "Official display title not recovered; descriptive catalog label only."
+}

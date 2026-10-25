@@ -1,0 +1,23 @@
+{
+  "id": "Fjordi.000",
+  "name": "Fjordi",
+  "biography": "Hates being the center of attention, but somehow always is.",
+  "effect": null,
+  "source_entries": [
+    {
+      "key": "Names.Leader.Fjordi.000",
+      "english": "Fjordi",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Bios.Leader.Fjordi.000",
+      "english": "Hates being the center of attention, but somehow always is.",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "localized_description; effect_magnitude_and_gameplay_unverified"
+}

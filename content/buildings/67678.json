@@ -1,0 +1,64 @@
+{
+  "name": "Pablo's Ladder",
+  "internal_name": "zPablo's Ladder",
+  "gameobject_id": 67678,
+  "paths": [
+    "content/buildings/_campaign buildings/pablo's ladder/zpablo's ladder"
+  ],
+  "localization_key": "Building.PablosLadder",
+  "description": "It's probably a bad idea...",
+  "is_base_or_campaign_asset": true,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304362,
+    "build_site_gameobject_id": 57110,
+    "material_inputs": [
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 30
+      }
+    ],
+    "material_formula_ids": [
+      305161
+    ],
+    "all_formula_ids": [
+      298849,
+      305161
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 4.0,
+    "y": 4.0,
+    "z": 4.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 296491,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "zPablo's Ladder",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

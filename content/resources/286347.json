@@ -1,0 +1,30 @@
+{
+  "id": 286347,
+  "internal_name": "Nopal",
+  "name": "Nopalito",
+  "localization_key": "Resource.Nopalito",
+  "publicly_named": true,
+  "paths": [
+    "content/resources_/nopal"
+  ],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 4.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 286347,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "Nopal",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

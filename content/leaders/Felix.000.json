@@ -1,0 +1,30 @@
+{
+  "id": "Felix.000",
+  "name": "Felix",
+  "biography": "Occasionally forgetful, especially about the number of glasses of wine he's had.",
+  "effect": "Villagers now need less Community, Fun, and Wellness!",
+  "source_entries": [
+    {
+      "key": "Names.Leader.Felix.000",
+      "english": "Felix",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Bios.Leader.Felix.000",
+      "english": "Occasionally forgetful, especially about the number of glasses of wine he's had.",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Effects.Leader.Felix.000",
+      "english": "Villagers now need less Community, Fun, and Wellness!",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "localized_description; effect_magnitude_and_gameplay_unverified"
+}

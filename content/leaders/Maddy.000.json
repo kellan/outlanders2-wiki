@@ -1,0 +1,30 @@
+{
+  "id": "Maddy.000",
+  "name": "Maddy",
+  "biography": "Sweet lady, though a little overbearing and sometimes a bit too power-hungry.",
+  "effect": "Villagers now have more children!",
+  "source_entries": [
+    {
+      "key": "Names.Leader.Maddy.000",
+      "english": "Maddy",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Bios.Leader.Maddy.000",
+      "english": "Sweet lady, though a little overbearing and sometimes a bit too power-hungry.",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Effects.Leader.Maddy.000",
+      "english": "Villagers now have more children!",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "localized_description; effect_magnitude_and_gameplay_unverified"
+}

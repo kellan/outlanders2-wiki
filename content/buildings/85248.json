@@ -1,0 +1,64 @@
+{
+  "name": "Calla Lilly Planter",
+  "internal_name": "Decorative Planter Calla Lilly",
+  "gameobject_id": 85248,
+  "paths": [
+    "content/buildings/_decorative planter/calla lilly/decorative planter calla lilly"
+  ],
+  "localization_key": "Building.PlanterCallaLilly",
+  "description": "Stunning spear-shaped leaves surround a flower so elegant and delicate, it’s often seen at special occasions.",
+  "is_base_or_campaign_asset": true,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 297008,
+    "build_site_gameobject_id": 83474,
+    "material_inputs": [
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 2
+      }
+    ],
+    "material_formula_ids": [
+      297808
+    ],
+    "all_formula_ids": [
+      297808,
+      300419
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 2.0,
+    "y": 0.0,
+    "z": 2.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 306585,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Decorative Planter Calla Lilly",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

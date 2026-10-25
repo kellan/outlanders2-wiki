@@ -1,0 +1,88 @@
+{
+  "name": "Roadworks Office",
+  "internal_name": "Road Builder",
+  "gameobject_id": 105735,
+  "paths": [
+    "content/buildings/road builder/road builder"
+  ],
+  "localization_key": "Building.RoadBuilder",
+  "description": "Road workers are in charge of building and recycling Roads and Bridges.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 4,
+  "workplace_config": {
+    "MaxWorkers": 4,
+    "WorkTimeRange": {
+      "Start": 0.949999988079071,
+      "End": 0.550000011920929
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304367,
+    "build_site_gameobject_id": 57115,
+    "material_inputs": [
+      {
+        "resource_id": 309169,
+        "name": "Log",
+        "count": 6
+      }
+    ],
+    "material_formula_ids": [
+      305166
+    ],
+    "all_formula_ids": [
+      288577,
+      305166
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 4.0,
+    "y": 3.0,
+    "z": 4.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316567,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Road Builder",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 306396,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Road Builder",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

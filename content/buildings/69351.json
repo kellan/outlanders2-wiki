@@ -1,0 +1,117 @@
+{
+  "name": "Clay Pit",
+  "internal_name": "ClayMaker",
+  "gameobject_id": 69351,
+  "paths": [
+    "content/buildings/clay maker/claymaker"
+  ],
+  "localization_key": "Building.ClayMaker",
+  "description": "Clay Pit workers employ a state-of-the-art process to transform dirt into lumps of <style=Output>{Resource.Clay.WithIcon}</style>.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 3,
+  "workplace_config": {
+    "MaxWorkers": 3,
+    "WorkTimeRange": {
+      "Start": 0.0,
+      "End": 0.6000000238418579
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 1,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304327,
+    "build_site_gameobject_id": 57075,
+    "material_inputs": [
+      {
+        "resource_id": 284894,
+        "name": "Stick",
+        "count": 10
+      }
+    ],
+    "material_formula_ids": [
+      305126
+    ],
+    "all_formula_ids": [
+      289447,
+      305126
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 6.0,
+    "y": 2.0,
+    "z": 6.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    281454,
+    285131,
+    293561,
+    319566,
+    321589
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "resource_id": 292310,
+          "name": "Clay",
+          "count": 1
+        }
+      ],
+      "formula_ids": [
+        281454,
+        285131,
+        293561,
+        319566,
+        321589
+      ],
+      "equipment_category_ids": [],
+      "caveats": [
+        "source_or_nonmaterial_process_not_free_production"
+      ],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 297594,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "ClayMaker",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 316378,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "ClayMaker",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

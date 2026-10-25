@@ -1,0 +1,64 @@
+{
+  "name": "Snow Sculpture",
+  "internal_name": "Snow Statue",
+  "gameobject_id": 105748,
+  "paths": [
+    "content/buildings/_monuments/snow statue/snow statue"
+  ],
+  "localization_key": "Building.SnowStatue",
+  "description": "A mesmerizing decoration depicting visions from underwater worlds.",
+  "is_base_or_campaign_asset": true,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304339,
+    "build_site_gameobject_id": 57087,
+    "material_inputs": [
+      {
+        "resource_id": 284026,
+        "name": "Brick",
+        "count": 8
+      }
+    ],
+    "material_formula_ids": [
+      305138
+    ],
+    "all_formula_ids": [
+      282700,
+      305138
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 4.0,
+    "y": 0.0,
+    "z": 4.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316580,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Snow Statue",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

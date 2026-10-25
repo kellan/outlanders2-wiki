@@ -1,0 +1,572 @@
+{
+  "id": "Single03_C_Vesuvius",
+  "name": "The Rekindling",
+  "description": "A few years have passed since the volcano went dormant, somehow taking the town's joy with it. No more music, no more laughter— all houses are now coated in a subtle grey tone from the remaining ashes. Something must be done to bring the groove back to the town.",
+  "objectives": [
+    {
+      "id": "Objective.Main",
+      "text": "Have <b>{count_1}</b> <b>{Building.BrickHouse.WithIconPlural}</b>, a <b>{Building.ZenGarden.WithIcon}</b> and no <b>{Building.House.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.BrickHouse.WithIconPlural",
+        "Building.House.WithIconPlural",
+        "Building.ZenGarden.WithIcon",
+        "count_1"
+      ],
+      "source_text_asset_id": 6371,
+      "source_key": "Level.Single03_C_Vesuvius.Objective.Main"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Have <b>{count}</b> <b>{Building.BrickHouse.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.BrickHouse.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6371,
+      "source_key": "Level.Single03_C_Vesuvius.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Have no <b>{Building.House.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.House.WithIconPlural"
+      ],
+      "source_text_asset_id": 6371,
+      "source_key": "Level.Single03_C_Vesuvius.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Main.3",
+      "text": "Have a <b>{Building.ZenGarden.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.ZenGarden.WithIcon"
+      ],
+      "source_text_asset_id": 6371,
+      "source_key": "Level.Single03_C_Vesuvius.Objective.Main.3"
+    },
+    {
+      "id": "Objective.Secondary",
+      "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count_1}</b>.",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count_1"
+      ],
+      "source_text_asset_id": 6371,
+      "source_key": "Level.Single03_C_Vesuvius.Objective.Secondary"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count}</b>.",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6371,
+      "source_key": "Level.Single03_C_Vesuvius.Objective.Secondary.1"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single03_C_Vesuvius.Name",
+      "english": "The Rekindling",
+      "source_text_asset_id": 6371,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single03_C_Vesuvius.Description",
+      "english": "A few years have passed since the volcano went dormant, somehow taking the town's joy with it. No more music, no more laughter— all houses are now coated in a subtle grey tone from the remaining ashes. Something must be done to bring the groove back to the town.",
+      "source_text_asset_id": 6371,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single03_C_Vesuvius.Objective.Main",
+      "english": "Have <b>{count_1}</b> <b>{Building.BrickHouse.WithIconPlural}</b>, a <b>{Building.ZenGarden.WithIcon}</b> and no <b>{Building.House.WithIconPlural}</b>.",
+      "source_text_asset_id": 6371,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.BrickHouse.WithIconPlural",
+        "Building.House.WithIconPlural",
+        "Building.ZenGarden.WithIcon",
+        "count_1"
+      ]
+    },
+    {
+      "key": "Level.Single03_C_Vesuvius.Objective.Main.1",
+      "english": "Have <b>{count}</b> <b>{Building.BrickHouse.WithIconPlural}</b>.",
+      "source_text_asset_id": 6371,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.BrickHouse.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single03_C_Vesuvius.Objective.Main.2",
+      "english": "Have no <b>{Building.House.WithIconPlural}</b>.",
+      "source_text_asset_id": 6371,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.House.WithIconPlural"
+      ]
+    },
+    {
+      "key": "Level.Single03_C_Vesuvius.Objective.Main.3",
+      "english": "Have a <b>{Building.ZenGarden.WithIcon}</b>.",
+      "source_text_asset_id": 6371,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.ZenGarden.WithIcon"
+      ]
+    },
+    {
+      "key": "Level.Single03_C_Vesuvius.Objective.Secondary",
+      "english": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count_1}</b>.",
+      "source_text_asset_id": 6371,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count_1"
+      ]
+    },
+    {
+      "key": "Level.Single03_C_Vesuvius.Objective.Secondary.1",
+      "english": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count}</b>.",
+      "source_text_asset_id": 6371,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6509,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single03_C_Vesuvius",
+    "title": "The Rekindling",
+    "text_asset_id": 6509,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch03/Levels/Single03_C_Vesuvius.bytes",
+    "sha256": "f7a7461e48c8d1b0b86ad1f1c70bf6eb4abbda9b5eb46cf91c50e85418e1356f",
+    "header_bytes": 1270,
+    "primary_objective_count": 3,
+    "optional_objective_count": 1,
+    "day_limit": 45,
+    "objectives": [
+      {
+        "NeededAmount": 10,
+        "PrefabKeyToCount": "4d6e67db404b4014586ba62b62ee4118",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 67665,
+          "name": "Brick House",
+          "localization_key": "Building.BrickHouse"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 411
+      },
+      {
+        "NeededAmount": 0,
+        "PrefabKeyToCount": "c53e9b43869e44769a89e59c35bd9a8c",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 67675,
+          "name": "Basic House",
+          "localization_key": "Building.House"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 572
+      },
+      {
+        "NeededAmount": 35,
+        "PrefabKeyToCount": "",
+        "PrefabKeyForBuilding": "",
+        "Condition": 3,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "VillagerCount",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 733
+      },
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "66b35e9bf1f909946830309193ad3f91",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 105716,
+          "name": "Zen Garden",
+          "localization_key": "Building.ZenGarden"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 830
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main",
+        "text": "Have <b>{count_1}</b> <b>{Building.BrickHouse.WithIconPlural}</b>, a <b>{Building.ZenGarden.WithIcon}</b> and no <b>{Building.House.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.BrickHouse.WithIconPlural",
+          "Building.House.WithIconPlural",
+          "Building.ZenGarden.WithIcon",
+          "count_1"
+        ],
+        "source_text_asset_id": 6371,
+        "source_key": "Level.Single03_C_Vesuvius.Objective.Main"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Have <b>{count}</b> <b>{Building.BrickHouse.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.BrickHouse.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6371,
+        "source_key": "Level.Single03_C_Vesuvius.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Have no <b>{Building.House.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.House.WithIconPlural"
+        ],
+        "source_text_asset_id": 6371,
+        "source_key": "Level.Single03_C_Vesuvius.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Main.3",
+        "text": "Have a <b>{Building.ZenGarden.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.ZenGarden.WithIcon"
+        ],
+        "source_text_asset_id": 6371,
+        "source_key": "Level.Single03_C_Vesuvius.Objective.Main.3"
+      },
+      {
+        "id": "Objective.Secondary",
+        "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count_1}</b>.",
+        "unresolved_placeholders": [
+          "Stat.Population.WithIcon",
+          "count_1"
+        ],
+        "source_text_asset_id": 6371,
+        "source_key": "Level.Single03_C_Vesuvius.Objective.Secondary"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count}</b>.",
+        "unresolved_placeholders": [
+          "Stat.Population.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6371,
+        "source_key": "Level.Single03_C_Vesuvius.Objective.Secondary.1"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "Level",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "821e8494d9aa35140ba765e2dac5018b",
+        "gameobject_id": 71093,
+        "name": "Cabbage Field",
+        "localization_key": "Field.Cabbage"
+      },
+      {
+        "guid": "ba49332a824bb49599321ceee86e2462",
+        "gameobject_id": 71096,
+        "name": "Tomato Field",
+        "localization_key": "Field.Tomato"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 59,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "1563b62a2b7064b3ab44ddd9f6a04262",
+        "instance_count": 12,
+        "gameobject_id": 92214,
+        "name": "FigTree",
+        "localization_key": "Tree.Fig"
+      },
+      {
+        "guid": "95ab3ec13fc224ea5a49e126af375afb",
+        "instance_count": 21,
+        "gameobject_id": 62711,
+        "name": "PineTree",
+        "localization_key": "Tree.Pine"
+      },
+      {
+        "guid": "842cbe9f256384ec4bf8aa72d3efc1d0",
+        "instance_count": 7,
+        "gameobject_id": 92217,
+        "name": "PomeloTree",
+        "localization_key": "Tree.Pomelo"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 14,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "dbe994cbb1f936845931d28403d988ed",
+        "instance_count": 2,
+        "gameobject_id": 92221,
+        "name": "GrapeTree",
+        "localization_key": "Tree.Grape"
+      },
+      {
+        "guid": "bb7eebb8e1cacc042a9b9be69c303529",
+        "instance_count": 1,
+        "gameobject_id": 64026,
+        "name": "Jungle Big Tree",
+        "localization_key": "Field.JungleBigTree"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "instance_count": 32,
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "instance_count": 6,
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "a5d8dd08a0bea4a628d6973e83737c14",
+        "instance_count": 85,
+        "gameobject_id": 81589,
+        "name": "TropicalMountainVegetation",
+        "localization_key": ""
+      },
+      {
+        "guid": "c2b53b746eabf40f29037cca460c2bae",
+        "instance_count": 3,
+        "gameobject_id": 97630,
+        "name": "Basket",
+        "localization_key": "Tool.Basket"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "instance_count": 1,
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "2f75a3fea3f854460ba75c2c08ecb57f",
+        "instance_count": 1,
+        "gameobject_id": 105961,
+        "name": "Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 6,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 72,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

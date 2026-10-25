@@ -1,0 +1,69 @@
+{
+  "name": "Fountain",
+  "internal_name": "Halloween Fountain",
+  "gameobject_id": 65619,
+  "paths": [
+    "content/buildings/_monuments/fountain/halloween fountain"
+  ],
+  "localization_key": "Building.Fountain",
+  "description": "A place for inspiration, self-reflection, and some light-hearted gossip.",
+  "is_base_or_campaign_asset": true,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 299042,
+    "build_site_gameobject_id": 88604,
+    "material_inputs": [
+      {
+        "resource_id": 284026,
+        "name": "Brick",
+        "count": 4
+      },
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 3
+      }
+    ],
+    "material_formula_ids": [
+      298336
+    ],
+    "all_formula_ids": [
+      277827,
+      298336
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 6.0,
+    "y": 0.0,
+    "z": 6.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 295015,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Halloween Fountain",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

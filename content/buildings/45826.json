@@ -1,0 +1,142 @@
+{
+  "name": "Brewery",
+  "internal_name": "Brewery",
+  "gameobject_id": 45826,
+  "paths": [
+    "content/buildings/brewery/brewery"
+  ],
+  "localization_key": "Building.Brewery",
+  "description": "Brewers use <style=Input>{Resource.Stick.WithIconPlural}</style> to light a fire and, through the miracle of science, turn <style=Input>{Resource.Wheat.WithIcon}</style> into <style=Output>{Resource.Beer.WithIcon}</style>.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 3,
+  "workplace_config": {
+    "MaxWorkers": 3,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 289755,
+    "build_site_gameobject_id": 79951,
+    "material_inputs": [
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 15
+      },
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 4
+      }
+    ],
+    "material_formula_ids": [
+      289084
+    ],
+    "all_formula_ids": [
+      279423,
+      289084
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 8.0,
+    "y": 2.0,
+    "z": 8.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    276771,
+    276774,
+    276776,
+    276777,
+    276779,
+    309601,
+    311049
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 320813,
+          "name": "Wheat",
+          "count": 1
+        },
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 1
+        },
+        {
+          "resource_id": 285900,
+          "name": "BeerEmpty",
+          "count": 5
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 285901,
+          "name": "Beer",
+          "count": 5
+        }
+      ],
+      "formula_ids": [
+        276771,
+        276774,
+        276776,
+        276777,
+        276779,
+        309601,
+        311049
+      ],
+      "equipment_category_ids": [],
+      "caveats": [
+        "unresolved_internal_input"
+      ],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 284146,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Brewery",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 276765,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Brewery",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

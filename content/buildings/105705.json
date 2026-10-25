@@ -1,0 +1,143 @@
+{
+  "name": "Fondue Bar",
+  "internal_name": "Fondue Shop",
+  "gameobject_id": 105705,
+  "paths": [
+    "content/buildings/fondue shop/fondue shop"
+  ],
+  "localization_key": "Building.FondueShop",
+  "description": "Fondue makers melt <style=Input>{Resource.Cheese.WithIcon}</style> over a fire fueled by <style=Input>{Resource.Stick.WithIconPlural}</style> and add chopped <style=Input>{Resource.Veggie.WithIconPlural}</style> to create a pot of <style=Output>{Resource.Fondue.WithIcon}</style> that provides <style=Output>{Concern.Nutrition.WithIcon}</style> and <style=Output>{Concern.Entertainment.WithIcon}</style>.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 3,
+  "workplace_config": {
+    "MaxWorkers": 3,
+    "WorkTimeRange": {
+      "Start": 0.949999988079071,
+      "End": 0.550000011920929
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304305,
+    "build_site_gameobject_id": 57053,
+    "material_inputs": [
+      {
+        "resource_id": 284026,
+        "name": "Brick",
+        "count": 8
+      },
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 10
+      }
+    ],
+    "material_formula_ids": [
+      305105
+    ],
+    "all_formula_ids": [
+      292671,
+      305105
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 8.0,
+    "y": 2.0,
+    "z": 8.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    281279,
+    284642,
+    289469,
+    314525,
+    316247
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 319683,
+          "name": "Cheese",
+          "count": 1
+        },
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 1
+        },
+        {
+          "resource_id": 300127,
+          "name": "Veggie",
+          "count": 2
+        },
+        {
+          "resource_id": 279344,
+          "name": "Fondue Empty Plate",
+          "count": 5
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 319679,
+          "name": "Fondue",
+          "count": 5
+        }
+      ],
+      "formula_ids": [
+        281279,
+        284642,
+        289469,
+        314525,
+        316247
+      ],
+      "equipment_category_ids": [],
+      "caveats": [
+        "unresolved_internal_input"
+      ],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316537,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Fondue Shop",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 292710,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Fondue Shop",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

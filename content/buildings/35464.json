@@ -1,0 +1,90 @@
+{
+  "name": "zBeer Stand",
+  "internal_name": "zBeer Stand",
+  "gameobject_id": 35464,
+  "paths": [
+    "content/buildings/_campaign buildings/beer stand/zbeer stand"
+  ],
+  "localization_key": "Building.BeerStand",
+  "description": null,
+  "is_base_or_campaign_asset": true,
+  "max_workers": 3,
+  "workplace_config": {
+    "MaxWorkers": 3,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 292293,
+    "build_site_gameobject_id": 75882,
+    "material_inputs": [
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 12
+      }
+    ],
+    "material_formula_ids": [
+      278924
+    ],
+    "all_formula_ids": [
+      278924,
+      291682
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 6.0,
+    "y": 2.0,
+    "z": 6.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    312972
+  ],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 277880,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "zBeer Stand",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 318870,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "zBeer Stand",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

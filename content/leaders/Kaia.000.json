@@ -1,0 +1,23 @@
+{
+  "id": "Kaia.000",
+  "name": "Kaia",
+  "biography": "Her dreams of underwater worlds feel like memories.",
+  "effect": null,
+  "source_entries": [
+    {
+      "key": "Names.Leader.Kaia.000",
+      "english": "Kaia",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Bios.Leader.Kaia.000",
+      "english": "Her dreams of underwater worlds feel like memories.",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "localized_description; effect_magnitude_and_gameplay_unverified"
+}

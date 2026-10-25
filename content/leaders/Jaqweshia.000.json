@@ -1,0 +1,30 @@
+{
+  "id": "Jaqweshia.000",
+  "name": "Jaqweshia",
+  "biography": "Her multitasking skills are only hindered by the constant feeling of not doing enough.",
+  "effect": "Veggies now grow faster!",
+  "source_entries": [
+    {
+      "key": "Names.Leader.Jaqweshia.000",
+      "english": "Jaqweshia",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Bios.Leader.Jaqweshia.000",
+      "english": "Her multitasking skills are only hindered by the constant feeling of not doing enough.",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Effects.Leader.Jaqweshia.000",
+      "english": "Veggies now grow faster!",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "localized_description; effect_magnitude_and_gameplay_unverified"
+}

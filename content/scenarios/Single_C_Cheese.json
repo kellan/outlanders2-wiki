@@ -1,0 +1,669 @@
+{
+  "id": "Single_C_Cheese",
+  "name": "Patent Pending",
+  "description": "Fondue is the craze of the season in the Outlands right now! So much so, an opportunistic group of outlanders are determined to capitalize on its popularity by coming up with as many recipes as they can.",
+  "objectives": [
+    {
+      "id": "Objective.Main.1",
+      "text": "Make <b>{count}</b> sheets of <b>{Resource.Paper.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Paper.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6296,
+      "source_key": "Level.Single_C_Cheese.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Make <b>{count}</b> pots of <b>{Resource.Fondue.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Fondue.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6296,
+      "source_key": "Level.Single_C_Cheese.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Clear all the <b>{Sources.Rock.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Sources.Rock.WithIconPlural"
+      ],
+      "source_text_asset_id": 6296,
+      "source_key": "Level.Single_C_Cheese.Objective.Secondary.1"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Make <b>{count}</b> sheets of <b>{Resource.Paper.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Paper.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6298,
+      "source_key": "Level.Single_C_Cheese.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Make <b>{count}</b> pots of <b>{Resource.Fondue.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Fondue.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6298,
+      "source_key": "Level.Single_C_Cheese.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Clear all the <b>{Sources.Rock.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Sources.Rock.WithIconPlural"
+      ],
+      "source_text_asset_id": 6298,
+      "source_key": "Level.Single_C_Cheese.Objective.Secondary.1"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single_C_Cheese.Name",
+      "english": "Patent Pending",
+      "source_text_asset_id": 6296,
+      "source_table": "LocalizationBatchesOctubre",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_C_Cheese.Description",
+      "english": "Fondue is the craze of the season in the Outlands right now! So much so, an opportunistic group of outlanders are determined to capitalize on its popularity by coming up with as many recipes as they can.",
+      "source_text_asset_id": 6296,
+      "source_table": "LocalizationBatchesOctubre",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_C_Cheese.Objective.Main.1",
+      "english": "Make <b>{count}</b> sheets of <b>{Resource.Paper.WithIcon}</b>.",
+      "source_text_asset_id": 6296,
+      "source_table": "LocalizationBatchesOctubre",
+      "unresolved_placeholders": [
+        "Resource.Paper.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_C_Cheese.Objective.Main.2",
+      "english": "Make <b>{count}</b> pots of <b>{Resource.Fondue.WithIcon}</b>.",
+      "source_text_asset_id": 6296,
+      "source_table": "LocalizationBatchesOctubre",
+      "unresolved_placeholders": [
+        "Resource.Fondue.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_C_Cheese.Objective.Secondary.1",
+      "english": "Clear all the <b>{Sources.Rock.WithIconPlural}</b>.",
+      "source_text_asset_id": 6296,
+      "source_table": "LocalizationBatchesOctubre",
+      "unresolved_placeholders": [
+        "Sources.Rock.WithIconPlural"
+      ]
+    },
+    {
+      "key": "Level.Single_C_Cheese.Name",
+      "english": "Patent Pending",
+      "source_text_asset_id": 6298,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_C_Cheese.Description",
+      "english": "Fondue is the craze of the season in the Outlands right now! So much so, an opportunistic group of outlanders are determined to capitalize on its popularity by coming up with as many recipes as they can.",
+      "source_text_asset_id": 6298,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_C_Cheese.Objective.Main.1",
+      "english": "Make <b>{count}</b> sheets of <b>{Resource.Paper.WithIcon}</b>.",
+      "source_text_asset_id": 6298,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Paper.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_C_Cheese.Objective.Main.2",
+      "english": "Make <b>{count}</b> pots of <b>{Resource.Fondue.WithIcon}</b>.",
+      "source_text_asset_id": 6298,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Fondue.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_C_Cheese.Objective.Secondary.1",
+      "english": "Clear all the <b>{Sources.Rock.WithIconPlural}</b>.",
+      "source_text_asset_id": 6298,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Sources.Rock.WithIconPlural"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6564,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single_C_Cheese",
+    "title": "Patent Pending",
+    "text_asset_id": 6564,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch08/Levels/Single_C_Cheese.bytes",
+    "sha256": "63d96a888b8cb3f95bb4d403fe1573f5f8dc968af5d49f56de505261922ad790",
+    "header_bytes": 1357,
+    "primary_objective_count": 2,
+    "optional_objective_count": 1,
+    "day_limit": 90,
+    "objectives": [
+      {
+        "NeededAmount": 100,
+        "PrefabKeyToCount": "784afcc25cee346f2ba4c8dff378d25a",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 75092,
+          "name": "Paper",
+          "localization_key": "Resource.Paper"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 403
+      },
+      {
+        "NeededAmount": 400,
+        "PrefabKeyToCount": "6313c8a730264264c95beb4395467e7f",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 57167,
+          "name": "Fondue",
+          "localization_key": "Resource.Fondue"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 628
+      },
+      {
+        "NeededAmount": 10,
+        "PrefabKeyToCount": "fe4bce6373c604afabdb1581e3eae1ea",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 2,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Consume",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 95346,
+          "name": "Rock Source",
+          "localization_key": ""
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 853
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main.1",
+        "text": "Make <b>{count}</b> sheets of <b>{Resource.Paper.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Paper.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6296,
+        "source_key": "Level.Single_C_Cheese.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Make <b>{count}</b> pots of <b>{Resource.Fondue.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Fondue.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6296,
+        "source_key": "Level.Single_C_Cheese.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Clear all the <b>{Sources.Rock.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Sources.Rock.WithIconPlural"
+        ],
+        "source_text_asset_id": 6296,
+        "source_key": "Level.Single_C_Cheese.Objective.Secondary.1"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Make <b>{count}</b> sheets of <b>{Resource.Paper.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Paper.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6298,
+        "source_key": "Level.Single_C_Cheese.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Make <b>{count}</b> pots of <b>{Resource.Fondue.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Fondue.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6298,
+        "source_key": "Level.Single_C_Cheese.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Clear all the <b>{Sources.Rock.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Sources.Rock.WithIconPlural"
+        ],
+        "source_text_asset_id": 6298,
+        "source_key": "Level.Single_C_Cheese.Objective.Secondary.1"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelSnow",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": true,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "a1f9687f4e08b7e4296cccdfc75b9787",
+        "gameobject_id": 105730,
+        "name": "Cheesery",
+        "localization_key": "Building.CheeseMaker"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "033493988e4a4d94b8f8ffd39ecadc63",
+        "gameobject_id": 105694,
+        "name": "Tailor",
+        "localization_key": "Building.CoatMaker"
+      },
+      {
+        "guid": "ff20cad8e3956e447a1e96962d5a9c52",
+        "gameobject_id": 67922,
+        "name": "Winter Pine Tree",
+        "localization_key": "Field.WinPineTree"
+      },
+      {
+        "guid": "398ef2a881962ad4cbf8572215838ef1",
+        "gameobject_id": 105705,
+        "name": "Fondue Bar",
+        "localization_key": "Building.FondueShop"
+      },
+      {
+        "guid": "6f91f0a136ebf4befa0e90bbbcbf3f79",
+        "gameobject_id": 40306,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "578d4586224990b4099233f511e9ffd8",
+        "gameobject_id": 67667,
+        "name": "Two-Story House",
+        "localization_key": "Building.HouseStone"
+      },
+      {
+        "guid": "ef055347ed1404c0fb79a68c6ddd4991",
+        "gameobject_id": 80802,
+        "name": "Trappers' Hut",
+        "localization_key": "Building.HuntersHut"
+      },
+      {
+        "guid": "3e0a77d8aa71d734bbde24dc31944e28",
+        "gameobject_id": 105707,
+        "name": "Press",
+        "localization_key": "Building.Journal"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "40cbf11b6165740239a452b1c9a3f9b9",
+        "gameobject_id": 105708,
+        "name": "Paper Mill",
+        "localization_key": "Building.Papermill"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "8793924bc37fc12429340646df423230",
+        "gameobject_id": 69352,
+        "name": "Greenhouse",
+        "localization_key": "Building.GreenHouse"
+      },
+      {
+        "guid": "d7d5d85f831fd4275ae951907b524658",
+        "gameobject_id": 75227,
+        "name": "Trading Outpost",
+        "localization_key": "Building.TradingPost"
+      },
+      {
+        "guid": "821e8494d9aa35140ba765e2dac5018b",
+        "gameobject_id": 71093,
+        "name": "Cabbage Field",
+        "localization_key": "Field.Cabbage"
+      },
+      {
+        "guid": "ba49332a824bb49599321ceee86e2462",
+        "gameobject_id": 71096,
+        "name": "Tomato Field",
+        "localization_key": "Field.Tomato"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 10,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "b337bbd3ab03d477fae2f76d8bfb8af2",
+        "instance_count": 67,
+        "gameobject_id": 97702,
+        "name": "Winter Pine",
+        "localization_key": "Tree.WinPine"
+      },
+      {
+        "guid": "3e1529491e1455a418db5d5667b48ecd",
+        "instance_count": 1,
+        "gameobject_id": 97623,
+        "name": "CheeseMakerBucket",
+        "localization_key": ""
+      },
+      {
+        "guid": "a1f9687f4e08b7e4296cccdfc75b9787",
+        "instance_count": 1,
+        "gameobject_id": 105730,
+        "name": "Cheesery",
+        "localization_key": "Building.CheeseMaker"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "instance_count": 1,
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "instance_count": 1,
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "d1f8e2782f2f644fab802d5c755a8204",
+        "instance_count": 5,
+        "gameobject_id": 72858,
+        "name": "Axe - Iron",
+        "localization_key": "Tool.AxeIron"
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "instance_count": 10,
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "50bfbcbe835b25c45864c3c4629224bc",
+        "instance_count": 1,
+        "gameobject_id": 81580,
+        "name": "Sign R Arrow 0",
+        "localization_key": ""
+      },
+      {
+        "guid": "0c321f13c77c2b54f85a7514dc423fcf",
+        "instance_count": 1,
+        "gameobject_id": 81578,
+        "name": "Sign 2 Arrows",
+        "localization_key": ""
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "instance_count": 32,
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "instance_count": 6,
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "578d4586224990b4099233f511e9ffd8",
+        "instance_count": 1,
+        "gameobject_id": 67667,
+        "name": "Two-Story House",
+        "localization_key": "Building.HouseStone"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "instance_count": 1,
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "instance_count": 1,
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 18,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "93e763672d92e4b56bb06e8fe3269a70",
+        "instance_count": 5,
+        "gameobject_id": 110894,
+        "name": "Winter Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "ac3c375a164b340ecb49555349e7a453",
+        "instance_count": 4,
+        "gameobject_id": 51389,
+        "name": "Winter Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 8,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 5,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

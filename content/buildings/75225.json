@@ -1,0 +1,148 @@
+{
+  "name": "Trading Outpost",
+  "internal_name": "Trading Post Tropics",
+  "gameobject_id": 75225,
+  "paths": [
+    "content/buildings/trading post/trading post tropics"
+  ],
+  "localization_key": "Building.TradingPost",
+  "description": "Outpost workers collect resources native to this biome and trade them for those from another biome.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 3,
+  "workplace_config": {
+    "MaxWorkers": 3,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 1,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 277526,
+    "build_site_gameobject_id": 101841,
+    "material_inputs": [
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 12
+      },
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 6
+      }
+    ],
+    "material_formula_ids": [
+      276831
+    ],
+    "all_formula_ids": [
+      276831,
+      293412
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 6.0,
+    "y": 2.0,
+    "z": 6.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    278143,
+    296117,
+    297305,
+    299853,
+    304090
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 309166,
+          "name": "Glass Pane",
+          "count": 8
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 320813,
+          "name": "Wheat",
+          "count": 9
+        }
+      ],
+      "formula_ids": [
+        296117,
+        297305,
+        299853
+      ],
+      "equipment_category_ids": [],
+      "caveats": [],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    },
+    {
+      "inputs": [
+        {
+          "resource_id": 309166,
+          "name": "Glass Pane",
+          "count": 4
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 304112,
+          "name": "Animal Hide",
+          "count": 3
+        }
+      ],
+      "formula_ids": [
+        278143,
+        299853,
+        304090
+      ],
+      "equipment_category_ids": [],
+      "caveats": [],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 300426,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Trading Post Tropics",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 295443,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Trading Post Tropics",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

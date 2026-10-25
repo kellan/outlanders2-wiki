@@ -1,0 +1,119 @@
+{
+  "name": "Dried Meat Shop",
+  "internal_name": "Dried Meat Shop",
+  "gameobject_id": 105747,
+  "paths": [
+    "content/buildings/dried meat shop/dried meat shop"
+  ],
+  "localization_key": "Building.DriedMeatShop",
+  "description": "Meat Dryers take raw <style=Input>{Resource.Meat.WithIcon}</style> and, through a careful process, produce ready-to-eat <style=Output>{Resource.DriedMeat.WithIcon}</style> without using fuel.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 2,
+  "workplace_config": {
+    "MaxWorkers": 2,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304354,
+    "build_site_gameobject_id": 57102,
+    "material_inputs": [
+      {
+        "resource_id": 309169,
+        "name": "Log",
+        "count": 10
+      }
+    ],
+    "material_formula_ids": [
+      305153
+    ],
+    "all_formula_ids": [
+      278943,
+      305153
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 6.0,
+    "y": 0.0,
+    "z": 6.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    307967,
+    309556,
+    314771,
+    318168
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 304113,
+          "name": "Meat",
+          "count": 1
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 286344,
+          "name": "Dried Meat",
+          "count": 2
+        }
+      ],
+      "formula_ids": [
+        307967,
+        309556,
+        314771,
+        318168
+      ],
+      "equipment_category_ids": [],
+      "caveats": [],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316579,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Dried Meat Shop",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 320277,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Dried Meat Shop",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

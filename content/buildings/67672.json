@@ -1,0 +1,72 @@
+{
+  "name": "Tropical Shelter",
+  "internal_name": "Tropical House",
+  "gameobject_id": 67672,
+  "paths": [
+    "content/buildings/house tropical/tropical house"
+  ],
+  "localization_key": "Building.TropicalHouse",
+  "description": "A spacious shelter with hammocks that accommodates more people than other houses.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304379,
+    "build_site_gameobject_id": 57127,
+    "material_inputs": [
+      {
+        "resource_id": 309169,
+        "name": "Log",
+        "count": 4
+      },
+      {
+        "resource_id": 312704,
+        "name": "Reed Bunch",
+        "count": 8
+      }
+    ],
+    "material_formula_ids": [
+      285773
+    ],
+    "all_formula_ids": [
+      285773,
+      301069
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 6.0,
+    "y": 4.0,
+    "z": 6.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": 8,
+  "house_config": {
+    "AcceptsVillagers": 1,
+    "AcceptOnlyBabies": 0
+  },
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 296485,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Tropical House",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

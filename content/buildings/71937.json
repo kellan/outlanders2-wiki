@@ -1,0 +1,121 @@
+{
+  "name": "Sawmill",
+  "internal_name": "Sawmill",
+  "gameobject_id": 71937,
+  "paths": [
+    "content/buildings/sawmill/sawmill"
+  ],
+  "localization_key": "Building.Sawmill",
+  "description": "Sawmill workers chop <style=Input>{Resource.Wood.WithIconPlural}</style> to turn them into <style=Output>{Resource.Plank.WithIconPlural}</style>.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 3,
+  "workplace_config": {
+    "MaxWorkers": 3,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 1,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304384,
+    "build_site_gameobject_id": 57132,
+    "material_inputs": [
+      {
+        "resource_id": 309169,
+        "name": "Log",
+        "count": 9
+      }
+    ],
+    "material_formula_ids": [
+      305182
+    ],
+    "all_formula_ids": [
+      305182,
+      312118
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 6.0,
+    "y": 4.0,
+    "z": 6.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    277937,
+    308344,
+    310479,
+    311264
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 309169,
+          "name": "Log",
+          "count": 1
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 308077,
+          "name": "Plank",
+          "count": 1
+        }
+      ],
+      "formula_ids": [
+        277937,
+        308344,
+        310479,
+        311264
+      ],
+      "equipment_category_ids": [
+        273128
+      ],
+      "caveats": [],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 299111,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Sawmill",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 301761,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Sawmill",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

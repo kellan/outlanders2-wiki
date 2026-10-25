@@ -1,0 +1,138 @@
+{
+  "name": "Winter Pub",
+  "internal_name": "Winter Pub",
+  "gameobject_id": 105702,
+  "paths": [
+    "content/buildings/winter pub/winter pub"
+  ],
+  "localization_key": "Building.WinterPub",
+  "description": "Pub workers take <style=Input>[Resource.Wheat.WithIconPlural]</style> and distill them into <style=Input>{Resource.HouseDrink.WithIcon}</style>, a special drink that raises <style=Input>{Concern.Entertainment.WithIcon}</style> and <style=Input>{Concern.Heat.WithIcon}</style>.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 3,
+  "workplace_config": {
+    "MaxWorkers": 3,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304352,
+    "build_site_gameobject_id": 57100,
+    "material_inputs": [
+      {
+        "resource_id": 309169,
+        "name": "Log",
+        "count": 10
+      },
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 8
+      }
+    ],
+    "material_formula_ids": [
+      306012
+    ],
+    "all_formula_ids": [
+      305151,
+      306012
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 8.0,
+    "y": 4.0,
+    "z": 8.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    284742,
+    285378,
+    292529,
+    301969,
+    303077
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 1
+        },
+        {
+          "resource_id": 320813,
+          "name": "Wheat",
+          "count": 1
+        },
+        {
+          "resource_id": 285902,
+          "name": "Empty House Drink",
+          "count": 4
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 285910,
+          "name": "Wheatshine",
+          "count": 4
+        }
+      ],
+      "formula_ids": [
+        284742,
+        285378,
+        292529,
+        301969,
+        303077
+      ],
+      "equipment_category_ids": [],
+      "caveats": [
+        "unresolved_internal_input"
+      ],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316534,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Winter Pub",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 307552,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Winter Pub",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

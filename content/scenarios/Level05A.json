@@ -1,0 +1,485 @@
+{
+  "id": "Level05A",
+  "name": "On Edge",
+  "description": "Well, he did it. He found the end of the Outlands. Is he satisfied? Of course not, that was only the first part. Now it's time to uncover what’s beyond.",
+  "objectives": [
+    {
+      "id": "Objective.Main.1",
+      "text": "Build <b>{Building.PablosLadder.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.PablosLadder.WithIcon"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level05A.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Have <b>{count}</b> <b>{Resource.Stick.WithIconPlural}</b> stored in <b>{Building.Woodchopper.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.Woodchopper.WithIconPlural",
+        "Resource.Stick.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level05A.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Satisfy <b>{Stat.Happiness.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Stat.Happiness.WithIcon"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level05A.Objective.Secondary.1"
+    },
+    {
+      "id": "Objective.Secondary.2",
+      "text": "Have <b>{count}</b> <b>{Resource.Veggie.WithIconPlural}</b> in stock.",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6504,
+      "source_key": "Level.Level05A.Objective.Secondary.2"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Level05A.Name",
+      "english": "On Edge",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Level05A.Description",
+      "english": "Well, he did it. He found the end of the Outlands. Is he satisfied? Of course not, that was only the first part. Now it's time to uncover what’s beyond.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Level05A.Objective.Main.1",
+      "english": "Build <b>{Building.PablosLadder.WithIcon}</b>.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Building.PablosLadder.WithIcon"
+      ]
+    },
+    {
+      "key": "Level.Level05A.Objective.Main.2",
+      "english": "Have <b>{count}</b> <b>{Resource.Stick.WithIconPlural}</b> stored in <b>{Building.Woodchopper.WithIconPlural}</b>.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Building.Woodchopper.WithIconPlural",
+        "Resource.Stick.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Level05A.Objective.Secondary.1",
+      "english": "Satisfy <b>{Stat.Happiness.WithIcon}</b>.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Stat.Happiness.WithIcon"
+      ]
+    },
+    {
+      "key": "Level.Level05A.Objective.Secondary.2",
+      "english": "Have <b>{count}</b> <b>{Resource.Veggie.WithIconPlural}</b> in stock.",
+      "source_text_asset_id": 6504,
+      "source_table": "Levels",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6500,
+  "campaign_number": 1,
+  "category": "campaign",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Level05A",
+    "title": "On Edge",
+    "text_asset_id": 6500,
+    "source_level_path": "Assets/Resources/Content/Levels/Campaign/Campaign 2/Level05A.bytes",
+    "sha256": "927e4430617d4eeaf632d2932f3332649c9fb7c0ca1d73603e01cef4497c8586",
+    "header_bytes": 1281,
+    "primary_objective_count": 2,
+    "optional_objective_count": 2,
+    "day_limit": 45,
+    "objectives": [
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "e4a1531da1c959b47a1870439327e647",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 67678,
+          "name": "Pablo's Ladder",
+          "localization_key": "Building.PablosLadder"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 489
+      },
+      {
+        "NeededAmount": 80,
+        "PrefabKeyToCount": "",
+        "PrefabKeyForBuilding": "",
+        "Condition": 4,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Happiness",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 650
+      },
+      {
+        "NeededAmount": 90,
+        "PrefabKeyToCount": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "PrefabKeyForBuilding": "93ba28e5a54a840ae9f54a615725b2c0",
+        "Condition": 8,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "HaveInBuilding",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 35517,
+          "name": "Stick",
+          "localization_key": "Resource.Stick"
+        },
+        "building": {
+          "gameobject_id": 71938,
+          "name": "Firewood Yard",
+          "localization_key": "Building.Woodchopper"
+        },
+        "header_byte_offset": 747
+      },
+      {
+        "NeededAmount": 75,
+        "PrefabKeyToCount": "68146c529eba242b59a824d74431fc86",
+        "PrefabKeyForBuilding": "",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 1.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 90296,
+          "name": "Veggie",
+          "localization_key": "Resource.Veggie"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 972
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main.1",
+        "text": "Build <b>{Building.PablosLadder.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.PablosLadder.WithIcon"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level05A.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Have <b>{count}</b> <b>{Resource.Stick.WithIconPlural}</b> stored in <b>{Building.Woodchopper.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.Woodchopper.WithIconPlural",
+          "Resource.Stick.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level05A.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Satisfy <b>{Stat.Happiness.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Stat.Happiness.WithIcon"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level05A.Objective.Secondary.1"
+      },
+      {
+        "id": "Objective.Secondary.2",
+        "text": "Have <b>{count}</b> <b>{Resource.Veggie.WithIconPlural}</b> in stock.",
+        "unresolved_placeholders": [
+          "Resource.Veggie.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6504,
+        "source_key": "Level.Level05A.Objective.Secondary.2"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelSnowPrecipice",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": true,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "LeaderboardType": 0
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "821e8494d9aa35140ba765e2dac5018b",
+        "gameobject_id": 71093,
+        "name": "Cabbage Field",
+        "localization_key": "Field.Cabbage"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "a122042526ded44a094f22861cb604f2",
+        "gameobject_id": 105729,
+        "name": "Winter Cabin",
+        "localization_key": "Building.HouseWithChimney"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "b337bbd3ab03d477fae2f76d8bfb8af2",
+        "instance_count": 64,
+        "gameobject_id": 97702,
+        "name": "Winter Pine",
+        "localization_key": "Tree.WinPine"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 7,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "instance_count": 1,
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "2ac4c7de8c339264c937f75c9ad89a01",
+        "instance_count": 12,
+        "gameobject_id": 79276,
+        "name": "Scythe - Rock",
+        "localization_key": "Tool.ScytheRock"
+      },
+      {
+        "guid": "b8501c41316a6a14b92793239c8cf4e7",
+        "instance_count": 12,
+        "gameobject_id": 99576,
+        "name": "SeedBag",
+        "localization_key": ""
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 12,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "93e763672d92e4b56bb06e8fe3269a70",
+        "instance_count": 8,
+        "gameobject_id": 110894,
+        "name": "Winter Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "47a4af2b6cf158d45b87d9c5b13ba761",
+        "instance_count": 1,
+        "gameobject_id": 45099,
+        "name": "Leader Pablo",
+        "localization_key": ""
+      },
+      {
+        "guid": "8793924bc37fc12429340646df423230",
+        "instance_count": 4,
+        "gameobject_id": 69352,
+        "name": "Greenhouse",
+        "localization_key": "Building.GreenHouse"
+      },
+      {
+        "guid": "821e8494d9aa35140ba765e2dac5018b",
+        "instance_count": 48,
+        "gameobject_id": 71093,
+        "name": "Cabbage Field",
+        "localization_key": "Field.Cabbage"
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 99,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      },
+      {
+        "guid": "902243f97fa3b064192fac04a470a07a",
+        "instance_count": 1,
+        "gameobject_id": 57110,
+        "name": "Pablo's Ladder",
+        "localization_key": "Building.PablosLadder"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "campaign"
+  }
+}

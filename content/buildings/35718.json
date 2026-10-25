@@ -1,0 +1,46 @@
+{
+  "name": "Building",
+  "internal_name": "Building",
+  "gameobject_id": 35718,
+  "paths": [
+    "content/buildings/building"
+  ],
+  "localization_key": "",
+  "description": null,
+  "is_base_or_campaign_asset": false,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": null,
+  "dimensions": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 278092,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Building",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

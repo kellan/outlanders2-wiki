@@ -1,0 +1,30 @@
+{
+  "id": 307920,
+  "internal_name": "Fishing Net",
+  "name": "Fishing Net",
+  "localization_key": "Tool.FishingNet",
+  "publicly_named": false,
+  "paths": [
+    "content/tools/fishing net"
+  ],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 307920,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "Fishing Net",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

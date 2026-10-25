@@ -1,0 +1,30 @@
+{
+  "id": "Edgar.000",
+  "name": "Edgar",
+  "biography": "A sweet, intuitive leader who tends to be his own worst enemy.",
+  "effect": "Villagers now eat less!",
+  "source_entries": [
+    {
+      "key": "Names.Leader.Edgar.000",
+      "english": "Edgar",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Bios.Leader.Edgar.000",
+      "english": "A sweet, intuitive leader who tends to be his own worst enemy.",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Effects.Leader.Edgar.000",
+      "english": "Villagers now eat less!",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "localized_description; effect_magnitude_and_gameplay_unverified"
+}

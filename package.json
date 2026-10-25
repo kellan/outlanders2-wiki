@@ -6,8 +6,10 @@
   "description": "A static, evidence-backed Outlanders 2 wiki",
   "scripts": {
     "dev": "node scripts/serve.mjs",
-    "test": "node scripts/check.mjs && node scripts/check-scenarios.mjs && node scripts/check-reader-pages.mjs",
-    "build": "node scripts/build.mjs"
+    "test": "npm run validate && node scripts/check.mjs && node scripts/check-scenarios.mjs && node scripts/check-reader-pages.mjs && node scripts/check-contributions.mjs",
+    "build": "node scripts/build.mjs",
+    "content:find": "node scripts/find-content.mjs",
+    "validate": "node scripts/compile-content.mjs --check"
   },
   "engines": {
     "node": ">=18"

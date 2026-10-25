@@ -1,0 +1,140 @@
+{
+  "name": "Cookie Shop",
+  "internal_name": "Cookie Shop",
+  "gameobject_id": 57396,
+  "paths": [
+    "content/buildings/cookieshop/cookie shop"
+  ],
+  "localization_key": "Building.CookieShop",
+  "description": "Cookie makers take <style=Input>{Resource.Flour.WithIcon}</style> and <style=Input>{Resource.Egg.WithIconPlural}</style> and cook them in an oven fueled by <style=Input>{Resource.Stick.WithIconPlural}</style> to create funny-shaped <style=Output>{Resource.Cookie.WithIconPlural}</style> that raise both <style=Output>{Concern.Entertainment.WithIcon}</style> and <style=Output>{Concern.Nutrition.WithIcon}</style>.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 2,
+  "workplace_config": {
+    "MaxWorkers": 2,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 281139,
+    "build_site_gameobject_id": 98768,
+    "material_inputs": [
+      {
+        "resource_id": 284026,
+        "name": "Brick",
+        "count": 8
+      },
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 3
+      }
+    ],
+    "material_formula_ids": [
+      280519
+    ],
+    "all_formula_ids": [
+      280519,
+      298280
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 6.0,
+    "y": 4.0,
+    "z": 6.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    277322,
+    287646,
+    298614,
+    300322,
+    309726,
+    316888,
+    320102
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 286781,
+          "name": "Flour",
+          "count": 1
+        },
+        {
+          "resource_id": 286358,
+          "name": "Egg",
+          "count": 2
+        },
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 1
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 319680,
+          "name": "Cookie",
+          "count": 8
+        }
+      ],
+      "formula_ids": [
+        277322,
+        287646,
+        298614,
+        300322,
+        309726,
+        316888,
+        320102
+      ],
+      "equipment_category_ids": [],
+      "caveats": [],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 290252,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Cookie Shop",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 313626,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Cookie Shop",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

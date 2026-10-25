@@ -1,0 +1,74 @@
+{
+  "name": "Winter Cabin",
+  "internal_name": "House With Chimney",
+  "gameobject_id": 105729,
+  "paths": [
+    "content/buildings/house with chimney/house with chimney"
+  ],
+  "localization_key": "Building.HouseWithChimney",
+  "description": "This house features a wood stove that burns <style=Input>{Resource.Stick.WithIconPlural}</style> to raise its occupants' <style=Output>{Concern.Heat.WithIcon}</style>.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304344,
+    "build_site_gameobject_id": 57092,
+    "material_inputs": [
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 3
+      },
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 3
+      }
+    ],
+    "material_formula_ids": [
+      281733
+    ],
+    "all_formula_ids": [
+      281733,
+      305143
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 4.0,
+    "y": 4.0,
+    "z": 4.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": 4,
+  "house_config": {
+    "AcceptsVillagers": 1,
+    "AcceptOnlyBabies": 0
+  },
+  "formula_ids": [
+    291791
+  ],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316561,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "House With Chimney",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

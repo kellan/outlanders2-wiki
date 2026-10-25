@@ -1,0 +1,140 @@
+{
+  "name": "Canteen Factory",
+  "internal_name": "Canteen Maker",
+  "gameobject_id": 105745,
+  "paths": [
+    "content/buildings/canteen maker/canteen maker"
+  ],
+  "localization_key": "Building.CanteenMaker",
+  "description": "Canteen makers take <style=Input>{Resource.Glass.WithIconPlural}</style> and <style=Input>{Resource.Reed.WithIconPlural}</style>, and heat them in a fire fueled by <style=Input>{Resource.Stick.WithIconPlural}</style> to create an equippable <style=Output>{Resource.Canteen.WithIcon}</style> that raises the owner's base <style=Output>{Concern.Refreshment.WithIcon}</style>, making it easier to stay cool.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 2,
+  "workplace_config": {
+    "MaxWorkers": 2,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304364,
+    "build_site_gameobject_id": 57112,
+    "material_inputs": [
+      {
+        "resource_id": 284026,
+        "name": "Brick",
+        "count": 16
+      },
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 6
+      }
+    ],
+    "material_formula_ids": [
+      305163
+    ],
+    "all_formula_ids": [
+      293860,
+      305163
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 8.0,
+    "y": 4.0,
+    "z": 8.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    278986,
+    287240,
+    289591,
+    310628,
+    312502,
+    319294,
+    321963
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 309166,
+          "name": "Glass Pane",
+          "count": 10
+        },
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 2
+        },
+        {
+          "resource_id": 312704,
+          "name": "Reed Bunch",
+          "count": 5
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 300130,
+          "name": "Canteen",
+          "count": 5
+        }
+      ],
+      "formula_ids": [
+        278986,
+        287240,
+        289591,
+        310628,
+        312502,
+        319294,
+        321963
+      ],
+      "equipment_category_ids": [],
+      "caveats": [],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316577,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Canteen Maker",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 301327,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Canteen Maker",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

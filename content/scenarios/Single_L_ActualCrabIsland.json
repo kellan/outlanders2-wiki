@@ -1,0 +1,524 @@
+{
+  "id": "Single_L_ActualCrabIsland",
+  "name": "Drunken Crab",
+  "description": "Every summer, for one magical week, 'Sunken Crab Island' rises from its normally submerged state due to low tides. Local youth eagerly await this time of the year for one reason only: party till the tide takes them back home.",
+  "objectives": [
+    {
+      "id": "Objective.Main",
+      "text": "Have a <b>{Building.Bonfire.WithIcon}</b> and brew <b>{count_2}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.Bonfire.WithIcon",
+        "Resource.Beer.WithIcon",
+        "count_2"
+      ],
+      "source_text_asset_id": 6457,
+      "source_key": "Level.Single_L_ActualCrabIsland.Objective.Main"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Have a <b>{Building.Bonfire.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.Bonfire.WithIcon"
+      ],
+      "source_text_asset_id": 6457,
+      "source_key": "Level.Single_L_ActualCrabIsland.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Brew <b>{count}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Beer.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6457,
+      "source_key": "Level.Single_L_ActualCrabIsland.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Main",
+      "text": "Have a <b>{Building.Bonfire.WithIcon}</b> and brew <b>{count_2}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.Bonfire.WithIcon",
+        "Resource.Beer.WithIcon",
+        "count_2"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single_L_ActualCrabIsland.Objective.Main"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Have a <b>{Building.Bonfire.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Building.Bonfire.WithIcon"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single_L_ActualCrabIsland.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Brew <b>{count}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Beer.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single_L_ActualCrabIsland.Objective.Main.2"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single_L_ActualCrabIsland.Name",
+      "english": "Drunken Crab",
+      "source_text_asset_id": 6457,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_L_ActualCrabIsland.Description",
+      "english": "Every summer, for one magical week, 'Sunken Crab Island' rises from its normally submerged state due to low tides. Local youth eagerly await this time of the year for one reason only: party till the tide takes them back home.",
+      "source_text_asset_id": 6457,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_L_ActualCrabIsland.Objective.Main",
+      "english": "Have a <b>{Building.Bonfire.WithIcon}</b> and brew <b>{count_2}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "source_text_asset_id": 6457,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.Bonfire.WithIcon",
+        "Resource.Beer.WithIcon",
+        "count_2"
+      ]
+    },
+    {
+      "key": "Level.Single_L_ActualCrabIsland.Objective.Main.1",
+      "english": "Have a <b>{Building.Bonfire.WithIcon}</b>.",
+      "source_text_asset_id": 6457,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.Bonfire.WithIcon"
+      ]
+    },
+    {
+      "key": "Level.Single_L_ActualCrabIsland.Objective.Main.2",
+      "english": "Brew <b>{count}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "source_text_asset_id": 6457,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Beer.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_L_ActualCrabIsland.Name",
+      "english": "Drunken Crab",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_L_ActualCrabIsland.Description",
+      "english": "Every summer, for one magical week, 'Sunken Crab Island' rises from its normally submerged state due to low tides. Local youth eagerly await this time of the year for one reason only: party till the tide takes them back home.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_L_ActualCrabIsland.Objective.Main",
+      "english": "Have a <b>{Building.Bonfire.WithIcon}</b> and brew <b>{count_2}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Building.Bonfire.WithIcon",
+        "Resource.Beer.WithIcon",
+        "count_2"
+      ]
+    },
+    {
+      "key": "Level.Single_L_ActualCrabIsland.Objective.Main.1",
+      "english": "Have a <b>{Building.Bonfire.WithIcon}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Building.Bonfire.WithIcon"
+      ]
+    },
+    {
+      "key": "Level.Single_L_ActualCrabIsland.Objective.Main.2",
+      "english": "Brew <b>{count}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Resource.Beer.WithIcon",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6529,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single_L_ActualCrabIsland",
+    "title": "Drunken Crab",
+    "text_asset_id": 6529,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch12/Levels/Single_L_ActualCrabIsland.bytes",
+    "sha256": "972347e7d4500b7477177fb9f5b5baef55739f8667eb5421c2b834e3b7948fd3",
+    "header_bytes": 1152,
+    "primary_objective_count": 2,
+    "optional_objective_count": 0,
+    "day_limit": -1,
+    "objectives": [
+      {
+        "NeededAmount": 1,
+        "PrefabKeyToCount": "87484fda17028401dbd7af2eb9bab112",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 94267,
+          "name": "Bonfire",
+          "localization_key": "Building.Bonfire"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 423
+      },
+      {
+        "NeededAmount": 200,
+        "PrefabKeyToCount": "917d01092a87344f883ca658c52685ba",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 42880,
+          "name": "Beer",
+          "localization_key": "Resource.Beer"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 648
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main",
+        "text": "Have a <b>{Building.Bonfire.WithIcon}</b> and brew <b>{count_2}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.Bonfire.WithIcon",
+          "Resource.Beer.WithIcon",
+          "count_2"
+        ],
+        "source_text_asset_id": 6457,
+        "source_key": "Level.Single_L_ActualCrabIsland.Objective.Main"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Have a <b>{Building.Bonfire.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.Bonfire.WithIcon"
+        ],
+        "source_text_asset_id": 6457,
+        "source_key": "Level.Single_L_ActualCrabIsland.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Brew <b>{count}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Beer.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6457,
+        "source_key": "Level.Single_L_ActualCrabIsland.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Main",
+        "text": "Have a <b>{Building.Bonfire.WithIcon}</b> and brew <b>{count_2}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.Bonfire.WithIcon",
+          "Resource.Beer.WithIcon",
+          "count_2"
+        ],
+        "source_text_asset_id": 6493,
+        "source_key": "Level.Single_L_ActualCrabIsland.Objective.Main"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Have a <b>{Building.Bonfire.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Building.Bonfire.WithIcon"
+        ],
+        "source_text_asset_id": 6493,
+        "source_key": "Level.Single_L_ActualCrabIsland.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Brew <b>{count}</b> mugs of <b>{Resource.Beer.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Beer.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6493,
+        "source_key": "Level.Single_L_ActualCrabIsland.Objective.Main.2"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "045b7542e94934d189e3d89b72a36b40",
+        "gameobject_id": 45826,
+        "name": "Brewery",
+        "localization_key": "Building.Brewery"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "ffa49475cb05e0c48b7efdb975d2ad5a",
+        "gameobject_id": 71100,
+        "name": "Corn Field",
+        "localization_key": "Field.Corn"
+      },
+      {
+        "guid": "ba49332a824bb49599321ceee86e2462",
+        "gameobject_id": 71096,
+        "name": "Tomato Field",
+        "localization_key": "Field.Tomato"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 64,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "e8c6f4a4dbf7846e3a18c1a001a66163",
+        "instance_count": 9,
+        "gameobject_id": 92222,
+        "name": "AppleTree",
+        "localization_key": "Tree.Apple"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 8,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "1563b62a2b7064b3ab44ddd9f6a04262",
+        "instance_count": 8,
+        "gameobject_id": 92214,
+        "name": "FigTree",
+        "localization_key": "Tree.Fig"
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 18,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 2,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "da94570ec2cdb4a25a2f961098233dc1",
+        "instance_count": 3,
+        "gameobject_id": 107108,
+        "name": "Canoe",
+        "localization_key": "Decoration.Canoe"
+      },
+      {
+        "guid": "c7e3faa2d53c9bb418daa5a6853df5b7",
+        "instance_count": 1,
+        "gameobject_id": 81595,
+        "name": "Canoe Paddle",
+        "localization_key": ""
+      },
+      {
+        "guid": "db4b1d1eb423e964ba9a71b388e3a9de",
+        "instance_count": 1,
+        "gameobject_id": 81596,
+        "name": "Sign L Arrow 0",
+        "localization_key": ""
+      },
+      {
+        "guid": "8421bce3e99173f42969fa3d0131d2e7",
+        "instance_count": 1,
+        "gameobject_id": 81586,
+        "name": "Sign R Arrow 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "5b0a4ca66e62a0a439bc62ac0c324c61",
+        "instance_count": 1,
+        "gameobject_id": 81582,
+        "name": "Sign 3 Arrows",
+        "localization_key": ""
+      },
+      {
+        "guid": "067d54078093c24459db447f1533ec9e",
+        "instance_count": 10,
+        "gameobject_id": 71872,
+        "name": "Light Torch",
+        "localization_key": "Decoration.Torch"
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 8,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

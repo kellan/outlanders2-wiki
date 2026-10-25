@@ -1,0 +1,612 @@
+{
+  "id": "Single06.1_R_01C",
+  "name": "A Moon Part",
+  "description": "The famous tower that overlooks the world's end holds special significance for a select group. They believe that, at this time of year, a sliver of the moon breaks away and falls into the sea. They’ve never seen it happen—will this be the year?",
+  "objectives": [
+    {
+      "id": "Objective.Main.1",
+      "text": "Bake <b>{count}</b> <b>{Resource.Cookie.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Cookie.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6246,
+      "source_key": "Level.Single06.1_R_01C.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Harvest <b>{count} {Resource.Veggie.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6246,
+      "source_key": "Level.Single06.1_R_01C.Objective.Secondary.1"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count}</b>.",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single06.1_R_01C.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Consume <b>{count}</b> bowls of <b>{Resource.Stew.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Stew.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single06.1_R_01C.Objective.Secondary.1"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single06.1_R_01C.Name",
+      "english": "A Moon Part",
+      "source_text_asset_id": 6246,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single06.1_R_01C.Description",
+      "english": "The famous tower that overlooks the world's end holds special significance for a select group. They believe that, at this time of year, a sliver of the moon breaks away and falls into the sea. They’ve never seen it happen—will this be the year?",
+      "source_text_asset_id": 6246,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single06.1_R_01C.Objective.Main.1",
+      "english": "Bake <b>{count}</b> <b>{Resource.Cookie.WithIconPlural}</b>.",
+      "source_text_asset_id": 6246,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Cookie.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single06.1_R_01C.Objective.Secondary.1",
+      "english": "Harvest <b>{count} {Resource.Veggie.WithIconPlural}</b>.",
+      "source_text_asset_id": 6246,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Veggie.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single06.1_R_01C.Name",
+      "english": "A Moon Part",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single06.1_R_01C.Description",
+      "english": "The famous tower that overlooks the world's end holds special significance for a select group. They believe that, at this time of year, a sliver of the moon breaks away and falls into the sea. They’ve never seen it happen—will this be the year?",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single06.1_R_01C.Objective.Main.1",
+      "english": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Stat.Population.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single06.1_R_01C.Objective.Secondary.1",
+      "english": "Consume <b>{count}</b> bowls of <b>{Resource.Stew.WithIcon}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Resource.Stew.WithIcon",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6523,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single06.1_R_01C",
+    "title": "A Moon Part",
+    "text_asset_id": 6523,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch06.1/Levels/Single06.1_R_01C.bytes",
+    "sha256": "7826795de6da68b4c2252693017f6e772e099b12fa02c2565f4f8eaba19b980a",
+    "header_bytes": 1138,
+    "primary_objective_count": 1,
+    "optional_objective_count": 1,
+    "day_limit": 70,
+    "objectives": [
+      {
+        "NeededAmount": 33,
+        "PrefabKeyToCount": "6c68de4f59b0c5543b8289f4f3f06ebc",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 97599,
+          "name": "Cookie",
+          "localization_key": "Resource.Cookie"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 409
+      },
+      {
+        "NeededAmount": 66,
+        "PrefabKeyToCount": "68146c529eba242b59a824d74431fc86",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 90296,
+          "name": "Veggie",
+          "localization_key": "Resource.Veggie"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 634
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main.1",
+        "text": "Bake <b>{count}</b> <b>{Resource.Cookie.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Cookie.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6246,
+        "source_key": "Level.Single06.1_R_01C.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Harvest <b>{count} {Resource.Veggie.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Veggie.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6246,
+        "source_key": "Level.Single06.1_R_01C.Objective.Secondary.1"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Reach a <b>{Stat.Population.WithIcon}</b> of <b>{count}</b>.",
+        "unresolved_placeholders": [
+          "Stat.Population.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6493,
+        "source_key": "Level.Single06.1_R_01C.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Consume <b>{count}</b> bowls of <b>{Resource.Stew.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Stew.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6493,
+        "source_key": "Level.Single06.1_R_01C.Objective.Secondary.1"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelHalloween",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "9eb40effdb47a3243b119783975c8664",
+        "gameobject_id": 57396,
+        "name": "Cookie Shop",
+        "localization_key": "Building.CookieShop"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "8f6a99f946e4dc14eace0e3168b37c1a",
+        "gameobject_id": 67912,
+        "name": "Dead Tree",
+        "localization_key": "Tree.DeadTree"
+      },
+      {
+        "guid": "d3fe3e52afd754f42a4f915d71cdf375",
+        "gameobject_id": 99686,
+        "name": "Pumpkin Field",
+        "localization_key": "Field.Pumpkin"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "6f91f0a136ebf4befa0e90bbbcbf3f79",
+        "gameobject_id": 40306,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "00b9bf993d983724f8cf65be2da3a0d4",
+        "gameobject_id": 67662,
+        "name": "Two-Story House",
+        "localization_key": "Building.HouseStone"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "ad5ce9a878c06d440bc86fedbddb10ba",
+        "gameobject_id": 105733,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "7f0517aae7626244db91df74eabaffa7",
+        "gameobject_id": 105723,
+        "name": "Stone Mine",
+        "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "7ab694c8a34d7462c9fa0c5d8478994a",
+        "gameobject_id": 75226,
+        "name": "Trading Outpost",
+        "localization_key": "Building.TradingPost"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "b0dd9b7dd66909d4bb3c9269f4843864",
+        "gameobject_id": 105734,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "0c526ca4238c14147bfc67c9993cf24a",
+        "instance_count": 1,
+        "gameobject_id": 107055,
+        "name": "1-3 BrokenWatchtower",
+        "localization_key": "Decorations.BrokenWatchtower"
+      },
+      {
+        "guid": "ce1d2bf87b1dbd64bac87f2aabc054a2",
+        "instance_count": 1,
+        "gameobject_id": 107104,
+        "name": "1-2 Sign#3",
+        "localization_key": "Decorations.SignPost2"
+      },
+      {
+        "guid": "f9e79a2d70e36944db7aae601779093c",
+        "instance_count": 2,
+        "gameobject_id": 107117,
+        "name": "Light Lantern",
+        "localization_key": "Decoration.Lantern"
+      },
+      {
+        "guid": "e037996f67f191848b60934a91217fc3",
+        "instance_count": 2,
+        "gameobject_id": 107112,
+        "name": "Column",
+        "localization_key": ""
+      },
+      {
+        "guid": "2eb72fae16196cd4db88b8aa399e21eb",
+        "instance_count": 3,
+        "gameobject_id": 33533,
+        "name": "Halloween Grave 5",
+        "localization_key": "Decoration.Tomb"
+      },
+      {
+        "guid": "e535ae9430dd40f4f82e4f0af3c2d4c6",
+        "instance_count": 9,
+        "gameobject_id": 107113,
+        "name": "Halloween Candle 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "a4f8c2f7b944d904280f084aa942ce97",
+        "instance_count": 10,
+        "gameobject_id": 107094,
+        "name": "Halloween Candle 0",
+        "localization_key": ""
+      },
+      {
+        "guid": "aac5b3f1e7fa38a458d385042dcd5cfa",
+        "instance_count": 2,
+        "gameobject_id": 81590,
+        "name": "Tool Hammer",
+        "localization_key": ""
+      },
+      {
+        "guid": "d6136b1e43281ab43b177271d03557c0",
+        "instance_count": 2,
+        "gameobject_id": 33536,
+        "name": "Halloween Grave 1",
+        "localization_key": "Decoration.Tomb"
+      },
+      {
+        "guid": "89e2e37739da1de4497c586e4808d96d",
+        "instance_count": 2,
+        "gameobject_id": 107084,
+        "name": "Halloween Fence",
+        "localization_key": ""
+      },
+      {
+        "guid": "ee02f144ce89598488670e4fb0add20b",
+        "instance_count": 3,
+        "gameobject_id": 81601,
+        "name": "Sign Dead End",
+        "localization_key": ""
+      },
+      {
+        "guid": "dae25f757b6140c4ca85291df81ae49e",
+        "instance_count": 2,
+        "gameobject_id": 33537,
+        "name": "Halloween Grave 3",
+        "localization_key": "Decoration.Tomb"
+      },
+      {
+        "guid": "7fb08ac399fda2e44962199223192485",
+        "instance_count": 1,
+        "gameobject_id": 33534,
+        "name": "Halloween Grave 2",
+        "localization_key": "Decoration.Tomb"
+      },
+      {
+        "guid": "049760704a44fd04cbc5aebc371afef1",
+        "instance_count": 2,
+        "gameobject_id": 81576,
+        "name": "Tool Pick",
+        "localization_key": ""
+      },
+      {
+        "guid": "02cd43766b5ab824192f8fae7363e4fb",
+        "instance_count": 2,
+        "gameobject_id": 81575,
+        "name": "Tool Shovel planted",
+        "localization_key": ""
+      },
+      {
+        "guid": "c735b2e7583508a439b9cd943aa6a87d",
+        "instance_count": 1,
+        "gameobject_id": 81594,
+        "name": "Tool Shovel",
+        "localization_key": ""
+      },
+      {
+        "guid": "81df63f6e6197de4fbe1a32a72451494",
+        "instance_count": 1,
+        "gameobject_id": 107081,
+        "name": "Halloween Grave 0",
+        "localization_key": "Decoration.Tomb"
+      },
+      {
+        "guid": "d4851207f4c9ccf45b972af735aa8441",
+        "instance_count": 1,
+        "gameobject_id": 33535,
+        "name": "Halloween Grave 4",
+        "localization_key": "Decoration.Tomb"
+      },
+      {
+        "guid": "799590d5a3548ff4eb40775d7da67e4d",
+        "instance_count": 86,
+        "gameobject_id": 62710,
+        "name": "Halloween Tree",
+        "localization_key": "Tree.DeadTree"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 4,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "0cee8f32756e81844955ba8844f44044",
+        "instance_count": 1,
+        "gameobject_id": 60799,
+        "name": "Halloween Event",
+        "localization_key": ""
+      },
+      {
+        "guid": "f6731e44f36f8984ea4f1daebccbfd17",
+        "instance_count": 2,
+        "gameobject_id": 55508,
+        "name": "Birds flock Crow",
+        "localization_key": ""
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 3,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "b0dd9b7dd66909d4bb3c9269f4843864",
+        "instance_count": 2,
+        "gameobject_id": 105734,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 53,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 3,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 5,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "2f75a3fea3f854460ba75c2c08ecb57f",
+        "instance_count": 2,
+        "gameobject_id": 105961,
+        "name": "Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 3,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

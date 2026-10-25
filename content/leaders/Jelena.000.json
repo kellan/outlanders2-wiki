@@ -1,0 +1,23 @@
+{
+  "id": "Jelena.000",
+  "name": "Jelena",
+  "biography": "Once she sets her mind on something, she doesn't stop (unless she sets her mind on stopping).",
+  "effect": null,
+  "source_entries": [
+    {
+      "key": "Names.Leader.Jelena.000",
+      "english": "Jelena",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Bios.Leader.Jelena.000",
+      "english": "Once she sets her mind on something, she doesn't stop (unless she sets her mind on stopping).",
+      "source_text_asset_id": 6249,
+      "source_table": "Leaders",
+      "unresolved_placeholders": []
+    }
+  ],
+  "verification_status": "localized_description; effect_magnitude_and_gameplay_unverified"
+}

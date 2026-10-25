@@ -1,0 +1,30 @@
+{
+  "id": 279348,
+  "internal_name": "Fondue Used Plate",
+  "name": "Fondue Used Plate",
+  "localization_key": "Resource.OpenKitchen.Plate",
+  "publicly_named": false,
+  "paths": [
+    "content/resources_/fondue shop/fondue used plate"
+  ],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 279348,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "Fondue Used Plate",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Zen Garden",
+  "internal_name": "Zen Garden",
+  "gameobject_id": 105716,
+  "paths": [
+    "content/buildings/zen garden/zen garden"
+  ],
+  "localization_key": "Building.ZenGarden",
+  "description": "A minimalistic public enviroment where outlanders can meditate and raise their <style=Output>{Concern.Wellness.WithIcon}</style>.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304355,
+    "build_site_gameobject_id": 57103,
+    "material_inputs": [
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 6
+      }
+    ],
+    "material_formula_ids": [
+      305154
+    ],
+    "all_formula_ids": [
+      305154,
+      310823
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 4.0,
+    "y": 3.0,
+    "z": 4.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316548,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Zen Garden",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

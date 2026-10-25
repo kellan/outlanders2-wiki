@@ -1,0 +1,64 @@
+{
+  "name": "Flame Tree Pit",
+  "internal_name": "Decorative Tree Flame Tree",
+  "gameobject_id": 105737,
+  "paths": [
+    "content/buildings/_decorative tree/flame tree/decorative tree flame tree"
+  ],
+  "localization_key": "Building.FlameTree",
+  "description": "Its bright red flowers are so vivid that shortsighted outlanders might mistake them for flames from afar.",
+  "is_base_or_campaign_asset": true,
+  "max_workers": null,
+  "workplace_config": null,
+  "construction": {
+    "build_site_component_id": 304366,
+    "build_site_gameobject_id": 57114,
+    "material_inputs": [
+      {
+        "resource_id": 284026,
+        "name": "Brick",
+        "count": 6
+      }
+    ],
+    "material_formula_ids": [
+      305165
+    ],
+    "all_formula_ids": [
+      301300,
+      305165
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 4.0,
+    "y": 0.0,
+    "z": 4.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [],
+  "derived_recipes": [],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316569,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Decorative Tree Flame Tree",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": null
+}

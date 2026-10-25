@@ -1,0 +1,28 @@
+{
+  "id": 307739,
+  "internal_name": "IronAxeHead",
+  "name": "IronAxeHead",
+  "localization_key": "Resource.Blacksmith.IronAxeHead",
+  "publicly_named": false,
+  "paths": [],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 307739,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "IronAxeHead",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

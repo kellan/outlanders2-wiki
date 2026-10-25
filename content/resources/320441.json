@@ -1,0 +1,30 @@
+{
+  "id": 320441,
+  "internal_name": "Mushroom",
+  "name": "Mushroom",
+  "localization_key": "Resource.Mushroom",
+  "publicly_named": true,
+  "paths": [
+    "content/resources_/mushroom"
+  ],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 320441,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "Mushroom",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

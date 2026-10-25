@@ -1,0 +1,30 @@
+{
+  "id": 315424,
+  "internal_name": "Brick0Wet",
+  "name": "Brick0Wet",
+  "localization_key": "Resource.BrickMaker.BrickWet",
+  "publicly_named": false,
+  "paths": [
+    "content/resources_/brick/brick0wet"
+  ],
+  "need_units": {
+    "FoodUnits": 0.0,
+    "EntertainmentUnits": 0.0,
+    "WellnessUnits": 0.0,
+    "CommunityUnits": 0.0,
+    "RefreshmentUnits": 0.0,
+    "HydrationUnits": 0.0,
+    "HeatUnits": 0.0
+  },
+  "consume_duration_override": null,
+  "consumption_age_limits": null,
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 315424,
+    "class": "ResourceBehaviour",
+    "hierarchy_path": "Brick0Wet",
+    "fields": [
+      "ResourceConfig"
+    ]
+  }
+}

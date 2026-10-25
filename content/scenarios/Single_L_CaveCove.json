@@ -1,0 +1,624 @@
+{
+  "id": "Single_L_CaveCove",
+  "name": "Cordial Work Environment",
+  "description": "News travels fast in the Outlands—maybe too fast. To improve their stories, an independent news outlet in Miguel's Cove is urging workers to maximize their downtime. Ironically, they want this change as quickly as possible.",
+  "objectives": [
+    {
+      "id": "Objective.Main.1",
+      "text": "Write <b>{count} {Resource.Newspaper.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Newspaper.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single08_L_CaveCove.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Produce <b>{count}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.GlassOfWine.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6493,
+      "source_key": "Level.Single08_L_CaveCove.Objective.Main.2"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single_L_CaveCove.Name",
+      "english": "Cordial Work Environment",
+      "source_text_asset_id": 6420,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_L_CaveCove.Description",
+      "english": "News travels fast in the Outlands—maybe too fast. To improve their stories, an independent news outlet in Miguel's Cove is urging workers to maximize their downtime. Ironically, they want this change as quickly as possible.",
+      "source_text_asset_id": 6420,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_L_CaveCove.Objective.Main.1",
+      "english": "Write <b>{count} {Resource.Newspaper.WithIconPlural}</b>.",
+      "source_text_asset_id": 6420,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Newspaper.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_L_CaveCove.Objective.Main.2",
+      "english": "Produce <b>{count}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+      "source_text_asset_id": 6420,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.GlassOfWine.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single08_L_CaveCove.Name",
+      "english": "Cordial Work Environment",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single08_L_CaveCove.Description",
+      "english": "News travels fast in the Outlands—maybe too fast. To improve their stories, an independent news outlet in Miguel's Cove is urging workers to maximize their downtime. Ironically, they want this change as quickly as possible.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single08_L_CaveCove.Objective.Main.1",
+      "english": "Write <b>{count} {Resource.Newspaper.WithIconPlural}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Resource.Newspaper.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single08_L_CaveCove.Objective.Main.2",
+      "english": "Produce <b>{count}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+      "source_text_asset_id": 6493,
+      "source_table": "LocalizationBatchesAgosto",
+      "unresolved_placeholders": [
+        "Resource.GlassOfWine.WithIcon",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "decoded_scenario; localization_alias_resolved",
+  "packaged_level_text_asset_id": 6295,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single_L_CaveCove",
+    "title": "Cordial Work Environment",
+    "text_asset_id": 6295,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch09/Levels/Single_L_CaveCove.bytes",
+    "sha256": "44056ca5d5c332a56af3378e37e2761e7089706de543e21798505119a0e0d5e2",
+    "header_bytes": 1008,
+    "primary_objective_count": 2,
+    "optional_objective_count": 0,
+    "day_limit": -1,
+    "objectives": [
+      {
+        "NeededAmount": 30,
+        "PrefabKeyToCount": "cab39e98d0b20c94ab49d5c0af4f6eab",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 42887,
+          "name": "Newspaper",
+          "localization_key": "Resource.Newspaper"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 407
+      },
+      {
+        "NeededAmount": 40,
+        "PrefabKeyToCount": "0a1952c398d5e9f448df41498b44e341",
+        "PrefabKeyForBuilding": "",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 42876,
+          "name": "Wine",
+          "localization_key": "Resource.GlassOfWine"
+        },
+        "building": {
+          "gameobject_id": 45087,
+          "name": "Stone -> ",
+          "localization_key": ""
+        },
+        "header_byte_offset": 568
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main.1",
+        "text": "Write <b>{count} {Resource.Newspaper.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Newspaper.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6420,
+        "source_key": "Level.Single_L_CaveCove.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Produce <b>{count}</b> glasses of <b>{Resource.GlassOfWine.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.GlassOfWine.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6420,
+        "source_key": "Level.Single_L_CaveCove.Objective.Main.2"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "Level",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "4919451ed96016341b1214fd226da222",
+        "gameobject_id": 105709,
+        "name": "Bottle Factory",
+        "localization_key": "Building.GlassblowingFurnace"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "f6b750217d0a7024b998d05326e9f8e2",
+        "gameobject_id": 85247,
+        "name": "Crane Flower Planter",
+        "localization_key": "Building.PlanterBirdsOfParadise"
+      },
+      {
+        "guid": "e9f4f3f1a09b3464ea0a0d4ded8228cd",
+        "gameobject_id": 85246,
+        "name": "Hydrangea Planter",
+        "localization_key": "Building.PlanterHydrangea"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "5ab0f69183f55f04986795815791d5e4",
+        "gameobject_id": 67910,
+        "name": "Ash Tree",
+        "localization_key": "Field.AshTree"
+      },
+      {
+        "guid": "1be1dbc2454d46f47814aee50b42bdfd",
+        "gameobject_id": 67906,
+        "name": "Grape Vine",
+        "localization_key": "Field.GrapeTree"
+      },
+      {
+        "guid": "97798c772acc00442b4028893e05b090",
+        "gameobject_id": 71094,
+        "name": "Potato Field",
+        "localization_key": "Field.Potato"
+      },
+      {
+        "guid": "ba49332a824bb49599321ceee86e2462",
+        "gameobject_id": 71096,
+        "name": "Tomato Field",
+        "localization_key": "Field.Tomato"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "6f91f0a136ebf4befa0e90bbbcbf3f79",
+        "gameobject_id": 40306,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "578d4586224990b4099233f511e9ffd8",
+        "gameobject_id": 67667,
+        "name": "Two-Story House",
+        "localization_key": "Building.HouseStone"
+      },
+      {
+        "guid": "3e0a77d8aa71d734bbde24dc31944e28",
+        "gameobject_id": 105707,
+        "name": "Press",
+        "localization_key": "Building.Journal"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "bc256ee0d241047c685e39ff9a7a5537",
+        "gameobject_id": 40308,
+        "name": "Orchard",
+        "localization_key": "Building.Orchard"
+      },
+      {
+        "guid": "40cbf11b6165740239a452b1c9a3f9b9",
+        "gameobject_id": 105708,
+        "name": "Paper Mill",
+        "localization_key": "Building.Papermill"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "7f0517aae7626244db91df74eabaffa7",
+        "gameobject_id": 105723,
+        "name": "Stone Mine",
+        "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "ccf5d666f7dae9b43ac4eb388a52b4f6",
+        "gameobject_id": 105740,
+        "name": "Winery",
+        "localization_key": "Building.Winery"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "412a08f4fa3298a4288ee8b3199526d9",
+        "instance_count": 1,
+        "gameobject_id": 107065,
+        "name": "Canoe Crashed",
+        "localization_key": "Decoration.Canoe"
+      },
+      {
+        "guid": "02cd43766b5ab824192f8fae7363e4fb",
+        "instance_count": 1,
+        "gameobject_id": 81575,
+        "name": "Tool Shovel planted",
+        "localization_key": ""
+      },
+      {
+        "guid": "6d59220e4452d7f41b0fd87c26fb51d5",
+        "instance_count": 1,
+        "gameobject_id": 81584,
+        "name": "Tool Axe",
+        "localization_key": ""
+      },
+      {
+        "guid": "06dd75cf17e63a54bae39d3032e5499b",
+        "instance_count": 1,
+        "gameobject_id": 81577,
+        "name": "Tool Wheel standing",
+        "localization_key": ""
+      },
+      {
+        "guid": "fa1afceb1070e4f4cad97b0c58981891",
+        "instance_count": 1,
+        "gameobject_id": 81604,
+        "name": "Tool Wheel",
+        "localization_key": ""
+      },
+      {
+        "guid": "049760704a44fd04cbc5aebc371afef1",
+        "instance_count": 1,
+        "gameobject_id": 81576,
+        "name": "Tool Pick",
+        "localization_key": ""
+      },
+      {
+        "guid": "9a1b4c88ae0995b4cb9d627b958ef80b",
+        "instance_count": 1,
+        "gameobject_id": 81588,
+        "name": "Ship 0",
+        "localization_key": ""
+      },
+      {
+        "guid": "76f15662f9436dd4bae5778e64127609",
+        "instance_count": 1,
+        "gameobject_id": 81585,
+        "name": "Tool Wheelbarrow",
+        "localization_key": ""
+      },
+      {
+        "guid": "c7e3faa2d53c9bb418daa5a6853df5b7",
+        "instance_count": 2,
+        "gameobject_id": 81595,
+        "name": "Canoe Paddle",
+        "localization_key": ""
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 2,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "072e26590746a594b931ce8ea70714f0",
+        "instance_count": 9,
+        "gameobject_id": 75090,
+        "name": "Plank",
+        "localization_key": "Resource.Plank"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 40,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 7,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 30,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      },
+      {
+        "guid": "ca1242d5ba60d48fd9a917cb72e551e2",
+        "instance_count": 26,
+        "gameobject_id": 93256,
+        "name": "Meat",
+        "localization_key": "Resource.Meat"
+      },
+      {
+        "guid": "395256b16efec674f87c1124fbdd0aec",
+        "instance_count": 12,
+        "gameobject_id": 80722,
+        "name": "Glass Pane",
+        "localization_key": "Resource.Glass"
+      },
+      {
+        "guid": "7f0517aae7626244db91df74eabaffa7",
+        "instance_count": 1,
+        "gameobject_id": 105723,
+        "name": "Stone Mine",
+        "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "6f91f0a136ebf4befa0e90bbbcbf3f79",
+        "instance_count": 1,
+        "gameobject_id": 40306,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "d8493a5bec1379f4a8cdec3dadd2379d",
+        "instance_count": 4,
+        "gameobject_id": 97633,
+        "name": "Axe - Rock",
+        "localization_key": "Tool.Axe"
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 4,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "9effa2a49b846804fb4f69921cf6026d",
+        "instance_count": 1,
+        "gameobject_id": 63810,
+        "name": "Cave dripping",
+        "localization_key": ""
+      },
+      {
+        "guid": "dbe994cbb1f936845931d28403d988ed",
+        "instance_count": 13,
+        "gameobject_id": 92221,
+        "name": "GrapeTree",
+        "localization_key": "Tree.Grape"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 2,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 8,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "8e56830fed52e10ff998683e9f6e3b72",
+        "instance_count": 20,
+        "gameobject_id": 100898,
+        "name": "WineGlassEmpty",
+        "localization_key": ""
+      },
+      {
+        "guid": "ccf5d666f7dae9b43ac4eb388a52b4f6",
+        "instance_count": 1,
+        "gameobject_id": 105740,
+        "name": "Winery",
+        "localization_key": "Building.Winery"
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 6,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 16,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      },
+      {
+        "guid": "2771bbd4d544e4796b01566412994396",
+        "instance_count": 2,
+        "gameobject_id": 58011,
+        "name": "Stone",
+        "localization_key": "Resource.Stone"
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  },
+  "localization_aliases": [
+    "Single08_L_CaveCove"
+  ],
+  "alias_evidence": "Same localized title and matching objective resource types; packaged filename omits batch 08. File is stored in LegacyChallenges/Batch09."
+}

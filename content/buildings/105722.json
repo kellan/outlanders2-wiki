@@ -1,0 +1,138 @@
+{
+  "name": "Mead Hall",
+  "internal_name": "Mead Hall",
+  "gameobject_id": 105722,
+  "paths": [
+    "content/buildings/mead hall/mead hall"
+  ],
+  "localization_key": "Building.MeadHall",
+  "description": "Mead Hall workers take <style=Input>{Resource.HoneyPot.WithIcon}</style> and use <style=Input>{Resource.Stick.WithIconPlural}</style> to fuel a fire to create <style=Output>{Resource.Mead.WithIcon}</style>, which brings people together for <style=Input>{Concern.Entertainment.WithIcon}</style> and <style=Input>{Concern.Community.WithIcon}</style>.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 3,
+  "workplace_config": {
+    "MaxWorkers": 3,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 293040,
+    "build_site_gameobject_id": 76745,
+    "material_inputs": [
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 9
+      },
+      {
+        "resource_id": 293926,
+        "name": "Stone",
+        "count": 8
+      }
+    ],
+    "material_formula_ids": [
+      293636
+    ],
+    "all_formula_ids": [
+      293636,
+      315141
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 8.0,
+    "y": 4.0,
+    "z": 8.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    284743,
+    285379,
+    292530,
+    301970,
+    303078
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 1
+        },
+        {
+          "resource_id": 292311,
+          "name": "Honey",
+          "count": 1
+        },
+        {
+          "resource_id": 285909,
+          "name": "Empty Mead",
+          "count": 4
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 285899,
+          "name": "Mead",
+          "count": 4
+        }
+      ],
+      "formula_ids": [
+        284743,
+        285379,
+        292530,
+        301970,
+        303078
+      ],
+      "equipment_category_ids": [],
+      "caveats": [
+        "unresolved_internal_input"
+      ],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316554,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Mead Hall",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 307553,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Mead Hall",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

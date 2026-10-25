@@ -1,0 +1,702 @@
+{
+  "id": "Single_C_Demolicion",
+  "name": "Town Improvement",
+  "description": "Once a bustling hotspot in the middle of an archipelago, Chillbrook has become a ghost town as nearby towns vanished due to dropping temperatures. To revitalize it, the citizens are organizing a town-wide makeover to showcase their best recipes.",
+  "objectives": [
+    {
+      "id": "Objective.Main.1",
+      "text": "Consume <b>{count}</b> bowls of <b>{Resource.Stew.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Stew.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6296,
+      "source_key": "Level.Single_C_Demolicion.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Have no <b>{Building.House.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.House.WithIconPlural"
+      ],
+      "source_text_asset_id": 6296,
+      "source_key": "Level.Single_C_Demolicion.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Main.3",
+      "text": "Have everyone settled.",
+      "unresolved_placeholders": [],
+      "source_text_asset_id": 6296,
+      "source_key": "Level.Single_C_Demolicion.Objective.Main.3"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Have <b>{count} {Building.ChickenCoop.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.ChickenCoop.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6296,
+      "source_key": "Level.Single_C_Demolicion.Objective.Secondary.1"
+    },
+    {
+      "id": "Objective.Main.1",
+      "text": "Consume <b>{count}</b> bowls of <b>{Resource.Stew.WithIcon}</b>.",
+      "unresolved_placeholders": [
+        "Resource.Stew.WithIcon",
+        "count"
+      ],
+      "source_text_asset_id": 6457,
+      "source_key": "Level.Single_C_Demolicion.Objective.Main.1"
+    },
+    {
+      "id": "Objective.Main.2",
+      "text": "Have no <b>{Building.House.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.House.WithIconPlural"
+      ],
+      "source_text_asset_id": 6457,
+      "source_key": "Level.Single_C_Demolicion.Objective.Main.2"
+    },
+    {
+      "id": "Objective.Main.3",
+      "text": "Have everyone settled.",
+      "unresolved_placeholders": [],
+      "source_text_asset_id": 6457,
+      "source_key": "Level.Single_C_Demolicion.Objective.Main.3"
+    },
+    {
+      "id": "Objective.Secondary.1",
+      "text": "Have <b>{count} {Building.ChickenCoop.WithIconPlural}</b>.",
+      "unresolved_placeholders": [
+        "Building.ChickenCoop.WithIconPlural",
+        "count"
+      ],
+      "source_text_asset_id": 6457,
+      "source_key": "Level.Single_C_Demolicion.Objective.Secondary.1"
+    }
+  ],
+  "source_entries": [
+    {
+      "key": "Level.Single_C_Demolicion.Name",
+      "english": "Town Improvement",
+      "source_text_asset_id": 6296,
+      "source_table": "LocalizationBatchesOctubre",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_C_Demolicion.Description",
+      "english": "Once a bustling hotspot in the middle of an archipelago, Chillbrook has become a ghost town as nearby towns vanished due to dropping temperatures. To revitalize it, the citizens are organizing a town-wide makeover to showcase their best recipes.",
+      "source_text_asset_id": 6296,
+      "source_table": "LocalizationBatchesOctubre",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_C_Demolicion.Objective.Main.1",
+      "english": "Consume <b>{count}</b> bowls of <b>{Resource.Stew.WithIcon}</b>.",
+      "source_text_asset_id": 6296,
+      "source_table": "LocalizationBatchesOctubre",
+      "unresolved_placeholders": [
+        "Resource.Stew.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_C_Demolicion.Objective.Main.2",
+      "english": "Have no <b>{Building.House.WithIconPlural}</b>.",
+      "source_text_asset_id": 6296,
+      "source_table": "LocalizationBatchesOctubre",
+      "unresolved_placeholders": [
+        "Building.House.WithIconPlural"
+      ]
+    },
+    {
+      "key": "Level.Single_C_Demolicion.Objective.Main.3",
+      "english": "Have everyone settled.",
+      "source_text_asset_id": 6296,
+      "source_table": "LocalizationBatchesOctubre",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_C_Demolicion.Objective.Secondary.1",
+      "english": "Have <b>{count} {Building.ChickenCoop.WithIconPlural}</b>.",
+      "source_text_asset_id": 6296,
+      "source_table": "LocalizationBatchesOctubre",
+      "unresolved_placeholders": [
+        "Building.ChickenCoop.WithIconPlural",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_C_Demolicion.Name",
+      "english": "Town Improvement",
+      "source_text_asset_id": 6457,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_C_Demolicion.Description",
+      "english": "Once a bustling hotspot in the middle of an archipelago, Chillbrook has become a ghost town as nearby towns vanished due to dropping temperatures. To revitalize it, the citizens are organizing a town-wide makeover to showcase their best recipes.",
+      "source_text_asset_id": 6457,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_C_Demolicion.Objective.Main.1",
+      "english": "Consume <b>{count}</b> bowls of <b>{Resource.Stew.WithIcon}</b>.",
+      "source_text_asset_id": 6457,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Resource.Stew.WithIcon",
+        "count"
+      ]
+    },
+    {
+      "key": "Level.Single_C_Demolicion.Objective.Main.2",
+      "english": "Have no <b>{Building.House.WithIconPlural}</b>.",
+      "source_text_asset_id": 6457,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.House.WithIconPlural"
+      ]
+    },
+    {
+      "key": "Level.Single_C_Demolicion.Objective.Main.3",
+      "english": "Have everyone settled.",
+      "source_text_asset_id": 6457,
+      "source_table": "Localization",
+      "unresolved_placeholders": []
+    },
+    {
+      "key": "Level.Single_C_Demolicion.Objective.Secondary.1",
+      "english": "Have <b>{count} {Building.ChickenCoop.WithIconPlural}</b>.",
+      "source_text_asset_id": 6457,
+      "source_table": "Localization",
+      "unresolved_placeholders": [
+        "Building.ChickenCoop.WithIconPlural",
+        "count"
+      ]
+    }
+  ],
+  "verification_status": "packaged_localization_only; gameplay_unverified",
+  "packaged_level_text_asset_id": 6318,
+  "campaign_number": null,
+  "category": "standalone_or_challenge",
+  "category_evidence": "inferred_from_asset_id; release_and_menu_assignment_unverified",
+  "scenario": {
+    "asset_name": "Single_C_Demolicion",
+    "title": "Town Improvement",
+    "text_asset_id": 6318,
+    "source_level_path": "Assets/Resources/Content/Levels/LegacyChallenges/Batch12/Levels/Single_C_Demolicion.bytes",
+    "sha256": "e17e348ee09441eee5988eff05864bd62673d136563d402438460f2305b294bc",
+    "header_bytes": 1590,
+    "primary_objective_count": 3,
+    "optional_objective_count": 1,
+    "day_limit": 80,
+    "objectives": [
+      {
+        "NeededAmount": 350,
+        "PrefabKeyToCount": "0b8694f450f0242d99f8015e57915185",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 2,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Consume",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 44027,
+          "name": "Stew",
+          "localization_key": "Resource.Stew"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 411
+      },
+      {
+        "NeededAmount": 0,
+        "PrefabKeyToCount": "c53e9b43869e44769a89e59c35bd9a8c",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Have",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 67675,
+          "name": "Basic House",
+          "localization_key": "Building.House"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 636
+      },
+      {
+        "NeededAmount": 100,
+        "PrefabKeyToCount": "8e4be3b34291dd54389a3b6b5db14948",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 7,
+        "Comparison": 0,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0.0,
+        "condition_name": "Housing",
+        "comparison_name": "Equal",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 99941,
+          "name": "AudioEventBase",
+          "localization_key": ""
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 861
+      },
+      {
+        "NeededAmount": 10,
+        "PrefabKeyToCount": "5e9f29bce436146ac9c79110237d446d",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "Value": 0.10000000149011612,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 105713,
+          "name": "Chicken Coop",
+          "localization_key": "Building.ChickenCoop"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "header_byte_offset": 1086
+      }
+    ],
+    "localized_objective_templates": [
+      {
+        "id": "Objective.Main.1",
+        "text": "Consume <b>{count}</b> bowls of <b>{Resource.Stew.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Stew.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6296,
+        "source_key": "Level.Single_C_Demolicion.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Have no <b>{Building.House.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.House.WithIconPlural"
+        ],
+        "source_text_asset_id": 6296,
+        "source_key": "Level.Single_C_Demolicion.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Main.3",
+        "text": "Have everyone settled.",
+        "unresolved_placeholders": [],
+        "source_text_asset_id": 6296,
+        "source_key": "Level.Single_C_Demolicion.Objective.Main.3"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Have <b>{count} {Building.ChickenCoop.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.ChickenCoop.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6296,
+        "source_key": "Level.Single_C_Demolicion.Objective.Secondary.1"
+      },
+      {
+        "id": "Objective.Main.1",
+        "text": "Consume <b>{count}</b> bowls of <b>{Resource.Stew.WithIcon}</b>.",
+        "unresolved_placeholders": [
+          "Resource.Stew.WithIcon",
+          "count"
+        ],
+        "source_text_asset_id": 6457,
+        "source_key": "Level.Single_C_Demolicion.Objective.Main.1"
+      },
+      {
+        "id": "Objective.Main.2",
+        "text": "Have no <b>{Building.House.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.House.WithIconPlural"
+        ],
+        "source_text_asset_id": 6457,
+        "source_key": "Level.Single_C_Demolicion.Objective.Main.2"
+      },
+      {
+        "id": "Objective.Main.3",
+        "text": "Have everyone settled.",
+        "unresolved_placeholders": [],
+        "source_text_asset_id": 6457,
+        "source_key": "Level.Single_C_Demolicion.Objective.Main.3"
+      },
+      {
+        "id": "Objective.Secondary.1",
+        "text": "Have <b>{count} {Building.ChickenCoop.WithIconPlural}</b>.",
+        "unresolved_placeholders": [
+          "Building.ChickenCoop.WithIconPlural",
+          "count"
+        ],
+        "source_text_asset_id": 6457,
+        "source_key": "Level.Single_C_Demolicion.Objective.Secondary.1"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelSnow",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": true,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 0,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "033493988e4a4d94b8f8ffd39ecadc63",
+        "gameobject_id": 105694,
+        "name": "Tailor",
+        "localization_key": "Building.CoatMaker"
+      },
+      {
+        "guid": "2c5f2cc4d2e78ec49b85564d620a8bea",
+        "gameobject_id": 71091,
+        "name": "Pumpkin Field",
+        "localization_key": "Field.Pumpkin"
+      },
+      {
+        "guid": "8793924bc37fc12429340646df423230",
+        "gameobject_id": 69352,
+        "name": "Greenhouse",
+        "localization_key": "Building.GreenHouse"
+      },
+      {
+        "guid": "578d4586224990b4099233f511e9ffd8",
+        "gameobject_id": 67667,
+        "name": "Two-Story House",
+        "localization_key": "Building.HouseStone"
+      },
+      {
+        "guid": "a122042526ded44a094f22861cb604f2",
+        "gameobject_id": 105729,
+        "name": "Winter Cabin",
+        "localization_key": "Building.HouseWithChimney"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "7f0517aae7626244db91df74eabaffa7",
+        "gameobject_id": 105723,
+        "name": "Stone Mine",
+        "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "d7d5d85f831fd4275ae951907b524658",
+        "gameobject_id": 75227,
+        "name": "Trading Outpost",
+        "localization_key": "Building.TradingPost"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 47,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 4,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "instance_count": 1,
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "instance_count": 1,
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 300,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "5b37018b71b4344c98cf1ac3f2ee5333",
+        "instance_count": 20,
+        "gameobject_id": 93255,
+        "name": "Animal Hide",
+        "localization_key": "Resource.AnimalHide"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "instance_count": 266,
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "4c13d6cfb6b0dbe4c97e754e70de3611",
+        "instance_count": 11,
+        "gameobject_id": 107067,
+        "name": "Expedition Crate 1",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "b8cb8c52b58c565488e7ad9a085487cb",
+        "instance_count": 14,
+        "gameobject_id": 107099,
+        "name": "Expedition Crate 2",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "cf5986de1d3a05740bc86ab16ff8053a",
+        "instance_count": 4,
+        "gameobject_id": 107105,
+        "name": "Expedition Crate 3",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 14,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "instance_count": 30,
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "aa91c136987e9ad4b8dae78caed7d859",
+        "instance_count": 1,
+        "gameobject_id": 107096,
+        "name": "1-2 Sign#2",
+        "localization_key": ""
+      },
+      {
+        "guid": "846e1e0d839869e468a49db9a01268b5",
+        "instance_count": 27,
+        "gameobject_id": 95333,
+        "name": "Sea Ice",
+        "localization_key": "Decoration.SeaIce"
+      },
+      {
+        "guid": "c735b2e7583508a439b9cd943aa6a87d",
+        "instance_count": 1,
+        "gameobject_id": 81594,
+        "name": "Tool Shovel",
+        "localization_key": ""
+      },
+      {
+        "guid": "049760704a44fd04cbc5aebc371afef1",
+        "instance_count": 2,
+        "gameobject_id": 81576,
+        "name": "Tool Pick",
+        "localization_key": ""
+      },
+      {
+        "guid": "aac5b3f1e7fa38a458d385042dcd5cfa",
+        "instance_count": 1,
+        "gameobject_id": 81590,
+        "name": "Tool Hammer",
+        "localization_key": ""
+      },
+      {
+        "guid": "76f15662f9436dd4bae5778e64127609",
+        "instance_count": 1,
+        "gameobject_id": 81585,
+        "name": "Tool Wheelbarrow",
+        "localization_key": ""
+      },
+      {
+        "guid": "e932b0755062c0d41af38ab422ff6e76",
+        "instance_count": 1,
+        "gameobject_id": 81598,
+        "name": "Tool Bucket",
+        "localization_key": ""
+      },
+      {
+        "guid": "9900a1819cb6d754f81c08f520497838",
+        "instance_count": 3,
+        "gameobject_id": 107090,
+        "name": "Christmas Snowman 0",
+        "localization_key": ""
+      },
+      {
+        "guid": "5b095a6b2b0a482438c5b92d15264188",
+        "instance_count": 2,
+        "gameobject_id": 107073,
+        "name": "Christmas Snowman 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "93e763672d92e4b56bb06e8fe3269a70",
+        "instance_count": 15,
+        "gameobject_id": 110894,
+        "name": "Winter Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "38402218dfb78c246a104fd5a156783f",
+        "instance_count": 1,
+        "gameobject_id": 39603,
+        "name": "Fireflies Event",
+        "localization_key": ""
+      }
+    ],
+    "world_objectives_match_header": true,
+    "source_category": "packaged legacy challenge"
+  }
+}

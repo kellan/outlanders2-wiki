@@ -1,0 +1,123 @@
+{
+  "name": "Paper Mill",
+  "internal_name": "Papermill",
+  "gameobject_id": 105703,
+  "paths": [
+    "content/buildings/papermill/papermill"
+  ],
+  "localization_key": "Building.Papermill",
+  "description": "Paper Mill workers take <style=Input>{Resource.Wood.WithIconPlural}</style> and turn them into <style=Output>{Resource.Paper.WithIcon}</style>. It sounds crazy, but it's true.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 4,
+  "workplace_config": {
+    "MaxWorkers": 4,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 1,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304335,
+    "build_site_gameobject_id": 57083,
+    "material_inputs": [
+      {
+        "resource_id": 308077,
+        "name": "Plank",
+        "count": 14
+      }
+    ],
+    "material_formula_ids": [
+      305134
+    ],
+    "all_formula_ids": [
+      305134,
+      313058
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 10.0,
+    "y": 4.0,
+    "z": 10.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    280423,
+    284013,
+    288079,
+    306806,
+    317423,
+    322106
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 301716,
+          "name": "WoodMush",
+          "count": 1
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 308079,
+          "name": "Paper",
+          "count": 1
+        }
+      ],
+      "formula_ids": [
+        284013,
+        322106
+      ],
+      "equipment_category_ids": [
+        273140
+      ],
+      "caveats": [
+        "alternate_or_cyclic_intermediate"
+      ],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316535,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Papermill",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 301318,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Papermill",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "name": "Stroganoff Cookhouse",
+  "internal_name": "Stroganoff Shop",
+  "gameobject_id": 105717,
+  "paths": [
+    "content/buildings/stroganoff shop/stroganoff shop"
+  ],
+  "localization_key": "Building.StroganoffShop",
+  "description": "Stroganoff cooks use <style=Input>{Resource.Meat.WithIcon}</style> and <style=Input>{Resource.Mushroom.WithIconPlural}</style> they pick from the ground to create a heartwarming <style=Output>{Resource.Stroganoff.WithIcon}</style> on a fire fueled by <style=Input>{Resource.Stick.WithIconPlural}</style>.",
+  "is_base_or_campaign_asset": false,
+  "max_workers": 2,
+  "workplace_config": {
+    "MaxWorkers": 2,
+    "WorkTimeRange": {
+      "Start": 0.8999999761581421,
+      "End": 0.5
+    },
+    "InitialCapacity": 1,
+    "BlockWorkerAssignment": 0,
+    "AreaOfEffect": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "ExclusiveOutputs": 0,
+    "StartWithAllFormulasOff": 0,
+    "UseSiblingIndexForWorkspotPriority": 0,
+    "BlockResourceToggle": 0
+  },
+  "construction": {
+    "build_site_component_id": 304342,
+    "build_site_gameobject_id": 57090,
+    "material_inputs": [
+      {
+        "resource_id": 292310,
+        "name": "Clay",
+        "count": 4
+      },
+      {
+        "resource_id": 309169,
+        "name": "Log",
+        "count": 8
+      }
+    ],
+    "material_formula_ids": [
+      292386,
+      305141
+    ],
+    "all_formula_ids": [
+      278942,
+      292386,
+      305141,
+      317422
+    ],
+    "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
+  },
+  "dimensions": {
+    "x": 6.0,
+    "y": 0.0,
+    "z": 6.0
+  },
+  "placement_rules": {
+    "ValidTerrains": [
+      3
+    ],
+    "TileConstraints": [],
+    "MaxAllowedHeightDifference": 0.10000000149011612,
+    "BlocksEntrances": 1,
+    "ConnectsZones": 0,
+    "BuildOver": [],
+    "BuildOverWithoutDestroying": [],
+    "BuildOverWithBuildSite": 0
+  },
+  "sleep_spots": null,
+  "house_config": null,
+  "formula_ids": [
+    279682,
+    309555,
+    312708,
+    314770,
+    318167
+  ],
+  "derived_recipes": [
+    {
+      "inputs": [
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 8
+        },
+        {
+          "resource_id": 304113,
+          "name": "Meat",
+          "count": 5
+        },
+        {
+          "resource_id": 320441,
+          "name": "Mushroom",
+          "count": 5
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 319676,
+          "name": "Stroganoff",
+          "count": 40
+        }
+      ],
+      "formula_ids": [
+        279682,
+        309555,
+        312708,
+        314770,
+        318167
+      ],
+      "equipment_category_ids": [],
+      "caveats": [],
+      "status": "derived_from_serialized_formula_graph; not measured throughput"
+    }
+  ],
+  "source": {
+    "asset_file": "resources.assets",
+    "path_id": 316549,
+    "class": "BuildingBehaviour",
+    "hierarchy_path": "Stroganoff Shop",
+    "fields": [
+      "BuildingConfig",
+      "BuildSiteBehaviour"
+    ]
+  },
+  "workplace_source": {
+    "asset_file": "resources.assets",
+    "path_id": 320276,
+    "class": "WorkplaceBehaviour",
+    "hierarchy_path": "Stroganoff Shop",
+    "fields": [
+      "WorkplaceConfig"
+    ]
+  }
+}
