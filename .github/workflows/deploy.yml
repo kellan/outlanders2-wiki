@@ -30,4 +30,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: gh-pages
+          cname: outlanders2wiki.com
           commit_message: "Publish site from ${{ github.sha }}"

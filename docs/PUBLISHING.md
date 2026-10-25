@@ -4,6 +4,8 @@
 
 `.github/workflows/deploy.yml` runs on every push to `main`: it builds the site, runs the validation suite and publishes `dist/` to the `gh-pages` branch, which GitHub Pages serves. `dist/` is no longer committed; `assets/` holds the game icons and evidence screenshots the build copies in. Pull requests and other branches run `.github/workflows/test.yml`, the same build and tests without publishing. The manual subtree procedure below remains as a fallback.
 
+The custom domain outlanders2wiki.com is served from this repository. GitHub Pages reads the domain from a `CNAME` file at the root of the published branch, so `assets/CNAME` is copied into every build and the deploy step also sets `cname`. If that file ever disappears from `gh-pages`, Pages drops the domain and the site returns 404 until it is restored.
+
 The repository remains private and the public site is deployed at https://kellanem.com/outlanders2-wiki/. Publishing the site and making the repository public are separate decisions. A Spoilers section is a browsing choice, not access control: anyone with the published datasets or repository can read the underlying entries.
 
 ## Publication decisions
