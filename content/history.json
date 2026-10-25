@@ -1,0 +1,377 @@
+{
+  "baseline": "Baseline: version 30, build 254, extracted 23 October 2026. Everything on the wiki exists in that build unless its History says otherwise.",
+  "entries": [
+    {
+      "type": "heroes",
+      "id": "Fjordi.000",
+      "game_version": "21",
+      "date": "2026-02-18",
+      "change": "Introduced as the leader of the Fjordi's Birthday story in Campaign 3.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 21 (Feb 18); Year inferred from chronological position after Dec 3 2025 and before Jun17 2026",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign3_Level1A",
+      "game_version": "21",
+      "date": "2026-02-18",
+      "change": "Added with the Fjordi's Birthday story in Campaign 3.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 21 (Feb 18); Year inferred from chronological position after Dec 3 2025 and before Jun17 2026",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign3_Level1B",
+      "game_version": "21",
+      "date": "2026-02-18",
+      "change": "Added with the Fjordi's Birthday story in Campaign 3.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 21 (Feb 18); Year inferred from chronological position after Dec 3 2025 and before Jun17 2026",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign3_Level1C",
+      "game_version": "21",
+      "date": "2026-02-18",
+      "change": "Added with the Fjordi's Birthday story in Campaign 3.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 21 (Feb 18); Year inferred from chronological position after Dec 3 2025 and before Jun17 2026",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level7A",
+      "game_version": "20",
+      "date": "2025-12-03",
+      "change": "Added with the Pablo's Lost story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 20 (12/03/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level7B",
+      "game_version": "20",
+      "date": "2025-12-03",
+      "change": "Added with the Pablo's Lost story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 20 (12/03/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level7C",
+      "game_version": "20",
+      "date": "2025-12-03",
+      "change": "Added with the Pablo's Lost story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 20 (12/03/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "heroes",
+      "id": "Maira.000",
+      "game_version": "18",
+      "date": "2025-09-10",
+      "change": "Introduced as the leader of the Maira's Fortune story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 18 (09/10/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level6A",
+      "game_version": "18",
+      "date": "2025-09-10",
+      "change": "Added with the Maira's Fortune story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 18 (09/10/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level6B",
+      "game_version": "18",
+      "date": "2025-09-10",
+      "change": "Added with the Maira's Fortune story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 18 (09/10/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level6C",
+      "game_version": "18",
+      "date": "2025-09-10",
+      "change": "Added with the Maira's Fortune story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 18 (09/10/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "heroes",
+      "id": "Izzy.000",
+      "game_version": "16",
+      "date": "2025-06-26",
+      "change": "Introduced as the leader of the Izzy's Break story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 16 (06/26/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level5A",
+      "game_version": "16",
+      "date": "2025-06-26",
+      "change": "Added with the Izzy's Break story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 16 (06/26/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level5B",
+      "game_version": "16",
+      "date": "2025-06-26",
+      "change": "Added with the Izzy's Break story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 16 (06/26/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level5C",
+      "game_version": "16",
+      "date": "2025-06-26",
+      "change": "Added with the Izzy's Break story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 16 (06/26/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "heroes",
+      "id": "Chico.000",
+      "game_version": "14",
+      "date": "2025-04-02",
+      "change": "Introduced as the leader of the Chico's Wish story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 14 (04/02/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level4A",
+      "game_version": "14",
+      "date": "2025-04-02",
+      "change": "Added with the Chico's Wish story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 14 (04/02/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level4B",
+      "game_version": "14",
+      "date": "2025-04-02",
+      "change": "Added with the Chico's Wish story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 14 (04/02/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level4C",
+      "game_version": "14",
+      "date": "2025-04-02",
+      "change": "Added with the Chico's Wish story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 14 (04/02/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "heroes",
+      "id": "Kaia.000",
+      "game_version": "13",
+      "date": "2025-01-29",
+      "change": "Introduced as the leader of the Kaia's Dream story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 13 (01/29/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level3A",
+      "game_version": "13",
+      "date": "2025-01-29",
+      "change": "Added with the Kaia's Dream story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 13 (01/29/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level3B",
+      "game_version": "13",
+      "date": "2025-01-29",
+      "change": "Added with the Kaia's Dream story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 13 (01/29/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level3C",
+      "game_version": "13",
+      "date": "2025-01-29",
+      "change": "Added with the Kaia's Dream story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 13 (01/29/2025)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "heroes",
+      "id": "Cory.000",
+      "game_version": "12",
+      "date": "2024-11-13",
+      "change": "Introduced as the leader of the Cory's Homework story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 12 (11/13/2024)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level2A",
+      "game_version": "12",
+      "date": "2024-11-13",
+      "change": "Added with the Cory's Homework story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 12 (11/13/2024)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level2B",
+      "game_version": "12",
+      "date": "2024-11-13",
+      "change": "Added with the Cory's Homework story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 12 (11/13/2024)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level2C",
+      "game_version": "12",
+      "date": "2024-11-13",
+      "change": "Added with the Cory's Homework story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 12 (11/13/2024)",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "heroes",
+      "id": "Jelena.000",
+      "game_version": "8",
+      "date": "2024-09-18",
+      "change": "Introduced as the leader of the Jelena's Climb story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 8 (09/18/2024); Developer announcement supplies Jelena name; App Store note describes new campaign without leader name",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level1A",
+      "game_version": "8",
+      "date": "2024-09-18",
+      "change": "Added with the Jelena's Climb story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 8 (09/18/2024); Developer announcement supplies Jelena name; App Store note describes new campaign without leader name",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level1B",
+      "game_version": "8",
+      "date": "2024-09-18",
+      "change": "Added with the Jelena's Climb story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 8 (09/18/2024); Developer announcement supplies Jelena name; App Store note describes new campaign without leader name",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level1C",
+      "game_version": "8",
+      "date": "2024-09-18",
+      "change": "Added with the Jelena's Climb story in Campaign 2.",
+      "evidence": {
+        "kind": "official-source",
+        "reference": "App Store version history, update 8 (09/18/2024); Developer announcement supplies Jelena name; App Store note describes new campaign without leader name",
+        "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    }
+  ]
+}

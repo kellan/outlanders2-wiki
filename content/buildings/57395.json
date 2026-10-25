@@ -133,5 +133,47 @@
     "fields": [
       "WorkplaceConfig"
     ]
+  },
+  "gameplay": {
+    "recipe_per_cycle": {
+      "inputs": [
+        {
+          "resource_id": 286781,
+          "name": "Flour",
+          "count": 1
+        },
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 1
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 319667,
+          "name": "Bread",
+          "count": 8
+        }
+      ],
+      "status": "confirmed",
+      "evidence": {
+        "kind": "field-guide",
+        "game_version": "30 (254)",
+        "date": "2026-10-24",
+        "reference": "Bakery field guide screenshot (gameplay-evidence/bakery-field-guide.png). Maintainer play report of 25 October 2026 agrees. The decoded formula graph gives exactly 8 Bread per Flour; formula 297381 is named \"1 Stick -> 8 KitchenFire\" although its serialized output is 10, so whether leftover fire carries between cycles is unverified."
+      }
+    },
+    "output_capacity": {
+      "resource_id": 319667,
+      "name": "Bread",
+      "count": 40,
+      "status": "open",
+      "evidence": {
+        "kind": "player-report",
+        "game_version": "30 (254)",
+        "date": "2026-10-25",
+        "reference": "Maintainer report, 25 October 2026: the Bakery keeps baking until it holds 40 Bread. Not present in the exported data; see docs/INFORMATION-NEEDED.md."
+      }
+    }
   }
 }

@@ -1,5 +1,9 @@
 # Publishing the guide
 
+## Automated publishing (current)
+
+`.github/workflows/deploy.yml` runs on every push to `main`: it builds the site, runs the validation suite and publishes `dist/` to the `gh-pages` branch, which GitHub Pages serves. `dist/` is no longer committed; `assets/` holds the game icons and evidence screenshots the build copies in. Pull requests and other branches run `.github/workflows/test.yml`, the same build and tests without publishing. The manual subtree procedure below remains as a fallback.
+
 The repository remains private and the public site is deployed at https://kellanem.com/outlanders2-wiki/. Publishing the site and making the repository public are separate decisions. A Spoilers section is a browsing choice, not access control: anyone with the published datasets or repository can read the underlying entries.
 
 ## Publication decisions
@@ -43,9 +47,9 @@ In GitHub, open Settings → Pages. Select “Deploy from a branch,” choose `g
 
 After deployment completes, check the home page, a deep crop URL, a scenario, a research page, Contribute, Spoilers, and image links. Confirm HTTPS. Repeat the build, tests, commit and subtree publication for later releases.
 
-## Automation later
+## Automation
 
-A custom Actions workflow could build and test changes automatically and publish only approved releases. Adding it requires an authorization method permitted to upload workflow files. The site currently uses GitHub’s managed branch deployment, without a custom workflow.
+Installed; see the top of this page. Pages settings stay on “Deploy from a branch”, `gh-pages`, root.
 
 ## outlanders2wiki.com — second stage
 

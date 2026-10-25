@@ -2,7 +2,7 @@ import fs from 'node:fs';import assert from 'node:assert/strict';import {harness
 let count=0,links=0;const h=await harness();assert.ok(h.pages.length>600);
 for(const [route,rec] of Object.entries(h.lookup)){
  const html=h.render(route);assert.ok(html.length>100,'Empty '+route);assert.ok(!html.includes('[object Object]'),'Object '+route);
- for(const m of html.matchAll(/href="\/(?!\/)([^"]*)"/g)){
+ for(const m of html.matchAll(/href="\/(?!\/)([^"#]*)(?:#[^"]*)?"/g)){
   const p=m[1];if(p.startsWith('data/')||p.startsWith('gameplay-evidence/')){assert.ok(fs.existsSync(root+p));continue}assert.ok(h.lookup[p],`Broken article link /${p} on /${route}`);links++;
  }
  count++;

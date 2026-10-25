@@ -1,0 +1,22 @@
+{
+  "id": "Level01A",
+  "summary": "The opening level only asks for the two gathering huts and a small log stockpile, so the fastest finish is to build both huts immediately next to the trees and let the villagers stock logs.",
+  "build_order": [
+    {
+      "gameobject_id": 38476,
+      "note": "First objective; place it next to bushes so foragers keep the five adults fed."
+    },
+    {
+      "gameobject_id": 38478,
+      "note": "Second objective; the six logs it stocks complete the third."
+    }
+  ],
+  "pitfalls": [
+    "The optional objective is to recycle the Canoe; it is easy to forget once the main objectives are done."
+  ],
+  "status": "draft",
+  "game_version": "30 (254)",
+  "date": "2026-10-25",
+  "contributor": "wiki maintainers",
+  "source": "Drafted from the stored objectives and the 24 October menu observation; not a timed playthrough."
+}

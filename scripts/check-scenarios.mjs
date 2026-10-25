@@ -17,6 +17,6 @@ const page=id=>h.render(h.pages.find(p=>p.type==='levels'&&p.id===id).path);
 const binge=page('Level02B');assert.ok(binge.includes('≥ 120'));assert.ok(binge.includes('65 days'));assert.ok(binge.includes('Unspecified in this file'));
 const town=page('Single_C_Villagers100');assert.ok(town.includes('≥ 100'));assert.ok(!town.includes('AudioEventBase'));
 const first=page('Level01A');assert.ok(first.includes('2 distinct configured entries'));assert.ok(first.includes('/buildings/foragers-hut/'));
-assert.ok(h.render('buildings/foragers-hut/').includes('Scenario build availability'));
+assert.ok(h.render('buildings/foragers-hut/').includes('Where it can be built'));
 assert.equal(linked,133);assert.equal(w.levels.filter(l=>!l.scenario).length,0);
 console.log(`PASS: ${linked} decoded scenario pages, primary/optional counts, exact targets, needs, legacy unknowns, asset links, and build-list backlinks.`);

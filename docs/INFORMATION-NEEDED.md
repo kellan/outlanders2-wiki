@@ -1,0 +1,86 @@
+# Information needed
+
+A running list of facts the wiki wants but does not have, with the most likely way to get each one. Items are removed once the information is in `content/`; the removal is logged in `CONTENT-NOTES.md`. Add items here when an article has to say "not established", and remove them in the same change that records the answer.
+
+## If you are an agent gathering answers
+
+Read this whole file, pick rows you can answer, and return answers in one of these ways, preferred first:
+
+1. **Append to [`docs/INFORMATION-ANSWERS.md`](INFORMATION-ANSWERS.md) on this branch** (`wiki-companion-improvements`) using the template at the top of that file, one entry per fact, then commit and push. Put screenshots in `assets/gameplay-evidence/` with a descriptive filename and reference them from the entry. Do not edit `content/` or this file yourself; the wiki session records each answer with evidence, removes the row here, and marks the entry recorded.
+2. **Comment on [issue 10](https://github.com/kellan/outlanders2-wiki/issues/10)** with the same fields if you cannot push.
+
+Every answer needs: the row it answers (quote the first cell), the fact with numbers and units as the game shows them, how it was obtained (field guide, building panel, in-game clock, timed test with starting conditions, decoded data, official source), the game version, the date, and any screenshot filename. Say when a result is partial or uncertain; a wrong "confirmed" costs more than a gap.
+
+Answers go in [issue 10, the answers thread](https://github.com/kellan/outlanders2-wiki/issues/10), one comment per fact with how it was obtained, the game version and any screenshot path. They are checked against the decoded data, recorded with evidence, and the row is removed in the same commit.
+
+How to read the "Source" column:
+
+- **mine**: decode it from the installed game files with the research tools (`kellan/outlanders2-research`).
+- **screen**: capture it from the running game (field guide, menus, building panels), for example with computer use on the maintainer's Mac.
+- **test**: a controlled gameplay observation recorded as a `content/observations/` entry.
+- **official**: release notes, store pages or developer statements.
+
+## Buildings and production
+
+| Need | Why it matters | Source | Status |
+|---|---|---|---|
+| Output storage capacity per production building | Workers stop when the output store is full, so capacity bounds every production plan | mine: the `StockpileBehaviour`, `ResourcePileBehaviour` and `PileableBehaviour` objects were round-trip validated (ids 279804, 276812, 278269) but their fields were never exported. Run `python3 research.py run stream_decode.py ResourcePileBehaviour StockpileBehaviour PileableBehaviour` in the research workspace, then link each pile to its building's output; test otherwise | Bakery: 40 Bread recorded from the maintainer's report (player-report, open). Every other building unknown |
+| Production time per cycle for each building | Needed before any throughput or "how many bakeries for N villagers" guidance | mine (formula step durations, `work_iterations` is 0 on most steps), test | Unknown for all buildings |
+| Field guide text, recipe, cost and worker slots for every building | Displayed recipe is the player-facing per-cycle recipe; derived ratios stand in until it is captured | screen | 4 of 63 production buildings captured (Bakery, Windmill, Sawmill, Greenhouse); only the Bakery has a confirmed `gameplay.recipe_per_cycle` |
+| Whether leftover fuel carries between cycles (Bakery formula 297381 is named "1 Stick -> 8 KitchenFire" but serializes 10) | Decides whether every fifth cycle is fuel-free or the extra fire is wasted | mine (formula tuning history), test | Unverified |
+| Construction stage repetition and alternative materials | Construction totals may be under- or over-counted | mine, test | Unresolved for all buildings |
+| Equipment requirements and wear | Some formula steps require equipment; effect on output unknown | mine, test | Unresolved |
+| Which packaged building and resource variants are used in play | Catalog lists several same-name definitions | screen, test | Unverified |
+| Alternate resource logic (`ResourceVariationDatabase`) | Affects which inputs a recipe accepts | mine | Not decoded |
+| Trading Outpost rules: whether the Wheat, Glass Pane and Animal Hide formulas are trade rates, and any other goods or prices | A Trading page cannot be written without them | mine, screen | Formulas decoded, meaning unverified |
+| Fishing Dock, Foragers' Hut and other extraction yields | Early-game food planning | mine, test | Unknown |
+| Icons for the 4 buildings without artwork | Infobox and catalog completeness | mine | 150 of 154 covered |
+
+## Crops and biomes
+
+| Need | Why it matters | Source | Status |
+|---|---|---|---|
+| Harvest yield per crop and orchard plant | Food planning; growth stage days are decoded but yields are not | mine, test | Unknown |
+| Real growth time versus stored stage days | Stored stage days may not equal calendar days | test | Unverified |
+| Crop availability per biome in normal play, including greenhouse rules in Winterlands | Sandbox assignments are decoded but flagged as not proof of availability | test, screen | Under review |
+| Biome hazard mechanics: heat, cooling and hydration penalties, Boost effect | Needed for Needs and Biome pages | mine, test | Help text only; need curves decoded (Heat: start 100, drain 20 a day if DailyRequired is the drain, cold warning at 20, death at -50) but multipliers and the Boost are not |
+| What a Coat, Boots and other gear do for heat, cooling or speed | Issue 1: nothing decoded says what keeps a villager warm | mine: `ResourceGearBehaviour` (id 276759) was round-trip validated but never exported; decode it with `stream_decode.py ResourceGearBehaviour` | Unknown |
+| How the Bonfire and other social spots satisfy Heat or Cooling | Issue 1: the Bonfire runs the latest shift of any workplace but its effect is not in the export | mine (social-spot and workspot configs), test | Unknown |
+| Timed cold test in Winterlands: time from the cold warning to death, with and without a Coat and a Bonfire | Turns the decoded Heat constants into a statement a player can use | test | Not run |
+
+| Names of terrain codes 1 and 2 in placement rules (Bridge allows 3, 1, 2; Fishing Dock and Swimming Pier store no ground terrain) | Placement rows say "water or shore" as a guess | mine (terrain enum in metadata), screen | Code 3 is ground; 1 and 2 undecoded |
+| Biome for the 35 levels whose stored scene name is empty | Level pages show "Not stored" | screen (open each level) | Unknown |
+
+## Villagers and needs
+
+| Need | Why it matters | Source | Status |
+|---|---|---|---|
+| How need configuration maps to play: `DailyRequired`, `UnitValue`, thresholds versus resource `need_units` | Decoded values exist but no one has confirmed what one unit buys | mine, test | Decoded, unverified |
+| Food consumption per villager per day | The single most useful planning number | test | Unknown |
+| Need decay rates, death timing and the happiness formula | Needs and Happiness pages | mine, test | Unknown |
+| Villager ageing: baby, kid, adult durations and population growth rules | Housing and population objectives | mine, test | Unknown |
+| Housing details: baby and pet spaces, whether Houses accept partial families | Housing page and objective planning | screen, test | Unknown |
+| Leader effect magnitudes, duration and scope | Leader pages show only descriptions | mine, test | Not decoded |
+| Which clock hour the stored shift fraction 0.0 corresponds to, and the length of a game day in clock hours | Shift differences are decoded (Clay Pit starts and finishes a tenth of a day later than the 53 standard workplaces) but can only be given as fractions of a day until the clock origin is known | screen (watch the in-game clock when a Farm crew and a Clay Pit crew start work), test | Shift fractions decoded for all 66 workplaces; clock origin unknown |
+| Whether late-shift crews also sleep longer (Energy need) or just start later | Community lore about clay workers sleeping in | test | Open observation `clay-pit-late-start` |
+
+## Levels, campaigns and challenges
+
+| Need | Why it matters | Source | Status |
+|---|---|---|---|
+| Story-to-level mapping for Campaign 1 and 2 stories | Currently inferred from identifiers; only story order was menu-checked | screen | Inferred |
+| Campaign 3: menu placement of the three levels outside Fjordi's Birthday | They render as "Other levels" | screen | Unknown |
+| Menu names and placement for the 19 unnamed archive maps and the standalone-or-challenge category | Pages titled "Unnamed scenario · archive N" | screen | Unknown |
+| Unlock prerequisites and what each level unlocks | Level walkthroughs cannot state progression | mine (campaign config), screen | Unknown |
+| Challenge type rules for Chill, Ranked and Remix, scoring, and schedule | Challenges page lists names only | screen, official | Partial (Original, Redux, Bounty described) |
+| Tournament season history: dates of the Nordic and Mesoamerican seasons, the Rural season’s reward list and end date, and whether Egyptian and Imperial have ever run | Mode confirmed live with Rural running (maintainer, 25 Oct 2026); the page cannot date seasons or show the live reward set | screen (Tournament menu, reward list), official | Two styles withheld in Spoilers pending evidence |
+| Release and menu availability for levels, buildings and leaders | Most entries show "Unknown" | official, screen | 2 availability records; Oona and related content classified |
+| Day length and what "day limit" counts | Objective planning | test | Unverified |
+
+## Site data
+
+| Need | Why it matters | Source | Status |
+|---|---|---|---|
+| Runtime colour composition for leader portraits | Portraits are static variants | mine | Not reproduced |
+| Second game build for version history | History sections need a diff; `scripts/compare-content.mjs` is ready | mine (next release) | Waiting on a new build |
+| Release update for each level, building and resource that predates the baseline | Backdated History for everything, not just the eight dated stories | official (App Store version history lists update contents by date), mine (`MinGameVersion` gate values on SerializedKeyBehaviour were declared but not decoded) | Stories and their levels dated from update 8 to 21; everything else undated |
