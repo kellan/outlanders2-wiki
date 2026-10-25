@@ -44,7 +44,8 @@ How to read the "Source" column:
 | Villager ageing: baby, kid, adult durations and population growth rules | Housing and population objectives | mine, test | Unknown |
 | Housing details: baby and pet spaces, whether Houses accept partial families | Housing page and objective planning | screen, test | Unknown |
 | Leader effect magnitudes, duration and scope | Leader pages show only descriptions | mine, test | Not decoded |
-| Work schedule to clock mapping (Clay Pit interval 0 to 0.6 versus Farm 0.9 to 0.5) | Open observation about clay workers sleeping in | test | Open |
+| Which clock hour the stored shift fraction 0.0 corresponds to, and the length of a game day in clock hours | Shift differences are decoded (Clay Pit starts and finishes a tenth of a day later than the 53 standard workplaces) but can only be given as fractions of a day until the clock origin is known | screen (watch the in-game clock when a Farm crew and a Clay Pit crew start work), test | Shift fractions decoded for all 66 workplaces; clock origin unknown |
+| Whether late-shift crews also sleep longer (Energy need) or just start later | Community lore about clay workers sleeping in | test | Open observation `clay-pit-late-start` |
 
 ## Levels, campaigns and challenges
 

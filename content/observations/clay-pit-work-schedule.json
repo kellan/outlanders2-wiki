@@ -1,0 +1,16 @@
+{
+  "id": "clay-pit-work-schedule",
+  "target": {
+    "type": "buildings",
+    "id": "69351"
+  },
+  "claim": "Clay Pit workers start their shift a tenth of a day later than the standard workplace shift and finish a tenth of a day later; the shift is the same length (60% of the day).",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "decoded-data",
+    "game_version": "30 (254)",
+    "date": "2026-10-25",
+    "reference": "WorkplaceConfig.WorkTimeRange. Clay Pit stores 0 → 0.6; 53 workplaces including Farm and Bakery store the standard 0.9 → 0.5 (wrapping past 1.0). Foresters' Hub, Orchard and Quarry store 0 → 0.5 (same late start, standard finish); Cheesery, Chicken Coop, Fondue Bar and Roadworks Office store 0.95 → 0.55."
+  },
+  "notes": "Community reports that clay workers are late risers match the stored schedule. The clock mapping of fraction 0 is unresolved, so the offset is one tenth of a day rather than a number of hours, and whether the crew also sleeps longer is tracked separately in clay-pit-late-start."
+}

@@ -58,3 +58,11 @@ assert.ok(h.render('production-chains/bakery/').includes('How production works')
 assert.ok(h.render('buildings/').includes('8 Bread'),'catalog uses per-cycle recipe');
 assert.ok(h.render('verification/buildings/bakery/').includes('KitchenFire'),'fuel note on research page');
 console.log('PASS: gameplay block drives recipe and capacity.');
+// Work schedules come from WorkTimeRange, reported relative to the standard shift.
+const clay=h.render('buildings/clay-pit/');
+assert.ok(clay.includes('Work hours'),'work hours row');assert.ok(clay.includes('starts a tenth of a day later, finishes a tenth of a day later'),'clay pit offset');
+assert.ok(h.render('buildings/bakery/').includes('Standard hours'));
+assert.ok(h.render('buildings/quarry/').includes('starts a tenth of a day later <')||h.render('buildings/quarry/').includes('starts a tenth of a day later</'),'quarry starts late, finishes on time');
+assert.ok(h.render('buildings/').includes('Work schedules'),'schedule table on catalog');
+assert.ok(h.render('verification/buildings/clay-pit/').includes('Status: confirmed'),'decoded schedule observation');
+console.log('PASS: work schedules relative to the standard shift.');
