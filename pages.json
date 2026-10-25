@@ -41,6 +41,14 @@
       "spoiler": false
     },
     {
+      "type": "needs",
+      "id": "",
+      "name": "Needs",
+      "category": "Directory",
+      "path": "needs/",
+      "spoiler": false
+    },
+    {
       "type": "chains",
       "id": "",
       "name": "Production chains",
@@ -65,6 +73,14 @@
       "spoiler": false
     },
     {
+      "type": "tournament",
+      "id": "",
+      "name": "Tournament Mode",
+      "category": "Directory",
+      "path": "tournament/",
+      "spoiler": false
+    },
+    {
       "type": "biomes",
       "id": "",
       "name": "Biomes",
@@ -86,6 +102,14 @@
       "name": "All-pages index",
       "category": "Directory",
       "path": "index/",
+      "spoiler": false
+    },
+    {
+      "type": "changelog",
+      "id": "",
+      "name": "Changelog",
+      "category": "Directory",
+      "path": "changelog/",
       "spoiler": false
     },
     {
@@ -2098,22 +2122,6 @@
     },
     {
       "type": "buildings",
-      "id": "92319",
-      "name": "_Field Orchard Base",
-      "category": "Building",
-      "path": "buildings/field-orchard-base/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "92319",
-      "name": "_Field Orchard Base — production",
-      "category": "Production chain",
-      "path": "production-chains/field-orchard-base/",
-      "spoiler": false
-    },
-    {
-      "type": "buildings",
       "id": "35464",
       "name": "zBeer Stand",
       "category": "Building",
@@ -4013,8 +4021,8 @@
       "id": "319706",
       "name": "HuntersSwampTrap",
       "category": "Intermediate",
-      "path": "resources/huntersswamptrap/",
-      "spoiler": false
+      "path": "spoilers/resources/huntersswamptrap/",
+      "spoiler": true
     },
     {
       "type": "resources",
@@ -4053,8 +4061,8 @@
       "id": "319711",
       "name": "HuntersSwampTrapFull",
       "category": "Intermediate",
-      "path": "resources/huntersswamptrapfull/",
-      "spoiler": false
+      "path": "spoilers/resources/huntersswamptrapfull/",
+      "spoiler": true
     },
     {
       "type": "resources",
@@ -7394,22 +7402,6 @@
     },
     {
       "type": "evidence",
-      "id": "buildings/92319",
-      "name": "_Field Orchard Base — research",
-      "category": "Research",
-      "path": "verification/buildings/field-orchard-base/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
-      "id": "chains/92319",
-      "name": "_Field Orchard Base — production — research",
-      "category": "Research",
-      "path": "verification/production-chains/field-orchard-base/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
       "id": "buildings/35464",
       "name": "zBeer Stand — research",
       "category": "Research",
@@ -9309,7 +9301,7 @@
       "id": "resources/319706",
       "name": "HuntersSwampTrap — research",
       "category": "Research",
-      "path": "verification/resources/huntersswamptrap/",
+      "path": "verification/spoilers/resources/huntersswamptrap/",
       "spoiler": false
     },
     {
@@ -9349,7 +9341,7 @@
       "id": "resources/319711",
       "name": "HuntersSwampTrapFull — research",
       "category": "Research",
-      "path": "verification/resources/huntersswamptrapfull/",
+      "path": "verification/spoilers/resources/huntersswamptrapfull/",
       "spoiler": false
     },
     {
@@ -10679,6 +10671,14 @@
       "category": "Research",
       "path": "verification/levels/unnamed-scenario-archive-19-3/",
       "spoiler": false
+    },
+    {
+      "type": "tournament",
+      "id": "seasons",
+      "name": "Tournament Mode — all seasons",
+      "category": "Spoilers",
+      "path": "spoilers/tournament/",
+      "spoiler": true
     }
   ],
   "paths": [
@@ -10687,12 +10687,15 @@
     "buildings/",
     "resources/",
     "food/",
+    "needs/",
     "production-chains/",
     "levels/",
     "challenges/",
+    "tournament/",
     "biomes/",
     "heroes/",
     "index/",
+    "changelog/",
     "verification/",
     "contribute/",
     "about/",
@@ -10954,8 +10957,6 @@
     "buildings/wood-statue/",
     "buildings/zen-garden/",
     "buildings/zen-garden-105734/",
-    "buildings/field-orchard-base/",
-    "production-chains/field-orchard-base/",
     "buildings/zbeer-stand/",
     "production-chains/zbeer-stand/",
     "resources/bakerypeel/",
@@ -11201,11 +11202,13 @@
     "resources/cheesemakerbucket/",
     "resources/cooking-pot/",
     "resources/pick/",
+    "spoilers/resources/huntersswamptrap/",
     "resources/huntersswamptrap/",
     "resources/glassmakerbucket/",
     "resources/papermold/",
     "resources/claystep0bucket/",
     "resources/basket/",
+    "spoilers/resources/huntersswamptrapfull/",
     "resources/huntersswamptrapfull/",
     "resources/foundrytray-319712/",
     "resources/axe-rock/",
@@ -11630,8 +11633,6 @@
     "verification/buildings/wood-statue/",
     "verification/buildings/zen-garden/",
     "verification/buildings/zen-garden-105734/",
-    "verification/buildings/field-orchard-base/",
-    "verification/production-chains/field-orchard-base/",
     "verification/buildings/zbeer-stand/",
     "verification/production-chains/zbeer-stand/",
     "verification/resources/bakerypeel/",
@@ -11869,12 +11870,12 @@
     "verification/resources/cheesemakerbucket/",
     "verification/resources/cooking-pot/",
     "verification/resources/pick/",
-    "verification/resources/huntersswamptrap/",
+    "verification/spoilers/resources/huntersswamptrap/",
     "verification/resources/glassmakerbucket/",
     "verification/resources/papermold/",
     "verification/resources/claystep0bucket/",
     "verification/resources/basket/",
-    "verification/resources/huntersswamptrapfull/",
+    "verification/spoilers/resources/huntersswamptrapfull/",
     "verification/resources/foundrytray-319712/",
     "verification/resources/axe-rock/",
     "verification/resources/huntertrap/",
@@ -12041,6 +12042,7 @@
     "verification/levels/unnamed-scenario-archive-20-3/",
     "verification/levels/unnamed-scenario-archive-22-3/",
     "verification/levels/unnamed-scenario-archive-19-3/",
+    "spoilers/tournament/",
     "buildings/field-appletree/",
     "production-chains/field-appletree/",
     "buildings/field-ashtree/",
@@ -12277,7 +12279,6 @@
     "building/wood-statue/",
     "building/zen-garden/",
     "building/zen-garden-105734/",
-    "building/field-orchard-base/",
     "building/zbeer-stand/",
     "resources/fondue/",
     "resources/fondue-279217/",
