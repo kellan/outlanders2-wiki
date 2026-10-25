@@ -24,4 +24,4 @@ A building record may carry an optional `gameplay` object for facts established 
 
 ## Generated output
 
-Do not edit `dist/data/`, `dist/app.js`, `dist/style.css`, or generated HTML directly. Edit `content/` or `src/`, then run `npm run build`. Submit the source and regenerated output together while the repository uses checked-in static pages.
+`dist/` is generated and not committed. Edit `content/`, `src/` or `assets/`, then run `npm run build` to preview locally. The deploy workflow rebuilds and publishes the site from `main`.

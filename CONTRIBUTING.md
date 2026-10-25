@@ -13,7 +13,7 @@ The [GitHub repository](https://github.com/kellan/outlanders2-wiki) is public. E
 1. Create a branch for one correction or closely related set of changes.
 2. Find the entry with `npm run content:find -- pumpkin`, or browse the content folders. Every article page also ends with a "Suggest an edit" link that opens its JSON record in the GitHub editor, and a "Report a problem" link that starts a correction issue for that page.
 3. Edit the JSON record, preserving its stable ID and source references. Add evidence for factual changes.
-4. Run `npm run build`, then `npm test`.
+4. Run `npm run build`, then `npm test` (optional for small browser edits; the pull request checks run both).
 5. Run `npm run dev` and review the changed page and its links at the local address printed by the server.
 6. Open a pull request describing what changed, why, the evidence, and the checks you ran.
 
@@ -29,7 +29,8 @@ Node.js 18 or later is required. There are no third-party runtime packages to in
 - `content/collections.json`: ordered lists of record files. Add a new record here without changing existing IDs or casually reordering entries.
 - `content/reference/`: shared catalogs, recipes, source exports, and extraction metadata. Most corrections should not require editing these files.
 - `src/`: page rendering, stylesheet, and document shell.
-- `dist/`: generated site and assembled datasets. Do not edit these directly; include the regenerated changes with your pull request.
+- `assets/`: game icons and gameplay evidence screenshots, copied into the site by the build.
+- `dist/`: the generated site. It is not committed; `npm run build` creates it locally and the deploy workflow publishes it after a merge.
 
 Files use stable IDs rather than titles, so renaming Pumpkin does not break its links to scenarios. Use readable names in the `name` field; preserve internal identifiers for matching records.
 
@@ -57,7 +58,7 @@ Use only necessary evidence images, with the game version and source noted. Crop
 
 ## Before requesting review
 
-Keep the change focused. Check names, numbers, links, evidence, and spoiler classification. List unresolved questions honestly. The maintainer reviews and merges changes; merging source changes does not currently publish the website.
+Keep the change focused. Check names, numbers, links, evidence, and spoiler classification. List unresolved questions honestly. The maintainer reviews and merges changes. A merge to `main` builds, tests and publishes the website automatically; the pull request checks run the same build and tests, so browser-only edits get feedback without a local Node install.
 
 ## Licensing and attribution
 

@@ -1,3 +1,7 @@
+## 25 October publishing from CI
+
+`dist/` is no longer committed (issue 5). Game icons and evidence screenshots moved to `assets/`, which the build copies into `dist/`. The deploy workflow builds, tests and publishes to gh-pages on every push to main; the test workflow covers pull requests and other branches. Contributors submit only source changes.
+
 ## 25 October work schedules
 
 The community observation that clay workers are late risers is in the data: `WorkplaceConfig.WorkTimeRange` stores a start and end fraction of the day per workplace. 53 workplaces use the standard 0.9 → 0.5 shift; the Clay Pit uses 0 → 0.6, a tenth of a day later at both ends with the same length. Foresters' Hub, Orchard and Quarry start equally late but finish on time (a shorter day); Cheesery, Chicken Coop, Fondue Bar and Roadworks Office run a twentieth of a day late; Beehive, Bonfire and Fitness Park have their own ranges. Recorded as the confirmed observation `clay-pit-work-schedule`; the sleep claim stays open. Building infoboxes now show Work hours relative to the standard shift, and the Buildings catalog has a Work schedules table. The clock origin of fraction 0 is still unknown.

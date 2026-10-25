@@ -7,3 +7,6 @@ preview/
 
 # Local sync duplicate artifacts
 * [0-9].*
+
+# Generated site: built by npm run build and published by CI
+dist/

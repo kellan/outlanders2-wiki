@@ -1,9 +1,9 @@
 name: Build and test
 
 on:
-  push:
-    branches: [main]
   pull_request:
+  push:
+    branches-ignore: [main, gh-pages]
 
 jobs:
   test:
@@ -13,9 +13,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Build the site from content and source
+      - name: Build the site from content, source and assets
         run: npm run build
       - name: Validate content, links, spoiler isolation and reader pages
         run: npm test
-      - name: Confirm the committed dist matches the build
-        run: git diff --stat --exit-code -- dist

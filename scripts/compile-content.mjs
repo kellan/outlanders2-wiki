@@ -37,5 +37,5 @@ export function assembleContent(base=project){
  result.world.contribution_guide=fs.readFileSync(path.join(base,'CONTRIBUTING.md'),'utf8');
  return {datasets:result,count};
 }
-export function compileContent(){const {datasets,count}=assembleContent();for(const [name,data]of Object.entries(datasets))fs.writeFileSync(path.join(project,'dist/data',name+'.json'),JSON.stringify(data,null,2)+'\n');for(const file of ['app.js','style.css'])fs.copyFileSync(path.join(project,'src',file),path.join(project,'dist',file));console.log(`Validated and assembled ${count} content records.`);}
+export function compileContent(){const {datasets,count}=assembleContent();fs.mkdirSync(path.join(project,'dist/data'),{recursive:true});for(const [name,data]of Object.entries(datasets))fs.writeFileSync(path.join(project,'dist/data',name+'.json'),JSON.stringify(data,null,2)+'\n');for(const file of ['app.js','style.css'])fs.copyFileSync(path.join(project,'src',file),path.join(project,'dist',file));console.log(`Validated and assembled ${count} content records.`);}
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){if(process.argv.includes('--check')){const {count}=assembleContent();console.log(`PASS: ${count} records, stable IDs, objective counts, need types, formulas and observation references.`);}else compileContent();}
