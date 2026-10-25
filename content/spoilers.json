@@ -182,6 +182,27 @@
       "status": "related-release-unconfirmed",
       "as_of": "2026-10-25",
       "reason": "Associated with Oona’s reported-unreleased story: used only by its associated building processes in the recovered formula links."
+    },
+    {
+      "type": "tournament",
+      "id": "Egyptian",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Only a style name is stored for this Tournament season (3 text entries). The Nordic and Mesoamerican seasons carry full reward sets (21 entries each). Absence of a reward set does not establish that the season is unreleased; it is withheld until a season is seen in game or in release notes."
+    },
+    {
+      "type": "tournament",
+      "id": "Chinese",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Only a style name is stored for this Tournament season (3 text entries). The Nordic and Mesoamerican seasons carry full reward sets (21 entries each). Absence of a reward set does not establish that the season is unreleased; it is withheld until a season is seen in game or in release notes."
+    },
+    {
+      "type": "tournament",
+      "id": "Amish",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-10-25",
+      "reason": "Only a style name is stored for this Tournament season (3 text entries). The Nordic and Mesoamerican seasons carry full reward sets (21 entries each). Absence of a reward set does not establish that the season is unreleased; it is withheld until a season is seen in game or in release notes."
     }
   ]
 }

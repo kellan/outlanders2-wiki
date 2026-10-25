@@ -96,3 +96,11 @@ console.log('PASS: biome per level, starting conditions, needs page, age limits,
 const ch=h.render('challenges/');assert.ok(ch.includes('Tournament Mode supply-chain rules'));assert.ok(!ch.includes('FastMode supply chains'));
 assert.ok(!h.render('about/').includes('FastMode supply-chain rules describe'),'about page leaks internal name');
 console.log('PASS: FastMode shown as Tournament Mode.');
+// Tournament Mode page from game text; unconfirmed seasons only in spoilers.
+const tour=h.render('tournament/');assert.ok(tour.includes('Speed Bonus')&&tour.includes('Baby Boom'),'tiles');assert.ok(tour.includes('Nordic')&&tour.includes('Mesoamerican'),'seasons with reward sets');
+assert.ok(!/Egyptian|Imperial|Rural/.test(tour),'public tournament page leaked withheld seasons');assert.ok(tour.includes('Spoilers'),'pointer to spoilers');
+for(const route of ['', 'index/','challenges/','needs/'])assert.ok(!/Egyptian|>Imperial<|>Rural</.test(h.render(route)),route+' leaked tournament season');
+assert.ok(h.render('spoilers/').includes('Tournament seasons')&&h.render('spoilers/').includes('Egyptian'));
+assert.ok(h.render('spoilers/tournament/').includes('Imperial'));assert.ok(h.lookup['spoilers/tournament/'].spoiler===true);
+assert.ok(tour.includes('not checked'),'availability notice');
+console.log('PASS: Tournament Mode page and season spoiler handling.');
