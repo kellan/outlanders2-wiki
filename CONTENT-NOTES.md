@@ -1,3 +1,7 @@
+## 25 October naming: FastMode is Tournament Mode
+
+`FastMode` is the game files' internal name for Tournament Mode (`FastMode.Name` = “Tournament”, `FastMode.Menu.Name` = “Tournament Mode”; the FAST_ tutorial levels are the Tournament Tutorial). Player-facing pages now say Tournament Mode and mention the internal prefix once; dataset keys such as `fastmode_supply_chain_validation` keep their names.
+
 ## 25 October stored-configuration additions
 
 Six previously unused decoded fields now render, each labelled as stored configuration: the level scene name gives a biome for 98 of 133 levels (level fact grid, level catalog column, and a Levels section on biome pages; Christmas and precipice scenes map to Winterlands with a note); starting conditions on level pages summarise villagers, pre-built buildings, stockpile, tools and crates from the starting objects; a Needs page lists what satisfies each need from resource units, with level counts and biome hazard text; Wine, Mead, Beer and Wheatshine show their stored adults-only limit; gathering buildings show the map source category they harvest from (rock sources, wood trees, fruit trees and bushes, reed plants, planted fields, cows); placement rules show terrain, slope tolerance and zone connection on building infoboxes; biome pages show sandbox spawn densities. Terrain codes 1 and 2 and the 35 levels without a stored scene are new rows in the information-needed list.
