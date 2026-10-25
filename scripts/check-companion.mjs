@@ -32,7 +32,7 @@ assert.ok(middle.includes('2 of 3'));
 assert.ok(!/<details open><summary>Show \d+ starting object/.test(middle),'starting objects collapsed');
 // Plants: growth from stored stages, grouped scenarios, archive maps collapsed.
 const pumpkin=h.render('buildings/pumpkin/');
-assert.ok(pumpkin.includes('Growth'),'growth row');
+assert.ok(pumpkin.includes('Grows in'),'growth row');const apple=h.render('buildings/apple-tree/');assert.ok(apple.includes('Harvested by')&&apple.includes('Foragers&#39; Hut'),'harvested by');assert.ok(apple.includes('/buildings/orchard/'),'planted by');assert.ok(apple.includes('10 days (4 stages)'),'growth wording');assert.ok(!apple.includes('stored stage days'));assert.ok(h.render('verification/buildings/apple-tree/').includes('Growth stages'));
 assert.ok(/<details><summary>[^<]*archive map/.test(pumpkin),'archive maps collapsed');
 // Chain pages lead with the recipe; decoded steps are collapsed.
 const chain=h.render('production-chains/bakery/');
