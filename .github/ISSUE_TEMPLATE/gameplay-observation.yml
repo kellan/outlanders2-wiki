@@ -1,0 +1,87 @@
+name: Gameplay observation
+description: Report something you measured or saw in play, for the research notes of a page.
+title: "Observation: "
+labels: [content, observation]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: What it is about
+      description: The building, resource, level, leader, biome or Tournament season.
+    validations:
+      required: true
+  - type: dropdown
+    id: target_type
+    attributes:
+      label: Kind
+      options:
+        - Building
+        - Plant or crop
+        - Resource or food
+        - Level
+        - Leader
+        - Biome
+        - Tournament Mode
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: What you observed
+      description: One claim per report, with numbers and units as the game shows them.
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence_kind
+    attributes:
+      label: How you know
+      options:
+        - Timed gameplay test
+        - Field guide or in-game screen
+        - Something I saw in play, not timed
+        - Official source
+    validations:
+      required: true
+  - type: textarea
+    id: conditions
+    attributes:
+      label: Conditions
+      description: Level, biome, leader, staffing, elapsed game time, anything that could change the result.
+    validations:
+      required: true
+  - type: input
+    id: game_version
+    attributes:
+      label: Game version
+      value: "30 (254)"
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date observed
+      placeholder: "2026-10-25"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or references
+      description: Optional. Crop out account details.
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: Confidence
+      options:
+        - Confirmed (I measured it)
+        - Likely (I saw it, did not measure)
+        - Uncertain
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Licensing
+      options:
+        - label: I wrote this myself and license it under the project's MIT license.
+          required: true

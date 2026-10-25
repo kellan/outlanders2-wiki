@@ -1,3 +1,7 @@
+## 25 October issue forms
+
+Issue 8: the Markdown correction template is replaced by a structured form (page, kind, what it says now, what it should say, how you know, version, evidence, spoiler flag), and a gameplay-observation form mirrors the observation record fields. Article pages prefill the correction form with the page name; research pages link the observation form with the entry filled in. Spoiler pages keep neutral titles and no prefill. A template config points answers for the information-needed list at issue 10.
+
 ## 25 October spoilers demoted in navigation
 
 Maintainer decision: the Spoilers entry no longer sits second in the navigation in bold with a border; it is the last entry, in muted colour, after Sources & artwork. The home page keeps its spoilers teaser at the bottom. On phones the navigation collapses behind a Menu toggle and the infobox becomes a compact two-column grid so article text starts on the first screen.

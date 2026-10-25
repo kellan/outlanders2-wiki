@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Answers to the information-needed list
+    url: https://github.com/kellan/outlanders2-wiki/issues/10
+    about: Facts that answer a row in docs/INFORMATION-NEEDED.md go in this thread.

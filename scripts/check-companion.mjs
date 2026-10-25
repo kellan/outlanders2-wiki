@@ -8,7 +8,7 @@ assert.ok(bakery.includes('Recipe'),'infobox recipe');
 assert.ok(bakery.includes('/food/bread/'),'infobox links output');
 assert.ok(bakery.includes('class="verify-badge"'),'verification badge');
 assert.ok(bakery.includes('github.com/kellan/outlanders2-wiki/edit/main/content/buildings/57395.json'),'suggest an edit link');
-assert.ok(bakery.includes('issues/new?'),'report link');
+assert.ok(bakery.includes('template=content-correction.yml')&&bakery.includes('page=Bakery'),'report link prefilled');assert.ok(h.render('verification/buildings/bakery/').includes('template=gameplay-observation.yml'),'observation link on research page');
 assert.ok(bakery.includes('class="navbox"'),'navbox');
 assert.ok(bakery.includes('Campaign 1'),'availability grouped by campaign');
 assert.ok(!/Pending verification|Gameplay verification/.test(bakery));
@@ -41,7 +41,7 @@ assert.ok(/<details>\s*<summary>Show the \d+ steps/.test(chain),'steps collapsed
 // Buildings catalog has type and produces columns.
 const dir=h.render('buildings/');assert.ok(dir.includes('<th scope="col">Type</th>'));assert.ok(dir.includes('<th scope="col">Produces</th>'));
 // Spoiler pages keep neutral report titles.
-const oona=h.render('heroes/oona/');assert.ok(!/issues\/new\?[^"]*Oona/.test(oona),'spoiler name in issue title');
+const oona=h.render('heroes/oona/');assert.ok(!/issues\/new\?[^"]*Oona/.test(oona),'spoiler name in issue title');assert.ok(!/issues\/new\?[^"]*Oona/.test(h.render('verification/heroes/Oona.000/')||''),'spoiler name in observation link');
 console.log('PASS: infoboxes, verification badge, objective and recipe backlinks, grouped availability, story context, navboxes, collapsed research detail, catalog columns and contribution links.');
 // Derived balances are ratios, not batches or capacities.
 const bakeryBox=bakery.slice(bakery.indexOf('class="infobox"'),bakery.indexOf('</aside>'));
