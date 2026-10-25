@@ -1,3 +1,7 @@
+## 25 October spoilers demoted in navigation
+
+Maintainer decision: the Spoilers entry no longer sits second in the navigation in bold with a border; it is the last entry, in muted colour, after Sources & artwork. The home page keeps its spoilers teaser at the bottom. On phones the navigation collapses behind a Menu toggle and the infobox becomes a compact two-column grid so article text starts on the first screen.
+
 ## 25 October custom domain restored
 
 The first deploy-workflow publish dropped the `CNAME` file for outlanders2wiki.com from gh-pages, which made Pages forget the custom domain. `assets/CNAME` now rides every build and the deploy step sets `cname`, and the file was restored on gh-pages directly to bring the site back.

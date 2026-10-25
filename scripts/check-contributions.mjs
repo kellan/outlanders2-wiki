@@ -38,5 +38,5 @@ assert.ok(!clean.render('').includes('Verification status'));
 assert.ok(clean.render('resources/mushroom/').includes('Spoilers: unreleased'));
 assert.ok(clean.render('production-chains/advanced-warehouse/').includes('Formula steps'));
 assert.ok(!/<details(?![^>]*\bopen\b)/.test(clean.render('verification/')));
-assert.ok(clean.elements['#nav'].innerHTML.indexOf('Spoilers')<clean.elements['#nav'].innerHTML.indexOf('Buildings'));
-console.log('PASS: mushroom chain isolation, prominent spoiler navigation, expanded evidence and clean home page.');
+{const navHtml=clean.elements['#nav'].innerHTML;assert.ok(navHtml.lastIndexOf('Spoilers')>navHtml.indexOf('Sources &amp; artwork'),'Spoilers is the last navigation entry')}
+console.log('PASS: mushroom chain isolation, demoted spoiler navigation, expanded evidence and clean home page.');
