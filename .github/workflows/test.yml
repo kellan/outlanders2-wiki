@@ -1,0 +1,21 @@
+name: Build and test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build the site from content and source
+        run: npm run build
+      - name: Validate content, links, spoiler isolation and reader pages
+        run: npm test
+      - name: Confirm the committed dist matches the build
+        run: git diff --stat --exit-code -- dist
