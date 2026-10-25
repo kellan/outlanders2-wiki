@@ -1,0 +1,253 @@
+{
+  "manifest": {
+    "game": "Outlanders 2",
+    "installed_version": "30",
+    "installed_build": "254",
+    "checked_on": "2026-10-23",
+    "purpose": "Separate packaged content from public release evidence",
+    "limitations": [
+      "Installed content can predate release or remain unused.",
+      "The public App Store page returned version27 as latest whereas installed app reports30; platform, rollout, or source mismatch remains unresolved.",
+      "Absence from searched release notes is not proof of nonrelease.",
+      "MinGameVersion field existence was confirmed in metadata; actual gate values and runtime behavior were not recovered. A bounded object probe terminated with exit137 before producing results."
+    ]
+  },
+  "entries": [
+    {
+      "id": "Oona.000",
+      "name": "Oona",
+      "availability_status": "user_reported_unreleased",
+      "as_of": "2026-10-23",
+      "release_date": null,
+      "release_date_status": "no_public_date_found",
+      "packaged_presence": true,
+      "associated_story": "Oona",
+      "associated_level_ids": [
+        "Campaign3_Level2A",
+        "Campaign3_Level2B",
+        "Campaign3_Level2C"
+      ],
+      "packaged_update_association": 28,
+      "association_evidence_key": "Store.VersionWhatsNew.28",
+      "association_note": "A localized update description associates Oona and Wetlands with update28; this does not establish an actual release date or availability.",
+      "gate_value": null,
+      "gate_status": "not_decoded",
+      "evidence": [
+        {
+          "source_text_asset_id": 6249,
+          "source_table": "Leaders",
+          "key": "Names.Leader.Oona.000",
+          "text": "Oona"
+        },
+        {
+          "source_text_asset_id": 6249,
+          "source_table": "Leaders",
+          "key": "Bios.Leader.Oona.000",
+          "text": "Wherever she goes, her grimoire goes."
+        },
+        {
+          "source_text_asset_id": 6291,
+          "source_table": "Game",
+          "key": "Sandbox.Biome.Swamp",
+          "text": "Wetlands"
+        },
+        {
+          "source_text_asset_id": 6484,
+          "source_table": "LevelsStandalone",
+          "key": "Story.Oona.Title",
+          "text": "Oona's Potion"
+        },
+        {
+          "source_text_asset_id": 6484,
+          "source_table": "LevelsStandalone",
+          "key": "Level.Campaign3_Level2A.Name",
+          "text": "Clause"
+        },
+        {
+          "source_text_asset_id": 6484,
+          "source_table": "LevelsStandalone",
+          "key": "Level.Campaign3_Level2A.Description",
+          "text": "After a years-long search for a potion to increase her productivity, Oona found an ancient recipe that promised to grant her what she desperately sought."
+        },
+        {
+          "source_text_asset_id": 6484,
+          "source_table": "LevelsStandalone",
+          "key": "Level.Campaign3_Level2A.Ending",
+          "text": "If only she had read the fine print..."
+        },
+        {
+          "source_text_asset_id": 6484,
+          "source_table": "LevelsStandalone",
+          "key": "Level.Campaign3_Level2B.Name",
+          "text": "Copies"
+        },
+        {
+          "source_text_asset_id": 6484,
+          "source_table": "LevelsStandalone",
+          "key": "Level.Campaign3_Level2B.Description",
+          "text": "Rumour has it that Oona has been up to no good, making a ruckus. She, however, insists she hasn’t been here for weeks."
+        },
+        {
+          "source_text_asset_id": 6484,
+          "source_table": "LevelsStandalone",
+          "key": "Level.Campaign3_Level2B.Ending",
+          "text": "It’s as if there have been other versions of herself walking around."
+        },
+        {
+          "source_text_asset_id": 6484,
+          "source_table": "LevelsStandalone",
+          "key": "Level.Campaign3_Level2C.Name",
+          "text": "Chaos"
+        },
+        {
+          "source_text_asset_id": 6484,
+          "source_table": "LevelsStandalone",
+          "key": "Level.Campaign3_Level2C.Description",
+          "text": "The whole clone situation is way over her head, and Oona is left wondering if she'll ever keep them in line."
+        },
+        {
+          "source_text_asset_id": 6484,
+          "source_table": "LevelsStandalone",
+          "key": "Level.Campaign3_Level2C.Ending",
+          "text": "With no end in sight, she gives up on trying to control them, relaxes, and embraces the madness."
+        },
+        {
+          "source_text_asset_id": 6489,
+          "source_table": "Store",
+          "key": "Store.VersionWhatsNew.28",
+          "text": "Follow the aftermath of Oona's disastrous potion in the new Wetlands biome, and discover the new buildings, trees, and cuisine it has to offer!"
+        }
+      ],
+      "public_evidence": [
+        {
+          "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164",
+          "source_type": "official_app_store_release_history",
+          "observed_latest_version": 27,
+          "observed_latest_date_display": "Oct 7",
+          "finding": "History fetched contains no update28 entry and no Oona mention."
+        },
+        {
+          "source_type": "user_report",
+          "date": "2026-10-23",
+          "finding": "User states Oona is not released."
+        }
+      ]
+    },
+    {
+      "id": "Wetlands",
+      "name": "Wetlands",
+      "availability_status": "public_release_unconfirmed",
+      "release_date": null,
+      "evidence_keys": [
+        "Sandbox.Biome.Swamp",
+        "Store.VersionWhatsNew.28"
+      ],
+      "note": "Packaged update28 text links Wetlands to Oona. Do not infer release merely from localized biome presence."
+    }
+  ],
+  "public_release_history": [
+    {
+      "id": "Fjordi",
+      "version": 21,
+      "release_date": "2026-02-18",
+      "source_date_display": "Feb 18",
+      "date_note": "Year inferred from chronological position after Dec 3 2025 and before Jun17 2026",
+      "availability_status": "official_release_notes_evidence",
+      "source_url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+    },
+    {
+      "id": "Pablo3",
+      "version": 20,
+      "release_date": "2025-12-03",
+      "source_date_display": "12/03/2025",
+      "date_note": null,
+      "availability_status": "official_release_notes_evidence",
+      "source_url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+    },
+    {
+      "id": "Maira",
+      "version": 18,
+      "release_date": "2025-09-10",
+      "source_date_display": "09/10/2025",
+      "date_note": null,
+      "availability_status": "official_release_notes_evidence",
+      "source_url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+    },
+    {
+      "id": "Izzy",
+      "version": 16,
+      "release_date": "2025-06-26",
+      "source_date_display": "06/26/2025",
+      "date_note": null,
+      "availability_status": "official_release_notes_evidence",
+      "source_url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+    },
+    {
+      "id": "Chico",
+      "version": 14,
+      "release_date": "2025-04-02",
+      "source_date_display": "04/02/2025",
+      "date_note": null,
+      "availability_status": "official_release_notes_evidence",
+      "source_url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+    },
+    {
+      "id": "Kaia",
+      "version": 13,
+      "release_date": "2025-01-29",
+      "source_date_display": "01/29/2025",
+      "date_note": null,
+      "availability_status": "official_release_notes_evidence",
+      "source_url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+    },
+    {
+      "id": "Cory",
+      "version": 12,
+      "release_date": "2024-11-13",
+      "source_date_display": "11/13/2024",
+      "date_note": null,
+      "availability_status": "official_release_notes_evidence",
+      "source_url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+    },
+    {
+      "id": "Jelena",
+      "version": 8,
+      "release_date": "2024-09-18",
+      "source_date_display": "09/18/2024",
+      "date_note": "Developer announcement supplies Jelena name; App Store note describes new campaign without leader name",
+      "availability_status": "official_release_notes_evidence",
+      "source_url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+    }
+  ],
+  "metadata_gating": [
+    {
+      "type": "SerializedKeyBehaviour",
+      "fields": [
+        "SerializedKey",
+        "MinGameVersion"
+      ],
+      "source": "work/metadata-types.json",
+      "finding": "Field declared; no gate values decoded."
+    },
+    {
+      "type": "SerializedKeyScriptableObject",
+      "fields": [
+        "SerializedKey",
+        "MinGameVersion"
+      ],
+      "source": "work/metadata-types.json",
+      "finding": "Field declared; no gate values decoded."
+    }
+  ],
+  "official_sources": [
+    {
+      "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164",
+      "title": "Outlanders 2 App Store version history"
+    },
+    {
+      "url": "https://www.pomelogames.com/outlanders-2-update/",
+      "title": "Pomelo Games: Jelena’s Climb is out now",
+      "finding": "Confirms Jelena identity for the new campaign announcement; no explicit date captured."
+    }
+  ]
+}
