@@ -69,4 +69,5 @@ How to read the "Source" column:
 | Need | Why it matters | Source | Status |
 |---|---|---|---|
 | Runtime colour composition for leader portraits | Portraits are static variants | mine | Not reproduced |
-| Second game build for version history | History sections need a diff | mine (next release) | Waiting on a new build |
+| Second game build for version history | History sections need a diff; `scripts/compare-content.mjs` is ready | mine (next release) | Waiting on a new build |
+| Release update for each level, building and resource that predates the baseline | Backdated History for everything, not just the eight dated stories | official (App Store version history lists update contents by date), mine (`MinGameVersion` gate values on SerializedKeyBehaviour were declared but not decoded) | Stories and their levels dated from update 8 to 21; everything else undated |

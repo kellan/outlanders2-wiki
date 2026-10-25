@@ -73,3 +73,8 @@ assert.ok(endOfWorld.includes('template=level-strategy.yml'),'strategy form link
 const noStrategy=h.render('levels/middle-ground/');assert.ok(noStrategy.includes('Share a strategy for this level'));assert.ok(noStrategy.includes('level=Middle%20Ground'),'level prefilled');
 assert.ok(!/level=[^"&]*Oona|level=Clause/.test(h.render('spoilers/levels/clause/')||''),'spoiler level not prefilled');
 console.log('PASS: level strategy section and contribution form.');
+// History entries render on entity pages and the changelog, backdated only with evidence.
+const jelena=h.render('heroes/jelena/');assert.ok(jelena.includes('<h2>History</h2>'),'history section');assert.ok(jelena.includes('Update 8'));
+const log=h.render('changelog/');assert.ok(log.includes('Update 21'));assert.ok(log.includes('/heroes/fjordi/'));assert.ok(!log.includes('Oona'),'changelog leaked spoiler');
+assert.ok(h.render('levels/valley-draft/').includes('Added with the Jelena'));
+console.log('PASS: history sections and changelog.');

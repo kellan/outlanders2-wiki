@@ -18,6 +18,10 @@ Keep `source`, `source_entries`, GUIDs, hashes and asset identifiers traceable. 
 
 Observations have their own records and render in research pages. Spoiler placement is controlled explicitly by `spoilers.json`, not inferred from every unknown release status. Preserve existing URLs when renaming entries; the renderer retains compatibility routes in the world reference data.
 
+## History
+
+`content/history.json` holds dated changes per entity: `type` (buildings, resources, levels, heroes, biomes), `id`, `game_version`, `date`, `change` and `evidence` (`kind`, `reference`, optional `url`). Entries render as a History section on the entity page and on the Changelog page, grouped by update. Backdate an entry only when an official source or a decoded marker ties the content to that update. After a re-extraction on a new build, `node scripts/compare-content.mjs <old content> <new content> --version N --date YYYY-MM-DD` prints candidate entries for review.
+
 ## Strategies
 
 `content/strategies/<level id>.json` holds one community strategy per level: `summary`, `build_order` (list of `gameobject_id` plus `note`), optional `pitfalls`, `status` (`draft` or `reviewed`), `game_version`, `date`, `contributor` and optional `source`. The compile step checks the level and every building exist. Strategies come in through the level-strategy issue form.

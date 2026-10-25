@@ -1,3 +1,7 @@
+## 25 October version history
+
+Issue 6: `content/history.json` records dated, evidenced changes per entity; entity pages show a History section and a Changelog page groups entries by update. Backdated from the App Store version history already in `availability.json`: the leaders Jelena (update 8), Cory (12), Kaia (13), Chico (14), Izzy (16), Maira (18) and Fjordi (21) and the levels of their stories, plus Pablo's Lost (update 20). Levels and buildings have no other decoded release marker: `MinGameVersion` gate fields are declared but their values were not decoded, and the Single00 to Single08 identifier batches and the August/October localization tables suggest content batches but do not name updates. `scripts/compare-content.mjs` diffs two content trees for the next build.
+
 ## 25 October level strategies
 
 Issue 3: level pages gained a Strategy section fed by `content/strategies/<level id>.json` and a level-strategy issue form that every level page links to with its name filled in. Records are validated against levels and buildings and rendered as community advice with status, contributor, version and date. One draft exists for The End of the World, written from the stored objectives and labelled as such.
