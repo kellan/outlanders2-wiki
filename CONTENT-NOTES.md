@@ -1,3 +1,7 @@
+## 25 October Tournament Mode is live; Rural is the current season
+
+Maintainer report: Tournament Mode is live and the Rural season (internal key Amish) is running. Recorded as the confirmed observation `tournament-rural-season-live` (observation targets may now be of type `tournament`). Rural leaves `spoilers.json`; Egyptian and Imperial stay withheld with an updated reason: completed seasons keep reward sets in the files, the live one is name-only, so a name-only style that is not live is most likely a future season. The Tournament page shows the live tag, the current season first, and the observation.
+
 ## 25 October Tournament Mode page
 
 A Tournament Mode page (navigation and home) is built from the FastMode, FastSeasons and FastModeTutorial text tables: what the mode is, how a level plays (three tiles a day, the bag, skipping for tokens), the tile effects, reward points, streaks, streak shields and leaderboards, and the season styles with their reward sets. Nordic and Mesoamerican carry 21 entries each including palettes, restyled buildings and villager styles. Egyptian, Imperial and Rural are stored as names only; they are withheld as related-release-unconfirmed in `spoilers.json` (new spoiler type `tournament`, validated against the season style keys) and appear on the Spoilers page and the spoilers/tournament/ view. Whether the mode or any season is live on this installation has not been checked; the page says so and the information-needed list has the row.

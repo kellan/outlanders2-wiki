@@ -33,3 +33,16 @@ Copy this template for each fact:
 - Evidence: none
 - Confidence: likely
 - Notes: Recorded as the Bakery gameplay block, player-report, on 25 October 2026. Shown here as a filled-in example.
+
+## Tournament Mode live, Rural season running
+- Status: recorded
+- Row: Tournament Mode: is it live on this installation, which season is running
+- Fact: Tournament Mode is live; the Rural season is the one running.
+- Target: Tournament Mode
+- Obtained by: in-game observation (maintainer, in chat)
+- Conditions: not applicable
+- Game version: 30 (254)
+- Date: 2026-10-25
+- Evidence: none
+- Confidence: confirmed
+- Notes: Recorded as observation tournament-rural-season-live; Rural removed from spoilers; row replaced by a season-history row.

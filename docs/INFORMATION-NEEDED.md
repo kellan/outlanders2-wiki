@@ -73,7 +73,7 @@ How to read the "Source" column:
 | Menu names and placement for the 19 unnamed archive maps and the standalone-or-challenge category | Pages titled "Unnamed scenario · archive N" | screen | Unknown |
 | Unlock prerequisites and what each level unlocks | Level walkthroughs cannot state progression | mine (campaign config), screen | Unknown |
 | Challenge type rules for Chill, Ranked and Remix, scoring, and schedule | Challenges page lists names only | screen, official | Partial (Original, Redux, Bounty described) |
-| Tournament Mode: is it live on this installation, which season is running, and which of the stored styles (Nordic, Mesoamerican, and the name-only Egyptian, Imperial, Rural) have been offered | The Tournament page is built from game text and flags availability as unchecked; three styles sit in Spoilers until a season is seen | screen (main menu, Tournament menu, season banner), official | Unknown |
+| Tournament season history: dates of the Nordic and Mesoamerican seasons, the Rural season’s reward list and end date, and whether Egyptian and Imperial have ever run | Mode confirmed live with Rural running (maintainer, 25 Oct 2026); the page cannot date seasons or show the live reward set | screen (Tournament menu, reward list), official | Two styles withheld in Spoilers pending evidence |
 | Release and menu availability for levels, buildings and leaders | Most entries show "Unknown" | official, screen | 2 availability records; Oona and related content classified |
 | Day length and what "day limit" counts | Objective planning | test | Unverified |
 

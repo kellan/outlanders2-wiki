@@ -98,9 +98,9 @@ assert.ok(!h.render('about/').includes('FastMode supply-chain rules describe'),'
 console.log('PASS: FastMode shown as Tournament Mode.');
 // Tournament Mode page from game text; unconfirmed seasons only in spoilers.
 const tour=h.render('tournament/');assert.ok(tour.includes('Speed Bonus')&&tour.includes('Baby Boom'),'tiles');assert.ok(tour.includes('Nordic')&&tour.includes('Mesoamerican'),'seasons with reward sets');
-assert.ok(!/Egyptian|Imperial|Rural/.test(tour),'public tournament page leaked withheld seasons');assert.ok(tour.includes('Spoilers'),'pointer to spoilers');
-for(const route of ['', 'index/','challenges/','needs/'])assert.ok(!/Egyptian|>Imperial<|>Rural</.test(h.render(route)),route+' leaked tournament season');
+assert.ok(!/Egyptian|Imperial/.test(tour),'public tournament page leaked withheld seasons');assert.ok(tour.includes('Rural')&&tour.includes('Current season'),'live season shown');assert.ok(tour.includes('Spoilers'),'pointer to spoilers');
+for(const route of ['', 'index/','challenges/','needs/'])assert.ok(!/Egyptian|>Imperial</.test(h.render(route)),route+' leaked tournament season');
 assert.ok(h.render('spoilers/').includes('Tournament seasons')&&h.render('spoilers/').includes('Egyptian'));
 assert.ok(h.render('spoilers/tournament/').includes('Imperial'));assert.ok(h.lookup['spoilers/tournament/'].spoiler===true);
-assert.ok(tour.includes('not checked'),'availability notice');
+assert.ok(!tour.includes('not checked')&&tour.includes('Live ·'),'live tag');assert.ok(!h.render('spoilers/').includes('>Rural</a>'),'Rural left spoilers');
 console.log('PASS: Tournament Mode page and season spoiler handling.');

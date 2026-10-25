@@ -188,21 +188,14 @@
       "id": "Egyptian",
       "status": "related-release-unconfirmed",
       "as_of": "2026-10-25",
-      "reason": "Only a style name is stored for this Tournament season (3 text entries). The Nordic and Mesoamerican seasons carry full reward sets (21 entries each). Absence of a reward set does not establish that the season is unreleased; it is withheld until a season is seen in game or in release notes."
+      "reason": "Stored as a style name only. The maintainer reports Rural as the live season on 25 October 2026, and the two seasons with full reward sets in the files (Nordic, Mesoamerican) are completed ones, so a name-only style that is not the live season is most likely a future season. Withheld until it is seen in game or in release notes; this does not assert it is unreleased."
     },
     {
       "type": "tournament",
       "id": "Chinese",
       "status": "related-release-unconfirmed",
       "as_of": "2026-10-25",
-      "reason": "Only a style name is stored for this Tournament season (3 text entries). The Nordic and Mesoamerican seasons carry full reward sets (21 entries each). Absence of a reward set does not establish that the season is unreleased; it is withheld until a season is seen in game or in release notes."
-    },
-    {
-      "type": "tournament",
-      "id": "Amish",
-      "status": "related-release-unconfirmed",
-      "as_of": "2026-10-25",
-      "reason": "Only a style name is stored for this Tournament season (3 text entries). The Nordic and Mesoamerican seasons carry full reward sets (21 entries each). Absence of a reward set does not establish that the season is unreleased; it is withheld until a season is seen in game or in release notes."
+      "reason": "Stored as a style name only. The maintainer reports Rural as the live season on 25 October 2026, and the two seasons with full reward sets in the files (Nordic, Mesoamerican) are completed ones, so a name-only style that is not the live season is most likely a future season. Withheld until it is seen in game or in release notes; this does not assert it is unreleased."
     }
   ]
 }

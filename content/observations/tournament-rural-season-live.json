@@ -1,0 +1,16 @@
+{
+  "id": "tournament-rural-season-live",
+  "target": {
+    "type": "tournament",
+    "id": "Amish"
+  },
+  "claim": "Tournament Mode is live and the Rural season is the one currently running.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "30 (254)",
+    "date": "2026-10-25",
+    "reference": "Maintainer report, 25 October 2026, from the running game."
+  },
+  "notes": "Seasons rotate, so this is true as of the date given. The Rural style is stored under the internal key Amish with only its name; its reward set is not in the extracted text, unlike the completed Nordic and Mesoamerican seasons."
+}
