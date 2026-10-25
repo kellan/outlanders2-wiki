@@ -4,7 +4,7 @@ import {fileURLToPath} from 'node:url';
 const project=fileURLToPath(new URL('../',import.meta.url));
 const root=path.join(project,'dist'),preview=path.join(project,'preview');
 fs.mkdirSync(preview,{recursive:true});
-for(const name of ['style.css','data','wiki-artwork','gameplay-evidence']){
+for(const name of ['LICENSE.txt','THIRD_PARTY_NOTICES.txt','style.css','data','wiki-artwork','gameplay-evidence']){
  const target=path.join(preview,name);if(!fs.existsSync(target))fs.symlinkSync(path.relative(preview,path.join(root,name)),target);
 }
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'pages.json')));

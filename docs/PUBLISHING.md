@@ -1,6 +1,6 @@
 # Publishing the guide
 
-The repository remains private and the site is not deployed. Publishing the site and making the repository public are separate decisions. A Spoilers section is a browsing choice, not access control: anyone with the published datasets or repository can read the underlying entries.
+The repository remains private and the public site is deployed at https://kellanem.com/outlanders2-wiki/. Publishing the site and making the repository public are separate decisions. A Spoilers section is a browsing choice, not access control: anyone with the published datasets or repository can read the underlying entries.
 
 ## Publication decisions
 
@@ -10,7 +10,7 @@ Before changing repository visibility, review its complete history for personal 
 
 ## Recommended hosting
 
-GitHub Pages fits this site: it consists of prebuilt HTML, CSS, images and JSON, with no application server. The expected project URL is https://kellan.github.io/outlanders2-wiki/ once Pages is configured and deployed. This is a proposed URL, not an existing deployment.
+GitHub Pages fits this site: it consists of prebuilt HTML, CSS, images and JSON, with no application server. The project URL https://kellan.github.io/outlanders2-wiki/ redirects to https://kellanem.com/outlanders2-wiki/ through the existing account-level custom domain. The managed Pages deployment succeeded on 2026-10-25.
 
 The simplest initial path uses a `gh-pages` branch containing the contents of `dist/`. It does not require uploading a custom Actions workflow, which the current GitHub CLI authorization cannot do. GitHub still runs its managed Pages deployment internally.
 
@@ -45,7 +45,7 @@ After deployment completes, check the home page, a deep crop URL, a scenario, a 
 
 ## Automation later
 
-A custom Actions workflow could build and test changes automatically and publish only approved releases. Adding it requires an authorization method permitted to upload workflow files. No workflow or public deployment is enabled by this change.
+A custom Actions workflow could build and test changes automatically and publish only approved releases. Adding it requires an authorization method permitted to upload workflow files. The site currently uses GitHub’s managed branch deployment, without a custom workflow.
 
 ## outlanders2wiki.com — second stage
 
