@@ -1,3 +1,7 @@
+## 25 October custom domain restored
+
+The first deploy-workflow publish dropped the `CNAME` file for outlanders2wiki.com from gh-pages, which made Pages forget the custom domain. `assets/CNAME` now rides every build and the deploy step sets `cname`, and the file was restored on gh-pages directly to bring the site back.
+
 ## 25 October Tournament Mode is live; Rural is the current season
 
 Maintainer report: Tournament Mode is live and the Rural season (internal key Amish) is running. Recorded as the confirmed observation `tournament-rural-season-live` (observation targets may now be of type `tournament`). Rural leaves `spoilers.json`; Egyptian and Imperial stay withheld with an updated reason: completed seasons keep reward sets in the files, the live one is name-only, so a name-only style that is not live is most likely a future season. The Tournament page shows the live tag, the current season first, and the observation.
