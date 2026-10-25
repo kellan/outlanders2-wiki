@@ -15,3 +15,13 @@ for(const p of ['', 'heroes/','levels/','biomes/','index/','campaigns/campaign-3
 assert.ok(h.query('Oona').includes('0 matches'));assert.ok(!h.query('Oona').includes('spoilers/heroes/oona'));assert.ok(h.render('spoilers/').includes('Oona'));assert.ok(h.render('spoilers/').includes('release unconfirmed'));
 assert.ok(h.lookup['spoilers/heroes/oona/']);assert.ok(h.render('heroes/oona/').includes('Spoilers: unreleased'));assert.ok(h.render('verification/buildings/clay-pit/').includes('Contributed observations'));
 console.log('PASS: contribution guide, invalid-content rejection, observation references, spoiler classification, navigation, search and old URLs.');
+
+const clean=await harness();
+for(const route of ['', 'buildings/','resources/','food/','production-chains/','index/'])assert.ok(!/Mushroom|Concoction Shop|Stroganoff|Advanced Warehouse|Brick Road|Swamp Trappers/.test(clean.render(route)),route+' leaked mushroom or Oona content');
+assert.ok(clean.render('').includes('Browse Spoilers'));
+assert.ok(!clean.render('').includes('Verification status'));
+assert.ok(clean.render('resources/mushroom/').includes('Spoilers: unreleased'));
+assert.ok(clean.render('production-chains/advanced-warehouse/').includes('Formula steps'));
+assert.ok(!/<details(?![^>]*\bopen\b)/.test(clean.render('verification/')));
+assert.ok(clean.elements['#nav'].innerHTML.indexOf('Spoilers')<clean.elements['#nav'].innerHTML.indexOf('Buildings'));
+console.log('PASS: mushroom chain isolation, prominent spoiler navigation, expanded evidence and clean home page.');
