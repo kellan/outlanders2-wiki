@@ -1,3 +1,7 @@
+## 25 October level strategies
+
+Issue 3: level pages gained a Strategy section fed by `content/strategies/<level id>.json` and a level-strategy issue form that every level page links to with its name filled in. Records are validated against levels and buildings and rendered as community advice with status, contributor, version and date. One draft exists for The End of the World, written from the stored objectives and labelled as such.
+
 ## 25 October publishing from CI
 
 `dist/` is no longer committed (issue 5). Game icons and evidence screenshots moved to `assets/`, which the build copies into `dist/`. The deploy workflow builds, tests and publishes to gh-pages on every push to main; the test workflow covers pull requests and other branches. Contributors submit only source changes.

@@ -32,6 +32,12 @@ export function assembleContent(base=project){
   for(const value of [o.claim,o.evidence?.game_version,o.evidence?.date,o.evidence?.reference])assert.ok(typeof value==='string'&&value.trim(),'Missing evidence in '+file);
   const group=o.target.type==='buildings'?result.rules.buildings:o.target.type==='resources'?result.rules.resources:result.world[o.target.type==='heroes'?'leaders':o.target.type];assert.ok(Array.isArray(group)&&group.some(x=>String(x.gameobject_id??x.id)===String(o.target.id)),'Unknown observation target '+file);return o;
  });
+ result.world.strategies=fs.existsSync(path.join(base,'content/strategies'))?fs.readdirSync(path.join(base,'content/strategies')).filter(f=>f.endsWith('.json')).sort().map(file=>{
+  const s=read('content/strategies/'+file);assert.equal(file,s.id+'.json','Strategy filename must match its level id: '+file);assert.ok(result.world.levels.some(l=>l.id===s.id),'Unknown strategy level '+file);
+  assert.ok(['draft','reviewed'].includes(s.status),'Invalid strategy status '+file);for(const v of [s.summary,s.game_version,s.date,s.contributor])assert.ok(typeof v==='string'&&v.trim(),'Missing strategy field in '+file);
+  assert.ok(Array.isArray(s.build_order),'build_order must be a list in '+file);for(const step of s.build_order){assert.ok(bIds.has(step.gameobject_id),file+': unknown building '+step.gameobject_id+' in build_order');assert.ok(typeof step.note==='string','Build-order note must be a string in '+file)}
+  assert.ok(!s.pitfalls||Array.isArray(s.pitfalls)&&s.pitfalls.every(x=>typeof x==='string'&&x.trim()),'pitfalls must be a list of strings in '+file);return s;
+ }):[];
  result.world.spoiler_policy=read('content/spoilers.json');
  for(const e of result.world.spoiler_policy.entries){const list=['buildings','chains'].includes(e.type)?result.rules.buildings:e.type==='resources'?result.rules.resources:result.world[e.type==='heroes'?'leaders':e.type];assert.ok(list?.some(x=>String(x.gameobject_id||x.id)===String(e.id)),'Unknown spoiler target '+e.id);assert.ok(['reported-unreleased','confirmed-unreleased','related-release-unconfirmed'].includes(e.status),'Invalid spoiler status '+e.id);assert.ok(e.reason&&e.as_of,'Missing spoiler evidence '+e.id);}
  result.world.contribution_guide=fs.readFileSync(path.join(base,'CONTRIBUTING.md'),'utf8');

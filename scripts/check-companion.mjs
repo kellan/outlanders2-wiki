@@ -66,3 +66,10 @@ assert.ok(h.render('buildings/quarry/').includes('starts a tenth of a day later 
 assert.ok(h.render('buildings/').includes('Work schedules'),'schedule table on catalog');
 assert.ok(h.render('verification/buildings/clay-pit/').includes('Status: confirmed'),'decoded schedule observation');
 console.log('PASS: work schedules relative to the standard shift.');
+// Level strategies render apart from decoded data, with a contribution path on every level.
+const endOfWorld=h.render('levels/the-end-of-the-world/');
+assert.ok(endOfWorld.includes('Community · draft'),'strategy status');assert.ok(endOfWorld.includes('Suggested build order'));assert.ok(endOfWorld.includes('/buildings/foragers-hut/'),'build order links');
+assert.ok(endOfWorld.includes('template=level-strategy.yml'),'strategy form link');
+const noStrategy=h.render('levels/middle-ground/');assert.ok(noStrategy.includes('Share a strategy for this level'));assert.ok(noStrategy.includes('level=Middle%20Ground'),'level prefilled');
+assert.ok(!/level=[^"&]*Oona|level=Clause/.test(h.render('spoilers/levels/clause/')||''),'spoiler level not prefilled');
+console.log('PASS: level strategy section and contribution form.');

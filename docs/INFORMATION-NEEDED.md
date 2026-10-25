@@ -34,7 +34,10 @@ How to read the "Source" column:
 | Harvest yield per crop and orchard plant | Food planning; growth stage days are decoded but yields are not | mine, test | Unknown |
 | Real growth time versus stored stage days | Stored stage days may not equal calendar days | test | Unverified |
 | Crop availability per biome in normal play, including greenhouse rules in Winterlands | Sandbox assignments are decoded but flagged as not proof of availability | test, screen | Under review |
-| Biome hazard mechanics: heat, cooling and hydration penalties, Boost effect | Needed for Needs and Biome pages | mine, test | Help text only |
+| Biome hazard mechanics: heat, cooling and hydration penalties, Boost effect | Needed for Needs and Biome pages | mine, test | Help text only; need curves decoded (Heat: start 100, drain 20 a day if DailyRequired is the drain, cold warning at 20, death at -50) but multipliers and the Boost are not |
+| What a Coat, Boots and other gear do for heat, cooling or speed | Issue 1: nothing decoded says what keeps a villager warm | mine: `ResourceGearBehaviour` (id 276759) was round-trip validated but never exported; decode it with `stream_decode.py ResourceGearBehaviour` | Unknown |
+| How the Bonfire and other social spots satisfy Heat or Cooling | Issue 1: the Bonfire runs the latest shift of any workplace but its effect is not in the export | mine (social-spot and workspot configs), test | Unknown |
+| Timed cold test in Winterlands: time from the cold warning to death, with and without a Coat and a Bonfire | Turns the decoded Heat constants into a statement a player can use | test | Not run |
 
 ## Villagers and needs
 

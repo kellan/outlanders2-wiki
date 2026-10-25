@@ -1,0 +1,64 @@
+name: Level strategy
+description: Share a build order and tips for a level. A maintainer turns it into the Strategy section on that level's page.
+title: "Strategy: "
+labels: [content, strategy]
+body:
+  - type: input
+    id: level
+    attributes:
+      label: Level
+      description: The level name as the game shows it.
+    validations:
+      required: true
+  - type: input
+    id: game_version
+    attributes:
+      label: Game version
+      description: Shown in the game's settings. The wiki data is from version 30, build 254.
+      value: "30 (254)"
+    validations:
+      required: true
+  - type: dropdown
+    id: basis
+    attributes:
+      label: What this is based on
+      options:
+        - I finished the level this way
+        - I played part of the level this way
+        - Theory from the objectives, not played yet
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Two or three sentences on the approach.
+    validations:
+      required: true
+  - type: textarea
+    id: build_order
+    attributes:
+      label: Build order
+      description: One building per line, in order, with a short note after a dash.
+      placeholder: |
+        Foragers' Hut - next to the bushes so food never dips
+        Lumberjacks' Base - stocks the six logs for the third objective
+    validations:
+      required: true
+  - type: textarea
+    id: pitfalls
+    attributes:
+      label: Watch out for
+      description: Mistakes that cost you time, one per line. Optional.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Day you finished on, leader used, screenshots if you have them. Optional.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Licensing
+      options:
+        - label: I wrote this myself and license it under the project's MIT license.
+          required: true
