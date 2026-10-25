@@ -25,7 +25,7 @@ These extraction scripts are working research tools, not polished packages. Seve
 
 ## Suggested private research repository
 
-A separate private `outlanders2-research` repository would be useful for extraction scripts, environment setup, decoder notes, known schema versions, validation summaries and a repeatable export command. It has not been created.
+The private [outlanders2-research repository](https://github.com/kellan/outlanders2-research) preserves 22 extraction and inspection scripts, an isolated export runner, schema notes, input prerequisites and validation results. Its cached-input export was rerun successfully for all 285 maps and 438 objectives. Fresh app-to-cache extraction still needs separately prepared metadata and dummy assemblies; those limitations are documented in that repository.
 
 Keep game executables, large asset bundles, generated/decompiled assemblies, save games, downloaded level caches, credentials and machine-specific logs out of Git. Use ignored local input directories and checksums that identify the tested game version. A private repository is not a substitute for checking rights or protecting personal information.
 
