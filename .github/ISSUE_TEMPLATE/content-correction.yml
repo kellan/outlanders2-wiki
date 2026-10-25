@@ -1,0 +1,75 @@
+name: Content correction
+description: Correct a fact, name, scenario assignment or missing detail on a page.
+title: "Correction: "
+labels: [content]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The page address or the entry name.
+    validations:
+      required: true
+  - type: dropdown
+    id: page_type
+    attributes:
+      label: What kind of page
+      options:
+        - Building
+        - Plant or crop
+        - Resource or food
+        - Level
+        - Leader
+        - Biome
+        - Production chain
+        - Other page
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What it says now
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: What it should say
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence_kind
+    attributes:
+      label: How you know
+      options:
+        - Field guide screenshot
+        - Building panel or other in-game screen
+        - Timed gameplay test (say the starting conditions below)
+        - Something I saw in play, not timed
+        - Official source (release notes, developer post)
+    validations:
+      required: true
+  - type: input
+    id: game_version
+    attributes:
+      label: Game version
+      description: Shown in the game's settings. The wiki data is from version 30, build 254.
+      value: "30 (254)"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Steps to reproduce, starting conditions, or a screenshot. Crop out account details.
+  - type: textarea
+    id: uncertainty
+    attributes:
+      label: What remains uncertain
+      description: Optional.
+  - type: checkboxes
+    id: spoilers
+    attributes:
+      label: Spoilers
+      options:
+        - label: This report mentions unreleased content (keep the title neutral; the details above are fine).

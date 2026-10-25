@@ -4,7 +4,7 @@ This is a community-maintained reference with reviewed changes. Pages are genera
 
 ## Report a correction
 
-Open a [content correction issue](https://github.com/kellan/outlanders2-wiki/issues/new?template=content-correction.md). Include the page, what it currently says, your proposed correction, the game version, and evidence. A screenshot of the field guide or a reproducible gameplay test is useful. Describe starting conditions and what you actually observed. You do not need to change code to contribute.
+Open a [content correction](https://github.com/kellan/outlanders2-wiki/issues/new?template=content-correction.yml) form. It asks for the page, what it currently says, your proposed correction, how you know, the game version, and evidence. To report something you measured or saw in play without proposing a specific text change, use the [gameplay observation](https://github.com/kellan/outlanders2-wiki/issues/new?template=gameplay-observation.yml) form; every research page links to it with the entry filled in. A screenshot of the field guide or a reproducible gameplay test is useful. Describe starting conditions and what you actually observed. You do not need to change code to contribute.
 
 The [GitHub repository](https://github.com/kellan/outlanders2-wiki) is public. Everyone is welcome to report corrections and contribute through issues and pull requests.
 
