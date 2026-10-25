@@ -11,7 +11,7 @@ The [GitHub repository](https://github.com/kellan/outlanders2-wiki) is public. E
 ## Make an edit
 
 1. Create a branch for one correction or closely related set of changes.
-2. Find the entry with `npm run content:find -- pumpkin`, or browse the content folders.
+2. Find the entry with `npm run content:find -- pumpkin`, or browse the content folders. Every article page also ends with a "Suggest an edit" link that opens its JSON record in the GitHub editor, and a "Report a problem" link that starts a correction issue for that page.
 3. Edit the JSON record, preserving its stable ID and source references. Add evidence for factual changes.
 4. Run `npm run build`, then `npm test`.
 5. Run `npm run dev` and review the changed page and its links at the local address printed by the server.

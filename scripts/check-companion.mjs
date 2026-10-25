@@ -1,0 +1,44 @@
+import assert from 'node:assert/strict';
+import {harness} from './render-harness.mjs';
+const h=await harness();
+const bakery=h.render('buildings/bakery/');
+assert.ok(bakery.includes('class="infobox"'),'infobox');
+assert.ok(bakery.includes('Produces'),'infobox produces');
+assert.ok(bakery.includes('/food/bread/'),'infobox links output');
+assert.ok(bakery.includes('class="verify-badge"'),'verification badge');
+assert.ok(bakery.includes('github.com/kellan/outlanders2-wiki/edit/main/content/buildings/57395.json'),'suggest an edit link');
+assert.ok(bakery.includes('issues/new?'),'report link');
+assert.ok(bakery.includes('class="navbox"'),'navbox');
+assert.ok(bakery.includes('Campaign 1'),'availability grouped by campaign');
+assert.ok(!/Pending verification|Gameplay verification/.test(bakery));
+// Backlinks from formulas and objectives.
+const cookie=h.render('food/cookie/');
+assert.ok(cookie.includes('Level objectives'),'objective backlinks');
+assert.ok(cookie.includes('/levels/a-moon-part/'));
+assert.ok(cookie.includes('≥ 33'));
+assert.ok(cookie.includes('/buildings/cookie-shop/'),'produced by');
+const bread=h.render('food/bread/');
+assert.ok(bread.includes('class="navbox"'));assert.ok(bread.includes('/food/cookie/'),'food navbox');
+assert.ok(!/Mushroom|Stroganoff/.test(bread),'navbox leaked spoilers');
+// Leaders link to their stories and levels.
+const pablo=h.render('heroes/pablo/');
+assert.ok(pablo.includes("Pablo&#39;s Quest"));assert.ok(pablo.includes('/levels/the-end-of-the-world/'));assert.ok(pablo.includes('/campaigns/campaign-1/'));
+assert.ok(!pablo.includes('Oona'),'leader navbox leaked spoiler');
+// Levels show story context and neighbours.
+const middle=h.render('levels/middle-ground/');
+assert.ok(middle.includes("Pablo&#39;s Quest"));assert.ok(middle.includes('/levels/the-end-of-the-world/'));assert.ok(middle.includes('/levels/a-new-start/'));
+assert.ok(middle.includes('2 of 3'));
+assert.ok(!/<details open><summary>Show \d+ starting object/.test(middle),'starting objects collapsed');
+// Plants: growth from stored stages, grouped scenarios, archive maps collapsed.
+const pumpkin=h.render('buildings/pumpkin/');
+assert.ok(pumpkin.includes('Growth'),'growth row');
+assert.ok(/<details><summary>[^<]*archive map/.test(pumpkin),'archive maps collapsed');
+// Chain pages lead with the recipe; decoded steps are collapsed.
+const chain=h.render('production-chains/bakery/');
+assert.ok(chain.indexOf('In-game field guide')<chain.indexOf('Formula steps'));
+assert.ok(/<details>\s*<summary>[^<]*decoded steps/.test(chain),'steps collapsed');
+// Buildings catalog has type and produces columns.
+const dir=h.render('buildings/');assert.ok(dir.includes('<th scope="col">Type</th>'));assert.ok(dir.includes('<th scope="col">Produces</th>'));
+// Spoiler pages keep neutral report titles.
+const oona=h.render('heroes/oona/');assert.ok(!/issues\/new\?[^"]*Oona/.test(oona),'spoiler name in issue title');
+console.log('PASS: infoboxes, verification badge, objective and recipe backlinks, grouped availability, story context, navboxes, collapsed research detail, catalog columns and contribution links.');
