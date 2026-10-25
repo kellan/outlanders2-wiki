@@ -1,0 +1,1484 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#253f34"><meta name="description" content="An unofficial Outlanders 2 field guide: buildings, resources, production chains, levels, biomes and leaders, with traceable sources and clear gameplay verification labels."><title>Sources &amp; research · Outlanders 2 Wiki</title><link rel="icon" href="../../../wiki-artwork/minibiome-evergreen.png" type="image/png"><link rel="stylesheet" href="../../../style.css"></head><body><a class="skip" href="#content">Skip to content</a><aside id="sidebar"><a class="brand" href="../../../"><img class="brand-game-logo" src="../../../wiki-artwork/minibiome-evergreen.png" alt=""><span>OUTLANDERS 2<small>WIKI</small></span></a><div class="side-label">AN OUTLANDERS 2 WIKI</div><nav id="nav" aria-label="Main navigation"><a class="nav-link " href="../../../" ><span class="nav-icon" aria-hidden="true">⌂</span>Wiki home</a><a class="nav-link " href="../../../buildings/" ><span class="nav-icon" aria-hidden="true">▤</span>Buildings</a><a class="nav-link " href="../../../resources/" ><span class="nav-icon" aria-hidden="true">◈</span>Resources</a><a class="nav-link " href="../../../food/" ><span class="nav-icon" aria-hidden="true">◉</span>Food</a><a class="nav-link " href="../../../production-chains/" ><span class="nav-icon" aria-hidden="true">⇄</span>Production chains</a><a class="nav-link " href="../../../levels/" ><span class="nav-icon" aria-hidden="true">⚑</span>Campaigns & levels</a><a class="nav-link " href="../../../challenges/" ><span class="nav-icon" aria-hidden="true">◇</span>Challenges</a><a class="nav-link " href="../../../biomes/" ><span class="nav-icon" aria-hidden="true">♧</span>Biomes</a><div class="nav-divider"></div><a class="nav-link " href="../../../heroes/" ><span class="nav-icon" aria-hidden="true">♙</span>Leaders</a><a class="nav-link " href="../../../index/" ><span class="nav-icon" aria-hidden="true">A–Z</span>All-pages index</a><a class="nav-link " href="../../../verification/" ><span class="nav-icon" aria-hidden="true">◌</span>Sources & research</a><a class="nav-link " href="../../../about/" ><span class="nav-icon" aria-hidden="true">↗</span>Sources & artwork</a></nav><a class="side-note" href="../../../verification/"><span class="status-dot"></span><span>Sources & research<small>Evidence and open questions ↗</small></span></a><footer class="sidebar-footer">Unofficial fan reference<br>Game data v30 · build 254</footer></aside><div class="shell"><header class="topbar"><a href="../../../index/">All-pages A–Z index</a><a class="top-status" href="../../../verification/">Sources & research</a></header><main id="content" tabindex="-1"><div class="page-header"><p class="eyebrow">RESEARCH</p><h1>Tropiclands — sources &amp; research</h1><p class="lede">Evidence, decoding details and open questions for this article.</p></div><p><a href="../../../biomes/tropiclands/">← Tropiclands</a></p><details class="source"><summary>Sandbox biome data — interpretation under review</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>{
+  &quot;id&quot;: &quot;Tropical&quot;,
+  &quot;name&quot;: &quot;Tropiclands&quot;,
+  &quot;baseline_status&quot;: null,
+  &quot;baseline_note&quot;: null,
+  &quot;source&quot;: {
+    &quot;asset_file&quot;: &quot;resources.assets&quot;,
+    &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+    &quot;path_id&quot;: 272040,
+    &quot;fields&quot;: [
+      &quot;Placeables&quot;,
+      &quot;ElementsToSpawn&quot;,
+      &quot;Concerns&quot;,
+      &quot;ExcludedBasePlaceables&quot;
+    ]
+  },
+  &quot;source_scope&quot;: &quot;sandbox biome configuration; campaign/challenge overrides not recovered&quot;,
+  &quot;crops&quot;: [
+    {
+      &quot;name&quot;: &quot;Pumpkin&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Field/Pumpkin/Field Pumpkin.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 299018,
+          &quot;name&quot;: &quot;Field Pumpkin&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Corn&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Field/Corn/Field Corn.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 299027,
+          &quot;name&quot;: &quot;Field Corn&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Tomato&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Field/Tomato/Field Tomato.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 299023,
+          &quot;name&quot;: &quot;Field Tomato&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    }
+  ],
+  &quot;orchard_plants&quot;: [
+    {
+      &quot;name&quot;: &quot;BananaTree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Orchard/Fields/Field BananaTree.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296625,
+          &quot;name&quot;: &quot;Field BananaTree&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;DragonFruitTree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Orchard/Fields/Field DragonFruitTree.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296627,
+          &quot;name&quot;: &quot;Field DragonFruitTree&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;PalmTree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Orchard/Fields/Field PalmTree.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296626,
+          &quot;name&quot;: &quot;Field PalmTree&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;PomeloTree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Orchard/Fields/Field PomeloTree.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296615,
+          &quot;name&quot;: &quot;Field PomeloTree&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    }
+  ],
+  &quot;forester_plants&quot;: [
+    {
+      &quot;name&quot;: &quot;JungleBigTree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Forester/Fields/Field JungleBigTree.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296621,
+          &quot;name&quot;: &quot;Field JungleBigTree&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;JungleTree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Forester/Fields/Field JungleTree.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296613,
+          &quot;name&quot;: &quot;Field JungleTree&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    }
+  ],
+  &quot;resource_sources&quot;: [
+    {
+      &quot;name&quot;: &quot;Rock Source&quot;,
+      &quot;asset_path&quot;: &quot;Content/Resource Sources/Rock Source.prefab&quot;,
+      &quot;wiki_refs&quot;: [],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;,
+      &quot;spawn_key&quot;: &quot;Rocks&quot;,
+      &quot;food_source_flag&quot;: false,
+      &quot;density&quot;: 0.05000000074505806
+    },
+    {
+      &quot;name&quot;: &quot;Reed Plant&quot;,
+      &quot;asset_path&quot;: &quot;Content/Reed/Reed Plant.prefab&quot;,
+      &quot;wiki_refs&quot;: [],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;,
+      &quot;spawn_key&quot;: &quot;Reed&quot;,
+      &quot;food_source_flag&quot;: false,
+      &quot;density&quot;: 0.15000000596046448
+    },
+    {
+      &quot;name&quot;: &quot;Jungle Big Tree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Tree/Tropical/Jungle Big Tree/Jungle Big Tree.prefab&quot;,
+      &quot;wiki_refs&quot;: [],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;,
+      &quot;spawn_key&quot;: &quot;WoodTrees&quot;,
+      &quot;food_source_flag&quot;: false,
+      &quot;density&quot;: 0.03500000014901161
+    },
+    {
+      &quot;name&quot;: &quot;Jungle Tree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Tree/Tropical/Jungle Tree/Jungle Tree.prefab&quot;,
+      &quot;wiki_refs&quot;: [],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;,
+      &quot;spawn_key&quot;: &quot;WoodTrees&quot;,
+      &quot;food_source_flag&quot;: false,
+      &quot;density&quot;: 0.05000000074505806
+    },
+    {
+      &quot;name&quot;: &quot;Palm Tree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Tree/Tropical/Palm Tree/Palm Tree.prefab&quot;,
+      &quot;wiki_refs&quot;: [],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;,
+      &quot;spawn_key&quot;: &quot;FruitTrees&quot;,
+      &quot;food_source_flag&quot;: true,
+      &quot;density&quot;: 0.019999999552965164
+    },
+    {
+      &quot;name&quot;: &quot;BananaTree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Tree/Orchard/BananaTree/BananaTree.prefab&quot;,
+      &quot;wiki_refs&quot;: [],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;,
+      &quot;spawn_key&quot;: &quot;FruitTrees&quot;,
+      &quot;food_source_flag&quot;: true,
+      &quot;density&quot;: 0.004999999888241291
+    },
+    {
+      &quot;name&quot;: &quot;DragonFruitTree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Tree/Orchard/DragonFruitTree/DragonFruitTree.prefab&quot;,
+      &quot;wiki_refs&quot;: [],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;,
+      &quot;spawn_key&quot;: &quot;FruitTrees&quot;,
+      &quot;food_source_flag&quot;: true,
+      &quot;density&quot;: 0.003000000026077032
+    },
+    {
+      &quot;name&quot;: &quot;PomeloTree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Tree/Orchard/PomeloTree/PomeloTree.prefab&quot;,
+      &quot;wiki_refs&quot;: [],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;,
+      &quot;spawn_key&quot;: &quot;FruitTrees&quot;,
+      &quot;food_source_flag&quot;: true,
+      &quot;density&quot;: 0.003000000026077032
+    },
+    {
+      &quot;name&quot;: &quot;TropicalMountainVegetation&quot;,
+      &quot;asset_path&quot;: &quot;Content/Environment/TropicalMountainVegetation.prefab&quot;,
+      &quot;wiki_refs&quot;: [],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;,
+      &quot;spawn_key&quot;: &quot;&quot;,
+      &quot;food_source_flag&quot;: false,
+      &quot;density&quot;: 0.12999999523162842
+    },
+    {
+      &quot;name&quot;: &quot;Fish decoration&quot;,
+      &quot;asset_path&quot;: &quot;Content/Environment/Fish decoration.prefab&quot;,
+      &quot;wiki_refs&quot;: [],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;,
+      &quot;spawn_key&quot;: &quot;Fishes&quot;,
+      &quot;food_source_flag&quot;: false,
+      &quot;density&quot;: 0.004999999888241291
+    }
+  ],
+  &quot;placeables&quot;: [
+    {
+      &quot;name&quot;: &quot;Reed Cutter&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Reed Cutter/Reed Cutter.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316544,
+          &quot;name&quot;: &quot;Reed Harvester&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Glass Maker&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Glass Maker/Glass Maker.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316560,
+          &quot;name&quot;: &quot;Glassworks&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Forager&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Forager/Forager.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 280143,
+          &quot;name&quot;: &quot;Foragers&#39; Hut&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Farm&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Farm/Farm.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 297596,
+          &quot;name&quot;: &quot;Farm&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Orchard old&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Orchard/Orchard old.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 281460,
+          &quot;name&quot;: &quot;Orchard&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Tropical House&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/House Tropical/Tropical House.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296485,
+          &quot;name&quot;: &quot;Tropical Shelter&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Trading Post Tropics&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Trading Post/Trading Post Tropics.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 300426,
+          &quot;name&quot;: &quot;Trading Outpost&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;IcePops Shop&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/IcePops Shop/IcePops Shop.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 290250,
+          &quot;name&quot;: &quot;Ice Pop Stand&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Smoothie Stand&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Smoothie Stand/Smoothie Stand.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 290253,
+          &quot;name&quot;: &quot;Smoothie Stand&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Canteen Maker&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Canteen Maker/Canteen Maker.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316577,
+          &quot;name&quot;: &quot;Canteen Factory&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;SwimmingPier&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Swimming Pier/SwimmingPier.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316550,
+          &quot;name&quot;: &quot;Swimming Pier&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Decorative Tree Flame Tree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/_Decorative Tree/Flame Tree/Decorative Tree Flame Tree.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316569,
+          &quot;name&quot;: &quot;Flame Tree Pit&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Decorative Planter Birds of Paradise&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/_Decorative Planter/Birds of Paradise/Decorative Planter Birds of Paradise.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 306584,
+          &quot;name&quot;: &quot;Crane Flower Planter&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Pumpkin&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Field/Pumpkin/Field Pumpkin.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 299018,
+          &quot;name&quot;: &quot;Field Pumpkin&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Corn&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Field/Corn/Field Corn.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 299027,
+          &quot;name&quot;: &quot;Field Corn&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Tomato&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Field/Tomato/Field Tomato.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 299023,
+          &quot;name&quot;: &quot;Field Tomato&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;JungleBigTree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Forester/Fields/Field JungleBigTree.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296621,
+          &quot;name&quot;: &quot;Field JungleBigTree&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;JungleTree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Forester/Fields/Field JungleTree.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296613,
+          &quot;name&quot;: &quot;Field JungleTree&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;BananaTree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Orchard/Fields/Field BananaTree.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296625,
+          &quot;name&quot;: &quot;Field BananaTree&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;DragonFruitTree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Orchard/Fields/Field DragonFruitTree.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296627,
+          &quot;name&quot;: &quot;Field DragonFruitTree&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;PalmTree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Orchard/Fields/Field PalmTree.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296626,
+          &quot;name&quot;: &quot;Field PalmTree&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;PomeloTree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Orchard/Fields/Field PomeloTree.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296615,
+          &quot;name&quot;: &quot;Field PomeloTree&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Decorative Tree Orchid Tree&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/_Decorative Tree/Orchid Tree/Decorative Tree Orchid Tree.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316557,
+          &quot;name&quot;: &quot;Orchid Tree Pit&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Decorative Planter Hibiscus&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/_Decorative Planter/Hibiscus/Decorative Planter Hibiscus.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 306581,
+          &quot;name&quot;: &quot;Hibiscus Planter&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Forester old&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Forester/Forester old.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 281458,
+          &quot;name&quot;: &quot;Foresters&#39; Hub&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Open Kitchen&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Open Kitchen/Open Kitchen.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316543,
+          &quot;name&quot;: &quot;Open Kitchen&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Chicken Coop&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Chicken Coop/Chicken Coop.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316545,
+          &quot;name&quot;: &quot;Chicken Coop&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Windmill&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Windmill/Windmill.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 315770,
+          &quot;name&quot;: &quot;Windmill&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Bakery&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Bakery/Bakery.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 290251,
+          &quot;name&quot;: &quot;Bakery&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Cookie Shop&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/CookieShop/Cookie Shop.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 290252,
+          &quot;name&quot;: &quot;Cookie Shop&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Dried Meat Shop&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Dried Meat Shop/Dried Meat Shop.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316579,
+          &quot;name&quot;: &quot;Dried Meat Shop&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Fishing Dock&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Fishing Dock/Fishing Dock.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316563,
+          &quot;name&quot;: &quot;Fishing Dock&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;House&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/House/House.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296488,
+          &quot;name&quot;: &quot;Basic House&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;House Plank&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/House Plank/House Plank.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296490,
+          &quot;name&quot;: &quot;Plank House&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;House Brick&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/House Brick/House Brick.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296478,
+          &quot;name&quot;: &quot;Brick House&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;House Stone&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/House Stone/House Stone.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 296480,
+          &quot;name&quot;: &quot;Two-Story House&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Boot Maker&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Boot Maker/Boot Maker.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316575,
+          &quot;name&quot;: &quot;Bootmakers&#39; Shop&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Brewery&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Brewery/Brewery.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 284146,
+          &quot;name&quot;: &quot;Brewery&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Scriptorium&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Scriptorium/Scriptorium.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316528,
+          &quot;name&quot;: &quot;Book Workshop&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Pendant Maker&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Pendant Maker/Pendant Maker.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316547,
+          &quot;name&quot;: &quot;Pendant Craftshop&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Ukulele Maker&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Ukulele Maker/Ukulele Maker.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316581,
+          &quot;name&quot;: &quot;Luthierie&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Fountain&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/_Monuments/Fountain/Fountain.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316571,
+          &quot;name&quot;: &quot;Fountain&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    },
+    {
+      &quot;name&quot;: &quot;Quarry&quot;,
+      &quot;asset_path&quot;: &quot;Content/Buildings/Quarry/Quarry.prefab&quot;,
+      &quot;wiki_refs&quot;: [
+        {
+          &quot;kind&quot;: &quot;building&quot;,
+          &quot;id&quot;: 316527,
+          &quot;name&quot;: &quot;Quarry&quot;
+        }
+      ],
+      &quot;source&quot;: {
+        &quot;asset_file&quot;: &quot;resources.assets&quot;,
+        &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+        &quot;path_id&quot;: 272040,
+        &quot;fields&quot;: [
+          &quot;Placeables&quot;,
+          &quot;ElementsToSpawn&quot;,
+          &quot;Concerns&quot;,
+          &quot;ExcludedBasePlaceables&quot;
+        ]
+      },
+      &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+    }
+  ],
+  &quot;special_needs_and_hazards&quot;: [
+    {
+      &quot;key&quot;: &quot;Concern.Refreshment.Description&quot;,
+      &quot;text&quot;: &quot;High temperatures in the Tropiclands make daytime work tough. &lt;b&gt;Lack of Cooling will reduce a villager&#39;s movement speed.&lt;/b&gt; Satisfying this need activates the &lt;b&gt;{UI.Boost.Refreshment.WithIcon}&lt;/b&gt;, making it &lt;b&gt;easier to satisfy every other need.&lt;/b&gt;&quot;,
+      &quot;source_text_asset_id&quot;: 6291,
+      &quot;source_table&quot;: &quot;Game&quot;
+    }
+  ],
+  &quot;verification_status&quot;: &quot;decoded_biome_configuration; gameplay_unverified&quot;,
+  &quot;limitations&quot;: [
+    &quot;Crops are explicitly listed field prefabs; this does not establish ordinary outdoor farm compatibility, yields, growth rates, or availability in every level.&quot;,
+    &quot;Resource sources are map spawn definitions, not a complete inventory of obtainable resources. Fish decoration entries are visual spawning and do not alone establish fish resource availability.&quot;,
+    &quot;Shared base placeables may add content beyond these biome-specific lists.&quot;
+  ],
+  &quot;excluded_base_placeables&quot;: []
+}</pre></div></details><details class="source"><summary>Recovered text &amp; source identifiers</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>[
+  {
+    &quot;key&quot;: &quot;Sandbox.Biome.Tropical&quot;,
+    &quot;english&quot;: &quot;Tropiclands&quot;,
+    &quot;source_text_asset_id&quot;: 6291,
+    &quot;source_table&quot;: &quot;Game&quot;,
+    &quot;unresolved_placeholders&quot;: []
+  },
+  {
+    &quot;key&quot;: &quot;Concern.Refreshment.Description&quot;,
+    &quot;english&quot;: &quot;High temperatures in the Tropiclands make daytime work tough. &lt;b&gt;Lack of Cooling will reduce a villager&#39;s movement speed.&lt;/b&gt; Satisfying this need activates the &lt;b&gt;{UI.Boost.Refreshment.WithIcon}&lt;/b&gt;, making it &lt;b&gt;easier to satisfy every other need.&lt;/b&gt;&quot;,
+    &quot;source_text_asset_id&quot;: 6291,
+    &quot;source_table&quot;: &quot;Game&quot;,
+    &quot;unresolved_placeholders&quot;: [
+      &quot;UI.Boost.Refreshment.WithIcon&quot;
+    ]
+  },
+  {
+    &quot;key&quot;: &quot;Hints.Level03C.TropicalIntro.Large&quot;,
+    &quot;english&quot;: &quot;Welcome to the &lt;style=Input&gt;Tropiclands&lt;/style&gt;!&quot;,
+    &quot;source_text_asset_id&quot;: 6410,
+    &quot;source_table&quot;: &quot;Hints&quot;,
+    &quot;unresolved_placeholders&quot;: []
+  },
+  {
+    &quot;key&quot;: &quot;Hints.Level03C.RefreshmentIntro.Large&quot;,
+    &quot;english&quot;: &quot;The high temperatures of the &lt;style=Input&gt;Tropiclands&lt;/style&gt; make villagers walk much slower. \nThey now have a new need: &lt;style=Input&gt;{Concern.Refreshment.WithIcon}&lt;/style&gt;.&quot;,
+    &quot;source_text_asset_id&quot;: 6410,
+    &quot;source_table&quot;: &quot;Hints&quot;,
+    &quot;unresolved_placeholders&quot;: [
+      &quot;Concern.Refreshment.WithIcon&quot;
+    ]
+  },
+  {
+    &quot;key&quot;: &quot;Hints.Level03C.ReedIntro.Large&quot;,
+    &quot;english&quot;: &quot;&lt;style=Input&gt;{Building.TropicalHouse.WithIconPlural}&lt;/style&gt; are made of &lt;style=Input&gt;{Resource.Reed.WithIconPlural}&lt;/style&gt;, a &lt;style=Input&gt;{ResourceCategory.Construction.WithIcon}&lt;/style&gt; found exclusively in the &lt;style=Input&gt;Tropiclands&lt;/style&gt;.&quot;,
+    &quot;source_text_asset_id&quot;: 6410,
+    &quot;source_table&quot;: &quot;Hints&quot;,
+    &quot;unresolved_placeholders&quot;: [
+      &quot;Building.TropicalHouse.WithIconPlural&quot;,
+      &quot;Resource.Reed.WithIconPlural&quot;,
+      &quot;ResourceCategory.Construction.WithIcon&quot;
+    ]
+  }
+]</pre></div></details></main><footer class="page-footer"><span>OUTLANDERS 2 WIKI <span class="dot-sep">·</span> An unofficial Outlanders 2 reference</span><a href="../../../about/">Sources & artwork credits ↗</a></footer></div></body></html>

@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {harness} from './render-harness.mjs';
+const h=await harness();
+const pumpkin=h.render('buildings/pumpkin/');
+assert.ok(pumpkin.includes('<h1>Pumpkin</h1>'));
+for(const phrase of ['Construction inputs','Pending verification','Needs gameplay verification','Tropiclands','Work range'])assert.ok(!pumpkin.includes(phrase),phrase);
+assert.equal(h.lookup['buildings/field-pumpkin/'].id,h.lookup['buildings/pumpkin/'].id);
+const farm=h.render('buildings/farm/');assert.ok(farm.includes('Fields'));assert.ok(!farm.includes('Sources.Field'));assert.ok(!farm.includes('Work range'));assert.ok(!farm.includes('Pending verification'));
+assert.ok(h.render('verification/buildings/farm/').includes('Work schedule fields'));
+assert.ok(h.render('verification/buildings/pumpkin/').includes('Tropiclands'));
+assert.ok(h.render('verification/buildings/bakery/').includes('Fuel discrepancy'));
+for(const name of ['too-hot-to-write','cordial-work-environment','frostbound-valley'])assert.ok(h.render('levels/'+name+'/').includes('Main objectives'));
+for(const p of h.pages.filter(p=>p.type==='levels'))assert.ok(!/^Single_|^Level\d/.test(p.name),p.name);
+console.log('PASS: reader/research separation, plant names, crop-only content, old URLs, localized terms, renamed scenario aliases, and retained recipe discrepancies.');

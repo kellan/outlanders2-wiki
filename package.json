@@ -1,0 +1,15 @@
+{
+  "name": "outlanders2-wiki",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A static, evidence-backed Outlanders 2 wiki",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node scripts/check.mjs && node scripts/check-scenarios.mjs && node scripts/check-reader-pages.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

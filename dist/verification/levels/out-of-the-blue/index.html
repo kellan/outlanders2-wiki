@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#253f34"><meta name="description" content="An unofficial Outlanders 2 field guide: buildings, resources, production chains, levels, biomes and leaders, with traceable sources and clear gameplay verification labels."><title>Sources &amp; research · Outlanders 2 Wiki</title><link rel="icon" href="../../../wiki-artwork/minibiome-evergreen.png" type="image/png"><link rel="stylesheet" href="../../../style.css"></head><body><a class="skip" href="#content">Skip to content</a><aside id="sidebar"><a class="brand" href="../../../"><img class="brand-game-logo" src="../../../wiki-artwork/minibiome-evergreen.png" alt=""><span>OUTLANDERS 2<small>WIKI</small></span></a><div class="side-label">AN OUTLANDERS 2 WIKI</div><nav id="nav" aria-label="Main navigation"><a class="nav-link " href="../../../" ><span class="nav-icon" aria-hidden="true">⌂</span>Wiki home</a><a class="nav-link " href="../../../buildings/" ><span class="nav-icon" aria-hidden="true">▤</span>Buildings</a><a class="nav-link " href="../../../resources/" ><span class="nav-icon" aria-hidden="true">◈</span>Resources</a><a class="nav-link " href="../../../food/" ><span class="nav-icon" aria-hidden="true">◉</span>Food</a><a class="nav-link " href="../../../production-chains/" ><span class="nav-icon" aria-hidden="true">⇄</span>Production chains</a><a class="nav-link " href="../../../levels/" ><span class="nav-icon" aria-hidden="true">⚑</span>Campaigns & levels</a><a class="nav-link " href="../../../challenges/" ><span class="nav-icon" aria-hidden="true">◇</span>Challenges</a><a class="nav-link " href="../../../biomes/" ><span class="nav-icon" aria-hidden="true">♧</span>Biomes</a><div class="nav-divider"></div><a class="nav-link " href="../../../heroes/" ><span class="nav-icon" aria-hidden="true">♙</span>Leaders</a><a class="nav-link " href="../../../index/" ><span class="nav-icon" aria-hidden="true">A–Z</span>All-pages index</a><a class="nav-link " href="../../../verification/" ><span class="nav-icon" aria-hidden="true">◌</span>Sources & research</a><a class="nav-link " href="../../../about/" ><span class="nav-icon" aria-hidden="true">↗</span>Sources & artwork</a></nav><a class="side-note" href="../../../verification/"><span class="status-dot"></span><span>Sources & research<small>Evidence and open questions ↗</small></span></a><footer class="sidebar-footer">Unofficial fan reference<br>Game data v30 · build 254</footer></aside><div class="shell"><header class="topbar"><a href="../../../index/">All-pages A–Z index</a><a class="top-status" href="../../../verification/">Sources & research</a></header><main id="content" tabindex="-1"><div class="page-header"><p class="eyebrow">RESEARCH</p><h1>Out of the Blue — sources &amp; research</h1><p class="lede">Evidence, decoding details and open questions for this article.</p></div><p><a href="../../../levels/out-of-the-blue/">← Out of the Blue</a></p><details class="source"><summary>Scenario decoding evidence</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>{
+  &quot;text_asset_id&quot;: 6322,
+  &quot;source_level_path&quot;: &quot;Assets/Resources/Content/Levels/Campaign 2/Story 3/Campaign2_Level3A.bytes&quot;,
+  &quot;sha256&quot;: &quot;5fdfa3e9983e5e1933e44beba0667bd910af0bee6559d19822af3b0b42b51fd1&quot;,
+  &quot;world_objectives_match_header&quot;: true,
+  &quot;level_config&quot;: [
+    {
+      &quot;LevelScene&quot;: &quot;LevelSnow&quot;,
+      &quot;IsConcernFoodAvailable&quot;: true,
+      &quot;IsConcernHousingAvailable&quot;: true,
+      &quot;IsConcernCommunityAvailable&quot;: true,
+      &quot;IsConcernEntertainmentAvailable&quot;: true,
+      &quot;IsConcernHeatAvailable&quot;: true,
+      &quot;IsConcernWellnessAvailable&quot;: true,
+      &quot;IsConcernRefreshmentAvailable&quot;: false,
+      &quot;LeaderboardType&quot;: 0
+    }
+  ]
+}</pre></div></details><details class="source"><summary>Recovered text &amp; source identifiers</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>{
+  &quot;id&quot;: &quot;Campaign2_Level3A&quot;,
+  &quot;verification_status&quot;: &quot;packaged_localization_only; gameplay_unverified&quot;,
+  &quot;source_entries&quot;: [
+    {
+      &quot;key&quot;: &quot;Level.Campaign2_Level3A.Name&quot;,
+      &quot;english&quot;: &quot;Out of the Blue&quot;,
+      &quot;source_text_asset_id&quot;: 6484,
+      &quot;source_table&quot;: &quot;LevelsStandalone&quot;,
+      &quot;unresolved_placeholders&quot;: []
+    },
+    {
+      &quot;key&quot;: &quot;Level.Campaign2_Level3A.Description&quot;,
+      &quot;english&quot;: &quot;Kaia began to wonder if her recurring dreams were not just imagination but lost memories from her past. To make sense of them, she asked the town&#39;s best artists to bring them to life.&quot;,
+      &quot;source_text_asset_id&quot;: 6484,
+      &quot;source_table&quot;: &quot;LevelsStandalone&quot;,
+      &quot;unresolved_placeholders&quot;: []
+    }
+  ]
+}</pre></div></details><section class="rule-section"><h2>Remaining checks</h2><ul class="check-list"><li>Confirm current menu category and release availability.</li><li>Check runtime unlocks and defaults for need fields absent in legacy maps.</li><li>Measure yields, need decay, production rates and other runtime effects.</li></ul></section><section class="rule-section"><h2>Content availability</h2><div class="tags"><span class="tag gray">Unknown</span></div><p class="small">Presence in the installed files does not establish release or menu availability.</p></section><p class="small">Stored map configuration for version 30, build 254. Packaged content does not establish live menu availability.</p><p class="small">Values and comparisons match both the header and world records. Satisfaction, housing and equipment values are stored thresholds; their UI wording may differ. “Consume / recycle” is an internal condition whose wording depends on the target.</p><p class="small">An absent field in an older map is not treated as disabled. Runtime defaults and migration remain unverified.</p><p class="small">Counts below are serialized prefab entities. They do not establish harvest yields, stockpile units, or numbers of independent buildings; child entities and internal objects can be included.</p></main><footer class="page-footer"><span>OUTLANDERS 2 WIKI <span class="dot-sep">·</span> An unofficial Outlanders 2 reference</span><a href="../../../about/">Sources & artwork credits ↗</a></footer></div></body></html>

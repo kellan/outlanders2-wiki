@@ -1,0 +1,121 @@
+{
+  "game": "Outlanders 2",
+  "version": "30",
+  "build": "254",
+  "unity_version": "6000.3.17f1",
+  "metadata_version": 39,
+  "extracted_on": "2026-10-23",
+  "method": "read-only asset decoding using Cpp2IL dummy assemblies and UnityPy with corrected MonoBehaviour header alignment",
+  "validation_status": "1800 representative and core definitions re-encode byte-for-byte and match exported fields, including all 692 formula steps; gameplay not verified",
+  "counts": {
+    "decoded_objects": 10679,
+    "buildings": 154,
+    "formula_steps": 692,
+    "resources_including_intermediates": 254,
+    "needs": 8,
+    "growth_definitions": 51,
+    "fastmode_validation_rules": 106
+  },
+  "limitations": [
+    "Packaged data can contain unused content. Canonical content paths reduce but do not eliminate that possibility.",
+    "Formula balances are not production rates: staffing, animation, hauling, storage and availability affect throughput.",
+    "Construction totals are sums of distinct formula inputs and require checks for stage repetition and alternatives.",
+    "FastMode supply-chain rules describe its level validator, not ordinary construction requirements.",
+    "No native method bodies or general AI/hauling logic were reconstructed.",
+    "ResourceVariationDatabase was not decoded; alternate resource logic is not fully resolved."
+  ],
+  "tools": {
+    "UnityPy": "1.25.4",
+    "TypeTreeGeneratorAPI": "0.0.10",
+    "Cpp2IL": "2022.1.0-pre-release.21+58fc404ac503f4e512055cafc48c03088fc6e224"
+  },
+  "source_fingerprints": [
+    {
+      "path": "Contents/Frameworks/GameAssembly.dylib",
+      "bytes": 440698672,
+      "sha256": "26e1afb503520f317289439fb9f86cb293f4328995fac2b6a23964145d2394e5"
+    },
+    {
+      "path": "Contents/Resources/Data/il2cpp_data/Metadata/global-metadata.dat",
+      "bytes": 12946664,
+      "sha256": "8a13929f6fa33c0c7de4b2f6fd1d0d0234dd893b503d744deab77f0052bc7937"
+    },
+    {
+      "path": "Contents/Resources/Data/globalgamemanagers",
+      "bytes": 15396548,
+      "sha256": "28c03b837fe9d615eb60294911ee936af665be233845b3faa4ac3fd7489dde54"
+    },
+    {
+      "path": "Contents/Resources/Data/resources.assets",
+      "bytes": 557848172,
+      "sha256": "102bcddd6b021efa07d0ed4596f0906d906d3e541b4ed9de298a899f03152247"
+    }
+  ],
+  "decoder_validation": {
+    "checked": 1800,
+    "exact_roundtrips": 1800,
+    "matches_exported_fields": 1800,
+    "by_class": {
+      "FormulaStepBehaviour": 692,
+      "WorkspotBehaviour": 1,
+      "BuildSequenceBehaviour": 119,
+      "BuildingBehaviour": 161,
+      "WorkplaceBehaviour": 236,
+      "ResourceBehaviour": 254,
+      "NeedBehaviour": 9,
+      "PlantBehaviour": 1,
+      "HouseBehaviour": 29,
+      "BuildSiteBehaviour": 1,
+      "ContentBehaviour": 1,
+      "ResourceCategory": 21,
+      "ResourceDatabase": 1,
+      "ResourceVariationBehaviour": 1,
+      "ResourcePileBehaviour": 1,
+      "ResourceSourceBehaviour": 1,
+      "ResourceSourceCategoryBehaviour": 1,
+      "ResourceGearBehaviour": 1,
+      "PileableBehaviour": 1,
+      "StockpileBehaviour": 1,
+      "ResourceExtractorBehaviour": 1,
+      "ResourceAccumulatorBehaviour": 1,
+      "SaplingBehaviour": 51,
+      "SaplingStage": 204,
+      "VillagerBehaviour": 1,
+      "LimitConsumptionByAge": 1,
+      "WorkspotRandomOutput": 1,
+      "WorkspotRandomTimeInRangeCondition": 1,
+      "RequiredResourcesNotConsumed": 1,
+      "GridDimensionsBehaviour": 1,
+      "LocationConstraints": 1,
+      "RecyclableBehaviour": 1,
+      "PlaceableBehaviour": 1,
+      "Availability": 1
+    }
+  },
+  "scenario_extraction": {
+    "summary": {
+      "worlds_decoded": 285,
+      "buildable_entries": 6616,
+      "unresolved_buildable_guids": 0,
+      "objective_records_independently_matched": 438,
+      "source_categories": {
+        "test": 152,
+        "campaign": 49,
+        "packaged legacy challenge": 81,
+        "FAST tutorial": 3
+      },
+      "maps_with_objectives": 132,
+      "maps_with_level_config": 270
+    },
+    "limitations": [
+      "Packaged files include tests and possibly unreleased maps.",
+      "Buildable entries are serialized scenario configuration; runtime unlocks and menu visibility have not been tested.",
+      "Initial prefab instances are entity counts, not guaranteed resource units or independent buildings.",
+      "Missing need switches in older layouts remain unspecified; do not interpret missing as false.",
+      "Objective labels use metadata enum order, checked against compressed enum constants.",
+      "Population/happiness/housing objectives may carry an unused prefab reference; ignore target for those objective types."
+    ],
+    "date": "2026-10-24",
+    "validation": "All 438 header objectives match the world records; all 6,616 buildable GUIDs resolve."
+  }
+}

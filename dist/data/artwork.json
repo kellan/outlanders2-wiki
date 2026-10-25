@@ -1,0 +1,2431 @@
+{
+  "buildings": {
+    "35460": {
+      "path": "wiki-artwork/icon-273709.png",
+      "icon_asset_id": 273709,
+      "content_component_id": 320135,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67680": {
+      "path": "wiki-artwork/icon-273821.png",
+      "icon_asset_id": 273821,
+      "content_component_id": 304078,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "57395": {
+      "path": "wiki-artwork/icon-273751.png",
+      "icon_asset_id": 273751,
+      "content_component_id": 310466,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67679": {
+      "path": "wiki-artwork/icon-273821.png",
+      "icon_asset_id": 273821,
+      "content_component_id": 304077,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67675": {
+      "path": "wiki-artwork/icon-273682.png",
+      "icon_asset_id": 273682,
+      "content_component_id": 304073,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105714": {
+      "path": "wiki-artwork/icon-273694.png",
+      "icon_asset_id": 273694,
+      "content_component_id": 284770,
+      "match": "gameobject",
+      "contrast_background": "#536057"
+    },
+    "94267": {
+      "path": "wiki-artwork/icon-273722.png",
+      "icon_asset_id": 273722,
+      "content_component_id": 290894,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105696": {
+      "path": "wiki-artwork/icon-273748.png",
+      "icon_asset_id": 273748,
+      "content_component_id": 284752,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105743": {
+      "path": "wiki-artwork/icon-273749.png",
+      "icon_asset_id": 273749,
+      "content_component_id": 284799,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105709": {
+      "path": "wiki-artwork/icon-273750.png",
+      "icon_asset_id": 273750,
+      "content_component_id": 284765,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "45826": {
+      "path": "wiki-artwork/icon-273747.png",
+      "icon_asset_id": 273747,
+      "content_component_id": 314127,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67665": {
+      "path": "wiki-artwork/icon-273683.png",
+      "icon_asset_id": 273683,
+      "content_component_id": 304063,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "78175": {
+      "path": "wiki-artwork/icon-273706.png",
+      "icon_asset_id": 273706,
+      "content_component_id": 295163,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "116136": {
+      "path": "wiki-artwork/icon-273684.png",
+      "icon_asset_id": 273684,
+      "content_component_id": 278397,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105697": {
+      "path": "wiki-artwork/icon-273752.png",
+      "icon_asset_id": 273752,
+      "content_component_id": 284753,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "116137": {
+      "path": "wiki-artwork/icon-273685.png",
+      "icon_asset_id": 273685,
+      "content_component_id": 278398,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "85248": {
+      "path": "wiki-artwork/icon-273686.png",
+      "icon_asset_id": 273686,
+      "content_component_id": 291826,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105745": {
+      "path": "wiki-artwork/icon-273753.png",
+      "icon_asset_id": 273753,
+      "content_component_id": 284801,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105730": {
+      "path": "wiki-artwork/icon-273754.png",
+      "icon_asset_id": 273754,
+      "content_component_id": 284786,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105713": {
+      "path": "wiki-artwork/icon-273760.png",
+      "icon_asset_id": 273760,
+      "content_component_id": 284769,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "69351": {
+      "path": "wiki-artwork/icon-273755.png",
+      "icon_asset_id": 273755,
+      "content_component_id": 300062,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105732": {
+      "path": "wiki-artwork/icon-273719.png",
+      "icon_asset_id": 273719,
+      "content_component_id": 284788,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "115541": {
+      "path": "wiki-artwork/icon-273719.png",
+      "icon_asset_id": 273719,
+      "content_component_id": 279322,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67666": {
+      "path": "wiki-artwork/icon-273821.png",
+      "icon_asset_id": 273821,
+      "content_component_id": 304064,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105706": {
+      "path": "wiki-artwork/icon-273757.png",
+      "icon_asset_id": 273757,
+      "content_component_id": 284762,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "57396": {
+      "path": "wiki-artwork/icon-273758.png",
+      "icon_asset_id": 273758,
+      "content_component_id": 310467,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "85247": {
+      "path": "wiki-artwork/icon-273686.png",
+      "icon_asset_id": 273686,
+      "content_component_id": 291825,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105698": {
+      "path": "wiki-artwork/icon-273686.png",
+      "icon_asset_id": 273686,
+      "content_component_id": 291825,
+      "match": "localization_key",
+      "contrast_background": "#edf0e4"
+    },
+    "105736": {
+      "path": "wiki-artwork/icon-273770.png",
+      "icon_asset_id": 273770,
+      "content_component_id": 284792,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67676": {
+      "path": "wiki-artwork/icon-273689.png",
+      "icon_asset_id": 273689,
+      "content_component_id": 304074,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105747": {
+      "path": "wiki-artwork/icon-273759.png",
+      "icon_asset_id": 273759,
+      "content_component_id": 284803,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "69353": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 300064,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67909": {
+      "path": "wiki-artwork/icon-273837.png",
+      "icon_asset_id": 273837,
+      "content_component_id": 304241,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67910": {
+      "path": "wiki-artwork/icon-273841.png",
+      "icon_asset_id": 273841,
+      "content_component_id": 304242,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67917": {
+      "path": "wiki-artwork/icon-273837.png",
+      "icon_asset_id": 273837,
+      "content_component_id": 304249,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "92320": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 289810,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "71099": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 302034,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67908": {
+      "path": "wiki-artwork/icon-273837.png",
+      "icon_asset_id": 273837,
+      "content_component_id": 304240,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "71093": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 302028,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "71098": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 302033,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "71097": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 302032,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "71100": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 302035,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67921": {
+      "path": "wiki-artwork/icon-273841.png",
+      "icon_asset_id": 273841,
+      "content_component_id": 304253,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67911": {
+      "path": "wiki-artwork/icon-273837.png",
+      "icon_asset_id": 273837,
+      "content_component_id": 304243,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67919": {
+      "path": "wiki-artwork/icon-273837.png",
+      "icon_asset_id": 273837,
+      "content_component_id": 304251,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "71095": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 302030,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67914": {
+      "path": "wiki-artwork/icon-273837.png",
+      "icon_asset_id": 273837,
+      "content_component_id": 304246,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67906": {
+      "path": "wiki-artwork/icon-273837.png",
+      "icon_asset_id": 273837,
+      "content_component_id": 304238,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67912": {
+      "path": "wiki-artwork/icon-273841.png",
+      "icon_asset_id": 273841,
+      "content_component_id": 304244,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67913": {
+      "path": "wiki-artwork/icon-273841.png",
+      "icon_asset_id": 273841,
+      "content_component_id": 304245,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67905": {
+      "path": "wiki-artwork/icon-273841.png",
+      "icon_asset_id": 273841,
+      "content_component_id": 304237,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67904": {
+      "path": "wiki-artwork/icon-273841.png",
+      "icon_asset_id": 273841,
+      "content_component_id": 304236,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67916": {
+      "path": "wiki-artwork/icon-273837.png",
+      "icon_asset_id": 273837,
+      "content_component_id": 304248,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "71092": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 302027,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67918": {
+      "path": "wiki-artwork/icon-273837.png",
+      "icon_asset_id": 273837,
+      "content_component_id": 304250,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67920": {
+      "path": "wiki-artwork/icon-273841.png",
+      "icon_asset_id": 273841,
+      "content_component_id": 304252,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67907": {
+      "path": "wiki-artwork/icon-273837.png",
+      "icon_asset_id": 273837,
+      "content_component_id": 304239,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "71094": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 302029,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "71091": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 302026,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "99686": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 287631,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "81952": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 295858,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "71096": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 302031,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "71090": {
+      "path": "wiki-artwork/icon-273763.png",
+      "icon_asset_id": 273763,
+      "content_component_id": 302025,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "58425": {
+      "path": "wiki-artwork/icon-273785.png",
+      "icon_asset_id": 273785,
+      "content_component_id": 309815,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67915": {
+      "path": "wiki-artwork/icon-273841.png",
+      "icon_asset_id": 273841,
+      "content_component_id": 304247,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67922": {
+      "path": "wiki-artwork/icon-273841.png",
+      "icon_asset_id": 273841,
+      "content_component_id": 304254,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "71938": {
+      "path": "wiki-artwork/icon-273780.png",
+      "icon_asset_id": 273780,
+      "content_component_id": 301613,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105731": {
+      "path": "wiki-artwork/icon-273690.png",
+      "icon_asset_id": 273690,
+      "content_component_id": 284787,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "35463": {
+      "path": "wiki-artwork/icon-273727.png",
+      "icon_asset_id": 273727,
+      "content_component_id": 320138,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105737": {
+      "path": "wiki-artwork/icon-273687.png",
+      "icon_asset_id": 273687,
+      "content_component_id": 284793,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105705": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 284761,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "38476": {
+      "path": "wiki-artwork/icon-273763.png",
+      "icon_asset_id": 273763,
+      "content_component_id": 318429,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "40306": {
+      "path": "wiki-artwork/icon-273691.png",
+      "icon_asset_id": 273691,
+      "content_component_id": 319963,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "40309": {
+      "path": "wiki-artwork/icon-273691.png",
+      "icon_asset_id": 273691,
+      "content_component_id": 319966,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "65619": {
+      "path": "wiki-artwork/icon-273692.png",
+      "icon_asset_id": 273692,
+      "content_component_id": 303135,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105739": {
+      "path": "wiki-artwork/icon-273692.png",
+      "icon_asset_id": 273692,
+      "content_component_id": 284795,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67664": {
+      "path": "wiki-artwork/icon-273821.png",
+      "icon_asset_id": 273821,
+      "content_component_id": 304062,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67674": {
+      "path": "wiki-artwork/icon-273821.png",
+      "icon_asset_id": 273821,
+      "content_component_id": 304072,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67670": {
+      "path": "wiki-artwork/icon-273821.png",
+      "icon_asset_id": 273821,
+      "content_component_id": 304068,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "60667": {
+      "path": "wiki-artwork/icon-273758.png",
+      "icon_asset_id": 273758,
+      "content_component_id": 305863,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105728": {
+      "path": "wiki-artwork/icon-273765.png",
+      "icon_asset_id": 273765,
+      "content_component_id": 284784,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "69352": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 300063,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105727": {
+      "path": "wiki-artwork/icon-273693.png",
+      "icon_asset_id": 273693,
+      "content_component_id": 284783,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67673": {
+      "path": "wiki-artwork/icon-273821.png",
+      "icon_asset_id": 273821,
+      "content_component_id": 304071,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "85244": {
+      "path": "wiki-artwork/icon-273686.png",
+      "icon_asset_id": 273686,
+      "content_component_id": 291822,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "85246": {
+      "path": "wiki-artwork/icon-273686.png",
+      "icon_asset_id": 273686,
+      "content_component_id": 291824,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "57394": {
+      "path": "wiki-artwork/icon-273769.png",
+      "icon_asset_id": 273769,
+      "content_component_id": 310465,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105710": {
+      "path": "wiki-artwork/icon-273687.png",
+      "icon_asset_id": 273687,
+      "content_component_id": 284766,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "38478": {
+      "path": "wiki-artwork/icon-273786.png",
+      "icon_asset_id": 273786,
+      "content_component_id": 318431,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105750": {
+      "path": "wiki-artwork/icon-273783.png",
+      "icon_asset_id": 273783,
+      "content_component_id": 284806,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "35462": {
+      "path": "wiki-artwork/icon-273695.png",
+      "icon_asset_id": 273695,
+      "content_component_id": 320137,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105722": {
+      "path": "wiki-artwork/icon-273696.png",
+      "icon_asset_id": 273696,
+      "content_component_id": 284778,
+      "match": "gameobject",
+      "contrast_background": "#536057"
+    },
+    "38477": {
+      "path": "wiki-artwork/icon-273688.png",
+      "icon_asset_id": 273688,
+      "content_component_id": 318430,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "69350": {
+      "path": "wiki-artwork/icon-273698.png",
+      "icon_asset_id": 273698,
+      "content_component_id": 300061,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105711": {
+      "path": "wiki-artwork/icon-273779.png",
+      "icon_asset_id": 273779,
+      "content_component_id": 284767,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105733": {
+      "path": "wiki-artwork/icon-273779.png",
+      "icon_asset_id": 273779,
+      "content_component_id": 284789,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "40307": {
+      "path": "wiki-artwork/icon-273699.png",
+      "icon_asset_id": 273699,
+      "content_component_id": 319964,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "40308": {
+      "path": "wiki-artwork/icon-273699.png",
+      "icon_asset_id": 273699,
+      "content_component_id": 319965,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105725": {
+      "path": "wiki-artwork/icon-273687.png",
+      "icon_asset_id": 273687,
+      "content_component_id": 284781,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67678": {
+      "path": "wiki-artwork/icon-273821.png",
+      "icon_asset_id": 273821,
+      "content_component_id": 304076,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105703": {
+      "path": "wiki-artwork/icon-273775.png",
+      "icon_asset_id": 273775,
+      "content_component_id": 284759,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105708": {
+      "path": "wiki-artwork/icon-273775.png",
+      "icon_asset_id": 273775,
+      "content_component_id": 284764,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105715": {
+      "path": "wiki-artwork/icon-273776.png",
+      "icon_asset_id": 273776,
+      "content_component_id": 284771,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67677": {
+      "path": "wiki-artwork/icon-273700.png",
+      "icon_asset_id": 273700,
+      "content_component_id": 304075,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "47614": {
+      "path": "wiki-artwork/icon-273720.png",
+      "icon_asset_id": 273720,
+      "content_component_id": 316401,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105699": {
+      "path": "wiki-artwork/icon-273720.png",
+      "icon_asset_id": 273720,
+      "content_component_id": 284755,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105738": {
+      "path": "wiki-artwork/icon-273681.png",
+      "icon_asset_id": 273681,
+      "content_component_id": 284794,
+      "match": "gameobject",
+      "contrast_background": "#536057"
+    },
+    "105707": {
+      "path": "wiki-artwork/icon-273773.png",
+      "icon_asset_id": 273773,
+      "content_component_id": 284763,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105695": {
+      "path": "wiki-artwork/icon-273781.png",
+      "icon_asset_id": 273781,
+      "content_component_id": 284751,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105712": {
+      "path": "wiki-artwork/icon-273778.png",
+      "icon_asset_id": 273778,
+      "content_component_id": 284768,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67669": {
+      "path": "wiki-artwork/icon-273697.png",
+      "icon_asset_id": 273697,
+      "content_component_id": 304067,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "116139": {
+      "path": "wiki-artwork/icon-273702.png",
+      "icon_asset_id": 273702,
+      "content_component_id": 278400,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "116140": {
+      "path": "wiki-artwork/icon-273702.png",
+      "icon_asset_id": 273702,
+      "content_component_id": 278401,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105735": {
+      "path": "wiki-artwork/icon-273701.png",
+      "icon_asset_id": 273701,
+      "content_component_id": 284791,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "85245": {
+      "path": "wiki-artwork/icon-273686.png",
+      "icon_asset_id": 273686,
+      "content_component_id": 291823,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "71937": {
+      "path": "wiki-artwork/icon-273777.png",
+      "icon_asset_id": 273777,
+      "content_component_id": 301612,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105724": {
+      "path": "wiki-artwork/icon-273687.png",
+      "icon_asset_id": 273687,
+      "content_component_id": 284780,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "57397": {
+      "path": "wiki-artwork/icon-273764.png",
+      "icon_asset_id": 273764,
+      "content_component_id": 310468,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105748": {
+      "path": "wiki-artwork/icon-273703.png",
+      "icon_asset_id": 273703,
+      "content_component_id": 284804,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105723": {
+      "path": "wiki-artwork/icon-273705.png",
+      "icon_asset_id": 273705,
+      "content_component_id": 284779,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "78174": {
+      "path": "wiki-artwork/icon-273706.png",
+      "icon_asset_id": 273706,
+      "content_component_id": 295162,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "116138": {
+      "path": "wiki-artwork/icon-273706.png",
+      "icon_asset_id": 273706,
+      "content_component_id": 278399,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105717": {
+      "path": "wiki-artwork/icon-273782.png",
+      "icon_asset_id": 273782,
+      "content_component_id": 284773,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "80803": {
+      "path": "wiki-artwork/icon-273771.png",
+      "icon_asset_id": 273771,
+      "content_component_id": 296688,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105718": {
+      "path": "wiki-artwork/icon-273726.png",
+      "icon_asset_id": 273726,
+      "content_component_id": 284774,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105694": {
+      "path": "wiki-artwork/icon-273756.png",
+      "icon_asset_id": 273756,
+      "content_component_id": 284750,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105704": {
+      "path": "wiki-artwork/icon-273703.png",
+      "icon_asset_id": 273703,
+      "content_component_id": 284760,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "65543": {
+      "path": "wiki-artwork/icon-273707.png",
+      "icon_asset_id": 273707,
+      "content_component_id": 303188,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "75225": {
+      "path": "wiki-artwork/icon-273707.png",
+      "icon_asset_id": 273707,
+      "content_component_id": 297235,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "75226": {
+      "path": "wiki-artwork/icon-273707.png",
+      "icon_asset_id": 273707,
+      "content_component_id": 297236,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "75227": {
+      "path": "wiki-artwork/icon-273707.png",
+      "icon_asset_id": 273707,
+      "content_component_id": 297237,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "83845": {
+      "path": "wiki-artwork/icon-273707.png",
+      "icon_asset_id": 273707,
+      "content_component_id": 291955,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "80802": {
+      "path": "wiki-artwork/icon-273771.png",
+      "icon_asset_id": 273771,
+      "content_component_id": 296687,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67672": {
+      "path": "wiki-artwork/icon-273708.png",
+      "icon_asset_id": 273708,
+      "content_component_id": 304070,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67662": {
+      "path": "wiki-artwork/icon-273704.png",
+      "icon_asset_id": 273704,
+      "content_component_id": 304060,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67667": {
+      "path": "wiki-artwork/icon-273704.png",
+      "icon_asset_id": 273704,
+      "content_component_id": 304065,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "35461": {
+      "path": "wiki-artwork/icon-273825.png",
+      "icon_asset_id": 273825,
+      "content_component_id": 320136,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67668": {
+      "path": "wiki-artwork/icon-273821.png",
+      "icon_asset_id": 273821,
+      "content_component_id": 304066,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67671": {
+      "path": "wiki-artwork/icon-273821.png",
+      "icon_asset_id": 273821,
+      "content_component_id": 304069,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105721": {
+      "path": "wiki-artwork/icon-273766.png",
+      "icon_asset_id": 273766,
+      "content_component_id": 284777,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "104202": {
+      "path": "wiki-artwork/icon-273761.png",
+      "icon_asset_id": 273761,
+      "content_component_id": 285057,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105740": {
+      "path": "wiki-artwork/icon-273767.png",
+      "icon_asset_id": 273767,
+      "content_component_id": 284796,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105729": {
+      "path": "wiki-artwork/icon-273710.png",
+      "icon_asset_id": 273710,
+      "content_component_id": 284785,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105702": {
+      "path": "wiki-artwork/icon-273768.png",
+      "icon_asset_id": 273768,
+      "content_component_id": 284758,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "67663": {
+      "path": "wiki-artwork/icon-273821.png",
+      "icon_asset_id": 273821,
+      "content_component_id": 304061,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105741": {
+      "path": "wiki-artwork/icon-273703.png",
+      "icon_asset_id": 273703,
+      "content_component_id": 284797,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105716": {
+      "path": "wiki-artwork/icon-273727.png",
+      "icon_asset_id": 273727,
+      "content_component_id": 284772,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "105734": {
+      "path": "wiki-artwork/icon-273727.png",
+      "icon_asset_id": 273727,
+      "content_component_id": 284790,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "92319": {
+      "path": "wiki-artwork/icon-273837.png",
+      "icon_asset_id": 273837,
+      "content_component_id": 289809,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "35464": {
+      "path": "wiki-artwork/icon-273695.png",
+      "icon_asset_id": 273695,
+      "content_component_id": 320139,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    }
+  },
+  "resources": {
+    "278743": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 317669,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "279217": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 317974,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "279343": {
+      "path": "wiki-artwork/icon-273779.png",
+      "icon_asset_id": 273779,
+      "content_component_id": 317797,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "279345": {
+      "path": "wiki-artwork/icon-273770.png",
+      "icon_asset_id": 273770,
+      "content_component_id": 317799,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "279351": {
+      "path": "wiki-artwork/icon-273779.png",
+      "icon_asset_id": 273779,
+      "content_component_id": 317797,
+      "match": "localization_key",
+      "contrast_background": "#edf0e4"
+    },
+    "279352": {
+      "path": "wiki-artwork/icon-273681.png",
+      "icon_asset_id": 273681,
+      "content_component_id": 317802,
+      "match": "gameobject",
+      "contrast_background": "#536057"
+    },
+    "279353": {
+      "path": "wiki-artwork/icon-273779.png",
+      "icon_asset_id": 273779,
+      "content_component_id": 317803,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "281861": {
+      "path": "wiki-artwork/icon-273766.png",
+      "icon_asset_id": 273766,
+      "content_component_id": 320477,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "284026": {
+      "path": "wiki-artwork/icon-273752.png",
+      "icon_asset_id": 273752,
+      "content_component_id": 313751,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "284810": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 311404,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "284894": {
+      "path": "wiki-artwork/icon-273780.png",
+      "icon_asset_id": 273780,
+      "content_component_id": 311468,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "284895": {
+      "path": "wiki-artwork/icon-273780.png",
+      "icon_asset_id": 273780,
+      "content_component_id": 311469,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "285149": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 311773,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "285897": {
+      "path": "wiki-artwork/icon-273767.png",
+      "icon_asset_id": 273767,
+      "content_component_id": 315234,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "285899": {
+      "path": "wiki-artwork/icon-273696.png",
+      "icon_asset_id": 273696,
+      "content_component_id": 315235,
+      "match": "gameobject",
+      "contrast_background": "#536057"
+    },
+    "285901": {
+      "path": "wiki-artwork/icon-273747.png",
+      "icon_asset_id": 273747,
+      "content_component_id": 315236,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "285908": {
+      "path": "wiki-artwork/icon-273773.png",
+      "icon_asset_id": 273773,
+      "content_component_id": 315237,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "285910": {
+      "path": "wiki-artwork/icon-273768.png",
+      "icon_asset_id": 273768,
+      "content_component_id": 315238,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "286343": {
+      "path": "wiki-artwork/icon-273769.png",
+      "icon_asset_id": 273769,
+      "content_component_id": 315868,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "286344": {
+      "path": "wiki-artwork/icon-273759.png",
+      "icon_asset_id": 273759,
+      "content_component_id": 315869,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "286347": {
+      "path": "wiki-artwork/icon-273774.png",
+      "icon_asset_id": 273774,
+      "content_component_id": 315871,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "286358": {
+      "path": "wiki-artwork/icon-273760.png",
+      "icon_asset_id": 273760,
+      "content_component_id": 315875,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "286359": {
+      "path": "wiki-artwork/icon-273760.png",
+      "icon_asset_id": 273760,
+      "content_component_id": 315875,
+      "match": "localization_key",
+      "contrast_background": "#edf0e4"
+    },
+    "286361": {
+      "path": "wiki-artwork/icon-273764.png",
+      "icon_asset_id": 273764,
+      "content_component_id": 315877,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "286781": {
+      "path": "wiki-artwork/icon-273761.png",
+      "icon_asset_id": 273761,
+      "content_component_id": 316153,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "287118": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 314141,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "288580": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 307352,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "290524": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 306453,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "292310": {
+      "path": "wiki-artwork/icon-273755.png",
+      "icon_asset_id": 273755,
+      "content_component_id": 310841,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "292311": {
+      "path": "wiki-artwork/icon-273694.png",
+      "icon_asset_id": 273694,
+      "content_component_id": 310842,
+      "match": "gameobject",
+      "contrast_background": "#536057"
+    },
+    "293926": {
+      "path": "wiki-artwork/icon-273781.png",
+      "icon_asset_id": 273781,
+      "content_component_id": 301440,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "294702": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 302037,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "295643": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 299833,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "296315": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 300363,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "300123": {
+      "path": "wiki-artwork/icon-273783.png",
+      "icon_asset_id": 273783,
+      "content_component_id": 295959,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "300124": {
+      "path": "wiki-artwork/icon-273756.png",
+      "icon_asset_id": 273756,
+      "content_component_id": 295960,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "300125": {
+      "path": "wiki-artwork/icon-273749.png",
+      "icon_asset_id": 273749,
+      "content_component_id": 295961,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "300126": {
+      "path": "wiki-artwork/icon-273763.png",
+      "icon_asset_id": 273763,
+      "content_component_id": 295962,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "300127": {
+      "path": "wiki-artwork/icon-273784.png",
+      "icon_asset_id": 273784,
+      "content_component_id": 295963,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "300128": {
+      "path": "wiki-artwork/icon-273748.png",
+      "icon_asset_id": 273748,
+      "content_component_id": 295964,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "300130": {
+      "path": "wiki-artwork/icon-273753.png",
+      "icon_asset_id": 273753,
+      "content_component_id": 295965,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "300131": {
+      "path": "wiki-artwork/icon-273776.png",
+      "icon_asset_id": 273776,
+      "content_component_id": 295966,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "303210": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 298823,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "303802": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 299436,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "304112": {
+      "path": "wiki-artwork/icon-273746.png",
+      "icon_asset_id": 273746,
+      "content_component_id": 297025,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "304113": {
+      "path": "wiki-artwork/icon-273771.png",
+      "icon_asset_id": 273771,
+      "content_component_id": 297026,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "304504": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 297431,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "305506": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 297861,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "308077": {
+      "path": "wiki-artwork/icon-273777.png",
+      "icon_asset_id": 273777,
+      "content_component_id": 289768,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "308078": {
+      "path": "wiki-artwork/icon-273750.png",
+      "icon_asset_id": 273750,
+      "content_component_id": 289769,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "308079": {
+      "path": "wiki-artwork/icon-273775.png",
+      "icon_asset_id": 273775,
+      "content_component_id": 289770,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "309166": {
+      "path": "wiki-artwork/icon-273765.png",
+      "icon_asset_id": 273765,
+      "content_component_id": 293458,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "309169": {
+      "path": "wiki-artwork/icon-273786.png",
+      "icon_asset_id": 273786,
+      "content_component_id": 293459,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "309486": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 293666,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "310332": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 291769,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "310740": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 292454,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "312275": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 285619,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "312704": {
+      "path": "wiki-artwork/icon-273778.png",
+      "icon_asset_id": 273778,
+      "content_component_id": 282806,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "314863": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 287861,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "318457": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 279650,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "319667": {
+      "path": "wiki-artwork/icon-273751.png",
+      "icon_asset_id": 273751,
+      "content_component_id": 278125,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "319673": {
+      "path": "wiki-artwork/icon-273751.png",
+      "icon_asset_id": 273751,
+      "content_component_id": 278127,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "319676": {
+      "path": "wiki-artwork/icon-273751.png",
+      "icon_asset_id": 273751,
+      "content_component_id": 278129,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "319679": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 278131,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "319680": {
+      "path": "wiki-artwork/icon-273758.png",
+      "icon_asset_id": 273758,
+      "content_component_id": 278132,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "319683": {
+      "path": "wiki-artwork/icon-273754.png",
+      "icon_asset_id": 273754,
+      "content_component_id": 278133,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "319696": {
+      "path": "wiki-artwork/icon-273758.png",
+      "icon_asset_id": 273758,
+      "content_component_id": 278138,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "320441": {
+      "path": "wiki-artwork/icon-273772.png",
+      "icon_asset_id": 273772,
+      "content_component_id": 281895,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "320491": {
+      "path": "wiki-artwork/icon-273762.png",
+      "icon_asset_id": 273762,
+      "content_component_id": 281845,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    },
+    "320813": {
+      "path": "wiki-artwork/icon-273785.png",
+      "icon_asset_id": 273785,
+      "content_component_id": 282237,
+      "match": "gameobject",
+      "contrast_background": "#edf0e4"
+    }
+  },
+  "provenance": "Original game artwork extracted read-only from resources.assets. Portraits and biome previews preserve source sprite colors. Building/resource icons use their original Lines sprites unchanged: no invented colors, no tint, no resizing. Game UI applies runtime tint/composition; exact runtime appearance has not been reproduced. Icon association uses ContentBehaviour.CompositeIcon references.",
+  "icons": {
+    "273681": {
+      "path": "wiki-artwork/icon-273681.png",
+      "source_sprite_id": 9463,
+      "source_icon_id": 273681,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273682": {
+      "path": "wiki-artwork/icon-273682.png",
+      "source_sprite_id": 10093,
+      "source_icon_id": 273682,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273683": {
+      "path": "wiki-artwork/icon-273683.png",
+      "source_sprite_id": 10084,
+      "source_icon_id": 273683,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273684": {
+      "path": "wiki-artwork/icon-273684.png",
+      "source_sprite_id": 9594,
+      "source_icon_id": 273684,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273685": {
+      "path": "wiki-artwork/icon-273685.png",
+      "source_sprite_id": 10124,
+      "source_icon_id": 273685,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273686": {
+      "path": "wiki-artwork/icon-273686.png",
+      "source_sprite_id": 9441,
+      "source_icon_id": 273686,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273687": {
+      "path": "wiki-artwork/icon-273687.png",
+      "source_sprite_id": 9446,
+      "source_icon_id": 273687,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273688": {
+      "path": "wiki-artwork/icon-273688.png",
+      "source_sprite_id": 9988,
+      "source_icon_id": 273688,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273689": {
+      "path": "wiki-artwork/icon-273689.png",
+      "source_sprite_id": 9485,
+      "source_icon_id": 273689,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273690": {
+      "path": "wiki-artwork/icon-273690.png",
+      "source_sprite_id": 9596,
+      "source_icon_id": 273690,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273691": {
+      "path": "wiki-artwork/icon-273691.png",
+      "source_sprite_id": 10062,
+      "source_icon_id": 273691,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273692": {
+      "path": "wiki-artwork/icon-273692.png",
+      "source_sprite_id": 9445,
+      "source_icon_id": 273692,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273693": {
+      "path": "wiki-artwork/icon-273693.png",
+      "source_sprite_id": 9529,
+      "source_icon_id": 273693,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273694": {
+      "path": "wiki-artwork/icon-273694.png",
+      "source_sprite_id": 9977,
+      "source_icon_id": 273694,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273695": {
+      "path": "wiki-artwork/icon-273695.png",
+      "source_sprite_id": 9538,
+      "source_icon_id": 273695,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273696": {
+      "path": "wiki-artwork/icon-273696.png",
+      "source_sprite_id": 9542,
+      "source_icon_id": 273696,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273697": {
+      "path": "wiki-artwork/icon-273697.png",
+      "source_sprite_id": 10123,
+      "source_icon_id": 273697,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273698": {
+      "path": "wiki-artwork/icon-273698.png",
+      "source_sprite_id": 10081,
+      "source_icon_id": 273698,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273699": {
+      "path": "wiki-artwork/icon-273699.png",
+      "source_sprite_id": 9437,
+      "source_icon_id": 273699,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273700": {
+      "path": "wiki-artwork/icon-273700.png",
+      "source_sprite_id": 10038,
+      "source_icon_id": 273700,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273701": {
+      "path": "wiki-artwork/icon-273701.png",
+      "source_sprite_id": 9530,
+      "source_icon_id": 273701,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273702": {
+      "path": "wiki-artwork/icon-273702.png",
+      "source_sprite_id": 10057,
+      "source_icon_id": 273702,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273703": {
+      "path": "wiki-artwork/icon-273703.png",
+      "source_sprite_id": 9443,
+      "source_icon_id": 273703,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273704": {
+      "path": "wiki-artwork/icon-273704.png",
+      "source_sprite_id": 9444,
+      "source_icon_id": 273704,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273705": {
+      "path": "wiki-artwork/icon-273705.png",
+      "source_sprite_id": 10086,
+      "source_icon_id": 273705,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273706": {
+      "path": "wiki-artwork/icon-273706.png",
+      "source_sprite_id": 9967,
+      "source_icon_id": 273706,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273707": {
+      "path": "wiki-artwork/icon-273707.png",
+      "source_sprite_id": 10131,
+      "source_icon_id": 273707,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273708": {
+      "path": "wiki-artwork/icon-273708.png",
+      "source_sprite_id": 9547,
+      "source_icon_id": 273708,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273709": {
+      "path": "wiki-artwork/icon-273709.png",
+      "source_sprite_id": 9585,
+      "source_icon_id": 273709,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273710": {
+      "path": "wiki-artwork/icon-273710.png",
+      "source_sprite_id": 10046,
+      "source_icon_id": 273710,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273719": {
+      "path": "wiki-artwork/icon-273719.png",
+      "source_sprite_id": 9519,
+      "source_icon_id": 273719,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273720": {
+      "path": "wiki-artwork/icon-273720.png",
+      "source_sprite_id": 10011,
+      "source_icon_id": 273720,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273722": {
+      "path": "wiki-artwork/icon-273722.png",
+      "source_sprite_id": 9589,
+      "source_icon_id": 273722,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273726": {
+      "path": "wiki-artwork/icon-273726.png",
+      "source_sprite_id": 10006,
+      "source_icon_id": 273726,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273727": {
+      "path": "wiki-artwork/icon-273727.png",
+      "source_sprite_id": 9484,
+      "source_icon_id": 273727,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273746": {
+      "path": "wiki-artwork/icon-273746.png",
+      "source_sprite_id": 9592,
+      "source_icon_id": 273746,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273747": {
+      "path": "wiki-artwork/icon-273747.png",
+      "source_sprite_id": 9491,
+      "source_icon_id": 273747,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273748": {
+      "path": "wiki-artwork/icon-273748.png",
+      "source_sprite_id": 9510,
+      "source_icon_id": 273748,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273749": {
+      "path": "wiki-artwork/icon-273749.png",
+      "source_sprite_id": 9994,
+      "source_icon_id": 273749,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273750": {
+      "path": "wiki-artwork/icon-273750.png",
+      "source_sprite_id": 9590,
+      "source_icon_id": 273750,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273751": {
+      "path": "wiki-artwork/icon-273751.png",
+      "source_sprite_id": 9458,
+      "source_icon_id": 273751,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273752": {
+      "path": "wiki-artwork/icon-273752.png",
+      "source_sprite_id": 10122,
+      "source_icon_id": 273752,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273753": {
+      "path": "wiki-artwork/icon-273753.png",
+      "source_sprite_id": 10130,
+      "source_icon_id": 273753,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273754": {
+      "path": "wiki-artwork/icon-273754.png",
+      "source_sprite_id": 9492,
+      "source_icon_id": 273754,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273755": {
+      "path": "wiki-artwork/icon-273755.png",
+      "source_sprite_id": 9552,
+      "source_icon_id": 273755,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273756": {
+      "path": "wiki-artwork/icon-273756.png",
+      "source_sprite_id": 9486,
+      "source_icon_id": 273756,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273757": {
+      "path": "wiki-artwork/icon-273757.png",
+      "source_sprite_id": 9560,
+      "source_icon_id": 273757,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273758": {
+      "path": "wiki-artwork/icon-273758.png",
+      "source_sprite_id": 10089,
+      "source_icon_id": 273758,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273759": {
+      "path": "wiki-artwork/icon-273759.png",
+      "source_sprite_id": 10091,
+      "source_icon_id": 273759,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273760": {
+      "path": "wiki-artwork/icon-273760.png",
+      "source_sprite_id": 9532,
+      "source_icon_id": 273760,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273761": {
+      "path": "wiki-artwork/icon-273761.png",
+      "source_sprite_id": 10030,
+      "source_icon_id": 273761,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273762": {
+      "path": "wiki-artwork/icon-273762.png",
+      "source_sprite_id": 9554,
+      "source_icon_id": 273762,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273763": {
+      "path": "wiki-artwork/icon-273763.png",
+      "source_sprite_id": 9984,
+      "source_icon_id": 273763,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273764": {
+      "path": "wiki-artwork/icon-273764.png",
+      "source_sprite_id": 10127,
+      "source_icon_id": 273764,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273765": {
+      "path": "wiki-artwork/icon-273765.png",
+      "source_sprite_id": 9482,
+      "source_icon_id": 273765,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273766": {
+      "path": "wiki-artwork/icon-273766.png",
+      "source_sprite_id": 9494,
+      "source_icon_id": 273766,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273767": {
+      "path": "wiki-artwork/icon-273767.png",
+      "source_sprite_id": 10043,
+      "source_icon_id": 273767,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273768": {
+      "path": "wiki-artwork/icon-273768.png",
+      "source_sprite_id": 10094,
+      "source_icon_id": 273768,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273769": {
+      "path": "wiki-artwork/icon-273769.png",
+      "source_sprite_id": 9593,
+      "source_icon_id": 273769,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273770": {
+      "path": "wiki-artwork/icon-273770.png",
+      "source_sprite_id": 9546,
+      "source_icon_id": 273770,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273771": {
+      "path": "wiki-artwork/icon-273771.png",
+      "source_sprite_id": 9577,
+      "source_icon_id": 273771,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273772": {
+      "path": "wiki-artwork/icon-273772.png",
+      "source_sprite_id": 9574,
+      "source_icon_id": 273772,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273773": {
+      "path": "wiki-artwork/icon-273773.png",
+      "source_sprite_id": 9996,
+      "source_icon_id": 273773,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273774": {
+      "path": "wiki-artwork/icon-273774.png",
+      "source_sprite_id": 9551,
+      "source_icon_id": 273774,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273775": {
+      "path": "wiki-artwork/icon-273775.png",
+      "source_sprite_id": 9971,
+      "source_icon_id": 273775,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273776": {
+      "path": "wiki-artwork/icon-273776.png",
+      "source_sprite_id": 10001,
+      "source_icon_id": 273776,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273777": {
+      "path": "wiki-artwork/icon-273777.png",
+      "source_sprite_id": 9521,
+      "source_icon_id": 273777,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273778": {
+      "path": "wiki-artwork/icon-273778.png",
+      "source_sprite_id": 10071,
+      "source_icon_id": 273778,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273779": {
+      "path": "wiki-artwork/icon-273779.png",
+      "source_sprite_id": 10026,
+      "source_icon_id": 273779,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273780": {
+      "path": "wiki-artwork/icon-273780.png",
+      "source_sprite_id": 9578,
+      "source_icon_id": 273780,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273781": {
+      "path": "wiki-artwork/icon-273781.png",
+      "source_sprite_id": 10037,
+      "source_icon_id": 273781,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273782": {
+      "path": "wiki-artwork/icon-273782.png",
+      "source_sprite_id": 9479,
+      "source_icon_id": 273782,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273783": {
+      "path": "wiki-artwork/icon-273783.png",
+      "source_sprite_id": 9442,
+      "source_icon_id": 273783,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273784": {
+      "path": "wiki-artwork/icon-273784.png",
+      "source_sprite_id": 10078,
+      "source_icon_id": 273784,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273785": {
+      "path": "wiki-artwork/icon-273785.png",
+      "source_sprite_id": 10028,
+      "source_icon_id": 273785,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273786": {
+      "path": "wiki-artwork/icon-273786.png",
+      "source_sprite_id": 9553,
+      "source_icon_id": 273786,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273821": {
+      "path": "wiki-artwork/icon-273821.png",
+      "source_sprite_id": 9503,
+      "source_icon_id": 273821,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273825": {
+      "path": "wiki-artwork/icon-273825.png",
+      "source_sprite_id": 9478,
+      "source_icon_id": 273825,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273837": {
+      "path": "wiki-artwork/icon-273837.png",
+      "source_sprite_id": 10039,
+      "source_icon_id": 273837,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    },
+    "273841": {
+      "path": "wiki-artwork/icon-273841.png",
+      "source_sprite_id": 9540,
+      "source_icon_id": 273841,
+      "source_layer": "Lines",
+      "pixel_treatment": "Original extracted RGBA pixels; no tint, recoloring, or resizing."
+    }
+  },
+  "coverage": {
+    "buildings": 150,
+    "resources": 70,
+    "unique_images": 80,
+    "biome_images": 6,
+    "leader_images": 45
+  },
+  "biomes": {
+    "Winter": {
+      "path": "wiki-artwork/minibiome-winter.png",
+      "sprite_asset_id": 9702,
+      "source_name": "MiniBiome-Winter",
+      "presentation": "original sprite image"
+    },
+    "Halloween": {
+      "path": "wiki-artwork/mapshape-valley-biomehalloween.png",
+      "sprite_asset_id": 9791,
+      "source_name": "MapShape_Valley BiomeHalloween",
+      "presentation": "original sprite image"
+    },
+    "Evergreen": {
+      "path": "wiki-artwork/minibiome-evergreen.png",
+      "sprite_asset_id": 9897,
+      "source_name": "MiniBiome-Evergreen",
+      "presentation": "original sprite image"
+    },
+    "Swamp": {
+      "path": "wiki-artwork/mapshape-valley-biomeswamp.png",
+      "sprite_asset_id": 9930,
+      "source_name": "MapShape_Valley BiomeSwamp",
+      "presentation": "original sprite image"
+    },
+    "Desert": {
+      "path": "wiki-artwork/minibiome-desert.png",
+      "sprite_asset_id": 9943,
+      "source_name": "MiniBiome-Desert",
+      "presentation": "original sprite image"
+    },
+    "Tropical": {
+      "path": "wiki-artwork/minibiome-tropical.png",
+      "sprite_asset_id": 9963,
+      "source_name": "MiniBiome-Tropical",
+      "presentation": "original sprite image"
+    }
+  },
+  "leaders": {
+    "Jaqweshia C": {
+      "path": "wiki-artwork/leader-jaqweshia-c.png",
+      "sprite_asset_id": 9601,
+      "source_name": "Leader Jaqweshia C",
+      "presentation": "original sprite image"
+    },
+    "Cory B": {
+      "path": "wiki-artwork/leader-cory-b.png",
+      "sprite_asset_id": 9608,
+      "source_name": "Leader Cory B",
+      "presentation": "original sprite image"
+    },
+    "Chico A": {
+      "path": "wiki-artwork/leader-chico-a.png",
+      "sprite_asset_id": 9610,
+      "source_name": "Leader Chico A",
+      "presentation": "original sprite image"
+    },
+    "Jelena A": {
+      "path": "wiki-artwork/leader-jelena-a.png",
+      "sprite_asset_id": 9617,
+      "source_name": "Leader Jelena A",
+      "presentation": "original sprite image"
+    },
+    "Jaqweshia B": {
+      "path": "wiki-artwork/leader-jaqweshia-b.png",
+      "sprite_asset_id": 9632,
+      "source_name": "Leader Jaqweshia B",
+      "presentation": "original sprite image"
+    },
+    "Fjordi C": {
+      "path": "wiki-artwork/leader-fjordi-c.png",
+      "sprite_asset_id": 9633,
+      "source_name": "Leader Fjordi C",
+      "presentation": "original sprite image"
+    },
+    "Oona C": {
+      "path": "wiki-artwork/leader-oona-c.png",
+      "sprite_asset_id": 9649,
+      "source_name": "Leader Oona C",
+      "presentation": "original sprite image"
+    },
+    "Cory C": {
+      "path": "wiki-artwork/leader-cory-c.png",
+      "sprite_asset_id": 9670,
+      "source_name": "Leader Cory C",
+      "presentation": "original sprite image"
+    },
+    "Kaia A": {
+      "path": "wiki-artwork/leader-kaia-a.png",
+      "sprite_asset_id": 9694,
+      "source_name": "Leader Kaia A",
+      "presentation": "original sprite image"
+    },
+    "Jelena C": {
+      "path": "wiki-artwork/leader-jelena-c.png",
+      "sprite_asset_id": 9698,
+      "source_name": "Leader Jelena C",
+      "presentation": "original sprite image"
+    },
+    "Felix A": {
+      "path": "wiki-artwork/leader-felix-a.png",
+      "sprite_asset_id": 9704,
+      "source_name": "Leader Felix A",
+      "presentation": "original sprite image"
+    },
+    "Izzy B": {
+      "path": "wiki-artwork/leader-izzy-b.png",
+      "sprite_asset_id": 9708,
+      "source_name": "Leader Izzy B",
+      "presentation": "original sprite image"
+    },
+    "Maira A": {
+      "path": "wiki-artwork/leader-maira-a.png",
+      "sprite_asset_id": 9709,
+      "source_name": "Leader Maira A",
+      "presentation": "original sprite image"
+    },
+    "Cory A": {
+      "path": "wiki-artwork/leader-cory-a.png",
+      "sprite_asset_id": 9725,
+      "source_name": "Leader Cory A",
+      "presentation": "original sprite image"
+    },
+    "Jelena B": {
+      "path": "wiki-artwork/leader-jelena-b.png",
+      "sprite_asset_id": 9732,
+      "source_name": "Leader Jelena B",
+      "presentation": "original sprite image"
+    },
+    "Chico B": {
+      "path": "wiki-artwork/leader-chico-b.png",
+      "sprite_asset_id": 9735,
+      "source_name": "Leader Chico B",
+      "presentation": "original sprite image"
+    },
+    "Jaqweshia A": {
+      "path": "wiki-artwork/leader-jaqweshia-a.png",
+      "sprite_asset_id": 9737,
+      "source_name": "Leader Jaqweshia A",
+      "presentation": "original sprite image"
+    },
+    "Edgar C": {
+      "path": "wiki-artwork/leader-edgar-c.png",
+      "sprite_asset_id": 9739,
+      "source_name": "Leader Edgar C",
+      "presentation": "original sprite image"
+    },
+    "Pablo A": {
+      "path": "wiki-artwork/leader-pablo-a.png",
+      "sprite_asset_id": 9746,
+      "source_name": "Leader Pablo A",
+      "presentation": "original sprite image"
+    },
+    "Pablo B": {
+      "path": "wiki-artwork/leader-pablo-b.png",
+      "sprite_asset_id": 9753,
+      "source_name": "Leader Pablo B",
+      "presentation": "original sprite image"
+    },
+    "Chico C": {
+      "path": "wiki-artwork/leader-chico-c.png",
+      "sprite_asset_id": 9765,
+      "source_name": "Leader Chico C",
+      "presentation": "original sprite image"
+    },
+    "Miranda B": {
+      "path": "wiki-artwork/leader-miranda-b.png",
+      "sprite_asset_id": 9766,
+      "source_name": "Leader Miranda B",
+      "presentation": "original sprite image"
+    },
+    "Maddy B": {
+      "path": "wiki-artwork/leader-maddy-b.png",
+      "sprite_asset_id": 9775,
+      "source_name": "Leader Maddy B",
+      "presentation": "original sprite image"
+    },
+    "Edgar A": {
+      "path": "wiki-artwork/leader-edgar-a.png",
+      "sprite_asset_id": 9779,
+      "source_name": "Leader Edgar A",
+      "presentation": "original sprite image"
+    },
+    "Edgar B": {
+      "path": "wiki-artwork/leader-edgar-b.png",
+      "sprite_asset_id": 9780,
+      "source_name": "Leader Edgar B",
+      "presentation": "original sprite image"
+    },
+    "Oona B": {
+      "path": "wiki-artwork/leader-oona-b.png",
+      "sprite_asset_id": 9788,
+      "source_name": "Leader Oona B",
+      "presentation": "original sprite image"
+    },
+    "Pablo C": {
+      "path": "wiki-artwork/leader-pablo-c.png",
+      "sprite_asset_id": 9798,
+      "source_name": "Leader Pablo C",
+      "presentation": "original sprite image"
+    },
+    "Maira B": {
+      "path": "wiki-artwork/leader-maira-b.png",
+      "sprite_asset_id": 9800,
+      "source_name": "Leader Maira B",
+      "presentation": "original sprite image"
+    },
+    "Maira C": {
+      "path": "wiki-artwork/leader-maira-c.png",
+      "sprite_asset_id": 9806,
+      "source_name": "Leader Maira C",
+      "presentation": "original sprite image"
+    },
+    "Kaia C": {
+      "path": "wiki-artwork/leader-kaia-c.png",
+      "sprite_asset_id": 9807,
+      "source_name": "Leader Kaia C",
+      "presentation": "original sprite image"
+    },
+    "Izzy C": {
+      "path": "wiki-artwork/leader-izzy-c.png",
+      "sprite_asset_id": 9820,
+      "source_name": "Leader Izzy C",
+      "presentation": "original sprite image"
+    },
+    "Kaia B": {
+      "path": "wiki-artwork/leader-kaia-b.png",
+      "sprite_asset_id": 9825,
+      "source_name": "Leader Kaia B",
+      "presentation": "original sprite image"
+    },
+    "Miranda": {
+      "path": "wiki-artwork/leader-miranda.png",
+      "sprite_asset_id": 9831,
+      "source_name": "Leader Miranda",
+      "presentation": "original sprite image"
+    },
+    "Felix B": {
+      "path": "wiki-artwork/leader-felix-b.png",
+      "sprite_asset_id": 9843,
+      "source_name": "Leader Felix B",
+      "presentation": "original sprite image"
+    },
+    "Felix": {
+      "path": "wiki-artwork/leader-felix.png",
+      "sprite_asset_id": 9844,
+      "source_name": "Leader Felix",
+      "presentation": "original sprite image"
+    },
+    "Maddy C": {
+      "path": "wiki-artwork/leader-maddy-c.png",
+      "sprite_asset_id": 9862,
+      "source_name": "Leader Maddy C",
+      "presentation": "original sprite image"
+    },
+    "Izzy A": {
+      "path": "wiki-artwork/leader-izzy-a.png",
+      "sprite_asset_id": 9864,
+      "source_name": "Leader Izzy A",
+      "presentation": "original sprite image"
+    },
+    "Pablo": {
+      "path": "wiki-artwork/leader-pablo.png",
+      "sprite_asset_id": 9865,
+      "source_name": "Leader Pablo",
+      "presentation": "original sprite image"
+    },
+    "Miranda A": {
+      "path": "wiki-artwork/leader-miranda-a.png",
+      "sprite_asset_id": 9890,
+      "source_name": "Leader Miranda A",
+      "presentation": "original sprite image"
+    },
+    "Felix C": {
+      "path": "wiki-artwork/leader-felix-c.png",
+      "sprite_asset_id": 9910,
+      "source_name": "Leader Felix C",
+      "presentation": "original sprite image"
+    },
+    "Fjordi A": {
+      "path": "wiki-artwork/leader-fjordi-a.png",
+      "sprite_asset_id": 9919,
+      "source_name": "Leader Fjordi A",
+      "presentation": "original sprite image"
+    },
+    "Oona A": {
+      "path": "wiki-artwork/leader-oona-a.png",
+      "sprite_asset_id": 9921,
+      "source_name": "Leader Oona A",
+      "presentation": "original sprite image"
+    },
+    "Maddy A": {
+      "path": "wiki-artwork/leader-maddy-a.png",
+      "sprite_asset_id": 9940,
+      "source_name": "Leader Maddy A",
+      "presentation": "original sprite image"
+    },
+    "Fjordi B": {
+      "path": "wiki-artwork/leader-fjordi-b.png",
+      "sprite_asset_id": 9945,
+      "source_name": "Leader Fjordi B",
+      "presentation": "original sprite image"
+    },
+    "Miranda C": {
+      "path": "wiki-artwork/leader-miranda-c.png",
+      "sprite_asset_id": 9946,
+      "source_name": "Leader Miranda C",
+      "presentation": "original sprite image"
+    }
+  },
+  "color_evidence": {
+    "palette_asset_id": 273032,
+    "dark_override_asset_id": 273033,
+    "finding": "Original UIColorPalette recovered, but palette alone does not establish runtime icon layer tint rules. To honor unchanged game art, original line sprite pixels are used. Source sprites include black and white variants; runtime tint appearance is not established."
+  }
+}
