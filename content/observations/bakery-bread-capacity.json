@@ -4,7 +4,7 @@
     "type": "buildings",
     "id": "57395"
   },
-  "claim": "The Bakery holds up to 40 Bread. The decoded balance of 5 Flour + 4 Stick → 40 Bread is a whole-number ratio (1 Flour + 0.8 Stick per 8 Bread), not a batch of 40 produced at once.",
+  "claim": "The Bakery bakes 8 Bread from 1 Flour and 1 Stick per cycle and keeps baking until it holds 40 Bread; 40 is a storage capacity, not a batch size.",
   "status": "open",
   "evidence": {
     "kind": "player-report",
@@ -12,5 +12,5 @@
     "date": "2026-10-25",
     "reference": "Maintainer report, 25 October 2026. The 40 Bread figure shown by earlier builds of this wiki was the ratio artifact; a 40-unit capacity is reported from play."
   },
-  "notes": "Storage capacities are not decoded for any building. Pages now show ratios per primary input. A controlled test should confirm the Bakery capacity and record capacities for other production buildings."
+  "notes": "Recorded in the Bakery record's gameplay block. The per-cycle recipe is confirmed by the field guide and the decoded formula graph. The capacity is not in the exported data: the StockpileBehaviour, ResourcePileBehaviour and PileableBehaviour objects were round-trip validated but never exported. A controlled test or a pile decode should confirm it and supply capacities for other buildings."
 }

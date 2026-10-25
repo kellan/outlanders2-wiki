@@ -13,9 +13,10 @@ How to read the "Source" column:
 
 | Need | Why it matters | Source | Status |
 |---|---|---|---|
-| Storage capacity per production building | Players plan hauling around it; the Bakery figure of 40 Bread was mistaken for a batch size | mine (not yet located in decoded components), test | Bakery reported as 40 Bread by the maintainer, 25 Oct 2026; every other building unknown |
+| Output storage capacity per production building | Workers stop when the output store is full, so capacity bounds every production plan | mine: the `StockpileBehaviour`, `ResourcePileBehaviour` and `PileableBehaviour` objects were round-trip validated (ids 279804, 276812, 278269) but their fields were never exported. Run `python3 research.py run stream_decode.py ResourcePileBehaviour StockpileBehaviour PileableBehaviour` in the research workspace, then link each pile to its building's output; test otherwise | Bakery: 40 Bread recorded from the maintainer's report (player-report, open). Every other building unknown |
 | Production time per cycle for each building | Needed before any throughput or "how many bakeries for N villagers" guidance | mine (formula step durations, `work_iterations` is 0 on most steps), test | Unknown for all buildings |
-| Field guide text, recipe, cost and worker slots for every building | Displayed recipe is the player-facing truth and sometimes disagrees with decoded balances | screen | 4 of 63 production buildings captured (Bakery, Windmill, Sawmill, Greenhouse) |
+| Field guide text, recipe, cost and worker slots for every building | Displayed recipe is the player-facing per-cycle recipe; derived ratios stand in until it is captured | screen | 4 of 63 production buildings captured (Bakery, Windmill, Sawmill, Greenhouse); only the Bakery has a confirmed `gameplay.recipe_per_cycle` |
+| Whether leftover fuel carries between cycles (Bakery formula 297381 is named "1 Stick -> 8 KitchenFire" but serializes 10) | Decides whether every fifth cycle is fuel-free or the extra fire is wasted | mine (formula tuning history), test | Unverified |
 | Construction stage repetition and alternative materials | Construction totals may be under- or over-counted | mine, test | Unresolved for all buildings |
 | Equipment requirements and wear | Some formula steps require equipment; effect on output unknown | mine, test | Unresolved |
 | Which packaged building and resource variants are used in play | Catalog lists several same-name definitions | screen, test | Unverified |

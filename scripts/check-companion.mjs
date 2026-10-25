@@ -3,7 +3,7 @@ import {harness} from './render-harness.mjs';
 const h=await harness();
 const bakery=h.render('buildings/bakery/');
 assert.ok(bakery.includes('class="infobox"'),'infobox');
-assert.ok(bakery.includes('Produces'),'infobox produces');
+assert.ok(bakery.includes('Recipe'),'infobox recipe');
 assert.ok(bakery.includes('/food/bread/'),'infobox links output');
 assert.ok(bakery.includes('class="verify-badge"'),'verification badge');
 assert.ok(bakery.includes('github.com/kellan/outlanders2-wiki/edit/main/content/buildings/57395.json'),'suggest an edit link');
@@ -44,8 +44,17 @@ const oona=h.render('heroes/oona/');assert.ok(!/issues\/new\?[^"]*Oona/.test(oon
 console.log('PASS: infoboxes, verification badge, objective and recipe backlinks, grouped availability, story context, navboxes, collapsed research detail, catalog columns and contribution links.');
 // Derived balances are ratios, not batches or capacities.
 const bakeryBox=bakery.slice(bakery.indexOf('class="infobox"'),bakery.indexOf('</aside>'));
-assert.ok(bakeryBox.includes('8 Bread'),'infobox shows per-flour ratio');assert.ok(bakeryBox.includes('0.8 Stick'),'infobox shows fuel per flour');
+assert.ok(bakeryBox.includes('8 Bread'),'infobox shows per-cycle output');assert.ok(bakery.includes('ratio per 1 Flour'),'formula-graph ratio still shown as supporting detail');
 assert.ok(!/40 Bread|40<\/strong> Bread/.test(bakeryBox),'infobox must not present 40 Bread as output');
 assert.ok(bakery.includes('not a batch size, a storage capacity or a production rate'));
 assert.ok(h.render('verification/buildings/bakery/').includes('holds up to 40 Bread'),'capacity observation on research page');
 console.log('PASS: ratio presentation and Bakery capacity observation.');
+// Per-cycle recipe and capacity come from the gameplay block.
+const box2=(()=>{const b=h.render('buildings/bakery/');return b.slice(b.indexOf('class="infobox"'),b.indexOf('</aside>'))})();
+assert.ok(box2.includes('1 Flour')&&box2.includes('1 Stick')&&box2.includes('8 Bread'),'per-cycle recipe in infobox');
+assert.ok(box2.includes('Capacity')&&box2.includes('40 Bread'),'capacity in infobox');
+assert.ok(!box2.includes('0.8 Stick'),'derived ratio must not replace the confirmed recipe');
+assert.ok(h.render('production-chains/bakery/').includes('How production works'));
+assert.ok(h.render('buildings/').includes('8 Bread'),'catalog uses per-cycle recipe');
+assert.ok(h.render('verification/buildings/bakery/').includes('KitchenFire'),'fuel note on research page');
+console.log('PASS: gameplay block drives recipe and capacity.');

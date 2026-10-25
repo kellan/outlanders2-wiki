@@ -1,3 +1,7 @@
+## 25 October production model
+
+Maintainer report: the Bakery takes 1 Flour and 1 Stick, makes 8 Bread, and stops at 40 Bread. The recipe is confirmed by the field guide and by the decoded graph (exactly 8 Bread per Flour; formula 297381 is named "1 Stick -> 8 KitchenFire" though its serialized output is 10). The capacity is not in the exported data because the pile and stockpile components were validated but never exported; it is recorded as a player report. Building records gained an optional `gameplay` block (`recipe_per_cycle`, `output_capacity`) that the renderer uses as the primary recipe and capacity; the formula-graph ratio remains as supporting detail. Tracked in issue 9.
+
 ## 25 October ratio correction and information-needed list
 
 The maintainer reports that the Bakery holds 40 Bread; the decoded "5 Flour + 4 Stick → 40 Bread" was the smallest whole-number ratio of the formula graph, not a batch. Pages now show ratios per primary input (1 Flour + 0.8 Stick → 8 Bread) with a note that ratios are not batch sizes, capacities or rates. Recorded as `content/observations/bakery-bread-capacity.json`. `docs/INFORMATION-NEEDED.md` now tracks data the wiki lacks and how to obtain it; remove an item there in the same change that records the answer.

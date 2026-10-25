@@ -15,11 +15,16 @@ export function assembleContent(base=project){
    assert.ok(id&&id!=='undefined','Missing ID in '+file);assert.equal(path.basename(file,'.json'),id,'Filename and stable ID differ: '+file);assert.ok(!ids.has(id),'Duplicate ID '+id);ids.add(id);
    assert.equal(typeof record.name,'string',file+' needs a display name');assert.ok(record.name.trim(),file+' needs a nonempty name');
    if(group==='buildings')for(const key of ['max_workers','sleep_spots'])assert.ok(record[key]===null||Number.isInteger(record[key])&&record[key]>=0,file+': invalid '+key);
+   if(group==='buildings'&&record.gameplay){const g=record.gameplay,evidence=(e,what)=>{assert.ok(['player-report','field-guide','gameplay-test','decoded-data','official-source'].includes(e?.kind),file+': invalid gameplay evidence kind in '+what);for(const v of [e.game_version,e.date,e.reference])assert.ok(typeof v==='string'&&v.trim(),file+': missing gameplay evidence in '+what)},status=(s,what)=>assert.ok(['open','confirmed','disputed'].includes(s),file+': invalid gameplay status in '+what);
+    for(const key of Object.keys(g))assert.ok(['recipe_per_cycle','output_capacity'].includes(key),file+': unknown gameplay key '+key);
+    if(g.recipe_per_cycle){const r=g.recipe_per_cycle;for(const side of ['inputs','outputs']){assert.ok(Array.isArray(r[side])&&r[side].length,file+': recipe_per_cycle needs '+side);for(const x of r[side])assert.ok(Number.isFinite(x.count)&&x.count>0&&x.resource_id&&typeof x.name==='string',file+': invalid recipe_per_cycle entry')}evidence(r.evidence,'recipe_per_cycle');status(r.status,'recipe_per_cycle')}
+    if(g.output_capacity){const c=g.output_capacity;assert.ok(Number.isInteger(c.count)&&c.count>0&&c.resource_id&&typeof c.name==='string',file+': invalid output_capacity');evidence(c.evidence,'output_capacity');status(c.status,'output_capacity')}}
    if(group==='levels'&&record.scenario){const s=record.scenario;assert.equal(s.primary_objective_count,s.objectives.filter(x=>!x.IsSecondary).length,file+': primary count');assert.equal(s.optional_objective_count,s.objectives.filter(x=>x.IsSecondary).length,file+': optional count');for(const o of s.objectives)assert.ok(Number.isFinite(o.NeededAmount),file+': invalid objective amount');for(const cfg of s.level_config)for(const [k,v]of Object.entries(cfg))if(k.startsWith('IsConcern'))assert.equal(typeof v,'boolean',file+': need must be true/false or omitted');}
    count++;return record;
   });
  }
- const bIds=new Set(result.rules.buildings.map(x=>x.gameobject_id)),fIds=new Set(result.rules.formulas.map(x=>x.id));
+ const bIds=new Set(result.rules.buildings.map(x=>x.gameobject_id)),fIds=new Set(result.rules.formulas.map(x=>x.id)),rIds=new Set(result.rules.resources.map(x=>x.id));
+ for(const b of result.rules.buildings)if(b.gameplay){for(const x of [...(b.gameplay.recipe_per_cycle?.inputs||[]),...(b.gameplay.recipe_per_cycle?.outputs||[]),...(b.gameplay.output_capacity?[b.gameplay.output_capacity]:[])])assert.ok(rIds.has(x.resource_id),'Unknown gameplay resource '+x.resource_id+' in building '+b.gameobject_id)}
  for(const b of result.rules.buildings)for(const id of b.formula_ids)assert.ok(fIds.has(id),'Unknown formula '+id);
  for(const l of result.world.levels)for(const item of l.scenario?.buildable_entries||[])assert.ok(item.gameobject_id,'Unresolved buildable entry in '+l.id);
  result.world.contributions=fs.readdirSync(path.join(base,'content/observations')).filter(f=>f.endsWith('.json')).sort().map(file=>{

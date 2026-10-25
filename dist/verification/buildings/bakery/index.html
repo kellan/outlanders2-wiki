@@ -108,5 +108,46 @@
     &quot;End&quot;: 0.5
   },
   &quot;interpretation&quot;: &quot;Normalized work-cycle interval; time origin and clock mapping unverified.&quot;
-}</pre></div></details><section class="rule-section"><h2>Contributed observations</h2><article><h3>The Bakery holds up to 40 Bread. The decoded balance of 5 Flour + 4 Stick → 40 Bread is a whole-number ratio (1 Flour + 0.8 Stick per 8 Bread), not a batch of 40 produced at once.</h3><p>Status: open · player-report · 30 (254)</p><p>Maintainer report, 25 October 2026. The 40 Bread figure shown by earlier builds of this wiki was the ratio artifact; a 40-unit capacity is reported from play.</p><p>Storage capacities are not decoded for any building. Pages now show ratios per primary input. A controlled test should confirm the Bakery capacity and record capacities for other production buildings.</p></article></section></main><footer class="page-footer"><span>OUTLANDERS 2 WIKI <span class="dot-sep">·</span> An unofficial Outlanders 2 reference</span><a href="../../../about/">Sources & artwork credits ↗</a><a href="https://github.com/kellan/outlanders2-wiki">GitHub repository ↗</a></footer></div><footer style="padding:1rem;text-align:center;font-size:.85rem">Unofficial community guide. Outlanders 2 artwork and game text belong to Pomelo Games and their respective rights holders. <a href="../../../THIRD_PARTY_NOTICES.txt">Attribution</a> · <a href="../../../LICENSE.txt">Original contributions: MIT</a></footer>
+}</pre></div></details><section class="rule-section"><h2>Gameplay facts and their evidence</h2><p><strong>Recipe per cycle</strong> (confirmed): 1 Flour + 1 Stick → 8 Bread. field-guide, 2026-10-24: Bakery field guide screenshot (gameplay-evidence/bakery-field-guide.png). Maintainer play report of 25 October 2026 agrees. The decoded formula graph gives exactly 8 Bread per Flour; formula 297381 is named &quot;1 Stick -&gt; 8 KitchenFire&quot; although its serialized output is 10, so whether leftover fire carries between cycles is unverified.</p><p><strong>Output capacity</strong> (open): 40 Bread. player-report, 2026-10-25: Maintainer report, 25 October 2026: the Bakery keeps baking until it holds 40 Bread. Not present in the exported data; see docs/INFORMATION-NEEDED.md.</p><details open class="source"><summary>Gameplay block</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>{
+  &quot;recipe_per_cycle&quot;: {
+    &quot;inputs&quot;: [
+      {
+        &quot;resource_id&quot;: 286781,
+        &quot;name&quot;: &quot;Flour&quot;,
+        &quot;count&quot;: 1
+      },
+      {
+        &quot;resource_id&quot;: 284894,
+        &quot;name&quot;: &quot;Stick&quot;,
+        &quot;count&quot;: 1
+      }
+    ],
+    &quot;outputs&quot;: [
+      {
+        &quot;resource_id&quot;: 319667,
+        &quot;name&quot;: &quot;Bread&quot;,
+        &quot;count&quot;: 8
+      }
+    ],
+    &quot;status&quot;: &quot;confirmed&quot;,
+    &quot;evidence&quot;: {
+      &quot;kind&quot;: &quot;field-guide&quot;,
+      &quot;game_version&quot;: &quot;30 (254)&quot;,
+      &quot;date&quot;: &quot;2026-10-24&quot;,
+      &quot;reference&quot;: &quot;Bakery field guide screenshot (gameplay-evidence/bakery-field-guide.png). Maintainer play report of 25 October 2026 agrees. The decoded formula graph gives exactly 8 Bread per Flour; formula 297381 is named \&quot;1 Stick -&gt; 8 KitchenFire\&quot; although its serialized output is 10, so whether leftover fire carries between cycles is unverified.&quot;
+    }
+  },
+  &quot;output_capacity&quot;: {
+    &quot;resource_id&quot;: 319667,
+    &quot;name&quot;: &quot;Bread&quot;,
+    &quot;count&quot;: 40,
+    &quot;status&quot;: &quot;open&quot;,
+    &quot;evidence&quot;: {
+      &quot;kind&quot;: &quot;player-report&quot;,
+      &quot;game_version&quot;: &quot;30 (254)&quot;,
+      &quot;date&quot;: &quot;2026-10-25&quot;,
+      &quot;reference&quot;: &quot;Maintainer report, 25 October 2026: the Bakery keeps baking until it holds 40 Bread. Not present in the exported data; see docs/INFORMATION-NEEDED.md.&quot;
+    }
+  }
+}</pre></div></details></section><section class="rule-section"><h2>Contributed observations</h2><article><h3>The Bakery bakes 8 Bread from 1 Flour and 1 Stick per cycle and keeps baking until it holds 40 Bread; 40 is a storage capacity, not a batch size.</h3><p>Status: open · player-report · 30 (254)</p><p>Maintainer report, 25 October 2026. The 40 Bread figure shown by earlier builds of this wiki was the ratio artifact; a 40-unit capacity is reported from play.</p><p>Recorded in the Bakery record&#39;s gameplay block. The per-cycle recipe is confirmed by the field guide and the decoded formula graph. The capacity is not in the exported data: the StockpileBehaviour, ResourcePileBehaviour and PileableBehaviour objects were round-trip validated but never exported. A controlled test or a pile decode should confirm it and supply capacities for other buildings.</p></article></section></main><footer class="page-footer"><span>OUTLANDERS 2 WIKI <span class="dot-sep">·</span> An unofficial Outlanders 2 reference</span><a href="../../../about/">Sources & artwork credits ↗</a><a href="https://github.com/kellan/outlanders2-wiki">GitHub repository ↗</a></footer></div><footer style="padding:1rem;text-align:center;font-size:.85rem">Unofficial community guide. Outlanders 2 artwork and game text belong to Pomelo Games and their respective rights holders. <a href="../../../THIRD_PARTY_NOTICES.txt">Attribution</a> · <a href="../../../LICENSE.txt">Original contributions: MIT</a></footer>
 </body></html>
