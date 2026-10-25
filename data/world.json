@@ -85056,6 +85056,139 @@
         "status": "related-release-unconfirmed",
         "as_of": "2026-10-23",
         "reason": "Packaged update text links this biome to the reported-unreleased story. Association does not establish a release date."
+      },
+      {
+        "type": "buildings",
+        "id": "105706",
+        "status": "reported-unreleased",
+        "as_of": "2026-10-25",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+      },
+      {
+        "type": "buildings",
+        "id": "105717",
+        "status": "reported-unreleased",
+        "as_of": "2026-10-25",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+      },
+      {
+        "type": "chains",
+        "id": "105706",
+        "status": "reported-unreleased",
+        "as_of": "2026-10-25",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+      },
+      {
+        "type": "chains",
+        "id": "105717",
+        "status": "reported-unreleased",
+        "as_of": "2026-10-25",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+      },
+      {
+        "type": "resources",
+        "id": "320441",
+        "status": "reported-unreleased",
+        "as_of": "2026-10-25",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+      },
+      {
+        "type": "resources",
+        "id": "319673",
+        "status": "reported-unreleased",
+        "as_of": "2026-10-25",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+      },
+      {
+        "type": "resources",
+        "id": "286357",
+        "status": "reported-unreleased",
+        "as_of": "2026-10-25",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+      },
+      {
+        "type": "resources",
+        "id": "286350",
+        "status": "reported-unreleased",
+        "as_of": "2026-10-25",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+      },
+      {
+        "type": "resources",
+        "id": "286346",
+        "status": "reported-unreleased",
+        "as_of": "2026-10-25",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+      },
+      {
+        "type": "resources",
+        "id": "286348",
+        "status": "reported-unreleased",
+        "as_of": "2026-10-25",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+      },
+      {
+        "type": "resources",
+        "id": "319676",
+        "status": "reported-unreleased",
+        "as_of": "2026-10-25",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+      },
+      {
+        "type": "resources",
+        "id": "286349",
+        "status": "reported-unreleased",
+        "as_of": "2026-10-25",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+      },
+      {
+        "type": "resources",
+        "id": "286342",
+        "status": "reported-unreleased",
+        "as_of": "2026-10-25",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+      },
+      {
+        "type": "buildings",
+        "id": "35460",
+        "status": "related-release-unconfirmed",
+        "as_of": "2026-10-25",
+        "reason": "Advanced Warehouse appears only in Oona’s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status."
+      },
+      {
+        "type": "chains",
+        "id": "35460",
+        "status": "related-release-unconfirmed",
+        "as_of": "2026-10-25",
+        "reason": "Advanced Warehouse appears only in Oona’s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status."
+      },
+      {
+        "type": "buildings",
+        "id": "116136",
+        "status": "related-release-unconfirmed",
+        "as_of": "2026-10-25",
+        "reason": "Brick Road appears only in Oona’s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status."
+      },
+      {
+        "type": "buildings",
+        "id": "80803",
+        "status": "related-release-unconfirmed",
+        "as_of": "2026-10-25",
+        "reason": "Swamp Trappers’ Hut appears only in Oona’s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status."
+      },
+      {
+        "type": "chains",
+        "id": "80803",
+        "status": "related-release-unconfirmed",
+        "as_of": "2026-10-25",
+        "reason": "Swamp Trappers’ Hut appears only in Oona’s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status."
+      },
+      {
+        "type": "buildings",
+        "id": "78175",
+        "status": "related-release-unconfirmed",
+        "as_of": "2026-10-25",
+        "reason": "Non-recyclable Brick Road variant; grouped with Brick Road in Spoilers following the player’s report."
       }
     ]
   },
