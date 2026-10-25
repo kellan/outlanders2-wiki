@@ -40,5 +40,6 @@ main a:not(.button):not(.card){color:#365d7c}main a:hover{text-decoration:underl
 .article-actions{display:flex;flex-wrap:wrap;gap:16px;font-size:12px;margin-top:6px}.article-actions a{color:#365d7c}
 .production-note{border-left:3px solid #b8a2bf;background:var(--white);padding:10px 14px;margin:14px 0;font-size:13px}.production-note h3{margin:0 0 4px;font-size:14px}.production-note p{margin:0}.recipe-line{font-size:14px;margin:0 0 10px}
 .history-table{font-size:13px;border-collapse:collapse;width:100%}.history-table td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}.history-table td:first-child{width:110px;white-space:nowrap}
+.facts-4{grid-template-columns:repeat(4,1fr)}.start-grid div{display:grid;grid-template-columns:110px minmax(0,1fr);gap:8px;font-size:13px}.start-grid dt{color:var(--muted);font-weight:600}.start-grid dd{margin:0}@media(max-width:700px){.facts-4{grid-template-columns:repeat(2,1fr)}}
 .rule-section{clear:none}.balance-note{font-size:11px;color:var(--muted);margin:6px 0 0}
 @media(max-width:700px){.infobox{float:none;width:auto;margin:0 0 18px}.navbox-row{grid-template-columns:1fr}}

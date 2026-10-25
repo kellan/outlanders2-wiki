@@ -48,6 +48,9 @@ How to read the "Source" column:
 | How the Bonfire and other social spots satisfy Heat or Cooling | Issue 1: the Bonfire runs the latest shift of any workplace but its effect is not in the export | mine (social-spot and workspot configs), test | Unknown |
 | Timed cold test in Winterlands: time from the cold warning to death, with and without a Coat and a Bonfire | Turns the decoded Heat constants into a statement a player can use | test | Not run |
 
+| Names of terrain codes 1 and 2 in placement rules (Bridge allows 3, 1, 2; Fishing Dock and Swimming Pier store no ground terrain) | Placement rows say "water or shore" as a guess | mine (terrain enum in metadata), screen | Code 3 is ground; 1 and 2 undecoded |
+| Biome for the 35 levels whose stored scene name is empty | Level pages show "Not stored" | screen (open each level) | Unknown |
+
 ## Villagers and needs
 
 | Need | Why it matters | Source | Status |

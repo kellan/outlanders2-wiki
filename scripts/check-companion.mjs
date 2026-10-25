@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import fs2 from 'node:fs';import {root as root2} from './render-harness.mjs';
 import {harness} from './render-harness.mjs';
 const h=await harness();
 const bakery=h.render('buildings/bakery/');
@@ -78,3 +79,16 @@ const jelena=h.render('heroes/jelena/');assert.ok(jelena.includes('<h2>History</
 const log=h.render('changelog/');assert.ok(log.includes('Update 21'));assert.ok(log.includes('/heroes/fjordi/'));assert.ok(!log.includes('Oona'),'changelog leaked spoiler');
 assert.ok(h.render('levels/valley-draft/').includes('Added with the Jelena'));
 console.log('PASS: history sections and changelog.');
+// Stored-configuration additions: biome per level, starting conditions, needs page, age limits, harvest sources, placement.
+const W2=JSON.parse(fs2.readFileSync(root2+'data/world.json'));
+const snow=W2.levels.find(l=>l.scenario.level_config[0]?.LevelScene==='LevelSnow'&&!/Unnamed/.test(l.name));const snowPage=h.render(h.pages.find(p=>p.type==='levels'&&p.id===snow.id).path);
+assert.ok(snowPage.includes('Winterlands'),'level biome');assert.ok(snowPage.includes('<h2>Starting conditions</h2>'));
+const moon=h.render('levels/a-moon-part/');assert.ok(moon.includes('5 adults, 2 kids'),'starting villagers');assert.ok(moon.includes('/food/veggie/')||moon.includes('/resources/veggie/'),'stockpile links');
+assert.ok(h.render('biomes/winterlands/').includes('Levels in this biome'));assert.ok(h.render('biomes/winterlands/').includes('Map resources'));
+assert.ok(h.render('levels/').includes('<th scope="col">Biome</th>'));
+const needs=h.render('needs/');assert.ok(needs.includes('<h2>Cooling</h2>')&&needs.includes('Ice Pop'),'needs satisfiers');assert.ok(needs.includes('adults only'),'age limit');
+assert.ok(!/Concoction|Stroganoff|Mushroom/.test(needs),'needs page leaked spoilers');
+assert.ok(h.render('resources/wine/').includes('Adults only'));
+assert.ok(h.render('buildings/quarry/').includes('rock sources'),'harvest row');
+assert.ok(h.render('buildings/bridge/').includes('Placement')&&h.render('buildings/bridge/').includes('slopes up to 5'),'placement row');
+console.log('PASS: biome per level, starting conditions, needs page, age limits, harvest sources and placement rules.');
