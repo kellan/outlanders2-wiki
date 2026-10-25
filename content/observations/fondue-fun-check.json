@@ -1,0 +1,16 @@
+{
+  "id": "fondue-fun-check",
+  "target": {
+    "type": "buildings",
+    "id": "105705"
+  },
+  "claim": "Fondue should raise Fun as well as Food, as the Fondue Bar description states; not yet checked in play, and the effect may belong to eating at the Fondue Bar.",
+  "status": "open",
+  "evidence": {
+    "kind": "field-guide",
+    "game_version": "30 (254)",
+    "date": "2026-10-25",
+    "reference": "Fondue Bar building description: a pot of Fondue that provides Nutrition and Entertainment. The Fondue resource records store FoodUnits 2 and EntertainmentUnits 0."
+  },
+  "notes": "Flagged by the maintainer on 25 October 2026 as the next dish to check after Barley Porridge. Same discriminating test as cookhouse-community-source."
+}

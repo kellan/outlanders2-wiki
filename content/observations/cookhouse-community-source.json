@@ -1,0 +1,16 @@
+{
+  "id": "cookhouse-community-source",
+  "target": {
+    "type": "buildings",
+    "id": "105738"
+  },
+  "claim": "The small Community rise from Barley Porridge may come from eating at the Porridge Cookhouse rather than from the dish itself.",
+  "status": "open",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "30 (254)",
+    "date": "2026-10-25",
+    "reference": "Maintainer hypothesis, 25 October 2026, after observing that the rise is small. Supporting data: every dish whose description names a second need (Barley Porridge, Stew, Fondue, Manchamanteles) is served on plates that return to its building, as are Mead, Beer and Wheatshine; Bread, Cookies, Dried Meat, Smoothies and Ice Pops have no container. Mead is a counterexample: its resource stores Community 4 directly."
+  },
+  "notes": "The social-spot configuration of buildings was not exported, so the data cannot decide this. Discriminating test: let villagers eat Barley Porridge from a stockpile away from the Cookhouse (for example after the Cookhouse is demolished or unstaffed) and compare the Community change with eating at the Cookhouse. The same test applies to Fondue and Fun at the Fondue Bar, and to Stew at the Open Kitchen."
+}
