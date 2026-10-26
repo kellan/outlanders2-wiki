@@ -28601,6 +28601,469 @@
       }
     }
   },
+  "biomes": {
+    "class": "MapBiomeSettings",
+    "note": "Sandbox configuration per biome: what the player may place and what the map generator scatters (density per tile). Campaign levels list their own buildable entries. Asset GUIDs resolved through each prefab root SerializedKey.",
+    "records": [
+      {
+        "name_key": "Sandbox.Biome.Desert",
+        "id": "Desert",
+        "scene": "LevelDesert",
+        "placeables": [
+          "Oasis",
+          "Manchamanteles Shop",
+          "Desert Forager",
+          "Smoothie Stand",
+          "Well",
+          "Field Mesquite",
+          "Field Watermelon",
+          "Field Carrot",
+          "Field DatePalmTree",
+          "House Desert",
+          "Field NopalTree",
+          "Quarry"
+        ],
+        "excluded_base_placeables": [],
+        "spawns": [
+          {
+            "prefab": "Rock Source",
+            "spawn_key": "Rocks",
+            "density": 0.05,
+            "food_source": false
+          },
+          {
+            "prefab": "Nopal Tree",
+            "spawn_key": "FruitTrees",
+            "density": 0.003,
+            "food_source": true
+          },
+          {
+            "prefab": "Mesquite Tree",
+            "spawn_key": "WoodTrees",
+            "density": 0.003,
+            "food_source": false
+          },
+          {
+            "prefab": "DatePalmTree",
+            "spawn_key": "FruitTrees",
+            "density": 0.003,
+            "food_source": false
+          }
+        ]
+      },
+      {
+        "name_key": "Sandbox.Biome.Green",
+        "id": "Green",
+        "scene": "Level",
+        "placeables": [
+          "Forager",
+          "Farm",
+          "Orchard old",
+          "Trading Post Evergreen",
+          "Smoothie Stand",
+          "Bottle Factory",
+          "Winery",
+          "Decorative Tree Jacaranda",
+          "Decorative Planter Hydrangea",
+          "Cheese Maker",
+          "Fondue Shop",
+          "Field Cabbage",
+          "Field Corn",
+          "Field Tomato",
+          "Field Wheat",
+          "Field AshTree",
+          "Field PineTree",
+          "Field AppleTree",
+          "Field FigTree",
+          "Field GrapeTree",
+          "Decorative Tree Silky Oak",
+          "Decorative Planter Calla Lilly",
+          "Forester old",
+          "Field Cauliflower",
+          "Field Eggplant",
+          "Open Kitchen",
+          "Chicken Coop",
+          "Windmill",
+          "Bakery",
+          "Cookie Shop",
+          "Dried Meat Shop",
+          "Fishing Dock",
+          "House",
+          "House Plank",
+          "House Brick",
+          "House Stone",
+          "Boot Maker",
+          "Brewery",
+          "Scriptorium",
+          "Pendant Maker",
+          "Ukulele Maker",
+          "Fountain",
+          "Field Carrot",
+          "Field Onion",
+          "Mead Hall",
+          "Barley Porridge Shop",
+          "Beehive",
+          "Field BerryBush",
+          "Quarry"
+        ],
+        "excluded_base_placeables": [],
+        "spawns": [
+          {
+            "prefab": "Rock Source",
+            "spawn_key": "Rocks",
+            "density": 0.06,
+            "food_source": false
+          },
+          {
+            "prefab": "Ash",
+            "spawn_key": "WoodTrees",
+            "density": 0.12,
+            "food_source": false
+          },
+          {
+            "prefab": "PineTree",
+            "spawn_key": "WoodTrees",
+            "density": 0.12,
+            "food_source": false
+          },
+          {
+            "prefab": "AppleTree",
+            "spawn_key": "FruitTrees",
+            "density": 0.005,
+            "food_source": true
+          },
+          {
+            "prefab": "FigTree",
+            "spawn_key": "FruitTrees",
+            "density": 0.005,
+            "food_source": true
+          },
+          {
+            "prefab": "GrapeTree",
+            "spawn_key": "FruitTrees",
+            "density": 0.005,
+            "food_source": true
+          },
+          {
+            "prefab": "BerryBush",
+            "spawn_key": "FruitTrees",
+            "density": 0.005,
+            "food_source": true
+          },
+          {
+            "prefab": "Fish decoration",
+            "spawn_key": "Fishes",
+            "density": 0.005,
+            "food_source": false
+          }
+        ]
+      },
+      {
+        "name_key": "Sandbox.Biome.Halloween",
+        "id": "Halloween",
+        "scene": "LevelHalloween",
+        "placeables": [
+          "Cookie Shop",
+          "Chicken Coop",
+          "Quarry",
+          "Field Wheat",
+          "Windmill",
+          "Bakery",
+          "Barley Porridge Shop",
+          "Cheese Maker",
+          "Fondue Shop",
+          "Mead Hall",
+          "Playground Halloween",
+          "Halloween Plaza",
+          "Zen Garden _Halloween",
+          "House Stone _Halloween",
+          "Open Kitchen _Halloween",
+          "Halloween Fountain",
+          "Halloween Tombstone",
+          "Field Pumpkin _Halloween",
+          "Field HalloweenTree",
+          "Farm",
+          "Orchard old",
+          "Forager",
+          "Beehive",
+          "Smoothie Stand",
+          "Field Corn",
+          "Field Cabbage",
+          "Field Eggplant",
+          "Field FigTree",
+          "Field AppleTree",
+          "Field BerryBush",
+          "House",
+          "House Plank",
+          "House Brick",
+          "Ukulele Maker",
+          "Decorative Planter Roses",
+          "Decorative Planter Calla Lilly",
+          "Decorative Tree Jacaranda"
+        ],
+        "excluded_base_placeables": [
+          "Playground",
+          "Plaza",
+          "Zen Garden"
+        ],
+        "spawns": [
+          {
+            "prefab": "Rock Source",
+            "spawn_key": "Rocks",
+            "density": 0.06,
+            "food_source": false
+          },
+          {
+            "prefab": "Halloween Tree",
+            "spawn_key": "WoodTrees",
+            "density": 0.12,
+            "food_source": false
+          },
+          {
+            "prefab": "AppleTree",
+            "spawn_key": "FruitTrees",
+            "density": 0.005,
+            "food_source": true
+          },
+          {
+            "prefab": "FigTree",
+            "spawn_key": "FruitTrees",
+            "density": 0.005,
+            "food_source": true
+          },
+          {
+            "prefab": "BerryBush",
+            "spawn_key": "FruitTrees",
+            "density": 0.005,
+            "food_source": true
+          },
+          {
+            "prefab": "Fish decoration",
+            "spawn_key": "Fishes",
+            "density": 0.005,
+            "food_source": false
+          },
+          {
+            "prefab": "Halloween Candle 0",
+            "spawn_key": "",
+            "density": 0.001,
+            "food_source": false
+          },
+          {
+            "prefab": "Halloween Candle 1",
+            "spawn_key": "",
+            "density": 0.001,
+            "food_source": false
+          },
+          {
+            "prefab": "Halloween Fence",
+            "spawn_key": "",
+            "density": 0.0009,
+            "food_source": false
+          },
+          {
+            "prefab": "Ruins",
+            "spawn_key": "",
+            "density": 0.0006,
+            "food_source": false
+          },
+          {
+            "prefab": "Ruined House",
+            "spawn_key": "",
+            "density": 0.0003,
+            "food_source": false
+          },
+          {
+            "prefab": "Ruined Plaza",
+            "spawn_key": "",
+            "density": 0.0004,
+            "food_source": false
+          },
+          {
+            "prefab": "Ruined Zen Garden",
+            "spawn_key": "",
+            "density": 0.0002,
+            "food_source": false
+          }
+        ]
+      },
+      {
+        "name_key": "Sandbox.Biome.Tropical",
+        "id": "Tropical",
+        "scene": "LevelTropical",
+        "placeables": [
+          "Reed Cutter",
+          "Glass Maker",
+          "Forager",
+          "Farm",
+          "Orchard old",
+          "Tropical House",
+          "Trading Post Tropics",
+          "IcePops Shop",
+          "Smoothie Stand",
+          "Canteen Maker",
+          "SwimmingPier",
+          "Decorative Tree Flame Tree",
+          "Decorative Planter Birds of Paradise",
+          "Field Pumpkin",
+          "Field Corn",
+          "Field Tomato",
+          "Field JungleBigTree",
+          "Field JungleTree",
+          "Field BananaTree",
+          "Field DragonFruitTree",
+          "Field PalmTree",
+          "Field PomeloTree",
+          "Decorative Tree Orchid Tree",
+          "Decorative Planter Hibiscus",
+          "Forester old",
+          "Open Kitchen",
+          "Chicken Coop",
+          "Windmill",
+          "Bakery",
+          "Cookie Shop",
+          "Dried Meat Shop",
+          "Fishing Dock",
+          "House",
+          "House Plank",
+          "House Brick",
+          "House Stone",
+          "Boot Maker",
+          "Brewery",
+          "Scriptorium",
+          "Pendant Maker",
+          "Ukulele Maker",
+          "Fountain",
+          "Quarry"
+        ],
+        "excluded_base_placeables": [],
+        "spawns": [
+          {
+            "prefab": "Rock Source",
+            "spawn_key": "Rocks",
+            "density": 0.05,
+            "food_source": false
+          },
+          {
+            "prefab": "Reed Plant",
+            "spawn_key": "Reed",
+            "density": 0.15,
+            "food_source": false
+          },
+          {
+            "prefab": "Jungle Big Tree",
+            "spawn_key": "WoodTrees",
+            "density": 0.035,
+            "food_source": false
+          },
+          {
+            "prefab": "Jungle Tree",
+            "spawn_key": "WoodTrees",
+            "density": 0.05,
+            "food_source": false
+          },
+          {
+            "prefab": "Palm Tree",
+            "spawn_key": "FruitTrees",
+            "density": 0.02,
+            "food_source": true
+          },
+          {
+            "prefab": "BananaTree",
+            "spawn_key": "FruitTrees",
+            "density": 0.005,
+            "food_source": true
+          },
+          {
+            "prefab": "DragonFruitTree",
+            "spawn_key": "FruitTrees",
+            "density": 0.003,
+            "food_source": true
+          },
+          {
+            "prefab": "PomeloTree",
+            "spawn_key": "FruitTrees",
+            "density": 0.003,
+            "food_source": true
+          },
+          {
+            "prefab": "TropicalMountainVegetation",
+            "spawn_key": "",
+            "density": 0.13,
+            "food_source": false
+          },
+          {
+            "prefab": "Fish decoration",
+            "spawn_key": "Fishes",
+            "density": 0.005,
+            "food_source": false
+          }
+        ]
+      },
+      {
+        "name_key": "Sandbox.Biome.Winter",
+        "id": "Winter",
+        "scene": "LevelSnow",
+        "placeables": [
+          "House With Chimney",
+          "Trading Post Winterland",
+          "Bonfire",
+          "Coat Maker",
+          "Snow Statue",
+          "Ogir Statue",
+          "HuntersHut",
+          "Greenhouse",
+          "Field Cabbage",
+          "Field Beet",
+          "Field Potato",
+          "Field Winter PineTree",
+          "Cheese Maker",
+          "Fondue Shop",
+          "Forester old",
+          "Winter Pub",
+          "Open Kitchen",
+          "Chicken Coop",
+          "Windmill",
+          "Bakery",
+          "Cookie Shop",
+          "Dried Meat Shop",
+          "Fishing Dock",
+          "House",
+          "House Plank",
+          "House Brick",
+          "House Stone",
+          "Boot Maker",
+          "Brewery",
+          "Scriptorium",
+          "Pendant Maker",
+          "Ukulele Maker",
+          "Fountain",
+          "Quarry"
+        ],
+        "excluded_base_placeables": [],
+        "spawns": [
+          {
+            "prefab": "Winter Pine",
+            "spawn_key": "Trees",
+            "density": 0.2,
+            "food_source": true
+          },
+          {
+            "prefab": "Rock Source",
+            "spawn_key": "Rocks",
+            "density": 0.075,
+            "food_source": false
+          },
+          {
+            "prefab": "Fish decoration",
+            "spawn_key": "Fishes",
+            "density": 0.005,
+            "food_source": false
+          }
+        ]
+      }
+    ]
+  },
   "duplicate_resource_names": {
     "note": "284895 is the GameObject \"FakeStick\" under the Firewood Yard (Woodchopper): 1 Log becomes 4 FakeStick, then FakeStick becomes Stick 1:1. It shares the localization key Resource.Stick, so both display as Stick.",
     "records": [
