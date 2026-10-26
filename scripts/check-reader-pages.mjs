@@ -3,7 +3,7 @@ import {harness} from './render-harness.mjs';
 const h=await harness();
 const pumpkin=h.render('buildings/pumpkin/');
 assert.ok(pumpkin.includes('<h1>Pumpkin</h1>'));
-for(const phrase of ['Construction inputs','Pending verification','Needs gameplay verification','Tropiclands','Work range'])assert.ok(!pumpkin.includes(phrase),phrase);
+for(const phrase of ['Construction inputs','Pending verification','Needs gameplay verification','Sandbox biome references','Work range'])assert.ok(!pumpkin.includes(phrase),phrase);
 assert.equal(h.lookup['buildings/field-pumpkin/'].id,h.lookup['buildings/pumpkin/'].id);
 const farm=h.render('buildings/farm/');assert.ok(farm.includes('Fields'));assert.ok(!farm.includes('Sources.Field'));assert.ok(!farm.includes('Work range'));assert.ok(!farm.includes('Pending verification'));
 assert.ok(h.render('verification/buildings/farm/').includes('Work schedule fields'));
