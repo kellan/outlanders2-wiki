@@ -89,3 +89,19 @@ To add gameplay evidence, preserve game version, scenario, biome, leader, staffi
 Availability now has independent evidence in dist/data/availability.json. Oona remains included, flagged as user-reported unreleased; related update-28 data has public-release-unconfirmed status. Missing status defaults to unknown, never to released. Biome sandbox assignments are in dist/data/biomes.json and are distinct from campaign or challenge overrides.
 
 The `/index/` route is an alphabetical back-of-book index of every canonical page. Aliases are excluded from that index but are included in route validation.
+
+## Scenario objective wording (2026-10-25)
+
+Reader tables now distinguish Have (current stock or present targets), Create
+(produce/make total), and HaveInBuilding (stock in a specified building), and
+show percentage units for satisfaction, settlement, happiness and equipment.
+The raw condition and comparison remain in the downloadable scenario records.
+
+Do not equate the Housing condition with Concern + Housing. `Level01B` pairs
+Housing = 100 with “Have everyone settled.” Its resource Have template says
+“in stock.” `Single05_C_PeakResort` (Cliffside Resort) instead pairs Concern +
+Housing = 100 with “Satisfy Housing”; its Create templates say “Produce” and
+“Brew.” These are distinct stored objective types; their runtime relationship
+has not been tested. The wording is in each record's `objectives` and
+`source_entries`, with localization keys and text asset IDs.
+
