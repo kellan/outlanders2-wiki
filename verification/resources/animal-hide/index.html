@@ -36,7 +36,7 @@
         {
           &quot;resource_id&quot;: 320813,
           &quot;name&quot;: &quot;Wheat&quot;,
-          &quot;count&quot;: 2
+          &quot;count&quot;: 1
         }
       ],
       &quot;smallest_whole_batch&quot;: {
@@ -60,35 +60,7 @@
         298620,
         318144
       ],
-      &quot;status&quot;: &quot;per-unit ratio derived from the recorded per-cycle recipe&quot;,
-      &quot;per_cycle&quot;: {
-        &quot;inputs&quot;: [
-          {
-            &quot;resource_id&quot;: 320813,
-            &quot;name&quot;: &quot;Wheat&quot;,
-            &quot;count&quot;: 12
-          }
-        ],
-        &quot;outputs&quot;: [
-          {
-            &quot;resource_id&quot;: 309166,
-            &quot;name&quot;: &quot;Glass Pane&quot;,
-            &quot;count&quot;: 6
-          },
-          {
-            &quot;resource_id&quot;: 304112,
-            &quot;name&quot;: &quot;Animal Hide&quot;,
-            &quot;count&quot;: 6
-          }
-        ],
-        &quot;status&quot;: &quot;confirmed&quot;,
-        &quot;evidence&quot;: {
-          &quot;kind&quot;: &quot;field-guide&quot;,
-          &quot;game_version&quot;: &quot;30 (254)&quot;,
-          &quot;date&quot;: &quot;2026-10-26&quot;,
-          &quot;reference&quot;: &quot;Field guide screenshot gameplay-evidence/fieldguide/Trading-Outpost-Evergreen.jpg (local agent playtest; research branch codex/playtest-observations, answers entry \&quot;Additional ... field guides\&quot;). The field guide settles what the three decoded formulas mean: 12 Wheat in, 6 Glass Panes and 6 Animal Hides out. The earlier derived ratio of 1 Wheat to 1 Animal Hide picked up only one of the outputs.&quot;
-        }
-      }
+      &quot;status&quot;: &quot;per-unit ratio derived from the decoded production steps; not measured in play&quot;
     },
     {
       &quot;building_id&quot;: 75225,
@@ -154,7 +126,36 @@
         299854,
         304091
       ],
-      &quot;status&quot;: &quot;per-unit ratio derived from the decoded production steps; not measured in play&quot;
+      &quot;status&quot;: &quot;per-unit ratio derived from the recorded per-cycle recipe&quot;,
+      &quot;per_cycle&quot;: {
+        &quot;inputs&quot;: [
+          {
+            &quot;resource_id&quot;: 320813,
+            &quot;name&quot;: &quot;Wheat&quot;,
+            &quot;count&quot;: 12
+          }
+        ],
+        &quot;outputs&quot;: [
+          {
+            &quot;resource_id&quot;: 309166,
+            &quot;name&quot;: &quot;Glass Pane&quot;,
+            &quot;count&quot;: 6
+          },
+          {
+            &quot;resource_id&quot;: 304112,
+            &quot;name&quot;: &quot;Animal Hide&quot;,
+            &quot;count&quot;: 6
+          }
+        ],
+        &quot;status&quot;: &quot;confirmed&quot;,
+        &quot;evidence&quot;: {
+          &quot;kind&quot;: &quot;field-guide&quot;,
+          &quot;game_version&quot;: &quot;30 (254)&quot;,
+          &quot;date&quot;: &quot;2026-10-26&quot;,
+          &quot;reference&quot;: &quot;Field guide screenshot gameplay-evidence/fieldguide/Trading-Outpost-Evergreen.jpg (local agent playtest; research branch codex/playtest-observations, answers entry \&quot;Additional ... field guides\&quot;). The guide shows 12 Wheat and both 6 Glass Panes and 6 Animal Hides. The prefab marks the outputs exclusive (WorkplaceConfig.ExclusiveOutputs, set only on Trading Outposts), stores two separate 12 Wheat trades, and the Tournament hint FastMode.Hint.FirstTradingPost.3 says to choose the resource you want to receive, so a trade gives 6 of one or the other. Recorded on the base definition until 2026-10-26; it belongs to Trading Post Evergreen, whose stored trades match.&quot;
+        },
+        &quot;choice&quot;: &quot;one&quot;
+      }
     },
     {
       &quot;building_id&quot;: 80802,

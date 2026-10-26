@@ -290,6 +290,22 @@
     },
     {
       "type": "buildings",
+      "id": "75226",
+      "name": "Trading Outpost",
+      "category": "Building",
+      "path": "buildings/trading-outpost/",
+      "spoiler": false
+    },
+    {
+      "type": "chains",
+      "id": "75226",
+      "name": "Trading Outpost — production",
+      "category": "Production chain",
+      "path": "production-chains/trading-outpost/",
+      "spoiler": false
+    },
+    {
+      "type": "buildings",
       "id": "35460",
       "name": "Advanced Warehouse",
       "category": "Building",
@@ -1954,22 +1970,6 @@
     },
     {
       "type": "buildings",
-      "id": "65543",
-      "name": "Trading Outpost",
-      "category": "Building",
-      "path": "buildings/trading-outpost/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "65543",
-      "name": "Trading Outpost — production",
-      "category": "Production chain",
-      "path": "production-chains/trading-outpost/",
-      "spoiler": false
-    },
-    {
-      "type": "buildings",
       "id": "75225",
       "name": "Trading Outpost",
       "category": "Building",
@@ -1986,22 +1986,6 @@
     },
     {
       "type": "buildings",
-      "id": "75226",
-      "name": "Trading Outpost",
-      "category": "Building",
-      "path": "buildings/trading-outpost-75226/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "75226",
-      "name": "Trading Outpost — production",
-      "category": "Production chain",
-      "path": "production-chains/trading-outpost-75226/",
-      "spoiler": false
-    },
-    {
-      "type": "buildings",
       "id": "75227",
       "name": "Trading Outpost",
       "category": "Building",
@@ -2014,22 +1998,6 @@
       "name": "Trading Outpost — production",
       "category": "Production chain",
       "path": "production-chains/trading-outpost-75227/",
-      "spoiler": false
-    },
-    {
-      "type": "buildings",
-      "id": "83845",
-      "name": "Trading Outpost",
-      "category": "Building",
-      "path": "buildings/trading-outpost-83845/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "83845",
-      "name": "Trading Outpost — production",
-      "category": "Production chain",
-      "path": "production-chains/trading-outpost-83845/",
       "spoiler": false
     },
     {
@@ -5514,6 +5482,22 @@
     },
     {
       "type": "evidence",
+      "id": "buildings/75226",
+      "name": "Trading Outpost — research",
+      "category": "Research",
+      "path": "verification/buildings/trading-outpost/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "chains/75226",
+      "name": "Trading Outpost — production — research",
+      "category": "Research",
+      "path": "verification/production-chains/trading-outpost/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
       "id": "buildings/35460",
       "name": "Advanced Warehouse — research",
       "category": "Research",
@@ -7178,22 +7162,6 @@
     },
     {
       "type": "evidence",
-      "id": "buildings/65543",
-      "name": "Trading Outpost — research",
-      "category": "Research",
-      "path": "verification/buildings/trading-outpost/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
-      "id": "chains/65543",
-      "name": "Trading Outpost — production — research",
-      "category": "Research",
-      "path": "verification/production-chains/trading-outpost/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
       "id": "buildings/75225",
       "name": "Trading Outpost — research",
       "category": "Research",
@@ -7210,22 +7178,6 @@
     },
     {
       "type": "evidence",
-      "id": "buildings/75226",
-      "name": "Trading Outpost — research",
-      "category": "Research",
-      "path": "verification/buildings/trading-outpost-75226/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
-      "id": "chains/75226",
-      "name": "Trading Outpost — production — research",
-      "category": "Research",
-      "path": "verification/production-chains/trading-outpost-75226/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
       "id": "buildings/75227",
       "name": "Trading Outpost — research",
       "category": "Research",
@@ -7238,22 +7190,6 @@
       "name": "Trading Outpost — production — research",
       "category": "Research",
       "path": "verification/production-chains/trading-outpost-75227/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
-      "id": "buildings/83845",
-      "name": "Trading Outpost — research",
-      "category": "Research",
-      "path": "verification/buildings/trading-outpost-83845/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
-      "id": "chains/83845",
-      "name": "Trading Outpost — production — research",
-      "category": "Research",
-      "path": "verification/production-chains/trading-outpost-83845/",
       "spoiler": false
     },
     {
@@ -10758,6 +10694,8 @@
     "gear/",
     "houses/",
     "gathering-places/",
+    "buildings/trading-outpost/",
+    "production-chains/trading-outpost/",
     "spoilers/buildings/advanced-warehouse/",
     "buildings/advanced-warehouse/",
     "spoilers/production-chains/advanced-warehouse/",
@@ -10976,16 +10914,10 @@
     "buildings/tailor/",
     "production-chains/tailor/",
     "buildings/tiny-man-statue/",
-    "buildings/trading-outpost/",
-    "production-chains/trading-outpost/",
     "buildings/trading-outpost-75225/",
     "production-chains/trading-outpost-75225/",
-    "buildings/trading-outpost-75226/",
-    "production-chains/trading-outpost-75226/",
     "buildings/trading-outpost-75227/",
     "production-chains/trading-outpost-75227/",
-    "buildings/trading-outpost-83845/",
-    "production-chains/trading-outpost-83845/",
     "buildings/trappers-hut/",
     "production-chains/trappers-hut/",
     "buildings/tropical-shelter/",
@@ -11437,6 +11369,8 @@
     "campaigns/campaign-1/",
     "campaigns/campaign-2/",
     "campaigns/campaign-3/",
+    "verification/buildings/trading-outpost/",
+    "verification/production-chains/trading-outpost/",
     "verification/spoilers/buildings/advanced-warehouse/",
     "verification/spoilers/production-chains/advanced-warehouse/",
     "verification/buildings/author-s-stand/",
@@ -11645,16 +11579,10 @@
     "verification/buildings/tailor/",
     "verification/production-chains/tailor/",
     "verification/buildings/tiny-man-statue/",
-    "verification/buildings/trading-outpost/",
-    "verification/production-chains/trading-outpost/",
     "verification/buildings/trading-outpost-75225/",
     "verification/production-chains/trading-outpost-75225/",
-    "verification/buildings/trading-outpost-75226/",
-    "verification/production-chains/trading-outpost-75226/",
     "verification/buildings/trading-outpost-75227/",
     "verification/production-chains/trading-outpost-75227/",
-    "verification/buildings/trading-outpost-83845/",
-    "verification/production-chains/trading-outpost-83845/",
     "verification/buildings/trappers-hut/",
     "verification/production-chains/trappers-hut/",
     "verification/buildings/tropical-shelter/",
@@ -12154,6 +12082,8 @@
     "production-chains/field-willowtree/",
     "buildings/field-winter-pinetree/",
     "production-chains/field-winter-pinetree/",
+    "buildings/trading-outpost-75226/",
+    "production-chains/trading-outpost-75226/",
     "levels/too-hot-to-write-single08-c-desert/",
     "levels/cordial-work-environment-single08-l-cavecove/",
     "levels/frostbound-valley-single08-r-villagewinter/",
@@ -12176,6 +12106,7 @@
     "levels/single-l-insidevolc/",
     "levels/single-l-pomeloisland/",
     "levels/single-l-tefiti/",
+    "building/trading-outpost/",
     "building/author-s-stand/",
     "building/bakery/",
     "building/banner/",
@@ -12329,11 +12260,8 @@
     "building/swimming-pier/",
     "building/tailor/",
     "building/tiny-man-statue/",
-    "building/trading-outpost/",
     "building/trading-outpost-75225/",
-    "building/trading-outpost-75226/",
     "building/trading-outpost-75227/",
-    "building/trading-outpost-83845/",
     "building/trappers-hut/",
     "building/tropical-shelter/",
     "building/two-story-house/",
