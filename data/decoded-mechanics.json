@@ -29131,6 +29131,335 @@
       }
     ]
   },
+  "salvage": {
+    "class": "RecyclableBehaviour",
+    "note": "Only objects with an OverrideRecycleValue are listed (ruins, expedition crates, gifts, canoes, pallets, planter build sites). The other 280 recyclable objects store no amounts; their refund is computed in code.",
+    "records": [
+      {
+        "root": "Canoe",
+        "gameobject_id": 107108,
+        "returns": [
+          {
+            "resource_id": 309169,
+            "resource": "Wood",
+            "count": 3
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Christmas Gift 0 Coats",
+        "gameobject_id": 107068,
+        "returns": [
+          {
+            "resource_id": 300124,
+            "resource": "Coat",
+            "count": 3
+          }
+        ],
+        "counts_as_created": true
+      },
+      {
+        "root": "Christmas Gift 1 Books and Coats",
+        "gameobject_id": 44491,
+        "returns": [
+          {
+            "resource_id": 300124,
+            "resource": "Coat",
+            "count": 1
+          },
+          {
+            "resource_id": 300128,
+            "resource": "Book",
+            "count": 2
+          }
+        ],
+        "counts_as_created": true
+      },
+      {
+        "root": "Christmas Gift 2 Coats",
+        "gameobject_id": 44488,
+        "returns": [
+          {
+            "resource_id": 300124,
+            "resource": "Coat",
+            "count": 3
+          }
+        ],
+        "counts_as_created": true
+      },
+      {
+        "root": "Christmas Gift 3 Books and Coats",
+        "gameobject_id": 44492,
+        "returns": [
+          {
+            "resource_id": 300124,
+            "resource": "Coat",
+            "count": 1
+          },
+          {
+            "resource_id": 300128,
+            "resource": "Book",
+            "count": 2
+          }
+        ],
+        "counts_as_created": true
+      },
+      {
+        "root": "Christmas Gift 4 Coats",
+        "gameobject_id": 44490,
+        "returns": [
+          {
+            "resource_id": 300124,
+            "resource": "Coat",
+            "count": 3
+          }
+        ],
+        "counts_as_created": true
+      },
+      {
+        "root": "Christmas Gift 5 Books and Coats",
+        "gameobject_id": 44489,
+        "returns": [
+          {
+            "resource_id": 300124,
+            "resource": "Coat",
+            "count": 1
+          },
+          {
+            "resource_id": 300128,
+            "resource": "Book",
+            "count": 2
+          }
+        ],
+        "counts_as_created": true
+      },
+      {
+        "root": "Decorative Planter Birds of Paradise Build Site",
+        "gameobject_id": 57060,
+        "returns": [
+          {
+            "resource_id": 293926,
+            "resource": "Stone",
+            "count": 2
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Decorative Planter Calla Lilly Build Site",
+        "gameobject_id": 83474,
+        "returns": [
+          {
+            "resource_id": 293926,
+            "resource": "Stone",
+            "count": 2
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Decorative Planter Hibiscus Build Site",
+        "gameobject_id": 83472,
+        "returns": [
+          {
+            "resource_id": 293926,
+            "resource": "Stone",
+            "count": 2
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Decorative Planter Hydrangea Build Site",
+        "gameobject_id": 83475,
+        "returns": [
+          {
+            "resource_id": 293926,
+            "resource": "Stone",
+            "count": 2
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Decorative Planter Roses Build Site",
+        "gameobject_id": 83473,
+        "returns": [
+          {
+            "resource_id": 293926,
+            "resource": "Stone",
+            "count": 2
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Expedition Crate 1",
+        "gameobject_id": 107067,
+        "returns": [
+          {
+            "resource_id": 308077,
+            "resource": "Plank",
+            "count": 3
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Expedition Crate 2",
+        "gameobject_id": 107099,
+        "returns": [
+          {
+            "resource_id": 308077,
+            "resource": "Plank",
+            "count": 3
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Expedition Crate 2 Variant_Bread",
+        "gameobject_id": 90543,
+        "returns": [
+          {
+            "resource_id": 308077,
+            "resource": "Plank",
+            "count": 3
+          },
+          {
+            "resource_id": 319667,
+            "resource": "Bread",
+            "count": 5
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Expedition Crate 2 Variant_DriedMeat",
+        "gameobject_id": 107272,
+        "returns": [
+          {
+            "resource_id": 308077,
+            "resource": "Plank",
+            "count": 3
+          },
+          {
+            "resource_id": 286344,
+            "resource": "Dried Meat",
+            "count": 5
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Expedition Crate 3",
+        "gameobject_id": 107105,
+        "returns": [
+          {
+            "resource_id": 308077,
+            "resource": "Plank",
+            "count": 3
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Expedition Crate 3 Variant_Bread",
+        "gameobject_id": 47753,
+        "returns": [
+          {
+            "resource_id": 308077,
+            "resource": "Plank",
+            "count": 3
+          },
+          {
+            "resource_id": 319667,
+            "resource": "Bread",
+            "count": 10
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Expedition Crate 3 Variant_DriedMeat",
+        "gameobject_id": 67817,
+        "returns": [
+          {
+            "resource_id": 308077,
+            "resource": "Plank",
+            "count": 3
+          },
+          {
+            "resource_id": 286344,
+            "resource": "Dried Meat",
+            "count": 10
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Pallet",
+        "gameobject_id": 107114,
+        "returns": [
+          {
+            "resource_id": 308077,
+            "resource": "Plank",
+            "count": 1
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Ruined House",
+        "gameobject_id": 95344,
+        "returns": [
+          {
+            "resource_id": 309169,
+            "resource": "Wood",
+            "count": 3
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Ruined Plaza",
+        "gameobject_id": 95337,
+        "returns": [
+          {
+            "resource_id": 308077,
+            "resource": "Plank",
+            "count": 4
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Ruined Zen Garden",
+        "gameobject_id": 95335,
+        "returns": [
+          {
+            "resource_id": 293926,
+            "resource": "Stone",
+            "count": 3
+          }
+        ],
+        "counts_as_created": false
+      },
+      {
+        "root": "Ruins",
+        "gameobject_id": 107062,
+        "returns": [
+          {
+            "resource_id": 293926,
+            "resource": "Stone",
+            "count": 10
+          }
+        ],
+        "counts_as_created": false
+      }
+    ]
+  },
   "duplicate_resource_names": {
     "note": "284895 is the GameObject \"FakeStick\" under the Firewood Yard (Woodchopper): 1 Log becomes 4 FakeStick, then FakeStick becomes Stick 1:1. It shares the localization key Resource.Stick, so both display as Stick.",
     "records": [
