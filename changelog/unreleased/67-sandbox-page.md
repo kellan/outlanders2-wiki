@@ -1,0 +1,1 @@
+New [Sandbox](https://outlanders2wiki.com/sandbox/) page in Mechanics: the three starting-population presets, the three map sizes, the map generator's 15 buildable tiles and 3 food sources per villager, and each biome's crops, fruit trees, forestry plants and extra need (#67, issue 29).

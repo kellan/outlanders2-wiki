@@ -273,3 +273,7 @@ console.log('PASS: research handoff integration.');
  for(const n of ['Cypress Tree','Willow Tree']){assert.ok(!plants.includes('>'+n+'<'),n+' kept off the plants list');assert.ok(h.render('spoilers/').includes(n),n+' listed on the spoilers page')}
  assert.equal(String(h.lookup['buildings/zbeer-stand/'].id),'35464','old Beer Stand URL resolves');assert.ok(h.render('buildings/beer-stand/').includes('<h1>Beer Stand</h1>'),'Beer Stand display name');
  console.log('PASS: junk Base plant hidden; update-32 Cypress and Willow trees moved to spoilers; Beer Stand named.');}
+{const strip=s=>s.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');const sb=strip(h.render('sandbox/'));
+ for(const t of ['Scarce 4 0 0 4 60 12','Average 7 2 0 9 135 27','Abundant 12 6 2 20 300 60','180 × 136','228 × 140','256 × 208','15 buildable tiles','Drylands','Mesquite Tree','Hydration','Winter Pine Tree'])assert.ok(sb.includes(t),'sandbox page: '+t);
+ assert.ok(h.render('mechanics/').includes('href="/sandbox/"'),'Sandbox listed on the mechanics hub');
+ console.log('PASS: Sandbox page from the decoded sandbox options and biome lists.');}
