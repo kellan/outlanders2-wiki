@@ -55,6 +55,8 @@ How to read the "Source" column:
 
 | Need | Why it matters | Source | Status |
 |---|---|---|---|
+| Where the second effect of dishes lives: Barley Porridge and Stew raise Community, Fondue and Manchamanteles raise Fun, but their resource records store only Food units | The Needs page and resource pages can only say "stated in the description, amount unknown" | mine: the `ResourceVariationDatabase` was not decoded (manifest limitation), and the consumption or social-spot behaviour of the cookhouses is unexported; test: compare Community before and after a porridge meal | Effects confirmed from game text and a maintainer report (Barley Porridge: a small rise); amounts unknown. Maintainer hypothesis: the rise comes from eating at the Cookhouse. Discriminating test: eat the dish from a stockpile away from its building and compare; same for Fondue and Fun, Stew and Community |
+| How much a social-spot building raises its need (Communal Plaza, Playground, Zen Garden, Fitness Park, Swimming Pier, Bonfire, Winter Cabin stove) | These have no resource, so stored units say nothing about them | mine (workspot or social-spot configs), test | Effects known from descriptions only |
 | How need configuration maps to play: `DailyRequired`, `UnitValue`, thresholds versus resource `need_units` | Decoded values exist but no one has confirmed what one unit buys | mine, test | Decoded, unverified |
 | Food consumption per villager per day | The single most useful planning number | test | Unknown |
 | Need decay rates, death timing and the happiness formula | Needs and Happiness pages | mine, test | Unknown |

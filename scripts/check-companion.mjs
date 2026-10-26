@@ -104,3 +104,8 @@ assert.ok(h.render('spoilers/').includes('Tournament seasons')&&h.render('spoile
 assert.ok(h.render('spoilers/tournament/').includes('Imperial'));assert.ok(h.lookup['spoilers/tournament/'].spoiler===true);
 assert.ok(!tour.includes('not checked')&&tour.includes('Live ·'),'live tag');assert.ok(!h.render('spoilers/').includes('>Rural</a>'),'Rural left spoilers');
 console.log('PASS: Tournament Mode page and season spoiler handling.');
+// Need effects stated in building descriptions appear beside stored units.
+const porridge=h.render('food/barley-porridge/');assert.ok(porridge.includes('Community'),'stated community effect');assert.ok(porridge.includes('stated in the'),'stated-effect label');
+const needs2=h.render('needs/');assert.ok(needs2.includes('Communal Plaza')&&needs2.includes('Ukulele')&&needs2.includes('Barley Porridge'),'stated effects on needs page');
+assert.ok(h.render('verification/food/barley-porridge/').includes('raises Community'),'observation on research page');
+console.log('PASS: description-stated need effects.');
