@@ -261,3 +261,11 @@ console.log('PASS: research handoff integration.');
 {const home=h.render('');for(const t of ['>Mechanics</a><small>','>Reference</a><small>','href="/eating/"','href="/challenges/"','href="/guides/"'])assert.ok(home.includes(t),'home boxes: '+t);assert.ok(!home.includes('class="reference-links"'),'old reference links row replaced by a box');
  const bk=h.render('buildings/bakery/');assert.ok(bk.includes('wiki-artwork/filled/icon-'),'stand-in filled glyphs used when no game tiles are present');
  console.log('PASS: home Mechanics and Reference boxes; filled glyph stand-ins.');}
+{const strip=s=>s.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');const to=strip(h.render('buildings/trading-outpost/'));
+ assert.ok(to.includes('12 Wheat → 6 Glass Pane or 6 Animal Hide'),'Trading Outpost outputs are a choice, not both');assert.ok(!to.includes('6 Glass Pane + 6 Animal Hide'),'no doubled trade');
+ for(const t of ['Receives (choose one)','8 Glass Pane 6 Animal Hide or 9 Wheat','8 Animal Hide 9 Wheat or 6 Glass Pane','There is no Drylands outpost','How a trade runs','the fire costs nothing'])assert.ok(to.includes(t),'trade section: '+t);
+ assert.equal(String(h.lookup['buildings/trading-outpost/'].id),'75226','Evergreen outpost takes the plain URL');assert.equal(String(h.lookup['buildings/trading-outpost-75226/'].id),'75226','old Evergreen URL still resolves');
+ for(const id of [65543,83845])assert.ok(!h.pages.some(p=>(p.type==='buildings'||p.type==='chains')&&String(p.id)===String(id)),'hidden outpost '+id);
+ assert.ok(strip(h.render('buildings/trading-outpost-75225/')).includes('8 Glass Pane → 6 Animal Hide or 9 Wheat'),'Tropics trade in infobox');
+ const hide=strip(h.render('resources/animal-hide/'));assert.ok(hide.includes('Trading Outpost (Tropiclands)')&&hide.includes('Trading Outpost (Evergreen)')&&!/1 Wheat each/.test(hide),'resource page lists outposts by biome');
+ console.log('PASS: Trading Outpost trades are a choice, per biome, with base and test variants hidden.');}

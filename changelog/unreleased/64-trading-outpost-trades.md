@@ -1,0 +1,1 @@
+The Trading Outpost now shows each biome's trade as a choice: Evergreen gives 12 Wheat for 6 Glass Pane *or* 6 Animal Hide, not both as the page said before. A table compares the Tropiclands, Evergreen and Winterlands trades, a short explainer covers how a trade runs, and the unused base and test-only versions are hidden (#64).

@@ -36,6 +36,7 @@ export function madeFrom(buildings,formulas=[],resources=[]){
    const useCycle=cycle&&cycle.outputs.some(x=>x.resource_id===o.resource_id),base=useCycle?cycle:r,qty=(useCycle?cycle.outputs:r.outputs).find(x=>x.resource_id===o.resource_id).count;
    const entry={building_id:b.gameobject_id,building_name:b.name,per_unit:base.inputs.map(x=>({resource_id:x.resource_id,name:x.name,count:round(x.count/qty)})),smallest_whole_batch:{inputs:r.inputs.map(x=>({resource_id:x.resource_id,name:x.name,count:x.count})),outputs:r.outputs.map(x=>({resource_id:x.resource_id,name:x.name,count:x.count}))},formula_ids:r.formula_ids,status:useCycle?CYCLE_STATUS:RATIO_STATUS};
    if(useCycle)entry.per_cycle={inputs:cycle.inputs.map(x=>({resource_id:x.resource_id,name:x.name,count:x.count})),outputs:cycle.outputs.map(x=>({resource_id:x.resource_id,name:x.name,count:x.count})),status:cycle.status,evidence:cycle.evidence};
+   if(useCycle&&cycle.choice)entry.per_cycle.choice=cycle.choice;
    if(!out.has(o.resource_id))out.set(o.resource_id,[]);out.get(o.resource_id).push(entry);
   }
   if(!recipes.length&&!b.is_plant&&formulas.length){for(const {product_id,entry} of graphRecipes(b,F,R)){if(!out.has(product_id))out.set(product_id,[]);out.get(product_id).push(entry)}}
