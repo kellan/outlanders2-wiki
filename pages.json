@@ -273,6 +273,14 @@
       "spoiler": false
     },
     {
+      "type": "sandbox",
+      "id": "",
+      "name": "Sandbox",
+      "category": "Mechanics",
+      "path": "sandbox/",
+      "spoiler": false
+    },
+    {
       "type": "houses",
       "id": "",
       "name": "Houses",
@@ -10660,6 +10668,7 @@
     "heat-cooling-water/",
     "time/",
     "gear/",
+    "sandbox/",
     "houses/",
     "gathering-places/",
     "buildings/trading-outpost/",
