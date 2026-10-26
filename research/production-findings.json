@@ -3363,5 +3363,26 @@
     },
     "conditions": "Normal configured schedule; Level.IsFastMode uses another range. Actual arrival/departure and longer sleep unverified.",
     "issue_comment": 6405809632
+  },
+  "stick_identity_findings": {
+    "game_version": "30 (254)",
+    "date": "2026-10-25",
+    "request_revision": "1ef64419",
+    "resources": [
+      {
+        "id": 284894,
+        "gameobject_id": 35517,
+        "internal_name": "Stick",
+        "category": 273123
+      },
+      {
+        "id": 284895,
+        "gameobject_id": 35518,
+        "internal_name": "FakeStick",
+        "category": null
+      }
+    ],
+    "status": "Distinct definitions verified; stockpile acceptance, objective counting and runtime conversion interpretation unresolved.",
+    "issue_comment": 6405953837
   }
 }
