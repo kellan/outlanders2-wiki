@@ -286,3 +286,29 @@ Campaign 2:
 - Evidence: assets/gameplay-evidence/meals/meals-2-dawn-45-food.png; meals-2-premeal-meter.png; meals-2-hugo-eating-veggie-night.png; meals-2-meal-meter.png; meals-3-dawn-36-food.png; meals-3-premeal-meter.png; meals-3-late-night-hugo-sleeping-31-food.png; meals-4-dawn-hugo-eating-veggie-27-food.png; meals-4-dawn-meal-meter.png (same directory)
 - Confidence: confirmed
 - Notes: The eating action text can be shown while the villager is approaching the supply; it does not itself timestamp the precise bite. Selected-villager views and inventory were sampled, not recorded continuously. Five-day observation is still incomplete. No equal-distance food preference conclusion.
+
+## Five-day fresh-town meal observation completed (B1)
+- Status: new
+- Row: Food consumption per villager per day, and when villagers choose to eat
+- Fact: From day 1 early dawn to day 6 early dawn, the nine-person town consumed 36 food units: 18 Fruit and 18 Veggies, leaving 18 Veggies from its original 54 total. This is 4 units per villager across the approximately five-day starting window (0.8 units per villager per displayed day as a finite-window average). Hugo's four directly observed eating actions were: day 1 early night, Fruit; day 2 first-third night arc, Veggie; day 4 dawn, Veggie; day 5 morning/first half of day arc, Fruit. No additional meal was observed before the day 6 dawn endpoint. Food remained available and no hunger warning appeared.
+- Target: Hugo and nine-person fresh sandbox population
+- Obtained by: normal-speed five-day observation, selected villager panel and food inventory
+- Conditions: same slot 5 Playtest Meals, Maira first appearance, Evergreen, Rural style, abundant starting supplies, all villagers unemployed/unhoused, no production or kitchen. Hugo started age 34 and displayed 39 at endpoint. Population remained 9. Initial food meter was filled; this is not a steady-state long-run rate. Game paused for notes and commits.
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: prior meal checkpoint images plus assets/gameplay-evidence/meals/meals-5-dawn-27-food.png; meals-5-hugo-eating-fruit-morning-18-food.png; meals-5-meal-meter.png; meals-6-dawn-endpoint-18-food.png (same directory)
+- Confidence: confirmed
+- Notes: Counters and eating-action text are confirmed; sampled panels are not continuous video and cannot prove the absence of an unobserved action. Inventory constrains total consumption because there was no food production. The textual premeal statuses requested by the protocol were not exposed in the inspected UI; graphical meter screenshots are supplied instead. Do not promote 0.8 to a universal ration rate or assume meals occur at a fixed clock position. Hunger-after-exhaustion was not tested because food did not run out during the window.
+
+## Food preference remains uncontrolled (B1 limitation)
+- Status: new
+- Row: Whether villagers prefer some foods over others
+- Fact: Hugo selected both Fruit and Veggies while both were stocked; his four observed choices were Fruit, Veggie, Veggie, Fruit. The five-day town consumed all 18 Fruit and 18 of 36 Veggies. These observations do not establish a preference ranking because pile reach and quantity were not equalized.
+- Target: Fruit versus Veggies
+- Obtained by: selected villager action and inventory during meal test
+- Conditions: same B1 sandbox; starting loose piles at different positions, villagers wandered freely. Fruit exhausted on day 5 morning. No kitchen.
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/meals/
+- Confidence: uncertain
+- Notes: The requested five-eater equal-reach comparison was not completed. Retain this row as open; do not infer universal preference from the consumption split.
