@@ -1,3 +1,7 @@
+## Readable recipes from the stored step graphs (2026-10-26, issue 47)
+
+Buildings whose stored steps include alternatives, fuel multipliers, returned containers or self-made starts no longer show "no single ratio applies". A reader expands each final product back to public inputs: Open Kitchen 3 Stew ← 2 × (Veggie, Meat or Egg) + 1/5 Stick with 3 Plates reused; Winery 4 Wine ← 2 Fruit + 1 Bottle with 4 glasses reused; Cheesery 6 Cheese ← 1 Milk gathered from cows + 1/2 Stick; Trappers' Hut 2 Meat + 1 Animal Hide ← 1 full trap brought back; Clay Pit, Beehive and Well make their product from nothing but time; the Porridge Cookhouse grows its own barley. Planters say the harvest comes from the plants, storage buildings that they store, the beer stand that it serves. These are ratios read from the files; per-cycle speed is still not stored.
+
 ## Why villagers pick stew (2026-10-26)
 
 Dish pages for food served at an eating place (Stew, Fondue, Manchamanteles, Barley Porridge) gain a "Why villagers pick it" section, and the serving buildings a matching note: the meal gives the place's second effect (Stew: Community 4 at the Open Kitchen) and eating in company ranks a little above eating alone in the villagers' activity priorities, so villagers prefer it over food of the same unit value such as Fruit or Veggie. The food value itself is identical. Links go to Gathering places and the eating explainer.

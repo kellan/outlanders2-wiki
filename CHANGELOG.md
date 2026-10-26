@@ -6,6 +6,7 @@ Every pull request adds its line under **Unreleased**; the maintainer moves the 
 
 ## Unreleased
 
+- Readable recipes for the 32 buildings that said "no single ratio applies": Open Kitchen "3 Stew ← 2 × (Veggie, Meat or Egg) + 1/5 Stick (plates reused)", Winery, Brewery, Cheesery, Trappers' Hut and the rest; planters, storage and the beer stand get plain sentences (#51).
 - Dish pages (Stew, Fondue, Manchamanteles, Barley Porridge) and their eating places say why villagers prefer them over food of the same value: the second effect and eating in company (#50).
 - [Needs](https://outlanders2wiki.com/needs/) redesigned: an at-a-glance table of the eight needs, then compact item and place tables per need with meter points and second effects; Houses say crib and doghouse and explain why more houses mean more babies; Gathering places explains the unit; the Bonfire page says how long a stick burns (#49).
 - Level pages list visitors by arrival day ("30 adults on day 50, announced from the start" on Sold Out; three waves on Anthology) and other timed events such as rain and no-births notices; extraction buildings say what they gather and that nothing goes in; the Fishing Dock page states its random catch and real pile size (#48).
