@@ -8,13 +8,13 @@
     "content/resources_/winter pub/house drink"
   ],
   "need_units": {
-    "FoodUnits": 0.0,
-    "EntertainmentUnits": 4.0,
-    "WellnessUnits": 0.0,
-    "CommunityUnits": 0.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 0.0,
-    "HeatUnits": 4.0
+    "FoodUnits": 0,
+    "EntertainmentUnits": 4,
+    "WellnessUnits": 0,
+    "CommunityUnits": 0,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 0,
+    "HeatUnits": 4
   },
   "consume_duration_override": null,
   "consumption_age_limits": {
@@ -35,5 +35,84 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 105702,
+      "building_name": "Winter Pub",
+      "per_unit": [
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 0.25
+        },
+        {
+          "resource_id": 320813,
+          "name": "Wheat",
+          "count": 0.25
+        }
+      ],
+      "batch": {
+        "inputs": [
+          {
+            "resource_id": 284894,
+            "name": "Stick",
+            "count": 1
+          },
+          {
+            "resource_id": 320813,
+            "name": "Wheat",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 285910,
+            "name": "Wheatshine",
+            "count": 4
+          }
+        ]
+      },
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 284894,
+            "name": "Stick",
+            "count": 1
+          },
+          {
+            "resource_id": 320813,
+            "name": "Wheat",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 285910,
+            "name": "Wheatshine",
+            "count": 4
+          }
+        ]
+      },
+      "reused": [
+        {
+          "resource_id": 285902,
+          "name": "Empty House Drink",
+          "count": 1
+        }
+      ],
+      "brought_back": [],
+      "self_made": false,
+      "co_products": [],
+      "formula_ids": [
+        284742,
+        285378,
+        292529,
+        301969,
+        303077
+      ],
+      "status": "ratio read from the stored step graph (alternatives, fuel and returned containers folded in); not measured in play",
+      "graph": true
+    }
+  ]
 }

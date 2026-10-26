@@ -26,5 +26,60 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 105713,
+      "building_name": "Chicken Coop",
+      "per_unit": [
+        {
+          "resource_id": 286359,
+          "name": "Egg",
+          "count": 1
+        }
+      ],
+      "batch": {
+        "inputs": [
+          {
+            "resource_id": 286359,
+            "name": "Egg",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 286358,
+            "name": "Egg",
+            "count": 1
+          }
+        ]
+      },
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 286359,
+            "name": "Egg",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 286358,
+            "name": "Egg",
+            "count": 1
+          }
+        ]
+      },
+      "reused": [],
+      "brought_back": [],
+      "self_made": false,
+      "co_products": [],
+      "formula_ids": [
+        282694,
+        312383
+      ],
+      "status": "ratio read from the stored step graph (alternatives, fuel and returned containers folded in); not measured in play",
+      "graph": true
+    }
+  ]
 }

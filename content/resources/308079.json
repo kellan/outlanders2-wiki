@@ -29,6 +29,63 @@
   },
   "made_from": [
     {
+      "building_id": 105703,
+      "building_name": "Paper Mill",
+      "per_unit": [
+        {
+          "resource_id": 309169,
+          "name": "Log",
+          "count": 1
+        }
+      ],
+      "batch": {
+        "inputs": [
+          {
+            "resource_id": 309169,
+            "name": "Log",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 308079,
+            "name": "Paper",
+            "count": 1
+          }
+        ]
+      },
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 309169,
+            "name": "Log",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 308079,
+            "name": "Paper",
+            "count": 1
+          }
+        ]
+      },
+      "reused": [],
+      "brought_back": [],
+      "self_made": false,
+      "co_products": [],
+      "formula_ids": [
+        280423,
+        284013,
+        288079,
+        306806,
+        317423,
+        322106
+      ],
+      "status": "ratio read from the stored step graph (alternatives, fuel and returned containers folded in); not measured in play",
+      "graph": true
+    },
+    {
       "building_id": 105708,
       "building_name": "Paper Mill",
       "per_unit": [
