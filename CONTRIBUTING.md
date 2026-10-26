@@ -54,6 +54,8 @@ Level pages have a Strategy section for community advice: a summary, a suggested
 
 Use `content/spoilers.json` to place confirmed or explicitly reported unreleased content in the Spoilers section. Each entry records its target, classification, date and reason. Related content can be withheld as `related-release-unconfirmed` without asserting it is unreleased. Use the existing availability record and explain the evidence. Do not infer unreleased status merely from an unfamiliar name or presence in the game files. Keep uncertain release status distinct from spoilers.
 
+How unreleased status is established: each prefab in the game files carries a `MinGameVersion` gate on its `SerializedKeyBehaviour`; the game hides objects whose gate exceeds the running version. `content/reference/decoded-mechanics.json` (`min_game_version.roots`) records the gate of every prefab root and the installed game version. Mark an entry `confirmed-unreleased` only when its own prefab root stores a gate above the installed version (32 against 30 in the baseline build), and cite that in the reason. A maintainer or player report alone gives `reported-unreleased`. Scenarios, biomes or seasons that only exist for gated content but carry no gate of their own stay `related-release-unconfirmed`. A gate at or below the installed version does not prove public release on every platform; the release history in `availability.json` supplies dates where known.
+
 Do not expose spoiler names in ordinary index pages, search results, or related-entry lists. Test both the Spoilers page and the regular catalog when changing an availability record. Use a neutral issue or pull-request title when the details contain spoilers.
 
 ## Images and private information

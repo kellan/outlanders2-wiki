@@ -16,7 +16,7 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for the full edit-and-review process. 
 
 Keep `source`, `source_entries`, GUIDs, hashes and asset identifiers traceable. If you change a factual field, supply evidence and revisit any validation claim that no longer applies. Shared extraction snapshots in `reference/` are evidence, not a second place to silently make the same editorial correction.
 
-Observations have their own records and render in research pages. Spoiler placement is controlled explicitly by `spoilers.json`, not inferred from every unknown release status. Preserve existing URLs when renaming entries; the renderer retains compatibility routes in the world reference data.
+Observations have their own records and render in research pages. Spoiler placement is controlled explicitly by `spoilers.json`, not inferred from every unknown release status; `confirmed-unreleased` requires the prefab's own `MinGameVersion` gate (in `decoded-mechanics.json`) to exceed the installed game version, as CONTRIBUTING.md describes. Preserve existing URLs when renaming entries; the renderer retains compatibility routes in the world reference data.
 
 ## Research findings
 

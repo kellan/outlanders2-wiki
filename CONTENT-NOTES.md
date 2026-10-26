@@ -66,6 +66,10 @@ The maintainer reports that the Bakery holds 40 Bread; the decoded "5 Flour + 4 
 
 Article pages gained a Stardew-style companion layer on top of the existing evidence model: an infobox (type, footprint, cost, workers, housing, inputs, outputs, growth stage days, level count), a single verification badge linking to the research page, level-objective backlinks computed from scenario objectives, build/plant availability grouped by campaign and story with unnamed archive maps collapsed, story context and previous/next links on level pages, story and level lists on leader pages, footer navboxes, and per-page "Suggest an edit" and "Report a problem" links. Decoded formula steps on chain pages and starting-object tables on level pages are collapsed by default. The Properties aside and leader gameplay checks now move to the research page with the other provenance material. Navboxes and backlinks read the spoiler-scoped datasets, so spoiler entries stay out of public pages.
 
+## How unreleased status is decided (2026-10-26)
+
+Written down in CONTRIBUTING.md and on the Spoilers page: `confirmed-unreleased` needs the prefab's own `MinGameVersion` gate above the installed game version (32 against 30 here); reports give `reported-unreleased`; associated scenarios and biomes without a gate stay `related-release-unconfirmed`. Construction-material rollups for level objectives are tracked in issue 23.
+
 ## Plants section, tree yields and the clock (2026-10-26)
 
 Crops and trees now live under `/plants/` with their own directory (issue 20); the old `/buildings/<plant>/` addresses stay as aliases. Tree pages show felling yields and timed drops from the decoded plant prefabs (issue 21): Ash gives 4 Logs after 6 chops, an Apple Tree 1 Log after 3 and one Fruit every 1.65–2.5 days with 4 waiting at most. The research agent traced the clock code: the dial shows a day face for the first half of the cycle and a night face for the second, so shifts are now described against the dial rather than hours, which the game never names.

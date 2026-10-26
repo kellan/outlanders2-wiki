@@ -167,3 +167,4 @@ console.log('PASS: research handoff integration.');
  const apple=h.render('plants/apple-tree/');assert.ok(apple.includes('every 1.65–2.5 days')&&apple.includes('at most 4 waiting'),'apple drops');assert.ok(!apple.includes('Mushroom'),'gated mushroom spawner hidden');assert.ok(apple.includes('Plants</a>'),'plant breadcrumb');
  assert.ok(h.render('buildings/').includes('dial turns to day'),'clock wording in work schedules');
  console.log('PASS: plants section, felling yields, fruit spawners and clock wording.');}
+{const sp=h.render('spoilers/');assert.ok(sp.includes('How we tell that something is unreleased')&&sp.includes('MinGameVersion'),'spoiler method note');console.log('PASS: unreleased-status method documented.');}
