@@ -1,6 +1,6 @@
 {
   "id": "Level06C",
-  "summary": "Get rid of all 36 Glass Panes, put 40 Veggies in a Market and finish by day 35 for the optional. A Canteen Factory turns 2 Glass, 1 Reed and some Sticks into a Canteen: about 18 Reed and 8 Sticks clear the stash. Pumpkins (4-day crop) fill the Market fastest.",
+  "summary": "Get rid of all 36 Glass Panes, put 40 Veggies in a Market and finish by day 35 for the optional. A Canteen Factory turns 2 Glass, 1 Reed and some Sticks into a Canteen, which villagers carry for Cooling: about 18 Reed and 8 Sticks clear the stash. Pumpkins (4-day crop) fill the Market fastest.",
   "build_order": [
     {
       "gameobject_id": 38478,
@@ -40,7 +40,7 @@
     },
     {
       "gameobject_id": 105745,
-      "note": "16 Bricks + 6 Planks; up to 10 Canteens a day with two workers."
+      "note": "16 Bricks + 6 Planks; up to 10 Canteens a day with two workers. Canteens are Cooling gear, so the town gets cooler as the Glass disappears."
     }
   ],
   "pitfalls": [

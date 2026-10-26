@@ -4,13 +4,13 @@
     "type": "resources",
     "id": "300124"
   },
-  "claim": "Villagers wear Coats when they are cold; a Coat is not eaten or used up like food, which is why its resource record stores no need units.",
+  "claim": "Villagers wear Coats when they are cold. A Coat is gear for the Heat need (BaseValueIncrease 129, against 79 for the other need gear), not a consumable, which is why its resource record stores no need units.",
   "status": "confirmed",
   "evidence": {
     "kind": "player-report",
     "game_version": "30 (254)",
     "date": "2026-10-26",
-    "reference": "Maintainer report, 26 October 2026, from play. The Coat ResourceConfig stores zero units for every need."
+    "reference": "Maintainer report, 26 October 2026, from play. Decoded gear config for Coat (source 297369): Need Heat, BaseValueIncrease 129, exact round-trip (research handoff, gear_findings). The Coat ResourceConfig stores zero units for every need."
   },
-  "notes": "How much warmth a worn Coat gives, whether it wears out, and whether worn Coats still count toward 'Sew N Coats' objectives remain to be measured (PLAYTESTS B6 and Part C)."
+  "notes": "What a BaseValueIncrease of 129 does to the Heat meter (Heat need: satisfied at 90, max 150) and whether a Coat wears out are not yet traced; the runtime application of gear is unresolved in the research handoff. Whether worn Coats still count toward 'Sew N Coats' objectives is a Part C check."
 }
