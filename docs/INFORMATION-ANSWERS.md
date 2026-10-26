@@ -74,3 +74,29 @@ All timing uses normal speed, displayed day plus dial position, recorded leader 
 - Evidence: research branch codex/research-answers, RESEARCH-ANSWERS.md and research/production-findings.json at 06ed8d63
 - Confidence: confirmed for stored values; modelled for rates; disputed for Bakery capacity
 - Notes: Rows updated rather than removed where the in-play meaning is still open: gear application, meter conversion for social spots and dishes, measured production, clock origin, effective capacity, orchard fruit per day.
+
+## Rural season reward track and countdown (A4)
+- Status: new
+- Row: Tournament season history: dates of the Nordic and Mesoamerican seasons, the Rural season’s reward list and end date, and whether Egyptian and Imperial have ever run
+- Fact: Tournament displays “10 days left”. Reward track, top to bottom: Rural Palette; Rural Basic House; Rural Farm; Streak Shield; Rural Sawmill; 20 Leaderboard Bonus Points; Rural Cheesery; Streak Shield; Rural Windmill; 50 Leaderboard Bonus Points; Rural Winery; Streak Shield; Rural Villagers Style; 100 Leaderboard Bonus Points. The final reward requires 92 Reward Points. The explanatory panel says Reward Points unlock buildings and town styles, each season brings new prizes, and daily Tournament level completion maintains a streak bonus.
+- Target: Tournament / Rural season
+- Obtained by: in-game menus
+- Conditions: existing account reward track, 89 Reward Points, streak 11; no rewards claimed or levels started
+- Game version: 30 (254), verified from installed application Info.plist; Settings was inspected but no version label was visible
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/challenges/challenges-menu-tournament.png; assets/gameplay-evidence/challenges/challenges-menu-rewards-1.png through challenges-menu-rewards-4.png
+- Confidence: confirmed
+- Notes: Partial answer: countdown is not an exact end timestamp; earlier season dates and Egyptian/Imperial availability remain unanswered. Settings screenshot: assets/gameplay-evidence/session/settings-bottom.png.
+
+## Challenge categories and a Chill day limit (A4)
+- Status: new
+- Row: Challenge type rules for Chill, Ranked and Remix, scoring, and schedule
+- Fact: Current Challenges introduction describes Redux as familiar levels with a twist, Bounty as producing or stocking as much of a resource as possible within a time limit, and Original as new handcrafted campaign-like levels. Archive additionally offers Chill, Ranked and Remix filters. Chill “Town of the Year” explicitly has an 80-day limit, main objectives of population 100 and satisfying Happiness, and optional objective of everyone settled. Therefore the Chill label does not mean unlimited days. Current Original “Spooktown” rankings show completion in Days (11.20, 11.26, 11.37 for the top three).
+- Target: Challenges
+- Obtained by: in-game menus and level card
+- Conditions: read-only archive inspection; no level restarted
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/challenges/challenges-menu-rules.png; assets/gameplay-evidence/challenges/challenges-menu-chill.png; assets/gameplay-evidence/challenges/challenges-menu-chill-card.png; assets/gameplay-evidence/challenges/challenges-menu-ranked.png
+- Confidence: confirmed
+- Notes: Partial: no general description for the three older categories was exposed on the examined screens. Do not infer their full rules or ranking formula from the category names.
