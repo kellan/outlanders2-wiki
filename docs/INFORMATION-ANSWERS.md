@@ -32,7 +32,7 @@ Copy this template for each fact:
 - Date: 2026-10-25
 - Evidence: none
 - Confidence: likely
-- Notes: Recorded as the Bakery gameplay block, player-report, on 25 October 2026. Shown here as a filled-in example.
+- Notes: Recorded as the Bakery gameplay block, player-report, on 25 October 2026. Superseded on 26 October by the decoded pile capacities (4 × 15 = 60) at the maintainer’s request. Kept as a filled-in example.
 
 ## Tournament Mode live, Rural season running
 - Status: recorded
@@ -46,3 +46,16 @@ Copy this template for each fact:
 - Evidence: none
 - Confidence: confirmed
 - Notes: Recorded as observation tournament-rural-season-live; Rural removed from spoilers; row replaced by a season-history row.
+
+## Research handoff, 26 October 2026 (issue 10 comments 6405315176 to 6405320280)
+- Status: recorded
+- Row: Harvest yield per crop; Production time per cycle; Day length; Fishing Dock and other extraction yields (Chicken Coop); Output storage capacity; Work schedule to clock mapping; Gear effects; Terrain codes; Where the second effect of dishes lives; Social-spot amounts
+- Fact: See `content/reference/research-findings.json` (imported whole, with provenance) and the observations added on 26 October. Crop yields per full field and growth days; one game day is 300 simulation seconds; gear stored base increases and Boots speed multipliers; TerrainType 1 Water, 2 Sand, 3 Soil, 4 Mountain; social-spot and eating-spot need units; nominal pile capacities; Chicken Coop 5 eggs per day (player report); apple spawner interval and cap; WalkCarryingMultiplier about 0.8.
+- Target: many
+- Obtained by: decoded data (byte-round-tripped records) plus a maintainer player report for the Chicken Coop
+- Conditions: installed macOS build; no gameplay timing
+- Game version: 30 (254)
+- Date: 2026-10-25
+- Evidence: research branch codex/research-answers, RESEARCH-ANSWERS.md and research/production-findings.json at 06ed8d63
+- Confidence: confirmed for stored values; modelled for rates; disputed for Bakery capacity
+- Notes: Rows updated rather than removed where the in-play meaning is still open: gear application, meter conversion for social spots and dishes, measured production, clock origin, effective capacity, orchard fruit per day.

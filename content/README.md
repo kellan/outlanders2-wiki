@@ -18,6 +18,10 @@ Keep `source`, `source_entries`, GUIDs, hashes and asset identifiers traceable. 
 
 Observations have their own records and render in research pages. Spoiler placement is controlled explicitly by `spoilers.json`, not inferred from every unknown release status. Preserve existing URLs when renaming entries; the renderer retains compatibility routes in the world reference data.
 
+## Research findings
+
+`content/reference/research-findings.json` is a handed-over export from the research agent (see its `provenance` block): decoded gear effects, social-spot and eating-spot need units, the terrain enum, one game day in simulation seconds, crop yields per field, and per-building production profiles whose rates are a supplied-inputs capacity model. Reader pages show the decoded values labelled as stored; the modelled rates appear only on research pages. Re-import the whole file when the research agent publishes a new version; do not hand-edit it.
+
 ## History
 
 `content/history.json` holds dated changes per entity: `type` (buildings, resources, levels, heroes, biomes), `id`, `game_version`, `date`, `change` and `evidence` (`kind`, `reference`, optional `url`). Entries render as a History section on the entity page and on the Changelog page, grouped by update. Backdate an entry only when an official source or a decoded marker ties the content to that update. After a re-extraction on a new build, `node scripts/compare-content.mjs <old content> <new content> --version N --date YYYY-MM-DD` prints candidate entries for review.

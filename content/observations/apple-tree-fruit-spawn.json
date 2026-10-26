@@ -1,0 +1,16 @@
+{
+  "id": "apple-tree-fruit-spawn",
+  "target": {
+    "type": "buildings",
+    "id": "67909"
+  },
+  "claim": "An established Apple Tree spawns fruit on a stored interval of 1.65 to 2.5 days with a standing cap of 4; fruit per day cannot be derived from those two numbers alone.",
+  "status": "open",
+  "evidence": {
+    "kind": "decoded-data",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "SpawnerSystem schedules against Clock.Days; apple spawner interval and cap from the research handoff, issue 10 comment 6405317435."
+  },
+  "notes": "Spawn quantity, blocked accumulation and collection still need tracing. Felling yield is separate from fruit."
+}

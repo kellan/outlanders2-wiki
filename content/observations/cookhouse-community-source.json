@@ -4,13 +4,13 @@
     "type": "buildings",
     "id": "105738"
   },
-  "claim": "The small Community rise from Barley Porridge may come from eating at the Porridge Cookhouse rather than from the dish itself.",
-  "status": "open",
+  "claim": "The small Community rise from Barley Porridge comes from eating at the Porridge Cookhouse: its eating spot stores Community 1, while the dish stores none.",
+  "status": "confirmed",
   "evidence": {
-    "kind": "player-report",
+    "kind": "decoded-data",
     "game_version": "30 (254)",
-    "date": "2026-10-25",
-    "reference": "Maintainer hypothesis, 25 October 2026, after observing that the rise is small. Supporting data: every dish whose description names a second need (Barley Porridge, Stew, Fondue, Manchamanteles) is served on plates that return to its building, as are Mead, Beer and Wheatshine; Bread, Cookies, Dried Meat, Smoothies and Ice Pops have no container. Mead is a counterexample: its resource stores Community 4 directly."
+    "date": "2026-10-26",
+    "reference": "SocialSpotBehaviour 277041 on the Porridge Cookhouse stores CommunityUnits 1 with Duration 6 (research handoff, issue 10 comment 6405320280; SocialEatingPlaceBehaviour 314244). The Barley Porridge resource stores CommunityUnits 0. Open Kitchen eating spot 276989 stores Community 4, Desert Cookhouse 276991 Fun 4, Fondue Bar 292958 Fun 4."
   },
-  "notes": "The social-spot configuration of buildings was not exported, so the data cannot decide this. Discriminating test: let villagers eat Barley Porridge from a stockpile away from the Cookhouse (for example after the Cookhouse is demolished or unstaffed) and compare the Community change with eating at the Cookhouse. The same test applies to Fondue and Fun at the Fondue Bar, and to Stew at the Open Kitchen."
+  "notes": "Stored value confirmed and matches the maintainer’s “small amount”. How a stored unit converts to the need meter, and whether the dish gives anything when eaten elsewhere, still need the off-site test."
 }

@@ -12,5 +12,5 @@
     "date": "2026-10-25",
     "reference": "Maintainer report, 25 October 2026. The game’s Porridge Cookhouse description says the dish raises Nutrition and Community. The Barley Porridge ResourceConfig stores FoodUnits 2 and CommunityUnits 0."
   },
-  "notes": "The second effect is not in the resource’s stored units, so it must come from somewhere the extraction did not decode: the ResourceVariationDatabase, or the way dishes are consumed at the cookhouse. Stew, Fondue and Manchamanteles have the same pattern; carried gear and social-spot buildings have no stored units at all. The Needs page now shows description-stated effects alongside stored units."
+  "notes": "Resolved on 26 October: the Community 1 lives on the Porridge Cookhouse eating spot (see cookhouse-community-source), not on the dish. Stew (Open Kitchen, Community 4), Fondue and Manchamanteles (Fun 4) follow the same pattern."
 }

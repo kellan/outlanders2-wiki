@@ -1,0 +1,16 @@
+{
+  "id": "glassworks-pane-capacity",
+  "target": {
+    "type": "buildings",
+    "id": "105728"
+  },
+  "claim": "The Glassworks has two public Glass Pane piles storing Capacity 24 each, a nominal 48; the effective stop point is unverified.",
+  "status": "open",
+  "evidence": {
+    "kind": "decoded-data",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "ResourcePileBehaviour 289408 and 290642 (research handoff, issue 10 comment 6405318044)."
+  },
+  "notes": "Nominal sum only; active piles and the stop condition need tracing or a filled building counted in play, as for the Bakery."
+}

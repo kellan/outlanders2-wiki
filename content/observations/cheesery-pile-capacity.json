@@ -1,0 +1,16 @@
+{
+  "id": "cheesery-pile-capacity",
+  "target": {
+    "type": "buildings",
+    "id": "105730"
+  },
+  "claim": "The Cheesery has a public pile storing Capacity 36 whose reference resource is unset; whether it is a cheese-only limit is unverified.",
+  "status": "open",
+  "evidence": {
+    "kind": "decoded-data",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "ResourcePileBehaviour 313277 (research handoff, issue 10 comment 6405318044)."
+  },
+  "notes": "Trace the pile’s category before calling it a cheese capacity."
+}
