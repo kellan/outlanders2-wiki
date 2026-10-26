@@ -156,3 +156,29 @@ Campaign 2:
 - Evidence: assets/gameplay-evidence/menus/menus-campaign-1.png
 - Confidence: confirmed
 - Notes: Individual level unlock prerequisites remain untested.
+
+## Drylands has a Foresters’ Hub despite the decoded sandbox list (A5)
+- Status: new
+- Row: Which building plants Mesquite in sandbox Drylands
+- Fact: The live Drylands Construction menu includes Foresters’ Hub (10 Planks, four worker slots). Its field guide names Mesquite among the trees it uses. The Mesquite guide names Foresters’ Hub and Lumberjacks’ Base under “Used by”. Mesquite placement shows no eligible highlighted area with only an Oasis present; after adding a Hub, an eligible highlighted area appears around the Hub. The live UI therefore identifies Foresters’ Hub as the Mesquite planting building; Oasis is not a substitute.
+- Target: Mesquite / Foresters’ Hub / Oasis
+- Obtained by: live build menu, field guide, planting placement overlay
+- Conditions: fresh sandbox slot 2; Drylands, Great Mesa, medium map, average population (9 villagers, 7 adults at start), abundant starting resources, Miranda first appearance; Autobuild enabled to skip construction. Day 1; Oasis then Hub placed. No seed shown. Existing slot 1 untouched.
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/planters/planters-1-drylands-foresters-available.png; planters-1-mesquite-guide.png; planters-1-mesquite-oasis-invalid.png; planters-1-mesquite-hub-area.png (same directory); assets/gameplay-evidence/fieldguide/Foresters-Hub-Drylands.png
+- Confidence: likely
+- Notes: Building availability and guide text are confirmed. Actual worker planting was not observed: tree placement remained unconfirmed despite selecting a highlighted tile. Do not label this a completed growth or planting-animation test. This contradicts the assumption that Drylands has no Hub in the build menu.
+
+## Drylands visible crop and tree choices (A5)
+- Status: new
+- Row: Crop availability per biome in normal play, including greenhouse rules in Winterlands
+- Fact: Drylands sandbox Field menu lists Watermelon Field (yield 1, 4 days) and Carrot Field (yield 3, 9 days); Wood Tree menu lists Mesquite Tree (yield 2, 8 days); Fruit Tree menu lists Nopal Tree (yield Scarce, 10 days) and Date Palm Tree (yield Average, 10 days). No other entries or greyed-out choices were visible in these three lists. Oasis guide names Nopal, Date Palm, Carrot and Watermelon; its cost is 10 Planks and it has four worker slots.
+- Target: Drylands
+- Obtained by: planting menu and field guide
+- Conditions: same fresh Drylands sandbox as the Mesquite entry, Autobuild enabled; no campaign availability inference
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/planters/planters-1-drylands-fields.png; planters-1-drylands-mesquite.png; planters-1-drylands-fruit.png (same directory); assets/gameplay-evidence/fieldguide/Oasis-top.png; Oasis-cost.png (same directory)
+- Confidence: confirmed
+- Notes: These are displayed menu growth times, not measured elapsed growth times. Winterlands remains a separate test.
