@@ -8,13 +8,13 @@
     "content/resources_/paper"
   ],
   "need_units": {
-    "FoodUnits": 0.0,
-    "EntertainmentUnits": 0.0,
-    "WellnessUnits": 0.0,
-    "CommunityUnits": 0.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 0.0,
-    "HeatUnits": 0.0
+    "FoodUnits": 0,
+    "EntertainmentUnits": 0,
+    "WellnessUnits": 0,
+    "CommunityUnits": 0,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 0,
+    "HeatUnits": 0
   },
   "consume_duration_override": null,
   "consumption_age_limits": null,
@@ -26,5 +26,41 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 105708,
+      "building_name": "Paper Mill",
+      "per_unit": [
+        {
+          "resource_id": 309169,
+          "name": "Log",
+          "count": 1
+        }
+      ],
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 309169,
+            "name": "Log",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 308079,
+            "name": "Paper",
+            "count": 1
+          }
+        ]
+      },
+      "formula_ids": [
+        284014,
+        306808,
+        317424,
+        322107
+      ],
+      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+    }
+  ]
 }

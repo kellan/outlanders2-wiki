@@ -1,0 +1,16 @@
+{
+  "id": "tropical-weather-events",
+  "target": {
+    "type": "biomes",
+    "id": "Tropical"
+  },
+  "claim": "Tropical maps run a weather group every 2 to 6 days: Rain (two days, the Cooling meter refills at twice its fall rate) or a Heat wave (two days, the Cooling meter falls four times as fast), each announced two days ahead.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "decoded-data",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "LevelEventGroupBehaviour \"Tropical Events\" (MinPeriodInDays 2, MaxPeriodInDays 6) with LevelEventBehaviour \"Rain\" (Refreshment multiplier \u22122, 2 days) and \"Heat wave\" (Refreshment multiplier 4, 2 days)."
+  },
+  "notes": "Which levels attach the group is set per map; the Tropical biome page lists it."
+}

@@ -53,7 +53,7 @@ console.log('PASS: ratio presentation and Bakery capacity observation.');
 // Per-cycle recipe and capacity come from the gameplay block.
 const box2=(()=>{const b=h.render('buildings/bakery/');return b.slice(b.indexOf('class="infobox"'),b.indexOf('</aside>'))})();
 assert.ok(box2.includes('1 Flour')&&box2.includes('1 Stick')&&box2.includes('8 Bread'),'per-cycle recipe in infobox');
-assert.ok(box2.includes('Capacity')&&box2.includes('60 Bread'),'capacity in infobox');
+assert.ok(box2.includes('Capacity')&&/60 <a[^>]*>Bread<\/a>/.test(box2),'capacity in infobox');
 assert.ok(!box2.includes('0.8 Stick'),'derived ratio must not replace the confirmed recipe');
 assert.ok(h.render('production-chains/bakery/').includes('How production works'));
 assert.ok(h.render('buildings/').includes('8 Bread'),'catalog uses per-cycle recipe');
@@ -125,3 +125,37 @@ assert.ok(h.render('production-chains/glassworks/').includes('Production notes')
 assert.ok(!h.render('buildings/glassworks/').includes('Modelled production capacity'),'model stays off reader page');
 assert.ok(h.render('buildings/bakery/').includes('60 Bread'),'bakery capacity from decoded piles');
 console.log('PASS: research handoff integration.');
+// Stored per-unit recipes on resources, shown on resource, building and level pages.
+{const canteenRecord=JSON.parse(fs2.readFileSync(new URL('../content/resources/300130.json',import.meta.url),'utf8'));
+ assert.ok(Array.isArray(canteenRecord.made_from)&&canteenRecord.made_from.length===1,'canteen made_from stored in data');
+ const per=Object.fromEntries(canteenRecord.made_from[0].per_unit.map(x=>[x.name,x.count]));assert.deepEqual(per,{'Glass Pane':2,Stick:0.4,'Reed Bunch':1},'per-unit canteen amounts');
+ assert.equal(canteenRecord.made_from[0].smallest_whole_batch.outputs[0].count,5,'batch kept alongside per-unit');
+ const breadRecord=JSON.parse(fs2.readFileSync(new URL('../content/resources/'+canteenRecord.made_from[0].per_unit[0].resource_id+'.json',import.meta.url),'utf8'));assert.ok(breadRecord.made_from.some(m=>m.building_name==='Glassworks'),'glass pane made_from');
+ const canteen=h.render('resources/canteen/');assert.ok(canteen.includes('How it is made'),'resource recipe section');assert.ok(canteen.includes('Each Canteen:'),'per-unit heading');assert.ok(canteen.includes('2 Glass Pane')&&canteen.includes('1 Stick</a> for every 2.5 Canteen'),'per-unit amounts in prose');assert.ok(canteen.includes('Smallest whole batch:')&&canteen.includes('5 Canteen'),'batch shown');
+ assert.ok(canteen.includes('Made from'),'infobox made-from row');
+ const bread=h.render('food/bread/');assert.ok(bread.includes('Per cycle:')&&bread.includes('8 Bread'),'per-cycle recipe preferred for bread');
+ const factory=h.render('buildings/canteen-factory/');assert.ok(factory.includes('Each Canteen:'),'per-unit line on building page');
+ const firewood=JSON.parse(fs2.readFileSync(new URL('../content/resources/284894.json',import.meta.url),'utf8'));assert.ok(!(firewood.made_from||[]).some(m=>m.per_unit.some(x=>x.name==='Stick')),'stick-to-stick conversion excluded');
+ const level=h.render('levels/mom-s-gardens/');assert.ok(level.includes('What the objectives need'),'level rollup');
+ const start=level.indexOf('id="objective-needs"'),rows=level.slice(start,level.indexOf('</section>',start));const row=name=>{const i=rows.indexOf('>'+name+'</a></td>');return rows.slice(i,i+260).replace(/<[^>]+>/g,'|')};
+ assert.ok(/Canteen\|+—\|+6\|+6\|/.test(row('Canteen')),'canteen optional only: '+row('Canteen'));
+ assert.ok(/Glass Pane\|+—\|+12\|+—\|/.test(row('Glass Pane')),'glass pane expanded from canteens: '+row('Glass Pane'));
+ assert.ok(/Stick\|+—\|+20.4\|/.test(row('Stick')),'sticks include glass fuel: '+row('Stick'));assert.equal((rows.match(/>Stick<\/a><\/td>/g)||[]).length,1,'same-named sticks merged');
+ assert.ok(/Book\|+18\|+18\|+18\|/.test(row('Book')),'main objective book');
+ assert.ok(/12 <a[^>]*>Glass Pane<\/a> at the/.test(level)&&/needs 18 <a[^>]*>Stick<\/a>/.test(level),'breakdown steps');
+ console.log('PASS: stored recipes and objective rollups.');}
+// Decoded mechanics: capacities, heating, housing, version gates, needs model, weather, boosts, pile tables.
+{const glass=h.render('buildings/glassworks/');assert.ok(/Capacity<\/dt><dd>48 <a[^>]*>Glass Pane/.test(glass),'glassworks capacity from piles');assert.ok(glass.includes('2 piles of 24'),'pile breakdown');
+ const factory=h.render('buildings/canteen-factory/');assert.ok(/Capacity<\/dt><dd>12 <a[^>]*>Canteen/.test(factory),'canteen capacity');
+ const bakery2=h.render('buildings/bakery/');assert.ok(/Capacity<\/dt><dd>60 <a[^>]*>Bread/.test(bakery2),'bakery capacity kept from the gameplay block');
+ const cabin=h.render('buildings/winter-cabin/');assert.ok(cabin.includes('Heating')&&cabin.includes('burns one fuel item every day')&&cabin.includes('warms 4 sleeping spots'),'winter cabin heating row: '+(cabin.match(/Heating<\/dt><dd>[^<]*/)||[''])[0]);
+ const house=h.render('buildings/basic-house/');assert.ok(house.includes('4 villagers')&&house.includes('plus 1 baby and 1 pet'),'housing row with baby and pet spots');
+ const dock=h.render('buildings/fishing-dock/');assert.ok(/Added in<\/dt><dd>Update 17/.test(dock),'added-in row from MinGameVersion');
+ const needs=h.render('needs/');for(const t of ['How the meters work','Villager life','adult at 16','What keeping villagers content does','Falls per day'])assert.ok(needs.includes(t),'needs page: '+t);
+ const tropics=h.render('biomes/tropiclands/');assert.ok(tropics.includes('Weather')&&tropics.includes('Heat wave')&&tropics.includes('2 to 6 days'),'tropical weather');
+ assert.ok(!h.render('biomes/winterlands/').includes('<h2>Weather</h2>'),'no weather section elsewhere');
+ const research=h.render('verification/buildings/bakery/');assert.ok(research.includes('<h2>Piles</h2>')&&research.includes('public output'),'pile table on research page');assert.ok(!bakery2.includes('<h2>Piles</h2>'),'pile table stays on the research page');
+ assert.ok(h.render('tournament/').includes('<h2>Boosts</h2>'),'tournament boosts');
+ const spoil=JSON.parse(fs2.readFileSync(new URL('../content/spoilers.json',import.meta.url),'utf8'));assert.ok(spoil.entries.filter(e=>e.status==='confirmed-unreleased').length>=20,'version gates confirmed spoilers');
+ assert.ok(!h.render('buildings/').includes('Stroganoff'),'gated building still withheld from the catalog');
+ console.log('PASS: decoded mechanics on infoboxes, needs, biomes, research and tournament pages.');}

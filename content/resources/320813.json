@@ -8,13 +8,13 @@
     "content/resources_/wheat"
   ],
   "need_units": {
-    "FoodUnits": 0.0,
-    "EntertainmentUnits": 0.0,
-    "WellnessUnits": 0.0,
-    "CommunityUnits": 0.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 0.0,
-    "HeatUnits": 0.0
+    "FoodUnits": 0,
+    "EntertainmentUnits": 0,
+    "WellnessUnits": 0,
+    "CommunityUnits": 0,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 0,
+    "HeatUnits": 0
   },
   "consume_duration_override": null,
   "consumption_age_limits": null,
@@ -26,5 +26,106 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 75225,
+      "building_name": "Trading Outpost",
+      "per_unit": [
+        {
+          "resource_id": 309166,
+          "name": "Glass Pane",
+          "count": 0.8889
+        }
+      ],
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 309166,
+            "name": "Glass Pane",
+            "count": 8
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 320813,
+            "name": "Wheat",
+            "count": 9
+          }
+        ]
+      },
+      "formula_ids": [
+        296117,
+        297305,
+        299853
+      ],
+      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+    },
+    {
+      "building_id": 75227,
+      "building_name": "Trading Outpost",
+      "per_unit": [
+        {
+          "resource_id": 304112,
+          "name": "Animal Hide",
+          "count": 0.8889
+        }
+      ],
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 304112,
+            "name": "Animal Hide",
+            "count": 8
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 320813,
+            "name": "Wheat",
+            "count": 9
+          }
+        ]
+      },
+      "formula_ids": [
+        278145,
+        299855,
+        304092
+      ],
+      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+    },
+    {
+      "building_id": 83845,
+      "building_name": "Trading Outpost",
+      "per_unit": [
+        {
+          "resource_id": 304112,
+          "name": "Animal Hide",
+          "count": 0.8889
+        }
+      ],
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 304112,
+            "name": "Animal Hide",
+            "count": 8
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 320813,
+            "name": "Wheat",
+            "count": 9
+          }
+        ]
+      },
+      "formula_ids": [
+        282995,
+        306925,
+        310702
+      ],
+      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+    }
+  ]
 }

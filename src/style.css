@@ -59,3 +59,6 @@ main a:not(.button):not(.card){color:#365d7c}main a:hover{text-decoration:underl
 .topbar{height:auto;min-height:0;padding:6px 14px;font-size:12px;gap:12px}
 main{padding-top:14px}
 }
+
+.recipe-card{border:1px solid var(--line);background:var(--white);border-radius:3px;padding:14px 16px;margin:0 0 12px}.recipe-card>p:first-child a{display:flex;align-items:center;gap:8px}.recipe-card>p:first-child img{width:28px;height:28px;object-fit:contain}.recipe-card .small{margin:0}
+.recipe-steps{font-size:12px;line-height:1.8;padding-left:20px;margin:8px 0}#objective-needs details{font-size:12px;margin:8px 0}#objective-needs summary{cursor:pointer;color:var(--muted)}

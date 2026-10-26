@@ -8,13 +8,13 @@
     "content/resources_/gear/book"
   ],
   "need_units": {
-    "FoodUnits": 0.0,
-    "EntertainmentUnits": 0.0,
-    "WellnessUnits": 0.0,
-    "CommunityUnits": 0.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 0.0,
-    "HeatUnits": 0.0
+    "FoodUnits": 0,
+    "EntertainmentUnits": 0,
+    "WellnessUnits": 0,
+    "CommunityUnits": 0,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 0,
+    "HeatUnits": 0
   },
   "consume_duration_override": null,
   "consumption_age_limits": null,
@@ -26,5 +26,50 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 105696,
+      "building_name": "Book Workshop",
+      "per_unit": [
+        {
+          "resource_id": 308079,
+          "name": "Paper",
+          "count": 2
+        },
+        {
+          "resource_id": 304112,
+          "name": "Animal Hide",
+          "count": 1
+        }
+      ],
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 308079,
+            "name": "Paper",
+            "count": 2
+          },
+          {
+            "resource_id": 304112,
+            "name": "Animal Hide",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 300128,
+            "name": "Book",
+            "count": 1
+          }
+        ]
+      },
+      "formula_ids": [
+        296352,
+        306805,
+        314610
+      ],
+      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+    }
+  ]
 }

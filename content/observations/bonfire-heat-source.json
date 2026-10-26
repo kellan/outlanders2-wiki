@@ -1,0 +1,16 @@
+{
+  "id": "bonfire-heat-source",
+  "target": {
+    "type": "buildings",
+    "id": "94267"
+  },
+  "claim": "The Bonfire burns one fuel item every 0.7 days and warms eight visitor spots with 4 heat units.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "decoded-data",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "PileHeatSourceBehaviour on \"Bonfire/Workspots/HeatPile\": ConsumeHeatInDays 0.7, HeatSocialSpots 8, SocialSpotHeatUnits 4."
+  },
+  "notes": "The social-spot record from the research handoff stores Heat 2 on finishing a tend; the pile adds 4 units to visitors while it burns."
+}

@@ -8,13 +8,13 @@
     "content/resources_/dried meat shop/dried meat"
   ],
   "need_units": {
-    "FoodUnits": 2.0,
-    "EntertainmentUnits": 0.0,
-    "WellnessUnits": 0.0,
-    "CommunityUnits": 0.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 0.0,
-    "HeatUnits": 0.0
+    "FoodUnits": 2,
+    "EntertainmentUnits": 0,
+    "WellnessUnits": 0,
+    "CommunityUnits": 0,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 0,
+    "HeatUnits": 0
   },
   "consume_duration_override": null,
   "consumption_age_limits": null,
@@ -26,5 +26,41 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 105747,
+      "building_name": "Dried Meat Shop",
+      "per_unit": [
+        {
+          "resource_id": 304113,
+          "name": "Meat",
+          "count": 0.5
+        }
+      ],
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 304113,
+            "name": "Meat",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 286344,
+            "name": "Dried Meat",
+            "count": 2
+          }
+        ]
+      },
+      "formula_ids": [
+        307967,
+        309556,
+        314771,
+        318168
+      ],
+      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+    }
+  ]
 }

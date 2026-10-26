@@ -1,0 +1,16 @@
+{
+  "id": "firewood-yard-two-stick-definitions",
+  "target": {
+    "type": "resources",
+    "id": "284895"
+  },
+  "claim": "The second Stick definition (284895) is the FakeStick object inside the Firewood Yard: one Log becomes four FakeStick, and each FakeStick becomes one Stick (284894). Both share the localization key Resource.Stick, so both display as Stick; the item the stockpile counts is 284894.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "decoded-data",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "ResourceBehaviour 284895 sits on GameObject \"FakeStick\" under the Woodchopper prefab; 284894 on \"Stick\". Decoded with the pure-Python IL2CPP reader (outlanders2-research, tools/decode_classes.py), every record consumed to its exact length."
+  },
+  "notes": "Level objective totals merge the two by name, so the Log cost of sticks is counted once."
+}
