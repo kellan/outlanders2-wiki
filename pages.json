@@ -121,6 +121,14 @@
       "spoiler": false
     },
     {
+      "type": "guides",
+      "id": "",
+      "name": "Guides elsewhere",
+      "category": "Directory",
+      "path": "guides/",
+      "spoiler": false
+    },
+    {
       "type": "contribute",
       "id": "",
       "name": "Contribute",
@@ -10673,6 +10681,7 @@
     "index/",
     "changelog/",
     "verification/",
+    "guides/",
     "contribute/",
     "about/",
     "spoilers/",
