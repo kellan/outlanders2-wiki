@@ -178,4 +178,8 @@ console.log('PASS: research handoff integration.');
  const pine=h.render('plants/winter-pine-tree/');assert.ok(!pine.includes('HunterTrapFull'),'internal trap state hidden from yields');assert.ok(pine.includes('0.2 per tile'),'winter pine wild density');
  const dir=h.render('plants/');assert.ok(dir.includes('>Biomes</th>')&&/Nopal Tree[\s\S]*?<a[^>]*>Oasis<\/a>[\s\S]*?Drylands/.test(dir),'biomes column on the overview');
  console.log('PASS: plant biomes, wild spawns and data-driven planters.');}
+// How eating works (Needs page).
+{const needs=h.render('needs/');assert.ok(needs.includes('id="eating"')&&needs.includes('How eating works'),'eating section');assert.ok(needs.includes('starves only after about 6.25 days'),'days to starve from the stored curve');assert.ok(/<td>Satisfied<\/td><td>90–110<\/td><td>0.45<\/td>/.test(needs),'eat priority at Satisfied');assert.ok(/<td>Full<\/td><td>110 and above<\/td><td>0 \(never\)<\/td>/.test(needs),'full villagers never eat');
+ assert.ok(/>Bread<\/a><\/td><td>2<\/td><td>120<\/td><td>30<\/td><td>0.33<\/td>/.test(needs),'bread row: units, restore, worth-it-below, per day');assert.ok(!/Stroganoff|Mushroom/.test(needs),'eating table keeps spoilers out');
+ console.log('PASS: how eating works from the stored meter and eat priority.');}
 {const sp=h.render('spoilers/');assert.ok(sp.includes('How we tell that something is unreleased')&&sp.includes('MinGameVersion'),'spoiler method note');console.log('PASS: unreleased-status method documented.');}
