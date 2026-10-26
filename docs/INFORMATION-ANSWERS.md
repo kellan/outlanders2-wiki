@@ -247,3 +247,16 @@ Campaign 2:
 - Evidence: assets/gameplay-evidence/clock/clock-2-early-night.png; clock-2-late-night.png; clock-3-sunrise-counter-increment.png (same directory)
 - Confidence: confirmed
 - Notes: Confirms the visible counter boundary only. No numbered clock hours are shown, and this observation alone does not establish which stored shift fraction corresponds to dawn. A full precisely sampled day-length measurement remains open.
+
+## Additional Evergreen production field guides (A1, second batch)
+- Status: new
+- Row: Field guide text, recipe, cost and worker slots for every building
+- Fact: Captured the live field guides for Lumberjacks’ Base, Clay Pit, Quarry, Brickyard, Firewood Yard, Stone Mine, Foragers’ Hut, Farm, Orchard, Cookie Shop, Cheesery, Porridge Cookhouse, Roadworks Office, Warehouse, Market, Trading Outpost, Bootmakers’ Shop, Communal Plaza, Brewery, Smoothie Stand, Paper Mill, Press, Book Workshop, Bottle Factory, Winery, Pendant Craftshop, Luthierie, Beehive and Mead Hall. Long cards have top/cost screenshots. Trading Outpost here lists 12 Wheat as input and 6 Glass Panes plus 6 Animal Hides as output. Porridge Cookhouse says barley is grown on site and lists 1 Stick producing 2 Barley Porridge.
+- Target: Evergreen building field guides
+- Obtained by: in-game field guide
+- Conditions: Playtest Refund sandbox paused on day 3, Jaqweshia third appearance, English UI; Options displays active style Rural. Recipe values are guide text, not measured throughput.
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/fieldguide/: Lumberjacks-Base-top.png, Lumberjacks-Base-cost.png, Clay-Pit.png, Quarry.png, Brickyard.png, Firewood-Yard.png, Stone-Mine.png, Foragers-Hut-top.png, Foragers-Hut-cost.png, Farm-top.png, Farm-cost.png, Orchard-top.png, Orchard-cost.png, Cookie-Shop.png, Cheesery.png, Porridge-Cookhouse.png, Roadworks-Office.png, Warehouse.png, Market.png, Trading-Outpost-Evergreen.png, Bootmakers-Shop.png, Communal-Plaza.png, Brewery.png, Smoothie-Stand.png, Paper-Mill.png, Press.png, Book-Workshop.png, Bottle-Factory.png, Winery.png, Pendant-Craftshop.png, Luthierie.png, Beehive.png, Mead-Hall.png.
+- Confidence: confirmed
+- Notes: Still partial coverage of the requested 63 entries; nonproduction buildings and biome-specific producers remain. This batch adds 29 building guides. The refund test also used the active Rural style; its observed six-Log cost was verified directly.
