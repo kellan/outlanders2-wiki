@@ -271,4 +271,5 @@ console.log('PASS: research handoff integration.');
  console.log('PASS: Trading Outpost trades are a choice, per biome, with base and test variants hidden.');}
 {const plants=h.render('plants/');assert.ok(!/>Base</.test(plants),'junk Base plant row hidden');assert.ok(!h.pages.some(p=>p.type==='buildings'&&String(p.id)==='92320'),'Base plant page hidden');
  for(const n of ['Cypress Tree','Willow Tree']){assert.ok(!plants.includes('>'+n+'<'),n+' kept off the plants list');assert.ok(h.render('spoilers/').includes(n),n+' listed on the spoilers page')}
- console.log('PASS: junk Base plant hidden; update-32 Cypress and Willow trees moved to spoilers.');}
+ assert.equal(String(h.lookup['buildings/zbeer-stand/'].id),'35464','old Beer Stand URL resolves');assert.ok(h.render('buildings/beer-stand/').includes('<h1>Beer Stand</h1>'),'Beer Stand display name');
+ console.log('PASS: junk Base plant hidden; update-32 Cypress and Willow trees moved to spoilers; Beer Stand named.');}

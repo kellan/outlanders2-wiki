@@ -1,1 +1,1 @@
-The plants list loses its junk "Base" row, and Cypress Tree and Willow Tree move to Spoilers: the game files gate them to a future update. An audit found every other unlisted building is a real campaign building (#65).
+The plants list loses its junk "Base" row, and Cypress Tree and Willow Tree move to Spoilers: the game files gate them to a future update. An audit found every other unlisted building is a real campaign building. zBeer Stand is now shown as Beer Stand (#65).

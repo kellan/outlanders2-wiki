@@ -14,6 +14,8 @@ Two more stay but move. Cypress Tree and Willow Tree have a field prefab gated a
 
 Only the field-plant template "Base" (92320) is hidden: it has no name, no cost and no level.
 
+The maintainer approved showing zBeer Stand as **Beer Stand**, after its localization key `Building.BeerStand`; the files hold no English name for it. Research pages keep the internal name, and the old `/buildings/zbeer-stand/` URL still resolves.
+
 ## Trading Outpost: a choice of one good, per biome (2026-10-26)
 
 #59 recorded the Evergreen field guide as 12 Wheat → 6 Glass Pane + 6 Animal Hide. That doubled the output. The prefab marks the workplace's outputs exclusive (`WorkplaceConfig.ExclusiveOutputs`, set on no other building), stores two separate 12 Wheat trades, and the Tournament hint `FastMode.Hint.FirstTradingPost.3` reads "Open the Resources tab to choose the resource you want to receive." One trade therefore gives 6 of whichever good is selected. The guide lists both because the prefab's `FormulaVisualConfig` shows both options under one input count.
