@@ -4,13 +4,13 @@
     "type": "buildings",
     "id": "105705"
   },
-  "claim": "Fondue should raise Fun as well as Food, as the Fondue Bar description states; not yet checked in play, and the effect may belong to eating at the Fondue Bar.",
-  "status": "open",
+  "claim": "Fondue raises Fun when eaten at the Fondue Bar: the bar’s eating spot stores Fun 4, while the dish stores none.",
+  "status": "confirmed",
   "evidence": {
-    "kind": "field-guide",
+    "kind": "decoded-data",
     "game_version": "30 (254)",
-    "date": "2026-10-25",
-    "reference": "Fondue Bar building description: a pot of Fondue that provides Nutrition and Entertainment. The Fondue resource records store FoodUnits 2 and EntertainmentUnits 0."
+    "date": "2026-10-26",
+    "reference": "SocialSpotBehaviour 292958 on the Fondue Bar stores EntertainmentUnits 4 with Duration 6 (research handoff, issue 10 comment 6405320280). The Fondue resources store EntertainmentUnits 0."
   },
-  "notes": "Flagged by the maintainer on 25 October 2026 as the next dish to check after Barley Porridge. Same discriminating test as cookhouse-community-source."
+  "notes": "Stored value confirmed; the in-play size of the gain and an off-site meal test remain open."
 }

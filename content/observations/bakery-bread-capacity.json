@@ -5,12 +5,12 @@
     "id": "57395"
   },
   "claim": "The Bakery bakes 8 Bread from 1 Flour and 1 Stick per cycle and keeps baking until it holds 40 Bread; 40 is a storage capacity, not a batch size.",
-  "status": "open",
+  "status": "disputed",
   "evidence": {
     "kind": "player-report",
     "game_version": "30 (254)",
     "date": "2026-10-25",
     "reference": "Maintainer report, 25 October 2026. The 40 Bread figure shown by earlier builds of this wiki was the ratio artifact; a 40-unit capacity is reported from play."
   },
-  "notes": "Recorded in the Bakery record's gameplay block. The per-cycle recipe is confirmed by the field guide and the decoded formula graph. The capacity is not in the exported data: the StockpileBehaviour, ResourcePileBehaviour and PileableBehaviour objects were round-trip validated but never exported. A controlled test or a pile decode should confirm it and supply capacities for other buildings."
+  "notes": "Decoded pile records (26 October) show four public Bread piles of Capacity 15 each, nominal 60, against the reported stop at 40. Neither replaces the other until active piles and the stop condition are traced or a filled Bakery is counted in play."
 }

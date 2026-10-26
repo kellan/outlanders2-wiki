@@ -105,7 +105,23 @@ assert.ok(h.render('spoilers/tournament/').includes('Imperial'));assert.ok(h.loo
 assert.ok(!tour.includes('not checked')&&tour.includes('Live ·'),'live tag');assert.ok(!h.render('spoilers/').includes('>Rural</a>'),'Rural left spoilers');
 console.log('PASS: Tournament Mode page and season spoiler handling.');
 // Need effects stated in building descriptions appear beside stored units.
-const porridge=h.render('food/barley-porridge/');assert.ok(porridge.includes('Community'),'stated community effect');assert.ok(porridge.includes('stated in the'),'stated-effect label');
+const porridge=h.render('food/barley-porridge/');assert.ok(porridge.includes('Community'),'stated community effect');assert.ok(porridge.includes('stated in the')||porridge.includes('when eaten at the'),'stated-effect label');
 const needs2=h.render('needs/');assert.ok(needs2.includes('Communal Plaza')&&needs2.includes('Ukulele')&&needs2.includes('Barley Porridge'),'stated effects on needs page');
 assert.ok(h.render('verification/food/barley-porridge/').includes('raises Community'),'observation on research page');
 console.log('PASS: description-stated need effects.');
+// Research handoff: decoded gear, social spots, terrain, yields, day length and modelled rates.
+const carrot=h.render('buildings/carrot/');assert.ok(carrot.includes('3 <a')||carrot.includes('yields 3'),'carrot yield per field');assert.ok(carrot.includes('per full field'));
+const coat=h.render('resources/coat/');assert.ok(coat.includes('Gear effect')&&coat.includes('raises base Heat'),'coat gear row');
+const boots=h.render('resources/boots/');assert.ok(boots.includes('walk speed')&&boots.includes('adults only'),'boots gear row');
+const porridge2=h.render('food/barley-porridge/');assert.ok(porridge2.includes('Community 1')||porridge2.includes('Community</small><b>1</b>'),'porridge community value');
+const cookhouse=h.render('buildings/porridge-cookhouse/');assert.ok(cookhouse.includes('Visiting gives')&&cookhouse.includes('Community 1'),'cookhouse social row');
+assert.ok(h.render('buildings/bonfire/').includes('Heat 2'),'bonfire heat');
+const needs3=h.render('needs/');assert.ok(needs3.includes('base +129')||needs3.includes('base +129 (stored)'),'gear value on needs page');assert.ok(needs3.includes('1.2 (stored)'),'social value on needs page');
+assert.ok(h.render('buildings/bridge/').includes('soil, water or sand'),'terrain names');assert.ok(h.render('buildings/bakery/').includes('flat soil only'));
+assert.ok(h.render('buildings/').includes('300 simulation seconds'),'day length');
+assert.ok(h.render('buildings/chicken-coop/').includes('Reported output')&&h.render('buildings/chicken-coop/').includes('per day'),'coop report');
+assert.ok(h.render('verification/buildings/glassworks/').includes('Modelled production capacity'),'model on research page');
+assert.ok(h.render('production-chains/glassworks/').includes('Production notes'),'highlights on chain page');
+assert.ok(!h.render('buildings/glassworks/').includes('Modelled production capacity'),'model stays off reader page');
+assert.ok(h.render('buildings/bakery/').includes('(disputed)')||h.render('buildings/bakery/').includes('disputed'),'bakery capacity disputed');
+console.log('PASS: research handoff integration.');

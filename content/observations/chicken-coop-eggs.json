@@ -1,0 +1,16 @@
+{
+  "id": "chicken-coop-eggs",
+  "target": {
+    "type": "buildings",
+    "id": "105713"
+  },
+  "claim": "A Chicken Coop produces up to 5 Eggs per game day regardless of how many workers are assigned; extra workers collect and clean.",
+  "status": "open",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "Maintainer report relayed in the research handoff, issue 10 comment 6405316937. Collection formula 282694 takes about 5.3 simulation seconds per egg; adult chicken config 303909 stores an extraction interval of 60."
+  },
+  "notes": "Not independently reproduced from the laying logic; the two MaxSpawned=5 spawners under the coop spawn manure, not eggs."
+}
