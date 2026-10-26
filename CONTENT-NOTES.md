@@ -68,7 +68,7 @@ Article pages gained a Stardew-style companion layer on top of the existing evid
 
 ## Tree self-seeding and workspot effects (2026-10-26, issues 32 and 35)
 
-Tree pages gain a Spreads row from the stored plant settings (fruit trees and palms 2% a day, Ash, Pine, Willow and the Spookylands dead tree 3%, Jungle Tree and Mesquite 4%, all within 3 tiles and never closer than 1 tile to another plant); the Plants overview and the wood and fruit harvesters' pages note that wild stands regrow. Only five workspots in the game carry a need or random-output behaviour: the Bonfire's tending task gives the worker 2 Heat units, and the Fishing Dock's spots roll 0–1 or 0–2 Meat per cycle (expected 0.5 and 1), now stated on those pages. Three test rows added for the local agent: demolition refunds, planted-tree spread, fish per cast.
+Tree pages gain a Spreads row from the stored plant settings (fruit trees and palms 2% a day, Ash, Pine, Willow and the Spookylands dead tree 3%, Jungle Bush and Mesquite 4%, all within 3 tiles and never closer than 1 tile to another plant); the Plants overview and the wood and fruit harvesters' pages note that wild stands regrow. Only five workspots in the game carry a need or random-output behaviour: the Bonfire's tending task gives the worker 2 Heat units, and the Fishing Dock's spots roll 0–1 or 0–2 Meat per cycle (expected 0.5 and 1), now stated on those pages. Three test rows added for the local agent: demolition refunds, planted-tree spread, fish per cast.
 
 ## Salvage values for map objects (2026-10-26, issue 29)
 

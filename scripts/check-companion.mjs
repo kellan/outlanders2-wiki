@@ -187,9 +187,9 @@ console.log('PASS: research handoff integration.');
  if(h.lookup['biomes/spookylands/']){const spooky=h.render('biomes/spookylands/');assert.ok(/Ruins<[\s\S]{0,200}10 <a[^>]*>Stone<\/a> when dismantled/.test(spooky),'ruins salvage on the biome page')}
  console.log('PASS: salvage values from recyclable overrides.');}
 // Tree self-seeding and workspot effects (issues 32, 35).
-{const palm=h.render('plants/palm-tree/');assert.ok(/Spreads<\/dt><dd>2% chance a day to seed a new tree within 3 tiles, never closer than 1 tile/.test(palm),'palm spreads row');assert.ok(/Spreads<\/dt><dd>4% chance/.test(h.render('plants/jungle-tree/')),'jungle tree spreads at 4%');assert.ok(/Spreads<\/dt><dd>3% chance/.test(h.render('plants/ash-tree/')),'ash spreads at 3%');assert.ok(!/Spreads<\/dt>/.test(h.render('plants/carrot/')),'crops do not spread');
+{const palm=h.render('plants/palm-tree/');assert.ok(/Spreads<\/dt><dd>2% chance a day to seed a new tree within 3 tiles, never closer than 1 tile/.test(palm),'palm spreads row');assert.ok(/Spreads<\/dt><dd>4% chance/.test(h.render('plants/mesquite-tree/')),'mesquite spreads at 4%');assert.ok(/Spreads<\/dt><dd>3% chance/.test(h.render('plants/ash-tree/')),'ash spreads at 3%');assert.ok(!/Spreads<\/dt>/.test(h.render('plants/carrot/')),'crops do not spread');
  assert.ok(h.render('plants/').includes('Trees also seed themselves (2–4% a day'),'overview note');assert.ok(h.render('buildings/lumberjacks-base/').includes('Wild trees regrow on their own'),'regrowth note on the lumberjack');
  const dock=h.render('buildings/fishing-dock/');assert.ok(dock.includes('0–1 at 2 spots, 0–2 at 1 spot')&&dock.includes('Expect about 0.67 per cycle'),'fishing dock random output: '+(dock.match(/Each work cycle[^<]*/)||[''])[0]);
- assert.ok(/Finishing the “1 Stick -> 1 Heat” task also gives the worker 2 Heat units/.test(h.render('buildings/bonfire/')),'bonfire tender warmth');
+ assert.ok(/Finishing the “1 Stick -&gt; 1 Heat” task also gives the worker 2 Heat units/.test(h.render('buildings/bonfire/')),'bonfire tender warmth');
  console.log('PASS: tree self-seeding and workspot effects.');}
 {const sp=h.render('spoilers/');assert.ok(sp.includes('How we tell that something is unreleased')&&sp.includes('MinGameVersion'),'spoiler method note');console.log('PASS: unreleased-status method documented.');}
