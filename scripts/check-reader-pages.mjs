@@ -11,4 +11,5 @@ assert.ok(h.render('verification/buildings/pumpkin/').includes('Tropiclands'));
 assert.ok(h.render('verification/buildings/bakery/').includes('Fuel discrepancy'));
 for(const name of ['too-hot-to-write','cordial-work-environment','frostbound-valley'])assert.ok(h.render('levels/'+name+'/').includes('Main objectives'));
 for(const p of h.pages.filter(p=>p.type==='levels'))assert.ok(!/^Single_|^Level\d/.test(p.name),p.name);
-console.log('PASS: reader/research separation, plant names, crop-only content, old URLs, localized terms, renamed scenario aliases, and retained recipe discrepancies.');
+for(const id of [35718,105746,75802]){assert.ok(!h.pages.some(p=>(p.type==='buildings'||p.type==='chains')&&String(p.id)===String(id)),'non-game building '+id);}
+console.log('PASS: reader/research separation, plant names, crop-only content, old URLs, localized terms, renamed scenario aliases, and retained recipe discrepancies, non-game buildings hidden.');
