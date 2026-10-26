@@ -191,3 +191,20 @@ The maintainer authorized publishing to both the research branch and issue #10. 
 - [Social-spot effects and secondary meal benefits — requested on c119dbec](https://github.com/kellan/outlanders2-wiki/issues/10#issuecomment-6405320280)
 
 The monitor now checks issue #10 and its comments, the wiki request documents, and the research repository's `decode-targets:docs/DECODE-TARGETS.md` priority list. Remaining questions are kept open until evidence supports an answer.
+
+## Clay Pit schedule and clock mapping — native-code follow-up
+
+**Rows:** Which clock hour the stored shift fraction 0.0 corresponds to; whether late-shift crews sleep longer.
+**Version/date:** macOS 30 (254), researched 2026-10-25. **Method:** decoded workplace config and native ARM64 code; no gameplay timing test.
+
+Clay Pit (building 69351, WorkplaceBehaviour 316378) uses Start=0, End≈0.6. The 53 standard workplace definitions use 0.9→0.5 across the cycle boundary. Both windows last 0.6 day = 180 simulation seconds; Clay Pit starts and finishes 0.1 day = 30 simulation seconds later. This does not establish longer sleep.
+
+New runtime evidence: Clock.get_TimeInDay (RVA 0xA94BB0) computes the fractional part of Seconds/300 + 1. TimeRange.IsClockTimeWithinRange (0xACA3A4) compares this directly with the configured endpoints, using wraparound when Start > End; endpoints are excluded. WorkplaceBehaviour.get_EffectiveWorkTimeRange (0xDB51E8) uses the configured range except in Level.IsFastMode, which selects a separate range. FastMode must not be assumed to mean the ordinary speed-up button.
+
+ClockUI.LateUpdate (0xC53048) rotates its dial by -360 × TimeInDay degrees, displays the day count, and selects SpriteBackgroundDay at fractions ≤0.5 and SpriteBackgroundNight at >0.5. Thus Clay Pit starts at the cycle wrap and continues 30 simulation seconds beyond the UI's day-to-night background transition. Standard workplaces finish at that transition. This clock UI method contains no conversion to numbered hours; an AM/PM label such as 6am–8:24pm is NOT verified. Remaining work: connect dial artwork/world-lighting phases to a player-facing description, or verify whether any other UI supplies numbered hours. Do not mark exact clock hours resolved yet.
+
+**Reproducibility:** the arm64 slice of the newly archived original GameAssembly exactly matches the binary used for this trace (SHA-256 09a0eb471a2b1afb3e3691dd881ae26eafad594d6d4e642f0f8d489f4e946c97). Original inputs are now on private research main under snapshots/macos-30-254, commit 13773c5. No binary or disassembly is attached here.
+
+**Confidence:** verified schedule comparison and UI implementation; actual worker arrival/departure, sleep behavior and named clock hours remain unverified.
+
+[Issue answer](https://github.com/kellan/outlanders2-wiki/issues/10#issuecomment-6405809632)
