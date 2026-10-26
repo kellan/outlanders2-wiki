@@ -3351,6 +3351,50 @@
       "gear_findings": "decoded-data",
       "terrain_placement_findings": "decoded-data",
       "social_spot_findings": "decoded-data"
-    }
+    },
+    "updated": "2026-10-26: added clock_schedule_findings and stick_identity_findings from branch codex/research-answers commit 451ff8e3 (issue 10 comments 6405809632 and 6405953837)"
+  },
+  "clock_schedule_findings": {
+    "game_version": "30 (254)",
+    "research_date": "2026-10-25",
+    "building_id": 69351,
+    "workplace_id": 316378,
+    "start": 0,
+    "end": 0.6,
+    "standard_start": 0.9,
+    "standard_end": 0.5,
+    "shift_simulation_seconds": 180,
+    "delay_relative_to_standard_simulation_seconds": 30,
+    "ui_day_night_boundary": 0.5,
+    "numbered_clock_hours_verified": false,
+    "methods": {
+      "clock": "0xA94BB0",
+      "range": "0xACA3A4",
+      "effective_range": "0xDB51E8",
+      "ui": "0xC53048"
+    },
+    "conditions": "Normal configured schedule; Level.IsFastMode uses another range. Actual arrival/departure and longer sleep unverified.",
+    "issue_comment": 6405809632
+  },
+  "stick_identity_findings": {
+    "game_version": "30 (254)",
+    "date": "2026-10-25",
+    "request_revision": "1ef64419",
+    "resources": [
+      {
+        "id": 284894,
+        "gameobject_id": 35517,
+        "internal_name": "Stick",
+        "category": 273123
+      },
+      {
+        "id": 284895,
+        "gameobject_id": 35518,
+        "internal_name": "FakeStick",
+        "category": null
+      }
+    ],
+    "status": "Distinct definitions verified; stockpile acceptance, objective counting and runtime conversion interpretation unresolved.",
+    "issue_comment": 6405953837
   }
 }

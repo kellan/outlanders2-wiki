@@ -17,6 +17,14 @@
       "spoiler": false
     },
     {
+      "type": "plants",
+      "id": "",
+      "name": "Plants",
+      "category": "Directory",
+      "path": "plants/",
+      "spoiler": false
+    },
+    {
       "type": "resources",
       "id": "",
       "name": "Resources",
@@ -556,8 +564,8 @@
       "type": "buildings",
       "id": "67909",
       "name": "Apple Tree",
-      "category": "Building",
-      "path": "buildings/apple-tree/",
+      "category": "Plant",
+      "path": "plants/apple-tree/",
       "spoiler": false
     },
     {
@@ -572,8 +580,8 @@
       "type": "buildings",
       "id": "67910",
       "name": "Ash Tree",
-      "category": "Building",
-      "path": "buildings/ash-tree/",
+      "category": "Plant",
+      "path": "plants/ash-tree/",
       "spoiler": false
     },
     {
@@ -588,8 +596,8 @@
       "type": "buildings",
       "id": "67917",
       "name": "Banana Tree",
-      "category": "Building",
-      "path": "buildings/banana-tree/",
+      "category": "Plant",
+      "path": "plants/banana-tree/",
       "spoiler": false
     },
     {
@@ -604,8 +612,8 @@
       "type": "buildings",
       "id": "92320",
       "name": "Base",
-      "category": "Building",
-      "path": "buildings/base/",
+      "category": "Plant",
+      "path": "plants/base/",
       "spoiler": false
     },
     {
@@ -620,8 +628,8 @@
       "type": "buildings",
       "id": "71099",
       "name": "Beet",
-      "category": "Building",
-      "path": "buildings/beet/",
+      "category": "Plant",
+      "path": "plants/beet/",
       "spoiler": false
     },
     {
@@ -636,8 +644,8 @@
       "type": "buildings",
       "id": "67908",
       "name": "Berry Bush",
-      "category": "Building",
-      "path": "buildings/berry-bush/",
+      "category": "Plant",
+      "path": "plants/berry-bush/",
       "spoiler": false
     },
     {
@@ -652,8 +660,8 @@
       "type": "buildings",
       "id": "71093",
       "name": "Cabbage",
-      "category": "Building",
-      "path": "buildings/cabbage/",
+      "category": "Plant",
+      "path": "plants/cabbage/",
       "spoiler": false
     },
     {
@@ -668,8 +676,8 @@
       "type": "buildings",
       "id": "71098",
       "name": "Carrot",
-      "category": "Building",
-      "path": "buildings/carrot/",
+      "category": "Plant",
+      "path": "plants/carrot/",
       "spoiler": false
     },
     {
@@ -684,8 +692,8 @@
       "type": "buildings",
       "id": "71097",
       "name": "Cauliflower",
-      "category": "Building",
-      "path": "buildings/cauliflower/",
+      "category": "Plant",
+      "path": "plants/cauliflower/",
       "spoiler": false
     },
     {
@@ -700,8 +708,8 @@
       "type": "buildings",
       "id": "71100",
       "name": "Corn",
-      "category": "Building",
-      "path": "buildings/corn/",
+      "category": "Plant",
+      "path": "plants/corn/",
       "spoiler": false
     },
     {
@@ -716,8 +724,8 @@
       "type": "buildings",
       "id": "67921",
       "name": "Cypress Tree",
-      "category": "Building",
-      "path": "buildings/cypress-tree/",
+      "category": "Plant",
+      "path": "plants/cypress-tree/",
       "spoiler": false
     },
     {
@@ -732,8 +740,8 @@
       "type": "buildings",
       "id": "67911",
       "name": "Date Palm Tree",
-      "category": "Building",
-      "path": "buildings/date-palm-tree/",
+      "category": "Plant",
+      "path": "plants/date-palm-tree/",
       "spoiler": false
     },
     {
@@ -748,8 +756,8 @@
       "type": "buildings",
       "id": "67919",
       "name": "Dragon Fruit Tree",
-      "category": "Building",
-      "path": "buildings/dragon-fruit-tree/",
+      "category": "Plant",
+      "path": "plants/dragon-fruit-tree/",
       "spoiler": false
     },
     {
@@ -764,8 +772,8 @@
       "type": "buildings",
       "id": "71095",
       "name": "Eggplant",
-      "category": "Building",
-      "path": "buildings/eggplant/",
+      "category": "Plant",
+      "path": "plants/eggplant/",
       "spoiler": false
     },
     {
@@ -780,8 +788,8 @@
       "type": "buildings",
       "id": "67914",
       "name": "Fig Tree",
-      "category": "Building",
-      "path": "buildings/fig-tree/",
+      "category": "Plant",
+      "path": "plants/fig-tree/",
       "spoiler": false
     },
     {
@@ -796,8 +804,8 @@
       "type": "buildings",
       "id": "67906",
       "name": "Grape Vine",
-      "category": "Building",
-      "path": "buildings/grape-vine/",
+      "category": "Plant",
+      "path": "plants/grape-vine/",
       "spoiler": false
     },
     {
@@ -812,8 +820,8 @@
       "type": "buildings",
       "id": "67912",
       "name": "Dead Tree",
-      "category": "Building",
-      "path": "buildings/dead-tree/",
+      "category": "Plant",
+      "path": "plants/dead-tree/",
       "spoiler": false
     },
     {
@@ -828,8 +836,8 @@
       "type": "buildings",
       "id": "67913",
       "name": "Jungle Tree",
-      "category": "Building",
-      "path": "buildings/jungle-tree/",
+      "category": "Plant",
+      "path": "plants/jungle-tree/",
       "spoiler": false
     },
     {
@@ -844,8 +852,8 @@
       "type": "buildings",
       "id": "67905",
       "name": "Jungle Bush",
-      "category": "Building",
-      "path": "buildings/jungle-bush/",
+      "category": "Plant",
+      "path": "plants/jungle-bush/",
       "spoiler": false
     },
     {
@@ -860,8 +868,8 @@
       "type": "buildings",
       "id": "67904",
       "name": "Mesquite Tree",
-      "category": "Building",
-      "path": "buildings/mesquite-tree/",
+      "category": "Plant",
+      "path": "plants/mesquite-tree/",
       "spoiler": false
     },
     {
@@ -876,8 +884,8 @@
       "type": "buildings",
       "id": "67916",
       "name": "Nopal Tree",
-      "category": "Building",
-      "path": "buildings/nopal-tree/",
+      "category": "Plant",
+      "path": "plants/nopal-tree/",
       "spoiler": false
     },
     {
@@ -892,8 +900,8 @@
       "type": "buildings",
       "id": "71092",
       "name": "Onion",
-      "category": "Building",
-      "path": "buildings/onion/",
+      "category": "Plant",
+      "path": "plants/onion/",
       "spoiler": false
     },
     {
@@ -908,8 +916,8 @@
       "type": "buildings",
       "id": "67918",
       "name": "Palm Tree",
-      "category": "Building",
-      "path": "buildings/palm-tree/",
+      "category": "Plant",
+      "path": "plants/palm-tree/",
       "spoiler": false
     },
     {
@@ -924,8 +932,8 @@
       "type": "buildings",
       "id": "67920",
       "name": "Pine Tree",
-      "category": "Building",
-      "path": "buildings/pine-tree/",
+      "category": "Plant",
+      "path": "plants/pine-tree/",
       "spoiler": false
     },
     {
@@ -940,8 +948,8 @@
       "type": "buildings",
       "id": "67907",
       "name": "Pomelo Tree",
-      "category": "Building",
-      "path": "buildings/pomelo-tree/",
+      "category": "Plant",
+      "path": "plants/pomelo-tree/",
       "spoiler": false
     },
     {
@@ -956,8 +964,8 @@
       "type": "buildings",
       "id": "71094",
       "name": "Potato",
-      "category": "Building",
-      "path": "buildings/potato/",
+      "category": "Plant",
+      "path": "plants/potato/",
       "spoiler": false
     },
     {
@@ -972,8 +980,8 @@
       "type": "buildings",
       "id": "71091",
       "name": "Pumpkin",
-      "category": "Building",
-      "path": "buildings/pumpkin/",
+      "category": "Plant",
+      "path": "plants/pumpkin/",
       "spoiler": false
     },
     {
@@ -988,8 +996,8 @@
       "type": "buildings",
       "id": "99686",
       "name": "Pumpkin",
-      "category": "Building",
-      "path": "buildings/pumpkin-99686/",
+      "category": "Plant",
+      "path": "plants/pumpkin-99686/",
       "spoiler": false
     },
     {
@@ -1004,8 +1012,8 @@
       "type": "buildings",
       "id": "71096",
       "name": "Tomato",
-      "category": "Building",
-      "path": "buildings/tomato/",
+      "category": "Plant",
+      "path": "plants/tomato/",
       "spoiler": false
     },
     {
@@ -1020,8 +1028,8 @@
       "type": "buildings",
       "id": "71090",
       "name": "Watermelon",
-      "category": "Building",
-      "path": "buildings/watermelon/",
+      "category": "Plant",
+      "path": "plants/watermelon/",
       "spoiler": false
     },
     {
@@ -1036,8 +1044,8 @@
       "type": "buildings",
       "id": "58425",
       "name": "Wheat",
-      "category": "Building",
-      "path": "buildings/wheat/",
+      "category": "Plant",
+      "path": "plants/wheat/",
       "spoiler": false
     },
     {
@@ -1052,8 +1060,8 @@
       "type": "buildings",
       "id": "67915",
       "name": "Willow Tree",
-      "category": "Building",
-      "path": "buildings/willow-tree/",
+      "category": "Plant",
+      "path": "plants/willow-tree/",
       "spoiler": false
     },
     {
@@ -1068,8 +1076,8 @@
       "type": "buildings",
       "id": "67922",
       "name": "Winter Pine Tree",
-      "category": "Building",
-      "path": "buildings/winter-pine-tree/",
+      "category": "Plant",
+      "path": "plants/winter-pine-tree/",
       "spoiler": false
     },
     {
@@ -5813,7 +5821,7 @@
       "id": "buildings/67909",
       "name": "Apple Tree — research",
       "category": "Research",
-      "path": "verification/buildings/apple-tree/",
+      "path": "verification/plants/apple-tree/",
       "spoiler": false
     },
     {
@@ -5829,7 +5837,7 @@
       "id": "buildings/67910",
       "name": "Ash Tree — research",
       "category": "Research",
-      "path": "verification/buildings/ash-tree/",
+      "path": "verification/plants/ash-tree/",
       "spoiler": false
     },
     {
@@ -5845,7 +5853,7 @@
       "id": "buildings/67917",
       "name": "Banana Tree — research",
       "category": "Research",
-      "path": "verification/buildings/banana-tree/",
+      "path": "verification/plants/banana-tree/",
       "spoiler": false
     },
     {
@@ -5861,7 +5869,7 @@
       "id": "buildings/92320",
       "name": "Base — research",
       "category": "Research",
-      "path": "verification/buildings/base/",
+      "path": "verification/plants/base/",
       "spoiler": false
     },
     {
@@ -5877,7 +5885,7 @@
       "id": "buildings/71099",
       "name": "Beet — research",
       "category": "Research",
-      "path": "verification/buildings/beet/",
+      "path": "verification/plants/beet/",
       "spoiler": false
     },
     {
@@ -5893,7 +5901,7 @@
       "id": "buildings/67908",
       "name": "Berry Bush — research",
       "category": "Research",
-      "path": "verification/buildings/berry-bush/",
+      "path": "verification/plants/berry-bush/",
       "spoiler": false
     },
     {
@@ -5909,7 +5917,7 @@
       "id": "buildings/71093",
       "name": "Cabbage — research",
       "category": "Research",
-      "path": "verification/buildings/cabbage/",
+      "path": "verification/plants/cabbage/",
       "spoiler": false
     },
     {
@@ -5925,7 +5933,7 @@
       "id": "buildings/71098",
       "name": "Carrot — research",
       "category": "Research",
-      "path": "verification/buildings/carrot/",
+      "path": "verification/plants/carrot/",
       "spoiler": false
     },
     {
@@ -5941,7 +5949,7 @@
       "id": "buildings/71097",
       "name": "Cauliflower — research",
       "category": "Research",
-      "path": "verification/buildings/cauliflower/",
+      "path": "verification/plants/cauliflower/",
       "spoiler": false
     },
     {
@@ -5957,7 +5965,7 @@
       "id": "buildings/71100",
       "name": "Corn — research",
       "category": "Research",
-      "path": "verification/buildings/corn/",
+      "path": "verification/plants/corn/",
       "spoiler": false
     },
     {
@@ -5973,7 +5981,7 @@
       "id": "buildings/67921",
       "name": "Cypress Tree — research",
       "category": "Research",
-      "path": "verification/buildings/cypress-tree/",
+      "path": "verification/plants/cypress-tree/",
       "spoiler": false
     },
     {
@@ -5989,7 +5997,7 @@
       "id": "buildings/67911",
       "name": "Date Palm Tree — research",
       "category": "Research",
-      "path": "verification/buildings/date-palm-tree/",
+      "path": "verification/plants/date-palm-tree/",
       "spoiler": false
     },
     {
@@ -6005,7 +6013,7 @@
       "id": "buildings/67919",
       "name": "Dragon Fruit Tree — research",
       "category": "Research",
-      "path": "verification/buildings/dragon-fruit-tree/",
+      "path": "verification/plants/dragon-fruit-tree/",
       "spoiler": false
     },
     {
@@ -6021,7 +6029,7 @@
       "id": "buildings/71095",
       "name": "Eggplant — research",
       "category": "Research",
-      "path": "verification/buildings/eggplant/",
+      "path": "verification/plants/eggplant/",
       "spoiler": false
     },
     {
@@ -6037,7 +6045,7 @@
       "id": "buildings/67914",
       "name": "Fig Tree — research",
       "category": "Research",
-      "path": "verification/buildings/fig-tree/",
+      "path": "verification/plants/fig-tree/",
       "spoiler": false
     },
     {
@@ -6053,7 +6061,7 @@
       "id": "buildings/67906",
       "name": "Grape Vine — research",
       "category": "Research",
-      "path": "verification/buildings/grape-vine/",
+      "path": "verification/plants/grape-vine/",
       "spoiler": false
     },
     {
@@ -6069,7 +6077,7 @@
       "id": "buildings/67912",
       "name": "Dead Tree — research",
       "category": "Research",
-      "path": "verification/buildings/dead-tree/",
+      "path": "verification/plants/dead-tree/",
       "spoiler": false
     },
     {
@@ -6085,7 +6093,7 @@
       "id": "buildings/67913",
       "name": "Jungle Tree — research",
       "category": "Research",
-      "path": "verification/buildings/jungle-tree/",
+      "path": "verification/plants/jungle-tree/",
       "spoiler": false
     },
     {
@@ -6101,7 +6109,7 @@
       "id": "buildings/67905",
       "name": "Jungle Bush — research",
       "category": "Research",
-      "path": "verification/buildings/jungle-bush/",
+      "path": "verification/plants/jungle-bush/",
       "spoiler": false
     },
     {
@@ -6117,7 +6125,7 @@
       "id": "buildings/67904",
       "name": "Mesquite Tree — research",
       "category": "Research",
-      "path": "verification/buildings/mesquite-tree/",
+      "path": "verification/plants/mesquite-tree/",
       "spoiler": false
     },
     {
@@ -6133,7 +6141,7 @@
       "id": "buildings/67916",
       "name": "Nopal Tree — research",
       "category": "Research",
-      "path": "verification/buildings/nopal-tree/",
+      "path": "verification/plants/nopal-tree/",
       "spoiler": false
     },
     {
@@ -6149,7 +6157,7 @@
       "id": "buildings/71092",
       "name": "Onion — research",
       "category": "Research",
-      "path": "verification/buildings/onion/",
+      "path": "verification/plants/onion/",
       "spoiler": false
     },
     {
@@ -6165,7 +6173,7 @@
       "id": "buildings/67918",
       "name": "Palm Tree — research",
       "category": "Research",
-      "path": "verification/buildings/palm-tree/",
+      "path": "verification/plants/palm-tree/",
       "spoiler": false
     },
     {
@@ -6181,7 +6189,7 @@
       "id": "buildings/67920",
       "name": "Pine Tree — research",
       "category": "Research",
-      "path": "verification/buildings/pine-tree/",
+      "path": "verification/plants/pine-tree/",
       "spoiler": false
     },
     {
@@ -6197,7 +6205,7 @@
       "id": "buildings/67907",
       "name": "Pomelo Tree — research",
       "category": "Research",
-      "path": "verification/buildings/pomelo-tree/",
+      "path": "verification/plants/pomelo-tree/",
       "spoiler": false
     },
     {
@@ -6213,7 +6221,7 @@
       "id": "buildings/71094",
       "name": "Potato — research",
       "category": "Research",
-      "path": "verification/buildings/potato/",
+      "path": "verification/plants/potato/",
       "spoiler": false
     },
     {
@@ -6229,7 +6237,7 @@
       "id": "buildings/71091",
       "name": "Pumpkin — research",
       "category": "Research",
-      "path": "verification/buildings/pumpkin/",
+      "path": "verification/plants/pumpkin/",
       "spoiler": false
     },
     {
@@ -6245,7 +6253,7 @@
       "id": "buildings/99686",
       "name": "Pumpkin — research",
       "category": "Research",
-      "path": "verification/buildings/pumpkin-99686/",
+      "path": "verification/plants/pumpkin-99686/",
       "spoiler": false
     },
     {
@@ -6261,7 +6269,7 @@
       "id": "buildings/71096",
       "name": "Tomato — research",
       "category": "Research",
-      "path": "verification/buildings/tomato/",
+      "path": "verification/plants/tomato/",
       "spoiler": false
     },
     {
@@ -6277,7 +6285,7 @@
       "id": "buildings/71090",
       "name": "Watermelon — research",
       "category": "Research",
-      "path": "verification/buildings/watermelon/",
+      "path": "verification/plants/watermelon/",
       "spoiler": false
     },
     {
@@ -6293,7 +6301,7 @@
       "id": "buildings/58425",
       "name": "Wheat — research",
       "category": "Research",
-      "path": "verification/buildings/wheat/",
+      "path": "verification/plants/wheat/",
       "spoiler": false
     },
     {
@@ -6309,7 +6317,7 @@
       "id": "buildings/67915",
       "name": "Willow Tree — research",
       "category": "Research",
-      "path": "verification/buildings/willow-tree/",
+      "path": "verification/plants/willow-tree/",
       "spoiler": false
     },
     {
@@ -6325,7 +6333,7 @@
       "id": "buildings/67922",
       "name": "Winter Pine Tree — research",
       "category": "Research",
-      "path": "verification/buildings/winter-pine-tree/",
+      "path": "verification/plants/winter-pine-tree/",
       "spoiler": false
     },
     {
@@ -10636,6 +10644,7 @@
   "paths": [
     "",
     "buildings/",
+    "plants/",
     "resources/",
     "food/",
     "needs/",
@@ -10709,71 +10718,71 @@
     "buildings/dried-meat-shop/",
     "production-chains/dried-meat-shop/",
     "buildings/farm/",
-    "buildings/apple-tree/",
+    "plants/apple-tree/",
     "production-chains/apple-tree/",
-    "buildings/ash-tree/",
+    "plants/ash-tree/",
     "production-chains/ash-tree/",
-    "buildings/banana-tree/",
+    "plants/banana-tree/",
     "production-chains/banana-tree/",
-    "buildings/base/",
+    "plants/base/",
     "production-chains/base/",
-    "buildings/beet/",
+    "plants/beet/",
     "production-chains/beet/",
-    "buildings/berry-bush/",
+    "plants/berry-bush/",
     "production-chains/berry-bush/",
-    "buildings/cabbage/",
+    "plants/cabbage/",
     "production-chains/cabbage/",
-    "buildings/carrot/",
+    "plants/carrot/",
     "production-chains/carrot/",
-    "buildings/cauliflower/",
+    "plants/cauliflower/",
     "production-chains/cauliflower/",
-    "buildings/corn/",
+    "plants/corn/",
     "production-chains/corn/",
-    "buildings/cypress-tree/",
+    "plants/cypress-tree/",
     "production-chains/cypress-tree/",
-    "buildings/date-palm-tree/",
+    "plants/date-palm-tree/",
     "production-chains/date-palm-tree/",
-    "buildings/dragon-fruit-tree/",
+    "plants/dragon-fruit-tree/",
     "production-chains/dragon-fruit-tree/",
-    "buildings/eggplant/",
+    "plants/eggplant/",
     "production-chains/eggplant/",
-    "buildings/fig-tree/",
+    "plants/fig-tree/",
     "production-chains/fig-tree/",
-    "buildings/grape-vine/",
+    "plants/grape-vine/",
     "production-chains/grape-vine/",
-    "buildings/dead-tree/",
+    "plants/dead-tree/",
     "production-chains/dead-tree/",
-    "buildings/jungle-tree/",
+    "plants/jungle-tree/",
     "production-chains/jungle-tree/",
-    "buildings/jungle-bush/",
+    "plants/jungle-bush/",
     "production-chains/jungle-bush/",
-    "buildings/mesquite-tree/",
+    "plants/mesquite-tree/",
     "production-chains/mesquite-tree/",
-    "buildings/nopal-tree/",
+    "plants/nopal-tree/",
     "production-chains/nopal-tree/",
-    "buildings/onion/",
+    "plants/onion/",
     "production-chains/onion/",
-    "buildings/palm-tree/",
+    "plants/palm-tree/",
     "production-chains/palm-tree/",
-    "buildings/pine-tree/",
+    "plants/pine-tree/",
     "production-chains/pine-tree/",
-    "buildings/pomelo-tree/",
+    "plants/pomelo-tree/",
     "production-chains/pomelo-tree/",
-    "buildings/potato/",
+    "plants/potato/",
     "production-chains/potato/",
-    "buildings/pumpkin/",
+    "plants/pumpkin/",
     "production-chains/pumpkin/",
-    "buildings/pumpkin-99686/",
+    "plants/pumpkin-99686/",
     "production-chains/pumpkin-99686/",
-    "buildings/tomato/",
+    "plants/tomato/",
     "production-chains/tomato/",
-    "buildings/watermelon/",
+    "plants/watermelon/",
     "production-chains/watermelon/",
-    "buildings/wheat/",
+    "plants/wheat/",
     "production-chains/wheat/",
-    "buildings/willow-tree/",
+    "plants/willow-tree/",
     "production-chains/willow-tree/",
-    "buildings/winter-pine-tree/",
+    "plants/winter-pine-tree/",
     "production-chains/winter-pine-tree/",
     "buildings/firewood-yard/",
     "production-chains/firewood-yard/",
@@ -11386,71 +11395,71 @@
     "verification/buildings/dried-meat-shop/",
     "verification/production-chains/dried-meat-shop/",
     "verification/buildings/farm/",
-    "verification/buildings/apple-tree/",
+    "verification/plants/apple-tree/",
     "verification/production-chains/apple-tree/",
-    "verification/buildings/ash-tree/",
+    "verification/plants/ash-tree/",
     "verification/production-chains/ash-tree/",
-    "verification/buildings/banana-tree/",
+    "verification/plants/banana-tree/",
     "verification/production-chains/banana-tree/",
-    "verification/buildings/base/",
+    "verification/plants/base/",
     "verification/production-chains/base/",
-    "verification/buildings/beet/",
+    "verification/plants/beet/",
     "verification/production-chains/beet/",
-    "verification/buildings/berry-bush/",
+    "verification/plants/berry-bush/",
     "verification/production-chains/berry-bush/",
-    "verification/buildings/cabbage/",
+    "verification/plants/cabbage/",
     "verification/production-chains/cabbage/",
-    "verification/buildings/carrot/",
+    "verification/plants/carrot/",
     "verification/production-chains/carrot/",
-    "verification/buildings/cauliflower/",
+    "verification/plants/cauliflower/",
     "verification/production-chains/cauliflower/",
-    "verification/buildings/corn/",
+    "verification/plants/corn/",
     "verification/production-chains/corn/",
-    "verification/buildings/cypress-tree/",
+    "verification/plants/cypress-tree/",
     "verification/production-chains/cypress-tree/",
-    "verification/buildings/date-palm-tree/",
+    "verification/plants/date-palm-tree/",
     "verification/production-chains/date-palm-tree/",
-    "verification/buildings/dragon-fruit-tree/",
+    "verification/plants/dragon-fruit-tree/",
     "verification/production-chains/dragon-fruit-tree/",
-    "verification/buildings/eggplant/",
+    "verification/plants/eggplant/",
     "verification/production-chains/eggplant/",
-    "verification/buildings/fig-tree/",
+    "verification/plants/fig-tree/",
     "verification/production-chains/fig-tree/",
-    "verification/buildings/grape-vine/",
+    "verification/plants/grape-vine/",
     "verification/production-chains/grape-vine/",
-    "verification/buildings/dead-tree/",
+    "verification/plants/dead-tree/",
     "verification/production-chains/dead-tree/",
-    "verification/buildings/jungle-tree/",
+    "verification/plants/jungle-tree/",
     "verification/production-chains/jungle-tree/",
-    "verification/buildings/jungle-bush/",
+    "verification/plants/jungle-bush/",
     "verification/production-chains/jungle-bush/",
-    "verification/buildings/mesquite-tree/",
+    "verification/plants/mesquite-tree/",
     "verification/production-chains/mesquite-tree/",
-    "verification/buildings/nopal-tree/",
+    "verification/plants/nopal-tree/",
     "verification/production-chains/nopal-tree/",
-    "verification/buildings/onion/",
+    "verification/plants/onion/",
     "verification/production-chains/onion/",
-    "verification/buildings/palm-tree/",
+    "verification/plants/palm-tree/",
     "verification/production-chains/palm-tree/",
-    "verification/buildings/pine-tree/",
+    "verification/plants/pine-tree/",
     "verification/production-chains/pine-tree/",
-    "verification/buildings/pomelo-tree/",
+    "verification/plants/pomelo-tree/",
     "verification/production-chains/pomelo-tree/",
-    "verification/buildings/potato/",
+    "verification/plants/potato/",
     "verification/production-chains/potato/",
-    "verification/buildings/pumpkin/",
+    "verification/plants/pumpkin/",
     "verification/production-chains/pumpkin/",
-    "verification/buildings/pumpkin-99686/",
+    "verification/plants/pumpkin-99686/",
     "verification/production-chains/pumpkin-99686/",
-    "verification/buildings/tomato/",
+    "verification/plants/tomato/",
     "verification/production-chains/tomato/",
-    "verification/buildings/watermelon/",
+    "verification/plants/watermelon/",
     "verification/production-chains/watermelon/",
-    "verification/buildings/wheat/",
+    "verification/plants/wheat/",
     "verification/production-chains/wheat/",
-    "verification/buildings/willow-tree/",
+    "verification/plants/willow-tree/",
     "verification/production-chains/willow-tree/",
-    "verification/buildings/winter-pine-tree/",
+    "verification/plants/winter-pine-tree/",
     "verification/production-chains/winter-pine-tree/",
     "verification/buildings/firewood-yard/",
     "verification/production-chains/firewood-yard/",
@@ -12108,38 +12117,71 @@
     "building/dried-meat-shop/",
     "building/farm/",
     "building/apple-tree/",
+    "buildings/apple-tree/",
     "building/ash-tree/",
+    "buildings/ash-tree/",
     "building/banana-tree/",
+    "buildings/banana-tree/",
     "building/base/",
+    "buildings/base/",
     "building/beet/",
+    "buildings/beet/",
     "building/berry-bush/",
+    "buildings/berry-bush/",
     "building/cabbage/",
+    "buildings/cabbage/",
     "building/carrot/",
+    "buildings/carrot/",
     "building/cauliflower/",
+    "buildings/cauliflower/",
     "building/corn/",
+    "buildings/corn/",
     "building/cypress-tree/",
+    "buildings/cypress-tree/",
     "building/date-palm-tree/",
+    "buildings/date-palm-tree/",
     "building/dragon-fruit-tree/",
+    "buildings/dragon-fruit-tree/",
     "building/eggplant/",
+    "buildings/eggplant/",
     "building/fig-tree/",
+    "buildings/fig-tree/",
     "building/grape-vine/",
+    "buildings/grape-vine/",
     "building/dead-tree/",
+    "buildings/dead-tree/",
     "building/jungle-tree/",
+    "buildings/jungle-tree/",
     "building/jungle-bush/",
+    "buildings/jungle-bush/",
     "building/mesquite-tree/",
+    "buildings/mesquite-tree/",
     "building/nopal-tree/",
+    "buildings/nopal-tree/",
     "building/onion/",
+    "buildings/onion/",
     "building/palm-tree/",
+    "buildings/palm-tree/",
     "building/pine-tree/",
+    "buildings/pine-tree/",
     "building/pomelo-tree/",
+    "buildings/pomelo-tree/",
     "building/potato/",
+    "buildings/potato/",
     "building/pumpkin/",
+    "buildings/pumpkin/",
     "building/pumpkin-99686/",
+    "buildings/pumpkin-99686/",
     "building/tomato/",
+    "buildings/tomato/",
     "building/watermelon/",
+    "buildings/watermelon/",
     "building/wheat/",
+    "buildings/wheat/",
     "building/willow-tree/",
+    "buildings/willow-tree/",
     "building/winter-pine-tree/",
+    "buildings/winter-pine-tree/",
     "building/firewood-yard/",
     "building/fishing-dock/",
     "building/fitness-park/",
@@ -12253,6 +12295,39 @@
     "resources/cookie/",
     "resources/cheese/",
     "resources/gingerbread-man/",
-    "resources/fondue-320491/"
+    "resources/fondue-320491/",
+    "verification/buildings/apple-tree/",
+    "verification/buildings/ash-tree/",
+    "verification/buildings/banana-tree/",
+    "verification/buildings/base/",
+    "verification/buildings/beet/",
+    "verification/buildings/berry-bush/",
+    "verification/buildings/cabbage/",
+    "verification/buildings/carrot/",
+    "verification/buildings/cauliflower/",
+    "verification/buildings/corn/",
+    "verification/buildings/cypress-tree/",
+    "verification/buildings/date-palm-tree/",
+    "verification/buildings/dragon-fruit-tree/",
+    "verification/buildings/eggplant/",
+    "verification/buildings/fig-tree/",
+    "verification/buildings/grape-vine/",
+    "verification/buildings/dead-tree/",
+    "verification/buildings/jungle-tree/",
+    "verification/buildings/jungle-bush/",
+    "verification/buildings/mesquite-tree/",
+    "verification/buildings/nopal-tree/",
+    "verification/buildings/onion/",
+    "verification/buildings/palm-tree/",
+    "verification/buildings/pine-tree/",
+    "verification/buildings/pomelo-tree/",
+    "verification/buildings/potato/",
+    "verification/buildings/pumpkin/",
+    "verification/buildings/pumpkin-99686/",
+    "verification/buildings/tomato/",
+    "verification/buildings/watermelon/",
+    "verification/buildings/wheat/",
+    "verification/buildings/willow-tree/",
+    "verification/buildings/winter-pine-tree/"
   ]
 }

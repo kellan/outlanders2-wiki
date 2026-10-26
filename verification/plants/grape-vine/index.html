@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#253f34"><meta name="description" content="An unofficial Outlanders 2 wiki: buildings, resources, production chains, levels, biomes and leaders, with traceable sources and clear gameplay verification labels."><title>Sources &amp; research · Outlanders 2 Wiki</title><link rel="icon" href="../../../wiki-artwork/minibiome-evergreen.png" type="image/png"><link rel="stylesheet" href="../../../style.css"><!-- Privacy-friendly analytics by Plausible --><script async src="https://plausible.io/js/pa-n9i4Ya1paPGes895IfzkN.js"></script><script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script></head><body><a class="skip" href="#content">Skip to content</a><aside id="sidebar"><a class="brand" href="../../../"><img class="brand-game-logo" src="../../../wiki-artwork/minibiome-evergreen.png" alt=""><span>OUTLANDERS 2<small>WIKI</small></span></a><input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Show navigation"><label for="nav-toggle" class="nav-toggle-label"><span aria-hidden="true">☰</span> Menu</label><div class="side-label">AN OUTLANDERS 2 WIKI</div><nav id="nav" aria-label="Main navigation"><a class="nav-link " href="../../../" ><span class="nav-icon" aria-hidden="true">⌂</span>Wiki home</a><a class="nav-link " href="../../../buildings/" ><span class="nav-icon" aria-hidden="true">▤</span>Buildings</a><a class="nav-link " href="../../../plants/" ><span class="nav-icon" aria-hidden="true">❦</span>Plants</a><a class="nav-link " href="../../../resources/" ><span class="nav-icon" aria-hidden="true">◈</span>Resources</a><a class="nav-link " href="../../../food/" ><span class="nav-icon" aria-hidden="true">◉</span>Food</a><a class="nav-link " href="../../../needs/" ><span class="nav-icon" aria-hidden="true">☼</span>Needs</a><a class="nav-link " href="../../../production-chains/" ><span class="nav-icon" aria-hidden="true">⇄</span>Production chains</a><a class="nav-link " href="../../../levels/" ><span class="nav-icon" aria-hidden="true">⚑</span>Campaigns & levels</a><a class="nav-link " href="../../../challenges/" ><span class="nav-icon" aria-hidden="true">◇</span>Challenges</a><a class="nav-link " href="../../../tournament/" ><span class="nav-icon" aria-hidden="true">♛</span>Tournament Mode</a><div class="nav-divider"></div><a class="nav-link " href="../../../biomes/" ><span class="nav-icon" aria-hidden="true">♧</span>Biomes</a><a class="nav-link " href="../../../heroes/" ><span class="nav-icon" aria-hidden="true">♙</span>Leaders</a><a class="nav-link " href="../../../index/" ><span class="nav-icon" aria-hidden="true">A–Z</span>All-pages index</a><a class="nav-link " href="../../../changelog/" ><span class="nav-icon" aria-hidden="true">↺</span>Changelog</a><a class="nav-link " href="../../../verification/" ><span class="nav-icon" aria-hidden="true">◌</span>Sources & research</a><a class="nav-link " href="../../../contribute/" ><span class="nav-icon" aria-hidden="true">+</span>Contribute</a><a class="nav-link " href="../../../about/" ><span class="nav-icon" aria-hidden="true">↗</span>Sources & artwork</a><div class="nav-divider"></div><a class="nav-link " href="../../../spoilers/" ><span class="nav-icon" aria-hidden="true">!</span>Spoilers</a></nav><a class="side-note" href="../../../verification/"><span class="status-dot"></span><span>Sources & research<small>Evidence and open questions ↗</small></span></a><footer class="sidebar-footer">Unofficial fan reference<br>Game data v30 · build 254</footer></aside><div class="shell"><header class="topbar"><a href="../../../index/">All-pages A–Z index</a><a class="top-status" href="../../../verification/">Sources & research</a></header><main id="content" tabindex="-1"><div class="page-header"><p class="eyebrow">RESEARCH</p><h1>Grape Vine — sources &amp; research</h1><p class="lede">Evidence, decoding details and open questions for this article.</p></div><p><a href="../../../plants/grape-vine/">← Grape Vine</a></p><details open class="source"><summary>Plant definition</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>{
+  &quot;name&quot;: &quot;Grape Vine&quot;,
+  &quot;internal_name&quot;: &quot;Field GrapeTree&quot;,
+  &quot;gameobject_id&quot;: 67906,
+  &quot;paths&quot;: [
+    &quot;content/buildings/orchard/fields/field grapetree&quot;
+  ],
+  &quot;localization_key&quot;: &quot;Field.GrapeTree&quot;,
+  &quot;description&quot;: null,
+  &quot;is_base_or_campaign_asset&quot;: false,
+  &quot;max_workers&quot;: null,
+  &quot;workplace_config&quot;: null,
+  &quot;construction&quot;: {
+    &quot;build_site_component_id&quot;: 289089,
+    &quot;build_site_gameobject_id&quot;: 78980,
+    &quot;material_inputs&quot;: [],
+    &quot;material_formula_ids&quot;: [],
+    &quot;all_formula_ids&quot;: [
+      289774
+    ],
+    &quot;interpretation&quot;: &quot;sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification&quot;
+  },
+  &quot;dimensions&quot;: {
+    &quot;x&quot;: 4,
+    &quot;y&quot;: 1,
+    &quot;z&quot;: 4
+  },
+  &quot;placement_rules&quot;: {
+    &quot;ValidTerrains&quot;: [
+      3
+    ],
+    &quot;TileConstraints&quot;: [],
+    &quot;MaxAllowedHeightDifference&quot;: 0.10000000149011612,
+    &quot;BlocksEntrances&quot;: 0,
+    &quot;ConnectsZones&quot;: 0,
+    &quot;BuildOver&quot;: [],
+    &quot;BuildOverWithoutDestroying&quot;: [],
+    &quot;BuildOverWithBuildSite&quot;: 0
+  },
+  &quot;sleep_spots&quot;: null,
+  &quot;house_config&quot;: null,
+  &quot;formula_ids&quot;: [
+    305944,
+    308597
+  ],
+  &quot;derived_recipes&quot;: [
+    {
+      &quot;inputs&quot;: [],
+      &quot;outputs&quot;: [
+        {
+          &quot;resource_id&quot;: 300126,
+          &quot;name&quot;: &quot;Fruit&quot;,
+          &quot;count&quot;: 1
+        }
+      ],
+      &quot;formula_ids&quot;: [
+        308597
+      ],
+      &quot;equipment_category_ids&quot;: [],
+      &quot;caveats&quot;: [
+        &quot;resource_extraction_requires_source&quot;,
+        &quot;source_or_nonmaterial_process_not_free_production&quot;
+      ],
+      &quot;status&quot;: &quot;derived_from_serialized_formula_graph; not measured throughput&quot;
+    }
+  ],
+  &quot;source&quot;: {
+    &quot;asset_file&quot;: &quot;resources.assets&quot;,
+    &quot;path_id&quot;: 296614,
+    &quot;class&quot;: &quot;BuildingBehaviour&quot;,
+    &quot;hierarchy_path&quot;: &quot;Field GrapeTree&quot;,
+    &quot;fields&quot;: [
+      &quot;BuildingConfig&quot;,
+      &quot;BuildSiteBehaviour&quot;
+    ]
+  },
+  &quot;workplace_source&quot;: null,
+  &quot;is_plant&quot;: true,
+  &quot;original_display_name&quot;: &quot;Field GrapeTree&quot;
+}</pre></div></details><details open class="source"><summary>Sandbox assignment records</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>[
+  {
+    &quot;biome&quot;: &quot;Evergreen&quot;,
+    &quot;source&quot;: {
+      &quot;asset_file&quot;: &quot;resources.assets&quot;,
+      &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+      &quot;path_id&quot;: 272038,
+      &quot;fields&quot;: [
+        &quot;Placeables&quot;,
+        &quot;ElementsToSpawn&quot;,
+        &quot;Concerns&quot;,
+        &quot;ExcludedBasePlaceables&quot;
+      ]
+    },
+    &quot;assignments&quot;: [
+      {
+        &quot;name&quot;: &quot;Cabbage&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Cabbage/Field Cabbage.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 299020,
+            &quot;name&quot;: &quot;Field Cabbage&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Corn&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Corn/Field Corn.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 299027,
+            &quot;name&quot;: &quot;Field Corn&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Tomato&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Tomato/Field Tomato.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 299023,
+            &quot;name&quot;: &quot;Field Tomato&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Wheat&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Wheat/Field Wheat.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 291006,
+            &quot;name&quot;: &quot;Field Wheat&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Cauliflower&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Cauliflower/Field Cauliflower.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 299024,
+            &quot;name&quot;: &quot;Field Cauliflower&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Eggplant&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Eggplant/Field Eggplant.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 299022,
+            &quot;name&quot;: &quot;Field Eggplant&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Carrot&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Carrot/Field Carrot.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 299025,
+            &quot;name&quot;: &quot;Field Carrot&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Onion&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Onion/Field Onion.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 299019,
+            &quot;name&quot;: &quot;Field Onion&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      }
+    ],
+    &quot;exclusions&quot;: []
+  }
+]</pre></div></details><section class="rule-section"><h2>Sandbox biome references</h2><p>These are references in sandbox configuration, not a verified crop-availability table. Shared defaults, exclusions, farm compatibility and runtime filtering still need interpretation.</p><ul><li>Evergreen</li></ul></section><p class="small">This exact definition appears in the stored build/plant lists below. Runtime unlocks and menu visibility remain untested.</p><section class="rule-section"><h2>Piles</h2><p>Every pile this building prefab defines, from the decoded <code>ResourcePileBehaviour</code> records. Public output piles are what the stockpile and other buildings can take from; the rest hold work in progress. The game stops a workspot when its output piles are full; which piles count as full for a given step is not stored here.</p><div class="table-wrap"><table><thead><tr><th>Pile</th><th>Holds</th><th>Capacity</th><th>Kind</th><th>Height</th></tr></thead><tbody><tr><td>InputPile</td><td><span class="unknown">set by the workspot</span></td><td>1</td><td>work in progress</td><td>floor</td></tr></tbody></table></div></section><details open class="source"><summary>Work schedule fields</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>{
+  &quot;interpretation&quot;: &quot;Normalized work-cycle interval; time origin and clock mapping unverified.&quot;
+}</pre></div></details><section class="rule-section"><h2>Growth stages</h2><p>The sapling definition stores 4 stages totalling 13 days: 3.25 + 3.25 + 3.25 + 3.25. sum of configured stages; regrowth, season effects, overrides and final-stage semantics not verified Nobody has timed this plant in play, so whether a stored day equals a clock day, and whether the last stage is the harvestable state or a wait before it, are open questions.</p><details open class="source"><summary>Sapling growth definition</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>{
+  &quot;name&quot;: &quot;GrapeTree Sapling&quot;,
+  &quot;paths&quot;: [
+    &quot;content/tree/orchard/grapetree/grapetree sapling&quot;
+  ],
+  &quot;stages&quot;: [
+    {
+      &quot;stage_id&quot;: 308411,
+      &quot;days_duration&quot;: 3.25
+    },
+    {
+      &quot;stage_id&quot;: 301409,
+      &quot;days_duration&quot;: 3.25
+    },
+    {
+      &quot;stage_id&quot;: 320261,
+      &quot;days_duration&quot;: 3.25
+    },
+    {
+      &quot;stage_id&quot;: 307586,
+      &quot;days_duration&quot;: 3.25
+    }
+  ],
+  &quot;total_configured_stage_days&quot;: 13,
+  &quot;source&quot;: {
+    &quot;asset_file&quot;: &quot;resources.assets&quot;,
+    &quot;path_id&quot;: 316389,
+    &quot;class&quot;: &quot;SaplingBehaviour&quot;,
+    &quot;hierarchy_path&quot;: &quot;GrapeTree Sapling&quot;,
+    &quot;fields&quot;: [
+      &quot;Stages&quot;
+    ]
+  },
+  &quot;caveat&quot;: &quot;sum of configured stages; regrowth, season effects, overrides and final-stage semantics not verified&quot;
+}</pre></div></details></section><section class="rule-section"><h2>Sandbox biome references</h2><p>These are references in sandbox configuration, not a verified crop-availability table. Shared defaults, exclusions, farm compatibility and runtime filtering still need interpretation.</p><ul><li>Evergreen</li></ul><details open class="source"><summary>Sandbox assignment records</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>[
+  {
+    &quot;biome&quot;: &quot;Evergreen&quot;,
+    &quot;source&quot;: {
+      &quot;asset_file&quot;: &quot;resources.assets&quot;,
+      &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+      &quot;path_id&quot;: 272038,
+      &quot;fields&quot;: [
+        &quot;Placeables&quot;,
+        &quot;ElementsToSpawn&quot;,
+        &quot;Concerns&quot;,
+        &quot;ExcludedBasePlaceables&quot;
+      ]
+    },
+    &quot;assignments&quot;: [
+      {
+        &quot;name&quot;: &quot;Cabbage&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Cabbage/Field Cabbage.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 299020,
+            &quot;name&quot;: &quot;Field Cabbage&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Corn&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Corn/Field Corn.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 299027,
+            &quot;name&quot;: &quot;Field Corn&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Tomato&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Tomato/Field Tomato.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 299023,
+            &quot;name&quot;: &quot;Field Tomato&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Wheat&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Wheat/Field Wheat.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 291006,
+            &quot;name&quot;: &quot;Field Wheat&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Cauliflower&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Cauliflower/Field Cauliflower.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 299024,
+            &quot;name&quot;: &quot;Field Cauliflower&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Eggplant&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Eggplant/Field Eggplant.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 299022,
+            &quot;name&quot;: &quot;Field Eggplant&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Carrot&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Carrot/Field Carrot.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 299025,
+            &quot;name&quot;: &quot;Field Carrot&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Onion&quot;,
+        &quot;asset_path&quot;: &quot;Content/Buildings/Field/Onion/Field Onion.prefab&quot;,
+        &quot;wiki_refs&quot;: [
+          {
+            &quot;kind&quot;: &quot;building&quot;,
+            &quot;id&quot;: 299019,
+            &quot;name&quot;: &quot;Field Onion&quot;
+          }
+        ],
+        &quot;source&quot;: {
+          &quot;asset_file&quot;: &quot;resources.assets&quot;,
+          &quot;class&quot;: &quot;MapBiomeSettings&quot;,
+          &quot;path_id&quot;: 272038,
+          &quot;fields&quot;: [
+            &quot;Placeables&quot;,
+            &quot;ElementsToSpawn&quot;,
+            &quot;Concerns&quot;,
+            &quot;ExcludedBasePlaceables&quot;
+          ]
+        },
+        &quot;verification_status&quot;: &quot;explicit_sandbox_biome_assignment; gameplay_unverified&quot;
+      }
+    ],
+    &quot;exclusions&quot;: []
+  }
+]</pre></div></details></section><section class="rule-section"><h2>Modelled production capacity</h2><p>A game day is 300 simulation seconds. The model assumes all inputs delivered and output cleared, and excludes walking, handoffs and contention; it is a ceiling for comparison, not a measured yield.</p><ul class="check-list"><li>Growth time is initial establishment. Felling yield is separate from repeat fruit production.</li></ul><details open class="source"><summary>Production profile</summary><div class="source-body"><p>Recovered from game v30, build 254. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>{
+  &quot;profile&quot;: {
+    &quot;notes&quot;: [
+      &quot;Growth time is initial establishment. Felling yield is separate from repeat fruit production.&quot;
+    ],
+    &quot;kind&quot;: &quot;plant&quot;,
+    &quot;growth_days&quot;: 13,
+    &quot;growth_source_id&quot;: 316389,
+    &quot;planting_positions&quot;: 1,
+    &quot;field_source_id&quot;: 304884,
+    &quot;name&quot;: &quot;Grape Vine&quot;
+  },
+  &quot;provenance&quot;: {
+    &quot;source&quot;: &quot;kellan/outlanders2-wiki branch codex/research-answers, research/production-findings.json, commit 06ed8d63; handoff comments on issue 10, 26 October 2026 (ids 6405315176 to 6405320280)&quot;,
+    &quot;imported&quot;: &quot;2026-10-26&quot;,
+    &quot;status&quot;: &quot;Decoded serialized values and byte-round-tripped records; production rates are a supplied-inputs capacity model, not measured output&quot;,
+    &quot;kinds&quot;: {
+      &quot;profiles&quot;: &quot;decoded-data with modelled rates&quot;,
+      &quot;gear_findings&quot;: &quot;decoded-data&quot;,
+      &quot;terrain_placement_findings&quot;: &quot;decoded-data&quot;,
+      &quot;social_spot_findings&quot;: &quot;decoded-data&quot;
+    },
+    &quot;updated&quot;: &quot;2026-10-26: added clock_schedule_findings and stick_identity_findings from branch codex/research-answers commit 451ff8e3 (issue 10 comments 6405809632 and 6405953837)&quot;
+  }
+}</pre></div></details></section><p class="article-actions"><a href="https://github.com/kellan/outlanders2-wiki/issues/new?template=gameplay-observation.yml&amp;title=Observation%3A%20Grape%20Vine&amp;target=Grape%20Vine">Report a gameplay observation</a><a href="https://github.com/kellan/outlanders2-wiki/blob/main/CONTRIBUTING.md#evidence-and-uncertainty">What counts as evidence</a></p></main><footer class="page-footer"><span>OUTLANDERS 2 WIKI <span class="dot-sep">·</span> An unofficial Outlanders 2 reference</span><a href="../../../about/">Sources & artwork credits ↗</a><a href="https://github.com/kellan/outlanders2-wiki">GitHub repository ↗</a></footer></div><footer style="padding:1rem;text-align:center;font-size:.85rem">Unofficial community guide. Outlanders 2 artwork and game text belong to Pomelo Games and their respective rights holders. <a href="../../../THIRD_PARTY_NOTICES.txt">Attribution</a> · <a href="../../../LICENSE.txt">Original contributions: MIT</a></footer>
+</body></html>

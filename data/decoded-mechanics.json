@@ -26917,6 +26917,1690 @@
       }
     ]
   },
+  "field_plants": {
+    "class": "FieldBehaviour",
+    "note": "Field prefab root (the wiki building) -> the plant prefab it grows and its planting spots",
+    "records": {
+      "Decorative Planter _base": {
+        "plant": "Plant Birds of Paradise",
+        "planting_spots": 1
+      },
+      "Field Pumpkin _Halloween": {
+        "plant": "Pumpkin Plant _Halloween",
+        "planting_spots": 1
+      },
+      "Decorative Planter Hibiscus": {
+        "plant": "Plant Hibiscus",
+        "planting_spots": 1
+      },
+      "Decorative Planter Roses": {
+        "plant": "Plant Roses",
+        "planting_spots": 1
+      },
+      "Decorative Planter Hydrangea": {
+        "plant": "Plant Hydrangea",
+        "planting_spots": 1
+      },
+      "Decorative Planter Birds of Paradise": {
+        "plant": "Plant Birds of Paradise",
+        "planting_spots": 1
+      },
+      "Decorative Planter Calla Lilly": {
+        "plant": "Plant Calla Lilly",
+        "planting_spots": 1
+      },
+      "_Field Orchard Base": {
+        "plant": null,
+        "planting_spots": 1
+      },
+      "Field Base": {
+        "plant": null,
+        "planting_spots": 1
+      },
+      "Decorative Tree Flame Tree": {
+        "plant": "Plant Flame Tree",
+        "planting_spots": 1
+      },
+      "Decorative Tree Jacaranda": {
+        "plant": "Plant Jacaranda",
+        "planting_spots": 1
+      },
+      "Decorative Tree Silky Oak": {
+        "plant": "Plant Silky Oak",
+        "planting_spots": 1
+      },
+      "Decorative Tree Orchid Tree": {
+        "plant": "Plant Orchid",
+        "planting_spots": 1
+      },
+      "Field Template": {
+        "plant": null,
+        "planting_spots": 1
+      },
+      "Field Watermelon": {
+        "plant": "Watermelon Plant",
+        "planting_spots": 1
+      },
+      "Field Pumpkin": {
+        "plant": "Pumpkin Plant",
+        "planting_spots": 1
+      },
+      "Field Onion": {
+        "plant": "Onion Plant",
+        "planting_spots": 3
+      },
+      "Field Cabbage": {
+        "plant": "Cabbage Plant",
+        "planting_spots": 1
+      },
+      "Field Potato": {
+        "plant": "Potato Plant",
+        "planting_spots": 1
+      },
+      "Field Eggplant": {
+        "plant": "Eggplant Plant",
+        "planting_spots": 1
+      },
+      "Field Tomato": {
+        "plant": "Tomato Plant",
+        "planting_spots": 1
+      },
+      "Field Cauliflower": {
+        "plant": "Cauliflower Plant",
+        "planting_spots": 1
+      },
+      "Field Carrot": {
+        "plant": "Carrot Plant",
+        "planting_spots": 3
+      },
+      "Field Beet": {
+        "plant": "Beet Plant",
+        "planting_spots": 2
+      },
+      "Field Corn": {
+        "plant": "Corn Plant",
+        "planting_spots": 2
+      },
+      "Field Mesquite": {
+        "plant": "Mesquite Tree",
+        "planting_spots": 1
+      },
+      "Field JungleTree": {
+        "plant": "Jungle Tree",
+        "planting_spots": 1
+      },
+      "Field GrapeTree": {
+        "plant": "GrapeTree",
+        "planting_spots": 1
+      },
+      "Field PomeloTree": {
+        "plant": "PomeloTree",
+        "planting_spots": 1
+      },
+      "Field BerryBush": {
+        "plant": "BerryBush",
+        "planting_spots": 1
+      },
+      "Field AppleTree": {
+        "plant": "AppleTree",
+        "planting_spots": 1
+      },
+      "Field AshTree": {
+        "plant": "Ash",
+        "planting_spots": 1
+      },
+      "Field DatePalmTree": {
+        "plant": "DatePalmTree",
+        "planting_spots": 1
+      },
+      "Field HalloweenTree": {
+        "plant": "Halloween Tree",
+        "planting_spots": 1
+      },
+      "Field JungleBigTree": {
+        "plant": "Jungle Big Tree",
+        "planting_spots": 1
+      },
+      "Field FigTree": {
+        "plant": "FigTree",
+        "planting_spots": 1
+      },
+      "Field WillowTree": {
+        "plant": "WillowTree",
+        "planting_spots": 1
+      },
+      "Field NopalTree": {
+        "plant": "Nopal Tree",
+        "planting_spots": 1
+      },
+      "Field BananaTree": {
+        "plant": "BananaTree",
+        "planting_spots": 1
+      },
+      "Field PalmTree": {
+        "plant": "Palm Tree",
+        "planting_spots": 1
+      },
+      "Field DragonFruitTree": {
+        "plant": "DragonFruitTree",
+        "planting_spots": 1
+      },
+      "Field PineTree": {
+        "plant": "PineTree",
+        "planting_spots": 1
+      },
+      "Field CypressTree": {
+        "plant": "CypressTree",
+        "planting_spots": 1
+      },
+      "Field Winter PineTree": {
+        "plant": "Winter Pine",
+        "planting_spots": 1
+      },
+      "Field Wheat": {
+        "plant": "WheatPlant",
+        "planting_spots": 1
+      }
+    }
+  },
+  "plants": {
+    "classes": "WorkspotBehaviour + FormulaStepBehaviour on the plant (harvest or felling, WorkIterations = work actions) and SpawnerBehaviour children (one prefab per spawn event; spawn_yield is what harvesting that prefab gives)",
+    "records": {
+      "AppleTree": {
+        "harvest": [
+          {
+            "formula_id": 303246,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 1
+              }
+            ],
+            "work_iterations": 3
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Apple Spawner",
+            "max_spawned": 4,
+            "min_days": 1.65,
+            "max_days": 2.5,
+            "initial_offset_days": -2.9,
+            "spawns": "Apple Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287422,
+                "outputs": [
+                  {
+                    "resource_id": 300126,
+                    "resource": "Fruit",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 4,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "Ash": {
+        "harvest": [
+          {
+            "formula_id": 299687,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 4
+              }
+            ],
+            "work_iterations": 6
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 2,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          },
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          }
+        ]
+      },
+      "BananaTree": {
+        "harvest": [
+          {
+            "formula_id": 303243,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 1
+              }
+            ],
+            "work_iterations": 3
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Apple Spawner",
+            "max_spawned": 3,
+            "min_days": 3,
+            "max_days": 3.7,
+            "initial_offset_days": -3.9,
+            "spawns": "Banana Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287413,
+                "outputs": [
+                  {
+                    "resource_id": 300126,
+                    "resource": "Fruit",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 4,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "Beet Plant": {
+        "harvest": [
+          {
+            "formula_id": 297896,
+            "outputs": [
+              {
+                "resource_id": 300127,
+                "resource": "Veggie",
+                "count": 1
+              }
+            ],
+            "work_iterations": 0
+          }
+        ],
+        "spawners": []
+      },
+      "BerryBush": {
+        "harvest": [
+          {
+            "formula_id": 303240,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 1
+              }
+            ],
+            "work_iterations": 3
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Berry Spawner",
+            "max_spawned": 4,
+            "min_days": 1.65,
+            "max_days": 2.5,
+            "initial_offset_days": -2.9,
+            "spawns": "Berry Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287420,
+                "outputs": [
+                  {
+                    "resource_id": 300126,
+                    "resource": "Fruit",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 4,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "Cabbage Plant": {
+        "harvest": [
+          {
+            "formula_id": 297894,
+            "outputs": [
+              {
+                "resource_id": 300127,
+                "resource": "Veggie",
+                "count": 1
+              }
+            ],
+            "work_iterations": 0
+          }
+        ],
+        "spawners": []
+      },
+      "Carrot Plant": {
+        "harvest": [
+          {
+            "formula_id": 297902,
+            "outputs": [
+              {
+                "resource_id": 300127,
+                "resource": "Veggie",
+                "count": 1
+              }
+            ],
+            "work_iterations": 0
+          }
+        ],
+        "spawners": []
+      },
+      "Cauliflower Plant": {
+        "harvest": [
+          {
+            "formula_id": 297897,
+            "outputs": [
+              {
+                "resource_id": 300127,
+                "resource": "Veggie",
+                "count": 1
+              }
+            ],
+            "work_iterations": 0
+          }
+        ],
+        "spawners": []
+      },
+      "Corn Plant": {
+        "harvest": [
+          {
+            "formula_id": 297903,
+            "outputs": [
+              {
+                "resource_id": 300127,
+                "resource": "Veggie",
+                "count": 1
+              }
+            ],
+            "work_iterations": 0
+          }
+        ],
+        "spawners": []
+      },
+      "CypressTree": {
+        "harvest": [
+          {
+            "formula_id": 317193,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 4
+              }
+            ],
+            "work_iterations": 6
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Otter Spawner",
+            "max_spawned": 1,
+            "min_days": 6,
+            "max_days": 10,
+            "initial_offset_days": -8,
+            "spawns": "CoypuBurrow",
+            "spawn_yield": [
+              {
+                "formula_id": 293801,
+                "outputs": [
+                  {
+                    "resource_id": 319711,
+                    "resource": "HuntersSwampTrapFull",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 2,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "DatePalmTree": {
+        "harvest": [
+          {
+            "formula_id": 303239,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 1
+              }
+            ],
+            "work_iterations": 3
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Date Spawner",
+            "max_spawned": 4,
+            "min_days": 1.65,
+            "max_days": 2.5,
+            "initial_offset_days": -2.9,
+            "spawns": "Date Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287412,
+                "outputs": [
+                  {
+                    "resource_id": 300126,
+                    "resource": "Fruit",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 4,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "DragonFruitTree": {
+        "harvest": [
+          {
+            "formula_id": 303242,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 1
+              }
+            ],
+            "work_iterations": 3
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Apple Spawner",
+            "max_spawned": 4,
+            "min_days": 1.65,
+            "max_days": 2.5,
+            "initial_offset_days": -2.9,
+            "spawns": "DragonFruit Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287418,
+                "outputs": [
+                  {
+                    "resource_id": 300126,
+                    "resource": "Fruit",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 4,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "Eggplant Plant": {
+        "harvest": [
+          {
+            "formula_id": 297904,
+            "outputs": [
+              {
+                "resource_id": 300127,
+                "resource": "Veggie",
+                "count": 2
+              }
+            ],
+            "work_iterations": 0
+          }
+        ],
+        "spawners": []
+      },
+      "FigTree": {
+        "harvest": [
+          {
+            "formula_id": 303238,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 1
+              }
+            ],
+            "work_iterations": 3
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Fig Spawner",
+            "max_spawned": 3,
+            "min_days": 3,
+            "max_days": 3.7,
+            "initial_offset_days": -3.9,
+            "spawns": "Fig Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287417,
+                "outputs": [
+                  {
+                    "resource_id": 300126,
+                    "resource": "Fruit",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 4,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "GrapeTree": {
+        "harvest": [
+          {
+            "formula_id": 303245,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 1
+              }
+            ],
+            "work_iterations": 3
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Grape Spawner",
+            "max_spawned": 5,
+            "min_days": 1.3,
+            "max_days": 2,
+            "initial_offset_days": -2.5,
+            "spawns": "Grape Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287414,
+                "outputs": [
+                  {
+                    "resource_id": 300126,
+                    "resource": "Fruit",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 4,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "Halloween Tree": {
+        "harvest": [
+          {
+            "formula_id": 299685,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 4
+              }
+            ],
+            "work_iterations": 6
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 2,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          },
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          }
+        ]
+      },
+      "Jungle Big Tree": {
+        "harvest": [
+          {
+            "formula_id": 288627,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 5
+              }
+            ],
+            "work_iterations": 6
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 2,
+            "min_days": 1.2,
+            "max_days": 3,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          },
+          {
+            "name": "Bush Spawner",
+            "max_spawned": 8,
+            "min_days": 0.5,
+            "max_days": 5,
+            "initial_offset_days": -10,
+            "spawns": "Jungle Bush",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "Jungle Tree": {
+        "harvest": [
+          {
+            "formula_id": 288625,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 1
+              }
+            ],
+            "work_iterations": 3
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 1,
+            "min_days": 2,
+            "max_days": 4,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          },
+          {
+            "name": "Bush Spawner",
+            "max_spawned": 8,
+            "min_days": 0.5,
+            "max_days": 5,
+            "initial_offset_days": -10,
+            "spawns": "Jungle Bush",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "Mesquite Tree": {
+        "harvest": [
+          {
+            "formula_id": 288626,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 2
+              }
+            ],
+            "work_iterations": 3
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 3,
+            "min_days": 2,
+            "max_days": 6,
+            "initial_offset_days": -4.5,
+            "spawns": "Stick",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "Nopal Tree": {
+        "harvest": [
+          {
+            "formula_id": 303244,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 1
+              },
+              {
+                "resource_id": 286347,
+                "resource": "Nopal",
+                "count": 5
+              }
+            ],
+            "work_iterations": 3
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "PricklyPear Spawner",
+            "max_spawned": 2,
+            "min_days": 2.2,
+            "max_days": 3,
+            "initial_offset_days": -2.25,
+            "spawns": "PricklyPear Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287411,
+                "outputs": [
+                  {
+                    "resource_id": 300126,
+                    "resource": "Fruit",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Nopal Spawner",
+            "max_spawned": 2,
+            "min_days": 2.2,
+            "max_days": 2.8,
+            "initial_offset_days": -2.25,
+            "spawns": "Nopal Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287415,
+                "outputs": [
+                  {
+                    "resource_id": 286347,
+                    "resource": "Nopal",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 4,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "Onion Plant": {
+        "harvest": [
+          {
+            "formula_id": 297898,
+            "outputs": [
+              {
+                "resource_id": 300127,
+                "resource": "Veggie",
+                "count": 1
+              }
+            ],
+            "work_iterations": 0
+          }
+        ],
+        "spawners": []
+      },
+      "Palm Tree": {
+        "harvest": [
+          {
+            "formula_id": 315528,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 1
+              }
+            ],
+            "work_iterations": 3
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Coconut Spawner",
+            "max_spawned": 5,
+            "min_days": 1.3,
+            "max_days": 2,
+            "initial_offset_days": -2,
+            "spawns": "Coconut Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287419,
+                "outputs": [
+                  {
+                    "resource_id": 300126,
+                    "resource": "Fruit",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          }
+        ]
+      },
+      "PineTree": {
+        "harvest": [
+          {
+            "formula_id": 299686,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 4
+              }
+            ],
+            "work_iterations": 6
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 2,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          },
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          }
+        ]
+      },
+      "Plant Birds of Paradise": {
+        "harvest": [],
+        "spawners": []
+      },
+      "Plant Calla Lilly": {
+        "harvest": [],
+        "spawners": []
+      },
+      "Plant Flame Tree": {
+        "harvest": [],
+        "spawners": []
+      },
+      "Plant Hibiscus": {
+        "harvest": [],
+        "spawners": []
+      },
+      "Plant Hydrangea": {
+        "harvest": [],
+        "spawners": []
+      },
+      "Plant Jacaranda": {
+        "harvest": [],
+        "spawners": []
+      },
+      "Plant Orchid": {
+        "harvest": [],
+        "spawners": []
+      },
+      "Plant Roses": {
+        "harvest": [],
+        "spawners": []
+      },
+      "Plant Silky Oak": {
+        "harvest": [],
+        "spawners": []
+      },
+      "Plant Template": {
+        "harvest": [
+          {
+            "formula_id": 297891,
+            "outputs": [],
+            "work_iterations": 0
+          },
+          {
+            "formula_id": 297900,
+            "outputs": [],
+            "work_iterations": 0
+          }
+        ],
+        "spawners": []
+      },
+      "PlantBase": {
+        "harvest": [
+          {
+            "formula_id": 305464,
+            "outputs": [],
+            "work_iterations": 0
+          }
+        ],
+        "spawners": []
+      },
+      "PomeloTree": {
+        "harvest": [
+          {
+            "formula_id": 303241,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 1
+              }
+            ],
+            "work_iterations": 3
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Pomelo Spawner",
+            "max_spawned": 4,
+            "min_days": 1.65,
+            "max_days": 2.5,
+            "initial_offset_days": -2.9,
+            "spawns": "Pomelo Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287416,
+                "outputs": [
+                  {
+                    "resource_id": 300126,
+                    "resource": "Fruit",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 4,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "Potato Plant": {
+        "harvest": [
+          {
+            "formula_id": 297899,
+            "outputs": [
+              {
+                "resource_id": 300127,
+                "resource": "Veggie",
+                "count": 3
+              }
+            ],
+            "work_iterations": 0
+          }
+        ],
+        "spawners": []
+      },
+      "Pumpkin Plant": {
+        "harvest": [
+          {
+            "formula_id": 297901,
+            "outputs": [
+              {
+                "resource_id": 300127,
+                "resource": "Veggie",
+                "count": 1
+              }
+            ],
+            "work_iterations": 0
+          }
+        ],
+        "spawners": []
+      },
+      "Pumpkin Plant _Halloween": {
+        "harvest": [
+          {
+            "formula_id": 292321,
+            "outputs": [
+              {
+                "resource_id": 300127,
+                "resource": "Veggie",
+                "count": 1
+              }
+            ],
+            "work_iterations": 0
+          }
+        ],
+        "spawners": []
+      },
+      "Reed Plant": {
+        "harvest": [
+          {
+            "formula_id": 297892,
+            "outputs": [
+              {
+                "resource_id": 312704,
+                "resource": "Reed",
+                "count": 1
+              }
+            ],
+            "work_iterations": 3
+          }
+        ],
+        "spawners": []
+      },
+      "Tomato Plant": {
+        "harvest": [
+          {
+            "formula_id": 297893,
+            "outputs": [
+              {
+                "resource_id": 300127,
+                "resource": "Veggie",
+                "count": 3
+              }
+            ],
+            "work_iterations": 0
+          }
+        ],
+        "spawners": []
+      },
+      "Tree Template": {
+        "harvest": [
+          {
+            "formula_id": 317195,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 3
+              }
+            ],
+            "work_iterations": 6
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 4,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "Watermelon Plant": {
+        "harvest": [
+          {
+            "formula_id": 297895,
+            "outputs": [
+              {
+                "resource_id": 300126,
+                "resource": "Fruit",
+                "count": 1
+              }
+            ],
+            "work_iterations": 0
+          }
+        ],
+        "spawners": []
+      },
+      "WheatPlant": {
+        "harvest": [
+          {
+            "formula_id": 320438,
+            "outputs": [
+              {
+                "resource_id": 320813,
+                "resource": "Wheat",
+                "count": 1
+              }
+            ],
+            "work_iterations": 0
+          }
+        ],
+        "spawners": []
+      },
+      "WillowTree": {
+        "harvest": [
+          {
+            "formula_id": 299684,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 4
+              }
+            ],
+            "work_iterations": 6
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom",
+            "spawn_yield": []
+          },
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 2,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "Winter Pine": {
+        "harvest": [
+          {
+            "formula_id": 317194,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 4
+              }
+            ],
+            "work_iterations": 6
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Burrow Spawner",
+            "max_spawned": 1,
+            "min_days": 6,
+            "max_days": 10,
+            "initial_offset_days": -8,
+            "spawns": "Burrow",
+            "spawn_yield": [
+              {
+                "formula_id": 293800,
+                "outputs": [
+                  {
+                    "resource_id": 319701,
+                    "resource": "HunterTrapFull",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 2,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          }
+        ]
+      },
+      "_DecorationPlantBase": {
+        "harvest": [],
+        "spawners": []
+      },
+      "_OrchardTreeBase": {
+        "harvest": [
+          {
+            "formula_id": 289995,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 3
+              }
+            ],
+            "work_iterations": 3
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 4,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          },
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          }
+        ]
+      },
+      "_TreeBase": {
+        "harvest": [
+          {
+            "formula_id": 305463,
+            "outputs": [
+              {
+                "resource_id": 309169,
+                "resource": "Wood",
+                "count": 3
+              }
+            ],
+            "work_iterations": 6
+          }
+        ],
+        "spawners": [
+          {
+            "name": "Mushroom Spawner",
+            "max_spawned": 3,
+            "min_days": 1.7,
+            "max_days": 3.9,
+            "initial_offset_days": -3,
+            "spawns": "Mushroom Source",
+            "spawn_yield": [
+              {
+                "formula_id": 287421,
+                "outputs": [
+                  {
+                    "resource_id": 320441,
+                    "resource": "Mushroom",
+                    "count": 1
+                  }
+                ],
+                "work_iterations": 0
+              }
+            ]
+          },
+          {
+            "name": "Sticks Spawner",
+            "max_spawned": 4,
+            "min_days": 1.5,
+            "max_days": 4.5,
+            "initial_offset_days": -3,
+            "spawns": "Stick",
+            "spawn_yield": []
+          }
+        ]
+      }
+    }
+  },
   "duplicate_resource_names": {
     "note": "284895 is the GameObject \"FakeStick\" under the Firewood Yard (Woodchopper): 1 Log becomes 4 FakeStick, then FakeStick becomes Stick 1:1. It shares the localization key Resource.Stick, so both display as Stick.",
     "records": [
