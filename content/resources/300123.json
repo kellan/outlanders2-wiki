@@ -8,13 +8,13 @@
     "content/resources_/gear/ukulele"
   ],
   "need_units": {
-    "FoodUnits": 0.0,
-    "EntertainmentUnits": 0.0,
-    "WellnessUnits": 0.0,
-    "CommunityUnits": 0.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 0.0,
-    "HeatUnits": 0.0
+    "FoodUnits": 0,
+    "EntertainmentUnits": 0,
+    "WellnessUnits": 0,
+    "CommunityUnits": 0,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 0,
+    "HeatUnits": 0
   },
   "consume_duration_override": null,
   "consumption_age_limits": null,
@@ -26,5 +26,41 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 105750,
+      "building_name": "Luthierie",
+      "per_unit": [
+        {
+          "resource_id": 309169,
+          "name": "Log",
+          "count": 3
+        }
+      ],
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 309169,
+            "name": "Log",
+            "count": 3
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 300123,
+            "name": "Ukulele",
+            "count": 1
+          }
+        ]
+      },
+      "formula_ids": [
+        290652,
+        293378,
+        313644,
+        315713
+      ],
+      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+    }
+  ]
 }

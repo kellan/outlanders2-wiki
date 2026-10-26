@@ -8,13 +8,13 @@
     "content/resources_/cookieshop/cookie_christmas"
   ],
   "need_units": {
-    "FoodUnits": 1.0,
-    "EntertainmentUnits": 4.0,
-    "WellnessUnits": 0.0,
-    "CommunityUnits": 0.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 0.0,
-    "HeatUnits": 0.0
+    "FoodUnits": 1,
+    "EntertainmentUnits": 4,
+    "WellnessUnits": 0,
+    "CommunityUnits": 0,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 0,
+    "HeatUnits": 0
   },
   "consume_duration_override": null,
   "consumption_age_limits": null,
@@ -26,5 +26,64 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 60667,
+      "building_name": "Gingerbread Man Shop",
+      "per_unit": [
+        {
+          "resource_id": 286781,
+          "name": "Flour",
+          "count": 0.125
+        },
+        {
+          "resource_id": 286358,
+          "name": "Egg",
+          "count": 0.25
+        },
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 0.125
+        }
+      ],
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 286781,
+            "name": "Flour",
+            "count": 1
+          },
+          {
+            "resource_id": 286358,
+            "name": "Egg",
+            "count": 2
+          },
+          {
+            "resource_id": 284894,
+            "name": "Stick",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 319696,
+            "name": "Gingerbread Man",
+            "count": 8
+          }
+        ]
+      },
+      "formula_ids": [
+        282646,
+        283837,
+        294751,
+        305366,
+        307486,
+        311452,
+        319599
+      ],
+      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+    }
+  ]
 }

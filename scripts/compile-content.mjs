@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import {fileURLToPath} from 'node:url';
+import {madeFrom} from './derive-recipes.mjs';
 export const project=fileURLToPath(new URL('../',import.meta.url));
 const read=p=>JSON.parse(fs.readFileSync(path.join(project,p),'utf8'));
 export function assembleContent(base=project){
@@ -26,6 +27,7 @@ export function assembleContent(base=project){
  const bIds=new Set(result.rules.buildings.map(x=>x.gameobject_id)),fIds=new Set(result.rules.formulas.map(x=>x.id)),rIds=new Set(result.rules.resources.map(x=>x.id));
  for(const b of result.rules.buildings)if(b.gameplay){for(const x of [...(b.gameplay.recipe_per_cycle?.inputs||[]),...(b.gameplay.recipe_per_cycle?.outputs||[]),...(b.gameplay.output_capacity?[b.gameplay.output_capacity]:[])])assert.ok(rIds.has(x.resource_id),'Unknown gameplay resource '+x.resource_id+' in building '+b.gameobject_id)}
  for(const b of result.rules.buildings)for(const id of b.formula_ids)assert.ok(fIds.has(id),'Unknown formula '+id);
+ {const derived=madeFrom(result.rules.buildings);for(const r of result.rules.resources){const want=derived.get(r.id)||null;assert.equal(JSON.stringify(r.made_from||null),JSON.stringify(want),'Stored made_from for resource '+r.id+' ('+r.name+') differs from the building recipes; run npm run content:derive')}}
  for(const l of result.world.levels)for(const item of l.scenario?.buildable_entries||[])assert.ok(item.gameobject_id,'Unresolved buildable entry in '+l.id);
  const seasonIds=new Set((result.world.challenges?.source_entries||[]).filter(x=>/^FastMode\.[A-Za-z]+\.Name\.WithArticle$/.test(x.key)).map(x=>x.key.split('.')[1]));
  result.world.contributions=fs.readdirSync(path.join(base,'content/observations')).filter(f=>f.endsWith('.json')).sort().map(file=>{

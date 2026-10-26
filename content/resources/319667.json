@@ -8,13 +8,13 @@
     "content/resources_/bakery/bread"
   ],
   "need_units": {
-    "FoodUnits": 2.0,
-    "EntertainmentUnits": 0.0,
-    "WellnessUnits": 0.0,
-    "CommunityUnits": 0.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 0.0,
-    "HeatUnits": 0.0
+    "FoodUnits": 2,
+    "EntertainmentUnits": 0,
+    "WellnessUnits": 0,
+    "CommunityUnits": 0,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 0,
+    "HeatUnits": 0
   },
   "consume_duration_override": null,
   "consumption_age_limits": null,
@@ -26,5 +26,82 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 57395,
+      "building_name": "Bakery",
+      "per_unit": [
+        {
+          "resource_id": 286781,
+          "name": "Flour",
+          "count": 0.125
+        },
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 0.125
+        }
+      ],
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 286781,
+            "name": "Flour",
+            "count": 5
+          },
+          {
+            "resource_id": 284894,
+            "name": "Stick",
+            "count": 4
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 319667,
+            "name": "Bread",
+            "count": 40
+          }
+        ]
+      },
+      "formula_ids": [
+        285959,
+        287898,
+        291517,
+        297381,
+        309671,
+        310360,
+        313803
+      ],
+      "status": "per-unit ratio derived from the recorded per-cycle recipe",
+      "per_cycle": {
+        "inputs": [
+          {
+            "resource_id": 286781,
+            "name": "Flour",
+            "count": 1
+          },
+          {
+            "resource_id": 284894,
+            "name": "Stick",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 319667,
+            "name": "Bread",
+            "count": 8
+          }
+        ],
+        "status": "confirmed",
+        "evidence": {
+          "kind": "field-guide",
+          "game_version": "30 (254)",
+          "date": "2026-10-24",
+          "reference": "Bakery field guide screenshot (gameplay-evidence/bakery-field-guide.png). Maintainer play report of 25 October 2026 agrees. The decoded formula graph gives exactly 8 Bread per Flour; formula 297381 is named \"1 Stick -> 8 KitchenFire\" although its serialized output is 10, so whether leftover fire carries between cycles is unverified."
+        }
+      }
+    }
+  ]
 }

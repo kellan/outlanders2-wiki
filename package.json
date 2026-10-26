@@ -9,6 +9,7 @@
     "test": "npm run validate && node scripts/check.mjs && node scripts/check-scenarios.mjs && node scripts/check-reader-pages.mjs && node scripts/check-contributions.mjs && node scripts/check-companion.mjs",
     "build": "node scripts/build.mjs",
     "content:find": "node scripts/find-content.mjs",
+    "content:derive": "node scripts/derive-recipes.mjs",
     "validate": "node scripts/compile-content.mjs --check"
   },
   "engines": {

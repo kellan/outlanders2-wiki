@@ -8,13 +8,13 @@
     "content/resources_/fruitjuice"
   ],
   "need_units": {
-    "FoodUnits": 0.0,
-    "EntertainmentUnits": 0.0,
-    "WellnessUnits": 4.0,
-    "CommunityUnits": 0.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 0.0,
-    "HeatUnits": 0.0
+    "FoodUnits": 0,
+    "EntertainmentUnits": 0,
+    "WellnessUnits": 4,
+    "CommunityUnits": 0,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 0,
+    "HeatUnits": 0
   },
   "consume_duration_override": null,
   "consumption_age_limits": null,
@@ -26,5 +26,38 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 57397,
+      "building_name": "Smoothie Stand",
+      "per_unit": [
+        {
+          "resource_id": 300126,
+          "name": "Fruit",
+          "count": 0.5
+        }
+      ],
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 300126,
+            "name": "Fruit",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 286361,
+            "name": "Smoothie",
+            "count": 2
+          }
+        ]
+      },
+      "formula_ids": [
+        307101
+      ],
+      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+    }
+  ]
 }

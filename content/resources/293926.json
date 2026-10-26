@@ -8,13 +8,13 @@
     "content/resources_/stone"
   ],
   "need_units": {
-    "FoodUnits": 0.0,
-    "EntertainmentUnits": 0.0,
-    "WellnessUnits": 0.0,
-    "CommunityUnits": 0.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 0.0,
-    "HeatUnits": 0.0
+    "FoodUnits": 0,
+    "EntertainmentUnits": 0,
+    "WellnessUnits": 0,
+    "CommunityUnits": 0,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 0,
+    "HeatUnits": 0
   },
   "consume_duration_override": null,
   "consumption_age_limits": null,
@@ -26,5 +26,44 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 105723,
+      "building_name": "Stone Mine",
+      "per_unit": [
+        {
+          "resource_id": 309169,
+          "name": "Log",
+          "count": 1.5
+        }
+      ],
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 309169,
+            "name": "Log",
+            "count": 3
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 293926,
+            "name": "Stone",
+            "count": 2
+          }
+        ]
+      },
+      "formula_ids": [
+        277841,
+        290310,
+        291324,
+        296702,
+        300075,
+        311533,
+        319653
+      ],
+      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+    }
+  ]
 }

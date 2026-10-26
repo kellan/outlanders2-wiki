@@ -125,3 +125,22 @@ assert.ok(h.render('production-chains/glassworks/').includes('Production notes')
 assert.ok(!h.render('buildings/glassworks/').includes('Modelled production capacity'),'model stays off reader page');
 assert.ok(h.render('buildings/bakery/').includes('60 Bread'),'bakery capacity from decoded piles');
 console.log('PASS: research handoff integration.');
+// Stored per-unit recipes on resources, shown on resource, building and level pages.
+{const canteenRecord=JSON.parse(fs2.readFileSync(new URL('../content/resources/300130.json',import.meta.url),'utf8'));
+ assert.ok(Array.isArray(canteenRecord.made_from)&&canteenRecord.made_from.length===1,'canteen made_from stored in data');
+ const per=Object.fromEntries(canteenRecord.made_from[0].per_unit.map(x=>[x.name,x.count]));assert.deepEqual(per,{'Glass Pane':2,Stick:0.4,'Reed Bunch':1},'per-unit canteen amounts');
+ assert.equal(canteenRecord.made_from[0].smallest_whole_batch.outputs[0].count,5,'batch kept alongside per-unit');
+ const breadRecord=JSON.parse(fs2.readFileSync(new URL('../content/resources/'+canteenRecord.made_from[0].per_unit[0].resource_id+'.json',import.meta.url),'utf8'));assert.ok(breadRecord.made_from.some(m=>m.building_name==='Glassworks'),'glass pane made_from');
+ const canteen=h.render('resources/canteen/');assert.ok(canteen.includes('How it is made'),'resource recipe section');assert.ok(canteen.includes('Each Canteen:'),'per-unit heading');assert.ok(canteen.includes('2 Glass Pane')&&canteen.includes('1 Stick</a> for every 2.5 Canteen'),'per-unit amounts in prose');assert.ok(canteen.includes('Smallest whole batch:')&&canteen.includes('5 Canteen'),'batch shown');
+ assert.ok(canteen.includes('Made from'),'infobox made-from row');
+ const bread=h.render('food/bread/');assert.ok(bread.includes('Per cycle:')&&bread.includes('8 Bread'),'per-cycle recipe preferred for bread');
+ const factory=h.render('buildings/canteen-factory/');assert.ok(factory.includes('Each Canteen:'),'per-unit line on building page');
+ const firewood=JSON.parse(fs2.readFileSync(new URL('../content/resources/284894.json',import.meta.url),'utf8'));assert.ok(!(firewood.made_from||[]).some(m=>m.per_unit.some(x=>x.name==='Stick')),'stick-to-stick conversion excluded');
+ const level=h.render('levels/mom-s-gardens/');assert.ok(level.includes('What the objectives need'),'level rollup');
+ const start=level.indexOf('id="objective-needs"'),rows=level.slice(start,level.indexOf('</section>',start));const row=name=>{const i=rows.indexOf('>'+name+'</a></td>');return rows.slice(i,i+260).replace(/<[^>]+>/g,'|')};
+ assert.ok(/Canteen\|+—\|+6\|+6\|/.test(row('Canteen')),'canteen optional only: '+row('Canteen'));
+ assert.ok(/Glass Pane\|+—\|+12\|+—\|/.test(row('Glass Pane')),'glass pane expanded from canteens: '+row('Glass Pane'));
+ assert.ok(/Stick\|+—\|+20.4\|/.test(row('Stick')),'sticks include glass fuel: '+row('Stick'));assert.equal((rows.match(/>Stick<\/a><\/td>/g)||[]).length,1,'same-named sticks merged');
+ assert.ok(/Book\|+18\|+18\|+18\|/.test(row('Book')),'main objective book');
+ assert.ok(/12 <a[^>]*>Glass Pane<\/a> at the/.test(level)&&/needs 18 <a[^>]*>Stick<\/a>/.test(level),'breakdown steps');
+ console.log('PASS: stored recipes and objective rollups.');}
