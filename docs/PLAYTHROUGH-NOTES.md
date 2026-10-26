@@ -12,7 +12,7 @@ Menu inspection and an initial visit to a saved campaign level began on 2026-10-
 
 ## Observed 2026-10-24
 
-Installed application: version 30, build 254 (installation inventory). Evidence screenshots are in `../gameplay-evidence/`.
+Installed application: version 30, build 254 (installation inventory). Evidence screenshots are in `../../gameplay-evidence/`.
 
 - Campaign introduction: stories contain three levels focused on the same leader or town. It says finishing the first three stories in Campaign 1 allows entry into any campaign. This is observed UI wording, not a tested unlock sequence.
 - Campaign 1 story order: Pablo's Quest, Miranda's Chance, Edgar's Growth, Maddy's Road, Pablo's Exit, Jaqweshia's Empire, Felix's Blackout. Evidence: `campaign-1.png`.
@@ -39,7 +39,7 @@ Each observation needs game version, scenario, biome, leader, starting condition
 
 Pointer control resumed after the user foregrounded the game. Campaign 3 shows only Fjordi's Birthday, with Seventeen → Twenty-four → Thirty. Oona's Potion is absent. Campaign 2 has a seventh story, Pablo's Lost. Evidence: campaign-3.png and fjordis-birthday.png.
 
-Inspected briefings for all six challenge categories; exact objectives and displayed limits are in dist/data/world.json under ui_observations and ../gameplay-observations.json. No limit displayed is not proof that no limit exists. Leaderboard-duration text on archived challenges is historical wording, not evidence of a currently active leaderboard.
+Inspected briefings for all six challenge categories; exact objectives and displayed limits are in dist/data/world.json under ui_observations and ../../gameplay-observations.json. No limit displayed is not proof that no limit exists. Leaderboard-duration text on archived challenges is historical wording, not evidence of a currently active leaderboard.
 
 Continued the already-completed Counterspell save at Day 25, population 8, and paused it for field-guide inspection. Completion predates this session. No structures placed or staffing changed. Greenhouse guide confirms Winterland farming and Potato, Beet and Cabbage fields. Bakery, Windmill, Sawmill and Greenhouse cost/worker displays match extracted costs and staffing.
 

@@ -10,6 +10,6 @@ const load=(dir,folder)=>{const p=path.join(dir,folder);if(!fs.existsSync(p))ret
 const out=[];const ev={kind:'decoded-data',reference:`Comparison of content exports, ${oldDir} versus ${newDir}`};
 for(const [folder,[type]] of Object.entries(groups)){const a=load(oldDir,folder),b=load(newDir,folder);
  for(const [id,rec] of b)if(!a.has(id))out.push({type,id,game_version:version,date,change:`Added: ${rec.name||id}.`,evidence:ev});
- for(const [id,rec] of a)if(!b.has(id))out.push({type,id,game_version:version,date,change:`Removed from the game files: ${rec.name||id}.`,evidence:ev,note:'Target no longer exists; keep the old record or record the removal in CONTENT-NOTES.md'});
+ for(const [id,rec] of a)if(!b.has(id))out.push({type,id,game_version:version,date,change:`Removed from the game files: ${rec.name||id}.`,evidence:ev,note:'Target no longer exists; keep the old record or record the removal in docs/CONTENT-NOTES.md'});
  for(const [id,rec] of b){const old=a.get(id);if(!old)continue;const changed=watched[folder].filter(k=>JSON.stringify(old[k])!==JSON.stringify(rec[k]));if(changed.length)out.push({type,id,game_version:version,date,change:`Changed ${changed.join(', ')} for ${rec.name||id}.`,evidence:ev,before:Object.fromEntries(changed.map(k=>[k,old[k]])),after:Object.fromEntries(changed.map(k=>[k,rec[k]]))})}}
 console.log(JSON.stringify(out,null,2));console.error(`${out.length} candidate entries. Review each, drop the before/after and note fields, and add the keepers to content/history.json.`);
