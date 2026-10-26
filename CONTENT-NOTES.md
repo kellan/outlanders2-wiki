@@ -4,6 +4,12 @@ The maintainer reported that in game a crop field takes one square and a tree 2 
 
 The maintainer also asked whether Potato really matches Carrot and Onion. Per field it does: 3 Veggie over 9 days (four 2.25-day stages). The structure differs, though. A Potato field holds one plant whose harvest gives 3 Veggie; Carrot and Onion fields hold 3 plants giving 1 each. The yield row now says "one plant" or "3 plants, 1 each" in place of the planting-spot count.
 
+The Food page got four more fixes:
+- The sources table gains a food-per-square column. A tree feeds more than a field, but on four times the ground, so per square a Carrot field (0.33) beats a Grape Vine (0.15).
+- The food list says Fun, not Entertainment.
+- The food list drops the Type and Availability columns, which read Food and Unknown on every row.
+- Duplicate resource definitions no longer show a "22 versions" note (Fondue).
+
 ## Sandbox page (2026-10-26, issue 29)
 
 A new Mechanics page, Sandbox, renders the decoded settings:

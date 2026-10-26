@@ -280,4 +280,5 @@ console.log('PASS: research handoff integration.');
 {const strip=s=>s.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');
  for(const [p,f] of [['plants/carrot/','Footprint 1 × 1'],['plants/apple-tree/','Footprint 2 × 2'],['buildings/basic-house/','Footprint 2 × 2'],['buildings/trading-outpost/','Footprint 3 × 3']])assert.ok(strip(h.render(p)).includes(f),p+' '+f);
  assert.ok(strip(h.render('plants/potato/')).includes('3 Veggie per full field (one plant)')&&strip(h.render('plants/carrot/')).includes('(3 plants, 1 each)'),'plant count wording');
- console.log('PASS: footprints in game squares; one Potato plant versus three Carrot plants.');}
+ const food=strip(h.render('food/'));assert.ok(food.includes('Carrot Field crop 3 Veggie per 9 days 0.33 0.5 1 × 1 0.33')&&food.includes('Grape Vine Fruit tree 0.61 Fruit a day 0.61 0.91 2 × 2 0.15'),'food per square');assert.ok(food.includes('Cookie Food: 1; Fun: 4')&&!/Entertainment|22 versions|Unknown/.test(food.split('How much each source feeds')[0]),'food list labels');
+ console.log('PASS: footprints in game squares; one Potato plant versus three Carrot plants; food per square.');}
