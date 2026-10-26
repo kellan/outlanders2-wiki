@@ -1,3 +1,7 @@
+## Visitors and scheduled events on level pages (2026-10-26)
+
+The level files store, for every placed event prefab, the game day it fires (`LevelEvent.DaysStart`); the prefab says what arrives. Level pages now show a Visitors row ("30 adults on day 50, announced from the start" on Sold Out; three waves on Anthology; six leaders on day 25 on Outgrown) and an Events row (Rain on day 22 for 2 days on An Apple a Day; "No babies are born on this map" where the no-reproduction notice is placed). Visitors arrive regardless of the settlement's state. Announcement lead times come from the prefab: 1000 days means from the start, 0 means no notice. Also in this change: extraction buildings say plainly what they gather and that nothing goes in, the Fishing Dock's random catch is worded per spot, the production note uses decoded pile sizes when no gameplay capacity is recorded, water-edge placement reads plainly, and the Fitness Park's two staff spots are labelled as such.
+
 ## Playtest protocols for a computer-use agent (2026-10-26)
 
 `docs/PLAYTESTS.md` separates what must be learned by playing from what the research repository decodes: six screen-capture tasks (field guide, clock at sunrise, menus, challenge and tournament screens, planter menus, demolition refund) and nine timed tests (meal log, fish per cast, growth timing, gathering visits, Bakery output, cold, housing, planted-tree spread, day limit), each with setup, what to record, screenshot naming and the answers-inbox entry to write. INFORMATION-NEEDED points to it.

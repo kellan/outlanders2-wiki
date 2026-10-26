@@ -29502,6 +29502,1838 @@
    }
   ]
  },
+ "level_event_schedule": {
+  "classes": "LevelEvent (entity world) + LevelEventBehaviour",
+  "note": "Per packaged level, each placed event prefab with the game day it starts (DaysStart). Villager and resource spawns come from the prefab; ambient events (birds, fireflies, seasonal decoration) carry no spawn. announced_days_before is how long before the day the game shows its notice; 1000 means from the start of the level, 0 means no notice.",
+  "levels": {
+   "Test Ukulele Maker Buildsite": [],
+   "Level02B": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Papermill": [],
+   "Test Brewery": [],
+   "Single_C_7Islands": [
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Crow",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test House Stone": [],
+   "Test Brick Maker Buildsite": [],
+   "Test Zen Garden Buildsite": [],
+   "Single00_C_Oasis": [],
+   "Test House Buildsite": [],
+   "Test Coat Maker": [],
+   "Test Trading Post Tropicland": [],
+   "Test Bridge Buildsite": [],
+   "Single_R_05A": [],
+   "Test Trading Post Winterland": [],
+   "Test IcePops Shop Buildsite": [],
+   "Level06B": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Single06_R_03B": [],
+   "Single04_C_Island": [],
+   "Single_C_two": [
+    {
+     "root": "Spawn 5 Villagers",
+     "days_start": 10.0,
+     "villagers": [
+      {
+       "kind": "adult",
+       "count": 5,
+       "min_age": 20,
+       "max_age": 30
+      }
+     ],
+     "resources": [],
+     "duration_days": 1.0,
+     "announced_days_before": 1000.0,
+     "effect": {}
+    },
+    {
+     "root": "Spawn 5 Villagers",
+     "days_start": 25.0,
+     "villagers": [
+      {
+       "kind": "adult",
+       "count": 5,
+       "min_age": 20,
+       "max_age": 30
+      }
+     ],
+     "resources": [],
+     "duration_days": 1.0,
+     "announced_days_before": 1000.0,
+     "effect": {}
+    }
+   ],
+   "Test Well Buildsite": [],
+   "Test Cheese Maker": [],
+   "Level03B": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Scriptorium Buildsite": [],
+   "Test Orchid Tree Buildsite": [],
+   "Test House Plank Buildsite": [],
+   "Test Jacaranda Tree Buildsite": [],
+   "Single07_C_Divided": [],
+   "Test House Desert Buildsite": [],
+   "Test Dried Meat Shop Buildsite": [],
+   "Single_R_C2_04B": [],
+   "Single_R_Level04B": [],
+   "Single06_C_Vortex": [
+    {
+     "root": "Spawn 10 Villagers",
+     "days_start": 6.0,
+     "villagers": [
+      {
+       "kind": "adult",
+       "count": 6,
+       "min_age": 20,
+       "max_age": 30
+      },
+      {
+       "kind": "kid",
+       "count": 4,
+       "min_age": 3,
+       "max_age": 5
+      }
+     ],
+     "resources": [],
+     "duration_days": 1.0,
+     "announced_days_before": 1000.0,
+     "effect": {}
+    }
+   ],
+   "Test Field Buildsites": [],
+   "Test Trading Post Evergreen Buildsite": [],
+   "Level05B": [],
+   "Single_L_23": [
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "No Reproduction Single00 L",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test House Brick Buildsite": [],
+   "Campaign2_Level7B": [
+    {
+     "root": "Spawn 10 Villagers",
+     "days_start": 10.0,
+     "villagers": [
+      {
+       "kind": "adult",
+       "count": 6,
+       "min_age": 20,
+       "max_age": 30
+      },
+      {
+       "kind": "kid",
+       "count": 4,
+       "min_age": 3,
+       "max_age": 5
+      }
+     ],
+     "resources": [],
+     "duration_days": 1.0,
+     "announced_days_before": 1000.0,
+     "effect": {}
+    },
+    {
+     "root": "Spawn 10 Villagers - NO POPUP",
+     "days_start": 20.0,
+     "villagers": [
+      {
+       "kind": "adult",
+       "count": 6,
+       "min_age": 20,
+       "max_age": 30
+      },
+      {
+       "kind": "kid",
+       "count": 4,
+       "min_age": 3,
+       "max_age": 5
+      }
+     ],
+     "resources": [],
+     "duration_days": 1.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Reproduction V2": [],
+   "Campaign2_Level4B": [],
+   "Level07A": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Single_C_Paradise": [],
+   "Single01_C_FriendsFrost": [],
+   "Campaign2_Level1C": [],
+   "Single_L_CaveCove": [
+    {
+     "root": "Cave dripping",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {
+      "NeedMultipliers": [
+       {
+        "Type": 7,
+        "Multiplier": -2.0
+       }
+      ]
+     }
+    }
+   ],
+   "Test Winter Pub Buildsite": [],
+   "Single06_L_Crab": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Fishing Dock Buildsite": [],
+   "Campaign3_Level1A": [],
+   "Single06.1_L_Pumpkins": [
+    {
+     "root": "Birds flock Crow",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Halloween Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Campaign2_Level4C": [],
+   "Campaign2_Level5C": [
+    {
+     "root": "Spawn 30 Adults",
+     "days_start": 50.0,
+     "villagers": [
+      {
+       "kind": "adult",
+       "count": 30,
+       "min_age": 20,
+       "max_age": 50
+      }
+     ],
+     "resources": [],
+     "duration_days": 1.0,
+     "announced_days_before": 1000.0,
+     "effect": {}
+    }
+   ],
+   "Test Wood Chopper": [],
+   "Single05.1_R_001A": [],
+   "Campaign3_Level2A": [],
+   "Single00_R_Barren": [],
+   "Test Journal": [],
+   "Test Playground": [],
+   "Test Oasis Buildsite": [],
+   "Level04C": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Level06Map": [],
+   "Test Forester Buildsite": [],
+   "FAST_Tutorial03": [],
+   "Campaign2_Level7A": [
+    {
+     "root": "No Reproduction Single00 L",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Single_C_Demolicion": [
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Winery": [],
+   "Campaign3_Level1C": [],
+   "Single_L_Crashed25": [
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Campaign2_Level3A": [],
+   "Single07_L_Omnibalneario": [],
+   "Single_C_BeachPlease": [],
+   "Test Market Buildsite": [],
+   "FAST_Tutorial01": [],
+   "Campaign2_Level6A": [],
+   "Level01A": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Level 01A",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 999.0,
+     "announced_days_before": 0.0,
+     "effect": {
+      "NoDeath": true,
+      "ConstantHappiness": true
+     }
+    }
+   ],
+   "Test House Stone Buildsite": [],
+   "Single_C_Villagers100": [
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Papermill Buildsite": [],
+   "Level04B": [],
+   "Test Ogir Statue Buildsite": [],
+   "Test Fruit Juice Stand": [],
+   "Test Stone Mine": [],
+   "Campaign2_Level1B": [
+    {
+     "root": "Higher Snow",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Calla Lilly Planter Buildsite": [],
+   "Single_L_WinterIsComing": [
+    {
+     "root": "Higher Snow",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Higher Snow",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Higher Snow",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Higher Snow",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Hunters Hut Buildsite": [],
+   "Test Windmill Buildsite": [],
+   "Single04_R_07C": [
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Hibiscus Planter Buildsite": [],
+   "Test Oasis": [],
+   "Test Coat Maker Buildsite": [],
+   "Test Clay Maker Buildsite": [],
+   "Test Glass Blower": [],
+   "Single_C_MagicWine": [
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test House Winter": [],
+   "Test House Tropical Buildsite": [],
+   "Single_R_C2_L3A": [],
+   "Single_L_Up": [],
+   "Test Open kitchen": [],
+   "Test Beehive": [],
+   "Single_R_C2_L1C": [],
+   "Test Forager": [],
+   "Test Swimming Pier": [],
+   "Test Reproduction V1": [],
+   "Test Open Kitchen Buildsite": [],
+   "Single_R_c2_L2b": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 2.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Single_R_C2_L3C": [],
+   "Campaign2_Level6B": [],
+   "Test Zen Garden": [],
+   "Single02_L_Crescent": [],
+   "Test Flame Tree Buildsite": [],
+   "Test Manchamanteles Shop": [],
+   "Test Fondue Shop": [],
+   "Test Playground Buildsite": [],
+   "Level02A": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Level03A": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Level06C": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Warehouse Buildsite": [],
+   "Test Road Builder Buildsite": [],
+   "Test Fruit Juice Stand Buildsite": [],
+   "Campaign2_Level1A": [],
+   "Test Forester": [],
+   "Single_R_Continent1": [
+    {
+     "root": "Spawn 40 Villagers",
+     "days_start": 15.0,
+     "villagers": [
+      {
+       "kind": "adult",
+       "count": 30,
+       "min_age": 20,
+       "max_age": 50
+      },
+      {
+       "kind": "kid",
+       "count": 10,
+       "min_age": 0,
+       "max_age": 10
+      }
+     ],
+     "resources": [],
+     "duration_days": 1.0,
+     "announced_days_before": 1000.0,
+     "effect": {}
+    }
+   ],
+   "Single_R_SummitHeat": [],
+   "Level06A": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Glass Maker Buildsite": [],
+   "Test House Tropical": [],
+   "Test Communal Plaza": [],
+   "Campaign3_Level2C": [],
+   "Test Hydrangea Planter Buildsite": [],
+   "Single_L_Cake": [
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Orchard Buildsite": [],
+   "Single02_C_Polar": [],
+   "Test Boot Maker": [],
+   "Test Road Buildsites": [],
+   "Test Quarry": [],
+   "Test Communal Plaza Buildsite": [],
+   "Test Stone Mine Buildsite": [],
+   "Test Lumberjack Buildsite": [],
+   "Test Trading Post Evergreen": [],
+   "Test Fishing Dock": [],
+   "Single05.1_L_ThreeBridges": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Mead Hall Buildsite": [],
+   "Campaign2_Level6C": [],
+   "Test Halloween Tombstone Buildsite": [],
+   "Test Pendant Maker Buildsite": [],
+   "Single_L_Redemption": [
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Single_C_SidesSplit": [],
+   "Single_C_2Lands": [],
+   "Test Warehouse": [],
+   "Level07B": [],
+   "Test Trading Post Winterland Buildsite": [],
+   "Test Barley Porridge Shop Buildsite": [],
+   "Test Cheese Maker Buildsite": [],
+   "Level07C": [
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Spawn Leaders",
+     "days_start": 20.1,
+     "villagers": [
+      {
+       "kind": "leader",
+       "name": "Edgar",
+       "count": 1,
+       "min_age": 20,
+       "max_age": 25
+      },
+      {
+       "kind": "leader",
+       "name": "Jaqweshia",
+       "count": 1,
+       "min_age": 20,
+       "max_age": 25
+      },
+      {
+       "kind": "leader",
+       "name": "Maddy",
+       "count": 1,
+       "min_age": 20,
+       "max_age": 25
+      },
+      {
+       "kind": "leader",
+       "name": "Miranda",
+       "count": 1,
+       "min_age": 20,
+       "max_age": 25
+      },
+      {
+       "kind": "leader",
+       "name": "Pablo",
+       "count": 1,
+       "min_age": 20,
+       "max_age": 25
+      }
+     ],
+     "resources": [],
+     "duration_days": 2.0,
+     "announced_days_before": 1000.0,
+     "effect": {}
+    }
+   ],
+   "Campaign2_Level2A": [],
+   "Test Farm Buildsite": [],
+   "Test Pendant Maker": [],
+   "Campaign2_Level7C": [
+    {
+     "root": "Spawn Leaders C27C",
+     "days_start": 25.0,
+     "villagers": [
+      {
+       "kind": "leader",
+       "name": "Maira",
+       "count": 1,
+       "min_age": 20,
+       "max_age": 25
+      },
+      {
+       "kind": "leader",
+       "name": "Jelena",
+       "count": 1,
+       "min_age": 20,
+       "max_age": 25
+      },
+      {
+       "kind": "leader",
+       "name": "Izzy",
+       "count": 1,
+       "min_age": 20,
+       "max_age": 25
+      },
+      {
+       "kind": "leader",
+       "name": "Chico",
+       "count": 1,
+       "min_age": 20,
+       "max_age": 25
+      },
+      {
+       "kind": "leader",
+       "name": "Cory",
+       "count": 1,
+       "min_age": 20,
+       "max_age": 25
+      },
+      {
+       "kind": "leader",
+       "name": "Kaia",
+       "count": 1,
+       "min_age": 20,
+       "max_age": 25
+      }
+     ],
+     "resources": [],
+     "duration_days": 2.0,
+     "announced_days_before": 1000.0,
+     "effect": {}
+    }
+   ],
+   "Single_C_SnowValley": [
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Single_R_02B": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Campaign2_Level2C": [],
+   "Test Desert Forager Buildsite": [],
+   "Single_L_Again": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Single_R_Polar": [],
+   "Test Brick Maker": [],
+   "Single_C_TheGathering": [
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Spawn 30 Villagers",
+     "days_start": 100.0,
+     "villagers": [
+      {
+       "kind": "adult",
+       "count": 20,
+       "min_age": 20,
+       "max_age": 50
+      },
+      {
+       "kind": "kid",
+       "count": 10,
+       "min_age": 0,
+       "max_age": 10
+      }
+     ],
+     "resources": [],
+     "duration_days": 1.0,
+     "announced_days_before": 1000.0,
+     "effect": {}
+    }
+   ],
+   "Test Crane Flower Planter Buildsite": [],
+   "Test Silky Oak Tree Buildsite": [],
+   "Single_L_Hermit": [
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Bonfire": [],
+   "Level01C": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test House Plank": [],
+   "Test House Desert": [],
+   "Single_L_KillPlants": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Single_R_Gingerbreadm": [],
+   "Single_C_SwimmingTime": [
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Single_C_EldersVillage": [
+    {
+     "root": "No Reproduction Single00 L",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Spawn 10 Villagers",
+     "days_start": 45.0,
+     "villagers": [
+      {
+       "kind": "adult",
+       "count": 6,
+       "min_age": 20,
+       "max_age": 30
+      },
+      {
+       "kind": "kid",
+       "count": 4,
+       "min_age": 3,
+       "max_age": 5
+      }
+     ],
+     "resources": [],
+     "duration_days": 1.0,
+     "announced_days_before": 1000.0,
+     "effect": {}
+    }
+   ],
+   "Test Market": [],
+   "Test Park Buildsite": [],
+   "Test Greenhouse Buildsite": [],
+   "Single01_R_04C": [],
+   "Single04_L_Carbless": [],
+   "Test Bakery": [],
+   "Test Boot Maker Buildsite": [],
+   "Test Brewery Buildsite": [],
+   "Test Barley Porridge Shop": [],
+   "Test IcePops Shop": [],
+   "Test Snow Statue Buildsite": [],
+   "Campaign2_Level3B": [],
+   "Single01_L_Andes": [
+    {
+     "root": "No Reproduction Single00 L",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Manchamanteles Shop Buildsite": [],
+   "Single_R_VillageWinter": [
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Forager Buildsite": [],
+   "Test Canteen Maker Buildsite": [],
+   "Test Hunters Hut": [],
+   "Test Bakery Buildsite": [],
+   "Single03_R_Volcano": [],
+   "Single05_C_PeakResort": [
+    {
+     "root": "Spawn 10 Villagers",
+     "days_start": 7.0,
+     "villagers": [
+      {
+       "kind": "adult",
+       "count": 6,
+       "min_age": 20,
+       "max_age": 30
+      },
+      {
+       "kind": "kid",
+       "count": 4,
+       "min_age": 3,
+       "max_age": 5
+      }
+     ],
+     "resources": [],
+     "duration_days": 1.0,
+     "announced_days_before": 1000.0,
+     "effect": {}
+    }
+   ],
+   "FAST_Tutorial02": [],
+   "Test Orchard": [],
+   "Test Bonfire Buildsite": [],
+   "Level05A": [],
+   "Campaign2_Level5A": [
+    {
+     "root": "Birds Eagle",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds Eagle",
+     "days_start": 1.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Spawn 1 Villager",
+     "days_start": 4.0,
+     "villagers": [
+      {
+       "kind": "adult",
+       "count": 1,
+       "min_age": 17,
+       "max_age": 25
+      }
+     ],
+     "resources": [],
+     "duration_days": 1.0,
+     "announced_days_before": 1000.0,
+     "effect": {}
+    },
+    {
+     "root": "Spawn 3 Villagers C2_Lvl05A",
+     "days_start": 12.0,
+     "villagers": [
+      {
+       "kind": "adult",
+       "count": 3,
+       "min_age": 17,
+       "max_age": 25
+      }
+     ],
+     "resources": [],
+     "duration_days": 1.0,
+     "announced_days_before": 8.0,
+     "effect": {}
+    },
+    {
+     "root": "Spawn 3 Villagers C2_Lvl05A 2",
+     "days_start": 24.0,
+     "villagers": [
+      {
+       "kind": "adult",
+       "count": 3,
+       "min_age": 17,
+       "max_age": 25
+      }
+     ],
+     "resources": [],
+     "duration_days": 1.0,
+     "announced_days_before": 12.0,
+     "effect": {}
+    }
+   ],
+   "Campaign2_Level2B": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 2.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Trading Post Tropics Buildsite": [],
+   "Test Well": [],
+   "Test Glass Blower Buildsite": [],
+   "Test Lumberjack": [],
+   "Single03_C_Vesuvius": [],
+   "Test Glass Maker": [],
+   "Single05_L_Icecream": [
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test House": [],
+   "Test Journal Buildsite": [],
+   "Test Cookie Shop Buildsite": [],
+   "Single03_L_Rocks": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Wood Chopper Buildsite": [],
+   "Single_C_ForbiddenForest": [
+    {
+     "root": "Birds flock Crow",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Sawmill Buildsite": [],
+   "Single06.1_R_01C": [
+    {
+     "root": "Birds flock Crow",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Crow",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Halloween Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Swimming Pier Buildsite": [],
+   "Test Mead Hall": [],
+   "Test Farm": [],
+   "Test Cookie Shop": [],
+   "Single_L_ActualCrabIsland": [],
+   "Test Beehive Buildsite": [],
+   "Test Dried Meat Shop": [],
+   "Single00_L_Eden": [
+    {
+     "root": "No Reproduction Single00 L",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Rain",
+     "days_start": 22.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 2.0,
+     "announced_days_before": 2.0,
+     "effect": {
+      "NeedMultipliers": [
+       {
+        "Type": 7,
+        "Multiplier": -2.0
+       }
+      ]
+     }
+    }
+   ],
+   "Single05.1_C_Village": [
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Single_L_OneBook": [],
+   "Test Park": [],
+   "Level03C": [
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Single05_R_02A": [],
+   "Campaign2_Level5B": [],
+   "Single_R_dmlcngreen": [],
+   "Level05C": [],
+   "Campaign3_Level2B": [],
+   "Single_R_C2_L04A": [],
+   "Test Canteen Maker": [],
+   "Level01B": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Level 01B",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Desert Forager": [],
+   "Single02_R_04A": [],
+   "Test House Brick": [],
+   "Test Wood Statue Buildsite": [],
+   "Single_C_Nilo": [],
+   "Single_L_Insidevolc": [
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Level04A": [],
+   "Single06.1_C_CraighNaDun": [
+    {
+     "root": "Birds flock Crow",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Halloween Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Single_C_Desert": [
+    {
+     "root": "Spawn 5 Villagers",
+     "days_start": 22.0,
+     "villagers": [
+      {
+       "kind": "adult",
+       "count": 5,
+       "min_age": 20,
+       "max_age": 30
+      }
+     ],
+     "resources": [],
+     "duration_days": 1.0,
+     "announced_days_before": 1000.0,
+     "effect": {}
+    }
+   ],
+   "Single_R_C2_L2A": [],
+   "Single_C_Cheese": [],
+   "Single_L_PomeloIsland": [
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Single_L_Mountain1": [
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Ukulele Maker": [],
+   "Single_R_C2_L1B": [
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test Scriptorium": [],
+   "Test Winery Buildsite": [],
+   "Single07_R_05C": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Spawn 30 Villagers",
+     "days_start": 50.0,
+     "villagers": [
+      {
+       "kind": "adult",
+       "count": 20,
+       "min_age": 20,
+       "max_age": 50
+      },
+      {
+       "kind": "kid",
+       "count": 10,
+       "min_age": 0,
+       "max_age": 10
+      }
+     ],
+     "resources": [],
+     "duration_days": 1.0,
+     "announced_days_before": 1000.0,
+     "effect": {}
+    }
+   ],
+   "Test Greenhouse": [],
+   "Level02C": [],
+   "Campaign3_Level1B": [],
+   "Test Winter Pub": [],
+   "Single_L_Tefiti": [
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Colorful",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    },
+    {
+     "root": "Fireflies Event",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 0.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Campaign2_Level4A": [],
+   "Test Fondue Shop Buildsite": [],
+   "Test Fountain Buildsite": [],
+   "Campaign2_Level3C": [],
+   "Single_L_Beach1": [
+    {
+     "root": "Birds flock Seagull",
+     "days_start": 0.0,
+     "villagers": [],
+     "resources": [],
+     "duration_days": 9999.0,
+     "announced_days_before": 0.0,
+     "effect": {}
+    }
+   ],
+   "Test House Winter Buildsite": []
+  }
+ },
  "social_spots": {
   "class": "SocialSpotBehaviour / SocialEatingPlaceBehaviour / SpotTypeBehaviour",
   "note": "Units a villager gains from one use of a spot, the use duration (raw units, not days), and whether the spot can be picked to satisfy Community or Fun. Roots that are not buildings (for example ParkSocialSpots, OpenKitchenEatSpot) are nested spot prefabs that buildings instantiate. Duration units and the per-use versus per-day question are unverified.",
