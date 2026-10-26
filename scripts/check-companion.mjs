@@ -192,4 +192,10 @@ console.log('PASS: research handoff integration.');
  const dock=h.render('buildings/fishing-dock/');assert.ok(dock.includes('0–1 at 2 spots, 0–2 at 1 spot')&&dock.includes('Expect about 0.67 per cycle'),'fishing dock random output: '+(dock.match(/Each work cycle[^<]*/)||[''])[0]);
  assert.ok(/Finishing the “1 Stick -&gt; 1 Heat” task also gives the worker 2 Heat units/.test(h.render('buildings/bonfire/')),'bonfire tender warmth');
  console.log('PASS: tree self-seeding and workspot effects.');}
+// Houses page (issue 37) and villagers fed (issue 36).
+{assert.ok(h.lookup['houses/'],'houses route');const hp=h.render('houses/');assert.ok(/Tropical Shelter<\/a><\/td><td>8<\/td><td>1<\/td><td>1<\/td><td>6 × 6<\/td>/.test(hp),'tropical shelter row');assert.ok(hp.includes('0.5 Log + 1 Reed Bunch'),'cost per villager');assert.ok(hp.includes('multiplied by 0.025'),'no-housing multiplier');assert.ok(/Winter Cabin[\s\S]{0,400}<td>Yes<\/td>/.test(hp),'heated cabin');
+ assert.ok(h.render('needs/').includes('href="/houses/"')||h.render('needs/').includes("houses/"),'needs page links to houses');
+ const carrot=h.render('plants/carrot/');assert.ok(/Feeds<\/dt><dd>about 0.5 villagers from one full field/.test(carrot)&&carrot.includes('3 Veggie per 9 days = 0.33 food units a day'),'carrot feeds');assert.ok(/Feeds<\/dt><dd>about 0.91 villagers from one tree/.test(h.render('plants/palm-tree/')),'palm feeds');assert.ok(!/Feeds<\/dt>/.test(h.render('plants/wheat/')),'wheat is not food until processed');
+ const food=h.render('food/');assert.ok(food.includes('id="food-sources"')&&/Palm Tree<\/a><\/td><td>Fruit tree<\/td><td>0.61 Fruit a day<\/td><td>0.61<\/td><td>0.91<\/td>/.test(food),'food sources table');assert.ok(h.render('plants/').includes('>Feeds</th>'),'feeds column');
+ console.log('PASS: houses page and villagers fed per source.');}
 {const sp=h.render('spoilers/');assert.ok(sp.includes('How we tell that something is unreleased')&&sp.includes('MinGameVersion'),'spoiler method note');console.log('PASS: unreleased-status method documented.');}
