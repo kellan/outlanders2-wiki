@@ -33931,6 +33931,2759 @@
      "y": 1.0
     }
    }
-  }
+  },
+  "icon_by_gameobject": {
+   "95335": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "95337": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "95340": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "95342": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "95343": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "95344": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "95327": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "95326": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "95339": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "95345": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "95334": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "95332": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "105940": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "95338": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "81574": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81575": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81576": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81577": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81578": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81579": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81580": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81581": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81582": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81583": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81584": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81585": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81586": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81587": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81588": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81589": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81590": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81591": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81592": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81593": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81594": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81595": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81596": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81597": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81598": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81599": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81600": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81601": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81602": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81603": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81604": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "81605": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "43180": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "43181": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "43182": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "43183": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "43184": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "ResourceSourceFrame"
+   },
+   "43185": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "43187": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "43188": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "97586": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceFrame"
+   },
+   "97592": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "ResourceFrame"
+   },
+   "97595": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceFrame"
+   },
+   "97598": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "97599": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "97602": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceFrame"
+   },
+   "97615": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "116136": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "116137": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "116138": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "116139": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "116140": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "57100": {
+    "colour": "Heat",
+    "hex": "#f69329",
+    "frame": null
+   },
+   "86256": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "CircleFrame"
+   },
+   "55507": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "55508": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "55509": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "115541": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "BuildingsFrame"
+   },
+   "99246": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "60799": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "60800": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "76559": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "106081": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "106846": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "ResourceFrame"
+   },
+   "103664": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "ResourceFrame"
+   },
+   "108200": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "95329": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "88859": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "CircleFrame"
+   },
+   "95328": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "67037": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "56443": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "BoostFrame"
+   },
+   "63810": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "63811": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "105694": {
+    "colour": "Heat",
+    "hex": "#f69329",
+    "frame": "BuildingsFrame"
+   },
+   "105695": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "BuildingsFrame"
+   },
+   "105696": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "BuildingsFrame"
+   },
+   "105697": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "BuildingsFrame"
+   },
+   "105699": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "BuildingsFrame"
+   },
+   "105702": {
+    "colour": "Heat",
+    "hex": "#f69329",
+    "frame": "BuildingsFrame"
+   },
+   "105703": {
+    "colour": "Production",
+    "hex": "#8e9ec5",
+    "frame": "BuildingsFrame"
+   },
+   "105704": {
+    "colour": "Decorative",
+    "hex": "#a1bf75",
+    "frame": "BuildingsFrame"
+   },
+   "105705": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "BuildingsFrame"
+   },
+   "105706": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "BuildingsFrame"
+   },
+   "105707": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "BuildingsFrame"
+   },
+   "105708": {
+    "colour": "Production",
+    "hex": "#8e9ec5",
+    "frame": "BuildingsFrame"
+   },
+   "105709": {
+    "colour": "Production",
+    "hex": "#8e9ec5",
+    "frame": "BuildingsFrame"
+   },
+   "105710": {
+    "colour": "Decorative",
+    "hex": "#a1bf75",
+    "frame": "BuildingsFrame"
+   },
+   "105711": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "BuildingsFrame"
+   },
+   "105712": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "BuildingsFrame"
+   },
+   "105713": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "BuildingsFrame"
+   },
+   "105714": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "BuildingsFrame"
+   },
+   "105715": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "BuildingsFrame"
+   },
+   "105716": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "BuildingsFrame"
+   },
+   "105717": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "BuildingsFrame"
+   },
+   "105718": {
+    "colour": "Refreshment",
+    "hex": "#99c2ee",
+    "frame": "BuildingsFrame"
+   },
+   "105721": {
+    "colour": "Hydration",
+    "hex": "#05a696",
+    "frame": "BuildingsFrame"
+   },
+   "105722": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "BuildingsFrame"
+   },
+   "105723": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "BuildingsFrame"
+   },
+   "105724": {
+    "colour": "Decorative",
+    "hex": "#a1bf75",
+    "frame": "BuildingsFrame"
+   },
+   "105725": {
+    "colour": "Decorative",
+    "hex": "#a1bf75",
+    "frame": "BuildingsFrame"
+   },
+   "105727": {
+    "colour": "Decorative",
+    "hex": "#a1bf75",
+    "frame": "BuildingsFrame"
+   },
+   "105728": {
+    "colour": "Production",
+    "hex": "#8e9ec5",
+    "frame": "BuildingsFrame"
+   },
+   "105729": {
+    "colour": "Heat",
+    "hex": "#f69329",
+    "frame": "BuildingsFrame"
+   },
+   "105730": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "BuildingsFrame"
+   },
+   "105731": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "BuildingsFrame"
+   },
+   "105732": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "BuildingsFrame"
+   },
+   "105733": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "BuildingsFrame"
+   },
+   "105734": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "BuildingsFrame"
+   },
+   "105735": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "105736": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "BuildingsFrame"
+   },
+   "105737": {
+    "colour": "Decorative",
+    "hex": "#a1bf75",
+    "frame": "BuildingsFrame"
+   },
+   "105738": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "BuildingsFrame"
+   },
+   "105739": {
+    "colour": "Decorative",
+    "hex": "#a1bf75",
+    "frame": "BuildingsFrame"
+   },
+   "105740": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "BuildingsFrame"
+   },
+   "105741": {
+    "colour": "Decorative",
+    "hex": "#a1bf75",
+    "frame": "BuildingsFrame"
+   },
+   "105743": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "105745": {
+    "colour": "Refreshment",
+    "hex": "#99c2ee",
+    "frame": "BuildingsFrame"
+   },
+   "105747": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "BuildingsFrame"
+   },
+   "105748": {
+    "colour": "Decorative",
+    "hex": "#a1bf75",
+    "frame": "BuildingsFrame"
+   },
+   "105749": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "105750": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "BuildingsFrame"
+   },
+   "104202": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "BuildingsFrame"
+   },
+   "90543": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "92214": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "92215": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "92216": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "92217": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "92218": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "92219": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "92220": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "92221": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "92222": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "111306": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "72092": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "68669": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "99686": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "114559": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "69654": {
+    "colour": "Hydration",
+    "hex": "#05a696",
+    "frame": "CircleFrame"
+   },
+   "75090": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "75091": {
+    "colour": "Production",
+    "hex": "#8e9ec5",
+    "frame": "ResourceFrame"
+   },
+   "75092": {
+    "colour": "Production",
+    "hex": "#8e9ec5",
+    "frame": "ResourceFrame"
+   },
+   "92319": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "92320": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "101731": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "94267": {
+    "colour": "Heat",
+    "hex": "#f69329",
+    "frame": "BuildingsFrame"
+   },
+   "79645": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "85244": {
+    "colour": "Decorative",
+    "hex": "#a1bf75",
+    "frame": "BuildingsFrame"
+   },
+   "85245": {
+    "colour": "Decorative",
+    "hex": "#a1bf75",
+    "frame": "BuildingsFrame"
+   },
+   "85246": {
+    "colour": "Decorative",
+    "hex": "#a1bf75",
+    "frame": "BuildingsFrame"
+   },
+   "85247": {
+    "colour": "Decorative",
+    "hex": "#a1bf75",
+    "frame": "BuildingsFrame"
+   },
+   "85248": {
+    "colour": "Decorative",
+    "hex": "#a1bf75",
+    "frame": "BuildingsFrame"
+   },
+   "83845": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "95325": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "95330": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "95331": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "78917": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "43689": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "98650": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "98651": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "98652": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "98653": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "98654": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "98655": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "98656": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "98657": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "98658": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "98659": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "98660": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "98661": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "98662": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "49977": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "CircleFrame"
+   },
+   "69028": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "CircleFrame"
+   },
+   "97701": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "97702": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "97703": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "80722": {
+    "colour": "Production",
+    "hex": "#8e9ec5",
+    "frame": "ResourceFrame"
+   },
+   "80725": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "39603": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "81402": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "115334": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "78174": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "78175": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "81952": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "90292": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "ResourceFrame"
+   },
+   "90293": {
+    "colour": "Heat",
+    "hex": "#f69329",
+    "frame": "ResourceFrame"
+   },
+   "90294": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "ResourceFrame"
+   },
+   "90295": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceFrame"
+   },
+   "90296": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceFrame"
+   },
+   "90297": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "90299": {
+    "colour": "Refreshment",
+    "hex": "#99c2ee",
+    "frame": "ResourceFrame"
+   },
+   "90301": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "ResourceFrame"
+   },
+   "80802": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "BuildingsFrame"
+   },
+   "80803": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "BuildingsFrame"
+   },
+   "93255": {
+    "colour": "Production",
+    "hex": "#8e9ec5",
+    "frame": "ResourceFrame"
+   },
+   "93256": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "ResourceFrame"
+   },
+   "52498": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52499": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52500": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52501": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52502": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52503": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52504": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52505": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52506": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52507": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52508": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52509": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52510": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52511": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52512": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52513": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52514": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52515": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52516": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52517": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52518": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "52519": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "75225": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "75226": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "75227": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "93811": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "92582": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "95578": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "107272": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107053": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107054": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107055": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107056": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107057": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107058": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107059": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107060": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107061": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107062": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107063": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107064": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107065": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107066": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107067": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107068": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107069": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107070": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107071": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107072": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107073": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107074": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107075": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107076": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107077": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107078": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107079": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107080": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107081": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107082": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107083": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107084": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107085": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107086": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107087": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107088": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107089": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107090": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107091": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107092": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107093": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107094": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107095": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107096": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107097": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107098": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107099": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107100": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107101": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107102": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107103": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107104": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107105": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107106": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107107": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107108": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107109": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107110": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107111": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107112": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107113": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107114": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107115": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107116": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107117": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "107118": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "94654": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "55559": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "69350": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "BuildingsFrame"
+   },
+   "69351": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "BuildingsFrame"
+   },
+   "69352": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "BuildingsFrame"
+   },
+   "69353": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "BuildingsFrame"
+   },
+   "43688": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "53964": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "58011": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "71937": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "BuildingsFrame"
+   },
+   "71938": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "BuildingsFrame"
+   },
+   "71090": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "71091": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "71092": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "71093": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "71094": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "71095": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "71096": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "71097": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "71098": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "71099": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "71100": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "57167": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "96693": {
+    "colour": "Heat",
+    "hex": "#f69329",
+    "frame": "ConcernFrame"
+   },
+   "96694": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ConcernFrame"
+   },
+   "96695": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ConcernFrame"
+   },
+   "96696": {
+    "colour": "Housing",
+    "hex": "#3975cd",
+    "frame": "ConcernFrame"
+   },
+   "96697": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "ConcernFrame"
+   },
+   "96698": {
+    "colour": "Hydration",
+    "hex": "#05a696",
+    "frame": "ConcernFrame"
+   },
+   "96699": {
+    "colour": "Refreshment",
+    "hex": "#99c2ee",
+    "frame": "ConcernFrame"
+   },
+   "96700": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "ConcernFrame"
+   },
+   "65619": {
+    "colour": "Decorative",
+    "hex": "#a1bf75",
+    "frame": "BuildingsFrame"
+   },
+   "65543": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "115742": {
+    "colour": "Refreshment",
+    "hex": "#99c2ee",
+    "frame": "CircleFrame"
+   },
+   "67662": {
+    "colour": "Housing",
+    "hex": "#3975cd",
+    "frame": "BuildingsFrame"
+   },
+   "67663": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "BuildingsFrame"
+   },
+   "67664": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "BuildingsFrame"
+   },
+   "67665": {
+    "colour": "Housing",
+    "hex": "#3975cd",
+    "frame": "BuildingsFrame"
+   },
+   "67666": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "BuildingsFrame"
+   },
+   "67667": {
+    "colour": "Housing",
+    "hex": "#3975cd",
+    "frame": "BuildingsFrame"
+   },
+   "67668": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "BuildingsFrame"
+   },
+   "67669": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "BuildingsFrame"
+   },
+   "67670": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "BuildingsFrame"
+   },
+   "67671": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "BuildingsFrame"
+   },
+   "67672": {
+    "colour": "Refreshment",
+    "hex": "#99c2ee",
+    "frame": "BuildingsFrame"
+   },
+   "67673": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "BuildingsFrame"
+   },
+   "67674": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "BuildingsFrame"
+   },
+   "67675": {
+    "colour": "Housing",
+    "hex": "#3975cd",
+    "frame": "BuildingsFrame"
+   },
+   "67676": {
+    "colour": "Housing",
+    "hex": "#3975cd",
+    "frame": "BuildingsFrame"
+   },
+   "67677": {
+    "colour": "Housing",
+    "hex": "#3975cd",
+    "frame": "BuildingsFrame"
+   },
+   "67678": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "BuildingsFrame"
+   },
+   "67679": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "BuildingsFrame"
+   },
+   "67680": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "BuildingsFrame"
+   },
+   "67904": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "67905": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "67906": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "67907": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "67908": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "67909": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "67910": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "67911": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "67912": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "67913": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "67914": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "67915": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "67916": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "67917": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "67918": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "67919": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "67920": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "67921": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "67922": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "33533": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "33534": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "33535": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "33536": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "33537": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "103081": {
+    "colour": "Light Grey",
+    "hex": "#ebe1da",
+    "frame": "CircleFrame"
+   },
+   "60667": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "BuildingsFrame"
+   },
+   "63910": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "67379": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "47753": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "75000": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "BoostFrame"
+   },
+   "58425": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "ResourceSourceFrame"
+   },
+   "57394": {
+    "colour": "Refreshment",
+    "hex": "#99c2ee",
+    "frame": "BuildingsFrame"
+   },
+   "57395": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "BuildingsFrame"
+   },
+   "57396": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "BuildingsFrame"
+   },
+   "57397": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "BuildingsFrame"
+   },
+   "71019": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "71020": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "ResourceFrame"
+   },
+   "44488": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "44489": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "44490": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "44491": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "44492": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "35644": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "35517": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "35518": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "62709": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "62710": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "62711": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "62712": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "33550": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "38154": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BoostFrame"
+   },
+   "39438": {
+    "colour": "Fields",
+    "hex": "#d87d68",
+    "frame": "BoostFrame"
+   },
+   "36876": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "45826": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "BuildingsFrame"
+   },
+   "39577": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "42876": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "42878": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "42880": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "42887": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "ResourceFrame"
+   },
+   "42889": {
+    "colour": "Heat",
+    "hex": "#f69329",
+    "frame": "ResourceFrame"
+   },
+   "43384": {
+    "colour": "Refreshment",
+    "hex": "#99c2ee",
+    "frame": "ResourceFrame"
+   },
+   "43385": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceFrame"
+   },
+   "43388": {
+    "colour": "Hydration",
+    "hex": "#05a696",
+    "frame": "ResourceFrame"
+   },
+   "43399": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "ResourceFrame"
+   },
+   "43402": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "ResourceFrame"
+   },
+   "40043": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "ResourceFrame"
+   },
+   "47614": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "BuildingsFrame"
+   },
+   "71872": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "45922": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "44027": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "ResourceFrame"
+   },
+   "44029": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "44036": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceFrame"
+   },
+   "44037": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "ResourceFrame"
+   },
+   "44254": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "38476": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "BuildingsFrame"
+   },
+   "38477": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "BuildingsFrame"
+   },
+   "38478": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "BuildingsFrame"
+   },
+   "40306": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "BuildingsFrame"
+   },
+   "40307": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "BuildingsFrame"
+   },
+   "40308": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "BuildingsFrame"
+   },
+   "40309": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "BuildingsFrame"
+   },
+   "83535": {
+    "colour": "Heat",
+    "hex": "#f69329",
+    "frame": "CircleFrame"
+   },
+   "35460": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "35461": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "35462": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "35463": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "BuildingsFrame"
+   },
+   "35464": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "BuildingsFrame"
+   },
+   "51535": {
+    "colour": "Hydration",
+    "hex": "#05a696",
+    "frame": "ResourceFrame"
+   },
+   "67817": {
+    "colour": "Grey",
+    "hex": "#f2eeed",
+    "frame": "BuildingsFrame"
+   },
+   "66698": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceSourceFrame"
+   },
+   "99155": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "BoostFrame"
+   },
+   "64024": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "64025": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   },
+   "64026": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceSourceFrame"
+   }
+  },
+  "icon_by_resource": {
+   "278743": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "279217": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "279343": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "ResourceFrame"
+   },
+   "279345": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "279352": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceFrame"
+   },
+   "279353": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "ResourceFrame"
+   },
+   "281861": {
+    "colour": "Hydration",
+    "hex": "#05a696",
+    "frame": "ResourceFrame"
+   },
+   "284026": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "284810": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "284894": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "284895": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "285149": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "285897": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "285899": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "285901": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "285908": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "ResourceFrame"
+   },
+   "285910": {
+    "colour": "Heat",
+    "hex": "#f69329",
+    "frame": "ResourceFrame"
+   },
+   "286343": {
+    "colour": "Refreshment",
+    "hex": "#99c2ee",
+    "frame": "ResourceFrame"
+   },
+   "286344": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceFrame"
+   },
+   "286347": {
+    "colour": "Hydration",
+    "hex": "#05a696",
+    "frame": "ResourceFrame"
+   },
+   "286358": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "ResourceFrame"
+   },
+   "286361": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "ResourceFrame"
+   },
+   "286781": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "ResourceFrame"
+   },
+   "287118": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "288580": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "290524": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "292310": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "292311": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "ResourceFrame"
+   },
+   "293926": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "294702": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "295643": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "296315": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "300123": {
+    "colour": "Community",
+    "hex": "#8e86f4",
+    "frame": "ResourceFrame"
+   },
+   "300124": {
+    "colour": "Heat",
+    "hex": "#f69329",
+    "frame": "ResourceFrame"
+   },
+   "300125": {
+    "colour": "Infraestructure",
+    "hex": "#6c966c",
+    "frame": "ResourceFrame"
+   },
+   "300126": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceFrame"
+   },
+   "300127": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceFrame"
+   },
+   "300128": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "300130": {
+    "colour": "Refreshment",
+    "hex": "#99c2ee",
+    "frame": "ResourceFrame"
+   },
+   "300131": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "ResourceFrame"
+   },
+   "303210": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "303802": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "304112": {
+    "colour": "Production",
+    "hex": "#8e9ec5",
+    "frame": "ResourceFrame"
+   },
+   "304113": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "ResourceFrame"
+   },
+   "304504": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "305506": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "308077": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "308078": {
+    "colour": "Production",
+    "hex": "#8e9ec5",
+    "frame": "ResourceFrame"
+   },
+   "308079": {
+    "colour": "Production",
+    "hex": "#8e9ec5",
+    "frame": "ResourceFrame"
+   },
+   "309166": {
+    "colour": "Production",
+    "hex": "#8e9ec5",
+    "frame": "ResourceFrame"
+   },
+   "309169": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "309486": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "310332": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "310740": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "312275": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "312704": {
+    "colour": "Construction",
+    "hex": "#f0c056",
+    "frame": "ResourceFrame"
+   },
+   "314863": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "318457": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "319667": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceFrame"
+   },
+   "319673": {
+    "colour": "Wellness",
+    "hex": "#96d9ba",
+    "frame": "ResourceFrame"
+   },
+   "319676": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceFrame"
+   },
+   "319679": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "319680": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "319683": {
+    "colour": "Food",
+    "hex": "#db4954",
+    "frame": "ResourceFrame"
+   },
+   "319696": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "320441": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "ResourceFrame"
+   },
+   "320491": {
+    "colour": "Entertainment",
+    "hex": "#f99adf",
+    "frame": "ResourceFrame"
+   },
+   "320813": {
+    "colour": "Ingredients",
+    "hex": "#e18f8f",
+    "frame": "ResourceFrame"
+   }
+  },
+  "field_guide_display_units": {
+   "278743": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "279217": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "279343": {
+    "FoodUnits": 1.0,
+    "CommunityUnits": 2.0
+   },
+   "279345": {
+    "FoodUnits": 1.0,
+    "EntertainmentUnits": 2.0
+   },
+   "279352": {
+    "FoodUnits": 2.0,
+    "CommunityUnits": 1.0
+   },
+   "284810": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "285149": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "285897": {
+    "EntertainmentUnits": 3.0,
+    "WellnessUnits": 1.0
+   },
+   "285899": {
+    "EntertainmentUnits": 2.0,
+    "CommunityUnits": 2.0
+   },
+   "285901": {
+    "EntertainmentUnits": 2.0,
+    "CommunityUnits": 1.0
+   },
+   "285902": {
+    "EntertainmentUnits": 2.0,
+    "HeatUnits": 2.0
+   },
+   "285908": {
+    "EntertainmentUnits": 1.0,
+    "CommunityUnits": 3.0
+   },
+   "285909": {
+    "EntertainmentUnits": 2.0,
+    "HeatUnits": 2.0
+   },
+   "285910": {
+    "EntertainmentUnits": 2.0,
+    "HeatUnits": 2.0
+   },
+   "286343": {
+    "RefreshmentUnits": 3.0
+   },
+   "286347": {
+    "HydrationUnits": 2.0
+   },
+   "286361": {
+    "WellnessUnits": 2.0
+   },
+   "287118": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "288580": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "290524": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "292311": {
+    "WellnessUnits": 2.0
+   },
+   "294702": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "295643": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "296315": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "303210": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "303802": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "304504": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "305506": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "309486": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "310332": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "310740": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "312275": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "314863": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "318457": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "319673": {
+    "WellnessUnits": 2.0
+   },
+   "319679": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   },
+   "319680": {
+    "FoodUnits": 1.0,
+    "EntertainmentUnits": 2.0
+   },
+   "319696": {
+    "FoodUnits": 1.0,
+    "EntertainmentUnits": 2.0
+   },
+   "320491": {
+    "FoodUnits": 2.0,
+    "EntertainmentUnits": 2.0
+   }
+  },
+  "display_units_note": "ResourceBehaviour.Visual: the need values the field guide shows for a resource. Listed only where they differ from the consumed values (ResourceConfig); a dish can show a need it does not itself restore, such as Stew's Community 2, which comes from eating it at the Open Kitchen."
  }
 }

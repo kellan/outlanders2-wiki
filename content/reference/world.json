@@ -6138,6 +6138,16 @@
           "Construction: 6 Glass Panes + 6 Stone. Worker slots: 3."
         ],
         "screenshot": "greenhouse-field-guide.png"
+      },
+      "Open Kitchen": {
+        "claims": [
+          "Field guide: any 2 of Veggie, Meat or Egg (one shared count) + 1 Stick → 3 Stew.",
+          "Provides: each Stew shows Food 1 and Community 2.",
+          "Cost shows Clay and Stick; the amounts and the worker count were below the visible part of the screenshot."
+        ],
+        "screenshot": "open-kitchen-field-guide.png",
+        "captured": "2026-10-26, maintainer screenshot (phone)",
+        "discrepancy": "The decoded steps burn 1 Stick into 5 fires and use one fire per cook, so the worked-out ratio is 1/5 Stick per 3 Stew; the field guide counts the whole Stick. Stew's own stored values restore Food 1 and no Community: the Community 2 the guide shows is its display value (ResourceBehaviour.Visual), and the Community a villager gets comes from eating at the Open Kitchen's social spots (4 units a visit)."
       }
     },
     "campaigns": [
