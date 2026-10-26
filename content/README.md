@@ -16,7 +16,7 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for the full edit-and-review process. 
 
 Keep `source`, `source_entries`, GUIDs, hashes and asset identifiers traceable. If you change a factual field, supply evidence and revisit any validation claim that no longer applies. Shared extraction snapshots in `reference/` are evidence, not a second place to silently make the same editorial correction.
 
-Observations have their own records and render in research pages. Spoiler placement is controlled explicitly by `spoilers.json`, not inferred from every unknown release status. Preserve existing URLs when renaming entries; the renderer retains compatibility routes in the world reference data.
+Observations have their own records and render in research pages. Spoiler placement is controlled explicitly by `spoilers.json`, not inferred from every unknown release status; `confirmed-unreleased` requires the prefab's own `MinGameVersion` gate (in `decoded-mechanics.json`) to exceed the installed game version, as CONTRIBUTING.md describes. Preserve existing URLs when renaming entries; the renderer retains compatibility routes in the world reference data.
 
 ## Research findings
 
@@ -24,7 +24,7 @@ Observations have their own records and render in research pages. Spoiler placem
 
 ## Decoded mechanics
 
-`content/reference/decoded-mechanics.json` is a generated export from the research repository (`tools/export_mechanics.py`; see its `provenance` block). Sections: `enums`, `needs`, `concerns`, `reproduction`, `life_stages`, `plant_spread`, `houses`, `heat_sources`, `level_events`, `tournament_boosts`, `min_game_version` (per prefab root: the game version that unlocks it; values above `current_game_version` mean unreleased), `piles` (every pile with capacity, kind and the workspots that fill it), `duplicate_resource_names`, `day_night_cycle`, `sandbox` and `map_generator`. Buildings and resources are matched to it by `internal_name`, which equals the prefab root name. Regenerate rather than edit.
+`content/reference/decoded-mechanics.json` is a generated export from the research repository (`tools/export_mechanics.py`; see its `provenance` block). Sections: `enums`, `needs`, `concerns`, `reproduction`, `life_stages`, `plant_spread`, `houses`, `heat_sources`, `level_events`, `tournament_boosts`, `min_game_version` (per prefab root: the game version that unlocks it; values above `current_game_version` mean unreleased), `piles` (every pile with capacity, kind and the workspots that fill it), `duplicate_resource_names`, `day_night_cycle`, `sandbox` and `map_generator`. `field_plants` links each field prefab (the wiki's plant record, by `internal_name`) to the plant prefab it grows, and `plants` holds that prefab's harvest or felling formula and its spawners (fruit, sticks, bushes, burrows). Buildings and resources are matched by `internal_name`, which equals the prefab root name. Regenerate rather than edit.
 
 ## History
 

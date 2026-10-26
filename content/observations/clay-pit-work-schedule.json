@@ -10,7 +10,7 @@
     "kind": "decoded-data",
     "game_version": "30 (254)",
     "date": "2026-10-25",
-    "reference": "WorkplaceConfig.WorkTimeRange. Clay Pit stores 0 → 0.6; 53 workplaces including Farm and Bakery store the standard 0.9 → 0.5 (wrapping past 1.0). Foresters' Hub, Orchard and Quarry store 0 → 0.5 (same late start, standard finish); Cheesery, Chicken Coop, Fondue Bar and Roadworks Office store 0.95 → 0.55."
+    "reference": "WorkplaceConfig.WorkTimeRange. Clay Pit stores 0 \u2192 0.6; 53 workplaces including Farm and Bakery store the standard 0.9 \u2192 0.5 (wrapping past 1.0). Foresters' Hub, Orchard and Quarry store 0 \u2192 0.5 (same late start, standard finish); Cheesery, Chicken Coop, Fondue Bar and Roadworks Office store 0.95 \u2192 0.55."
   },
-  "notes": "Community reports that clay workers are late risers match the stored schedule. The clock mapping of fraction 0 is unresolved, so the offset is one tenth of a day rather than a number of hours, and whether the crew also sleeps longer is tracked separately in clay-pit-late-start."
+  "notes": "Community reports that clay workers are late risers match the stored schedule. The research agent traced the clock code (26 Oct 2026): the dial shows its day face for cycle fractions up to 0.5 and its night face after, and the shift range is compared directly with that fraction, so the standard crew starts a tenth of a day before the day face and stops at the night face, while the Clay Pit starts at the day face and works a tenth of a day into the night. The game displays no numbered hours. Whether the crew also sleeps longer is tracked in clay-pit-late-start."
 }

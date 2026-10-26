@@ -1,0 +1,16 @@
+{
+  "id": "orchard-fruit-spawners",
+  "target": {
+    "type": "buildings",
+    "id": "67909"
+  },
+  "claim": "Orchard trees drop fruit on a timer: Apple, Berry Bush, Date Palm, Dragon Fruit and Pomelo spawn one fruit every 1.65\u20132.5 days with at most 4 waiting; Banana and Fig one every 3\u20133.7 days, at most 3; Grape and Palm (coconut) one every 1.3\u20132 days, at most 5; the Nopal Tree one prickly pear every 2.2\u20133 days and one nopal every 2.2\u20132.8 days, two of each at most.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "decoded-data",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "SpawnerBehaviour children of each tree prefab (AppleTree/Apple Spawner: MaxSpawned 4, MinSpawnTime 1.65, MaxSpawnTime 2.5, one prefab per spawn); the spawned fruit prefab's harvest formula outputs 1 Fruit. Intervals are in days as scheduled by the spawner system."
+  },
+  "notes": "A spawn event creates one fruit object and spawning pauses at the cap, so the stored values give fruit per tree only while it is being picked. Trees also drop sticks (orchard trees up to 4, forestry trees up to 2, one every 1.5\u20134.5 days)."
+}

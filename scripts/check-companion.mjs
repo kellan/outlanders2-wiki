@@ -159,3 +159,12 @@ console.log('PASS: research handoff integration.');
  const spoil=JSON.parse(fs2.readFileSync(new URL('../content/spoilers.json',import.meta.url),'utf8'));assert.ok(spoil.entries.filter(e=>e.status==='confirmed-unreleased').length>=20,'version gates confirmed spoilers');
  assert.ok(!h.render('buildings/').includes('Stroganoff'),'gated building still withheld from the catalog');
  console.log('PASS: decoded mechanics on infoboxes, needs, biomes, research and tournament pages.');}
+// Plants section (issue 20) and tree yields (issue 21).
+{assert.ok(h.lookup['plants/'],'plants directory route');assert.ok(h.lookup['plants/apple-tree/']&&h.lookup['buildings/apple-tree/'],'plant route with building alias');assert.equal(h.lookup['buildings/apple-tree/'],h.lookup['plants/apple-tree/'],'alias resolves to the same page');
+ const dir=h.render('plants/');assert.ok(dir.includes('Apple Tree')&&dir.includes('Carrot')&&dir.includes('Field crop'),'plants directory lists crops and trees');
+ assert.ok(!h.render('buildings/').includes('>Apple Tree<'),'buildings catalog no longer lists plants');
+ const ash=h.render('plants/ash-tree/');assert.ok(/4 <a[^>]*>Log<\/a> per tree when felled/.test(ash)&&ash.includes('6 chops'),'ash felling yield: '+(ash.match(/Yields<\/dt><dd>[^<]*<[^>]*>[^<]*<\/a>[^<]*/)||[''])[0]);
+ const apple=h.render('plants/apple-tree/');assert.ok(apple.includes('every 1.65–2.5 days')&&apple.includes('at most 4 waiting'),'apple drops');assert.ok(!apple.includes('Mushroom'),'gated mushroom spawner hidden');assert.ok(apple.includes('Plants</a>'),'plant breadcrumb');
+ assert.ok(h.render('buildings/').includes('dial turns to day'),'clock wording in work schedules');
+ console.log('PASS: plants section, felling yields, fruit spawners and clock wording.');}
+{const sp=h.render('spoilers/');assert.ok(sp.includes('How we tell that something is unreleased')&&sp.includes('MinGameVersion'),'spoiler method note');console.log('PASS: unreleased-status method documented.');}

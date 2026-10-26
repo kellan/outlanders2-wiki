@@ -9,7 +9,7 @@
       "Installed content can predate release or remain unused.",
       "The public App Store page returned version27 as latest whereas installed app reports30; platform, rollout, or source mismatch remains unresolved.",
       "Absence from searched release notes is not proof of nonrelease.",
-      "MinGameVersion field existence was confirmed in metadata; actual gate values and runtime behavior were not recovered. A bounded object probe terminated with exit137 before producing results."
+      "MinGameVersion gates were decoded on 2026-10-26 (see metadata_gating); a gate at or below the installed version shows the update that added the content, not that it is released on every platform."
     ]
   },
   "entries": [
@@ -85,13 +85,13 @@
           "source_text_asset_id": 6484,
           "source_table": "LevelsStandalone",
           "key": "Level.Campaign3_Level2B.Description",
-          "text": "Rumour has it that Oona has been up to no good, making a ruckus. She, however, insists she hasn’t been here for weeks."
+          "text": "Rumour has it that Oona has been up to no good, making a ruckus. She, however, insists she hasn\u2019t been here for weeks."
         },
         {
           "source_text_asset_id": 6484,
           "source_table": "LevelsStandalone",
           "key": "Level.Campaign3_Level2B.Ending",
-          "text": "It’s as if there have been other versions of herself walking around."
+          "text": "It\u2019s as if there have been other versions of herself walking around."
         },
         {
           "source_text_asset_id": 6484,
@@ -226,8 +226,8 @@
         "SerializedKey",
         "MinGameVersion"
       ],
-      "source": "work/metadata-types.json",
-      "finding": "Field declared; no gate values decoded."
+      "source": "content/reference/decoded-mechanics.json (min_game_version), decoded 2026-10-26",
+      "finding": "Gate values decoded for all 5455 keys: 4909 store 0; released content stores up to 30 (the installed version); 37 prefab roots store 32 (Concoction Shop, Stroganoff Cookhouse, Mushroom chain, Swamp Trappers' Hut, Advanced Warehouse, Brick Road, leader Oona), which the installed build hides. Runtime behaviour: the game compares the gate with its own version and hides objects above it."
     },
     {
       "type": "SerializedKeyScriptableObject",
@@ -236,7 +236,7 @@
         "MinGameVersion"
       ],
       "source": "work/metadata-types.json",
-      "finding": "Field declared; no gate values decoded."
+      "finding": "Field declared; no ScriptableObject instances with a gate decoded yet."
     }
   ],
   "official_sources": [
@@ -246,7 +246,7 @@
     },
     {
       "url": "https://www.pomelogames.com/outlanders-2-update/",
-      "title": "Pomelo Games: Jelena’s Climb is out now",
+      "title": "Pomelo Games: Jelena\u2019s Climb is out now",
       "finding": "Confirms Jelena identity for the new campaign announcement; no explicit date captured."
     }
   ]
