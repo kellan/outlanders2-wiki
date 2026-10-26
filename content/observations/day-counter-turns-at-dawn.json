@@ -1,0 +1,16 @@
+{
+  "id": "day-counter-turns-at-dawn",
+  "target": {
+    "type": "mechanics",
+    "id": "time"
+  },
+  "claim": "The day counter goes up at dawn, as the dial's sun appears, not at sunset or midnight. The night face still belongs to the day before.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Visible day counter increments at dawn (A2, boundary observation)\". Screenshots: gameplay-evidence/clock/ (clock-2-early-night, clock-2-late-night, clock-3-sunrise-counter-increment)."
+  },
+  "notes": "Screenshots bracket the change by about 10 to 15 real seconds. This places the visible day boundary; it does not by itself say which stored shift fraction is dawn. The decoded dial shows its day face for the first half of each day, so a day starting at dawn fits."
+}

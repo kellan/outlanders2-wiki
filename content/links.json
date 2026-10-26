@@ -1,5 +1,5 @@
 {
-  "note": "Links out to guides, walkthroughs, videos and communities elsewhere. Community pointers, never evidence: nothing here is cited as a source for decoded facts. Keep date_checked current; the weekly link check fails on dead URLs.",
+  "note": "Links out to guides, walkthroughs, videos and communities elsewhere. Community pointers, never evidence: nothing here is cited as a source for decoded facts. Keep date_checked current; the weekly link check fails on dead URLs. Each entry names the game it covers: outlanders-2, outlanders-1 (the first game) or both.",
   "entries": [
     {
       "id": "reddit-outlanders-ios",
@@ -7,11 +7,16 @@
       "url": "https://www.reddit.com/r/Outlanders_ios/",
       "site": "Reddit",
       "type": "community",
-      "covers": ["questions", "tips", "campaign puzzles"],
+      "covers": [
+        "questions",
+        "tips",
+        "campaign puzzles"
+      ],
       "language": "en",
       "date_checked": "2026-10-26",
       "status": "needs-check",
-      "note": "Subreddit started for the first game on Apple Arcade; its tips posts also discuss Outlanders 2 levels. Found by search, not yet reviewed by a maintainer."
+      "note": "Subreddit started for the first game on Apple Arcade; its tips posts also discuss Outlanders 2 levels. Found by search, not yet reviewed by a maintainer.",
+      "game": "both"
     },
     {
       "id": "pomelo-games",
@@ -19,11 +24,139 @@
       "url": "https://pomelogames.com/",
       "site": "Pomelo Games",
       "type": "official",
-      "covers": ["announcements", "updates"],
+      "covers": [
+        "announcements",
+        "updates"
+      ],
       "language": "en",
       "date_checked": "2026-10-26",
       "status": "needs-check",
-      "note": "The studio's own site; update notes and links to its social channels."
+      "note": "The studio's own site; update notes and links to its social channels.",
+      "game": "both"
+    },
+    {
+      "id": "outlanders-2-fandom-wiki",
+      "title": "Outlanders 2 Wiki (Fandom)",
+      "url": "https://outlanders-2.fandom.com/wiki/Outlanders_2_Wiki",
+      "site": "Fandom",
+      "type": "guide",
+      "game": "outlanders-2",
+      "covers": [
+        "buildings",
+        "leaders",
+        "levels"
+      ],
+      "language": "en",
+      "date_checked": "2026-10-26",
+      "status": "needs-check",
+      "note": "A fan wiki for the sequel on Fandom. Found by search; how complete and current it is has not been reviewed."
+    },
+    {
+      "id": "youtube-outlanders-2-full-gameplay",
+      "title": "OUTLANDERS 2 FULL GAMEPLAY (playlist)",
+      "url": "https://www.youtube.com/playlist?list=PLSraQUs_S3GOeo_u3jteBDpRvp0pkaHmu",
+      "site": "YouTube",
+      "type": "video",
+      "game": "outlanders-2",
+      "covers": [
+        "campaign levels"
+      ],
+      "language": "en",
+      "date_checked": "2026-10-26",
+      "status": "needs-check",
+      "note": "A playlist titled as full Outlanders 2 gameplay of every level. Found by search; which levels it covers has not been checked."
+    },
+    {
+      "id": "youtube-pablos-quest-story-1",
+      "title": "Outlanders 2 - Pablo's Quest Story 1, all 3 levels",
+      "url": "https://www.youtube.com/watch?v=qBfaH8E1LZU",
+      "site": "YouTube",
+      "type": "walkthrough",
+      "game": "outlanders-2",
+      "covers": [
+        "Campaign 1"
+      ],
+      "language": "en",
+      "date_checked": "2026-10-26",
+      "status": "needs-check",
+      "note": "Level walkthrough video. The same channel appears to cover other stories, such as Edgar's Growth Story 3."
+    },
+    {
+      "id": "youtube-edgars-growth-story-3",
+      "title": "Outlanders 2 - Edgar's Growth Story 3, all 3 levels with bonus",
+      "url": "https://www.youtube.com/watch?v=Kr02SpP-aUU",
+      "site": "YouTube",
+      "type": "walkthrough",
+      "game": "outlanders-2",
+      "covers": [
+        "Campaign 1",
+        "optional objectives"
+      ],
+      "language": "en",
+      "date_checked": "2026-10-26",
+      "status": "needs-check",
+      "note": "Level walkthrough video, including the bonus objectives."
+    },
+    {
+      "id": "apple-newsroom-launch",
+      "title": "Apple Newsroom: Outlanders 2: Second Nature launch",
+      "url": "https://www.apple.com/newsroom/2024/06/seven-new-games-launch-on-apple-arcade-including-outlanders-2-second-nature/",
+      "site": "Apple",
+      "type": "official",
+      "game": "outlanders-2",
+      "covers": [
+        "launch features"
+      ],
+      "language": "en",
+      "date_checked": "2026-10-26",
+      "status": "needs-check",
+      "note": "Apple's launch announcement (June 2024): the 21-level campaign, biweekly challenges, Tropiclands and Winterlands with weather events."
+    },
+    {
+      "id": "app-store-outlanders-2",
+      "title": "Outlanders 2 on the App Store",
+      "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164",
+      "site": "Apple",
+      "type": "official",
+      "game": "outlanders-2",
+      "covers": [
+        "version history",
+        "platforms"
+      ],
+      "language": "en",
+      "date_checked": "2026-10-26",
+      "status": "needs-check",
+      "note": "The store listing. Its version history is where update notes appear; Outlanders 2 is an Apple Arcade game for iPhone, iPad, Mac and Apple TV."
+    },
+    {
+      "id": "steam-outlanders-discussions",
+      "title": "Outlanders discussions on Steam",
+      "url": "https://steamcommunity.com/app/1766720/discussions/",
+      "site": "Steam",
+      "type": "community",
+      "game": "outlanders-1",
+      "covers": [
+        "the first game"
+      ],
+      "language": "en",
+      "date_checked": "2026-10-26",
+      "status": "needs-check",
+      "note": "Steam only has the first game. Outlanders 2 is not on Steam, and the board's sequel thread is players asking for a Steam release. Useful for the first game; advice there may not hold for the sequel."
+    },
+    {
+      "id": "gamezebo-outlanders-guide",
+      "title": "Gamezebo: Outlanders guide, tips and strategies",
+      "url": "https://www.gamezebo.com/walkthroughs/outlanders-guide-tips-cheats-and-strategies/",
+      "site": "Gamezebo",
+      "type": "guide",
+      "game": "outlanders-1",
+      "covers": [
+        "the first game"
+      ],
+      "language": "en",
+      "date_checked": "2026-10-26",
+      "status": "needs-check",
+      "note": "A written guide to the first game. Many buildings and mechanics changed in the sequel."
     }
   ]
 }

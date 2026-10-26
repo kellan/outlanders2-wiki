@@ -60,7 +60,30 @@
         299971,
         301857
       ],
-      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+      "status": "per-unit ratio derived from the recorded per-cycle recipe",
+      "per_cycle": {
+        "inputs": [
+          {
+            "resource_id": 309166,
+            "name": "Glass Pane",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 300131,
+            "name": "Pendant",
+            "count": 1
+          }
+        ],
+        "status": "confirmed",
+        "evidence": {
+          "kind": "field-guide",
+          "game_version": "30 (254)",
+          "date": "2026-10-26",
+          "reference": "Field guide screenshot gameplay-evidence/fieldguide/Pendant-Craftshop.jpg (local agent playtest; research branch codex/playtest-observations, answers entry \"Additional ... field guides\")."
+        }
+      }
     }
   ]
 }

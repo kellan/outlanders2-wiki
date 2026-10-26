@@ -8,13 +8,13 @@
     "content/resources_/beehive/honeypot"
   ],
   "need_units": {
-    "FoodUnits": 0.0,
-    "EntertainmentUnits": 0.0,
-    "WellnessUnits": 4.0,
-    "CommunityUnits": 0.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 0.0,
-    "HeatUnits": 0.0
+    "FoodUnits": 0,
+    "EntertainmentUnits": 0,
+    "WellnessUnits": 4,
+    "CommunityUnits": 0,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 0,
+    "HeatUnits": 0
   },
   "consume_duration_override": 8.782999992370605,
   "consumption_age_limits": null,
@@ -26,5 +26,43 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 105714,
+      "building_name": "Beehive",
+      "per_unit": [],
+      "batch": {
+        "inputs": [],
+        "outputs": [
+          {
+            "resource_id": 292311,
+            "name": "Honey",
+            "count": 1
+          }
+        ]
+      },
+      "smallest_whole_batch": {
+        "inputs": [],
+        "outputs": [
+          {
+            "resource_id": 292311,
+            "name": "Honey",
+            "count": 1
+          }
+        ]
+      },
+      "reused": [],
+      "brought_back": [],
+      "self_made": true,
+      "co_products": [],
+      "formula_ids": [
+        289846,
+        300057,
+        309223
+      ],
+      "status": "ratio read from the stored step graph (alternatives, fuel and returned containers folded in); not measured in play",
+      "graph": true
+    }
+  ]
 }

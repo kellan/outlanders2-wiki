@@ -60,7 +60,30 @@
         289119,
         306807
       ],
-      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+      "status": "per-unit ratio derived from the recorded per-cycle recipe",
+      "per_cycle": {
+        "inputs": [
+          {
+            "resource_id": 308079,
+            "name": "Paper",
+            "count": 2
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 285908,
+            "name": "Newspaper",
+            "count": 6
+          }
+        ],
+        "status": "confirmed",
+        "evidence": {
+          "kind": "field-guide",
+          "game_version": "30 (254)",
+          "date": "2026-10-26",
+          "reference": "Field guide screenshot gameplay-evidence/fieldguide/Press.jpg (local agent playtest; research branch codex/playtest-observations, answers entry \"Additional ... field guides\")."
+        }
+      }
     }
   ]
 }

@@ -9,3 +9,7 @@ Extracted and transcribed material may be mixed with original commentary in data
 Original site code, documentation and editorial contributions are available under the scoped MIT license in LICENSE. Contributors must have the right to license their original contributions; they must identify third-party material and its source.
 
 For attribution corrections or rights concerns, open an issue at https://github.com/kellan/outlanders2-wiki/issues. If the repository is private, contact the site maintainer through their GitHub profile at https://github.com/kellan.
+
+## Font
+
+The site uses Bricolage Grotesque, the typeface the game uses for its interface, loaded from Google Fonts. It is licensed under the SIL Open Font License 1.1 (https://fonts.google.com/specimen/Bricolage+Grotesque). The colour palette and category colours are read from the game's stored UI palette and are game-derived.

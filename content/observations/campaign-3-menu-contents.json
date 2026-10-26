@@ -1,0 +1,16 @@
+{
+  "id": "campaign-3-menu-contents",
+  "target": {
+    "type": "campaigns",
+    "id": "campaign-3"
+  },
+  "claim": "The Campaigns menu shows a single story in Campaign 3, Fjordi's Birthday, with Seventeen, Twenty-four and Thirty. No other Campaign 3 story or level appears.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Campaign 3 visible contents (A3)\". Screenshots: gameplay-evidence/menus/ (menus-campaign-3, menus-c3-s1)."
+  },
+  "notes": "Visible absence only: the three other maps the files place in Campaign 3 are not shown on this account, which says nothing yet about whether they are unreleased or placed elsewhere."
+}

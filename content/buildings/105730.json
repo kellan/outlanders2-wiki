@@ -51,9 +51,9 @@
     "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
   },
   "dimensions": {
-    "x": 10.0,
-    "y": 2.0,
-    "z": 10.0
+    "x": 10,
+    "y": 2,
+    "z": 10
   },
   "placement_rules": {
     "ValidTerrains": [
@@ -130,5 +130,30 @@
     "fields": [
       "WorkplaceConfig"
     ]
+  },
+  "gameplay": {
+    "recipe_per_cycle": {
+      "inputs": [
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 1
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 319683,
+          "name": "Cheese",
+          "count": 6
+        }
+      ],
+      "status": "confirmed",
+      "evidence": {
+        "kind": "field-guide",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Field guide screenshot gameplay-evidence/fieldguide/Cheesery.jpg (local agent playtest; research branch codex/playtest-observations, answers entry \"Additional ... field guides\"). The field guide lists only 1 Stick under Needs: the Cheesery milks its own cows, so Milk never appears as an input. The decoded steps burn half a Stick per wheel of 6 Cheese."
+      }
+    }
   }
 }

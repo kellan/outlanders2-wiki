@@ -46,9 +46,9 @@
     "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
   },
   "dimensions": {
-    "x": 8.0,
-    "y": 4.0,
-    "z": 8.0
+    "x": 8,
+    "y": 4,
+    "z": 8
   },
   "placement_rules": {
     "ValidTerrains": [
@@ -115,5 +115,30 @@
     "fields": [
       "WorkplaceConfig"
     ]
+  },
+  "gameplay": {
+    "recipe_per_cycle": {
+      "inputs": [
+        {
+          "resource_id": 309169,
+          "name": "Log",
+          "count": 3
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 300123,
+          "name": "Ukulele",
+          "count": 1
+        }
+      ],
+      "status": "confirmed",
+      "evidence": {
+        "kind": "field-guide",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Field guide screenshot gameplay-evidence/fieldguide/Luthierie.jpg (local agent playtest; research branch codex/playtest-observations, answers entry \"Additional ... field guides\")."
+      }
+    }
   }
 }

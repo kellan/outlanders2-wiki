@@ -1,0 +1,1 @@
+Icons now show white glyphs with dark lines, as in the game, instead of letting the tile colour show through; the fill is computed from the game's own outlines until the game's fill layer is exported. The home page has Mechanics and Reference boxes alongside Buildings and Plants (#61).

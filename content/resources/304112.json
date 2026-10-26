@@ -35,7 +35,7 @@
         {
           "resource_id": 320813,
           "name": "Wheat",
-          "count": 1
+          "count": 2
         }
       ],
       "smallest_whole_batch": {
@@ -59,7 +59,35 @@
         298620,
         318144
       ],
-      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+      "status": "per-unit ratio derived from the recorded per-cycle recipe",
+      "per_cycle": {
+        "inputs": [
+          {
+            "resource_id": 320813,
+            "name": "Wheat",
+            "count": 12
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 309166,
+            "name": "Glass Pane",
+            "count": 6
+          },
+          {
+            "resource_id": 304112,
+            "name": "Animal Hide",
+            "count": 6
+          }
+        ],
+        "status": "confirmed",
+        "evidence": {
+          "kind": "field-guide",
+          "game_version": "30 (254)",
+          "date": "2026-10-26",
+          "reference": "Field guide screenshot gameplay-evidence/fieldguide/Trading-Outpost-Evergreen.jpg (local agent playtest; research branch codex/playtest-observations, answers entry \"Additional ... field guides\"). The field guide settles what the three decoded formulas mean: 12 Wheat in, 6 Glass Panes and 6 Animal Hides out. The earlier derived ratio of 1 Wheat to 1 Animal Hide picked up only one of the outputs."
+        }
+      }
     },
     {
       "building_id": 75225,
@@ -126,6 +154,118 @@
         304091
       ],
       "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+    },
+    {
+      "building_id": 80802,
+      "building_name": "Trappers' Hut",
+      "per_unit": [],
+      "batch": {
+        "inputs": [],
+        "outputs": [
+          {
+            "resource_id": 304113,
+            "name": "Meat",
+            "count": 2
+          },
+          {
+            "resource_id": 304112,
+            "name": "Animal Hide",
+            "count": 1
+          }
+        ]
+      },
+      "smallest_whole_batch": {
+        "inputs": [],
+        "outputs": [
+          {
+            "resource_id": 304113,
+            "name": "Meat",
+            "count": 1
+          },
+          {
+            "resource_id": 304112,
+            "name": "Animal Hide",
+            "count": 0.5
+          }
+        ]
+      },
+      "reused": [],
+      "brought_back": [
+        {
+          "resource_id": 319701,
+          "name": "HunterTrapFull",
+          "count": 0.5
+        }
+      ],
+      "self_made": false,
+      "co_products": [
+        {
+          "resource_id": 304113,
+          "name": "Meat",
+          "count": 1
+        }
+      ],
+      "formula_ids": [
+        312411
+      ],
+      "status": "ratio read from the stored step graph (alternatives, fuel and returned containers folded in); not measured in play",
+      "graph": true
+    },
+    {
+      "building_id": 80803,
+      "building_name": "Swamp Trappers' Hut",
+      "per_unit": [],
+      "batch": {
+        "inputs": [],
+        "outputs": [
+          {
+            "resource_id": 304113,
+            "name": "Meat",
+            "count": 2
+          },
+          {
+            "resource_id": 304112,
+            "name": "Animal Hide",
+            "count": 1
+          }
+        ]
+      },
+      "smallest_whole_batch": {
+        "inputs": [],
+        "outputs": [
+          {
+            "resource_id": 304113,
+            "name": "Meat",
+            "count": 1
+          },
+          {
+            "resource_id": 304112,
+            "name": "Animal Hide",
+            "count": 0.5
+          }
+        ]
+      },
+      "reused": [],
+      "brought_back": [
+        {
+          "resource_id": 319711,
+          "name": "HuntersSwampTrapFull",
+          "count": 0.5
+        }
+      ],
+      "self_made": false,
+      "co_products": [
+        {
+          "resource_id": 304113,
+          "name": "Meat",
+          "count": 1
+        }
+      ],
+      "formula_ids": [
+        312412
+      ],
+      "status": "ratio read from the stored step graph (alternatives, fuel and returned containers folded in); not measured in play",
+      "graph": true
     }
   ]
 }

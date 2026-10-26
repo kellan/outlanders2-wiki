@@ -8,13 +8,13 @@
     "content/resources_/brewery/beer"
   ],
   "need_units": {
-    "FoodUnits": 0.0,
-    "EntertainmentUnits": 4.0,
-    "WellnessUnits": 0.0,
-    "CommunityUnits": 1.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 0.0,
-    "HeatUnits": 0.0
+    "FoodUnits": 0,
+    "EntertainmentUnits": 4,
+    "WellnessUnits": 0,
+    "CommunityUnits": 1,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 0,
+    "HeatUnits": 0
   },
   "consume_duration_override": null,
   "consumption_age_limits": {
@@ -35,5 +35,86 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 45826,
+      "building_name": "Brewery",
+      "per_unit": [
+        {
+          "resource_id": 320813,
+          "name": "Wheat",
+          "count": 0.2
+        },
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 0.2
+        }
+      ],
+      "batch": {
+        "inputs": [
+          {
+            "resource_id": 320813,
+            "name": "Wheat",
+            "count": 1
+          },
+          {
+            "resource_id": 284894,
+            "name": "Stick",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 285901,
+            "name": "Beer",
+            "count": 5
+          }
+        ]
+      },
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 320813,
+            "name": "Wheat",
+            "count": 1
+          },
+          {
+            "resource_id": 284894,
+            "name": "Stick",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 285901,
+            "name": "Beer",
+            "count": 5
+          }
+        ]
+      },
+      "reused": [
+        {
+          "resource_id": 285900,
+          "name": "BeerEmpty",
+          "count": 1
+        }
+      ],
+      "brought_back": [],
+      "self_made": false,
+      "co_products": [],
+      "formula_ids": [
+        276771,
+        276774,
+        276776,
+        276777,
+        276779,
+        309601,
+        311049
+      ],
+      "status": "ratio read from the stored step graph (alternatives, fuel and returned containers folded in); not measured in play",
+      "graph": true
+    }
+  ]
 }

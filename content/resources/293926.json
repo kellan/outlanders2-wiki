@@ -29,6 +29,61 @@
   },
   "made_from": [
     {
+      "building_id": 105695,
+      "building_name": "Quarry",
+      "per_unit": [
+        {
+          "resource_id": 293926,
+          "name": "Stone",
+          "count": 1,
+          "from_map": true
+        }
+      ],
+      "batch": {
+        "inputs": [
+          {
+            "resource_id": 293926,
+            "name": "Stone",
+            "count": 1,
+            "from_map": true
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 293926,
+            "name": "Stone",
+            "count": 1
+          }
+        ]
+      },
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 293926,
+            "name": "Stone",
+            "count": 1,
+            "from_map": true
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 293926,
+            "name": "Stone",
+            "count": 1
+          }
+        ]
+      },
+      "reused": [],
+      "brought_back": [],
+      "self_made": false,
+      "co_products": [],
+      "formula_ids": [
+        285722
+      ],
+      "status": "ratio read from the stored step graph (alternatives, fuel and returned containers folded in); not measured in play",
+      "graph": true
+    },
+    {
       "building_id": 105723,
       "building_name": "Stone Mine",
       "per_unit": [
@@ -63,7 +118,30 @@
         311533,
         319653
       ],
-      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+      "status": "per-unit ratio derived from the recorded per-cycle recipe",
+      "per_cycle": {
+        "inputs": [
+          {
+            "resource_id": 309169,
+            "name": "Log",
+            "count": 6
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 293926,
+            "name": "Stone",
+            "count": 4
+          }
+        ],
+        "status": "confirmed",
+        "evidence": {
+          "kind": "field-guide",
+          "game_version": "30 (254)",
+          "date": "2026-10-26",
+          "reference": "Field guide screenshot gameplay-evidence/fieldguide/Stone-Mine.jpg (local agent playtest; research branch codex/playtest-observations, answers entry \"Additional ... field guides\")."
+        }
+      }
     }
   ]
 }

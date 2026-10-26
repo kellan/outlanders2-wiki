@@ -40,7 +40,7 @@
         {
           "resource_id": 284894,
           "name": "Stick",
-          "count": 1
+          "count": 2
         }
       ],
       "smallest_whole_batch": {
@@ -71,7 +71,35 @@
         300411,
         311935
       ],
-      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+      "status": "per-unit ratio derived from the recorded per-cycle recipe",
+      "per_cycle": {
+        "inputs": [
+          {
+            "resource_id": 309166,
+            "name": "Glass Pane",
+            "count": 1
+          },
+          {
+            "resource_id": 284894,
+            "name": "Stick",
+            "count": 2
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 308078,
+            "name": "Bottle",
+            "count": 1
+          }
+        ],
+        "status": "confirmed",
+        "evidence": {
+          "kind": "field-guide",
+          "game_version": "30 (254)",
+          "date": "2026-10-26",
+          "reference": "Field guide screenshot gameplay-evidence/fieldguide/Bottle-Factory.jpg (local agent playtest; research branch codex/playtest-observations, answers entry \"Additional ... field guides\"). The field guide shows 2 Sticks per Bottle; the decoded steps work out to 1 Stick per Bottle. Which one a cycle actually burns is untested."
+        }
+      }
     }
   ]
 }
