@@ -29460,6 +29460,48 @@
    }
   ]
  },
+ "workspot_effects": {
+  "classes": "WorkspotCompleteModifyNeed / WorkspotRandomOutput",
+  "note": "Only five workspots in the game carry either behaviour.",
+  "records": [
+   {
+    "root": "Bonfire",
+    "workspot": "1 Stick -> 1 Heat Workspot",
+    "kind": "modify_need_on_complete",
+    "units": {
+     "heat": 2.0
+    }
+   },
+   {
+    "root": "Fishing Dock",
+    "workspot": " -> Meat Workspot (1)",
+    "kind": "random_output",
+    "min": 0,
+    "max": 1
+   },
+   {
+    "root": "Fishing Dock",
+    "workspot": " -> Meat Workspot (2)",
+    "kind": "random_output",
+    "min": 0,
+    "max": 2
+   },
+   {
+    "root": "Fishing Spot",
+    "workspot": " -> Almost Fish Workspot",
+    "kind": "random_output",
+    "min": 0,
+    "max": 2
+   },
+   {
+    "root": "Fishing Dock",
+    "workspot": " -> Meat Workspot",
+    "kind": "random_output",
+    "min": 0,
+    "max": 1
+   }
+  ]
+ },
  "duplicate_resource_names": {
   "note": "284895 is the GameObject \"FakeStick\" under the Firewood Yard (Woodchopper): 1 Log becomes 4 FakeStick, then FakeStick becomes Stick 1:1. It shares the localization key Resource.Stick, so both display as Stick.",
   "records": [
