@@ -1,3 +1,9 @@
+## Footprints in game squares (2026-10-26)
+
+The maintainer reported that in game a crop field takes one square and a tree 2 × 2, while the wiki showed 2 × 2 and 4 × 4. The stored `GridDimensionsBehaviour` values use two units per in-game square: every stored dimension is even, and a road is 2 × 2. Footprints in infoboxes, the buildings directory, the Houses table and the food-sources table are now halved; the Basic House is 2 × 2 and the Trading Outpost 3 × 3. The research aside still shows the raw stored dimensions, labelled as such. Plant infoboxes gain a Footprint row. The Sandbox page shows map sizes as stored, because it is not established that they use the same units.
+
+The maintainer also asked whether Potato really matches Carrot and Onion. Per field it does: 3 Veggie over 9 days (four 2.25-day stages). The structure differs, though. A Potato field holds one plant whose harvest gives 3 Veggie; Carrot and Onion fields hold 3 plants giving 1 each. The yield row now says "one plant" or "3 plants, 1 each" in place of the planting-spot count.
+
 ## Sandbox page (2026-10-26, issue 29)
 
 A new Mechanics page, Sandbox, renders the decoded settings:
