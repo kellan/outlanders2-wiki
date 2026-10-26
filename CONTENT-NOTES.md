@@ -70,6 +70,10 @@ Article pages gained a Stardew-style companion layer on top of the existing evid
 
 Written down in CONTRIBUTING.md and on the Spoilers page: `confirmed-unreleased` needs the prefab's own `MinGameVersion` gate above the installed game version (32 against 30 here); reports give `reported-unreleased`; associated scenarios and biomes without a gate stay `related-release-unconfirmed`. Construction-material rollups for level objectives are tracked in issue 23.
 
+## Plant yields by type and a fruit rate (2026-10-26, issue 25)
+
+The Plants overview and plant infoboxes now lead with the yield that matches the plant type (field harvest, fruit drops, felling logs) and put the rest under "Also"; orchard trees are labelled fruit trees. A Rate row and column give fruit per day while the tree is picked regularly (1 ÷ mean spawn interval) and how long a full tree takes to fill (cap × mean interval): Palm about 0.61 a day and full in 8 days, Banana about 0.3 and 10 days. The rate is arithmetic on the stored spawner values, which stay on the page.
+
 ## Plants section, tree yields and the clock (2026-10-26)
 
 Crops and trees now live under `/plants/` with their own directory (issue 20); the old `/buildings/<plant>/` addresses stay as aliases. Tree pages show felling yields and timed drops from the decoded plant prefabs (issue 21): Ash gives 4 Logs after 6 chops, an Apple Tree 1 Log after 3 and one Fruit every 1.65–2.5 days with 4 waiting at most. The research agent traced the clock code: the dial shows a day face for the first half of the cycle and a night face for the second, so shifts are now described against the dial rather than hours, which the game never names.
