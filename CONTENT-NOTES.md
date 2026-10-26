@@ -1,3 +1,7 @@
+## Stand-in glyph fills and home page boxes (2026-10-26, issue 56)
+
+The maintainer approved a stand-in for the glyphs' white fill: `tools/fill_icons.py` flood-fills each icon's line layer from the image border and puts white under everything the outline encloses, keeping the lines unchanged. The 80 results live in `assets/wiki-artwork/filled/` with a manifest; the site uses them for building and resource icons and switches to the game's composited tiles automatically once `tiles.json` is committed. Three icons (a pot, a honeycomb and a mug) were already white in the source images, so the fill does not change them; the real export will. On the home page the Mechanics pages and the reference pages (Challenges, Tournament, Changelog, Guides elsewhere, sources, contribute, index) now have their own boxes beside Buildings and Plants, replacing the links row at the bottom.
+
 ## Needs split into a hub and one page per need (2026-10-26)
 
 The Needs page had grown to about 2,000 words and 90 table rows: an overview, a meter table that repeated it, a long eating explainer and eight need sections. At the maintainer's request it is now a short hub (the overview table, each row linking to its need, and links to the related mechanics pages). Each need has its own page under `/needs/<need>/` with its meter settings, the items, places and gear that restore it, and how many levels switch it on; eating moved to `/eating/`. No content was dropped. Old anchors on the Needs page (`#need-food`, `#eating` and so on) are forwarded to the new pages by `src/page.js`.
