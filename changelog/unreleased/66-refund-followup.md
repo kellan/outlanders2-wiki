@@ -1,0 +1,1 @@
+The demolition test now asks for a Bakery (9 Clay + 4 Stone) to check whether "half back" holds for other buildings and how odd amounts round; the Basic House result is already recorded (#66, issue 31).
