@@ -13,6 +13,9 @@ The Needs page now opens with an at-a-glance table of the eight needs (what each
 ## Visitors and scheduled events on level pages (2026-10-26)
 
 The level files store, for every placed event prefab, the game day it fires (`LevelEvent.DaysStart`); the prefab says what arrives. Level pages now show a Visitors row ("30 adults on day 50, announced from the start" on Sold Out; three waves on Anthology; six leaders on day 25 on Outgrown) and an Events row (Rain on day 22 for 2 days on An Apple a Day; "No babies are born on this map" where the no-reproduction notice is placed). Visitors arrive regardless of the settlement's state. Announcement lead times come from the prefab: 1000 days means from the start, 0 means no notice. Also in this change: extraction buildings say plainly what they gather and that nothing goes in, the Fishing Dock's random catch is worded per spot, the production note uses decoded pile sizes when no gameplay capacity is recorded, water-edge placement reads plainly, and the Fitness Park's two staff spots are labelled as such.
+## Wiki changelog (2026-10-26)
+
+`CHANGELOG.md` is the reader-facing list of wiki changes, one line per merged pull request with the page to look at, backfilled from the merge history; it renders at the top of the Changelog page as "Wiki changes" above the game-update history. CONTRIBUTING asks every pull request to add its line under Unreleased. This file remains the provenance record.
 
 ## Playtest protocols for a computer-use agent (2026-10-26)
 
