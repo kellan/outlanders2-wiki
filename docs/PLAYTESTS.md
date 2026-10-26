@@ -69,6 +69,8 @@ Every Campaign 1 level has a draft strategy in `content/strategies/<level id>.js
 
 For each run: start the level fresh, follow the build order in the strategy file, and record the leader, the day each objective completed (main and optional), the finishing day against the day limit, and the first point where the plan stalled (missing material, idle workers, starvation, cold, a building the level would not allow). Screenshot the objectives panel at the finish. Report one entry per level in [INFORMATION-ANSWERS.md](INFORMATION-ANSWERS.md) with `Row` set to *Campaign 1 strategy: <level name>*, and say what you changed from the build order and why. Corrections to the strategy go in the entry; the wiki session edits the file.
 
+Three constraints recur across levels and are worth noting on every run: **Wheat sets the pace** (12 days to grow, so on any Flour, Bread, Beer, Cookie or Glass-by-trade level it is planted first), **Sticks run short** (many levels start with few or none and some offer no Firewood Yard), and in the Winterlands **heat** (Bonfire, cabin stoves and worn Coats). Say in each entry whether one of them was what actually set the finishing day.
+
 Recommended order: 01A–01C (short, they test the Stick bottleneck the later levels assume), then 02A, 04A, 03A, 05B, 06C, the rest after. Specific things each run should settle:
 
 | Level | Check |
@@ -86,7 +88,7 @@ Recommended order: 01A–01C (short, they test the Stick bottleneck the later le
 | 04B Sugar Highway | Births per day with Maddy; whether "everyone settled" can be lost after it ticks. |
 | 04C Too Many Cookies | Whether unstaffed Cookie Shops count; Eggs needed per day for two or three staffed shops. |
 | 05A On Edge | How many Sticks one Firewood Yard holds (the objective needs 90); whether the Bonfire draws from the yard's store. |
-| 05B Under Pressure | Hides per Trappers' Hut per day; whether "Clear all rocks" needs all three sources quarried out. |
+| 05B Under Pressure | Hides per Trappers' Hut per day; whether "Clear all rocks" needs all three sources quarried out; whether Coats worn by cold villagers still count toward the 18 sewn, and how long a Coat keeps a villager warm. |
 | 05C Blown Away | Which trades the Winterlands Outpost offers in play and their real rates and Stick use. |
 | 06A Storefront | Tropiclands Outpost: 8 Glass for 9 Wheat in play; Glassworks panes per day. |
 | 06B Management | Whether Bread from 45 Flour stalls when Bakery piles fill; Ice Pops per Fruit (2 or 4). |

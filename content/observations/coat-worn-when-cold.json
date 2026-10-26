@@ -1,0 +1,16 @@
+{
+  "id": "coat-worn-when-cold",
+  "target": {
+    "type": "resources",
+    "id": "300124"
+  },
+  "claim": "Villagers wear Coats when they are cold; a Coat is not eaten or used up like food, which is why its resource record stores no need units.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "Maintainer report, 26 October 2026, from play. The Coat ResourceConfig stores zero units for every need."
+  },
+  "notes": "How much warmth a worn Coat gives, whether it wears out, and whether worn Coats still count toward 'Sew N Coats' objectives remain to be measured (PLAYTESTS B6 and Part C)."
+}

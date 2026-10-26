@@ -1,6 +1,6 @@
 {
   "id": "Level05B",
-  "summary": "Six villagers, a Bonfire and 21 Veggies. Food runs out in about four days, so a Trappers' Hut comes immediately: it gives Meat and the Animal Hides behind the 18 Coats (54 Hides). Then bricks for two Tailors, and a Quarry to clear the three rocks (30 Stone).",
+  "summary": "Six villagers, a Bonfire and 21 Veggies. Food runs out in about four days, so a Trappers' Hut comes immediately: it gives Meat and the Animal Hides behind the 18 Coats (54 Hides). Then bricks for two Tailors, whose Coats villagers also wear when cold, and a Quarry to clear the three rocks (30 Stone).",
   "build_order": [
     {
       "gameobject_id": 38478,
@@ -45,7 +45,7 @@
   ],
   "pitfalls": [
     "Labour is scarcer than materials; staff only what the next objective needs.",
-    "'Sew 18 Coats' counts Coats made, so the Tailors' Hide supply, not storage, is what to watch."
+    "Cold villagers wear the Coats, which eases the Bonfire's load early on; the objective counts Coats sewn, so worn ones should still count (to confirm in play)."
   ],
   "status": "draft",
   "game_version": "30 (254)",
