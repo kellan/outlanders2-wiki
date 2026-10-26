@@ -85019,6 +85019,22 @@
       "notes": "Recorded in the Bakery record's gameplay block. The per-cycle recipe is confirmed by the field guide and the decoded formula graph. The capacity is not in the exported data: the StockpileBehaviour, ResourcePileBehaviour and PileableBehaviour objects were round-trip validated but never exported. A controlled test or a pile decode should confirm it and supply capacities for other buildings."
     },
     {
+      "id": "barley-porridge-community",
+      "target": {
+        "type": "resources",
+        "id": "279352"
+      },
+      "claim": "Eating Barley Porridge raises Community as well as Food, although the resource record stores only Food units.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "player-report",
+        "game_version": "30 (254)",
+        "date": "2026-10-25",
+        "reference": "Maintainer report, 25 October 2026. The game’s Porridge Cookhouse description says the dish raises Nutrition and Community. The Barley Porridge ResourceConfig stores FoodUnits 2 and CommunityUnits 0."
+      },
+      "notes": "The second effect is not in the resource’s stored units, so it must come from somewhere the extraction did not decode: the ResourceVariationDatabase, or the way dishes are consumed at the cookhouse. Stew, Fondue and Manchamanteles have the same pattern; carried gear and social-spot buildings have no stored units at all. The Needs page now shows description-stated effects alongside stored units."
+    },
+    {
       "id": "clay-pit-late-start",
       "target": {
         "type": "buildings",
@@ -85049,6 +85065,38 @@
         "reference": "WorkplaceConfig.WorkTimeRange. Clay Pit stores 0 → 0.6; 53 workplaces including Farm and Bakery store the standard 0.9 → 0.5 (wrapping past 1.0). Foresters' Hub, Orchard and Quarry store 0 → 0.5 (same late start, standard finish); Cheesery, Chicken Coop, Fondue Bar and Roadworks Office store 0.95 → 0.55."
       },
       "notes": "Community reports that clay workers are late risers match the stored schedule. The clock mapping of fraction 0 is unresolved, so the offset is one tenth of a day rather than a number of hours, and whether the crew also sleeps longer is tracked separately in clay-pit-late-start."
+    },
+    {
+      "id": "cookhouse-community-source",
+      "target": {
+        "type": "buildings",
+        "id": "105738"
+      },
+      "claim": "The small Community rise from Barley Porridge may come from eating at the Porridge Cookhouse rather than from the dish itself.",
+      "status": "open",
+      "evidence": {
+        "kind": "player-report",
+        "game_version": "30 (254)",
+        "date": "2026-10-25",
+        "reference": "Maintainer hypothesis, 25 October 2026, after observing that the rise is small. Supporting data: every dish whose description names a second need (Barley Porridge, Stew, Fondue, Manchamanteles) is served on plates that return to its building, as are Mead, Beer and Wheatshine; Bread, Cookies, Dried Meat, Smoothies and Ice Pops have no container. Mead is a counterexample: its resource stores Community 4 directly."
+      },
+      "notes": "The social-spot configuration of buildings was not exported, so the data cannot decide this. Discriminating test: let villagers eat Barley Porridge from a stockpile away from the Cookhouse (for example after the Cookhouse is demolished or unstaffed) and compare the Community change with eating at the Cookhouse. The same test applies to Fondue and Fun at the Fondue Bar, and to Stew at the Open Kitchen."
+    },
+    {
+      "id": "fondue-fun-check",
+      "target": {
+        "type": "buildings",
+        "id": "105705"
+      },
+      "claim": "Fondue should raise Fun as well as Food, as the Fondue Bar description states; not yet checked in play, and the effect may belong to eating at the Fondue Bar.",
+      "status": "open",
+      "evidence": {
+        "kind": "field-guide",
+        "game_version": "30 (254)",
+        "date": "2026-10-25",
+        "reference": "Fondue Bar building description: a pot of Fondue that provides Nutrition and Entertainment. The Fondue resource records store FoodUnits 2 and EntertainmentUnits 0."
+      },
+      "notes": "Flagged by the maintainer on 25 October 2026 as the next dish to check after Barley Porridge. Same discriminating test as cookhouse-community-source."
     },
     {
       "id": "tournament-rural-season-live",
