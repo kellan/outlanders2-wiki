@@ -76,7 +76,7 @@ assert.ok(!/level=[^"&]*Oona|level=Clause/.test(h.render('spoilers/levels/clause
 console.log('PASS: level strategy section and contribution form.');
 // History entries render on entity pages and the changelog, backdated only with evidence.
 const jelena=h.render('heroes/jelena/');assert.ok(jelena.includes('<h2>History</h2>'),'history section');assert.ok(jelena.includes('Update 8'));
-const log=h.render('changelog/');assert.ok(log.includes('Update 21'));assert.ok(log.includes('/heroes/fjordi/'));assert.ok(!log.includes('Oona'),'changelog leaked spoiler');
+const log=h.render('changelog/');assert.ok(log.includes('<h2>Wiki changes</h2>')&&log.includes('<h3>2026-10-26</h3>')&&log.includes('href="https://outlanders2wiki.com/houses/"')&&/pull\/40">#40<\/a>/.test(log),'wiki changelog rendered from CHANGELOG.md');assert.ok(log.includes('<h2>Game updates</h2>'),'game updates section');assert.ok(log.includes('Update 21'));assert.ok(log.includes('/heroes/fjordi/'));assert.ok(!log.includes('Oona'),'changelog leaked spoiler');
 assert.ok(h.render('levels/valley-draft/').includes('Added with the Jelena'));
 console.log('PASS: history sections and changelog.');
 // Stored-configuration additions: biome per level, starting conditions, needs page, age limits, harvest sources, placement.
