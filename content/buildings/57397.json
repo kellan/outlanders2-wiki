@@ -51,9 +51,9 @@
     "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
   },
   "dimensions": {
-    "x": 4.0,
-    "y": 3.0,
-    "z": 4.0
+    "x": 4,
+    "y": 3,
+    "z": 4
   },
   "placement_rules": {
     "ValidTerrains": [
@@ -114,5 +114,30 @@
     "fields": [
       "WorkplaceConfig"
     ]
+  },
+  "gameplay": {
+    "recipe_per_cycle": {
+      "inputs": [
+        {
+          "resource_id": 300126,
+          "name": "Fruit",
+          "count": 2
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 286361,
+          "name": "Smoothie",
+          "count": 4
+        }
+      ],
+      "status": "confirmed",
+      "evidence": {
+        "kind": "field-guide",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Field guide screenshot gameplay-evidence/fieldguide/Smoothie-Stand.jpg (local agent playtest; research branch codex/playtest-observations, answers entry \"Additional ... field guides\")."
+      }
+    }
   }
 }

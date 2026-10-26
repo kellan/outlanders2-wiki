@@ -37,6 +37,7 @@ export function assembleContent(base=project){
   const o=read('content/observations/'+file);assert.equal(file,o.id+'.json');assert.ok(['open','confirmed','disputed'].includes(o.status),'Invalid status '+file);assert.ok(['player-report','field-guide','gameplay-test','decoded-data','official-source'].includes(o.evidence?.kind),'Invalid evidence kind '+file);
   for(const value of [o.claim,o.evidence?.game_version,o.evidence?.date,o.evidence?.reference])assert.ok(typeof value==='string'&&value.trim(),'Missing evidence in '+file);
   if(o.target.type==='tournament'){assert.ok(seasonIds.has(o.target.id),'Unknown observation target '+file);return o}
+  if(o.target.type==='mechanics'){assert.ok(['needs','happiness','villagers','climate','time','gear','houses','gathering'].includes(o.target.id),'Unknown mechanics page in '+file);return o}
   const group=o.target.type==='buildings'?result.rules.buildings:o.target.type==='resources'?result.rules.resources:result.world[o.target.type==='heroes'?'leaders':o.target.type];assert.ok(Array.isArray(group)&&group.some(x=>String(x.gameobject_id??x.id)===String(o.target.id)),'Unknown observation target '+file);return o;
  });
  result.world.strategies=fs.existsSync(path.join(base,'content/strategies'))?fs.readdirSync(path.join(base,'content/strategies')).filter(f=>f.endsWith('.json')).sort().map(file=>{
