@@ -273,3 +273,16 @@ Campaign 2:
 - Evidence: assets/gameplay-evidence/meals/meals-setup-leader-resources.png; meals-setup-evergreen.png; meals-setup-autobuild-off.png; meals-1-start-18fruit-36veggie.png; meals-1-hugo-initial-food-meter.png; meals-1-late-day-premeal-meter.png; meals-1-hugo-eating-fruit-early-night.png; meals-1-hugo-meal-meter.png (same directory); live tool screenshot explicitly showed eating action before saving follow-up frame.
 - Confidence: confirmed
 - Notes: Food status appears as a graphical segmented ring, without Full/Satisfied/Wanting/Low text in the inspected panel. The filename late-day-premeal-meter actually captures the beginning of the blue night face before stock declined. Do not infer the requested text status or a five-day average from this first observation. Piles are nearby but reach was not controlled, so six Fruit versus three Veggies does not prove preference.
+
+## Hugo's second and third observed meals (B1 checkpoint)
+- Status: new
+- Row: Food consumption per villager per day, and when villagers choose to eat
+- Fact: Hugo's panel showed “Eating a Veggie” on day 2, night face with the moon in the first third of its arc. The population inventory then stood at 9 Fruit / 27 Veggies (36 total), down 9 units from the previous baseline. On day 3 late night he was sleeping and only 5 further units had been taken (8 Fruit / 23 Veggies). At day 4 dawn, his panel again showed “Eating a Veggie”; inventory was 6 Fruit / 21 Veggies (27 total). The third meal therefore occurred at the following dawn, not necessarily at sunset on the preceding numbered day.
+- Target: Hugo
+- Obtained by: selected villager panel, automatic camera follow, global food inventory
+- Conditions: same dedicated Playtest Meals sandbox and leader as first-night entry; normal speed; no kitchen, no production, no houses. Adult age displayed 35 on day 2, 36 on day 3 and 37 on day 4. Population remained 9. Paused for notes and publication checkpoint at day 4 dawn.
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/meals/meals-2-dawn-45-food.png; meals-2-premeal-meter.png; meals-2-hugo-eating-veggie-night.png; meals-2-meal-meter.png; meals-3-dawn-36-food.png; meals-3-premeal-meter.png; meals-3-late-night-hugo-sleeping-31-food.png; meals-4-dawn-hugo-eating-veggie-27-food.png; meals-4-dawn-meal-meter.png (same directory)
+- Confidence: confirmed
+- Notes: The eating action text can be shown while the villager is approaching the supply; it does not itself timestamp the precise bite. Selected-villager views and inventory were sampled, not recorded continuously. Five-day observation is still incomplete. No equal-distance food preference conclusion.
