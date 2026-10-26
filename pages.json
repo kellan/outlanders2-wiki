@@ -490,14 +490,6 @@
     },
     {
       "type": "buildings",
-      "id": "35718",
-      "name": "Building",
-      "category": "Building",
-      "path": "buildings/building/",
-      "spoiler": false
-    },
-    {
-      "type": "buildings",
       "id": "85248",
       "name": "Calla Lilly Planter",
       "category": "Building",
@@ -638,22 +630,6 @@
       "name": "Crane Flower Planter",
       "category": "Building",
       "path": "buildings/crane-flower-planter-105698/",
-      "spoiler": false
-    },
-    {
-      "type": "buildings",
-      "id": "105746",
-      "name": "DairyFarm",
-      "category": "Building",
-      "path": "buildings/dairyfarm/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "105746",
-      "name": "DairyFarm — production",
-      "category": "Production chain",
-      "path": "production-chains/dairyfarm/",
       "spoiler": false
     },
     {
@@ -1878,14 +1854,6 @@
       "name": "Snow Sculpture",
       "category": "Building",
       "path": "buildings/snow-sculpture/",
-      "spoiler": false
-    },
-    {
-      "type": "buildings",
-      "id": "75802",
-      "name": "Stock",
-      "category": "Building",
-      "path": "buildings/stock/",
       "spoiler": false
     },
     {
@@ -5746,14 +5714,6 @@
     },
     {
       "type": "evidence",
-      "id": "buildings/35718",
-      "name": "Building — research",
-      "category": "Research",
-      "path": "verification/buildings/building/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
       "id": "buildings/85248",
       "name": "Calla Lilly Planter — research",
       "category": "Research",
@@ -5894,22 +5854,6 @@
       "name": "Crane Flower Planter — research",
       "category": "Research",
       "path": "verification/buildings/crane-flower-planter-105698/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
-      "id": "buildings/105746",
-      "name": "DairyFarm — research",
-      "category": "Research",
-      "path": "verification/buildings/dairyfarm/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
-      "id": "chains/105746",
-      "name": "DairyFarm — production — research",
-      "category": "Research",
-      "path": "verification/production-chains/dairyfarm/",
       "spoiler": false
     },
     {
@@ -7134,14 +7078,6 @@
       "name": "Snow Sculpture — research",
       "category": "Research",
       "path": "verification/buildings/snow-sculpture/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
-      "id": "buildings/75802",
-      "name": "Stock — research",
-      "category": "Research",
-      "path": "verification/buildings/stock/",
       "spoiler": false
     },
     {
@@ -10851,7 +10787,6 @@
     "buildings/brickyard/",
     "production-chains/brickyard/",
     "buildings/bridge/",
-    "buildings/building/",
     "buildings/calla-lilly-planter/",
     "buildings/canteen-factory/",
     "production-chains/canteen-factory/",
@@ -10872,8 +10807,6 @@
     "production-chains/cookie-shop/",
     "buildings/crane-flower-planter/",
     "buildings/crane-flower-planter-105698/",
-    "buildings/dairyfarm/",
-    "production-chains/dairyfarm/",
     "buildings/desert-cookhouse/",
     "production-chains/desert-cookhouse/",
     "buildings/desert-home/",
@@ -11027,7 +10960,6 @@
     "buildings/smoothie-stand/",
     "production-chains/smoothie-stand/",
     "buildings/snow-sculpture/",
-    "buildings/stock/",
     "buildings/stone-mine/",
     "production-chains/stone-mine/",
     "buildings/stone-road/",
@@ -11530,7 +11462,6 @@
     "verification/buildings/brickyard/",
     "verification/production-chains/brickyard/",
     "verification/buildings/bridge/",
-    "verification/buildings/building/",
     "verification/buildings/calla-lilly-planter/",
     "verification/buildings/canteen-factory/",
     "verification/production-chains/canteen-factory/",
@@ -11549,8 +11480,6 @@
     "verification/production-chains/cookie-shop/",
     "verification/buildings/crane-flower-planter/",
     "verification/buildings/crane-flower-planter-105698/",
-    "verification/buildings/dairyfarm/",
-    "verification/production-chains/dairyfarm/",
     "verification/buildings/desert-cookhouse/",
     "verification/production-chains/desert-cookhouse/",
     "verification/buildings/desert-home/",
@@ -11704,7 +11633,6 @@
     "verification/buildings/smoothie-stand/",
     "verification/production-chains/smoothie-stand/",
     "verification/buildings/snow-sculpture/",
-    "verification/buildings/stock/",
     "verification/buildings/stone-mine/",
     "verification/production-chains/stone-mine/",
     "verification/buildings/stone-road/",
@@ -12261,7 +12189,6 @@
     "building/brick-house/",
     "building/brickyard/",
     "building/bridge/",
-    "building/building/",
     "building/calla-lilly-planter/",
     "building/canteen-factory/",
     "building/cheesery/",
@@ -12273,7 +12200,6 @@
     "building/cookie-shop/",
     "building/crane-flower-planter/",
     "building/crane-flower-planter-105698/",
-    "building/dairyfarm/",
     "building/desert-cookhouse/",
     "building/desert-home/",
     "building/dried-meat-shop/",
@@ -12397,7 +12323,6 @@
     "building/silky-oak-tree-pit/",
     "building/smoothie-stand/",
     "building/snow-sculpture/",
-    "building/stock/",
     "building/stone-mine/",
     "building/stone-road/",
     "building/stone-road-116138/",
