@@ -260,3 +260,16 @@ Campaign 2:
 - Evidence: assets/gameplay-evidence/fieldguide/: Lumberjacks-Base-top.png, Lumberjacks-Base-cost.png, Clay-Pit.png, Quarry.png, Brickyard.png, Firewood-Yard.png, Stone-Mine.png, Foragers-Hut-top.png, Foragers-Hut-cost.png, Farm-top.png, Farm-cost.png, Orchard-top.png, Orchard-cost.png, Cookie-Shop.png, Cheesery.png, Porridge-Cookhouse.png, Roadworks-Office.png, Warehouse.png, Market.png, Trading-Outpost-Evergreen.png, Bootmakers-Shop.png, Communal-Plaza.png, Brewery.png, Smoothie-Stand.png, Paper-Mill.png, Press.png, Book-Workshop.png, Bottle-Factory.png, Winery.png, Pendant-Craftshop.png, Luthierie.png, Beehive.png, Mead-Hall.png.
 - Confidence: confirmed
 - Notes: Still partial coverage of the requested 63 entries; nonproduction buildings and biome-specific producers remain. This batch adds 29 building guides. The refund test also used the active Rural style; its observed six-Log cost was verified directly.
+
+## Meal test setup and first night (B1, in progress)
+- Status: new
+- Row: Food consumption per villager per day, and when villagers choose to eat
+- Fact: Fresh sandbox starts with 18 Fruit and 36 Veggies for 9 villagers (7 adults). Selected Hugo, age 34, unemployed. At early night on day 1, his main panel explicitly read “Eating a Fruit” beside the loose Fruit pile. Across that first nightfall interval the global inventory fell from 18 Fruit / 36 Veggies to 12 Fruit / 33 Veggies, nine food units total. No kitchen or other buildings were present.
+- Target: Hugo / fresh sandbox population
+- Obtained by: live villager panel and global inventory at normal speed
+- Conditions: slot 5 Playtest Meals; Evergreen / Large Islands / medium; Maira first appearance; abundant resources, average population/trees/rocks, Autobuild OFF, Rural style inherited. Selected before first meal and followed automatically by camera. Day 1 early night face, moon near left edge. Five-day test still in progress.
+- Game version: 30 (254), installed application metadata; unchanged installation from preceding session
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/meals/meals-setup-leader-resources.png; meals-setup-evergreen.png; meals-setup-autobuild-off.png; meals-1-start-18fruit-36veggie.png; meals-1-hugo-initial-food-meter.png; meals-1-late-day-premeal-meter.png; meals-1-hugo-eating-fruit-early-night.png; meals-1-hugo-meal-meter.png (same directory); live tool screenshot explicitly showed eating action before saving follow-up frame.
+- Confidence: confirmed
+- Notes: Food status appears as a graphical segmented ring, without Full/Satisfied/Wanting/Low text in the inspected panel. The filename late-day-premeal-meter actually captures the beginning of the blue night face before stock declined. Do not infer the requested text status or a five-day average from this first observation. Piles are nearby but reach was not controlled, so six Fruit versus three Veggies does not prove preference.
