@@ -33125,5 +33125,812 @@
   "class": "MapGenerator",
   "construction_tiles_per_villager": 15,
   "food_sources_per_villager": 3.0
+ },
+ "ui_style": {
+  "classes": "UIColorPalette, ResourceCategory, BuildingCategory, IconFrame, ResourceBehaviour.ResourceCategory",
+  "note": "Colours as the game stores them. Each category names the palette entry its icon background uses and the frame drawn around the icon; building lists are prefab roots in build-menu order. Frame sprites are texture sprites (background tinted with the category colour, lines in the Text colour) with the icon placed inside the anchor box.",
+  "palette": [
+   {
+    "name": "Zero",
+    "hex": "#000000",
+    "alpha": 0.0
+   },
+   {
+    "name": "Black",
+    "hex": "#473547",
+    "alpha": 1.0
+   },
+   {
+    "name": "Black Secondary",
+    "hex": "#a18e96",
+    "alpha": 1.0
+   },
+   {
+    "name": "Dark Grey",
+    "hex": "#e4dbd4",
+    "alpha": 1.0
+   },
+   {
+    "name": "Grey",
+    "hex": "#f2eeed",
+    "alpha": 1.0
+   },
+   {
+    "name": "Light Grey",
+    "hex": "#ebe1da",
+    "alpha": 1.0
+   },
+   {
+    "name": "White",
+    "hex": "#ffffff",
+    "alpha": 1.0
+   },
+   {
+    "name": "Main",
+    "hex": "#5c5aff",
+    "alpha": 1.0
+   },
+   {
+    "name": "Secondary",
+    "hex": "#c7957e",
+    "alpha": 1.0
+   },
+   {
+    "name": "Disabled",
+    "hex": "#a09ea0",
+    "alpha": 1.0
+   },
+   {
+    "name": "Disabled Light",
+    "hex": "#d9d9d9",
+    "alpha": 1.0
+   },
+   {
+    "name": "Text",
+    "hex": "#473547",
+    "alpha": 1.0
+   },
+   {
+    "name": "Highlight",
+    "hex": "#5c5aff",
+    "alpha": 1.0
+   },
+   {
+    "name": "Shadow",
+    "hex": "#a18e96",
+    "alpha": 0.6039
+   },
+   {
+    "name": "MainGlow",
+    "hex": "#8a88ff",
+    "alpha": 1.0
+   },
+   {
+    "name": "Empty",
+    "hex": "#f2eeed",
+    "alpha": 0.5882
+   },
+   {
+    "name": "Semitransparent Background",
+    "hex": "#000000",
+    "alpha": 0.5529
+   },
+   {
+    "name": "Construction",
+    "hex": "#f0c056",
+    "alpha": 1.0
+   },
+   {
+    "name": "Food",
+    "hex": "#db4954",
+    "alpha": 1.0
+   },
+   {
+    "name": "Housing",
+    "hex": "#3975cd",
+    "alpha": 1.0
+   },
+   {
+    "name": "Community",
+    "hex": "#8e86f4",
+    "alpha": 1.0
+   },
+   {
+    "name": "Entertainment",
+    "hex": "#f99adf",
+    "alpha": 1.0
+   },
+   {
+    "name": "Wellness",
+    "hex": "#96d9ba",
+    "alpha": 1.0
+   },
+   {
+    "name": "Heat",
+    "hex": "#f69329",
+    "alpha": 1.0
+   },
+   {
+    "name": "Refreshment",
+    "hex": "#99c2ee",
+    "alpha": 1.0
+   },
+   {
+    "name": "Infraestructure",
+    "hex": "#6c966c",
+    "alpha": 1.0
+   },
+   {
+    "name": "Nutrition Advanced",
+    "hex": "#db4954",
+    "alpha": 1.0
+   },
+   {
+    "name": "Happiness",
+    "hex": "#ee6237",
+    "alpha": 1.0
+   },
+   {
+    "name": "Production",
+    "hex": "#8e9ec5",
+    "alpha": 1.0
+   },
+   {
+    "name": "Lifestyle",
+    "hex": "#ab75b8",
+    "alpha": 1.0
+   },
+   {
+    "name": "Ingredients",
+    "hex": "#e18f8f",
+    "alpha": 1.0
+   },
+   {
+    "name": "Food",
+    "hex": "#db4954",
+    "alpha": 1.0
+   },
+   {
+    "name": "Fields",
+    "hex": "#d87d68",
+    "alpha": 1.0
+   },
+   {
+    "name": "Fruit Trees",
+    "hex": "#ed5c5c",
+    "alpha": 1.0
+   },
+   {
+    "name": "Wood Trees",
+    "hex": "#cca971",
+    "alpha": 1.0
+   },
+   {
+    "name": "Error",
+    "hex": "#ff685d",
+    "alpha": 1.0
+   },
+   {
+    "name": "Warning",
+    "hex": "#fde055",
+    "alpha": 1.0
+   },
+   {
+    "name": "Output",
+    "hex": "#dedaf1",
+    "alpha": 1.0
+   },
+   {
+    "name": "Input",
+    "hex": "#ebe2d4",
+    "alpha": 1.0
+   },
+   {
+    "name": "Ranked",
+    "hex": "#91aef8",
+    "alpha": 1.0
+   },
+   {
+    "name": "Remix",
+    "hex": "#dbadf8",
+    "alpha": 1.0
+   },
+   {
+    "name": "Decorative",
+    "hex": "#a1bf75",
+    "alpha": 1.0
+   },
+   {
+    "name": "Hydration",
+    "hex": "#05a696",
+    "alpha": 1.0
+   },
+   {
+    "name": "Streak",
+    "hex": "#ff5a4b",
+    "alpha": 1.0
+   }
+  ],
+  "resource_categories": {
+   "Construction": {
+    "id": 273123,
+    "name_key": "ResourceCategory.Construction",
+    "colour": {
+     "name": "Construction",
+     "hex": "#f0c056",
+     "alpha": 1.0
+    },
+    "frame": "ResourceFrame",
+    "icon": 273829
+   },
+   "Food": {
+    "id": 273124,
+    "name_key": "ResourceCategory.Food",
+    "colour": {
+     "name": "Food",
+     "hex": "#db4954",
+     "alpha": 1.0
+    },
+    "frame": "ResourceFrame",
+    "icon": 273818
+   },
+   "Ingredient": {
+    "id": 273125,
+    "name_key": "ResourceCategory.Ingredient",
+    "colour": {
+     "name": "Ingredients",
+     "hex": "#e18f8f",
+     "alpha": 1.0
+    },
+    "frame": "ResourceFrame",
+    "icon": 273831
+   },
+   "Lifestyle": {
+    "id": 273126,
+    "name_key": "ResourceCategory.Lifestyle",
+    "colour": {
+     "name": "Lifestyle",
+     "hex": "#ab75b8",
+     "alpha": 1.0
+    },
+    "frame": "ResourceFrame",
+    "icon": 273832
+   },
+   "Production": {
+    "id": 273127,
+    "name_key": "ResourceCategory.Production",
+    "colour": {
+     "name": "Production",
+     "hex": "#8e9ec5",
+     "alpha": 1.0
+    },
+    "frame": "ResourceFrame",
+    "icon": 273833
+   }
+  },
+  "resource_category_by_resource": {
+   "277707": "BakeryPeel",
+   "278743": "Food",
+   "279217": "Food",
+   "279343": "Food",
+   "279345": "Food",
+   "279352": "Food",
+   "279353": "Food",
+   "281861": "Lifestyle",
+   "282054": "Scythe",
+   "284026": "Construction",
+   "284810": "Food",
+   "284894": "Construction",
+   "285149": "Food",
+   "285897": "Lifestyle",
+   "285899": "Lifestyle",
+   "285901": "Lifestyle",
+   "285908": "Lifestyle",
+   "285910": "Lifestyle",
+   "286343": "Lifestyle",
+   "286344": "Food",
+   "286347": "Lifestyle",
+   "286358": "Ingredient",
+   "286361": "Lifestyle",
+   "286781": "Ingredient",
+   "287118": "Food",
+   "288580": "Food",
+   "289706": "PaperBucket",
+   "290524": "Food",
+   "292310": "Construction",
+   "292311": "Lifestyle",
+   "293926": "Construction",
+   "294702": "Food",
+   "295643": "Food",
+   "296315": "Food",
+   "300123": "Lifestyle",
+   "300124": "Lifestyle",
+   "300125": "Lifestyle",
+   "300126": "Food",
+   "300127": "Food",
+   "300128": "Lifestyle",
+   "300130": "Lifestyle",
+   "300131": "Lifestyle",
+   "303210": "Food",
+   "303802": "Food",
+   "304112": "Production",
+   "304113": "Ingredient",
+   "304437": "Hoe",
+   "304504": "Food",
+   "305506": "Food",
+   "307918": "CookieTray",
+   "307919": "Axe",
+   "307920": "Fishing Net",
+   "308077": "Construction",
+   "308078": "Production",
+   "308079": "Production",
+   "309166": "Production",
+   "309169": "Construction",
+   "309486": "Food",
+   "309894": "Scythe",
+   "310332": "Food",
+   "310740": "Food",
+   "312275": "Food",
+   "312704": "Construction",
+   "314863": "Food",
+   "318218": "SeedBag",
+   "318457": "Food",
+   "319667": "Food",
+   "319668": "BakeryPeelContent",
+   "319672": "BakeryPeelContent",
+   "319673": "Lifestyle",
+   "319676": "Food",
+   "319679": "Food",
+   "319680": "Food",
+   "319683": "Food",
+   "319686": "BakeryPeelContent",
+   "319687": "BakeryPeelContent",
+   "319696": "Food",
+   "319700": "Basket",
+   "319701": "Basket",
+   "319702": "PaperBucket",
+   "319703": "CheeseMakerBucket",
+   "319704": "Cooking Pot",
+   "319705": "Pick",
+   "319706": "Basket",
+   "319707": "GlassMakerBucket",
+   "319708": "PaperMold",
+   "319709": "ClayStep0Bucket",
+   "319710": "Basket",
+   "319711": "Basket",
+   "319713": "Axe",
+   "319714": "Basket",
+   "320491": "Food",
+   "320813": "Ingredient"
+  },
+  "building_categories": {
+   "Construction": {
+    "id": 273049,
+    "name_key": "BuildingCategory.Construction.Name",
+    "colour": {
+     "name": "Construction",
+     "hex": "#f0c056",
+     "alpha": 1.0
+    },
+    "frame": "BuildingsFrame",
+    "icon": 273829,
+    "buildings": [
+     "Lumberjack",
+     "ClayMaker",
+     "Quarry",
+     "Reed Cutter",
+     "Sawmill",
+     "Brick Maker",
+     "Forester old",
+     "Forester",
+     "Woodchopper",
+     "Stone Mine",
+     "Glass Maker"
+    ]
+   },
+   "Decorative": {
+    "id": 273050,
+    "name_key": "BuildingCategory.Decorative.Name",
+    "colour": {
+     "name": "Decorative",
+     "hex": "#a1bf75",
+     "alpha": 1.0
+    },
+    "frame": "BuildingsFrame",
+    "icon": 273816,
+    "buildings": [
+     "Decorative Tree Flame Tree",
+     "Decorative Tree Orchid Tree",
+     "Decorative Tree Jacaranda",
+     "Decorative Planter Birds of Paradise",
+     "Decorative Planter Hibiscus",
+     "Decorative Planter Hydrangea",
+     "Decorative Planter Calla Lilly",
+     "Decorative Planter Roses",
+     "Fountain",
+     "Halloween Fountain",
+     "Halloween Tombstone",
+     "Carved Statue",
+     "Snow Statue",
+     "Ogir Statue",
+     "Decorative Tree Silky Oak"
+    ]
+   },
+   "Food": {
+    "id": 273051,
+    "name_key": "BuildingCategory.Food.Name",
+    "colour": {
+     "name": "Food",
+     "hex": "#db4954",
+     "alpha": 1.0
+    },
+    "frame": "BuildingsFrame",
+    "icon": 273830,
+    "buildings": [
+     "Forager",
+     "Desert Forager",
+     "Farm",
+     "Orchard old",
+     "Orchard",
+     "HuntersHut",
+     "Open Kitchen",
+     "Open Kitchen _Halloween",
+     "Chicken Coop",
+     "Windmill",
+     "Bakery",
+     "Cookie Shop",
+     "Cookie Shop _Christmas",
+     "Greenhouse",
+     "Cheese Maker",
+     "Fondue Shop",
+     "Dried Meat Shop",
+     "Fishing Dock",
+     "Manchamanteles Shop",
+     "Oasis",
+     "Barley Porridge Shop",
+     "HuntersHutSwamp",
+     "Stroganoff Shop"
+    ]
+   },
+   "Housing": {
+    "id": 273052,
+    "name_key": "BuildingCategory.Housing.Name",
+    "colour": {
+     "name": "Housing",
+     "hex": "#3975cd",
+     "alpha": 1.0
+    },
+    "frame": "BuildingsFrame",
+    "icon": 273723,
+    "buildings": [
+     "House",
+     "House Plank",
+     "House Brick",
+     "House Stone",
+     "House Stone _Halloween",
+     "House With Chimney",
+     "Tropical House",
+     "House Desert"
+    ]
+   },
+   "Infrastructure": {
+    "id": 273053,
+    "name_key": "BuildingCategory.Infrastructure.Name",
+    "colour": {
+     "name": "Infraestructure",
+     "hex": "#6c966c",
+     "alpha": 1.0
+    },
+    "frame": "BuildingsFrame",
+    "icon": 273820,
+    "buildings": [
+     "Road Builder",
+     "Road",
+     "Road Stone",
+     "Road Brick",
+     "Bridge",
+     "Warehouse",
+     "Market",
+     "Trading Post Evergreen",
+     "Trading Post Winterland",
+     "Trading Post Tropics",
+     "Boot Maker",
+     "Upgraded Warehouse"
+    ]
+   },
+   "Lifestyle": {
+    "id": 273054,
+    "name_key": "BuildingCategory.Lifestyle.Name",
+    "colour": {
+     "name": "Lifestyle",
+     "hex": "#ab75b8",
+     "alpha": 1.0
+    },
+    "frame": "BuildingsFrame",
+    "icon": 273832,
+    "buildings": [
+     "Playground",
+     "Playground Halloween",
+     "Plaza",
+     "Halloween Plaza",
+     "Zen Garden",
+     "Zen Garden _Halloween",
+     "Park",
+     "Bonfire",
+     "IcePops Shop",
+     "Brewery",
+     "Smoothie Stand",
+     "Papermill old",
+     "Papermill",
+     "Journal",
+     "Scriptorium",
+     "Bottle Factory",
+     "Winery",
+     "Coat Maker",
+     "Canteen Maker",
+     "SwimmingPier",
+     "Winter Pub",
+     "Pendant Maker",
+     "Ukulele Maker",
+     "Well",
+     "Beehive",
+     "Mead Hall",
+     "Concoction Shop"
+    ]
+   },
+   "Mission": {
+    "id": 273055,
+    "name_key": "BuildingCategory.Mission.Name",
+    "colour": {
+     "name": "White",
+     "hex": "#ffffff",
+     "alpha": 1.0
+    },
+    "frame": "BuildingsFrame",
+    "icon": 273821,
+    "buildings": [
+     "Banner",
+     "zWatch Tower",
+     "zFake Watch Tower",
+     "zGingerbreadman Man",
+     "zWishing Well",
+     "zFestival Stage",
+     "zBeer Stand"
+    ]
+   },
+   "PlantField": {
+    "id": 273056,
+    "name_key": "Sources.Field.Name",
+    "colour": {
+     "name": "Fields",
+     "hex": "#d87d68",
+     "alpha": 1.0
+    },
+    "frame": "ResourceSourceFrame",
+    "icon": 273835,
+    "buildings": [
+     "Field Cabbage",
+     "Field Pumpkin",
+     "Field Pumpkin _Halloween",
+     "Field Beet",
+     "Field Corn",
+     "Field Tomato",
+     "Field Potato",
+     "Field Wheat",
+     "Field Cauliflower",
+     "Field Eggplant",
+     "Field Watermelon",
+     "Field Carrot",
+     "Field Onion"
+    ]
+   },
+   "PlantFruitTree": {
+    "id": 273057,
+    "name_key": "Sources.FruitTree.Name",
+    "colour": {
+     "name": "Fruit Trees",
+     "hex": "#ed5c5c",
+     "alpha": 1.0
+    },
+    "frame": "ResourceSourceFrame",
+    "icon": 273837,
+    "buildings": [
+     "Field AppleTree",
+     "Field BananaTree",
+     "Field DragonFruitTree",
+     "Field FigTree",
+     "Field GrapeTree",
+     "Field PalmTree",
+     "Field PomeloTree",
+     "Field NopalTree",
+     "Field DatePalmTree",
+     "Field BerryBush"
+    ]
+   },
+   "PlantWoodTree": {
+    "id": 273058,
+    "name_key": "Sources.WoodTree.Name",
+    "colour": {
+     "name": "Wood Trees",
+     "hex": "#cca971",
+     "alpha": 1.0
+    },
+    "frame": "ResourceSourceFrame",
+    "icon": 273841,
+    "buildings": [
+     "Field AshTree",
+     "Field JungleBigTree",
+     "Field JungleTree",
+     "Field PineTree",
+     "Field HalloweenTree",
+     "Field Winter PineTree",
+     "Field Mesquite",
+     "Field WillowTree",
+     "Field CypressTree"
+    ]
+   },
+   "Special": {
+    "id": 273059,
+    "name_key": "",
+    "colour": {
+     "name": "Main",
+     "hex": "#5c5aff",
+     "alpha": 1.0
+    },
+    "frame": "BuildingsFrame",
+    "icon": 0,
+    "buildings": [
+     "zAuthor's Stand",
+     "zPablo's Ladder",
+     "zGift Shop",
+     "zNonRecycle Trading Post Winterland"
+    ]
+   }
+  },
+  "frames": {
+   "BoostFrame": {
+    "name": "BoostFrame",
+    "background_sprite": 10101,
+    "lines_sprite": 9454,
+    "icon_anchor_min": {
+     "x": 0.18,
+     "y": 0.18
+    },
+    "icon_anchor_max": {
+     "x": 0.82,
+     "y": 0.82
+    }
+   },
+   "BuildingsFrame": {
+    "name": "BuildingsFrame",
+    "background_sprite": 9544,
+    "lines_sprite": 10080,
+    "icon_anchor_min": {
+     "x": 0.19,
+     "y": 0.12
+    },
+    "icon_anchor_max": {
+     "x": 0.81,
+     "y": 0.71
+    }
+   },
+   "CircleFrame": {
+    "name": "CircleFrame",
+    "background_sprite": 9893,
+    "lines_sprite": 9784,
+    "icon_anchor_min": {
+     "x": 0.16,
+     "y": 0.16
+    },
+    "icon_anchor_max": {
+     "x": 0.84,
+     "y": 0.84
+    }
+   },
+   "CircleFrameNoLine": {
+    "name": "CircleFrameNoLine",
+    "background_sprite": 9893,
+    "lines_sprite": 9784,
+    "icon_anchor_min": {
+     "x": 0.16,
+     "y": 0.16
+    },
+    "icon_anchor_max": {
+     "x": 0.84,
+     "y": 0.84
+    }
+   },
+   "CircleFrameNoLineDisabled": {
+    "name": "CircleFrameNoLineDisabled",
+    "background_sprite": 9893,
+    "lines_sprite": 9784,
+    "icon_anchor_min": {
+     "x": 0.16,
+     "y": 0.16
+    },
+    "icon_anchor_max": {
+     "x": 0.84,
+     "y": 0.84
+    }
+   },
+   "ConcernFrame": {
+    "name": "ConcernFrame",
+    "background_sprite": 10109,
+    "lines_sprite": 9975,
+    "icon_anchor_min": {
+     "x": 0.175,
+     "y": 0.175
+    },
+    "icon_anchor_max": {
+     "x": 0.825,
+     "y": 0.825
+    }
+   },
+   "GraphFrame": {
+    "name": "GraphFrame",
+    "background_sprite": 9677,
+    "lines_sprite": 9745,
+    "icon_anchor_min": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "icon_anchor_max": {
+     "x": 1.0,
+     "y": 1.0
+    }
+   },
+   "MissionFrame": {
+    "name": "MissionFrame",
+    "background_sprite": 9893,
+    "lines_sprite": 9784,
+    "icon_anchor_min": {
+     "x": 0.0875,
+     "y": 0.0875
+    },
+    "icon_anchor_max": {
+     "x": 0.9125,
+     "y": 0.9125
+    }
+   },
+   "ResourceFrame": {
+    "name": "ResourceFrame",
+    "background_sprite": 9457,
+    "lines_sprite": 9515,
+    "icon_anchor_min": {
+     "x": 0.15,
+     "y": 0.15
+    },
+    "icon_anchor_max": {
+     "x": 0.85,
+     "y": 0.85
+    }
+   },
+   "ResourceSourceFrame": {
+    "name": "ResourceSourceFrame",
+    "background_sprite": 9465,
+    "lines_sprite": 9570,
+    "icon_anchor_min": {
+     "x": 0.18,
+     "y": 0.18
+    },
+    "icon_anchor_max": {
+     "x": 0.82,
+     "y": 0.82
+    }
+   },
+   "ShieldFrame": {
+    "name": "ShieldFrame",
+    "background_sprite": 9573,
+    "lines_sprite": 9464,
+    "icon_anchor_min": {
+     "x": 0.0,
+     "y": 0.0
+    },
+    "icon_anchor_max": {
+     "x": 1.0,
+     "y": 1.0
+    }
+   }
+  }
  }
 }
