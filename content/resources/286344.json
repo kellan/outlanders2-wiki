@@ -60,7 +60,30 @@
         314771,
         318168
       ],
-      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+      "status": "per-unit ratio derived from the recorded per-cycle recipe",
+      "per_cycle": {
+        "inputs": [
+          {
+            "resource_id": 304113,
+            "name": "Meat",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 286344,
+            "name": "Dried Meat",
+            "count": 2
+          }
+        ],
+        "status": "confirmed",
+        "evidence": {
+          "kind": "field-guide",
+          "game_version": "30 (254)",
+          "date": "2026-10-26",
+          "reference": "Field guide screenshot gameplay-evidence/fieldguide/Dried-Meat-Shop.jpg (local agent playtest; research branch codex/playtest-observations, answers entry \"Additional ... field guides\")."
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "id": "basic-house-demolition-refund",
+  "target": {
+    "type": "buildings",
+    "id": "67675"
+  },
+  "claim": "Demolishing a finished Basic House gives back half its construction cost: 3 of its 6 Logs. Recycling a half-built site gives back everything delivered so far: 3 of 3 Logs.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Finished Basic House returns half its construction Logs (A6, completed)\". Screenshots: gameplay-evidence/refund/ (refund-1-partial-recycle-promises-3, refund-1-partial-after-12-logs, refund-3-finished-recycle-promises-3, refund-3-finished-after-9-logs)."
+  },
+  "notes": "Evergreen sandbox, Autobuild off, normal speed; global Log stock counted before and after (9 to 12 for the site, 6 to 9 for the finished house). The Recycle tab shows the amount it will return before you confirm. Only the Basic House was tested, so the 50% rule and its rounding are not yet confirmed for other buildings or materials."
+}

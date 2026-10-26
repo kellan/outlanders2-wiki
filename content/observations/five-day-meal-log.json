@@ -1,0 +1,16 @@
+{
+  "id": "five-day-meal-log",
+  "target": {
+    "type": "mechanics",
+    "id": "needs"
+  },
+  "claim": "Over the first five days of a fresh town, nine villagers with no kitchen ate 36 food units, 4 each: 0.8 units per villager per day. One adult was seen eating four times: day 1 early night, day 2 night, day 4 dawn and day 5 morning.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Five-day fresh-town meal observation completed (B1)\". Screenshots: gameplay-evidence/meals/ (meals-1-start-18fruit-36veggie, meals-6-dawn-endpoint-18-food and the meal checkpoints)."
+  },
+  "notes": "Evergreen sandbox, Maira, 9 villagers, 18 Fruit and 36 Veggies to start, no production, no houses. Matches the decoded Food meter: it starts at 130, falls 40 a day and one unit is worth 60, so five days need about 3.3 to 4 units each once the starting fill is used. Meals did not come at a fixed clock position. A finite starting window, not a long-run ration; food never ran out."
+}

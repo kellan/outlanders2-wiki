@@ -51,9 +51,9 @@
     "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
   },
   "dimensions": {
-    "x": 8.0,
-    "y": 4.0,
-    "z": 8.0
+    "x": 8,
+    "y": 4,
+    "z": 8
   },
   "placement_rules": {
     "ValidTerrains": [
@@ -132,5 +132,35 @@
     "fields": [
       "WorkplaceConfig"
     ]
+  },
+  "gameplay": {
+    "recipe_per_cycle": {
+      "inputs": [
+        {
+          "resource_id": 308078,
+          "name": "Bottle",
+          "count": 3
+        },
+        {
+          "resource_id": 300126,
+          "name": "Fruit",
+          "count": 6
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 285897,
+          "name": "Wine",
+          "count": 12
+        }
+      ],
+      "status": "confirmed",
+      "evidence": {
+        "kind": "field-guide",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Field guide screenshot gameplay-evidence/fieldguide/Winery.jpg (local agent playtest; research branch codex/playtest-observations, answers entry \"Additional ... field guides\")."
+      }
+    }
   }
 }

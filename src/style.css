@@ -128,3 +128,6 @@ nav.mech-nav{display:flex;flex-direction:row;flex-wrap:wrap;gap:6px 8px;margin:4
 .mech-nav a{display:inline-block;padding:5px 11px;border:1px solid var(--line);border-radius:999px;background:var(--white);font-size:12px;line-height:1.4}
 .mech-nav a[aria-current="page"]{background:var(--active);border-color:var(--active);color:var(--ink)!important;font-weight:650}
 main .fg-desc a.resource-link{color:var(--ink)}
+.seen-in-play ul{list-style:none;padding:0;margin:0}
+.seen-in-play li{border-left:3px solid var(--accent);background:var(--white);padding:10px 14px;margin:0 0 10px;border-radius:0 8px 8px 0}
+.seen-in-play li p{margin:0 0 4px}

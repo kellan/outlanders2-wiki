@@ -1,0 +1,16 @@
+{
+  "id": "drylands-sandbox-planting",
+  "target": {
+    "type": "biomes",
+    "id": "Desert"
+  },
+  "claim": "In a Drylands sandbox the Field menu offers Watermelon (yield 1, 4 days) and Carrot (yield 3, 9 days), the Wood Tree menu Mesquite (yield 2, 8 days), and the Fruit Tree menu Nopal and Date Palm (10 days). Mesquite can only be placed in the area around a Foresters' Hub, not around an Oasis.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Drylands visible crop and tree choices (A5); Drylands has a Foresters' Hub despite the decoded sandbox list (A5)\". Screenshots: gameplay-evidence/planters/ (planters-1-drylands-fields, planters-1-drylands-mesquite, planters-1-drylands-fruit, planters-1-mesquite-oasis-invalid, planters-1-mesquite-hub-area)."
+  },
+  "notes": "The Foresters' Hub is a base building available in every sandbox biome; the Drylands list in the files holds only the extra biome buildings, which is why it looked missing. Menu growth times match the decoded values. A worker was not seen planting a Mesquite, so the planting itself is not yet observed."
+}

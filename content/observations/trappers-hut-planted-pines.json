@@ -1,0 +1,16 @@
+{
+  "id": "trappers-hut-planted-pines",
+  "target": {
+    "type": "buildings",
+    "id": "80802"
+  },
+  "claim": "Trappers' Huts hunt rabbits from Winter Pines planted by a Foresters' Hub, not only from wild trees.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "Maintainer report in chat, 26 October 2026: a player asked whether Trappers' Huts collect meat and hide from Foresters' Hub trees; the maintainer checked in play and they do."
+  },
+  "notes": "The game files agree: rabbit burrows are spawned by the Winter Pine itself (a Burrow Spawner on the tree prefab: at most 1 burrow per pine, a new one every 6 to 10 days). Because the spawner is part of the tree, a planted pine grows burrows the same way a wild one does. Each rabbit gives 2 Meat and 1 Animal Hide (Trappers' Hut field guide)."
+}

@@ -164,7 +164,7 @@
         "source_table": "LevelsStandalone",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-2",
       "menu_order": 1,
       "level_ids": [
@@ -172,7 +172,8 @@
         "Campaign2_Level1B",
         "Campaign2_Level1C"
       ],
-      "leader_name": "Jelena"
+      "leader_name": "Jelena",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Cory",
@@ -184,7 +185,7 @@
         "source_table": "LevelsStandalone",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-2",
       "menu_order": 2,
       "level_ids": [
@@ -192,7 +193,8 @@
         "Campaign2_Level2B",
         "Campaign2_Level2C"
       ],
-      "leader_name": "Cory"
+      "leader_name": "Cory",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Kaia",
@@ -204,7 +206,7 @@
         "source_table": "LevelsStandalone",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-2",
       "menu_order": 3,
       "level_ids": [
@@ -212,7 +214,8 @@
         "Campaign2_Level3B",
         "Campaign2_Level3C"
       ],
-      "leader_name": "Kaia"
+      "leader_name": "Kaia",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Chico",
@@ -224,7 +227,7 @@
         "source_table": "LevelsStandalone",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-2",
       "menu_order": 4,
       "level_ids": [
@@ -232,7 +235,8 @@
         "Campaign2_Level4B",
         "Campaign2_Level4C"
       ],
-      "leader_name": "Chico"
+      "leader_name": "Chico",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Izzy",
@@ -244,7 +248,7 @@
         "source_table": "LevelsStandalone",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-2",
       "menu_order": 5,
       "level_ids": [
@@ -252,7 +256,8 @@
         "Campaign2_Level5B",
         "Campaign2_Level5C"
       ],
-      "leader_name": "Izzy"
+      "leader_name": "Izzy",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Maira",
@@ -264,7 +269,7 @@
         "source_table": "LevelsStandalone",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-2",
       "menu_order": 6,
       "level_ids": [
@@ -272,7 +277,8 @@
         "Campaign2_Level6B",
         "Campaign2_Level6C"
       ],
-      "leader_name": "Maira"
+      "leader_name": "Maira",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Pablo3",
@@ -284,7 +290,7 @@
         "source_table": "LevelsStandalone",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-2",
       "menu_order": 7,
       "level_ids": [
@@ -292,7 +298,8 @@
         "Campaign2_Level7B",
         "Campaign2_Level7C"
       ],
-      "leader_name": "Pablo"
+      "leader_name": "Pablo",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Fjordi",
@@ -336,7 +343,7 @@
         "source_table": "Levels",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-1",
       "menu_order": 3,
       "level_ids": [
@@ -344,7 +351,8 @@
         "Level03B",
         "Level03C"
       ],
-      "leader_name": "Edgar"
+      "leader_name": "Edgar",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Felix",
@@ -356,7 +364,7 @@
         "source_table": "Levels",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-1",
       "menu_order": 7,
       "level_ids": [
@@ -364,7 +372,8 @@
         "Level07B",
         "Level07C"
       ],
-      "leader_name": "Felix"
+      "leader_name": "Felix",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Maddy",
@@ -376,7 +385,7 @@
         "source_table": "Levels",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-1",
       "menu_order": 4,
       "level_ids": [
@@ -384,7 +393,8 @@
         "Level04B",
         "Level04C"
       ],
-      "leader_name": "Maddy"
+      "leader_name": "Maddy",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Miranda",
@@ -396,7 +406,7 @@
         "source_table": "Levels",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-1",
       "menu_order": 2,
       "level_ids": [
@@ -404,7 +414,8 @@
         "Level02B",
         "Level02C"
       ],
-      "leader_name": "Miranda"
+      "leader_name": "Miranda",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Pablo",
@@ -436,7 +447,7 @@
         "source_table": "Levels",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-1",
       "menu_order": 5,
       "level_ids": [
@@ -444,7 +455,8 @@
         "Level05B",
         "Level05C"
       ],
-      "leader_name": "Pablo"
+      "leader_name": "Pablo",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Jaqweshia",
@@ -456,7 +468,7 @@
         "source_table": "Levels",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-1",
       "menu_order": 6,
       "level_ids": [
@@ -464,7 +476,8 @@
         "Level06B",
         "Level06C"
       ],
-      "leader_name": "Jaqweshia"
+      "leader_name": "Jaqweshia",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     }
   ],
   "challenges": {
@@ -6133,21 +6146,366 @@
       },
       "Greenhouse": {
         "claims": [
-          "Greenhouse field guide: enables farmers to plant fields and harvest vegetables in the Winterland biome.",
-          "Listed fields: Potato, Beet, Cabbage.",
-          "Construction: 6 Glass Panes + 6 Stone. Worker slots: 3."
+          "Field guide: Potato Field + Beet Field + Cabbage Field → 1 Veggie.",
+          "Provides needs: Food.",
+          "Construction: 6 Glass Pane + 6 Stone. Worker slots: 3."
         ],
-        "screenshot": "greenhouse-field-guide.png"
+        "screenshot": "fieldguide/Greenhouse-Winterlands.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)",
+        "earlier": {
+          "claims": [
+            "Greenhouse field guide: enables farmers to plant fields and harvest vegetables in the Winterland biome.",
+            "Listed fields: Potato, Beet, Cabbage.",
+            "Construction: 6 Glass Panes + 6 Stone. Worker slots: 3."
+          ],
+          "screenshot": "greenhouse-field-guide.png"
+        }
       },
       "Open Kitchen": {
         "claims": [
-          "Field guide: any 2 of Veggie, Meat or Egg (one shared count) + 1 Stick → 3 Stew.",
-          "Provides: each Stew shows Food 1 and Community 2.",
-          "Cost shows Clay and Stick; the amounts and the worker count were below the visible part of the screenshot."
+          "Field guide: 2 of any of Veggie, Meat, Egg + 1 Stick → 3 Stew.",
+          "Provides needs: Food 1, Community 2.",
+          "Construction: 8 Clay + 6 Stick. Worker slots: 3."
         ],
-        "screenshot": "open-kitchen-field-guide.png",
-        "captured": "2026-10-26, maintainer screenshot (phone)",
+        "screenshot": "fieldguide/Open-Kitchen.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)",
+        "earlier": {
+          "claims": [
+            "Field guide: any 2 of Veggie, Meat or Egg (one shared count) + 1 Stick → 3 Stew.",
+            "Provides: each Stew shows Food 1 and Community 2.",
+            "Cost shows Clay and Stick; the amounts and the worker count were below the visible part of the screenshot."
+          ],
+          "screenshot": "open-kitchen-field-guide.png",
+          "captured": "2026-10-26, maintainer screenshot (phone)",
+          "discrepancy": "The decoded steps burn 1 Stick into 5 fires and use one fire per cook, so the worked-out ratio is 1/5 Stick per 3 Stew; the field guide counts the whole Stick. Stew's own stored values restore Food 1 and no Community: the Community 2 the guide shows is its display value (ResourceBehaviour.Visual), and the Community a villager gets comes from eating at the Open Kitchen's social spots (4 units a visit)."
+        },
         "discrepancy": "The decoded steps burn 1 Stick into 5 fires and use one fire per cook, so the worked-out ratio is 1/5 Stick per 3 Stew; the field guide counts the whole Stick. Stew's own stored values restore Food 1 and no Community: the Community 2 the guide shows is its display value (ResourceBehaviour.Visual), and the Community a villager gets comes from eating at the Open Kitchen's social spots (4 units a visit)."
+      },
+      "Beehive": {
+        "claims": [
+          "Field guide: nothing → 1 Honey.",
+          "Provides needs: Wellness 2.",
+          "Construction: 8 Clay + 6 Plank. Worker slots: 1."
+        ],
+        "screenshot": "fieldguide/Beehive.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Book Workshop": {
+        "claims": [
+          "Field guide: 1 Animal Hide + 2 Paper → 1 Book.",
+          "Provides needs: Fun.",
+          "Construction: 12 Stone + 8 Plank. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Book-Workshop.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Bootmakers' Shop": {
+        "claims": [
+          "Field guide: 2 Animal Hide + 1 Log → 1 Boots.",
+          "Construction: 12 Plank. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Bootmakers-Shop.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Bottle Factory": {
+        "claims": [
+          "Field guide: 1 Glass Pane + 2 Stick → 1 Bottle.",
+          "Construction: 6 Clay + 6 Brick. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Bottle-Factory.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)",
+        "discrepancy": "The field guide shows 2 Sticks per Bottle; the decoded steps work out to 1 Stick per Bottle. Which one a cycle actually burns is untested."
+      },
+      "Brewery": {
+        "claims": [
+          "Field guide: 1 Wheat + 1 Stick → 5 Beer.",
+          "Provides needs: Fun 2, Community 1.",
+          "Construction: 4 Stone + 15 Plank. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Brewery.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Brickyard": {
+        "claims": [
+          "Field guide: 1 Stick + 8 Clay → 8 Brick.",
+          "Construction: 9 Stick. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Brickyard.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Cheesery": {
+        "claims": [
+          "Field guide: 1 Stick → 6 Cheese.",
+          "Provides needs: Food 3.",
+          "Construction: 10 Log + 8 Brick. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Cheesery.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)",
+        "discrepancy": "The field guide lists only 1 Stick under Needs: the Cheesery milks its own cows, so Milk never appears as an input. The decoded steps burn half a Stick per wheel of 6 Cheese."
+      },
+      "Chicken Coop": {
+        "claims": [
+          "Field guide: nothing → 1 Egg.",
+          "Construction: 9 Plank. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Chicken-Coop.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Clay Pit": {
+        "claims": [
+          "Field guide: nothing → 1 Clay.",
+          "Construction: 10 Stick. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Clay-Pit.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Communal Plaza": {
+        "claims": [
+          "Provides needs: Community 1.",
+          "Construction: 7 Plank."
+        ],
+        "screenshot": "fieldguide/Communal-Plaza.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Cookie Shop": {
+        "claims": [
+          "Field guide: 1 Flour + 2 Egg + 1 Stick → 8 Cookie.",
+          "Provides needs: Food 1, Fun 2.",
+          "Construction: 3 Plank + 8 Brick. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Cookie-Shop.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Dried Meat Shop": {
+        "claims": [
+          "Field guide: 1 Meat → 2 Dried Meat.",
+          "Provides needs: Food 2.",
+          "Construction: 10 Log. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Dried-Meat-Shop.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Farm": {
+        "claims": [
+          "Field guide: Onion Field + Carrot Field + Eggplant Field + Cauliflower Field + Wheat Field + Tomato Field + Corn Field + Cabbage Field → 1 Veggie + 1 Wheat.",
+          "Provides needs: Food.",
+          "Construction: 4 Stick + 10 Clay. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Farm-top.jpg",
+        "more_screenshots": [
+          "fieldguide/Farm-cost.jpg"
+        ],
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Firewood Yard": {
+        "claims": [
+          "Field guide: 1 Log → 4 Stick.",
+          "Construction: 4 Log. Worker slots: 1."
+        ],
+        "screenshot": "fieldguide/Firewood-Yard.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Fishing Dock": {
+        "claims": [
+          "Field guide: nothing → 0-2 Meat.",
+          "Construction: 18 Plank. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Fishing-Dock.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)",
+        "discrepancy": "The field guide shows the catch as a range, 0 to 2 Meat, which matches the stored random catch per spot."
+      },
+      "Fondue Bar": {
+        "claims": [
+          "Field guide: 1 Cheese + 2 Veggie + 1 Stick → 5 Fondue.",
+          "Provides needs: Food 2, Fun 2.",
+          "Construction: 8 Brick + 10 Plank. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Fondue-Bar.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Foragers' Hut": {
+        "claims": [
+          "Field guide: Apple Tree + Fig Tree + Grape Vine + Berry Bush → 1 Fruit.",
+          "Provides needs: Food 1.",
+          "Construction: 9 Stick. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Foragers-Hut-top.jpg",
+        "more_screenshots": [
+          "fieldguide/Foragers-Hut-cost.jpg"
+        ],
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Foresters' Hub": {
+        "claims": [
+          "Field guide: Nopal Tree + Mesquite Tree + Date Palm Tree → 1 Log.",
+          "Construction: 10 Plank. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Foresters-Hub-Drylands.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Lumberjacks' Base": {
+        "claims": [
+          "Field guide: Ash Tree + Pine Tree + Apple Tree + Fig Tree + Grape Vine + Berry Bush → 1 Log.",
+          "Construction: 6 Stick. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Lumberjacks-Base-top.jpg",
+        "more_screenshots": [
+          "fieldguide/Lumberjacks-Base-cost.jpg"
+        ],
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Luthierie": {
+        "claims": [
+          "Field guide: 3 Log → 1 Ukulele.",
+          "Provides needs: Community.",
+          "Construction: 14 Log. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Luthierie.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Market": {
+        "claims": [
+          "Stores: Fruit, Veggie, Egg, Meat.",
+          "Construction: 4 Plank. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Market.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Mead Hall": {
+        "claims": [
+          "Field guide: 1 Stick + 1 Honey → 4 Mead.",
+          "Provides needs: Community 2, Fun 2.",
+          "Construction: 8 Stone + 9 Plank. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Mead-Hall.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Oasis": {
+        "claims": [
+          "Field guide: Nopal Tree + Date Palm Tree + Carrot Field + Watermelon Field → Veggie + Fruit + Nopalito.",
+          "Provides needs: Food.",
+          "Construction: 10 Plank. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Oasis-top.jpg",
+        "more_screenshots": [
+          "fieldguide/Oasis-cost.jpg"
+        ],
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Orchard": {
+        "claims": [
+          "Field guide: Apple Tree + Fig Tree + Grape Vine + Berry Bush → 1 Fruit.",
+          "Provides needs: Food 1.",
+          "Construction: 10 Plank. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Orchard-top.jpg",
+        "more_screenshots": [
+          "fieldguide/Orchard-cost.jpg"
+        ],
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Paper Mill": {
+        "claims": [
+          "Field guide: 1 Log → 1 Paper.",
+          "Construction: 14 Plank. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Paper-Mill.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Pendant Craftshop": {
+        "claims": [
+          "Field guide: 1 Glass Pane → 1 Pendant.",
+          "Provides needs: Wellness.",
+          "Construction: 4 Stone + 8 Brick. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Pendant-Craftshop.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Porridge Cookhouse": {
+        "claims": [
+          "Field guide: 1 Stick → 2 Barley Porridge.",
+          "Provides needs: Food 2, Community 1.",
+          "Construction: 12 Stone + 16 Log. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Porridge-Cookhouse.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)",
+        "discrepancy": "The field guide lists only 1 Stick: barley is grown on site. The decoded steps burn 1/5 Stick per 2 Barley Porridge, so the guide counts the whole Stick."
+      },
+      "Press": {
+        "claims": [
+          "Field guide: 2 Paper → 6 Newspaper.",
+          "Provides needs: Community 3, Fun 1.",
+          "Construction: 24 Brick. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Press.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Quarry": {
+        "claims": [
+          "Field guide: Rock → 1 Stone.",
+          "Construction: 6 Log. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Quarry.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Roadworks Office": {
+        "claims": [
+          "Lets you build: Road, Bridge, Stone Road.",
+          "Construction: 6 Log. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Roadworks-Office.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Smoothie Stand": {
+        "claims": [
+          "Field guide: 2 Fruit → 4 Smoothie.",
+          "Provides needs: Wellness 2.",
+          "Construction: 6 Plank + 4 Log. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Smoothie-Stand.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Stone Mine": {
+        "claims": [
+          "Field guide: 6 Log → 4 Stone.",
+          "Construction: 18 Plank + 12 Brick. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Stone-Mine.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Trading Outpost": {
+        "claims": [
+          "Field guide: 12 Wheat → 6 Glass Pane + 6 Animal Hide.",
+          "Construction: 6 Plank + 12 Stone. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Trading-Outpost-Evergreen.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)",
+        "discrepancy": "The field guide settles what the three decoded formulas mean: 12 Wheat in, 6 Glass Panes and 6 Animal Hides out. The earlier derived ratio of 1 Wheat to 1 Animal Hide picked up only one of the outputs."
+      },
+      "Trappers' Hut": {
+        "claims": [
+          "Field guide: 1 Rabbit → 2 Meat + 1 Animal Hide.",
+          "Construction: 4 Log + 8 Stick. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Trappers-Hut.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Warehouse": {
+        "claims": [
+          "Stores: Stick, Log, Stone, unclear: yellow tile with bundle of bound rods (possibly Reed Bunch or a bundle of sticks).",
+          "Construction: 4 Log. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Warehouse.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Winery": {
+        "claims": [
+          "Field guide: 3 Bottle + 6 Fruit → 12 Wine.",
+          "Provides needs: Fun 3, Wellness 1.",
+          "Construction: 10 Stone + 8 Plank. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Winery.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
       }
     },
     "campaigns": [

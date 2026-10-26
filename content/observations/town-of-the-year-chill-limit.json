@@ -1,0 +1,16 @@
+{
+  "id": "town-of-the-year-chill-limit",
+  "target": {
+    "type": "levels",
+    "id": "Single_C_Villagers100"
+  },
+  "claim": "Town of the Year is a Chill challenge with an 80-day limit: population 100 and satisfy Happiness, with everyone settled as the optional objective. Chill does not mean unlimited days.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Challenge categories and a Chill day limit (A4)\". Screenshots: gameplay-evidence/challenges/ (challenges-menu-chill, challenges-menu-chill-card)."
+  },
+  "notes": "Matches the stored 80-day limit for this map. The in-game Challenges screen describes Redux as familiar levels with a twist, Bounty as producing or stocking as much of a resource as possible within a time limit, and Original as new handcrafted campaign-like levels; ranked Original challenges are timed in days."
+}
