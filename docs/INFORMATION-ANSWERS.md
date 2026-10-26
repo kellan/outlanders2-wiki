@@ -100,3 +100,59 @@ All timing uses normal speed, displayed day plus dial position, recorded leader 
 - Evidence: assets/gameplay-evidence/challenges/challenges-menu-rules.png; assets/gameplay-evidence/challenges/challenges-menu-chill.png; assets/gameplay-evidence/challenges/challenges-menu-chill-card.png; assets/gameplay-evidence/challenges/challenges-menu-ranked.png
 - Confidence: confirmed
 - Notes: Partial: no general description for the three older categories was exposed on the examined screens. Do not infer their full rules or ranking formula from the category names.
+
+## Campaign 1 and 2 complete story-to-level menu mapping (A3)
+- Status: new
+- Row: Story-to-level mapping for Campaign 1 and 2 stories
+- Fact: The following is the observed menu order; each story lists levels 1/3, 2/3, 3/3 respectively.
+- Target: Campaigns 1 and 2
+- Obtained by: in-game campaign and story menus
+- Conditions: English UI, all story cards accessible on this account
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/menus/menus-campaign-1.png; menus-campaign-2.png; menus-campaign-3.png; menus-c1-s1.png through menus-c1-s7.png; menus-c2-s1.png through menus-c2-s7.png (all under assets/gameplay-evidence/menus/)
+- Confidence: confirmed
+
+Campaign 1:
+1. Pablo’s Quest: The End of the World; Middle Ground; A New Start.
+2. Miranda’s Chance: The Itch; The Binge; The Chill.
+3. Edgar’s Growth: Edgar Shapes Up!; Edgar Relapses!; Edgar Bounces Back!
+4. Maddy’s Road: Road Song; Sugar Highway; Too Many Cookies.
+5. Pablo’s Exit: On Edge; Under Pressure; Blown Away.
+6. Jaqweshia’s Empire: Storefront; Management; Cache.
+7. Felix’s Blackout: Who’s There?; What Happened?; Where Am I?
+
+Campaign 2:
+1. Jelena’s Climb: Valley Draft; Slope Maze; Summit Heat.
+2. Cory’s Homework: Dad’s Woodlot; Mom’s Gardens; Cory’s Reign.
+3. Kaia’s Dream: Out of the Blue; Into the Jungle; By the Sea.
+4. Chico’s Wish: No memory; Remains; Forgotten.
+5. Izzy’s Break: Anthology; Greatest Hits; Sold Out.
+6. Maira’s Fortune: The Hermit; The Star; The Mirror.
+7. Pablo’s Lost: Unidentified; Familiar; Outgrown.
+
+## Campaign 3 visible contents (A3)
+- Status: new
+- Row: Campaign 3: menu placement of the three levels outside Fjordi's Birthday
+- Fact: At the bottom of the full Campaigns menu, Campaign 3 contains only Story 1, Fjordi’s Birthday. Its three level cards are Seventeen, Twenty-four, Thirty, labelled 1/3, 2/3, 3/3. No additional Campaign 3 story or “Other levels” grouping appears in this menu.
+- Target: Campaign 3
+- Obtained by: in-game campaign and story menus
+- Conditions: scrolled to bottom; all visible stories completed on this account
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/menus/menus-campaign-3.png; assets/gameplay-evidence/menus/menus-c3-s1.png
+- Confidence: confirmed
+- Notes: This establishes visible absence, not the identity, release status or alternate placement of three decoded maps. Do not invent a second story from stored scene identifiers.
+
+## Campaign entry prerequisite (A3)
+- Status: new
+- Row: Unlock prerequisites and what each level unlocks
+- Fact: Campaigns introduction says each story has three levels focused on the same leader or town, and after finishing the first three Stories in Campaign 1 the player can jump into any Campaign.
+- Target: Campaign selection
+- Obtained by: in-game menu text
+- Conditions: English UI; rule read from introduction, not tested on a new account
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/menus/menus-campaign-1.png
+- Confidence: confirmed
+- Notes: Individual level unlock prerequisites remain untested.
