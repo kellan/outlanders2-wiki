@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import * as changelogModule from './changelog.mjs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import {fileURLToPath} from 'node:url';
@@ -53,7 +54,7 @@ export function assembleContent(base=project){
  result.world.spoiler_policy=read('content/spoilers.json');
  for(const e of result.world.spoiler_policy.entries){if(e.type==='tournament'){assert.ok(seasonIds.has(e.id),'Unknown tournament season '+e.id)}else{const list=['buildings','chains'].includes(e.type)?result.rules.buildings:e.type==='resources'?result.rules.resources:result.world[e.type==='heroes'?'leaders':e.type];assert.ok(list?.some(x=>String(x.gameobject_id||x.id)===String(e.id)),'Unknown spoiler target '+e.id)}assert.ok(['reported-unreleased','confirmed-unreleased','related-release-unconfirmed'].includes(e.status),'Invalid spoiler status '+e.id);assert.ok(e.reason&&e.as_of,'Missing spoiler evidence '+e.id);}
  result.world.contribution_guide=fs.readFileSync(path.join(base,'CONTRIBUTING.md'),'utf8');
- result.world.changelog=fs.existsSync(path.join(base,'CHANGELOG.md'))?fs.readFileSync(path.join(base,'CHANGELOG.md'),'utf8'):'';
+ result.world.changelog=(()=>{try{const ch=changelogModule;ch.validate();return ch.assemble()}catch(e){if(e.code==='ERR_MODULE_NOT_FOUND')return '';throw e}})();
  return {datasets:result,count};
 }
 export function compileContent(){const {datasets,count}=assembleContent();fs.mkdirSync(path.join(project,'dist/data'),{recursive:true});for(const [name,data]of Object.entries(datasets))fs.writeFileSync(path.join(project,'dist/data',name+'.json'),JSON.stringify(data,null,2)+'\n');for(const file of ['app.js','style.css'])fs.copyFileSync(path.join(project,'src',file),path.join(project,'dist',file));console.log(`Validated and assembled ${count} content records.`);}

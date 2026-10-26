@@ -1,0 +1,1 @@
+Those recipes are now stored with each resource and used on resource pages and in level objective totals: Frostbound Valley's 100 Stew needs 67 Veggie (or Meat or Egg) and 7 Sticks instead of "gathered or traded" (#52).

@@ -1,0 +1,1 @@
+Level pages list visitors by arrival day ("30 adults on day 50, announced from the start" on Sold Out; three waves on Anthology) and other timed events such as rain and no-births notices; extraction buildings say what they gather and that nothing goes in; the Fishing Dock page states its random catch and real pile size (#48).
