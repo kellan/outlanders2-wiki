@@ -196,6 +196,20 @@
       "status": "related-release-unconfirmed",
       "as_of": "2026-10-25",
       "reason": "Stored as a style name only. The maintainer reports Rural as the live season on 25 October 2026, and the two seasons with full reward sets in the files (Nordic, Mesoamerican) are completed ones, so a name-only style that is not the live season is most likely a future season. Withheld until it is seen in game or in release notes; this does not assert it is unreleased."
+    },
+    {
+      "type": "buildings",
+      "id": "67921",
+      "status": "confirmed-unreleased",
+      "as_of": "2026-10-26",
+      "reason": "Confirmed from the game files on 2026-10-26: the Cypress Tree field prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it. It appears in no level or sandbox planting list."
+    },
+    {
+      "type": "buildings",
+      "id": "67915",
+      "status": "confirmed-unreleased",
+      "as_of": "2026-10-26",
+      "reason": "Confirmed from the game files on 2026-10-26: the Willow Tree field prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it. It appears in no level or sandbox planting list."
     }
   ]
 }

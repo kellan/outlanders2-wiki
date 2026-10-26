@@ -1,3 +1,21 @@
+## Audit for definitions not in the game (2026-10-26)
+
+Every building and plant page was checked for whether any named level or sandbox build list uses it. Ten were unused by either.
+
+Seven are real and stay. Their level only references them by objective:
+- **Concert Stage:** Sold Out.
+- **Pablo's Ladder:** On Edge.
+- **Wishing Well:** Forgotten.
+- **Gingerbread Man Man:** The Gingerbread Man Man.
+- **zBeer Stand:** the Beer is drunk there in Sold Out, and the stand appears in Anthology. It has a localization key but no English name.
+- **Giant Wheel and Hanging Garden:** stored under the game's level-unique buildings, with gates 21 and 20.
+
+Two more stay but move. Cypress Tree and Willow Tree have a field prefab gated at version 32, above the installed 30, so they go to Spoilers as confirmed unreleased, by the same rule as Oona.
+
+Only the field-plant template "Base" (92320) is hidden: it has no name, no cost and no level.
+
+The maintainer approved showing zBeer Stand as **Beer Stand**, after its localization key `Building.BeerStand`; the files hold no English name for it. Research pages keep the internal name, and the old `/buildings/zbeer-stand/` URL still resolves.
+
 ## Trading Outpost: a choice of one good, per biome (2026-10-26)
 
 #59 recorded the Evergreen field guide as 12 Wheat → 6 Glass Pane + 6 Animal Hide. That doubled the output. The prefab marks the workplace's outputs exclusive (`WorkplaceConfig.ExclusiveOutputs`, set on no other building), stores two separate 12 Wheat trades, and the Tournament hint `FastMode.Hint.FirstTradingPost.3` reads "Open the Resources tab to choose the resource you want to receive." One trade therefore gives 6 of whichever good is selected. The guide lists both because the prefab's `FormulaVisualConfig` shows both options under one input count.
