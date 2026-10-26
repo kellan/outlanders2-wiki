@@ -208,3 +208,16 @@ Campaign 2:
 - Evidence: assets/gameplay-evidence/fieldguide/Oasis-top.png; Oasis-cost.png; Foresters-Hub-Drylands.png; Trappers-Hut.png; Open-Kitchen.png; Chicken-Coop.png; Fondue-Bar.png; Dried-Meat-Shop.png; Fishing-Dock.png; Greenhouse-Winterlands.png (all in same directory)
 - Confidence: confirmed
 - Notes: Partial coverage; do not mark the all-buildings row complete. UI effect icons are not a measured need-meter conversion.
+
+## Partial Basic House returns delivered Logs (A6, first half)
+- Status: new
+- Row: What demolishing a finished building, and a half-built site, gives back
+- Fact: A Basic House site at 25% construction with 3/6 Logs delivered advertised 3 Logs on its Recycle tab. Global available Log stock was 9 before recycling and 12 after the worker completed recycling. The 3 delivered Logs were fully returned as a pile at the former site.
+- Target: Basic House, partially built
+- Obtained by: controlled gameplay, construction progress and Recycle panels, before/after global inventory
+- Conditions: fresh slot 4 “Playtest Refund”, Evergreen / Large Islands / medium, average population (9), abundant starting resources, Jaqweshia third appearance, Autobuild OFF. Day 1, normal speed. Started with 12 Logs; no lumber building or other Log-consuming site. Paused delivery at 3/6 before recycling. Idle villagers gathered Sticks, which were not part of this measurement.
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/refund/refund-setup-autobuild-off.png; refund-1-start-12-logs.png; refund-1-partial-3-delivered-9-stock.png; refund-1-partial-recycle-promises-3.png; refund-1-partial-after-12-logs.png (same directory)
+- Confidence: confirmed
+- Notes: Earlier filename refund-1-partial-2-delivered-9-stock.png is an intermediate capture; the final paused panel was 3/6. Finished-house comparison follows separately.
