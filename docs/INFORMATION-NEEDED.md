@@ -13,6 +13,8 @@ Every answer needs: the row it answers (quote the first cell), the fact with num
 
 Answers go in [issue 10, the answers thread](https://github.com/kellan/outlanders2-wiki/issues/10), one comment per fact with how it was obtained, the game version and any screenshot path. They are checked against the decoded data, recorded with evidence, and the row is removed in the same commit.
 
+Rows marked **mine** are collected, prioritised and mapped to the exact classes to decode in the research repository's [`docs/DECODE-TARGETS.md`](https://github.com/kellan/outlanders2-research/blob/decode-targets/docs/DECODE-TARGETS.md). Start there if you have the extraction workspace.
+
 How to read the "Source" column:
 
 - **mine**: decode it from the installed game files with the research tools (`kellan/outlanders2-research`).
