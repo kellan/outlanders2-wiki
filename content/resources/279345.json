@@ -8,13 +8,13 @@
     "content/resources_/manchamanteles shop/manchamanteles"
   ],
   "need_units": {
-    "FoodUnits": 1.0,
-    "EntertainmentUnits": 0.0,
-    "WellnessUnits": 0.0,
-    "CommunityUnits": 0.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 0.0,
-    "HeatUnits": 0.0
+    "FoodUnits": 1,
+    "EntertainmentUnits": 0,
+    "WellnessUnits": 0,
+    "CommunityUnits": 0,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 0,
+    "HeatUnits": 0
   },
   "consume_duration_override": null,
   "consumption_age_limits": null,
@@ -26,5 +26,98 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 105736,
+      "building_name": "Desert Cookhouse",
+      "per_unit": [
+        {
+          "resource_id": 300126,
+          "name": "Fruit",
+          "count": 0.3333
+        },
+        {
+          "resource_id": 300127,
+          "name": "Veggie",
+          "count": 0.3333
+        },
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 0.0667
+        }
+      ],
+      "batch": {
+        "inputs": [
+          {
+            "resource_id": 300126,
+            "name": "Fruit",
+            "count": 1
+          },
+          {
+            "resource_id": 300127,
+            "name": "Veggie",
+            "count": 1
+          },
+          {
+            "resource_id": 284894,
+            "name": "Stick",
+            "count": 0.2
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 279345,
+            "name": "Manchamanteles",
+            "count": 3
+          }
+        ]
+      },
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 300126,
+            "name": "Fruit",
+            "count": 5
+          },
+          {
+            "resource_id": 300127,
+            "name": "Veggie",
+            "count": 5
+          },
+          {
+            "resource_id": 284894,
+            "name": "Stick",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 279345,
+            "name": "Manchamanteles",
+            "count": 15
+          }
+        ]
+      },
+      "reused": [
+        {
+          "resource_id": 279355,
+          "name": "Plate",
+          "count": 1
+        }
+      ],
+      "brought_back": [],
+      "self_made": false,
+      "co_products": [],
+      "formula_ids": [
+        288997,
+        289610,
+        311896,
+        318674
+      ],
+      "status": "ratio read from the stored step graph (alternatives, fuel and returned containers folded in); not measured in play",
+      "graph": true
+    }
+  ]
 }

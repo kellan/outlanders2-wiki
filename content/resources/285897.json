@@ -8,13 +8,13 @@
     "content/resources_/winery/glassofwine"
   ],
   "need_units": {
-    "FoodUnits": 0.0,
-    "EntertainmentUnits": 6.0,
-    "WellnessUnits": 1.0,
-    "CommunityUnits": 0.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 0.0,
-    "HeatUnits": 0.0
+    "FoodUnits": 0,
+    "EntertainmentUnits": 6,
+    "WellnessUnits": 1,
+    "CommunityUnits": 0,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 0,
+    "HeatUnits": 0
   },
   "consume_duration_override": null,
   "consumption_age_limits": {
@@ -35,5 +35,83 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 105740,
+      "building_name": "Winery",
+      "per_unit": [
+        {
+          "resource_id": 300126,
+          "name": "Fruit",
+          "count": 0.5
+        },
+        {
+          "resource_id": 308078,
+          "name": "Bottle",
+          "count": 0.25
+        }
+      ],
+      "batch": {
+        "inputs": [
+          {
+            "resource_id": 300126,
+            "name": "Fruit",
+            "count": 2
+          },
+          {
+            "resource_id": 308078,
+            "name": "Bottle",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 285897,
+            "name": "Wine",
+            "count": 4
+          }
+        ]
+      },
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 300126,
+            "name": "Fruit",
+            "count": 2
+          },
+          {
+            "resource_id": 308078,
+            "name": "Bottle",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 285897,
+            "name": "Wine",
+            "count": 4
+          }
+        ]
+      },
+      "reused": [
+        {
+          "resource_id": 322436,
+          "name": "WineGlassEmpty",
+          "count": 1
+        }
+      ],
+      "brought_back": [],
+      "self_made": false,
+      "co_products": [],
+      "formula_ids": [
+        306809,
+        306819,
+        318340,
+        320555
+      ],
+      "status": "ratio read from the stored step graph (alternatives, fuel and returned containers folded in); not measured in play",
+      "graph": true
+    }
+  ]
 }

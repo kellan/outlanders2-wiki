@@ -8,13 +8,13 @@
     "content/resources_/nopal"
   ],
   "need_units": {
-    "FoodUnits": 0.0,
-    "EntertainmentUnits": 0.0,
-    "WellnessUnits": 0.0,
-    "CommunityUnits": 0.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 4.0,
-    "HeatUnits": 0.0
+    "FoodUnits": 0,
+    "EntertainmentUnits": 0,
+    "WellnessUnits": 0,
+    "CommunityUnits": 0,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 4,
+    "HeatUnits": 0
   },
   "consume_duration_override": null,
   "consumption_age_limits": null,
@@ -26,5 +26,121 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 38477,
+      "building_name": "Nopalero's Hut",
+      "per_unit": [
+        {
+          "resource_id": 286347,
+          "name": "Nopalito",
+          "count": 1,
+          "from_map": true
+        }
+      ],
+      "batch": {
+        "inputs": [
+          {
+            "resource_id": 286347,
+            "name": "Nopalito",
+            "count": 1,
+            "from_map": true
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 286347,
+            "name": "Nopalito",
+            "count": 1
+          }
+        ]
+      },
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 286347,
+            "name": "Nopalito",
+            "count": 1,
+            "from_map": true
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 286347,
+            "name": "Nopalito",
+            "count": 1
+          }
+        ]
+      },
+      "reused": [],
+      "brought_back": [],
+      "self_made": false,
+      "co_products": [],
+      "formula_ids": [
+        291044,
+        311266
+      ],
+      "status": "ratio read from the stored step graph (alternatives, fuel and returned containers folded in); not measured in play",
+      "graph": true
+    },
+    {
+      "building_id": 69350,
+      "building_name": "Oasis",
+      "per_unit": [
+        {
+          "resource_id": 286347,
+          "name": "Nopalito",
+          "count": 1,
+          "from_map": true
+        }
+      ],
+      "batch": {
+        "inputs": [
+          {
+            "resource_id": 286347,
+            "name": "Nopalito",
+            "count": 1,
+            "from_map": true
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 286347,
+            "name": "Nopalito",
+            "count": 1
+          }
+        ]
+      },
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 286347,
+            "name": "Nopalito",
+            "count": 1,
+            "from_map": true
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 286347,
+            "name": "Nopalito",
+            "count": 1
+          }
+        ]
+      },
+      "reused": [],
+      "brought_back": [],
+      "self_made": false,
+      "co_products": [],
+      "formula_ids": [
+        289975,
+        297818,
+        303468,
+        317563
+      ],
+      "status": "ratio read from the stored step graph (alternatives, fuel and returned containers folded in); not measured in play",
+      "graph": true
+    }
+  ]
 }

@@ -8,13 +8,13 @@
     "content/resources_/cheese maker/cheese"
   ],
   "need_units": {
-    "FoodUnits": 3.0,
-    "EntertainmentUnits": 0.0,
-    "WellnessUnits": 0.0,
-    "CommunityUnits": 0.0,
-    "RefreshmentUnits": 0.0,
-    "HydrationUnits": 0.0,
-    "HeatUnits": 0.0
+    "FoodUnits": 3,
+    "EntertainmentUnits": 0,
+    "WellnessUnits": 0,
+    "CommunityUnits": 0,
+    "RefreshmentUnits": 0,
+    "HydrationUnits": 0,
+    "HeatUnits": 0
   },
   "consume_duration_override": null,
   "consumption_age_limits": null,
@@ -26,5 +26,83 @@
     "fields": [
       "ResourceConfig"
     ]
-  }
+  },
+  "made_from": [
+    {
+      "building_id": 105730,
+      "building_name": "Cheesery",
+      "per_unit": [
+        {
+          "resource_id": 319686,
+          "name": "Milk",
+          "count": 0.1667,
+          "from_map": true
+        },
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 0.0833
+        }
+      ],
+      "batch": {
+        "inputs": [
+          {
+            "resource_id": 319686,
+            "name": "Milk",
+            "count": 1,
+            "from_map": true
+          },
+          {
+            "resource_id": 284894,
+            "name": "Stick",
+            "count": 0.5
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 319683,
+            "name": "Cheese",
+            "count": 6
+          }
+        ]
+      },
+      "smallest_whole_batch": {
+        "inputs": [
+          {
+            "resource_id": 319686,
+            "name": "Milk",
+            "count": 2,
+            "from_map": true
+          },
+          {
+            "resource_id": 284894,
+            "name": "Stick",
+            "count": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 319683,
+            "name": "Cheese",
+            "count": 12
+          }
+        ]
+      },
+      "reused": [],
+      "brought_back": [],
+      "self_made": false,
+      "co_products": [],
+      "formula_ids": [
+        279257,
+        281280,
+        286745,
+        289355,
+        292144,
+        295311,
+        313329
+      ],
+      "status": "ratio read from the stored step graph (alternatives, fuel and returned containers folded in); not measured in play",
+      "graph": true
+    }
+  ]
 }
