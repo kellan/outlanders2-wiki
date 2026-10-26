@@ -164,7 +164,7 @@
         "source_table": "LevelsStandalone",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-2",
       "menu_order": 1,
       "level_ids": [
@@ -172,7 +172,8 @@
         "Campaign2_Level1B",
         "Campaign2_Level1C"
       ],
-      "leader_name": "Jelena"
+      "leader_name": "Jelena",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Cory",
@@ -184,7 +185,7 @@
         "source_table": "LevelsStandalone",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-2",
       "menu_order": 2,
       "level_ids": [
@@ -192,7 +193,8 @@
         "Campaign2_Level2B",
         "Campaign2_Level2C"
       ],
-      "leader_name": "Cory"
+      "leader_name": "Cory",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Kaia",
@@ -204,7 +206,7 @@
         "source_table": "LevelsStandalone",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-2",
       "menu_order": 3,
       "level_ids": [
@@ -212,7 +214,8 @@
         "Campaign2_Level3B",
         "Campaign2_Level3C"
       ],
-      "leader_name": "Kaia"
+      "leader_name": "Kaia",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Chico",
@@ -224,7 +227,7 @@
         "source_table": "LevelsStandalone",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-2",
       "menu_order": 4,
       "level_ids": [
@@ -232,7 +235,8 @@
         "Campaign2_Level4B",
         "Campaign2_Level4C"
       ],
-      "leader_name": "Chico"
+      "leader_name": "Chico",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Izzy",
@@ -244,7 +248,7 @@
         "source_table": "LevelsStandalone",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-2",
       "menu_order": 5,
       "level_ids": [
@@ -252,7 +256,8 @@
         "Campaign2_Level5B",
         "Campaign2_Level5C"
       ],
-      "leader_name": "Izzy"
+      "leader_name": "Izzy",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Maira",
@@ -264,7 +269,7 @@
         "source_table": "LevelsStandalone",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-2",
       "menu_order": 6,
       "level_ids": [
@@ -272,7 +277,8 @@
         "Campaign2_Level6B",
         "Campaign2_Level6C"
       ],
-      "leader_name": "Maira"
+      "leader_name": "Maira",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Pablo3",
@@ -284,7 +290,7 @@
         "source_table": "LevelsStandalone",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-2",
       "menu_order": 7,
       "level_ids": [
@@ -292,7 +298,8 @@
         "Campaign2_Level7B",
         "Campaign2_Level7C"
       ],
-      "leader_name": "Pablo"
+      "leader_name": "Pablo",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Fjordi",
@@ -336,7 +343,7 @@
         "source_table": "Levels",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-1",
       "menu_order": 3,
       "level_ids": [
@@ -344,7 +351,8 @@
         "Level03B",
         "Level03C"
       ],
-      "leader_name": "Edgar"
+      "leader_name": "Edgar",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Felix",
@@ -356,7 +364,7 @@
         "source_table": "Levels",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-1",
       "menu_order": 7,
       "level_ids": [
@@ -364,7 +372,8 @@
         "Level07B",
         "Level07C"
       ],
-      "leader_name": "Felix"
+      "leader_name": "Felix",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Maddy",
@@ -376,7 +385,7 @@
         "source_table": "Levels",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-1",
       "menu_order": 4,
       "level_ids": [
@@ -384,7 +393,8 @@
         "Level04B",
         "Level04C"
       ],
-      "leader_name": "Maddy"
+      "leader_name": "Maddy",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Miranda",
@@ -396,7 +406,7 @@
         "source_table": "Levels",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-1",
       "menu_order": 2,
       "level_ids": [
@@ -404,7 +414,8 @@
         "Level02B",
         "Level02C"
       ],
-      "leader_name": "Miranda"
+      "leader_name": "Miranda",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Pablo",
@@ -436,7 +447,7 @@
         "source_table": "Levels",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-1",
       "menu_order": 5,
       "level_ids": [
@@ -444,7 +455,8 @@
         "Level05B",
         "Level05C"
       ],
-      "leader_name": "Pablo"
+      "leader_name": "Pablo",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     },
     {
       "id": "Jaqweshia",
@@ -456,7 +468,7 @@
         "source_table": "Levels",
         "unresolved_placeholders": []
       },
-      "level_mapping_status": "inferred_from_identifiers; story order menu_verified",
+      "level_mapping_status": "menu_verified",
       "campaign_id": "campaign-1",
       "menu_order": 6,
       "level_ids": [
@@ -464,7 +476,8 @@
         "Level06B",
         "Level06C"
       ],
-      "leader_name": "Jaqweshia"
+      "leader_name": "Jaqweshia",
+      "level_mapping_evidence": "Campaigns menus read in game, 26 October 2026 (local agent playtest); gameplay-evidence/menus/"
     }
   ],
   "challenges": {
@@ -6133,21 +6146,366 @@
       },
       "Greenhouse": {
         "claims": [
-          "Greenhouse field guide: enables farmers to plant fields and harvest vegetables in the Winterland biome.",
-          "Listed fields: Potato, Beet, Cabbage.",
-          "Construction: 6 Glass Panes + 6 Stone. Worker slots: 3."
+          "Field guide: Potato Field + Beet Field + Cabbage Field → 1 Veggie.",
+          "Provides needs: Food.",
+          "Construction: 6 Glass Pane + 6 Stone. Worker slots: 3."
         ],
-        "screenshot": "greenhouse-field-guide.png"
+        "screenshot": "fieldguide/Greenhouse-Winterlands.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)",
+        "earlier": {
+          "claims": [
+            "Greenhouse field guide: enables farmers to plant fields and harvest vegetables in the Winterland biome.",
+            "Listed fields: Potato, Beet, Cabbage.",
+            "Construction: 6 Glass Panes + 6 Stone. Worker slots: 3."
+          ],
+          "screenshot": "greenhouse-field-guide.png"
+        }
       },
       "Open Kitchen": {
         "claims": [
-          "Field guide: any 2 of Veggie, Meat or Egg (one shared count) + 1 Stick → 3 Stew.",
-          "Provides: each Stew shows Food 1 and Community 2.",
-          "Cost shows Clay and Stick; the amounts and the worker count were below the visible part of the screenshot."
+          "Field guide: 2 of any of Veggie, Meat, Egg + 1 Stick → 3 Stew.",
+          "Provides needs: Food 1, Community 2.",
+          "Construction: 8 Clay + 6 Stick. Worker slots: 3."
         ],
-        "screenshot": "open-kitchen-field-guide.png",
-        "captured": "2026-10-26, maintainer screenshot (phone)",
+        "screenshot": "fieldguide/Open-Kitchen.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)",
+        "earlier": {
+          "claims": [
+            "Field guide: any 2 of Veggie, Meat or Egg (one shared count) + 1 Stick → 3 Stew.",
+            "Provides: each Stew shows Food 1 and Community 2.",
+            "Cost shows Clay and Stick; the amounts and the worker count were below the visible part of the screenshot."
+          ],
+          "screenshot": "open-kitchen-field-guide.png",
+          "captured": "2026-10-26, maintainer screenshot (phone)",
+          "discrepancy": "The decoded steps burn 1 Stick into 5 fires and use one fire per cook, so the worked-out ratio is 1/5 Stick per 3 Stew; the field guide counts the whole Stick. Stew's own stored values restore Food 1 and no Community: the Community 2 the guide shows is its display value (ResourceBehaviour.Visual), and the Community a villager gets comes from eating at the Open Kitchen's social spots (4 units a visit)."
+        },
         "discrepancy": "The decoded steps burn 1 Stick into 5 fires and use one fire per cook, so the worked-out ratio is 1/5 Stick per 3 Stew; the field guide counts the whole Stick. Stew's own stored values restore Food 1 and no Community: the Community 2 the guide shows is its display value (ResourceBehaviour.Visual), and the Community a villager gets comes from eating at the Open Kitchen's social spots (4 units a visit)."
+      },
+      "Beehive": {
+        "claims": [
+          "Field guide: nothing → 1 Honey.",
+          "Provides needs: Wellness 2.",
+          "Construction: 8 Clay + 6 Plank. Worker slots: 1."
+        ],
+        "screenshot": "fieldguide/Beehive.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Book Workshop": {
+        "claims": [
+          "Field guide: 1 Animal Hide + 2 Paper → 1 Book.",
+          "Provides needs: Fun.",
+          "Construction: 12 Stone + 8 Plank. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Book-Workshop.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Bootmakers' Shop": {
+        "claims": [
+          "Field guide: 2 Animal Hide + 1 Log → 1 Boots.",
+          "Construction: 12 Plank. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Bootmakers-Shop.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Bottle Factory": {
+        "claims": [
+          "Field guide: 1 Glass Pane + 2 Stick → 1 Bottle.",
+          "Construction: 6 Clay + 6 Brick. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Bottle-Factory.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)",
+        "discrepancy": "The field guide shows 2 Sticks per Bottle; the decoded steps work out to 1 Stick per Bottle. Which one a cycle actually burns is untested."
+      },
+      "Brewery": {
+        "claims": [
+          "Field guide: 1 Wheat + 1 Stick → 5 Beer.",
+          "Provides needs: Fun 2, Community 1.",
+          "Construction: 4 Stone + 15 Plank. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Brewery.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Brickyard": {
+        "claims": [
+          "Field guide: 1 Stick + 8 Clay → 8 Brick.",
+          "Construction: 9 Stick. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Brickyard.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Cheesery": {
+        "claims": [
+          "Field guide: 1 Stick → 6 Cheese.",
+          "Provides needs: Food 3.",
+          "Construction: 10 Log + 8 Brick. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Cheesery.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)",
+        "discrepancy": "The field guide lists only 1 Stick under Needs: the Cheesery milks its own cows, so Milk never appears as an input. The decoded steps burn half a Stick per wheel of 6 Cheese."
+      },
+      "Chicken Coop": {
+        "claims": [
+          "Field guide: nothing → 1 Egg.",
+          "Construction: 9 Plank. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Chicken-Coop.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Clay Pit": {
+        "claims": [
+          "Field guide: nothing → 1 Clay.",
+          "Construction: 10 Stick. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Clay-Pit.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Communal Plaza": {
+        "claims": [
+          "Provides needs: Community 1.",
+          "Construction: 7 Plank."
+        ],
+        "screenshot": "fieldguide/Communal-Plaza.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Cookie Shop": {
+        "claims": [
+          "Field guide: 1 Flour + 2 Egg + 1 Stick → 8 Cookie.",
+          "Provides needs: Food 1, Fun 2.",
+          "Construction: 3 Plank + 8 Brick. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Cookie-Shop.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Dried Meat Shop": {
+        "claims": [
+          "Field guide: 1 Meat → 2 Dried Meat.",
+          "Provides needs: Food 2.",
+          "Construction: 10 Log. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Dried-Meat-Shop.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Farm": {
+        "claims": [
+          "Field guide: Onion Field + Carrot Field + Eggplant Field + Cauliflower Field + Wheat Field + Tomato Field + Corn Field + Cabbage Field → 1 Veggie + 1 Wheat.",
+          "Provides needs: Food.",
+          "Construction: 4 Stick + 10 Clay. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Farm-top.jpg",
+        "more_screenshots": [
+          "fieldguide/Farm-cost.jpg"
+        ],
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Firewood Yard": {
+        "claims": [
+          "Field guide: 1 Log → 4 Stick.",
+          "Construction: 4 Log. Worker slots: 1."
+        ],
+        "screenshot": "fieldguide/Firewood-Yard.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Fishing Dock": {
+        "claims": [
+          "Field guide: nothing → 0-2 Meat.",
+          "Construction: 18 Plank. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Fishing-Dock.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)",
+        "discrepancy": "The field guide shows the catch as a range, 0 to 2 Meat, which matches the stored random catch per spot."
+      },
+      "Fondue Bar": {
+        "claims": [
+          "Field guide: 1 Cheese + 2 Veggie + 1 Stick → 5 Fondue.",
+          "Provides needs: Food 2, Fun 2.",
+          "Construction: 8 Brick + 10 Plank. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Fondue-Bar.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Foragers' Hut": {
+        "claims": [
+          "Field guide: Apple Tree + Fig Tree + Grape Vine + Berry Bush → 1 Fruit.",
+          "Provides needs: Food 1.",
+          "Construction: 9 Stick. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Foragers-Hut-top.jpg",
+        "more_screenshots": [
+          "fieldguide/Foragers-Hut-cost.jpg"
+        ],
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Foresters' Hub": {
+        "claims": [
+          "Field guide: Nopal Tree + Mesquite Tree + Date Palm Tree → 1 Log.",
+          "Construction: 10 Plank. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Foresters-Hub-Drylands.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Lumberjacks' Base": {
+        "claims": [
+          "Field guide: Ash Tree + Pine Tree + Apple Tree + Fig Tree + Grape Vine + Berry Bush → 1 Log.",
+          "Construction: 6 Stick. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Lumberjacks-Base-top.jpg",
+        "more_screenshots": [
+          "fieldguide/Lumberjacks-Base-cost.jpg"
+        ],
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Luthierie": {
+        "claims": [
+          "Field guide: 3 Log → 1 Ukulele.",
+          "Provides needs: Community.",
+          "Construction: 14 Log. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Luthierie.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Market": {
+        "claims": [
+          "Stores: Fruit, Veggie, Egg, Meat.",
+          "Construction: 4 Plank. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Market.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Mead Hall": {
+        "claims": [
+          "Field guide: 1 Stick + 1 Honey → 4 Mead.",
+          "Provides needs: Community 2, Fun 2.",
+          "Construction: 8 Stone + 9 Plank. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Mead-Hall.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Oasis": {
+        "claims": [
+          "Field guide: Nopal Tree + Date Palm Tree + Carrot Field + Watermelon Field → Veggie + Fruit + Nopalito.",
+          "Provides needs: Food.",
+          "Construction: 10 Plank. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Oasis-top.jpg",
+        "more_screenshots": [
+          "fieldguide/Oasis-cost.jpg"
+        ],
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Orchard": {
+        "claims": [
+          "Field guide: Apple Tree + Fig Tree + Grape Vine + Berry Bush → 1 Fruit.",
+          "Provides needs: Food 1.",
+          "Construction: 10 Plank. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Orchard-top.jpg",
+        "more_screenshots": [
+          "fieldguide/Orchard-cost.jpg"
+        ],
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Paper Mill": {
+        "claims": [
+          "Field guide: 1 Log → 1 Paper.",
+          "Construction: 14 Plank. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Paper-Mill.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Pendant Craftshop": {
+        "claims": [
+          "Field guide: 1 Glass Pane → 1 Pendant.",
+          "Provides needs: Wellness.",
+          "Construction: 4 Stone + 8 Brick. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Pendant-Craftshop.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Porridge Cookhouse": {
+        "claims": [
+          "Field guide: 1 Stick → 2 Barley Porridge.",
+          "Provides needs: Food 2, Community 1.",
+          "Construction: 12 Stone + 16 Log. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Porridge-Cookhouse.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)",
+        "discrepancy": "The field guide lists only 1 Stick: barley is grown on site. The decoded steps burn 1/5 Stick per 2 Barley Porridge, so the guide counts the whole Stick."
+      },
+      "Press": {
+        "claims": [
+          "Field guide: 2 Paper → 6 Newspaper.",
+          "Provides needs: Community 3, Fun 1.",
+          "Construction: 24 Brick. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Press.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Quarry": {
+        "claims": [
+          "Field guide: Rock → 1 Stone.",
+          "Construction: 6 Log. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Quarry.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Roadworks Office": {
+        "claims": [
+          "Lets you build: Road, Bridge, Stone Road.",
+          "Construction: 6 Log. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Roadworks-Office.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Smoothie Stand": {
+        "claims": [
+          "Field guide: 2 Fruit → 4 Smoothie.",
+          "Provides needs: Wellness 2.",
+          "Construction: 6 Plank + 4 Log. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Smoothie-Stand.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Stone Mine": {
+        "claims": [
+          "Field guide: 6 Log → 4 Stone.",
+          "Construction: 18 Plank + 12 Brick. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Stone-Mine.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Trading Outpost": {
+        "claims": [
+          "Field guide: 12 Wheat → 6 Glass Pane + 6 Animal Hide.",
+          "Construction: 6 Plank + 12 Stone. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Trading-Outpost-Evergreen.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)",
+        "discrepancy": "The field guide settles what the three decoded formulas mean: 12 Wheat in, 6 Glass Panes and 6 Animal Hides out. The earlier derived ratio of 1 Wheat to 1 Animal Hide picked up only one of the outputs."
+      },
+      "Trappers' Hut": {
+        "claims": [
+          "Field guide: 1 Rabbit → 2 Meat + 1 Animal Hide.",
+          "Construction: 4 Log + 8 Stick. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Trappers-Hut.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Warehouse": {
+        "claims": [
+          "Stores: Stick, Log, Stone, unclear: yellow tile with bundle of bound rods (possibly Reed Bunch or a bundle of sticks).",
+          "Construction: 4 Log. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Warehouse.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Winery": {
+        "claims": [
+          "Field guide: 3 Bottle + 6 Fruit → 12 Wine.",
+          "Provides needs: Fun 3, Wellness 1.",
+          "Construction: 10 Stone + 8 Plank. Worker slots: 4."
+        ],
+        "screenshot": "fieldguide/Winery.jpg",
+        "captured": "2026-10-26, local agent playtest (field guide)"
       }
     },
     "campaigns": [
@@ -85061,6 +85419,22 @@
       "notes": "Resolved on 26 October: the Community 1 lives on the Porridge Cookhouse eating spot (see cookhouse-community-source), not on the dish. Stew (Open Kitchen, Community 4), Fondue and Manchamanteles (Fun 4) follow the same pattern."
     },
     {
+      "id": "basic-house-demolition-refund",
+      "target": {
+        "type": "buildings",
+        "id": "67675"
+      },
+      "claim": "Demolishing a finished Basic House gives back half its construction cost: 3 of its 6 Logs. Recycling a half-built site gives back everything delivered so far: 3 of 3 Logs.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "gameplay-test",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Finished Basic House returns half its construction Logs (A6, completed)\". Screenshots: gameplay-evidence/refund/ (refund-1-partial-recycle-promises-3, refund-1-partial-after-12-logs, refund-3-finished-recycle-promises-3, refund-3-finished-after-9-logs)."
+      },
+      "notes": "Evergreen sandbox, Autobuild off, normal speed; global Log stock counted before and after (9 to 12 for the site, 6 to 9 for the finished house). The Recycle tab shows the amount it will return before you confirm. Only the Basic House was tested, so the 50% rule and its rounding are not yet confirmed for other buildings or materials."
+    },
+    {
       "id": "bonfire-heat-source",
       "target": {
         "type": "buildings",
@@ -85075,6 +85449,38 @@
         "reference": "PileHeatSourceBehaviour on \"Bonfire/Workspots/HeatPile\": ConsumeHeatInDays 0.7, HeatSocialSpots 8, SocialSpotHeatUnits 4."
       },
       "notes": "The social-spot record from the research handoff stores Heat 2 on finishing a tend; the pile adds 4 units to visitors while it burns."
+    },
+    {
+      "id": "campaign-3-menu-contents",
+      "target": {
+        "type": "campaigns",
+        "id": "campaign-3"
+      },
+      "claim": "The Campaigns menu shows a single story in Campaign 3, Fjordi's Birthday, with Seventeen, Twenty-four and Thirty. No other Campaign 3 story or level appears.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "gameplay-test",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Campaign 3 visible contents (A3)\". Screenshots: gameplay-evidence/menus/ (menus-campaign-3, menus-c3-s1)."
+      },
+      "notes": "Visible absence only: the three other maps the files place in Campaign 3 are not shown on this account, which says nothing yet about whether they are unreleased or placed elsewhere."
+    },
+    {
+      "id": "campaign-unlock-rule",
+      "target": {
+        "type": "campaigns",
+        "id": "campaign-1"
+      },
+      "claim": "After the first three stories of Campaign 1, you can jump into any campaign.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "official-source",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Campaign entry prerequisite (A3)\". Screenshots: gameplay-evidence/menus/menus-campaign-1."
+      },
+      "notes": "The rule as the Campaigns introduction states it in game; not tested on a new account. Per-level unlocks are still open."
     },
     {
       "id": "cheesery-pile-capacity",
@@ -85157,6 +85563,38 @@
       "notes": "Stored value confirmed and matches the maintainer’s “small amount”. How a stored unit converts to the need meter, and whether the dish gives anything when eaten elsewhere, still need the off-site test."
     },
     {
+      "id": "day-counter-turns-at-dawn",
+      "target": {
+        "type": "mechanics",
+        "id": "time"
+      },
+      "claim": "The day counter goes up at dawn, as the dial's sun appears, not at sunset or midnight. The night face still belongs to the day before.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "gameplay-test",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Visible day counter increments at dawn (A2, boundary observation)\". Screenshots: gameplay-evidence/clock/ (clock-2-early-night, clock-2-late-night, clock-3-sunrise-counter-increment)."
+      },
+      "notes": "Screenshots bracket the change by about 10 to 15 real seconds. This places the visible day boundary; it does not by itself say which stored shift fraction is dawn. The decoded dial shows its day face for the first half of each day, so a day starting at dawn fits."
+    },
+    {
+      "id": "drylands-sandbox-planting",
+      "target": {
+        "type": "biomes",
+        "id": "Desert"
+      },
+      "claim": "In a Drylands sandbox the Field menu offers Watermelon (yield 1, 4 days) and Carrot (yield 3, 9 days), the Wood Tree menu Mesquite (yield 2, 8 days), and the Fruit Tree menu Nopal and Date Palm (10 days). Mesquite can only be placed in the area around a Foresters' Hub, not around an Oasis.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "gameplay-test",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Drylands visible crop and tree choices (A5); Drylands has a Foresters' Hub despite the decoded sandbox list (A5)\". Screenshots: gameplay-evidence/planters/ (planters-1-drylands-fields, planters-1-drylands-mesquite, planters-1-drylands-fruit, planters-1-mesquite-oasis-invalid, planters-1-mesquite-hub-area)."
+      },
+      "notes": "The Foresters' Hub is a base building available in every sandbox biome; the Drylands list in the files holds only the extra biome buildings, which is why it looked missing. Menu growth times match the decoded values. A worker was not seen planting a Mesquite, so the planting itself is not yet observed."
+    },
+    {
       "id": "firewood-yard-two-stick-definitions",
       "target": {
         "type": "resources",
@@ -85171,6 +85609,22 @@
         "reference": "ResourceBehaviour 284895 sits on GameObject \"FakeStick\" under the Woodchopper prefab; 284894 on \"Stick\". Decoded with the pure-Python IL2CPP reader (outlanders2-research, tools/decode_classes.py), every record consumed to its exact length."
       },
       "notes": "Level objective totals merge the two by name, so the Log cost of sticks is counted once."
+    },
+    {
+      "id": "five-day-meal-log",
+      "target": {
+        "type": "mechanics",
+        "id": "needs"
+      },
+      "claim": "Over the first five days of a fresh town, nine villagers with no kitchen ate 36 food units, 4 each: 0.8 units per villager per day. One adult was seen eating four times: day 1 early night, day 2 night, day 4 dawn and day 5 morning.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "gameplay-test",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Five-day fresh-town meal observation completed (B1)\". Screenshots: gameplay-evidence/meals/ (meals-1-start-18fruit-36veggie, meals-6-dawn-endpoint-18-food and the meal checkpoints)."
+      },
+      "notes": "Evergreen sandbox, Maira, 9 villagers, 18 Fruit and 36 Veggies to start, no production, no houses. Matches the decoded Food meter: it starts at 130, falls 40 a day and one unit is worth 60, so five days need about 3.3 to 4 units each once the starting fill is used. Meals did not come at a fixed clock position. A finite starting window, not a long-run ration; food never ran out."
     },
     {
       "id": "fondue-fun-check",
@@ -85221,6 +85675,22 @@
       "notes": "A spawn event creates one fruit object and spawning pauses at the cap, so the stored values give fruit per tree only while it is being picked. Trees also drop sticks (orchard trees up to 4, forestry trees up to 2, one every 1.5–4.5 days)."
     },
     {
+      "id": "rural-season-rewards",
+      "target": {
+        "type": "tournament",
+        "id": "Amish"
+      },
+      "claim": "The Rural season's reward track, in order: Rural Palette, Rural Basic House, Rural Farm, Streak Shield, Rural Sawmill, 20 Leaderboard Bonus Points, Rural Cheesery, Streak Shield, Rural Windmill, 50 Leaderboard Bonus Points, Rural Winery, Streak Shield, Rural Villagers Style, 100 Leaderboard Bonus Points (the last at 92 Reward Points). On 26 October 2026 the season showed 10 days left.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "gameplay-test",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Rural season reward track and countdown (A4)\". Screenshots: gameplay-evidence/challenges/ (challenges-menu-tournament, challenges-menu-rewards-1 to 4)."
+      },
+      "notes": "Read from the Tournament screen without claiming anything. Ten days left on 26 October puts the end around 5 November 2026; the screen shows a countdown, not a date."
+    },
+    {
       "id": "stroganoff-version-gate",
       "target": {
         "type": "buildings",
@@ -85251,6 +85721,38 @@
         "reference": "Maintainer report, 25 October 2026, from the running game."
       },
       "notes": "Seasons rotate, so this is true as of the date given. The Rural style is stored under the internal key Amish with only its name; its reward set is not in the extracted text, unlike the completed Nordic and Mesoamerican seasons."
+    },
+    {
+      "id": "town-of-the-year-chill-limit",
+      "target": {
+        "type": "levels",
+        "id": "Single_C_Villagers100"
+      },
+      "claim": "Town of the Year is a Chill challenge with an 80-day limit: population 100 and satisfy Happiness, with everyone settled as the optional objective. Chill does not mean unlimited days.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "gameplay-test",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Challenge categories and a Chill day limit (A4)\". Screenshots: gameplay-evidence/challenges/ (challenges-menu-chill, challenges-menu-chill-card)."
+      },
+      "notes": "Matches the stored 80-day limit for this map. The in-game Challenges screen describes Redux as familiar levels with a twist, Bounty as producing or stocking as much of a resource as possible within a time limit, and Original as new handcrafted campaign-like levels; ranked Original challenges are timed in days."
+    },
+    {
+      "id": "trappers-hut-planted-pines",
+      "target": {
+        "type": "buildings",
+        "id": "80802"
+      },
+      "claim": "Trappers' Huts hunt rabbits from Winter Pines planted by a Foresters' Hub, not only from wild trees.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "player-report",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Maintainer report in chat, 26 October 2026: a player asked whether Trappers' Huts collect meat and hide from Foresters' Hub trees; the maintainer checked in play and they do."
+      },
+      "notes": "The game files agree: rabbit burrows are spawned by the Winter Pine itself (a Burrow Spawner on the tree prefab: at most 1 burrow per pine, a new one every 6 to 10 days). Because the spawner is part of the tree, a planted pine grows burrows the same way a wild one does. Each rabbit gives 2 Meat and 1 Animal Hide (Trappers' Hut field guide)."
     },
     {
       "id": "tree-felling-yields",
@@ -85299,6 +85801,22 @@
         "reference": "PileHeatSourceBehaviour on \"House With Chimney/Heat Pile\": ConsumeHeatInDays 1, HeatSleepSpots 4, SocialSpotHeatUnits 6."
       },
       "notes": "What 6 heat units are worth on the Heat meter is not stored with the pile; the Needs page gives the meter settings."
+    },
+    {
+      "id": "winterlands-greenhouse-fields",
+      "target": {
+        "type": "buildings",
+        "id": "69352"
+      },
+      "claim": "In the Winterlands, fields can only be placed inside a Greenhouse's glass-covered area: a Cabbage field inside is accepted, the same field on open snow is refused. The Winterlands Field menu offers Cabbage (yield 1, 4 days), Beet (yield 2, 7 days) and Potato (yield 3, 9 days); Winter Pine is the only tree and there is no fruit tree menu.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "gameplay-test",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Winterlands crops and Greenhouse placement rule (A5)\". Screenshots: gameplay-evidence/planters/ (planters-1-cabbage-inside-valid, planters-1-cabbage-outside-invalid, planters-1-winterlands-fields, planters-1-winterlands-trees)."
+      },
+      "notes": "Winterlands sandbox, Pablo, day 1. Placement rules only; no growth was timed."
     }
   ],
   "strategies": [
@@ -86063,5 +86581,5 @@
     ]
   },
   "contribution_guide": "# Contribute to the Outlanders 2 guide\n\nThis is a community-maintained reference with reviewed changes. Pages are generated from data files; they are not edited directly in the browser.\n\n## Report a correction\n\nOpen a [content correction](https://github.com/kellan/outlanders2-wiki/issues/new?template=content-correction.yml) form. It asks for the page, what it currently says, your proposed correction, how you know, the game version, and evidence. To report something you measured or saw in play without proposing a specific text change, use the [gameplay observation](https://github.com/kellan/outlanders2-wiki/issues/new?template=gameplay-observation.yml) form; every research page links to it with the entry filled in. A screenshot of the field guide or a reproducible gameplay test is useful. Describe starting conditions and what you actually observed. You do not need to change code to contribute.\n\nThe [GitHub repository](https://github.com/kellan/outlanders2-wiki) is public. Everyone is welcome to report corrections and contribute through issues and pull requests.\n\n## Make an edit\n\n1. Create a branch for one correction or closely related set of changes.\n2. Find the entry with `npm run content:find -- pumpkin`, or browse the content folders. Every article page also ends with a \"Suggest an edit\" link that opens its JSON record in the GitHub editor, and a \"Report a problem\" link that starts a correction issue for that page.\n3. Edit the JSON record, preserving its stable ID and source references. Add evidence for factual changes.\n4. If you changed a building recipe or gameplay block, run `npm run content:derive` to refresh the stored `made_from` recipes on resources. Run `npm run build`, then `npm test` (optional for small browser edits; the pull request checks run both).\n5. Run `npm run dev` and review the changed page and its links at the local address printed by the server.\n6. Open a pull request describing what changed, why, the evidence, and the checks you ran.\n\nNode.js 18 or later is required. There are no third-party runtime packages to install.\n\n## Where to edit\n\n- `content/buildings/`: one building or plant per file; names, descriptions, worker limits, and linked processes.\n- `content/resources/`: one resource per file; names, satisfaction fields, and provenance.\n- `content/scenarios/`: one scenario per file; descriptions, objectives, day limits, build/plant lists, and need switches.\n- `content/leaders/` and `content/biomes/`: one entry per file.\n- `content/observations/`: one sourced claim or open question per file.\n- `content/collections.json`: ordered lists of record files. Add a new record here without changing existing IDs or casually reordering entries.\n- `content/reference/`: shared catalogs, recipes, source exports, and extraction metadata. Most corrections should not require editing these files.\n- `src/`: page rendering, stylesheet, and document shell.\n- `assets/`: game icons and gameplay evidence screenshots, copied into the site by the build.\n- `dist/`: the generated site. It is not committed; `npm run build` creates it locally and the deploy workflow publishes it after a merge.\n\nFiles use stable IDs rather than titles, so renaming Pumpkin does not break its links to scenarios. Use readable names in the `name` field; preserve internal identifiers for matching records.\n\n## Evidence and uncertainty\n\nUse the in-game field guide for displayed names, recipes, construction requirements, and worker slots. Use scenario data for stored objectives, building lists, and need switches. Use controlled gameplay observations for actual timing, yields, consumption, and behavior. A stored value is not automatically a measured gameplay result.\n\nRecord a new claim in `content/observations/`. Each record needs an ID, target type and ID, claim, status, and evidence with a kind, game version, date, and reference. See `content/observations/clay-pit-late-start.json` for an open question. Supported statuses are `open`, `confirmed`, and `disputed`. Supported evidence kinds are `player-report`, `field-guide`, `gameplay-test`, `decoded-data`, and `official-source`.\n\nObservation records appear in the article's research notes. They do not automatically replace gameplay facts. If a claim is confirmed, update the appropriate content field and explain how the evidence supports that change. Do not mark an observation confirmed just because it sounds plausible.\n\nPreserve contradictions. For example, the Bakery field guide and decoded process balance differ on fuel consumption. Record both rather than silently choosing one. If a factual correction changes a decoded objective, update its validation status and retain the original evidence; do not leave a claim that the changed values match the original bytes.\n\nFor scenario needs, omitted means unspecified; it does not mean false. For crops, use the exact scenario planting list. A sandbox biome reference alone does not establish normal crop availability. Unknown values must not be replaced with zero.\n\n## Share a level strategy\n\nLevel pages have a Strategy section for community advice: a summary, a suggested build order and things to watch out for. Use the [level strategy form](https://github.com/kellan/outlanders2-wiki/issues/new?template=level-strategy.yml) (every level page links to it with the level filled in). A maintainer converts the submission into `content/strategies/<level id>.json`, which has `summary`, `build_order` (building IDs with a note each), `pitfalls`, `status` (`draft` until someone has finished the level that way, then `reviewed`), `game_version`, `date`, `contributor` and `source`. Strategies are rendered apart from decoded data and labelled as community advice. Keep them specific to the level, and do not restate objectives the page already shows.\n\n## Suggest a link\n\nThe Guides elsewhere page points at strategy guides, walkthroughs, videos, tools and communities on other sites. Use the [link form](https://github.com/kellan/outlanders2-wiki/issues/new?template=external-link.yml). A maintainer adds accepted links to `content/links.json` (`id`, `title`, `url` (https), `site`, `type` one of `guide`, `walkthrough`, `video`, `community`, `official`, `tool`, `covers`, optional `levels` by id or name, `language`, `date_checked`, `status` `needs-check` until a maintainer has looked, then `listed`, and a one-line `note`). Level pages show the links that name them. Links are community pointers and are never cited as evidence for a decoded fact; a weekly check removes dead ones. We do not list copies of this wiki, paywalled pages or advert farms.\n\n## Spoilers and unreleased content\n\nUse `content/spoilers.json` to place confirmed or explicitly reported unreleased content in the Spoilers section. Each entry records its target, classification, date and reason. Related content can be withheld as `related-release-unconfirmed` without asserting it is unreleased. Use the existing availability record and explain the evidence. Do not infer unreleased status merely from an unfamiliar name or presence in the game files. Keep uncertain release status distinct from spoilers.\n\nHow unreleased status is established: each prefab in the game files carries a `MinGameVersion` gate on its `SerializedKeyBehaviour`; the game hides objects whose gate exceeds the running version. `content/reference/decoded-mechanics.json` (`min_game_version.roots`) records the gate of every prefab root and the installed game version. Mark an entry `confirmed-unreleased` only when its own prefab root stores a gate above the installed version (32 against 30 in the baseline build), and cite that in the reason. A maintainer or player report alone gives `reported-unreleased`. Scenarios, biomes or seasons that only exist for gated content but carry no gate of their own stay `related-release-unconfirmed`. A gate at or below the installed version does not prove public release on every platform; the release history in `availability.json` supplies dates where known.\n\nDo not expose spoiler names in ordinary index pages, search results, or related-entry lists. Test both the Spoilers page and the regular catalog when changing an availability record. Use a neutral issue or pull-request title when the details contain spoilers.\n\n## Images and private information\n\nUse only necessary evidence images, with the game version and source noted. Crop out account details and personal information. Do not upload game executables, complete asset bundles, decompiled assemblies, save games, credentials, or machine-specific logs. Game artwork and text have separate rights from the site's code; see the publication notes before adding redistributable assets.\n\n## Before requesting review\n\nAdd a changelog fragment: a new file `changelog/unreleased/<pr-number>-<slug>.md` holding one paragraph that says what a reader will see and the page to look at, ending with the pull request number in brackets. One file per change means two pull requests never edit the same line. `npm run changelog` shows the assembled log; the maintainer runs `npm run changelog:release` after merging a batch, which moves the fragments into `changelog/<date>.md` and rewrites `CHANGELOG.md`. `CONTENT-NOTES.md` stays the place for reasoning and provenance.\n\nKeep the change focused. Check names, numbers, links, evidence, and spoiler classification. List unresolved questions honestly. The maintainer reviews and merges changes. A merge to `main` builds, tests and publishes the website automatically; the pull request checks run the same build and tests, so browser-only edits get feedback without a local Node install.\n\n## Licensing and attribution\n\nSubmit original code and editorial contributions under the project’s MIT license. Only contribute material you have the right to license. Identify game-derived text, artwork and other third-party material and preserve its attribution: these are excluded from MIT. We retain game artwork and text as reference material without claiming ownership. See THIRD_PARTY_NOTICES.md for the boundary.\n",
-  "changelog": "# Changelog\n\nWhat changed on the wiki, newest first, with the page to look at. Entries live as one file per change under `changelog/` so pull requests never collide: add `changelog/unreleased/<pr-number>-<slug>.md` with one paragraph; `npm run changelog:release` dates a batch on merge. The game's own version history is on the [Changelog page](https://outlanders2wiki.com/changelog/) under \"Game updates\" (`content/history.json`). Reasoning and provenance stay in `CONTENT-NOTES.md`.\n\n## Unreleased\n\n- [Guides elsewhere](https://outlanders2wiki.com/guides/) gains what a web search turned up: the Outlanders 2 Fandom wiki, YouTube level walkthroughs, Apple's launch notes and the App Store listing. Links for the first game, including the Steam discussions (Outlanders 2 is not on Steam), sit in their own section. All are marked not yet reviewed (#58, issue 38).\n- The whole site now uses the in-game field guide's look: the game's stored colour palette and its interface font, Bricolage Grotesque; a dark mode that follows your system, with a toggle in the top bar; icons on tiles in their game category colour; and a field-guide card on every [building page](https://outlanders2wiki.com/buildings/open-kitchen/) laid out like the game's: each icon in its own colour, any-of inputs under one bracket, and Provides with the need values the guide shows. Table sorting now works on the published pages (#57, issue 56).\n- A [Mechanics](https://outlanders2wiki.com/mechanics/) section replaces the Needs link in the menu: new pages for [Happiness](https://outlanders2wiki.com/happiness/) (weights, the Boost, levels with a target), [Villagers and life](https://outlanders2wiki.com/villagers/) (ages, births, days to starve or freeze), [Heat, cooling and water](https://outlanders2wiki.com/heat-cooling-water/) (heat sources, Tropical weather), [Days and time](https://outlanders2wiki.com/time/) (a game day is five minutes, shifts, day limits) and [Gear](https://outlanders2wiki.com/gear/), with Needs, Houses and Gathering places grouped under it (#55, issue 1).\n\n## 2026-10-26\n\n- Changelog entries now live one file per change under `changelog/`, assembled at build time and released in dated batches with `npm run changelog:release`, so parallel pull requests no longer conflict on CHANGELOG.md (#53).\n- Those recipes are now stored with each resource and used on resource pages and in level objective totals: Frostbound Valley's 100 Stew needs 67 Veggie (or Meat or Egg) and 7 Sticks instead of \"gathered or traded\" (#52).\n- Readable recipes for the 32 buildings that said \"no single ratio applies\": Open Kitchen \"3 Stew ← 2 × (Veggie, Meat or Egg) + 1/5 Stick (plates reused)\", Winery, Brewery, Cheesery, Trappers' Hut and the rest; planters, storage and the beer stand get plain sentences (#51).\n- Dish pages (Stew, Fondue, Manchamanteles, Barley Porridge) and their eating places say why villagers prefer them over food of the same value: the second effect and eating in company (#50).\n- [Needs](https://outlanders2wiki.com/needs/) redesigned: an at-a-glance table of the eight needs, then compact item and place tables per need with meter points and second effects; Houses say crib and doghouse and explain why more houses mean more babies; Gathering places explains the unit; the Bonfire page says how long a stick burns (#49).\n- Level pages list visitors by arrival day (\"30 adults on day 50, announced from the start\" on Sold Out; three waves on Anthology) and other timed events such as rain and no-births notices; extraction buildings say what they gather and that nothing goes in; the Fishing Dock page states its random catch and real pile size (#48).\n- Every table sorts by clicking a column heading; numbers sort as numbers and blanks stay last (#46).\n- Wiki changelog: this file, rendered at the top of the [Changelog page](https://outlanders2wiki.com/changelog/) as \"Wiki changes\".\n- Guides elsewhere: a [links page](https://outlanders2wiki.com/guides-elsewhere/) for guides, videos and communities on other sites, a suggestion form, per-level links in Strategy sections and a weekly dead-link check (#43).\n- Level pages: Starting conditions now resolve workplaces, homes, roads, the starting leader, wild trees, growing crops, rock and reed sources, loose piles, tools, salvage and scripted arrivals; the [Levels directory](https://outlanders2wiki.com/levels/) gains a \"You start with\" column. See [Morrigwyn Stones](https://outlanders2wiki.com/levels/morrigwyn-stones/) (#42).\n- `docs/PLAYTESTS.md`: step-by-step in-game test protocols for a computer-use agent, separate from the file-decode questions (#44).\n- [Gathering places](https://outlanders2wiki.com/gathering-places/): what one visit to each park, plaza, kitchen or pub gives, read from the decoded social spots; building infoboxes and the [Needs page](https://outlanders2wiki.com/needs/) use the same data (#41).\n- [Houses](https://outlanders2wiki.com/houses/): every house compared, with baby and pet spots, cost per villager, heating, biomes and the reproduction values that make spare housing matter (#40).\n- Villagers fed: a Feeds row on plant pages, a Feeds column on the [Plants overview](https://outlanders2wiki.com/plants/) and a ranked \"How much each source feeds\" table on the [Food page](https://outlanders2wiki.com/food/) (#40).\n- Trees: a Spreads row with the stored self-seeding chance; the [Fishing Dock](https://outlanders2wiki.com/buildings/fishing-dock/) states its random catch and the [Bonfire](https://outlanders2wiki.com/buildings/bonfire/) the warmth its tender gains (#39).\n- Salvage: level Starting conditions list what ruins, crates, canoes, pallets and gifts return when dismantled, with a total (#30).\n- [Needs page](https://outlanders2wiki.com/needs/): \"How eating works\", from the stored hunger meter and the villagers' eat priority: the timeline from full to starving, the urge-to-eat table and what each food is worth (#28).\n- Level objective totals round up to whole items, and gathered items (sticks, logs, stone, fish, field crops) stop at the map instead of being worked back through a factory. See [Mom's Gardens](https://outlanders2wiki.com/levels/mom-s-gardens/) (#27).\n- Plants: pages show the sandbox biomes that plant each crop or tree, the building that plants it there and where it grows wild; \"Planted by\" is read from data, so the [Nopal Tree](https://outlanders2wiki.com/plants/nopal-tree/) is planted by the Oasis (#26).\n- Plants: yields lead by plant type, \"orchard trees\" are called fruit trees, and fruit trees get a Rate row comparing fruit per day and how fast a full tree fills (#26).\n- Spoilers page: a note on how unreleased status is decided from the files' version gates; construction-cost rollups tracked in issue 23 (#24).\n- [Plants](https://outlanders2wiki.com/plants/) become their own section with felling yields and fruit intervals for every tree; work schedules are described against the clock dial (#24).\n- Decoded mechanics on the site: output capacities, heating, baby and pet spots, version gates, need meters, concern effects, Tropical weather and tournament boosts (#22).\n- Resources store their own recipe (`made_from`), shown per unit on resource pages, and level pages gain \"What the objectives need\" (#19).\n\n## 2026-10-25\n\n- Companion layer: infoboxes, verification badges, uses and required-by links, grouped level availability, leader and story links, navboxes, catalog columns, contribution links and the CI test workflow (#13).\n- Level strategies: a contribution form and a Strategy section on every level page (#14).\n- Version history: per-entity History sections, the [Changelog page](https://outlanders2wiki.com/changelog/) of game updates, and seeded backdating (#15).\n- Production model, work schedules and ratio corrections on building pages; the information-needed list for the local agent (#16, #17).\n- Publishing from CI to the custom domain; Tournament Mode page and naming; spoilers demoted in navigation; issue forms; need effects stated by building descriptions (#18).\n- Stored-configuration additions: biome per level, starting conditions, the Needs page, age limits, harvest sources and placement rules (#22 groundwork).\n\n## 2026-10-24\n\n- Scenario extraction: 133 decoded level pages with exact objectives, day limits, build and plant lists and need flags; objective wording distinguishes Have, Create and HaveInBuilding.\n"
+  "changelog": "# Changelog\n\nWhat changed on the wiki, newest first, with the page to look at. Entries live as one file per change under `changelog/` so pull requests never collide: add `changelog/unreleased/<pr-number>-<slug>.md` with one paragraph; `npm run changelog:release` dates a batch on merge. The game's own version history is on the [Changelog page](https://outlanders2wiki.com/changelog/) under \"Game updates\" (`content/history.json`). Reasoning and provenance stay in `CONTENT-NOTES.md`.\n\n## Unreleased\n\n- Findings from the local agent's play session: field guides for 38 more buildings, all checked against the game files (the [Trading Outpost](https://outlanders2wiki.com/buildings/trading-outpost/) trades 12 Wheat for 6 Glass Panes and 6 Animal Hides), what demolishing a [Basic House](https://outlanders2wiki.com/buildings/basic-house/) gives back, the day counter turning at dawn, a five-day meal log on [Needs](https://outlanders2wiki.com/needs/), the Drylands and Winterlands planting menus, the Rural season rewards, and confirmed campaign level order. Pages now show a \"Seen in play\" section (#59).\n- [Guides elsewhere](https://outlanders2wiki.com/guides/) gains what a web search turned up: the Outlanders 2 Fandom wiki, YouTube level walkthroughs, Apple's launch notes and the App Store listing. Links for the first game, including the Steam discussions (Outlanders 2 is not on Steam), sit in their own section. All are marked not yet reviewed (#58, issue 38).\n- The whole site now uses the in-game field guide's look: the game's stored colour palette and its interface font, Bricolage Grotesque; a dark mode that follows your system, with a toggle in the top bar; icons on tiles in their game category colour; and a field-guide card on every [building page](https://outlanders2wiki.com/buildings/open-kitchen/) laid out like the game's: each icon in its own colour, any-of inputs under one bracket, and Provides with the need values the guide shows. Table sorting now works on the published pages (#57, issue 56).\n- A [Mechanics](https://outlanders2wiki.com/mechanics/) section replaces the Needs link in the menu: new pages for [Happiness](https://outlanders2wiki.com/happiness/) (weights, the Boost, levels with a target), [Villagers and life](https://outlanders2wiki.com/villagers/) (ages, births, days to starve or freeze), [Heat, cooling and water](https://outlanders2wiki.com/heat-cooling-water/) (heat sources, Tropical weather), [Days and time](https://outlanders2wiki.com/time/) (a game day is five minutes, shifts, day limits) and [Gear](https://outlanders2wiki.com/gear/), with Needs, Houses and Gathering places grouped under it (#55, issue 1).\n\n## 2026-10-26\n\n- Changelog entries now live one file per change under `changelog/`, assembled at build time and released in dated batches with `npm run changelog:release`, so parallel pull requests no longer conflict on CHANGELOG.md (#53).\n- Those recipes are now stored with each resource and used on resource pages and in level objective totals: Frostbound Valley's 100 Stew needs 67 Veggie (or Meat or Egg) and 7 Sticks instead of \"gathered or traded\" (#52).\n- Readable recipes for the 32 buildings that said \"no single ratio applies\": Open Kitchen \"3 Stew ← 2 × (Veggie, Meat or Egg) + 1/5 Stick (plates reused)\", Winery, Brewery, Cheesery, Trappers' Hut and the rest; planters, storage and the beer stand get plain sentences (#51).\n- Dish pages (Stew, Fondue, Manchamanteles, Barley Porridge) and their eating places say why villagers prefer them over food of the same value: the second effect and eating in company (#50).\n- [Needs](https://outlanders2wiki.com/needs/) redesigned: an at-a-glance table of the eight needs, then compact item and place tables per need with meter points and second effects; Houses say crib and doghouse and explain why more houses mean more babies; Gathering places explains the unit; the Bonfire page says how long a stick burns (#49).\n- Level pages list visitors by arrival day (\"30 adults on day 50, announced from the start\" on Sold Out; three waves on Anthology) and other timed events such as rain and no-births notices; extraction buildings say what they gather and that nothing goes in; the Fishing Dock page states its random catch and real pile size (#48).\n- Every table sorts by clicking a column heading; numbers sort as numbers and blanks stay last (#46).\n- Wiki changelog: this file, rendered at the top of the [Changelog page](https://outlanders2wiki.com/changelog/) as \"Wiki changes\".\n- Guides elsewhere: a [links page](https://outlanders2wiki.com/guides-elsewhere/) for guides, videos and communities on other sites, a suggestion form, per-level links in Strategy sections and a weekly dead-link check (#43).\n- Level pages: Starting conditions now resolve workplaces, homes, roads, the starting leader, wild trees, growing crops, rock and reed sources, loose piles, tools, salvage and scripted arrivals; the [Levels directory](https://outlanders2wiki.com/levels/) gains a \"You start with\" column. See [Morrigwyn Stones](https://outlanders2wiki.com/levels/morrigwyn-stones/) (#42).\n- `docs/PLAYTESTS.md`: step-by-step in-game test protocols for a computer-use agent, separate from the file-decode questions (#44).\n- [Gathering places](https://outlanders2wiki.com/gathering-places/): what one visit to each park, plaza, kitchen or pub gives, read from the decoded social spots; building infoboxes and the [Needs page](https://outlanders2wiki.com/needs/) use the same data (#41).\n- [Houses](https://outlanders2wiki.com/houses/): every house compared, with baby and pet spots, cost per villager, heating, biomes and the reproduction values that make spare housing matter (#40).\n- Villagers fed: a Feeds row on plant pages, a Feeds column on the [Plants overview](https://outlanders2wiki.com/plants/) and a ranked \"How much each source feeds\" table on the [Food page](https://outlanders2wiki.com/food/) (#40).\n- Trees: a Spreads row with the stored self-seeding chance; the [Fishing Dock](https://outlanders2wiki.com/buildings/fishing-dock/) states its random catch and the [Bonfire](https://outlanders2wiki.com/buildings/bonfire/) the warmth its tender gains (#39).\n- Salvage: level Starting conditions list what ruins, crates, canoes, pallets and gifts return when dismantled, with a total (#30).\n- [Needs page](https://outlanders2wiki.com/needs/): \"How eating works\", from the stored hunger meter and the villagers' eat priority: the timeline from full to starving, the urge-to-eat table and what each food is worth (#28).\n- Level objective totals round up to whole items, and gathered items (sticks, logs, stone, fish, field crops) stop at the map instead of being worked back through a factory. See [Mom's Gardens](https://outlanders2wiki.com/levels/mom-s-gardens/) (#27).\n- Plants: pages show the sandbox biomes that plant each crop or tree, the building that plants it there and where it grows wild; \"Planted by\" is read from data, so the [Nopal Tree](https://outlanders2wiki.com/plants/nopal-tree/) is planted by the Oasis (#26).\n- Plants: yields lead by plant type, \"orchard trees\" are called fruit trees, and fruit trees get a Rate row comparing fruit per day and how fast a full tree fills (#26).\n- Spoilers page: a note on how unreleased status is decided from the files' version gates; construction-cost rollups tracked in issue 23 (#24).\n- [Plants](https://outlanders2wiki.com/plants/) become their own section with felling yields and fruit intervals for every tree; work schedules are described against the clock dial (#24).\n- Decoded mechanics on the site: output capacities, heating, baby and pet spots, version gates, need meters, concern effects, Tropical weather and tournament boosts (#22).\n- Resources store their own recipe (`made_from`), shown per unit on resource pages, and level pages gain \"What the objectives need\" (#19).\n\n## 2026-10-25\n\n- Companion layer: infoboxes, verification badges, uses and required-by links, grouped level availability, leader and story links, navboxes, catalog columns, contribution links and the CI test workflow (#13).\n- Level strategies: a contribution form and a Strategy section on every level page (#14).\n- Version history: per-entity History sections, the [Changelog page](https://outlanders2wiki.com/changelog/) of game updates, and seeded backdating (#15).\n- Production model, work schedules and ratio corrections on building pages; the information-needed list for the local agent (#16, #17).\n- Publishing from CI to the custom domain; Tournament Mode page and naming; spoilers demoted in navigation; issue forms; need effects stated by building descriptions (#18).\n- Stored-configuration additions: biome per level, starting conditions, the Needs page, age limits, harvest sources and placement rules (#22 groundwork).\n\n## 2026-10-24\n\n- Scenario extraction: 133 decoded level pages with exact objectives, day limits, build and plant lists and need flags; objective wording distinguishes Have, Create and HaveInBuilding.\n"
 }
