@@ -1,3 +1,7 @@
+## Wiki changelog (2026-10-26)
+
+`CHANGELOG.md` is the reader-facing list of wiki changes, one line per merged pull request with the page to look at, backfilled from the merge history; it renders at the top of the Changelog page as "Wiki changes" above the game-update history. CONTRIBUTING asks every pull request to add its line under Unreleased. This file remains the provenance record.
+
 ## Playtest protocols for a computer-use agent (2026-10-26)
 
 `docs/PLAYTESTS.md` separates what must be learned by playing from what the research repository decodes: six screen-capture tasks (field guide, clock at sunrise, menus, challenge and tournament screens, planter menus, demolition refund) and nine timed tests (meal log, fish per cast, growth timing, gathering visits, Bakery output, cold, housing, planted-tree spread, day limit), each with setup, what to record, screenshot naming and the answers-inbox entry to write. INFORMATION-NEEDED points to it.
