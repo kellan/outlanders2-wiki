@@ -208,3 +208,13 @@ ClockUI.LateUpdate (0xC53048) rotates its dial by -360 × TimeInDay degrees, dis
 **Confidence:** verified schedule comparison and UI implementation; actual worker arrival/departure, sleep behavior and named clock hours remain unverified.
 
 [Issue answer](https://github.com/kellan/outlanders2-wiki/issues/10#issuecomment-6405809632)
+
+## Two Stick resource definitions — partial answer
+
+Row: Why two resource definitions are both named Stick (284894 and 284895), requested on wiki-companion-improvements 1ef64419.
+
+Version 30 (254), research date 2026-10-25. Method: existing decoded ResourceBehaviour records and linked GameObject inventory.
+
+Resource 284894 belongs to GameObject 35517, internally named `Stick`, and has ResourceCategory 273123. Resource 284895 belongs to GameObject 35518, internally named `FakeStick`, and has no ResourceCategory (null reference). Both ResourceConfig records contain zero need units. They therefore are distinct definitions despite a shared displayed name; do not merge their identity by name alone.
+
+This establishes an internal/template distinction, not yet its runtime purpose. The name FakeStick alone does not prove that it is excluded from stockpile totals or fuel use. Category acceptance, conversion formula direction and objective counting still need tracing before changing Log costs or declaring a second usable fuel type. Evidence: decoded-stream.jsonl ResourceBehaviour IDs 284894/284895, gameobjects.json IDs 35517/35518. No gameplay observation.
