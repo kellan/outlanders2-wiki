@@ -6,6 +6,8 @@ Every pull request adds its line under **Unreleased**; the maintainer moves the 
 
 ## Unreleased
 
+- Level pages list visitors by arrival day ("30 adults on day 50, announced from the start" on Sold Out; three waves on Anthology) and other timed events such as rain and no-births notices; extraction buildings say what they gather and that nothing goes in; the Fishing Dock page states its random catch and real pile size (#48).
+- Every table sorts by clicking a column heading; numbers sort as numbers and blanks stay last (#46).
 - Wiki changelog: this file, rendered at the top of the [Changelog page](https://outlanders2wiki.com/changelog/) as "Wiki changes".
 
 ## 2026-10-26
