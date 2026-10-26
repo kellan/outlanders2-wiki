@@ -269,3 +269,6 @@ console.log('PASS: research handoff integration.');
  assert.ok(strip(h.render('buildings/trading-outpost-75225/')).includes('8 Glass Pane → 6 Animal Hide or 9 Wheat'),'Tropics trade in infobox');
  const hide=strip(h.render('resources/animal-hide/'));assert.ok(hide.includes('Trading Outpost (Tropiclands)')&&hide.includes('Trading Outpost (Evergreen)')&&!/1 Wheat each/.test(hide),'resource page lists outposts by biome');
  console.log('PASS: Trading Outpost trades are a choice, per biome, with base and test variants hidden.');}
+{const plants=h.render('plants/');assert.ok(!/>Base</.test(plants),'junk Base plant row hidden');assert.ok(!h.pages.some(p=>p.type==='buildings'&&String(p.id)==='92320'),'Base plant page hidden');
+ for(const n of ['Cypress Tree','Willow Tree']){assert.ok(!plants.includes('>'+n+'<'),n+' kept off the plants list');assert.ok(h.render('spoilers/').includes(n),n+' listed on the spoilers page')}
+ console.log('PASS: junk Base plant hidden; update-32 Cypress and Willow trees moved to spoilers.');}
