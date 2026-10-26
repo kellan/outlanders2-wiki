@@ -312,3 +312,16 @@ Campaign 2:
 - Evidence: assets/gameplay-evidence/meals/
 - Confidence: uncertain
 - Notes: The requested five-eater equal-reach comparison was not completed. Retain this row as open; do not infer universal preference from the consumption split.
+
+## Fishing test setup could not reach a working dock (B2)
+- Status: new
+- Row: Fish per cast at the Fishing Dock
+- Fact: No cast yields were measured. Fishing Dock is available in the Tropiclands sandbox Food menu at a displayed cost of 18 Planks, but the attempted shoreline placements kept the Build button disabled. Reloading the town and trying a different shoreline section did not resolve the placement attempt.
+- Target: Fishing Dock
+- Obtained by: live build menu and attempted placement
+- Conditions: slot 6 Playtest Fishing; Miranda first appearance; Tropiclands / Large Islands / medium; average population (9), trees, rocks and reeds; abundant resources; Autobuild ON for setup; Rural style inherited. Day 1, normal speed, paused during placement inspection. No dock was constructed.
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/fishing/fishing-setup-tropiclands.png; fishing-setup-autobuild.png; fishing-setup-save-leader.png; fishing-1-placement-preview-limitation.png; fishing-1-reloaded-placement-still-disabled.png (same directory)
+- Confidence: uncertain
+- Notes: This is an unsuccessful setup, not evidence that docks cannot be built in this biome. The small colored placement tiles did not provide enough information to establish a valid orientation/location. Retain the 20-casts-per-spot question as open. A repeat Drylands Mesquite placement attempt also failed to accept an order; the earlier Hub menu/coverage evidence remains the only basis for that likely answer.
