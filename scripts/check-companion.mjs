@@ -48,12 +48,12 @@ const bakeryBox=bakery.slice(bakery.indexOf('class="infobox"'),bakery.indexOf('<
 assert.ok(bakeryBox.includes('8 Bread'),'infobox shows per-cycle output');assert.ok(bakery.includes('ratio per 1 Flour'),'formula-graph ratio still shown as supporting detail');
 const recipeRow=bakeryBox.slice(bakeryBox.indexOf('<dt>Recipe</dt>'),bakeryBox.indexOf('</div>',bakeryBox.indexOf('<dt>Recipe</dt>')));assert.ok(recipeRow&&!/\b40\b/.test(recipeRow),'recipe row must not present 40 Bread as output');
 assert.ok(bakery.includes('not a batch size, a storage limit or a speed'));
-assert.ok(h.render('verification/buildings/bakery/').includes('holds 40 Bread'),'capacity observation on research page');
+assert.ok(h.render('verification/buildings/bakery/').includes('nominal 60 Bread'),'capacity observation on research page');
 console.log('PASS: ratio presentation and Bakery capacity observation.');
 // Per-cycle recipe and capacity come from the gameplay block.
 const box2=(()=>{const b=h.render('buildings/bakery/');return b.slice(b.indexOf('class="infobox"'),b.indexOf('</aside>'))})();
 assert.ok(box2.includes('1 Flour')&&box2.includes('1 Stick')&&box2.includes('8 Bread'),'per-cycle recipe in infobox');
-assert.ok(box2.includes('Capacity')&&box2.includes('40 Bread'),'capacity in infobox');
+assert.ok(box2.includes('Capacity')&&box2.includes('60 Bread'),'capacity in infobox');
 assert.ok(!box2.includes('0.8 Stick'),'derived ratio must not replace the confirmed recipe');
 assert.ok(h.render('production-chains/bakery/').includes('How production works'));
 assert.ok(h.render('buildings/').includes('8 Bread'),'catalog uses per-cycle recipe');
@@ -123,5 +123,5 @@ assert.ok(h.render('buildings/chicken-coop/').includes('Reported output')&&h.ren
 assert.ok(h.render('verification/buildings/glassworks/').includes('Modelled production capacity'),'model on research page');
 assert.ok(h.render('production-chains/glassworks/').includes('Production notes'),'highlights on chain page');
 assert.ok(!h.render('buildings/glassworks/').includes('Modelled production capacity'),'model stays off reader page');
-assert.ok(h.render('buildings/bakery/').includes('(disputed)')||h.render('buildings/bakery/').includes('disputed'),'bakery capacity disputed');
+assert.ok(h.render('buildings/bakery/').includes('60 Bread'),'bakery capacity from decoded piles');
 console.log('PASS: research handoff integration.');

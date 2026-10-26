@@ -32,7 +32,7 @@ Copy this template for each fact:
 - Date: 2026-10-25
 - Evidence: none
 - Confidence: likely
-- Notes: Recorded as the Bakery gameplay block, player-report, on 25 October 2026. Shown here as a filled-in example.
+- Notes: Recorded as the Bakery gameplay block, player-report, on 25 October 2026. Superseded on 26 October by the decoded pile capacities (4 × 15 = 60) at the maintainer’s request. Kept as a filled-in example.
 
 ## Tournament Mode live, Rural season running
 - Status: recorded
