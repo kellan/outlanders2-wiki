@@ -1,0 +1,29 @@
+{
+  "note": "Links out to guides, walkthroughs, videos and communities elsewhere. Community pointers, never evidence: nothing here is cited as a source for decoded facts. Keep date_checked current; the weekly link check fails on dead URLs.",
+  "entries": [
+    {
+      "id": "reddit-outlanders-ios",
+      "title": "r/Outlanders_ios",
+      "url": "https://www.reddit.com/r/Outlanders_ios/",
+      "site": "Reddit",
+      "type": "community",
+      "covers": ["questions", "tips", "campaign puzzles"],
+      "language": "en",
+      "date_checked": "2026-10-26",
+      "status": "needs-check",
+      "note": "Subreddit started for the first game on Apple Arcade; its tips posts also discuss Outlanders 2 levels. Found by search, not yet reviewed by a maintainer."
+    },
+    {
+      "id": "pomelo-games",
+      "title": "Pomelo Games",
+      "url": "https://pomelogames.com/",
+      "site": "Pomelo Games",
+      "type": "official",
+      "covers": ["announcements", "updates"],
+      "language": "en",
+      "date_checked": "2026-10-26",
+      "status": "needs-check",
+      "note": "The studio's own site; update notes and links to its social channels."
+    }
+  ]
+}

@@ -38,6 +38,10 @@ Observations have their own records and render in research pages. Spoiler placem
 
 Every resource that a building recipe produces carries a generated `made_from` list: one entry per producing building with `per_unit` (inputs for one item, fractions allowed, so a Canteen is 2 Glass Pane, 1 Reed Bunch and 0.4 Stick), the `smallest_whole_batch` the decoded steps reduce to (10 Glass Pane + 2 Stick + 5 Reed Bunch → 5 Canteen), `per_cycle` when the building has a confirmed gameplay recipe, the `formula_ids` and a `status`. Do not edit it by hand: run `npm run content:derive` after changing a building's `derived_recipes` or `gameplay` block, and `npm run validate` fails when the stored values drift from the building data. Same-named conversions (Stick → Stick at the Firewood Yard) are skipped. Level pages use these entries to total what the objectives need, preferring recipes from buildings the map offers and never trading posts.
 
+## Links elsewhere (`links.json`)
+
+`content/links.json` lists guides, walkthroughs, videos, tools and communities on other sites, shown on the Guides elsewhere page and, where an entry names `levels`, on those level pages. Entries are community pointers with a `date_checked` and a `status`; they are never evidence. `scripts/check-links.mjs` fetches every URL and runs weekly.
+
 ## Gameplay block
 
 A building record may carry an optional `gameplay` object for facts established outside the decoded formula graph. `recipe_per_cycle` holds the player-facing recipe (`inputs`, `outputs`, `status`, `evidence`) and is rendered as the primary Recipe on building, chain and catalog pages, with the formula-graph ratio kept as supporting detail. `output_capacity` holds how much finished output the building stores before workers stop (`resource_id`, `name`, `count`, `status`, `evidence`). Evidence uses the same `kind`, `game_version`, `date` and `reference` fields as observation records, and `status` is `open`, `confirmed` or `disputed`. Never copy a derived ratio into this block without independent evidence.
