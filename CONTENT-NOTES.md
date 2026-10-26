@@ -1,3 +1,13 @@
+## Sandbox page (2026-10-26, issue 29)
+
+A new Mechanics page, Sandbox, renders the decoded settings:
+- **Starting population** (`MapGenerationOptions.population_choices`): Scarce is 4 adults; Average is 7 adults and 2 kids; Abundant is 12 adults, 6 kids and 2 elders.
+- **Map sizes:** 180 × 136, 228 × 140 and 256 × 208 tiles.
+- **Map generator targets** (`MapGenerator`): 15 buildable tiles and 3 food sources per villager.
+- **Per biome:** planting lists and extra needs, from `MapBiomeSettings`.
+
+The option labels are the settings' own key suffixes, since the files hold no English text for them. How the generator counts villagers, and what counts as a buildable tile or a food source, is in code that hasn't been read; the page says so. A count of buildings per biome was left out because the biome placeable lists mix biome-only extras (Drylands) with fuller lists (Evergreen).
+
 ## Audit for definitions not in the game (2026-10-26)
 
 Every building and plant page was checked for whether any named level or sandbox build list uses it. Ten were unused by either.
