@@ -10,6 +10,8 @@ export function assembleContent(base=project){
  const read=p=>JSON.parse(fs.readFileSync(path.join(base,p),'utf8'));
  const manifest=read('content/collections.json'),result={};let count=0;
  for(const file of fs.readdirSync(path.join(base,'content/reference')).filter(f=>f.endsWith('.json')))result[file.slice(0,-5)]=read('content/reference/'+file);
+ // Game-composited icon tiles (research tools/export_frames.py, issue 56): used when the local agent has committed them.
+ {const tiles=path.join(base,'assets/wiki-artwork/tiles.json');if(result.artwork&&fs.existsSync(tiles)){const t=JSON.parse(fs.readFileSync(tiles,'utf8'));for(const group of ['gameobjects','resources','concerns'])for(const e of Object.values(t[group]||{}))for(const k of ['tile','glyph'])if(e[k]&&!fs.existsSync(path.join(base,'assets/wiki-artwork',e[k])))throw new Error('tiles.json names a missing file: '+e[k]);result.artwork.tiles=t}}
  for(const [dataset,groups]of Object.entries(manifest))for(const [group,files]of Object.entries(groups)){
   const ids=new Set();result[dataset][group]=files.map(file=>{
    assert.ok(/^[a-z]+\/[A-Za-z0-9_.-]+\.json$/.test(file),'Invalid record path '+file);
@@ -57,5 +59,5 @@ export function assembleContent(base=project){
  result.world.changelog=(()=>{try{const ch=changelogModule;ch.validate();return ch.assemble()}catch(e){if(e.code==='ERR_MODULE_NOT_FOUND')return '';throw e}})();
  return {datasets:result,count};
 }
-export function compileContent(){const {datasets,count}=assembleContent();fs.mkdirSync(path.join(project,'dist/data'),{recursive:true});for(const [name,data]of Object.entries(datasets))fs.writeFileSync(path.join(project,'dist/data',name+'.json'),JSON.stringify(data,null,2)+'\n');for(const file of ['app.js','style.css'])fs.copyFileSync(path.join(project,'src',file),path.join(project,'dist',file));console.log(`Validated and assembled ${count} content records.`);}
+export function compileContent(){const {datasets,count}=assembleContent();fs.mkdirSync(path.join(project,'dist/data'),{recursive:true});for(const [name,data]of Object.entries(datasets))fs.writeFileSync(path.join(project,'dist/data',name+'.json'),JSON.stringify(data,null,2)+'\n');for(const file of ['app.js','style.css','page.js'])fs.copyFileSync(path.join(project,'src',file),path.join(project,'dist',file));console.log(`Validated and assembled ${count} content records.`);}
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){if(process.argv.includes('--check')){const {count}=assembleContent();console.log(`PASS: ${count} records, stable IDs, objective counts, need types, formulas and observation references.`);}else compileContent();}
