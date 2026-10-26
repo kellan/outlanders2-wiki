@@ -4,6 +4,8 @@ The maintainer reported that in game a crop field takes one square and a tree 2 
 
 The maintainer also asked whether Potato really matches Carrot and Onion. Per field it does: 3 Veggie over 9 days (four 2.25-day stages). The structure differs, though. A Potato field holds one plant whose harvest gives 3 Veggie; Carrot and Onion fields hold 3 plants giving 1 each. The yield row now says "one plant" or "3 plants, 1 each" in place of the planting-spot count.
 
+The maintainer asked for a site-wide rule. CONTRIBUTING.md gains a "Sizes and distances" section. Everything a player measures is written in game squares, through `footprint()`, and a test fails if stored dimensions are printed anywhere except the raw research aside. Stored distances whose unit is not established are labelled "grid units" instead of "tiles": tree seeding range and wild-spawn density. The sandbox map sizes and construction tiles stay as stored, and a new INFORMATION-NEEDED row asks play to confirm the units.
+
 The Food page got four more fixes:
 - The sources table gains a food-per-square column. A tree feeds more than a field, but on four times the ground, so per square a Carrot field (0.33) beats a Grape Vine (0.15).
 - The food list says Fun, not Entertainment.

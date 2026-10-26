@@ -46,6 +46,10 @@ Preserve contradictions. For example, the Bakery field guide and decoded process
 
 For scenario needs, omitted means unspecified; it does not mean false. For crops, use the exact scenario planting list. A sandbox biome reference alone does not establish normal crop availability. Unknown values must not be replaced with zero.
 
+## Sizes and distances
+
+Write every size and distance a player would measure in **game squares**, the cells of the placement grid as the game draws them: a crop field is 1 × 1, a fruit tree 2 × 2, a Basic House 2 × 2. The stored building grid (`GridDimensionsBehaviour`) uses two units per square, so stored dimensions are halved for display; on the site this goes through `footprint()` in `src/app.js`, and a test fails if a page prints stored dimensions anywhere but the raw research notes. When a stored distance or count has not been shown to use the same grid (tree seeding range, wild-spawn density, sandbox map sizes and construction tiles), show the stored number labelled "grid units" or "stored", never as squares, and add a row to INFORMATION-NEEDED until play confirms the unit.
+
 ## Share a level strategy
 
 Level pages have a Strategy section for community advice: a summary, a suggested build order and things to watch out for. Use the [level strategy form](https://github.com/kellan/outlanders2-wiki/issues/new?template=level-strategy.yml) (every level page links to it with the level filled in). A maintainer converts the submission into `content/strategies/<level id>.json`, which has `summary`, `build_order` (building IDs with a note each), `pitfalls`, `status` (`draft` until someone has finished the level that way, then `reviewed`), `game_version`, `date`, `contributor` and `source`. Strategies are rendered apart from decoded data and labelled as community advice. Keep them specific to the level, and do not restate objectives the page already shows.
