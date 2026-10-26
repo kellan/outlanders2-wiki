@@ -1,23 +1,22 @@
 {
   "id": "Level01A",
-  "summary": "Recycle the Canoe first: it returns 3 Logs, half of the log objective, and clears the optional objective before it is forgotten. Then build the Lumberjacks' Base (6 Sticks) with the 8 Sticks on the ground and the Foragers' Hut (9 Sticks) once fallen sticks from the apple trees make up the difference.",
+  "summary": "The opening level only asks for the two gathering huts and a small log stockpile, so the fastest finish is to build both huts immediately next to the trees and let the villagers stock logs.",
   "build_order": [
     {
-      "gameobject_id": 38478,
-      "note": "6 Sticks; the 8 starting Sticks cover it. Its Logs plus the Canoe's 3 finish the 6-Log objective."
+      "gameobject_id": 38476,
+      "note": "First objective; place it next to bushes so foragers keep the five adults fed."
     },
     {
-      "gameobject_id": 38476,
-      "note": "9 Sticks; wait for trees to drop more Sticks. Place it among the six Apple Trees so the three villagers stay fed."
+      "gameobject_id": 38478,
+      "note": "Second objective; the six logs it stocks complete the third."
     }
   ],
   "pitfalls": [
-    "Recycle the Canoe before anything else: it is the optional objective and 3 free Logs.",
-    "Two buildings need 15 Sticks but only 8 start on the map; the rest come from sticks the trees drop over time, so don't spend Sticks on anything else."
+    "The optional objective is to recycle the Canoe; it is easy to forget once the main objectives are done."
   ],
   "status": "draft",
   "game_version": "30 (254)",
-  "date": "2026-10-26",
+  "date": "2026-10-25",
   "contributor": "wiki maintainers",
-  "source": "Drafted from the decoded objectives, starting inventory, build list, construction costs and recipes (game data 30, build 254); not yet playtested. Checks for a test run are in docs/PLAYTESTS.md, Part C."
+  "source": "Drafted from the stored objectives and the 24 October menu observation; not a timed playthrough."
 }
