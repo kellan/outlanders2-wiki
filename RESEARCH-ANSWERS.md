@@ -173,3 +173,21 @@ Other requested social buildings:
 Bonfire social-spot configs themselves store zero need units; the HeatUnits=2 field is on **WorkspotCompleteModifyNeed** instead. That identifies a different application path worth tracing, and means zero social-spot values cannot establish no heating effect. Winter Cabin stove behavior remains unresolved.
 
 Confidence: confirmed serialized values and building links; partial interpretation of runtime benefits. Requests answered in part: “Where the second effect of dishes lives” and “How much a social-spot building raises its need”. Do not close the conversion-to-gameplay-amount request yet.
+
+
+## Issue #10 publication and monitoring
+
+The maintainer authorized publishing to both the research branch and issue #10. The following answers are now posted; historical approval-wait notes above are superseded.
+
+- [Harvest yield per crop — answered for all edible field definitions](https://github.com/kellan/outlanders2-wiki/issues/10#issuecomment-6405315176)
+- [Production time and day length — substantial partial answer](https://github.com/kellan/outlanders2-wiki/issues/10#issuecomment-6405315806)
+- [Worker scaling and normalized rates](https://github.com/kellan/outlanders2-wiki/issues/10#issuecomment-6405316303)
+- [Chicken Coop — gameplay report, not independently confirmed total](https://github.com/kellan/outlanders2-wiki/issues/10#issuecomment-6405316937)
+- [Orchard plants — establishment and regeneration separated](https://github.com/kellan/outlanders2-wiki/issues/10#issuecomment-6405317435)
+- [Output storage — useful evidence, still unresolved effective limit](https://github.com/kellan/outlanders2-wiki/issues/10#issuecomment-6405318044)
+- [Hauling and work schedules — partial answers](https://github.com/kellan/outlanders2-wiki/issues/10#issuecomment-6405318622)
+- [Follow-up: gear effects requested on 6d285475 — 2026-10-25](https://github.com/kellan/outlanders2-wiki/issues/10#issuecomment-6405319246)
+- [Terrain placement codes — requested on bbb5fc90, answered 2026-10-25](https://github.com/kellan/outlanders2-wiki/issues/10#issuecomment-6405319744)
+- [Social-spot effects and secondary meal benefits — requested on c119dbec](https://github.com/kellan/outlanders2-wiki/issues/10#issuecomment-6405320280)
+
+The monitor now checks issue #10 and its comments, the wiki request documents, and the research repository's `decode-targets:docs/DECODE-TARGETS.md` priority list. Remaining questions are kept open until evidence supports an answer.
