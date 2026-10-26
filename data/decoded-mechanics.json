@@ -29502,6 +29502,1669 @@
       }
     ]
   },
+  "social_spots": {
+    "class": "SocialSpotBehaviour / SocialEatingPlaceBehaviour / SpotTypeBehaviour",
+    "note": "Units a villager gains from one use of a spot, the use duration (raw units, not days), and whether the spot can be picked to satisfy Community or Fun. Roots that are not buildings (for example ParkSocialSpots, OpenKitchenEatSpot) are nested spot prefabs that buildings instantiate. Duration units and the per-use versus per-day question are unverified.",
+    "records": {
+      "Barley Porridge Shop": [
+        {
+          "path": "Barley Porridge Shop/Eating Spots/BarleyPorridgeShopEatSpotRight",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 1
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Barley Porridge Shop/Eating Spots/BarleyPorridgeShopEatSpotRight (1)",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 1
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Barley Porridge Shop/Eating Spots/BarleyPorridgeShopEatSpotLeft (1)",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 1
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Barley Porridge Shop/Eating Spots/BarleyPorridgeShopEatSpotLeft",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 1
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "BarleyPorridgeShopEatSpot": [
+        {
+          "path": "BarleyPorridgeShopEatSpot",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "BarleyPorridgeShopEatSpotLeft": [
+        {
+          "path": "BarleyPorridgeShopEatSpotLeft",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "BarleyPorridgeShopEatSpotRight": [
+        {
+          "path": "BarleyPorridgeShopEatSpotRight",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "Bench Social Spots": [
+        {
+          "path": "Bench Social Spots/Bench Social Spot L",
+          "activity_key": "",
+          "units": {
+            "community": 1,
+            "wellness": 1
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 20,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Bench Social Spots/Bench Social Spot R",
+          "activity_key": "",
+          "units": {
+            "community": 1,
+            "wellness": 1
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 20,
+          "neighbours": 1,
+          "dependent_on": 0
+        }
+      ],
+      "Bonfire": [
+        {
+          "path": "Bonfire/Social Spots/Spot Pair/Spot Right 1",
+          "activity_key": "Activity.SocialSpot.Bonfire",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.43,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Bonfire/Social Spots/Spot Pair 1/Spot Right 2",
+          "activity_key": "Activity.SocialSpot.Bonfire",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.43,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Bonfire/Social Spots/Spot Pair 2/Spot Left 3",
+          "activity_key": "Activity.SocialSpot.Bonfire",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.43,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Bonfire/Social Spots/Spot Pair 3/Spot Left 4",
+          "activity_key": "Activity.SocialSpot.Bonfire",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.43,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Bonfire/Social Spots/Spot Pair 2/Spot Right 3",
+          "activity_key": "Activity.SocialSpot.Bonfire",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.43,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Bonfire/Social Spots/Spot Pair 3/Spot Right 4",
+          "activity_key": "Activity.SocialSpot.Bonfire",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.43,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Bonfire/Social Spots/Spot Pair/Spot Left 1",
+          "activity_key": "Activity.SocialSpot.Bonfire",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.43,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Bonfire/Social Spots/Spot Pair 1/Spot Left 2",
+          "activity_key": "Activity.SocialSpot.Bonfire",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.43,
+          "neighbours": 1,
+          "dependent_on": 0
+        }
+      ],
+      "Bonfire Spot": [
+        {
+          "path": "Bonfire Spot",
+          "activity_key": "",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.43,
+          "neighbours": 1,
+          "dependent_on": 0
+        }
+      ],
+      "Bonfire Spot pair": [
+        {
+          "path": "Bonfire Spot pair/Spot Right",
+          "activity_key": "Activity.SocialSpot.Bonfire",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.43,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Bonfire Spot pair/Spot Left",
+          "activity_key": "Activity.SocialSpot.Bonfire",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.43,
+          "neighbours": 1,
+          "dependent_on": 0
+        }
+      ],
+      "Brewery": [
+        {
+          "path": "Brewery/DrinkSpots/BreweryDrinkSpot (3)",
+          "activity_key": "Activity.SocialSpot.Brewery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Brewery/DrinkSpots/BreweryDrinkSpot (6)",
+          "activity_key": "Activity.SocialSpot.Brewery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Brewery/DrinkSpots/BreweryDrinkSpot (5)",
+          "activity_key": "Activity.SocialSpot.Brewery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Brewery/DrinkSpots/BreweryDrinkSpot (2)",
+          "activity_key": "Activity.SocialSpot.Brewery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Brewery/DrinkSpots/BreweryDrinkSpot (4)",
+          "activity_key": "Activity.SocialSpot.Brewery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Brewery/DrinkSpots/BreweryDrinkSpot (1)",
+          "activity_key": "Activity.SocialSpot.Brewery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "BreweryDrinkSpot": [
+        {
+          "path": "BreweryDrinkSpot",
+          "activity_key": "Activity.SocialSpot.Brewery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "Fondue Shop": [
+        {
+          "path": "Fondue Shop/Eating Spots/Side 1/Fondue Shop Eat Spot 1",
+          "activity_key": "Activity.SocialSpot.FondueShop",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Fondue Shop/Eating Spots/Side 2/Fondue Shop Eat Spot 4",
+          "activity_key": "Activity.SocialSpot.FondueShop",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Fondue Shop/Eating Spots/Side 1/Fondue Shop Eat Spot 0",
+          "activity_key": "Activity.SocialSpot.FondueShop",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Fondue Shop/Eating Spots/Side 2/Fondue Shop Eat Spot 5",
+          "activity_key": "Activity.SocialSpot.FondueShop",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Fondue Shop/Eating Spots/Side 2/Fondue Shop Eat Spot 3",
+          "activity_key": "Activity.SocialSpot.FondueShop",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Fondue Shop/Eating Spots/Side 1/Fondue Shop Eat Spot 2",
+          "activity_key": "Activity.SocialSpot.FondueShop",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "Fondue Shop Eat Spot": [
+        {
+          "path": "Fondue Shop Eat Spot",
+          "activity_key": "Activity.SocialSpot.FondueShop",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "Halloween Plaza": [
+        {
+          "path": "Halloween Plaza/CommunityHouseSocialSpot",
+          "activity_key": "Activity.SocialSpot.Plaza",
+          "units": {
+            "community": 1.2
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 5,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Halloween Plaza/CommunityHouseSocialSpot (1)",
+          "activity_key": "Activity.SocialSpot.Plaza",
+          "units": {
+            "community": 1.2
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 5,
+          "neighbours": 1,
+          "dependent_on": 0
+        }
+      ],
+      "Manchamanteles Shop": [
+        {
+          "path": "Manchamanteles Shop/Eating Spots/Log 2-1/OpenKitchenEatSpotRight 1",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Manchamanteles Shop/Eating Spots/Log 2-1/OpenKitchenEatSpotLeft 1",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Manchamanteles Shop/Eating Spots/Log 1/OpenKitchenEatSpotRight 0",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Manchamanteles Shop/Eating Spots/Log 3/OpenKitchenEatSpotRight 3",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Manchamanteles Shop/Eating Spots/Log 1/OpenKitchenEatSpotLeft 0",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Manchamanteles Shop/Eating Spots/Log 2-2/OpenKitchenEatSpotLeft 2",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Manchamanteles Shop/Eating Spots/Log 3/OpenKitchenEatSpotLeft 3",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Manchamanteles Shop/Eating Spots/Log 2-2/OpenKitchenEatSpotRight 2",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "entertainment": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": false,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        }
+      ],
+      "Mead Hall": [
+        {
+          "path": "Mead Hall/DrinkSpots/MeadHallDrinkSpot (3)",
+          "activity_key": "Activity.SocialSpot.MeadHall",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Mead Hall/DrinkSpots/MeadHallDrinkSpot (1)",
+          "activity_key": "Activity.SocialSpot.MeadHall",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Mead Hall/DrinkSpots/MeadHallDrinkSpot (2)",
+          "activity_key": "Activity.SocialSpot.MeadHall",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Mead Hall/DrinkSpots/MeadHallDrinkSpot",
+          "activity_key": "Activity.SocialSpot.MeadHall",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "MeadHallDrinkSpot": [
+        {
+          "path": "MeadHallDrinkSpot",
+          "activity_key": "Activity.SocialSpot.MeadHall",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "Moon Ritual": [
+        {
+          "path": "Moon Ritual/MoonRitualSocialSpot (4)",
+          "activity_key": "Activity.SocialSpot.MoonRitual",
+          "units": {
+            "community": 1,
+            "entertainment": 1,
+            "wellness": 1
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Moon Ritual/MoonRitualSocialSpot (3)",
+          "activity_key": "Activity.SocialSpot.MoonRitual",
+          "units": {
+            "community": 1,
+            "entertainment": 1,
+            "wellness": 1
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Moon Ritual/MoonRitualSocialSpot (2)",
+          "activity_key": "Activity.SocialSpot.MoonRitual",
+          "units": {
+            "community": 1,
+            "entertainment": 1,
+            "wellness": 1
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Moon Ritual/MoonRitualSocialSpot",
+          "activity_key": "Activity.SocialSpot.MoonRitual",
+          "units": {
+            "community": 1,
+            "entertainment": 1,
+            "wellness": 1
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Moon Ritual/MoonRitualSocialSpot (1)",
+          "activity_key": "Activity.SocialSpot.MoonRitual",
+          "units": {
+            "community": 1,
+            "entertainment": 1,
+            "wellness": 1
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "MoonRitualSocialSpot": [
+        {
+          "path": "MoonRitualSocialSpot",
+          "activity_key": "Activity.SocialSpot.MoonRitual",
+          "units": {
+            "community": 1,
+            "entertainment": 1,
+            "wellness": 1
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "Open Kitchen": [
+        {
+          "path": "Open Kitchen/Eating Spots/Log 2-1/OpenKitchenEatSpotRight 1",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Open Kitchen/Eating Spots/Log 2-1/OpenKitchenEatSpotLeft 1",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Open Kitchen/Eating Spots/Log 1/OpenKitchenEatSpotRight 0",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Open Kitchen/Eating Spots/Log 3/OpenKitchenEatSpotRight 3",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Open Kitchen/Eating Spots/Log 1/OpenKitchenEatSpotLeft 0",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Open Kitchen/Eating Spots/Log 2-2/OpenKitchenEatSpotLeft 2",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Open Kitchen/Eating Spots/Log 3/OpenKitchenEatSpotLeft 3",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Open Kitchen/Eating Spots/Log 2-2/OpenKitchenEatSpotRight 2",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        }
+      ],
+      "Open Kitchen _Halloween": [
+        {
+          "path": "Open Kitchen _Halloween/Eating Spots/Log 2-1/OpenKitchenEatSpotRight 1",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Open Kitchen _Halloween/Eating Spots/Log 2-1/OpenKitchenEatSpotLeft 1",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Open Kitchen _Halloween/Eating Spots/Log 1/OpenKitchenEatSpotRight 0",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Open Kitchen _Halloween/Eating Spots/Log 3/OpenKitchenEatSpotRight 3",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Open Kitchen _Halloween/Eating Spots/Log 1/OpenKitchenEatSpotLeft 0",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Open Kitchen _Halloween/Eating Spots/Log 2-2/OpenKitchenEatSpotLeft 2",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Open Kitchen _Halloween/Eating Spots/Log 3/OpenKitchenEatSpotLeft 3",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Open Kitchen _Halloween/Eating Spots/Log 2-2/OpenKitchenEatSpotRight 2",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 4
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        }
+      ],
+      "OpenKitchenEatSpot": [
+        {
+          "path": "OpenKitchenEatSpot",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 1
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        }
+      ],
+      "OpenKitchenEatSpotLeft": [
+        {
+          "path": "OpenKitchenEatSpotLeft",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 1
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        }
+      ],
+      "OpenKitchenEatSpotRight": [
+        {
+          "path": "OpenKitchenEatSpotRight",
+          "activity_key": "Activity.SocialSpot.OpenKitchen",
+          "units": {
+            "community": 1
+          },
+          "choosable_for_community": false,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 6,
+          "neighbours": 1,
+          "dependent_on": 0
+        }
+      ],
+      "Park": [
+        {
+          "path": "Park/SocialSpots/SocialSpot (3)",
+          "activity_key": "Activity.SocialSpot.Park",
+          "units": {
+            "wellness": 6
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        },
+        {
+          "path": "Park/SocialSpots (1)/SocialSpot (3)2",
+          "activity_key": "Activity.SocialSpot.Park",
+          "units": {
+            "wellness": 6
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        },
+        {
+          "path": "Park/SocialSpots (1)/SocialSpot2",
+          "activity_key": "Activity.SocialSpot.Park",
+          "units": {
+            "wellness": 6
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        },
+        {
+          "path": "Park/SocialSpots/SocialSpot (2)",
+          "activity_key": "Activity.SocialSpot.Park",
+          "units": {
+            "wellness": 6
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        },
+        {
+          "path": "Park/SocialSpots (1)/SocialSpot (2)2",
+          "activity_key": "Activity.SocialSpot.Park",
+          "units": {
+            "wellness": 6
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        },
+        {
+          "path": "Park/SocialSpots/SocialSpot",
+          "activity_key": "Activity.SocialSpot.Park",
+          "units": {
+            "wellness": 6
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        },
+        {
+          "path": "Park/SocialSpots (1)/SocialSpot (1)2",
+          "activity_key": "Activity.SocialSpot.Park",
+          "units": {
+            "wellness": 6
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        },
+        {
+          "path": "Park/SocialSpots (1)/InstructorSpot2",
+          "activity_key": "Activity.WorkOnWorkspot.Building.Park",
+          "units": {
+            "wellness": 6
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": true,
+          "duration": 12,
+          "neighbours": 5,
+          "dependent_on": 0
+        },
+        {
+          "path": "Park/SocialSpots/InstructorSpot",
+          "activity_key": "Activity.WorkOnWorkspot.Building.Park",
+          "units": {
+            "wellness": 6
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": true,
+          "duration": 12,
+          "neighbours": 5,
+          "dependent_on": 0
+        },
+        {
+          "path": "Park/SocialSpots/SocialSpot (1)",
+          "activity_key": "Activity.SocialSpot.Park",
+          "units": {
+            "wellness": 6
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        },
+        {
+          "path": "Park/SocialSpots (1)/SocialSpot (4)2",
+          "activity_key": "Activity.SocialSpot.Park",
+          "units": {
+            "wellness": 6
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        },
+        {
+          "path": "Park/SocialSpots/SocialSpot (4)",
+          "activity_key": "Activity.SocialSpot.Park",
+          "units": {
+            "wellness": 6
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        }
+      ],
+      "ParkSocialSpot": [
+        {
+          "path": "ParkSocialSpot",
+          "activity_key": "",
+          "units": {
+            "wellness": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        }
+      ],
+      "ParkSocialSpots": [
+        {
+          "path": "ParkSocialSpots/SocialSpot (4)",
+          "activity_key": "Activity.SocialSpot.Park",
+          "units": {
+            "wellness": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        },
+        {
+          "path": "ParkSocialSpots/InstructorSpot",
+          "activity_key": "Activity.WorkOnWorkspot.Building.Park",
+          "units": {
+            "wellness": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": true,
+          "duration": 12,
+          "neighbours": 5,
+          "dependent_on": 0
+        },
+        {
+          "path": "ParkSocialSpots/SocialSpot (1)",
+          "activity_key": "Activity.SocialSpot.Park",
+          "units": {
+            "wellness": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        },
+        {
+          "path": "ParkSocialSpots/SocialSpot (2)",
+          "activity_key": "Activity.SocialSpot.Park",
+          "units": {
+            "wellness": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        },
+        {
+          "path": "ParkSocialSpots/SocialSpot",
+          "activity_key": "Activity.SocialSpot.Park",
+          "units": {
+            "wellness": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        },
+        {
+          "path": "ParkSocialSpots/SocialSpot (3)",
+          "activity_key": "Activity.SocialSpot.Park",
+          "units": {
+            "wellness": 4
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 12,
+          "neighbours": 1,
+          "dependent_on": 1
+        }
+      ],
+      "Playground": [
+        {
+          "path": "Playground/PlaygroundSocialSpot Swing",
+          "activity_key": "Activity.SocialSpot.Playground",
+          "units": {
+            "entertainment": 1.2
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 10,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Playground/PlaygroundSocialSpot Horse",
+          "activity_key": "Activity.SocialSpot.Playground",
+          "units": {
+            "entertainment": 1.2
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 10,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "Playground Halloween": [
+        {
+          "path": "Playground Halloween/PlaygroundSocialSpot Horse",
+          "activity_key": "Activity.SocialSpot.Playground",
+          "units": {
+            "entertainment": 1.2
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 10,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Playground Halloween/PlaygroundSocialSpot Swing",
+          "activity_key": "Activity.SocialSpot.Playground",
+          "units": {
+            "entertainment": 1.2
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 10,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "Plaza": [
+        {
+          "path": "Plaza/CommunityHouseSocialSpot",
+          "activity_key": "Activity.SocialSpot.Plaza",
+          "units": {
+            "community": 1.2
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 5,
+          "neighbours": 1,
+          "dependent_on": 0
+        },
+        {
+          "path": "Plaza/CommunityHouseSocialSpot (1)",
+          "activity_key": "Activity.SocialSpot.Plaza",
+          "units": {
+            "community": 1.2
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 5,
+          "neighbours": 1,
+          "dependent_on": 0
+        }
+      ],
+      "SwimSocialSpot": [
+        {
+          "path": "SwimSocialSpot",
+          "activity_key": "Activity.SocialSpot.SwimmingPier",
+          "units": {
+            "entertainment": 3,
+            "refreshment": 3
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 10,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "SwimmingPier": [
+        {
+          "path": "SwimmingPier/SocialSpots/SwimSocialSpot (2)",
+          "activity_key": "Activity.SocialSpot.SwimmingPier",
+          "units": {
+            "entertainment": 6,
+            "refreshment": 6
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 10,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "SwimmingPier/SocialSpots/SwimSocialSpot",
+          "activity_key": "Activity.SocialSpot.SwimmingPier",
+          "units": {
+            "entertainment": 6,
+            "refreshment": 6
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 10,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "SwimmingPier/SocialSpots/SwimSocialSpot (1)",
+          "activity_key": "Activity.SocialSpot.SwimmingPier",
+          "units": {
+            "entertainment": 6,
+            "refreshment": 6
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 10,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "Winery": [
+        {
+          "path": "Winery/DrinkSpots/WineryDrinkSpot (5)",
+          "activity_key": "Activity.SocialSpot.Winery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Winery/DrinkSpots/WineryDrinkSpot (2)",
+          "activity_key": "Activity.SocialSpot.Winery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Winery/DrinkSpots/WineryDrinkSpot",
+          "activity_key": "Activity.SocialSpot.Winery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Winery/DrinkSpots/WineryDrinkSpot (1)",
+          "activity_key": "Activity.SocialSpot.Winery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Winery/DrinkSpots/WineryDrinkSpot (4)",
+          "activity_key": "Activity.SocialSpot.Winery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Winery/DrinkSpots/WineryDrinkSpot (3)",
+          "activity_key": "Activity.SocialSpot.Winery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "WineryDrinkSpot": [
+        {
+          "path": "WineryDrinkSpot",
+          "activity_key": "Activity.SocialSpot.Winery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "Winter Pub": [
+        {
+          "path": "Winter Pub/DrinkSpots/PubDrinkSpot (1)",
+          "activity_key": "Activity.SocialSpot.Brewery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Winter Pub/DrinkSpots/PubDrinkSpot (2)",
+          "activity_key": "Activity.SocialSpot.Brewery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Winter Pub/DrinkSpots/PubDrinkSpot (3)",
+          "activity_key": "Activity.SocialSpot.Brewery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Winter Pub/DrinkSpots/PubDrinkSpot (4)",
+          "activity_key": "Activity.SocialSpot.Brewery",
+          "units": {},
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 8.4,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "Zen Garden": [
+        {
+          "path": "Zen Garden/ZenGardenSocialSpot (1)",
+          "activity_key": "Activity.SocialSpot.ZenGarden",
+          "units": {
+            "wellness": 1.3
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 13.3333,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Zen Garden/ZenGardenSocialSpot",
+          "activity_key": "Activity.SocialSpot.ZenGarden",
+          "units": {
+            "wellness": 1.3
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 13.3333,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ],
+      "Zen Garden _Halloween": [
+        {
+          "path": "Zen Garden _Halloween/ZenGardenSocialSpot (1)",
+          "activity_key": "Activity.SocialSpot.ZenGarden",
+          "units": {
+            "wellness": 1.3
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 13.3333,
+          "neighbours": 0,
+          "dependent_on": 0
+        },
+        {
+          "path": "Zen Garden _Halloween/ZenGardenSocialSpot",
+          "activity_key": "Activity.SocialSpot.ZenGarden",
+          "units": {
+            "wellness": 1.3
+          },
+          "choosable_for_community": true,
+          "choosable_for_fun": true,
+          "is_workspot": false,
+          "duration": 13.3333,
+          "neighbours": 0,
+          "dependent_on": 0
+        }
+      ]
+    },
+    "eating_places": {
+      "Winter Pub": {
+        "output_resource": "Empty House Drink",
+        "food_piles": 1,
+        "creates_output_in_pile": true
+      },
+      "Mead Hall": {
+        "output_resource": "Empty Mead",
+        "food_piles": 1,
+        "creates_output_in_pile": true
+      },
+      "Brewery": {
+        "output_resource": "BeerEmpty",
+        "food_piles": 3,
+        "creates_output_in_pile": false
+      },
+      "Fondue Shop": {
+        "output_resource": "Fondue Empty Plate",
+        "food_piles": 1,
+        "creates_output_in_pile": false
+      },
+      "Winery": {
+        "output_resource": "WineGlassEmpty",
+        "food_piles": 5,
+        "creates_output_in_pile": false
+      },
+      "Open Kitchen": {
+        "output_resource": "Plate",
+        "food_piles": 1,
+        "creates_output_in_pile": false
+      },
+      "Open Kitchen _Halloween": {
+        "output_resource": "Plate",
+        "food_piles": 1,
+        "creates_output_in_pile": false
+      },
+      "Manchamanteles Shop": {
+        "output_resource": "Plate",
+        "food_piles": 1,
+        "creates_output_in_pile": false
+      },
+      "Barley Porridge Shop": {
+        "output_resource": "BarleyPorridgeEmptyPlate",
+        "food_piles": 1,
+        "creates_output_in_pile": false
+      }
+    },
+    "spot_types": [
+      {
+        "path": "_SpotTypeBase",
+        "days_until_reuse": 0.5
+      },
+      {
+        "path": "SwimmingSpotType 3",
+        "days_until_reuse": 0.7
+      },
+      {
+        "path": "SwimmingSpotType 1",
+        "days_until_reuse": 0.7
+      },
+      {
+        "path": "BreweryDrinkSpotType",
+        "days_until_reuse": 0.5
+      },
+      {
+        "path": "FondueEatSpotType",
+        "days_until_reuse": 0.7
+      },
+      {
+        "path": "ZenGardenSpotType",
+        "days_until_reuse": 0.7
+      },
+      {
+        "path": "SwimmingSpotType 2",
+        "days_until_reuse": 0.7
+      },
+      {
+        "path": "MeadHallDrinkSpotType",
+        "days_until_reuse": 0.5
+      },
+      {
+        "path": "WineryDrinkSpotType",
+        "days_until_reuse": 0.7
+      },
+      {
+        "path": "PlaygroundSpotType 1",
+        "days_until_reuse": 0.7
+      },
+      {
+        "path": "ParkExerciseSpotType",
+        "days_until_reuse": 0.6
+      },
+      {
+        "path": "MoonRitualSpotType",
+        "days_until_reuse": 0.6
+      },
+      {
+        "path": "PlazaSpotType",
+        "days_until_reuse": 0.7
+      }
+    ]
+  },
   "duplicate_resource_names": {
     "note": "284895 is the GameObject \"FakeStick\" under the Firewood Yard (Woodchopper): 1 Log becomes 4 FakeStick, then FakeStick becomes Stick 1:1. It shares the localization key Resource.Stick, so both display as Stick.",
     "records": [

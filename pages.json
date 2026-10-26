@@ -145,6 +145,22 @@
       "spoiler": false
     },
     {
+      "type": "houses",
+      "id": "",
+      "name": "Houses",
+      "category": "Directory",
+      "path": "houses/",
+      "spoiler": false
+    },
+    {
+      "type": "gathering",
+      "id": "",
+      "name": "Gathering places",
+      "category": "Directory",
+      "path": "gathering-places/",
+      "spoiler": false
+    },
+    {
       "type": "buildings",
       "id": "35460",
       "name": "Advanced Warehouse",
@@ -10660,6 +10676,8 @@
     "contribute/",
     "about/",
     "spoilers/",
+    "houses/",
+    "gathering-places/",
     "spoilers/buildings/advanced-warehouse/",
     "buildings/advanced-warehouse/",
     "spoilers/production-chains/advanced-warehouse/",
