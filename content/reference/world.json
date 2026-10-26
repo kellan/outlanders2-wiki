@@ -6475,12 +6475,12 @@
       },
       "Trading Outpost": {
         "claims": [
-          "Field guide: 12 Wheat → 6 Glass Pane + 6 Animal Hide.",
+          "Field guide: 12 Wheat; provides 6 Glass Pane and 6 Animal Hide (you choose one).",
           "Construction: 6 Plank + 12 Stone. Worker slots: 3."
         ],
         "screenshot": "fieldguide/Trading-Outpost-Evergreen.jpg",
         "captured": "2026-10-26, local agent playtest (field guide)",
-        "discrepancy": "The field guide settles what the three decoded formulas mean: 12 Wheat in, 6 Glass Panes and 6 Animal Hides out. The earlier derived ratio of 1 Wheat to 1 Animal Hide picked up only one of the outputs."
+        "discrepancy": "The guide lists both goods under one Wheat count. The building's outputs are exclusive and the game files store two separate 12 Wheat trades, so one trade gives 6 Glass Panes or 6 Animal Hides, whichever is selected on the Resources tab. Corrected 2026-10-26; this page first read it as both."
       },
       "Trappers' Hut": {
         "claims": [

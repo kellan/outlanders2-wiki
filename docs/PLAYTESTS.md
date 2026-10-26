@@ -34,6 +34,9 @@ Rows: *Which building plants Mesquite in sandbox Drylands*, *Crop availability p
 ### A6 Demolition refund `refund`
 Row: *What demolishing a finished building, and a half-built site, gives back*. In any level, build a Basic House (6 Log) and let it finish; screenshot the stockpile count of Log before and after demolishing it. Then start a second one, let two or three logs be delivered, and demolish the site; screenshot before and after. Two numbers answer the row.
 
+### A7 Trading Outpost trade `trade`
+Row: *How long one Trading Outpost trade takes, and whether the outputs really are one or the other*. In an Evergreen sandbox, build a Trading Outpost and open its Resources tab; screenshot it with Glass Pane selected. Keep Wheat flowing and note the in-game day and hour when the Wheat store reaches 12 and when the 6 Glass Panes appear; repeat once. Then switch to Animal Hide and confirm the next trade gives Hides and no Glass. If you can, take the Tropiclands and Winterlands outposts' field guides too (expected: 8 Glass Pane for 6 Animal Hide or 9 Wheat; 8 Animal Hide for 9 Wheat or 6 Glass Pane).
+
 ## Part B: timed tests (one per session)
 
 ### B1 Meal log `meals`

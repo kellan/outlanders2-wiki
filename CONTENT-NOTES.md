@@ -1,3 +1,17 @@
+## Trading Outpost: a choice of one good, per biome (2026-10-26)
+
+#59 recorded the Evergreen field guide as 12 Wheat → 6 Glass Pane + 6 Animal Hide. That doubled the output. The prefab marks the workplace's outputs exclusive (`WorkplaceConfig.ExclusiveOutputs`, set on no other building), stores two separate 12 Wheat trades, and the Tournament hint `FastMode.Hint.FirstTradingPost.3` reads "Open the Resources tab to choose the resource you want to receive." One trade therefore gives 6 of whichever good is selected. The guide lists both because the prefab's `FormulaVisualConfig` shows both options under one input count.
+
+The recipe moved from the base definition (65543) to Trading Post Evergreen (75226) with `choice: "one"`, which renders as "or" everywhere a recipe appears. From the research decode, the chain runs like this. Workers fill a 12-slot store. A worker-lit fire takes no input and fires only when that store is full (`WorkspotPileFullCondition`). The trade itself needs no worker and runs only while the 6-slot output store is empty (`WorkspotPileEmptyCondition`). The tokens are then unpacked one by one into a public pile of 24 per good. `TraderBehaviour` only swaps the building's sign.
+
+The biome versions trade as follows:
+- Tropiclands: 8 Glass Pane for 6 Animal Hide or 9 Wheat.
+- Winterlands: 8 Animal Hide for 9 Wheat or 6 Glass Pane.
+
+There is no Drylands outpost.
+
+The base definition (5 Wheat, in no level) and the non-recyclable Winterlands copy (test levels only) are now hidden. The Evergreen outpost takes the plain URL, and its old `-75226` URL still resolves. Resource pages list the outposts by biome. Trade duration is set by an animation and is still open; it is PLAYTESTS A7 and a row in INFORMATION-NEEDED.
+
 ## Building, DairyFarm and Stock hidden (2026-10-26, issue 62)
 
 The maintainer confirmed that Building is not a real building and that DairyFarm never appears in play, and doubted Stock. The data agrees. Building (35718) has no construction formula, workers or localization key; it is the base prefab other buildings derive from. DairyFarm (105746) has a localization key but no player-facing text, no material inputs, and appears only in the test level "Tests/Buildings/Test Dairy Farm". Stock (75802) has no localization key, no material inputs and no workers. All three now sit in `suppressedPages`, so they get no page, directory row, search result or navbox entry. Their records stay in `content/buildings/` as decoded data.
