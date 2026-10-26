@@ -20,3 +20,13 @@ const first=page('Level01A');assert.ok(first.includes('2 buildings and plants ca
 assert.ok(h.render('buildings/foragers-hut/').includes('Where it can be built'));
 assert.equal(linked,133);assert.equal(w.levels.filter(l=>!l.scenario).length,0);
 console.log(`PASS: ${linked} decoded scenario pages, primary/optional counts, exact targets, needs, legacy unknowns, asset links, and build-list backlinks.`);
+// Player wording must preserve the separate settlement and Housing-concern conditions.
+const resort=page('Single05_C_PeakResort');
+assert.ok(resort.includes('= 100%'));
+assert.ok(resort.includes('Satisfy Housing.'));
+assert.ok(resort.includes('Produce / make'));
+assert.ok(resort.includes('production total, not a stock target'));
+const settled=page('Level01B');
+assert.ok(settled.includes('<td>Settled</td>'));
+assert.ok(settled.includes('Have everyone settled.'));
+assert.ok(settled.includes('Have this amount in stock'));
