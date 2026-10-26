@@ -140,9 +140,10 @@ console.log('PASS: research handoff integration.');
  const start=level.indexOf('id="objective-needs"'),rows=level.slice(start,level.indexOf('</section>',start));const row=name=>{const i=rows.indexOf('>'+name+'</a></td>');return rows.slice(i,i+260).replace(/<[^>]+>/g,'|')};
  assert.ok(/Canteen\|+—\|+6\|+6\|/.test(row('Canteen')),'canteen optional only: '+row('Canteen'));
  assert.ok(/Glass Pane\|+—\|+12\|+—\|/.test(row('Glass Pane')),'glass pane expanded from canteens: '+row('Glass Pane'));
- assert.ok(/Stick\|+—\|+20.4\|/.test(row('Stick')),'sticks include glass fuel: '+row('Stick'));assert.equal((rows.match(/>Stick<\/a><\/td>/g)||[]).length,1,'same-named sticks merged');
+ assert.ok(/Stick\|+—\|+21\|/.test(row('Stick')),'sticks include glass fuel, rounded up: '+row('Stick'));assert.ok(row('Stick').includes('picked up near trees')&&!row('Stick').includes('|Log|'),'sticks are gathered, not worked back to logs');assert.ok(/Log\|+36\|+36\|+—\|+from the \|Lumberjacks/.test(row('Log')),'logs from the lumberjack, not the forester: '+row('Log'));assert.ok(!/<td>\d+\.\d+<\/td>/.test(rows),'no fractional amounts: '+(rows.match(/<td>\d+\.\d+<\/td>/)||[''])[0]);assert.equal((rows.match(/>Stick<\/a><\/td>/g)||[]).length,1,'same-named sticks merged');
  assert.ok(/Book\|+18\|+18\|+18\|/.test(row('Book')),'main objective book');
  assert.ok(/12 <a[^>]*>Glass Pane<\/a> at the/.test(level)&&/needs 18 <a[^>]*>Stick<\/a>/.test(level),'breakdown steps');
+ const stones=h.render('levels/morrigwyn-stones/');assert.ok(/Egg<\/a><\/td><td>38<\/td><td>38<\/td><td>—<\/td><td>from the <a[^>]*>Chicken Coop/.test(stones),'eggs rounded up and sourced from the coop');assert.ok(/Wheat<\/a><\/td><td>19<\/td>[\s\S]{0,80}grown in fields: <a[^>]*>Wheat/.test(stones),'wheat grown in fields');
  console.log('PASS: stored recipes and objective rollups.');}
 // Decoded mechanics: capacities, heating, housing, version gates, needs model, weather, boosts, pile tables.
 {const glass=h.render('buildings/glassworks/');assert.ok(/Capacity<\/dt><dd>48 <a[^>]*>Glass Pane/.test(glass),'glassworks capacity from piles');assert.ok(glass.includes('2 piles of 24'),'pile breakdown');
