@@ -85051,6 +85051,22 @@
       "notes": "Resolved on 26 October: the Community 1 lives on the Porridge Cookhouse eating spot (see cookhouse-community-source), not on the dish. Stew (Open Kitchen, Community 4), Fondue and Manchamanteles (Fun 4) follow the same pattern."
     },
     {
+      "id": "bonfire-heat-source",
+      "target": {
+        "type": "buildings",
+        "id": "94267"
+      },
+      "claim": "The Bonfire burns one fuel item every 0.7 days and warms eight visitor spots with 4 heat units.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "decoded-data",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "PileHeatSourceBehaviour on \"Bonfire/Workspots/HeatPile\": ConsumeHeatInDays 0.7, HeatSocialSpots 8, SocialSpotHeatUnits 4."
+      },
+      "notes": "The social-spot record from the research handoff stores Heat 2 on finishing a tend; the pile adds 4 units to visitors while it burns."
+    },
+    {
       "id": "cheesery-pile-capacity",
       "target": {
         "type": "buildings",
@@ -85131,6 +85147,22 @@
       "notes": "Stored value confirmed and matches the maintainer’s “small amount”. How a stored unit converts to the need meter, and whether the dish gives anything when eaten elsewhere, still need the off-site test."
     },
     {
+      "id": "firewood-yard-two-stick-definitions",
+      "target": {
+        "type": "resources",
+        "id": "284895"
+      },
+      "claim": "The second Stick definition (284895) is the FakeStick object inside the Firewood Yard: one Log becomes four FakeStick, and each FakeStick becomes one Stick (284894). Both share the localization key Resource.Stick, so both display as Stick; the item the stockpile counts is 284894.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "decoded-data",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "ResourceBehaviour 284895 sits on GameObject \"FakeStick\" under the Woodchopper prefab; 284894 on \"Stick\". Decoded with the pure-Python IL2CPP reader (outlanders2-research, tools/decode_classes.py), every record consumed to its exact length."
+      },
+      "notes": "Level objective totals merge the two by name, so the Log cost of sticks is counted once."
+    },
+    {
       "id": "fondue-fun-check",
       "target": {
         "type": "buildings",
@@ -85163,6 +85195,22 @@
       "notes": "Nominal sum only; active piles and the stop condition need tracing or a filled building counted in play, as for the Bakery."
     },
     {
+      "id": "stroganoff-version-gate",
+      "target": {
+        "type": "buildings",
+        "id": "105717"
+      },
+      "claim": "The Stroganoff Cookhouse, Concoction Shop, Mushroom chain, Swamp Trappers' Hut, Advanced Warehouse, Brick Road and leader Oona are gated to game version 32, above the installed version 30, which confirms they are not yet released in this build.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "decoded-data",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "SerializedKeyBehaviour.MinGameVersion on each prefab root: 32. 4909 of 5455 keys store 0; the highest value in use by released content is 30 (Amish villagers, Halloween Tombstone)."
+      },
+      "notes": "Spoiler entries for these items now carry confirmed-unreleased status."
+    },
+    {
       "id": "tournament-rural-season-live",
       "target": {
         "type": "tournament",
@@ -85177,6 +85225,38 @@
         "reference": "Maintainer report, 25 October 2026, from the running game."
       },
       "notes": "Seasons rotate, so this is true as of the date given. The Rural style is stored under the internal key Amish with only its name; its reward set is not in the extracted text, unlike the completed Nordic and Mesoamerican seasons."
+    },
+    {
+      "id": "tropical-weather-events",
+      "target": {
+        "type": "biomes",
+        "id": "Tropical"
+      },
+      "claim": "Tropical maps run a weather group every 2 to 6 days: Rain (two days, the Cooling meter refills at twice its fall rate) or a Heat wave (two days, the Cooling meter falls four times as fast), each announced two days ahead.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "decoded-data",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "LevelEventGroupBehaviour \"Tropical Events\" (MinPeriodInDays 2, MaxPeriodInDays 6) with LevelEventBehaviour \"Rain\" (Refreshment multiplier −2, 2 days) and \"Heat wave\" (Refreshment multiplier 4, 2 days)."
+      },
+      "notes": "Which levels attach the group is set per map; the Tropical biome page lists it."
+    },
+    {
+      "id": "winter-cabin-stove",
+      "target": {
+        "type": "buildings",
+        "id": "105729"
+      },
+      "claim": "The Winter Cabin has a heat pile that burns one fuel item per day and warms its four sleeping spots with 6 heat units.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "decoded-data",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "PileHeatSourceBehaviour on \"House With Chimney/Heat Pile\": ConsumeHeatInDays 1, HeatSleepSpots 4, SocialSpotHeatUnits 6."
+      },
+      "notes": "What 6 heat units are worth on the Heat meter is not stored with the pile; the Needs page gives the meter settings."
     }
   ],
   "strategies": [
@@ -85586,9 +85666,9 @@
       {
         "type": "heroes",
         "id": "Oona.000",
-        "status": "reported-unreleased",
-        "as_of": "2026-10-23",
-        "reason": "Reported unreleased by the user; packaged update-28 references and menu observations are retained in availability evidence."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "Reported unreleased by the user; packaged update-28 references and menu observations are retained in availability evidence. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "levels",
@@ -85621,149 +85701,149 @@
       {
         "type": "buildings",
         "id": "105706",
-        "status": "reported-unreleased",
-        "as_of": "2026-10-25",
-        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "buildings",
         "id": "105717",
-        "status": "reported-unreleased",
-        "as_of": "2026-10-25",
-        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "chains",
         "id": "105706",
-        "status": "reported-unreleased",
-        "as_of": "2026-10-25",
-        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "chains",
         "id": "105717",
-        "status": "reported-unreleased",
-        "as_of": "2026-10-25",
-        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "resources",
         "id": "320441",
-        "status": "reported-unreleased",
-        "as_of": "2026-10-25",
-        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "resources",
         "id": "319673",
-        "status": "reported-unreleased",
-        "as_of": "2026-10-25",
-        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "resources",
         "id": "286357",
-        "status": "reported-unreleased",
-        "as_of": "2026-10-25",
-        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "resources",
         "id": "286350",
-        "status": "reported-unreleased",
-        "as_of": "2026-10-25",
-        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "resources",
         "id": "286346",
-        "status": "reported-unreleased",
-        "as_of": "2026-10-25",
-        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "resources",
         "id": "286348",
-        "status": "reported-unreleased",
-        "as_of": "2026-10-25",
-        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "resources",
         "id": "319676",
-        "status": "reported-unreleased",
-        "as_of": "2026-10-25",
-        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "resources",
         "id": "286349",
-        "status": "reported-unreleased",
-        "as_of": "2026-10-25",
-        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "resources",
         "id": "286342",
-        "status": "reported-unreleased",
-        "as_of": "2026-10-25",
-        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "buildings",
         "id": "35460",
-        "status": "related-release-unconfirmed",
-        "as_of": "2026-10-25",
-        "reason": "Advanced Warehouse appears only in Oona’s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "Advanced Warehouse appears only in Oona’s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "chains",
         "id": "35460",
-        "status": "related-release-unconfirmed",
-        "as_of": "2026-10-25",
-        "reason": "Advanced Warehouse appears only in Oona’s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "Advanced Warehouse appears only in Oona’s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "buildings",
         "id": "116136",
-        "status": "related-release-unconfirmed",
-        "as_of": "2026-10-25",
-        "reason": "Brick Road appears only in Oona’s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "Brick Road appears only in Oona’s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "buildings",
         "id": "80803",
-        "status": "related-release-unconfirmed",
-        "as_of": "2026-10-25",
-        "reason": "Swamp Trappers’ Hut appears only in Oona’s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "Swamp Trappers’ Hut appears only in Oona’s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "chains",
         "id": "80803",
-        "status": "related-release-unconfirmed",
-        "as_of": "2026-10-25",
-        "reason": "Swamp Trappers’ Hut appears only in Oona’s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "Swamp Trappers’ Hut appears only in Oona’s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "buildings",
         "id": "78175",
-        "status": "related-release-unconfirmed",
-        "as_of": "2026-10-25",
-        "reason": "Non-recyclable Brick Road variant; grouped with Brick Road in Spoilers following the player’s report."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "Non-recyclable Brick Road variant; grouped with Brick Road in Spoilers following the player’s report. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "resources",
         "id": "319706",
-        "status": "related-release-unconfirmed",
-        "as_of": "2026-10-25",
-        "reason": "Associated with Oona’s reported-unreleased story: used only by its associated building processes in the recovered formula links."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "Associated with Oona’s reported-unreleased story: used only by its associated building processes in the recovered formula links. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "resources",
         "id": "319711",
-        "status": "related-release-unconfirmed",
-        "as_of": "2026-10-25",
-        "reason": "Associated with Oona’s reported-unreleased story: used only by its associated building processes in the recovered formula links."
+        "status": "confirmed-unreleased",
+        "as_of": "2026-10-26",
+        "reason": "Associated with Oona’s reported-unreleased story: used only by its associated building processes in the recovered formula links. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
       },
       {
         "type": "tournament",
@@ -85781,5 +85861,5 @@
       }
     ]
   },
-  "contribution_guide": "# Contribute to the Outlanders 2 guide\n\nThis is a community-maintained reference with reviewed changes. Pages are generated from data files; they are not edited directly in the browser.\n\n## Report a correction\n\nOpen a [content correction](https://github.com/kellan/outlanders2-wiki/issues/new?template=content-correction.yml) form. It asks for the page, what it currently says, your proposed correction, how you know, the game version, and evidence. To report something you measured or saw in play without proposing a specific text change, use the [gameplay observation](https://github.com/kellan/outlanders2-wiki/issues/new?template=gameplay-observation.yml) form; every research page links to it with the entry filled in. A screenshot of the field guide or a reproducible gameplay test is useful. Describe starting conditions and what you actually observed. You do not need to change code to contribute.\n\nThe [GitHub repository](https://github.com/kellan/outlanders2-wiki) is public. Everyone is welcome to report corrections and contribute through issues and pull requests.\n\n## Make an edit\n\n1. Create a branch for one correction or closely related set of changes.\n2. Find the entry with `npm run content:find -- pumpkin`, or browse the content folders. Every article page also ends with a \"Suggest an edit\" link that opens its JSON record in the GitHub editor, and a \"Report a problem\" link that starts a correction issue for that page.\n3. Edit the JSON record, preserving its stable ID and source references. Add evidence for factual changes.\n4. Run `npm run build`, then `npm test` (optional for small browser edits; the pull request checks run both).\n5. Run `npm run dev` and review the changed page and its links at the local address printed by the server.\n6. Open a pull request describing what changed, why, the evidence, and the checks you ran.\n\nNode.js 18 or later is required. There are no third-party runtime packages to install.\n\n## Where to edit\n\n- `content/buildings/`: one building or plant per file; names, descriptions, worker limits, and linked processes.\n- `content/resources/`: one resource per file; names, satisfaction fields, and provenance.\n- `content/scenarios/`: one scenario per file; descriptions, objectives, day limits, build/plant lists, and need switches.\n- `content/leaders/` and `content/biomes/`: one entry per file.\n- `content/observations/`: one sourced claim or open question per file.\n- `content/collections.json`: ordered lists of record files. Add a new record here without changing existing IDs or casually reordering entries.\n- `content/reference/`: shared catalogs, recipes, source exports, and extraction metadata. Most corrections should not require editing these files.\n- `src/`: page rendering, stylesheet, and document shell.\n- `assets/`: game icons and gameplay evidence screenshots, copied into the site by the build.\n- `dist/`: the generated site. It is not committed; `npm run build` creates it locally and the deploy workflow publishes it after a merge.\n\nFiles use stable IDs rather than titles, so renaming Pumpkin does not break its links to scenarios. Use readable names in the `name` field; preserve internal identifiers for matching records.\n\n## Evidence and uncertainty\n\nUse the in-game field guide for displayed names, recipes, construction requirements, and worker slots. Use scenario data for stored objectives, building lists, and need switches. Use controlled gameplay observations for actual timing, yields, consumption, and behavior. A stored value is not automatically a measured gameplay result.\n\nRecord a new claim in `content/observations/`. Each record needs an ID, target type and ID, claim, status, and evidence with a kind, game version, date, and reference. See `content/observations/clay-pit-late-start.json` for an open question. Supported statuses are `open`, `confirmed`, and `disputed`. Supported evidence kinds are `player-report`, `field-guide`, `gameplay-test`, `decoded-data`, and `official-source`.\n\nObservation records appear in the article's research notes. They do not automatically replace gameplay facts. If a claim is confirmed, update the appropriate content field and explain how the evidence supports that change. Do not mark an observation confirmed just because it sounds plausible.\n\nPreserve contradictions. For example, the Bakery field guide and decoded process balance differ on fuel consumption. Record both rather than silently choosing one. If a factual correction changes a decoded objective, update its validation status and retain the original evidence; do not leave a claim that the changed values match the original bytes.\n\nFor scenario needs, omitted means unspecified; it does not mean false. For crops, use the exact scenario planting list. A sandbox biome reference alone does not establish normal crop availability. Unknown values must not be replaced with zero.\n\n## Share a level strategy\n\nLevel pages have a Strategy section for community advice: a summary, a suggested build order and things to watch out for. Use the [level strategy form](https://github.com/kellan/outlanders2-wiki/issues/new?template=level-strategy.yml) (every level page links to it with the level filled in). A maintainer converts the submission into `content/strategies/<level id>.json`, which has `summary`, `build_order` (building IDs with a note each), `pitfalls`, `status` (`draft` until someone has finished the level that way, then `reviewed`), `game_version`, `date`, `contributor` and `source`. Strategies are rendered apart from decoded data and labelled as community advice. Keep them specific to the level, and do not restate objectives the page already shows.\n\n## Spoilers and unreleased content\n\nUse `content/spoilers.json` to place confirmed or explicitly reported unreleased content in the Spoilers section. Each entry records its target, classification, date and reason. Related content can be withheld as `related-release-unconfirmed` without asserting it is unreleased. Use the existing availability record and explain the evidence. Do not infer unreleased status merely from an unfamiliar name or presence in the game files. Keep uncertain release status distinct from spoilers.\n\nDo not expose spoiler names in ordinary index pages, search results, or related-entry lists. Test both the Spoilers page and the regular catalog when changing an availability record. Use a neutral issue or pull-request title when the details contain spoilers.\n\n## Images and private information\n\nUse only necessary evidence images, with the game version and source noted. Crop out account details and personal information. Do not upload game executables, complete asset bundles, decompiled assemblies, save games, credentials, or machine-specific logs. Game artwork and text have separate rights from the site's code; see the publication notes before adding redistributable assets.\n\n## Before requesting review\n\nKeep the change focused. Check names, numbers, links, evidence, and spoiler classification. List unresolved questions honestly. The maintainer reviews and merges changes. A merge to `main` builds, tests and publishes the website automatically; the pull request checks run the same build and tests, so browser-only edits get feedback without a local Node install.\n\n## Licensing and attribution\n\nSubmit original code and editorial contributions under the project’s MIT license. Only contribute material you have the right to license. Identify game-derived text, artwork and other third-party material and preserve its attribution: these are excluded from MIT. We retain game artwork and text as reference material without claiming ownership. See THIRD_PARTY_NOTICES.md for the boundary.\n"
+  "contribution_guide": "# Contribute to the Outlanders 2 guide\n\nThis is a community-maintained reference with reviewed changes. Pages are generated from data files; they are not edited directly in the browser.\n\n## Report a correction\n\nOpen a [content correction](https://github.com/kellan/outlanders2-wiki/issues/new?template=content-correction.yml) form. It asks for the page, what it currently says, your proposed correction, how you know, the game version, and evidence. To report something you measured or saw in play without proposing a specific text change, use the [gameplay observation](https://github.com/kellan/outlanders2-wiki/issues/new?template=gameplay-observation.yml) form; every research page links to it with the entry filled in. A screenshot of the field guide or a reproducible gameplay test is useful. Describe starting conditions and what you actually observed. You do not need to change code to contribute.\n\nThe [GitHub repository](https://github.com/kellan/outlanders2-wiki) is public. Everyone is welcome to report corrections and contribute through issues and pull requests.\n\n## Make an edit\n\n1. Create a branch for one correction or closely related set of changes.\n2. Find the entry with `npm run content:find -- pumpkin`, or browse the content folders. Every article page also ends with a \"Suggest an edit\" link that opens its JSON record in the GitHub editor, and a \"Report a problem\" link that starts a correction issue for that page.\n3. Edit the JSON record, preserving its stable ID and source references. Add evidence for factual changes.\n4. If you changed a building recipe or gameplay block, run `npm run content:derive` to refresh the stored `made_from` recipes on resources. Run `npm run build`, then `npm test` (optional for small browser edits; the pull request checks run both).\n5. Run `npm run dev` and review the changed page and its links at the local address printed by the server.\n6. Open a pull request describing what changed, why, the evidence, and the checks you ran.\n\nNode.js 18 or later is required. There are no third-party runtime packages to install.\n\n## Where to edit\n\n- `content/buildings/`: one building or plant per file; names, descriptions, worker limits, and linked processes.\n- `content/resources/`: one resource per file; names, satisfaction fields, and provenance.\n- `content/scenarios/`: one scenario per file; descriptions, objectives, day limits, build/plant lists, and need switches.\n- `content/leaders/` and `content/biomes/`: one entry per file.\n- `content/observations/`: one sourced claim or open question per file.\n- `content/collections.json`: ordered lists of record files. Add a new record here without changing existing IDs or casually reordering entries.\n- `content/reference/`: shared catalogs, recipes, source exports, and extraction metadata. Most corrections should not require editing these files.\n- `src/`: page rendering, stylesheet, and document shell.\n- `assets/`: game icons and gameplay evidence screenshots, copied into the site by the build.\n- `dist/`: the generated site. It is not committed; `npm run build` creates it locally and the deploy workflow publishes it after a merge.\n\nFiles use stable IDs rather than titles, so renaming Pumpkin does not break its links to scenarios. Use readable names in the `name` field; preserve internal identifiers for matching records.\n\n## Evidence and uncertainty\n\nUse the in-game field guide for displayed names, recipes, construction requirements, and worker slots. Use scenario data for stored objectives, building lists, and need switches. Use controlled gameplay observations for actual timing, yields, consumption, and behavior. A stored value is not automatically a measured gameplay result.\n\nRecord a new claim in `content/observations/`. Each record needs an ID, target type and ID, claim, status, and evidence with a kind, game version, date, and reference. See `content/observations/clay-pit-late-start.json` for an open question. Supported statuses are `open`, `confirmed`, and `disputed`. Supported evidence kinds are `player-report`, `field-guide`, `gameplay-test`, `decoded-data`, and `official-source`.\n\nObservation records appear in the article's research notes. They do not automatically replace gameplay facts. If a claim is confirmed, update the appropriate content field and explain how the evidence supports that change. Do not mark an observation confirmed just because it sounds plausible.\n\nPreserve contradictions. For example, the Bakery field guide and decoded process balance differ on fuel consumption. Record both rather than silently choosing one. If a factual correction changes a decoded objective, update its validation status and retain the original evidence; do not leave a claim that the changed values match the original bytes.\n\nFor scenario needs, omitted means unspecified; it does not mean false. For crops, use the exact scenario planting list. A sandbox biome reference alone does not establish normal crop availability. Unknown values must not be replaced with zero.\n\n## Share a level strategy\n\nLevel pages have a Strategy section for community advice: a summary, a suggested build order and things to watch out for. Use the [level strategy form](https://github.com/kellan/outlanders2-wiki/issues/new?template=level-strategy.yml) (every level page links to it with the level filled in). A maintainer converts the submission into `content/strategies/<level id>.json`, which has `summary`, `build_order` (building IDs with a note each), `pitfalls`, `status` (`draft` until someone has finished the level that way, then `reviewed`), `game_version`, `date`, `contributor` and `source`. Strategies are rendered apart from decoded data and labelled as community advice. Keep them specific to the level, and do not restate objectives the page already shows.\n\n## Spoilers and unreleased content\n\nUse `content/spoilers.json` to place confirmed or explicitly reported unreleased content in the Spoilers section. Each entry records its target, classification, date and reason. Related content can be withheld as `related-release-unconfirmed` without asserting it is unreleased. Use the existing availability record and explain the evidence. Do not infer unreleased status merely from an unfamiliar name or presence in the game files. Keep uncertain release status distinct from spoilers.\n\nDo not expose spoiler names in ordinary index pages, search results, or related-entry lists. Test both the Spoilers page and the regular catalog when changing an availability record. Use a neutral issue or pull-request title when the details contain spoilers.\n\n## Images and private information\n\nUse only necessary evidence images, with the game version and source noted. Crop out account details and personal information. Do not upload game executables, complete asset bundles, decompiled assemblies, save games, credentials, or machine-specific logs. Game artwork and text have separate rights from the site's code; see the publication notes before adding redistributable assets.\n\n## Before requesting review\n\nKeep the change focused. Check names, numbers, links, evidence, and spoiler classification. List unresolved questions honestly. The maintainer reviews and merges changes. A merge to `main` builds, tests and publishes the website automatically; the pull request checks run the same build and tests, so browser-only edits get feedback without a local Node install.\n\n## Licensing and attribution\n\nSubmit original code and editorial contributions under the project’s MIT license. Only contribute material you have the right to license. Identify game-derived text, artwork and other third-party material and preserve its attribution: these are excluded from MIT. We retain game artwork and text as reference material without claiming ownership. See THIRD_PARTY_NOTICES.md for the boundary.\n"
 }

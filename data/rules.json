@@ -44188,7 +44188,53 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 105697,
+          "building_name": "Brickyard",
+          "per_unit": [
+            {
+              "resource_id": 292310,
+              "name": "Clay",
+              "count": 1
+            },
+            {
+              "resource_id": 284894,
+              "name": "Stick",
+              "count": 0.125
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 292310,
+                "name": "Clay",
+                "count": 8
+              },
+              {
+                "resource_id": 284894,
+                "name": "Stick",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 284026,
+                "name": "Brick",
+                "count": 8
+              }
+            ]
+          },
+          "formula_ids": [
+            281497,
+            284725,
+            300608,
+            319150
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 284027,
@@ -44426,7 +44472,40 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 71938,
+          "building_name": "Firewood Yard",
+          "per_unit": [
+            {
+              "resource_id": 309169,
+              "name": "Log",
+              "count": 0.25
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 309169,
+                "name": "Log",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 284895,
+                "name": "Stick",
+                "count": 4
+              }
+            ]
+          },
+          "formula_ids": [
+            308345
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 285149,
@@ -44949,7 +45028,43 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 105707,
+          "building_name": "Press",
+          "per_unit": [
+            {
+              "resource_id": 308079,
+              "name": "Paper",
+              "count": 0.3333
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 308079,
+                "name": "Paper",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 285908,
+                "name": "Newspaper",
+                "count": 3
+              }
+            ]
+          },
+          "formula_ids": [
+            280769,
+            286549,
+            289119,
+            306807
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 285909,
@@ -45207,7 +45322,43 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 57394,
+          "building_name": "Ice Pop Stand",
+          "per_unit": [
+            {
+              "resource_id": 300126,
+              "name": "Fruit",
+              "count": 0.5
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 300126,
+                "name": "Fruit",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 286343,
+                "name": "Ice Pop",
+                "count": 2
+              }
+            ]
+          },
+          "formula_ids": [
+            286972,
+            307100,
+            307478,
+            319137
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 286344,
@@ -45237,7 +45388,43 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 105747,
+          "building_name": "Dried Meat Shop",
+          "per_unit": [
+            {
+              "resource_id": 304113,
+              "name": "Meat",
+              "count": 0.5
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 304113,
+                "name": "Meat",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 286344,
+                "name": "Dried Meat",
+                "count": 2
+              }
+            ]
+          },
+          "formula_ids": [
+            307967,
+            309556,
+            314771,
+            318168
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 286345,
@@ -45747,7 +45934,40 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 57397,
+          "building_name": "Smoothie Stand",
+          "per_unit": [
+            {
+              "resource_id": 300126,
+              "name": "Fruit",
+              "count": 0.5
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 300126,
+                "name": "Fruit",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 286361,
+                "name": "Smoothie",
+                "count": 2
+              }
+            ]
+          },
+          "formula_ids": [
+            307101
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 286781,
@@ -45777,7 +45997,41 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 104202,
+          "building_name": "Windmill",
+          "per_unit": [
+            {
+              "resource_id": 320813,
+              "name": "Wheat",
+              "count": 1
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 320813,
+                "name": "Wheat",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 286781,
+                "name": "Flour",
+                "count": 1
+              }
+            ]
+          },
+          "formula_ids": [
+            284165,
+            292517
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 286782,
@@ -46125,7 +46379,46 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 105723,
+          "building_name": "Stone Mine",
+          "per_unit": [
+            {
+              "resource_id": 309169,
+              "name": "Log",
+              "count": 1.5
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 309169,
+                "name": "Log",
+                "count": 3
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 293926,
+                "name": "Stone",
+                "count": 2
+              }
+            ]
+          },
+          "formula_ids": [
+            277841,
+            290310,
+            291324,
+            296702,
+            300075,
+            311533,
+            319653
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 293927,
@@ -46527,7 +46820,43 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 105750,
+          "building_name": "Luthierie",
+          "per_unit": [
+            {
+              "resource_id": 309169,
+              "name": "Log",
+              "count": 3
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 309169,
+                "name": "Log",
+                "count": 3
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 300123,
+                "name": "Ukulele",
+                "count": 1
+              }
+            ]
+          },
+          "formula_ids": [
+            290652,
+            293378,
+            313644,
+            315713
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 300124,
@@ -46557,7 +46886,41 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 105694,
+          "building_name": "Tailor",
+          "per_unit": [
+            {
+              "resource_id": 304112,
+              "name": "Animal Hide",
+              "count": 3
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 304112,
+                "name": "Animal Hide",
+                "count": 3
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 300124,
+                "name": "Coat",
+                "count": 1
+              }
+            ]
+          },
+          "formula_ids": [
+            291264,
+            306804
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 300125,
@@ -46587,7 +46950,57 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 105743,
+          "building_name": "Bootmakers' Shop",
+          "per_unit": [
+            {
+              "resource_id": 304112,
+              "name": "Animal Hide",
+              "count": 2
+            },
+            {
+              "resource_id": 309169,
+              "name": "Log",
+              "count": 1
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 304112,
+                "name": "Animal Hide",
+                "count": 2
+              },
+              {
+                "resource_id": 309169,
+                "name": "Log",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 300125,
+                "name": "Boots",
+                "count": 1
+              }
+            ]
+          },
+          "formula_ids": [
+            281639,
+            290510,
+            291265,
+            292646,
+            293377,
+            295282,
+            298078,
+            306810
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 300126,
@@ -46677,7 +47090,52 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 105696,
+          "building_name": "Book Workshop",
+          "per_unit": [
+            {
+              "resource_id": 308079,
+              "name": "Paper",
+              "count": 2
+            },
+            {
+              "resource_id": 304112,
+              "name": "Animal Hide",
+              "count": 1
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 308079,
+                "name": "Paper",
+                "count": 2
+              },
+              {
+                "resource_id": 304112,
+                "name": "Animal Hide",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 300128,
+                "name": "Book",
+                "count": 1
+              }
+            ]
+          },
+          "formula_ids": [
+            296352,
+            306805,
+            314610
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 300129,
@@ -46737,7 +47195,66 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 105745,
+          "building_name": "Canteen Factory",
+          "per_unit": [
+            {
+              "resource_id": 309166,
+              "name": "Glass Pane",
+              "count": 2
+            },
+            {
+              "resource_id": 284894,
+              "name": "Stick",
+              "count": 0.4
+            },
+            {
+              "resource_id": 312704,
+              "name": "Reed Bunch",
+              "count": 1
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 309166,
+                "name": "Glass Pane",
+                "count": 10
+              },
+              {
+                "resource_id": 284894,
+                "name": "Stick",
+                "count": 2
+              },
+              {
+                "resource_id": 312704,
+                "name": "Reed Bunch",
+                "count": 5
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 300130,
+                "name": "Canteen",
+                "count": 5
+              }
+            ]
+          },
+          "formula_ids": [
+            278986,
+            287240,
+            289591,
+            310628,
+            312502,
+            319294,
+            321963
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 300131,
@@ -46767,7 +47284,43 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 105715,
+          "building_name": "Pendant Craftshop",
+          "per_unit": [
+            {
+              "resource_id": 309166,
+              "name": "Glass Pane",
+              "count": 1
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 309166,
+                "name": "Glass Pane",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 300131,
+                "name": "Pendant",
+                "count": 1
+              }
+            ]
+          },
+          "formula_ids": [
+            282908,
+            288753,
+            299971,
+            301857
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 301712,
@@ -47631,7 +48184,108 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 65543,
+          "building_name": "Trading Outpost",
+          "per_unit": [
+            {
+              "resource_id": 320813,
+              "name": "Wheat",
+              "count": 1
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 320813,
+                "name": "Wheat",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 304112,
+                "name": "Animal Hide",
+                "count": 1
+              }
+            ]
+          },
+          "formula_ids": [
+            293829,
+            298620,
+            318144
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        },
+        {
+          "building_id": 75225,
+          "building_name": "Trading Outpost",
+          "per_unit": [
+            {
+              "resource_id": 309166,
+              "name": "Glass Pane",
+              "count": 1.3333
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 309166,
+                "name": "Glass Pane",
+                "count": 4
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 304112,
+                "name": "Animal Hide",
+                "count": 3
+              }
+            ]
+          },
+          "formula_ids": [
+            278143,
+            299853,
+            304090
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        },
+        {
+          "building_id": 75226,
+          "building_name": "Trading Outpost",
+          "per_unit": [
+            {
+              "resource_id": 320813,
+              "name": "Wheat",
+              "count": 2
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 320813,
+                "name": "Wheat",
+                "count": 2
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 304112,
+                "name": "Animal Hide",
+                "count": 1
+              }
+            ]
+          },
+          "formula_ids": [
+            278144,
+            299854,
+            304091
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 304113,
@@ -47953,7 +48607,43 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 71937,
+          "building_name": "Sawmill",
+          "per_unit": [
+            {
+              "resource_id": 309169,
+              "name": "Log",
+              "count": 1
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 309169,
+                "name": "Log",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 308077,
+                "name": "Plank",
+                "count": 1
+              }
+            ]
+          },
+          "formula_ids": [
+            277937,
+            308344,
+            310479,
+            311264
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 308078,
@@ -47983,7 +48673,54 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 105709,
+          "building_name": "Bottle Factory",
+          "per_unit": [
+            {
+              "resource_id": 309166,
+              "name": "Glass Pane",
+              "count": 1
+            },
+            {
+              "resource_id": 284894,
+              "name": "Stick",
+              "count": 1
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 309166,
+                "name": "Glass Pane",
+                "count": 1
+              },
+              {
+                "resource_id": 284894,
+                "name": "Stick",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 308078,
+                "name": "Bottle",
+                "count": 1
+              }
+            ]
+          },
+          "formula_ids": [
+            281438,
+            296670,
+            299622,
+            300411,
+            311935
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 308079,
@@ -48013,7 +48750,43 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 105708,
+          "building_name": "Paper Mill",
+          "per_unit": [
+            {
+              "resource_id": 309169,
+              "name": "Log",
+              "count": 1
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 309169,
+                "name": "Log",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 308079,
+                "name": "Paper",
+                "count": 1
+              }
+            ]
+          },
+          "formula_ids": [
+            284014,
+            306808,
+            317424,
+            322107
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 308080,
@@ -48133,7 +48906,179 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 65543,
+          "building_name": "Trading Outpost",
+          "per_unit": [
+            {
+              "resource_id": 320813,
+              "name": "Wheat",
+              "count": 1
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 320813,
+                "name": "Wheat",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 309166,
+                "name": "Glass Pane",
+                "count": 1
+              }
+            ]
+          },
+          "formula_ids": [
+            293829,
+            302115,
+            302991
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        },
+        {
+          "building_id": 75226,
+          "building_name": "Trading Outpost",
+          "per_unit": [
+            {
+              "resource_id": 320813,
+              "name": "Wheat",
+              "count": 2
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 320813,
+                "name": "Wheat",
+                "count": 2
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 309166,
+                "name": "Glass Pane",
+                "count": 1
+              }
+            ]
+          },
+          "formula_ids": [
+            296118,
+            297306,
+            299854
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        },
+        {
+          "building_id": 75227,
+          "building_name": "Trading Outpost",
+          "per_unit": [
+            {
+              "resource_id": 304112,
+              "name": "Animal Hide",
+              "count": 1.3333
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 304112,
+                "name": "Animal Hide",
+                "count": 4
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 309166,
+                "name": "Glass Pane",
+                "count": 3
+              }
+            ]
+          },
+          "formula_ids": [
+            296119,
+            297307,
+            299855
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        },
+        {
+          "building_id": 83845,
+          "building_name": "Trading Outpost",
+          "per_unit": [
+            {
+              "resource_id": 304112,
+              "name": "Animal Hide",
+              "count": 1.3333
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 304112,
+                "name": "Animal Hide",
+                "count": 4
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 309166,
+                "name": "Glass Pane",
+                "count": 3
+              }
+            ]
+          },
+          "formula_ids": [
+            290199,
+            292168,
+            306925
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        },
+        {
+          "building_id": 105728,
+          "building_name": "Glassworks",
+          "per_unit": [
+            {
+              "resource_id": 284894,
+              "name": "Stick",
+              "count": 1.5
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 284894,
+                "name": "Stick",
+                "count": 3
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 309166,
+                "name": "Glass Pane",
+                "count": 2
+              }
+            ]
+          },
+          "formula_ids": [
+            277842,
+            290311,
+            290586,
+            291325,
+            300076,
+            301192,
+            302107,
+            304524
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 309167,
@@ -48925,7 +49870,84 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 57395,
+          "building_name": "Bakery",
+          "per_unit": [
+            {
+              "resource_id": 286781,
+              "name": "Flour",
+              "count": 0.125
+            },
+            {
+              "resource_id": 284894,
+              "name": "Stick",
+              "count": 0.125
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 286781,
+                "name": "Flour",
+                "count": 5
+              },
+              {
+                "resource_id": 284894,
+                "name": "Stick",
+                "count": 4
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 319667,
+                "name": "Bread",
+                "count": 40
+              }
+            ]
+          },
+          "formula_ids": [
+            285959,
+            287898,
+            291517,
+            297381,
+            309671,
+            310360,
+            313803
+          ],
+          "status": "per-unit ratio derived from the recorded per-cycle recipe",
+          "per_cycle": {
+            "inputs": [
+              {
+                "resource_id": 286781,
+                "name": "Flour",
+                "count": 1
+              },
+              {
+                "resource_id": 284894,
+                "name": "Stick",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 319667,
+                "name": "Bread",
+                "count": 8
+              }
+            ],
+            "status": "confirmed",
+            "evidence": {
+              "kind": "field-guide",
+              "game_version": "30 (254)",
+              "date": "2026-10-24",
+              "reference": "Bakery field guide screenshot (gameplay-evidence/bakery-field-guide.png). Maintainer play report of 25 October 2026 agrees. The decoded formula graph gives exactly 8 Bread per Flour; formula 297381 is named \"1 Stick -> 8 KitchenFire\" although its serialized output is 10, so whether leftover fire carries between cycles is unverified."
+            }
+          }
+        }
+      ]
     },
     {
       "id": 319668,
@@ -49105,7 +50127,65 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 105706,
+          "building_name": "Concoction Shop",
+          "per_unit": [
+            {
+              "resource_id": 284894,
+              "name": "Stick",
+              "count": 0.2
+            },
+            {
+              "resource_id": 320441,
+              "name": "Mushroom",
+              "count": 0.3333
+            },
+            {
+              "resource_id": 292310,
+              "name": "Clay",
+              "count": 1
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 284894,
+                "name": "Stick",
+                "count": 3
+              },
+              {
+                "resource_id": 320441,
+                "name": "Mushroom",
+                "count": 5
+              },
+              {
+                "resource_id": 292310,
+                "name": "Clay",
+                "count": 15
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 319673,
+                "name": "Concoction",
+                "count": 15
+              }
+            ]
+          },
+          "formula_ids": [
+            279681,
+            302616,
+            309554,
+            312707,
+            314769,
+            318166
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 319674,
@@ -49195,7 +50275,64 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 105717,
+          "building_name": "Stroganoff Cookhouse",
+          "per_unit": [
+            {
+              "resource_id": 284894,
+              "name": "Stick",
+              "count": 0.2
+            },
+            {
+              "resource_id": 304113,
+              "name": "Meat",
+              "count": 0.125
+            },
+            {
+              "resource_id": 320441,
+              "name": "Mushroom",
+              "count": 0.125
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 284894,
+                "name": "Stick",
+                "count": 8
+              },
+              {
+                "resource_id": 304113,
+                "name": "Meat",
+                "count": 5
+              },
+              {
+                "resource_id": 320441,
+                "name": "Mushroom",
+                "count": 5
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 319676,
+                "name": "Stroganoff",
+                "count": 40
+              }
+            ]
+          },
+          "formula_ids": [
+            279682,
+            309555,
+            312708,
+            314770,
+            318167
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 319677,
@@ -49315,7 +50452,66 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 57396,
+          "building_name": "Cookie Shop",
+          "per_unit": [
+            {
+              "resource_id": 286781,
+              "name": "Flour",
+              "count": 0.125
+            },
+            {
+              "resource_id": 286358,
+              "name": "Egg",
+              "count": 0.25
+            },
+            {
+              "resource_id": 284894,
+              "name": "Stick",
+              "count": 0.125
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 286781,
+                "name": "Flour",
+                "count": 1
+              },
+              {
+                "resource_id": 286358,
+                "name": "Egg",
+                "count": 2
+              },
+              {
+                "resource_id": 284894,
+                "name": "Stick",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 319680,
+                "name": "Cookie",
+                "count": 8
+              }
+            ]
+          },
+          "formula_ids": [
+            277322,
+            287646,
+            298614,
+            300322,
+            309726,
+            316888,
+            320102
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 319681,
@@ -49795,7 +50991,66 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 60667,
+          "building_name": "Gingerbread Man Shop",
+          "per_unit": [
+            {
+              "resource_id": 286781,
+              "name": "Flour",
+              "count": 0.125
+            },
+            {
+              "resource_id": 286358,
+              "name": "Egg",
+              "count": 0.25
+            },
+            {
+              "resource_id": 284894,
+              "name": "Stick",
+              "count": 0.125
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 286781,
+                "name": "Flour",
+                "count": 1
+              },
+              {
+                "resource_id": 286358,
+                "name": "Egg",
+                "count": 2
+              },
+              {
+                "resource_id": 284894,
+                "name": "Stick",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 319696,
+                "name": "Gingerbread Man",
+                "count": 8
+              }
+            ]
+          },
+          "formula_ids": [
+            282646,
+            283837,
+            294751,
+            305366,
+            307486,
+            311452,
+            319599
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 319697,
@@ -50483,7 +51738,108 @@
         "fields": [
           "ResourceConfig"
         ]
-      }
+      },
+      "made_from": [
+        {
+          "building_id": 75225,
+          "building_name": "Trading Outpost",
+          "per_unit": [
+            {
+              "resource_id": 309166,
+              "name": "Glass Pane",
+              "count": 0.8889
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 309166,
+                "name": "Glass Pane",
+                "count": 8
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 320813,
+                "name": "Wheat",
+                "count": 9
+              }
+            ]
+          },
+          "formula_ids": [
+            296117,
+            297305,
+            299853
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        },
+        {
+          "building_id": 75227,
+          "building_name": "Trading Outpost",
+          "per_unit": [
+            {
+              "resource_id": 304112,
+              "name": "Animal Hide",
+              "count": 0.8889
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 304112,
+                "name": "Animal Hide",
+                "count": 8
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 320813,
+                "name": "Wheat",
+                "count": 9
+              }
+            ]
+          },
+          "formula_ids": [
+            278145,
+            299855,
+            304092
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        },
+        {
+          "building_id": 83845,
+          "building_name": "Trading Outpost",
+          "per_unit": [
+            {
+              "resource_id": 304112,
+              "name": "Animal Hide",
+              "count": 0.8889
+            }
+          ],
+          "smallest_whole_batch": {
+            "inputs": [
+              {
+                "resource_id": 304112,
+                "name": "Animal Hide",
+                "count": 8
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 320813,
+                "name": "Wheat",
+                "count": 9
+              }
+            ]
+          },
+          "formula_ids": [
+            282995,
+            306925,
+            310702
+          ],
+          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+        }
+      ]
     },
     {
       "id": 320814,
