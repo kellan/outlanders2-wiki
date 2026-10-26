@@ -1,3 +1,7 @@
+## Playtest protocols for a computer-use agent (2026-10-26)
+
+`docs/PLAYTESTS.md` separates what must be learned by playing from what the research repository decodes: six screen-capture tasks (field guide, clock at sunrise, menus, challenge and tournament screens, planter menus, demolition refund) and nine timed tests (meal log, fish per cast, growth timing, gathering visits, Bakery output, cold, housing, planted-tree spread, day limit), each with setup, what to record, screenshot naming and the answers-inbox entry to write. INFORMATION-NEEDED points to it.
+
 ## 26 October analytics
 
 Plausible analytics snippet added to the page template at the maintainer’s request; it is the only script the published pages load.
