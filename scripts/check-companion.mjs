@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import fs2 from 'node:fs';import {root as root2} from './render-harness.mjs';
 import {harness} from './render-harness.mjs';
 const h=await harness();
+const needsAll=()=>['needs/','needs/food/','needs/hydration/','needs/heat/','needs/energy/','needs/fun/','needs/cooling/','needs/wellness/','needs/community/','eating/'].map(p=>h.render(p)).join('\n');
 const bakery=h.render('buildings/bakery/');
 assert.ok(bakery.includes('class="infobox"'),'infobox');
 assert.ok(bakery.includes('Recipe'),'infobox recipe');
@@ -86,7 +87,7 @@ assert.ok(snowPage.includes('Winterlands'),'level biome');assert.ok(snowPage.inc
 const moon=h.render('levels/a-moon-part/');assert.ok(moon.includes('5 adults, 2 kids'),'starting villagers');assert.ok(moon.includes('/food/veggie/')||moon.includes('/resources/veggie/'),'stockpile links');
 assert.ok(h.render('biomes/winterlands/').includes('Levels in this biome'));assert.ok(h.render('biomes/winterlands/').includes('Map resources'));
 assert.ok(h.render('levels/').includes('<th scope="col">Biome</th>'));
-const needs=h.render('needs/');assert.ok(/<h2>(?:<span class="need-dot"[^>]*><\/span>)?Cooling<\/h2>/.test(needs)&&needs.includes('Ice Pop'),'needs satisfiers');assert.ok(needs.includes('adults only'),'age limit');
+const needs=needsAll();assert.ok(h.render('needs/cooling/').includes('<h1>Cooling</h1>')&&h.render('needs/cooling/').includes('Ice Pop'),'needs satisfiers on the Cooling page');assert.ok(needs.includes('adults only'),'age limit');
 assert.ok(!/Concoction|Stroganoff|Mushroom/.test(needs),'needs page leaked spoilers');
 assert.ok(h.render('resources/wine/').includes('Adults only'));
 assert.ok(h.render('buildings/quarry/').includes('rock sources'),'harvest row');
@@ -106,7 +107,7 @@ assert.ok(!tour.includes('not checked')&&tour.includes('Live ·'),'live tag');as
 console.log('PASS: Tournament Mode page and season spoiler handling.');
 // Need effects stated in building descriptions appear beside stored units.
 const porridge=h.render('food/barley-porridge/');assert.ok(porridge.includes('Community'),'stated community effect');assert.ok(porridge.includes('stated in the')||porridge.includes('when eaten at the'),'stated-effect label');
-const needs2=h.render('needs/');assert.ok(needs2.includes('Communal Plaza')&&needs2.includes('Ukulele')&&needs2.includes('Barley Porridge'),'stated effects on needs page');
+const needs2=needsAll();assert.ok(needs2.includes('Communal Plaza')&&needs2.includes('Ukulele')&&needs2.includes('Barley Porridge'),'stated effects on needs page');
 assert.ok(h.render('verification/food/barley-porridge/').includes('raises Community'),'observation on research page');
 console.log('PASS: description-stated need effects.');
 // Research handoff: decoded gear, social spots, terrain, yields, day length and modelled rates.
@@ -116,7 +117,7 @@ const boots=h.render('resources/boots/');assert.ok(boots.includes('walk speed')&
 const porridge2=h.render('food/barley-porridge/');assert.ok(porridge2.includes('Community 1')||porridge2.includes('Community</small><b>1</b>'),'porridge community value');
 const cookhouse=h.render('buildings/porridge-cookhouse/');assert.ok(cookhouse.includes('Visiting gives')&&cookhouse.includes('Community 1'),'cookhouse social row');
 assert.ok(h.render('buildings/bonfire/').includes('Heat 2'),'bonfire heat');
-const needs3=h.render('needs/');assert.ok(needs3.includes('base +129')||needs3.includes('base +129 (stored)'),'gear value on needs page');assert.ok(needs3.includes('1.2 (stored)'),'social value on needs page');
+const needs3=needsAll();assert.ok(needs3.includes('base +129')||needs3.includes('base +129 (stored)'),'gear value on needs page');assert.ok(needs3.includes('1.2 (stored)'),'social value on needs page');
 assert.ok(h.render('buildings/bridge/').includes('soil, water or sand'),'terrain names');assert.ok(h.render('buildings/bakery/').includes('flat soil only'));
 assert.ok(h.render('buildings/').includes('300 simulation seconds'),'day length');
 assert.ok(h.render('buildings/chicken-coop/').includes('Reported output')&&h.render('buildings/chicken-coop/').includes('per day'),'coop report');
@@ -152,7 +153,7 @@ console.log('PASS: research handoff integration.');
  const cabin=h.render('buildings/winter-cabin/');assert.ok(cabin.includes('Heating')&&cabin.includes('burns one fuel item every day')&&cabin.includes('warms 4 sleeping spots'),'winter cabin heating row: '+(cabin.match(/Heating<\/dt><dd>[^<]*/)||[''])[0]);
  const house=h.render('buildings/basic-house/');assert.ok(house.includes('4 villagers')&&house.includes('plus a crib and a doghouse'),'housing row with crib and doghouse');
  const dock=h.render('buildings/fishing-dock/');assert.ok(/Added in<\/dt><dd>Update 17/.test(dock),'added-in row from MinGameVersion');
- const needs=h.render('needs/');for(const t of ['How the meters work','Villager life and happiness','href="/villagers/"','href="/happiness/"','Falls per day'])assert.ok(needs.includes(t),'needs page: '+t);{const v=h.render('villagers/');for(const t of ['adult in about 80 minutes','<td>Adult</td><td>16</td>','5.75 days','Population stops at 200'])assert.ok(v.includes(t),'villagers page: '+t);const hp=h.render('happiness/');for(const t of ['Food</td><td>4</td><td>42%</td>','the Boost','Town of the Year'])assert.ok(hp.includes(t),'happiness page: '+t)}
+ const needs=h.render('needs/');for(const t of ['The eight needs','More about needs','href="/villagers/"','href="/happiness/"','href="/eating/"','href="/needs/food/"','Falls per day'])assert.ok(needs.includes(t),'needs page: '+t);assert.ok(h.render('needs/food/').includes('<h2>The meter</h2>')&&h.render('needs/food/').includes('5.75 days'),'food page meter');{const v=h.render('villagers/');for(const t of ['adult in about 80 minutes','<td>Adult</td><td>16</td>','5.75 days','Population stops at 200'])assert.ok(v.includes(t),'villagers page: '+t);const hp=h.render('happiness/');for(const t of ['Food</td><td>4</td><td>42%</td>','the Boost','Town of the Year'])assert.ok(hp.includes(t),'happiness page: '+t)}
  const tropics=h.render('biomes/tropiclands/');assert.ok(tropics.includes('Weather')&&tropics.includes('Heat wave')&&tropics.includes('2 to 6 days'),'tropical weather');
  assert.ok(!h.render('biomes/winterlands/').includes('<h2>Weather</h2>'),'no weather section elsewhere');
  const research=h.render('verification/buildings/bakery/');assert.ok(research.includes('<h2>Piles</h2>')&&research.includes('public output'),'pile table on research page');assert.ok(!bakery2.includes('<h2>Piles</h2>'),'pile table stays on the research page');
@@ -179,7 +180,7 @@ console.log('PASS: research handoff integration.');
  const dir=h.render('plants/');assert.ok(dir.includes('>Biomes</th>')&&/Nopal Tree[\s\S]*?<a[^>]*>Oasis<\/a>[\s\S]*?Drylands/.test(dir),'biomes column on the overview');
  console.log('PASS: plant biomes, wild spawns and data-driven planters.');}
 // How eating works (Needs page).
-{const needs=h.render('needs/');assert.ok(needs.includes('id="eating"')&&needs.includes('How eating works'),'eating section');assert.ok(needs.includes('starves only after about 6.25 days'),'days to starve from the stored curve');assert.ok(/<td>Satisfied<\/td><td>90–110<\/td><td>0.45<\/td>/.test(needs),'eat priority at Satisfied');assert.ok(/<td>Full<\/td><td>110 and above<\/td><td>0 \(never\)<\/td>/.test(needs),'full villagers never eat');
+{const needs=h.render('eating/');assert.ok(needs.includes('id="eating"')&&needs.includes('How eating works'),'eating page');assert.ok(needs.includes('starves only after about 6.25 days'),'days to starve from the stored curve');assert.ok(/<td>Satisfied<\/td><td>90–110<\/td><td>0.45<\/td>/.test(needs),'eat priority at Satisfied');assert.ok(/<td>Full<\/td><td>110 and above<\/td><td>0 \(never\)<\/td>/.test(needs),'full villagers never eat');
  assert.ok(/>Bread<\/a><\/td><td>2<\/td><td>120<\/td><td>30<\/td><td>0.33<\/td>/.test(needs),'bread row: units, restore, worth-it-below, per day');assert.ok(!/Stroganoff|Mushroom/.test(needs),'eating table keeps spoilers out');
  console.log('PASS: how eating works from the stored meter and eat priority.');}
 // Salvage values on level starting conditions and biome map resources.
@@ -200,7 +201,7 @@ console.log('PASS: research handoff integration.');
  console.log('PASS: houses page and villagers fed per source.');}
 // Gathering places (issue 34).
 {assert.ok(h.lookup['gathering-places/'],'gathering route');const g=h.render('gathering-places/');assert.ok(/Fitness Park<\/a><\/td><td>12<\/td><td>10 visitor spots: Wellness 6 each<br>2 staff spots: Wellness 6 <span class="objective-note">\(used by its own workers while on shift\)/.test(g),'fitness park row');assert.ok(/Open Kitchen<\/a><\/td><td>8<\/td><td>Community 4<\/td><td>Fun<\/td>/.test(g),'open kitchen: one version counted, not pickable for Community');assert.ok(/Swimming Pier<\/a><\/td><td>3<\/td><td>Fun 6, Cooling 6<\/td>/.test(g),'pier row');assert.ok(g.includes('stored delay is 0.5–0.7 of a day'),'reuse delay');
- assert.ok(/Visiting gives<\/dt><dd>8 spots: each visit gives Community 4/.test(h.render('buildings/open-kitchen/')),'infobox row from decoded spots');const needs=h.render('needs/');assert.ok(needs.includes('id="need-community"')&&/Communal Plaza<\/a><\/td><td>1.2<\/td><td>30<\/td><td>2<\/td>/.test(needs),'needs page places table');assert.ok(needs.includes('<h2>The eight needs at a glance</h2>')&&/Food<\/a><\/td><td>Hunger[^<]*<\/td><td>40<\/td><td>60<\/td><td>yes, at -100<\/td>/.test(needs),'needs overview table');assert.ok(/Stew<\/a><\/td><td>1<\/td><td>60<\/td><td>Community 4 at the <a[^>]*>Open Kitchen/.test(needs),'stew also gives community at the open kitchen');assert.ok(!/Stroganoff|Mushroom/.test(g),'gathering page keeps spoilers out');
+ assert.ok(/Visiting gives<\/dt><dd>8 spots: each visit gives Community 4/.test(h.render('buildings/open-kitchen/')),'infobox row from decoded spots');const needs=needsAll();assert.ok(h.render('needs/community/').includes('<h1>Community</h1>')&&/Communal Plaza<\/a><\/td><td>1.2<\/td><td>30<\/td><td>2<\/td>/.test(needs),'needs page places table');assert.ok(h.render('needs/').includes('<h2>The eight needs</h2>')||needs.includes('<h2>The eight needs at a glance</h2>')&&/Food<\/a><\/td><td>Hunger[^<]*<\/td><td>40<\/td><td>60<\/td><td>yes, at -100<\/td>/.test(needs),'needs overview table');assert.ok(/Stew<\/a><\/td><td>1<\/td><td>60<\/td><td>Community 4 at the <a[^>]*>Open Kitchen/.test(needs),'stew also gives community at the open kitchen');assert.ok(!/Stroganoff|Mushroom/.test(g),'gathering page keeps spoilers out');
  console.log('PASS: gathering places from decoded social spots.');}
 // Level starting conditions (issue 33).
 {const stones=h.render('levels/morrigwyn-stones/');const sec=stones.slice(stones.indexOf('<h2>Starting conditions</h2>'));const row=k=>(sec.match(new RegExp('<dt>'+k+'</dt><dd>([\\s\\S]*?)</dd>'))||['',''])[1].replace(/<[^>]+>/g,'');
@@ -215,7 +216,7 @@ console.log('PASS: research handoff integration.');
 {assert.ok(h.lookup['guides/'],'guides route');const g=h.render('guides/');assert.ok(g.includes('Guides elsewhere')&&g.includes('<h2>Communities</h2>')&&/rel="nofollow noopener"[^>]*>r\/Outlanders_ios</.test(g),'guides page lists the seeded community link with nofollow');assert.ok(g.includes('not yet reviewed'),'unreviewed status shown');assert.ok(g.includes('external-link.yml'),'suggest-a-link form');
  console.log('PASS: guides elsewhere page.');}
 // Why villagers pick a dish served at an eating place.
-{const stew=h.render('food/stew/');assert.ok(stew.includes('<h2>Why villagers pick it</h2>')&&/prefer eating Stew at the <a[^>]*>Open Kitchen<\/a> over food with the same 1-unit value such as Fruit or Veggie/.test(stew)&&stew.includes('<strong>Community 4</strong>')&&stew.includes('/gathering-places/')&&stew.includes('/needs/#eating'),'stew preference note: '+(stew.match(/prefer eating[^<]*/)||[''])[0]);
+{const stew=h.render('food/stew/');assert.ok(stew.includes('<h2>Why villagers pick it</h2>')&&/prefer eating Stew at the <a[^>]*>Open Kitchen<\/a> over food with the same 1-unit value such as Fruit or Veggie/.test(stew)&&stew.includes('<strong>Community 4</strong>')&&stew.includes('/gathering-places/')&&stew.includes('/eating/'),'stew preference note: '+(stew.match(/prefer eating[^<]*/)||[''])[0]);
  assert.ok(h.render('food/fondue/').includes('<h2>Why villagers pick it</h2>'),'fondue preference note (matched by name across versions)');assert.ok(!h.render('food/veggie/').includes('Why villagers pick it'),'plain foods get no note');assert.ok(/Why villagers come here:<\/strong> eating <a[^>]*>Stew<\/a> here gives Community 4/.test(h.render('buildings/open-kitchen/')),'open kitchen note');assert.ok(!h.render('buildings/bakery/').includes('Why villagers come here'),'bakery is not an eating place');
  console.log('PASS: eating-place preference notes.');}
 // Readable recipes for step graphs with alternatives, fuel, containers and self-made starts (issue 47).
@@ -252,3 +253,11 @@ console.log('PASS: research handoff integration.');
  const bk=h2.render('buildings/bakery/');assert.ok(bk.includes('wiki-artwork/tile-57395.png')&&bk.includes('wiki-artwork/tile-bread.png'),'game-composited tiles replace the plain tiles when present');assert.ok(bk.includes('wiki-artwork/concern-Nutrition.png'),'need circle uses the game need icon');assert.ok(bk.includes('wiki-artwork/glyph-bread.png'),'inline icons use the unframed glyph');assert.ok(!/tile-bread\.png" [^>]*style=/.test(bk),'no CSS tile behind a composited tile');
  const ok=h2.render('buildings/open-kitchen/');assert.ok(/<strong class="need-term"[^>]*>(?:<img[^>]*>)?Food<\/strong>/.test(ok),'need terms in the description are bold, as in the game');
  console.log('PASS: game-composited tiles and need icons are used when committed.');}
+{const hub=h.render('needs/');for(const sl of ['food','hydration','heat','energy','fun','cooling','wellness','community'])assert.ok(hub.includes('href="/needs/'+sl+'/"')&&!h.render('needs/'+sl+'/').includes('Entry not found'),'need page '+sl);
+ assert.ok(hub.replace(/<[^>]+>/g,' ').split(/\s+/).length<800,'Needs hub stays short');assert.ok(!hub.includes('id="need-food"')&&!hub.includes('id="eating"'),'per-need sections moved off the hub');
+ const fs5=await import('node:fs');assert.ok(fs5.readFileSync(new URL('../src/page.js',import.meta.url),'utf8').includes("'#need-food':'food/'"),'old Needs anchors forward to the new pages');
+ assert.ok(/href="\/needs\/community\/"/.test(h.render('food/stew/')),'resource infobox links to need pages');
+ console.log('PASS: Needs split into a hub, eight need pages and How eating works.');}
+{const home=h.render('');for(const t of ['>Mechanics</a><small>','>Reference</a><small>','href="/eating/"','href="/challenges/"','href="/guides/"'])assert.ok(home.includes(t),'home boxes: '+t);assert.ok(!home.includes('class="reference-links"'),'old reference links row replaced by a box');
+ const bk=h.render('buildings/bakery/');assert.ok(bk.includes('wiki-artwork/filled/icon-'),'stand-in filled glyphs used when no game tiles are present');
+ console.log('PASS: home Mechanics and Reference boxes; filled glyph stand-ins.');}

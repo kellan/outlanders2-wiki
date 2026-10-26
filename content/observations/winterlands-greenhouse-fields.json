@@ -1,0 +1,16 @@
+{
+  "id": "winterlands-greenhouse-fields",
+  "target": {
+    "type": "buildings",
+    "id": "69352"
+  },
+  "claim": "In the Winterlands, fields can only be placed inside a Greenhouse's glass-covered area: a Cabbage field inside is accepted, the same field on open snow is refused. The Winterlands Field menu offers Cabbage (yield 1, 4 days), Beet (yield 2, 7 days) and Potato (yield 3, 9 days); Winter Pine is the only tree and there is no fruit tree menu.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Winterlands crops and Greenhouse placement rule (A5)\". Screenshots: gameplay-evidence/planters/ (planters-1-cabbage-inside-valid, planters-1-cabbage-outside-invalid, planters-1-winterlands-fields, planters-1-winterlands-trees)."
+  },
+  "notes": "Winterlands sandbox, Pablo, day 1. Placement rules only; no growth was timed."
+}

@@ -59,3 +59,23 @@ Copy this template for each fact:
 - Evidence: research branch codex/research-answers, RESEARCH-ANSWERS.md and research/production-findings.json at 06ed8d63
 - Confidence: confirmed for stored values; modelled for rates; disputed for Bakery capacity
 - Notes: Rows updated rather than removed where the in-play meaning is still open: gear application, meter conversion for social spots and dishes, measured production, clock origin, effective capacity, orchard fruit per day.
+
+## Local agent playtest, 26 October 2026 — recorded
+Source: research repository `kellan/outlanders2-research`, branch `codex/playtest-observations` (commits 572d8eb, 45125e9, 4b3a6c7), `docs/INFORMATION-ANSWERS.md` there. The cited screenshots are copied to `assets/gameplay-evidence/` as compressed JPEGs; usernames on the Challenges ranking are covered.
+
+| Entry | Status | Recorded as |
+|---|---|---|
+| Rural season reward track and countdown (A4) | recorded | observation `rural-season-rewards` |
+| Challenge categories and a Chill day limit (A4) | recorded | observation `town-of-the-year-chill-limit`; row updated (Ranked, Remix and scoring still open) |
+| Campaign 1 and 2 complete story-to-level menu mapping (A3) | recorded | every story's `level_mapping_status` set to `menu_verified`; matches the mapping inferred from the files exactly; row removed |
+| Campaign 3 visible contents (A3) | recorded | observation `campaign-3-menu-contents` |
+| Campaign entry prerequisite (A3) | recorded | observation `campaign-unlock-rule` |
+| Drylands has a Foresters’ Hub despite the decoded sandbox list (A5) | recorded | observation `drylands-sandbox-planting`; no contradiction: the Hub is a base building in every sandbox, and the wiki already lists it as Mesquite's planter; row removed |
+| Drylands visible crop and tree choices (A5) | recorded | observation `drylands-sandbox-planting` |
+| Winterlands crops and Greenhouse placement rule (A5) | recorded | observation `winterlands-greenhouse-fields` |
+| Additional production field guides, first and second batches (A1) | recorded | `ui_observations.buildings` for 38 buildings and `gameplay.recipe_per_cycle` for 21; costs and worker slots match the decoded data for all 38; differences noted for Bottle Factory, Cheesery, Porridge Cookhouse and Trading Outpost |
+| Partial and finished Basic House refunds (A6) | recorded | observation `basic-house-demolition-refund` |
+| Visible day counter increments at dawn (A2) | recorded | observation `day-counter-turns-at-dawn` (Days and time page) |
+| Meal test and five-day observation (B1) | recorded | observation `five-day-meal-log` (Needs page) |
+| Food preference remains uncontrolled (B1) | recorded, no conclusion | row kept open with the limitation |
+| Fishing test setup could not reach a working dock (B2) | recorded, no result | row kept open with the placement problem |

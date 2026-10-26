@@ -33,14 +33,14 @@
       "building_name": "Brickyard",
       "per_unit": [
         {
-          "resource_id": 292310,
-          "name": "Clay",
-          "count": 1
-        },
-        {
           "resource_id": 284894,
           "name": "Stick",
           "count": 0.125
+        },
+        {
+          "resource_id": 292310,
+          "name": "Clay",
+          "count": 1
         }
       ],
       "smallest_whole_batch": {
@@ -70,7 +70,35 @@
         300608,
         319150
       ],
-      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+      "status": "per-unit ratio derived from the recorded per-cycle recipe",
+      "per_cycle": {
+        "inputs": [
+          {
+            "resource_id": 284894,
+            "name": "Stick",
+            "count": 1
+          },
+          {
+            "resource_id": 292310,
+            "name": "Clay",
+            "count": 8
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 284026,
+            "name": "Brick",
+            "count": 8
+          }
+        ],
+        "status": "confirmed",
+        "evidence": {
+          "kind": "field-guide",
+          "game_version": "30 (254)",
+          "date": "2026-10-26",
+          "reference": "Field guide screenshot gameplay-evidence/fieldguide/Brickyard.jpg (local agent playtest; research branch codex/playtest-observations, answers entry \"Additional ... field guides\")."
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "id": "rural-season-rewards",
+  "target": {
+    "type": "tournament",
+    "id": "Amish"
+  },
+  "claim": "The Rural season's reward track, in order: Rural Palette, Rural Basic House, Rural Farm, Streak Shield, Rural Sawmill, 20 Leaderboard Bonus Points, Rural Cheesery, Streak Shield, Rural Windmill, 50 Leaderboard Bonus Points, Rural Winery, Streak Shield, Rural Villagers Style, 100 Leaderboard Bonus Points (the last at 92 Reward Points). On 26 October 2026 the season showed 10 days left.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "Local agent playtest, 26 October 2026: research repo kellan/outlanders2-research, branch codex/playtest-observations (commits 572d8eb, 45125e9, 4b3a6c7), docs/INFORMATION-ANSWERS.md entry \"Rural season reward track and countdown (A4)\". Screenshots: gameplay-evidence/challenges/ (challenges-menu-tournament, challenges-menu-rewards-1 to 4)."
+  },
+  "notes": "Read from the Tournament screen without claiming anything. Ten days left on 26 October puts the end around 5 November 2026; the screen shows a countdown, not a date."
+}

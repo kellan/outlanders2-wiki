@@ -51,9 +51,9 @@
     "interpretation": "sum of material inputs across distinct build-site formula definitions; stage repetition and alternate stages require gameplay verification"
   },
   "dimensions": {
-    "x": 12.0,
-    "y": 4.0,
-    "z": 12.0
+    "x": 12,
+    "y": 4,
+    "z": 12
   },
   "placement_rules": {
     "ValidTerrains": [
@@ -126,5 +126,30 @@
     "fields": [
       "WorkplaceConfig"
     ]
+  },
+  "gameplay": {
+    "recipe_per_cycle": {
+      "inputs": [
+        {
+          "resource_id": 309169,
+          "name": "Log",
+          "count": 6
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 293926,
+          "name": "Stone",
+          "count": 4
+        }
+      ],
+      "status": "confirmed",
+      "evidence": {
+        "kind": "field-guide",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Field guide screenshot gameplay-evidence/fieldguide/Stone-Mine.jpg (local agent playtest; research branch codex/playtest-observations, answers entry \"Additional ... field guides\")."
+      }
+    }
   }
 }

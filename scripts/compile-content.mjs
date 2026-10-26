@@ -10,6 +10,8 @@ export function assembleContent(base=project){
  const read=p=>JSON.parse(fs.readFileSync(path.join(base,p),'utf8'));
  const manifest=read('content/collections.json'),result={};let count=0;
  for(const file of fs.readdirSync(path.join(base,'content/reference')).filter(f=>f.endsWith('.json')))result[file.slice(0,-5)]=read('content/reference/'+file);
+ // Stand-in white glyph fills (tools/fill_icons.py), used until the game's composited tiles below are present.
+ {const m=path.join(base,'assets/wiki-artwork/filled/manifest.json');if(result.artwork&&fs.existsSync(m))result.artwork.filled=JSON.parse(fs.readFileSync(m,'utf8')).icons}
  // Game-composited icon tiles (research tools/export_frames.py, issue 56): used when the local agent has committed them.
  {const tiles=path.join(base,'assets/wiki-artwork/tiles.json');if(result.artwork&&fs.existsSync(tiles)){const t=JSON.parse(fs.readFileSync(tiles,'utf8'));for(const group of ['gameobjects','resources','concerns'])for(const e of Object.values(t[group]||{}))for(const k of ['tile','glyph'])if(e[k]&&!fs.existsSync(path.join(base,'assets/wiki-artwork',e[k])))throw new Error('tiles.json names a missing file: '+e[k]);result.artwork.tiles=t}}
  for(const [dataset,groups]of Object.entries(manifest))for(const [group,files]of Object.entries(groups)){
@@ -37,6 +39,7 @@ export function assembleContent(base=project){
   const o=read('content/observations/'+file);assert.equal(file,o.id+'.json');assert.ok(['open','confirmed','disputed'].includes(o.status),'Invalid status '+file);assert.ok(['player-report','field-guide','gameplay-test','decoded-data','official-source'].includes(o.evidence?.kind),'Invalid evidence kind '+file);
   for(const value of [o.claim,o.evidence?.game_version,o.evidence?.date,o.evidence?.reference])assert.ok(typeof value==='string'&&value.trim(),'Missing evidence in '+file);
   if(o.target.type==='tournament'){assert.ok(seasonIds.has(o.target.id),'Unknown observation target '+file);return o}
+  if(o.target.type==='mechanics'){assert.ok(['needs','happiness','villagers','climate','time','gear','houses','gathering'].includes(o.target.id),'Unknown mechanics page in '+file);return o}
   const group=o.target.type==='buildings'?result.rules.buildings:o.target.type==='resources'?result.rules.resources:result.world[o.target.type==='heroes'?'leaders':o.target.type];assert.ok(Array.isArray(group)&&group.some(x=>String(x.gameobject_id??x.id)===String(o.target.id)),'Unknown observation target '+file);return o;
  });
  result.world.strategies=fs.existsSync(path.join(base,'content/strategies'))?fs.readdirSync(path.join(base,'content/strategies')).filter(f=>f.endsWith('.json')).sort().map(file=>{
