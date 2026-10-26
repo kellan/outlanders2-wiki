@@ -85003,20 +85003,36 @@
   ],
   "contributions": [
     {
+      "id": "apple-tree-fruit-spawn",
+      "target": {
+        "type": "buildings",
+        "id": "67909"
+      },
+      "claim": "An established Apple Tree spawns fruit on a stored interval of 1.65 to 2.5 days with a standing cap of 4; fruit per day cannot be derived from those two numbers alone.",
+      "status": "open",
+      "evidence": {
+        "kind": "decoded-data",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "SpawnerSystem schedules against Clock.Days; apple spawner interval and cap from the research handoff, issue 10 comment 6405317435."
+      },
+      "notes": "Spawn quantity, blocked accumulation and collection still need tracing. Felling yield is separate from fruit."
+    },
+    {
       "id": "bakery-bread-capacity",
       "target": {
         "type": "buildings",
         "id": "57395"
       },
-      "claim": "The Bakery bakes 8 Bread from 1 Flour and 1 Stick per cycle and keeps baking until it holds 40 Bread; 40 is a storage capacity, not a batch size.",
+      "claim": "The Bakery’s four public Bread piles store Capacity 15 each, a nominal 60 Bread; the effective stop point has not been traced.",
       "status": "open",
       "evidence": {
-        "kind": "player-report",
+        "kind": "decoded-data",
         "game_version": "30 (254)",
-        "date": "2026-10-25",
-        "reference": "Maintainer report, 25 October 2026. The 40 Bread figure shown by earlier builds of this wiki was the ratio artifact; a 40-unit capacity is reported from play."
+        "date": "2026-10-26",
+        "reference": "ResourcePileBehaviour 277583, 287164, 311412, 313966 (research handoff, issue 10 comment 6405318044)."
       },
-      "notes": "Recorded in the Bakery record's gameplay block. The per-cycle recipe is confirmed by the field guide and the decoded formula graph. The capacity is not in the exported data: the StockpileBehaviour, ResourcePileBehaviour and PileableBehaviour objects were round-trip validated but never exported. A controlled test or a pile decode should confirm it and supply capacities for other buildings."
+      "notes": "An earlier maintainer estimate of 40 was withdrawn on 26 October in favour of the decoded value. Active piles and the CanAdd stop condition remain to be traced, or a full Bakery counted in play."
     },
     {
       "id": "barley-porridge-community",
@@ -85032,7 +85048,39 @@
         "date": "2026-10-25",
         "reference": "Maintainer report, 25 October 2026. The game’s Porridge Cookhouse description says the dish raises Nutrition and Community. The Barley Porridge ResourceConfig stores FoodUnits 2 and CommunityUnits 0."
       },
-      "notes": "The second effect is not in the resource’s stored units, so it must come from somewhere the extraction did not decode: the ResourceVariationDatabase, or the way dishes are consumed at the cookhouse. Stew, Fondue and Manchamanteles have the same pattern; carried gear and social-spot buildings have no stored units at all. The Needs page now shows description-stated effects alongside stored units."
+      "notes": "Resolved on 26 October: the Community 1 lives on the Porridge Cookhouse eating spot (see cookhouse-community-source), not on the dish. Stew (Open Kitchen, Community 4), Fondue and Manchamanteles (Fun 4) follow the same pattern."
+    },
+    {
+      "id": "cheesery-pile-capacity",
+      "target": {
+        "type": "buildings",
+        "id": "105730"
+      },
+      "claim": "The Cheesery has a public pile storing Capacity 36 whose reference resource is unset; whether it is a cheese-only limit is unverified.",
+      "status": "open",
+      "evidence": {
+        "kind": "decoded-data",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "ResourcePileBehaviour 313277 (research handoff, issue 10 comment 6405318044)."
+      },
+      "notes": "Trace the pile’s category before calling it a cheese capacity."
+    },
+    {
+      "id": "chicken-coop-eggs",
+      "target": {
+        "type": "buildings",
+        "id": "105713"
+      },
+      "claim": "A Chicken Coop produces up to 5 Eggs per game day regardless of how many workers are assigned; extra workers collect and clean.",
+      "status": "open",
+      "evidence": {
+        "kind": "player-report",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "Maintainer report relayed in the research handoff, issue 10 comment 6405316937. Collection formula 282694 takes about 5.3 simulation seconds per egg; adult chicken config 303909 stores an extraction interval of 60."
+      },
+      "notes": "Not independently reproduced from the laying logic; the two MaxSpawned=5 spawners under the coop spawn manure, not eggs."
     },
     {
       "id": "clay-pit-late-start",
@@ -85072,15 +85120,15 @@
         "type": "buildings",
         "id": "105738"
       },
-      "claim": "The small Community rise from Barley Porridge may come from eating at the Porridge Cookhouse rather than from the dish itself.",
-      "status": "open",
+      "claim": "The small Community rise from Barley Porridge comes from eating at the Porridge Cookhouse: its eating spot stores Community 1, while the dish stores none.",
+      "status": "confirmed",
       "evidence": {
-        "kind": "player-report",
+        "kind": "decoded-data",
         "game_version": "30 (254)",
-        "date": "2026-10-25",
-        "reference": "Maintainer hypothesis, 25 October 2026, after observing that the rise is small. Supporting data: every dish whose description names a second need (Barley Porridge, Stew, Fondue, Manchamanteles) is served on plates that return to its building, as are Mead, Beer and Wheatshine; Bread, Cookies, Dried Meat, Smoothies and Ice Pops have no container. Mead is a counterexample: its resource stores Community 4 directly."
+        "date": "2026-10-26",
+        "reference": "SocialSpotBehaviour 277041 on the Porridge Cookhouse stores CommunityUnits 1 with Duration 6 (research handoff, issue 10 comment 6405320280; SocialEatingPlaceBehaviour 314244). The Barley Porridge resource stores CommunityUnits 0. Open Kitchen eating spot 276989 stores Community 4, Desert Cookhouse 276991 Fun 4, Fondue Bar 292958 Fun 4."
       },
-      "notes": "The social-spot configuration of buildings was not exported, so the data cannot decide this. Discriminating test: let villagers eat Barley Porridge from a stockpile away from the Cookhouse (for example after the Cookhouse is demolished or unstaffed) and compare the Community change with eating at the Cookhouse. The same test applies to Fondue and Fun at the Fondue Bar, and to Stew at the Open Kitchen."
+      "notes": "Stored value confirmed and matches the maintainer’s “small amount”. How a stored unit converts to the need meter, and whether the dish gives anything when eaten elsewhere, still need the off-site test."
     },
     {
       "id": "fondue-fun-check",
@@ -85088,15 +85136,31 @@
         "type": "buildings",
         "id": "105705"
       },
-      "claim": "Fondue should raise Fun as well as Food, as the Fondue Bar description states; not yet checked in play, and the effect may belong to eating at the Fondue Bar.",
+      "claim": "Fondue raises Fun when eaten at the Fondue Bar: the bar’s eating spot stores Fun 4, while the dish stores none.",
+      "status": "confirmed",
+      "evidence": {
+        "kind": "decoded-data",
+        "game_version": "30 (254)",
+        "date": "2026-10-26",
+        "reference": "SocialSpotBehaviour 292958 on the Fondue Bar stores EntertainmentUnits 4 with Duration 6 (research handoff, issue 10 comment 6405320280). The Fondue resources store EntertainmentUnits 0."
+      },
+      "notes": "Stored value confirmed; the in-play size of the gain and an off-site meal test remain open."
+    },
+    {
+      "id": "glassworks-pane-capacity",
+      "target": {
+        "type": "buildings",
+        "id": "105728"
+      },
+      "claim": "The Glassworks has two public Glass Pane piles storing Capacity 24 each, a nominal 48; the effective stop point is unverified.",
       "status": "open",
       "evidence": {
-        "kind": "field-guide",
+        "kind": "decoded-data",
         "game_version": "30 (254)",
-        "date": "2026-10-25",
-        "reference": "Fondue Bar building description: a pot of Fondue that provides Nutrition and Entertainment. The Fondue resource records store FoodUnits 2 and EntertainmentUnits 0."
+        "date": "2026-10-26",
+        "reference": "ResourcePileBehaviour 289408 and 290642 (research handoff, issue 10 comment 6405318044)."
       },
-      "notes": "Flagged by the maintainer on 25 October 2026 as the next dish to check after Barley Porridge. Same discriminating test as cookhouse-community-source."
+      "notes": "Nominal sum only; active piles and the stop condition need tracing or a filled building counted in play, as for the Bakery."
     },
     {
       "id": "tournament-rural-season-live",

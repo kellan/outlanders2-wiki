@@ -28267,13 +28267,13 @@
         "output_capacity": {
           "resource_id": 319667,
           "name": "Bread",
-          "count": 40,
+          "count": 60,
           "status": "open",
           "evidence": {
-            "kind": "player-report",
+            "kind": "decoded-data",
             "game_version": "30 (254)",
-            "date": "2026-10-25",
-            "reference": "Maintainer report, 25 October 2026: the Bakery keeps baking until it holds 40 Bread. Not present in the exported data; see docs/INFORMATION-NEEDED.md."
+            "date": "2026-10-26",
+            "reference": "Four public Bread piles (ResourcePileBehaviour 277583, 287164, 311412, 313966) each store Capacity 15 (research handoff, issue 10 comment 6405318044). The maintainer withdrew an earlier estimate of 40 on 26 October and asked that the decoded value be used. Whether all four piles are active and how the stop condition works is still to be traced."
           }
         }
       }
