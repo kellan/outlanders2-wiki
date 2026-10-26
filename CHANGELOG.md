@@ -6,6 +6,7 @@ Every pull request adds its line under **Unreleased**; the maintainer moves the 
 
 ## Unreleased
 
+- Those recipes are now stored with each resource and used on resource pages and in level objective totals: Frostbound Valley's 100 Stew needs 67 Veggie (or Meat or Egg) and 7 Sticks instead of "gathered or traded" (#52).
 - Readable recipes for the 32 buildings that said "no single ratio applies": Open Kitchen "3 Stew ← 2 × (Veggie, Meat or Egg) + 1/5 Stick (plates reused)", Winery, Brewery, Cheesery, Trappers' Hut and the rest; planters, storage and the beer stand get plain sentences (#51).
 - Dish pages (Stew, Fondue, Manchamanteles, Barley Porridge) and their eating places say why villagers prefer them over food of the same value: the second effect and eating in company (#50).
 - [Needs](https://outlanders2wiki.com/needs/) redesigned: an at-a-glance table of the eight needs, then compact item and place tables per need with meter points and second effects; Houses say crib and doghouse and explain why more houses mean more babies; Gathering places explains the unit; the Bonfire page says how long a stick burns (#49).
