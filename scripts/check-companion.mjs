@@ -258,3 +258,6 @@ console.log('PASS: research handoff integration.');
  const fs5=await import('node:fs');assert.ok(fs5.readFileSync(new URL('../src/page.js',import.meta.url),'utf8').includes("'#need-food':'food/'"),'old Needs anchors forward to the new pages');
  assert.ok(/href="\/needs\/community\/"/.test(h.render('food/stew/')),'resource infobox links to need pages');
  console.log('PASS: Needs split into a hub, eight need pages and How eating works.');}
+{const home=h.render('');for(const t of ['>Mechanics</a><small>','>Reference</a><small>','href="/eating/"','href="/challenges/"','href="/guides/"'])assert.ok(home.includes(t),'home boxes: '+t);assert.ok(!home.includes('class="reference-links"'),'old reference links row replaced by a box');
+ const bk=h.render('buildings/bakery/');assert.ok(bk.includes('wiki-artwork/filled/icon-'),'stand-in filled glyphs used when no game tiles are present');
+ console.log('PASS: home Mechanics and Reference boxes; filled glyph stand-ins.');}
