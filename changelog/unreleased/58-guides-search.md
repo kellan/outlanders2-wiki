@@ -1,0 +1,1 @@
+[Guides elsewhere](https://outlanders2wiki.com/guides/) gains what a web search turned up: the Outlanders 2 Fandom wiki, YouTube level walkthroughs, Apple's launch notes and the App Store listing. Links for the first game, including the Steam discussions (Outlanders 2 is not on Steam), sit in their own section. All are marked not yet reviewed (#58, issue 38).
