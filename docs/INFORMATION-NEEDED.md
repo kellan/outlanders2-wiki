@@ -36,14 +36,14 @@ How to read the "Source" column:
 | Which packaged building and resource variants are used in play | Catalog lists several same-name definitions | screen, test | Unverified |
 | Alternate resource logic (`ResourceVariationDatabase`) | Affects which inputs a recipe accepts | mine | Decoded 26 Oct 2026: the database lists two resources with 7 and 5 variations as asset GUIDs; the GUID-to-resource mapping is still needed |
 | Trading Outpost rules: whether the Wheat, Glass Pane and Animal Hide formulas are trade rates, and any other goods or prices | A Trading page cannot be written without them | mine, screen | Formulas decoded, meaning unverified |
-| Fishing Dock, Foragers' Hut and other extraction yields | Early-game food planning | mine, test | Unknown |
+| Fishing Dock, Foragers' Hut and other extraction yields | Early-game food planning | mine, test | Tree felling and fruit spawn values decoded (26 Oct 2026); Fishing Dock and Foragers’ Hut rates still unknown |
 | Icons for the 4 buildings without artwork | Infobox and catalog completeness | mine | 150 of 154 covered |
 
 ## Crops and biomes
 
 | Need | Why it matters | Source | Status |
 |---|---|---|---|
-| Real harvest timing for crops and fruit per day for orchard trees | Configured yields per full field are decoded (for example 3 Carrots per 9 growth days, 1 Wheat per 12); orchard spawners store an interval and cap but not fruit per day | test, mine (spawner quantity and collection) | Crop yields decoded 26 Oct 2026; orchard output open |
+| Real harvest timing for crops and fruit per day for orchard trees | Configured yields per full field are decoded (for example 3 Carrots per 9 growth days, 1 Wheat per 12); orchard spawners store an interval and cap but not fruit per day | test, mine (spawner quantity and collection) | Stored fruit spawners decoded 26 Oct 2026 (one fruit every 1.65–2.5 days with 4 waiting at most for apples; plant pages carry each tree); felling yields per tree decoded too; real timing in play still unmeasured |
 | Real growth time versus stored stage days | Stored stage days may not equal calendar days | test | Unverified |
 | Crop availability per biome in normal play, including greenhouse rules in Winterlands | Sandbox assignments are decoded but flagged as not proof of availability | test, screen | Under review |
 | Biome hazard mechanics: heat, cooling and hydration penalties, Boost effect | Needed for Needs and Biome pages | mine, test | Need meters decoded (Needs page); Tropical weather decoded (Rain and Heat wave every 2–6 days, Tropiclands page); desert and winter penalties beyond the meters still unknown |
@@ -65,7 +65,7 @@ How to read the "Source" column:
 | How often the baby check runs and what the stored happiness and housing multipliers apply to | Life stages (kid at 3, adult at 16, elder at 60, death at 75–95 days) and the reproduction values are decoded and on the Needs page; the check interval is in code | mine (code), test | Stored values decoded 26 Oct 2026; timing unknown |
 | Whether Houses accept partial families | Every house has one baby spot and one pet spot beside its villager spots (decoded 26 Oct 2026, shown in infoboxes); how families are assigned is not stored | screen, test | Unknown |
 | Leader effect magnitudes, duration and scope | Leader pages show only descriptions | mine, test | Not in resources.assets: LeaderBehaviour stores no fields (decoded 26 Oct 2026); the effect data must live in an addressable bundle or in code |
-| Which clock hour the stored shift fraction 0.0 corresponds to (a game day is 300 simulation seconds, decoded 26 Oct 2026, so a tenth of a day is 30 seconds at normal speed) | Shift differences are decoded (Clay Pit starts and finishes a tenth of a day later than the 53 standard workplaces) but can only be given as fractions of a day until the clock origin is known | screen (watch the in-game clock when a Farm crew and a Clay Pit crew start work), test | DayNightCycle decoded (26 Oct 2026): the cycle blends Night → Sunrise → Day → Sunset evenly in normal play and non-linearly in Tournament Mode; how that aligns with the shift fractions is still unknown |
+| Which clock hour the stored shift fraction 0.0 corresponds to (a game day is 300 simulation seconds, decoded 26 Oct 2026, so a tenth of a day is 30 seconds at normal speed) | Shift differences are decoded (Clay Pit starts and finishes a tenth of a day later than the 53 standard workplaces) but can only be given as fractions of a day until the clock origin is known | screen (watch the in-game clock when a Farm crew and a Clay Pit crew start work), test | Resolved as far as the game allows (research agent, native clock code, 26 Oct 2026): the dial shows a day face for fractions up to 0.5 and a night face after, shifts compare directly with the fraction, and no numbered hours exist in the game; wording updated on the Buildings page |
 | Whether late-shift crews also sleep longer (Energy need) or just start later | Community lore about clay workers sleeping in | test | Open observation `clay-pit-late-start` |
 
 ## Levels, campaigns and challenges
