@@ -2,6 +2,10 @@
 
 A running list of facts the wiki wants but does not have, with the most likely way to get each one. Items are removed once the information is in `content/`; the removal is logged in `CONTENT-NOTES.md`. Add items here when an article has to say "not established", and remove them in the same change that records the answer.
 
+## If you are playing the game to gather answers
+
+The rows marked **test** or **screen** are written up as step-by-step protocols in [PLAYTESTS.md](PLAYTESTS.md), ordered by value per minute of play, with what to record and where to report. Start there.
+
 ## If you are an agent gathering answers
 
 Read this whole file, pick rows you can answer, and return answers in one of these ways, preferred first:
