@@ -1,0 +1,43 @@
+{
+  "id": "Level07C",
+  "summary": "Twenty Books need 40 Paper and 20 Animal Hides. There are no trappers in the tropics, so Hides come from the Tropiclands Trading Outpost (4 Glass for 3 Hides): run the existing Glassworks on Firewood Yard sticks, trade about 27 Glass, and make Paper at a Paper Mill.",
+  "build_order": [
+    {
+      "gameobject_id": 67680,
+      "note": "Build site already placed: 12 Planks + 8 Stone. Staff the existing Sawmill first."
+    },
+    {
+      "gameobject_id": 67674,
+      "note": "Both build sites are already placed; 8 Planks each."
+    },
+    {
+      "gameobject_id": 71938,
+      "note": "4 Logs; Glassworks use 3 Sticks per 2 panes."
+    },
+    {
+      "gameobject_id": 75225,
+      "note": "12 Stone + 6 Planks; 4 Glass for 3 Hides."
+    },
+    {
+      "gameobject_id": 105708,
+      "note": "14 Planks."
+    },
+    {
+      "gameobject_id": 105696,
+      "note": "8 Planks + 12 Stone; 2 Paper + 1 Hide per Book."
+    },
+    {
+      "gameobject_id": 45826,
+      "note": "Optional 60 Beer: the Outpost also trades 8 Glass for 9 Wheat."
+    }
+  ],
+  "pitfalls": [
+    "The Author's Stand and both Gift Shops start as placed build sites; they only need materials delivered (28 Planks and 8 Stone in all).",
+    "Glass is the bottleneck: the 8 starting panes are worth 6 Hides."
+  ],
+  "status": "draft",
+  "game_version": "30 (254)",
+  "date": "2026-10-26",
+  "contributor": "wiki maintainers",
+  "source": "Drafted from the decoded objectives, starting inventory, build list, construction costs and recipes (game data 30, build 254); not yet playtested. Checks for a test run are in docs/PLAYTESTS.md, Part C."
+}

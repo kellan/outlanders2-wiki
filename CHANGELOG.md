@@ -6,6 +6,7 @@ Every pull request adds its line under **Unreleased**; the maintainer moves the 
 
 ## Unreleased
 
+- Level strategies: a draft Strategy section on all 21 [Campaign 1 levels](https://outlanders2wiki.com/levels/), worked out from the decoded objectives, costs and recipes and not yet played; `docs/PLAYTESTS.md` Part C lists what each test run should check.
 - Wiki changelog: this file, rendered at the top of the [Changelog page](https://outlanders2wiki.com/changelog/) as "Wiki changes".
 
 ## 2026-10-26

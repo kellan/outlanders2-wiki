@@ -1,0 +1,59 @@
+{
+  "id": "Level06B",
+  "summary": "The 45 Flour to consume is already in stock: two Bakeries burn it into Bread (1 Flour + 1 Stick per batch). 150 Ice Pops need about 75 Fruit, and with no wild fruit trees that means an Orchard planted with Dragon Fruit or Banana Trees early. Three Tropical Shelters are the optional housing.",
+  "build_order": [
+    {
+      "gameobject_id": 38478,
+      "note": "6 Sticks."
+    },
+    {
+      "gameobject_id": 69351,
+      "note": "10 Sticks."
+    },
+    {
+      "gameobject_id": 71937,
+      "note": "9 Logs."
+    },
+    {
+      "gameobject_id": 40308,
+      "note": "10 Planks."
+    },
+    {
+      "gameobject_id": 67919,
+      "note": "About 30: 10 days to mature, then one fruit every 1.65 to 2.5 days."
+    },
+    {
+      "gameobject_id": 57395,
+      "note": "Two, 9 Clay + 4 Stone each; 45 Sticks for the 45 Flour."
+    },
+    {
+      "gameobject_id": 71938,
+      "note": "4 Logs; Sticks for Bakeries."
+    },
+    {
+      "gameobject_id": 57394,
+      "note": "Two, 9 Logs + 6 Clay each."
+    },
+    {
+      "gameobject_id": 105712,
+      "note": "6 Sticks."
+    },
+    {
+      "gameobject_id": 67672,
+      "note": "Three, 4 Logs + 8 Reed each (optional)."
+    },
+    {
+      "gameobject_id": 67668,
+      "note": "Deliver 15 Planks to the real build site."
+    }
+  ],
+  "pitfalls": [
+    "Bakery storage fills (four piles of 15); villagers must eat the Bread for the ovens to keep going.",
+    "The map has a finished-looking Fake Watch Tower; it does not count. The real Watchtower is a build site that needs 15 Planks."
+  ],
+  "status": "draft",
+  "game_version": "30 (254)",
+  "date": "2026-10-26",
+  "contributor": "wiki maintainers",
+  "source": "Drafted from the decoded objectives, starting inventory, build list, construction costs and recipes (game data 30, build 254); not yet playtested. Checks for a test run are in docs/PLAYTESTS.md, Part C."
+}

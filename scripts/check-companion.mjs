@@ -71,7 +71,7 @@ console.log('PASS: work schedules relative to the standard shift.');
 const endOfWorld=h.render('levels/the-end-of-the-world/');
 assert.ok(endOfWorld.includes('Community · draft'),'strategy status');assert.ok(endOfWorld.includes('Suggested build order'));assert.ok(endOfWorld.includes('/buildings/foragers-hut/'),'build order links');
 assert.ok(endOfWorld.includes('template=level-strategy.yml'),'strategy form link');
-const noStrategy=h.render('levels/middle-ground/');assert.ok(noStrategy.includes('Share a strategy for this level'));assert.ok(noStrategy.includes('level=Middle%20Ground'),'level prefilled');
+const noStrategy=h.render('levels/valley-draft/');assert.ok(noStrategy.includes('Share a strategy for this level'));assert.ok(noStrategy.includes('level=Valley%20Draft'),'level prefilled');
 assert.ok(!/level=[^"&]*Oona|level=Clause/.test(h.render('spoilers/levels/clause/')||''),'spoiler level not prefilled');
 console.log('PASS: level strategy section and contribution form.');
 // History entries render on entity pages and the changelog, backdated only with evidence.

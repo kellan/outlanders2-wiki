@@ -1,0 +1,47 @@
+{
+  "id": "Level01C",
+  "summary": "Population 12 from 9 needs births, and births need free beds and good Community. Build houses ahead of the population, an Open Kitchen for Community (and the optional 25 Stew), and a Farm with Cabbage to keep food up.",
+  "build_order": [
+    {
+      "gameobject_id": 38478,
+      "note": "6 of the 12 starting Sticks."
+    },
+    {
+      "gameobject_id": 67675,
+      "note": "6 Logs, 4 beds. Free beds are what lets couples have children."
+    },
+    {
+      "gameobject_id": 69351,
+      "note": "10 Sticks; Clay for the kitchen and farm."
+    },
+    {
+      "gameobject_id": 105711,
+      "note": "6 Sticks + 8 Clay. Stew eaten here gives Community 4 per use; also counts toward 25 Stew (optional)."
+    },
+    {
+      "gameobject_id": 69353,
+      "note": "4 Sticks + 10 Clay; food for the kitchen."
+    },
+    {
+      "gameobject_id": 71093,
+      "note": "20 to 30 tiles; 4-day crop."
+    },
+    {
+      "gameobject_id": 67675,
+      "note": "Keep three or four beds free until the population reaches 12."
+    },
+    {
+      "gameobject_id": 71937,
+      "note": "Optional: Plank Houses hold 5 instead of 4."
+    }
+  ],
+  "pitfalls": [
+    "Births nearly stop when every bed is taken (the stored no-free-housing multiplier is −0.975).",
+    "Kids already on the map count, so only three births are needed; don't over-build industry at the cost of homes."
+  ],
+  "status": "draft",
+  "game_version": "30 (254)",
+  "date": "2026-10-26",
+  "contributor": "wiki maintainers",
+  "source": "Drafted from the decoded objectives, starting inventory, build list, construction costs and recipes (game data 30, build 254); not yet playtested. Checks for a test run are in docs/PLAYTESTS.md, Part C."
+}

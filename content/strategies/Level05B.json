@@ -1,0 +1,55 @@
+{
+  "id": "Level05B",
+  "summary": "Six villagers, a Bonfire and 21 Veggies. Food runs out in about four days, so a Trappers' Hut comes immediately: it gives Meat and the Animal Hides behind the 18 Coats (54 Hides). Then bricks for two Tailors, and a Quarry to clear the three rocks (30 Stone).",
+  "build_order": [
+    {
+      "gameobject_id": 38478,
+      "note": "6 Sticks from fallen sticks."
+    },
+    {
+      "gameobject_id": 80802,
+      "note": "4 Logs + 8 Sticks; 2 Meat and 1 Hide per catch."
+    },
+    {
+      "gameobject_id": 71938,
+      "note": "4 Logs; fuel for the Bonfire."
+    },
+    {
+      "gameobject_id": 67675,
+      "note": "Beds: six workers are the bottleneck, and births need free beds."
+    },
+    {
+      "gameobject_id": 80802,
+      "note": "A second and third hut: 54 Hides for coats plus 15 in stock (optional)."
+    },
+    {
+      "gameobject_id": 69351,
+      "note": "10 Sticks."
+    },
+    {
+      "gameobject_id": 105697,
+      "note": "9 Sticks; 24 Bricks for two Tailors."
+    },
+    {
+      "gameobject_id": 105694,
+      "note": "Two needed, 12 Bricks each; 3 Hides make 1 Coat."
+    },
+    {
+      "gameobject_id": 105695,
+      "note": "6 Logs; 'Clear all rocks' counts 30 Stone made."
+    },
+    {
+      "gameobject_id": 67665,
+      "note": "Optional: two, 12 Bricks each."
+    }
+  ],
+  "pitfalls": [
+    "Labour is scarcer than materials; staff only what the next objective needs.",
+    "'Sew 18 Coats' counts Coats made, so the Tailors' Hide supply, not storage, is what to watch."
+  ],
+  "status": "draft",
+  "game_version": "30 (254)",
+  "date": "2026-10-26",
+  "contributor": "wiki maintainers",
+  "source": "Drafted from the decoded objectives, starting inventory, build list, construction costs and recipes (game data 30, build 254); not yet playtested. Checks for a test run are in docs/PLAYTESTS.md, Part C."
+}

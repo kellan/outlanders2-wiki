@@ -1,0 +1,56 @@
+{
+  "id": "Level06C",
+  "summary": "Get rid of all 36 Glass Panes, put 40 Veggies in a Market and finish by day 35 for the optional. A Canteen Factory turns 2 Glass, 1 Reed and some Sticks into a Canteen: about 18 Reed and 8 Sticks clear the stash. Pumpkins (4-day crop) fill the Market fastest.",
+  "build_order": [
+    {
+      "gameobject_id": 38478,
+      "note": "6 Sticks."
+    },
+    {
+      "gameobject_id": 71937,
+      "note": "9 Logs."
+    },
+    {
+      "gameobject_id": 67668,
+      "note": "15 Planks to the build site already on the map."
+    },
+    {
+      "gameobject_id": 69351,
+      "note": "10 Sticks."
+    },
+    {
+      "gameobject_id": 69353,
+      "note": "4 Sticks + 10 Clay."
+    },
+    {
+      "gameobject_id": 71091,
+      "note": "About 30 tiles; 4-day crop."
+    },
+    {
+      "gameobject_id": 35462,
+      "note": "4 Planks; keep 40 Veggies in it."
+    },
+    {
+      "gameobject_id": 105697,
+      "note": "9 Sticks; 16 Bricks."
+    },
+    {
+      "gameobject_id": 105712,
+      "note": "6 Sticks."
+    },
+    {
+      "gameobject_id": 105745,
+      "note": "16 Bricks + 6 Planks; up to 10 Canteens a day with two workers."
+    }
+  ],
+  "pitfalls": [
+    "Only seven villagers: build in objective order and staff sparingly.",
+    "Two finished-looking towers are Fake Watch Towers and do not count; deliver 15 Planks to the real Watchtower build site.",
+    "Every pane must go, including any carried into warehouses."
+  ],
+  "status": "draft",
+  "game_version": "30 (254)",
+  "date": "2026-10-26",
+  "contributor": "wiki maintainers",
+  "source": "Drafted from the decoded objectives, starting inventory, build list, construction costs and recipes (game data 30, build 254); not yet playtested. Checks for a test run are in docs/PLAYTESTS.md, Part C."
+}

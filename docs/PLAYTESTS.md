@@ -63,6 +63,38 @@ Row: *Whether planted field trees self-seed like wild ones*. Longest test; run i
 ### B9 Day length and the day limit `daylimit`
 Rows: *Day length and what "day limit" counts*, *Whether late-shift crews also sleep longer*. On a level with a day limit, note the counter at start and whether the limit ends the level when the counter reaches it or passes it. In the same session, watch a Clay Pit crew and a Farm crew through one night and record when each goes to sleep and wakes, by dial position.
 
+## Part C: Campaign 1 strategy runs
+
+Every Campaign 1 level has a draft strategy in `content/strategies/<level id>.json`, worked out from the decoded objectives, starting inventory, costs and recipes but never played. A run tests one of them. Unlike Parts A and B, play at any speed you like; the result is whether the strategy finishes and on what day.
+
+For each run: start the level fresh, follow the build order in the strategy file, and record the leader, the day each objective completed (main and optional), the finishing day against the day limit, and the first point where the plan stalled (missing material, idle workers, starvation, cold, a building the level would not allow). Screenshot the objectives panel at the finish. Report one entry per level in [INFORMATION-ANSWERS.md](INFORMATION-ANSWERS.md) with `Row` set to *Campaign 1 strategy: <level name>*, and say what you changed from the build order and why. Corrections to the strategy go in the entry; the wiki session edits the file.
+
+Recommended order: 01A–01C (short, they test the Stick bottleneck the later levels assume), then 02A, 04A, 03A, 05B, 06C, the rest after. Specific things each run should settle:
+
+| Level | Check |
+|---|---|
+| 01A The End of the World | Recycling the Canoe adds 3 Logs to stock; where the extra Sticks come from (fallen sticks, lumberjacks) and how long they take. |
+| 01B Middle Ground | Whether 40 Cabbage tiles reach 25 Veggies in stock while six villagers eat; whether "everyone settled" needs a second house. |
+| 01C A New Start | Whether the population count includes the leader and the three kids; days per birth with free beds and an Open Kitchen. |
+| 02A The Itch | Whether the 45 Wheat tiles start planted or ripe; whether construction drains the Warehouse's 20 Logs. |
+| 02B The Binge | Whether "Have 100 Veggies" must still hold at the end; how many Sticks the trees supply per day without a Firewood Yard. |
+| 02C The Chill | Whether a Bonfire alone keeps 8 villagers warm; days until the 115 Veggies run out; Trappers' Hut catch rate. |
+| 03A Edgar Shapes Up! | Fruit per Apple and Fig Tree per day once mature; whether Fruit in Markets also counts toward the 100 in stock. |
+| 03B Edgar Relapses! | Whether anything needed sits across water (Bridge). |
+| 03C Edgar Bounces Back! | Whether saplings count toward 22 Banana Trees; whether Foragers pick coconuts from Palm Trees; Smoothies per villager per day. |
+| 04A Road Song | Egg laying per coop per day; whether the Cookie Shop's 8 Cookies per batch holds. |
+| 04B Sugar Highway | Births per day with Maddy; whether "everyone settled" can be lost after it ticks. |
+| 04C Too Many Cookies | Whether unstaffed Cookie Shops count; Eggs needed per day for two or three staffed shops. |
+| 05A On Edge | How many Sticks one Firewood Yard holds (the objective needs 90); whether the Bonfire draws from the yard's store. |
+| 05B Under Pressure | Hides per Trappers' Hut per day; whether "Clear all rocks" needs all three sources quarried out. |
+| 05C Blown Away | Which trades the Winterlands Outpost offers in play and their real rates and Stick use. |
+| 06A Storefront | Tropiclands Outpost: 8 Glass for 9 Wheat in play; Glassworks panes per day. |
+| 06B Management | Whether Bread from 45 Flour stalls when Bakery piles fill; Ice Pops per Fruit (2 or 4). |
+| 06C Cache | Whether the Fake Watch Towers are indeed decoys; whether anything other than the Canteen Factory uses Glass; finish day against the optional day 35. |
+| 07A Who's There? | Evergreen Outpost Wheat-for-Glass rate; Grape Vine fruit per day; whether Happiness reaches 80 with Felix. |
+| 07B What Happened? | Whether Newspapers raise Community enough for the objective; whether Lumberjacks cut the counted Winter Pines. |
+| 07C Where Am I? | Tropiclands Outpost Glass-for-Hide rate; Book Workshop output per day. |
+
 ## When a test is done
 
 Set the row's `Status` in [INFORMATION-NEEDED.md](INFORMATION-NEEDED.md) only if you can push; otherwise the wiki session does it. New tests get added here by the wiki session as decode work raises new questions; check this file at the start of each session.

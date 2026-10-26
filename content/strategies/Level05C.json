@@ -1,0 +1,51 @@
+{
+  "id": "Level05C",
+  "summary": "Nothing grows outdoors and there is no Glassworks: Animal Hides traded at the Winterlands Trading Outpost buy Glass (4 Hides for 3) and Wheat (8 Hides for 9). Run several Trappers' Huts, trade for 18 Glass for three Greenhouses and about 35 Wheat, then mill and bake 280 Bread.",
+  "build_order": [
+    {
+      "gameobject_id": 80802,
+      "note": "Three or four, 4 Logs + 8 Sticks each; Meat for food, Hides for trade."
+    },
+    {
+      "gameobject_id": 105695,
+      "note": "6 Logs."
+    },
+    {
+      "gameobject_id": 94267,
+      "note": "12 Logs; Firewood Yard is already built for fuel."
+    },
+    {
+      "gameobject_id": 69352,
+      "note": "Three needed, 6 Stone + 6 Glass each; 24 Hides buy the Glass. Plant Beet or Cabbage."
+    },
+    {
+      "gameobject_id": 69351,
+      "note": "10 Sticks."
+    },
+    {
+      "gameobject_id": 104202,
+      "note": "5 Stone + 15 Clay."
+    },
+    {
+      "gameobject_id": 57395,
+      "note": "9 Clay + 4 Stone; 35 Flour and 35 Sticks make 280 Bread. About 32 Hides buy the Wheat."
+    },
+    {
+      "gameobject_id": 105729,
+      "note": "Heated beds for growth toward 40 (optional)."
+    },
+    {
+      "gameobject_id": 105732,
+      "note": "Happiness (optional)."
+    }
+  ],
+  "pitfalls": [
+    "The Outpost's trades also burn a fire; keep its Sticks topped up.",
+    "About 56 Hides in total: trapping rate is the pace-setter, so add huts early."
+  ],
+  "status": "draft",
+  "game_version": "30 (254)",
+  "date": "2026-10-26",
+  "contributor": "wiki maintainers",
+  "source": "Drafted from the decoded objectives, starting inventory, build list, construction costs and recipes (game data 30, build 254); not yet playtested. Checks for a test run are in docs/PLAYTESTS.md, Part C."
+}

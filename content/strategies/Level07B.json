@@ -1,0 +1,55 @@
+{
+  "id": "Level07B",
+  "summary": "Satisfying Community is a main objective and there is no Communal Plaza, so Community comes from Newspapers: a Paper Mill and a Press. Add a Fitness Park and four Winter Cabins; for the optional 16 Pines, plant Winter Pines with a Foresters' Hub because Lumberjacks fell the existing ten.",
+  "build_order": [
+    {
+      "gameobject_id": 38478,
+      "note": "6 of the 10 starting Sticks."
+    },
+    {
+      "gameobject_id": 71937,
+      "note": "9 Logs."
+    },
+    {
+      "gameobject_id": 105695,
+      "note": "6 Logs."
+    },
+    {
+      "gameobject_id": 35463,
+      "note": "6 Stone + 10 Planks."
+    },
+    {
+      "gameobject_id": 105708,
+      "note": "14 Planks; 1 Log makes 1 Paper."
+    },
+    {
+      "gameobject_id": 69351,
+      "note": "10 Sticks."
+    },
+    {
+      "gameobject_id": 105697,
+      "note": "9 Sticks."
+    },
+    {
+      "gameobject_id": 105707,
+      "note": "24 Bricks; 1 Paper makes 3 Newspapers; each one read gives Community 6."
+    },
+    {
+      "gameobject_id": 105729,
+      "note": "Four needed, 3 Stone + 3 Planks each."
+    },
+    {
+      "gameobject_id": 40306,
+      "note": "10 Planks; plant Winter Pines toward 16."
+    }
+  ],
+  "pitfalls": [
+    "Lumberjacks cut the pines the optional objective counts; plant before felling.",
+    "The Press needs 24 Bricks, the most expensive step; start the Clay Pit and Brickyard as soon as the Fitness Park is placed."
+  ],
+  "status": "draft",
+  "game_version": "30 (254)",
+  "date": "2026-10-26",
+  "contributor": "wiki maintainers",
+  "source": "Drafted from the decoded objectives, starting inventory, build list, construction costs and recipes (game data 30, build 254); not yet playtested. Checks for a test run are in docs/PLAYTESTS.md, Part C."
+}
