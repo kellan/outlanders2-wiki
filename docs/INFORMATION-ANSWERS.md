@@ -221,3 +221,29 @@ Campaign 2:
 - Evidence: assets/gameplay-evidence/refund/refund-setup-autobuild-off.png; refund-1-start-12-logs.png; refund-1-partial-3-delivered-9-stock.png; refund-1-partial-recycle-promises-3.png; refund-1-partial-after-12-logs.png (same directory)
 - Confidence: confirmed
 - Notes: Earlier filename refund-1-partial-2-delivered-9-stock.png is an intermediate capture; the final paused panel was 3/6. Finished-house comparison follows separately.
+
+## Finished Basic House returns half its construction Logs (A6, completed)
+- Status: new
+- Row: What demolishing a finished building, and a half-built site, gives back
+- Fact: A normally constructed Basic House consumed 6 Logs. Once finished, its Recycle tab advertised 3 Logs. Available Log inventory was 6 before demolition and 9 after the house disappeared, with a returned Log pile on its former footprint. Thus this completed house returned 50% of its 6-Log cost; the separate partial-site test returned all 3 delivered Logs.
+- Target: Basic House, finished
+- Obtained by: controlled gameplay, Recycle panel and before/after inventory
+- Conditions: same slot 4 Playtest Refund, Evergreen / Large Islands, Jaqweshia third appearance, Autobuild OFF, normal speed. Construction started day 1 and finished day 3 early day face; Rian built, Liza added late day 2. Demolished day 3 middle day face. No other Log producer or consumer.
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/refund/refund-3-finished-before-6-logs.png; refund-3-finished-recycle-promises-3.png; refund-3-finished-after-9-logs.png (same directory)
+- Confidence: confirmed
+- Notes: Only Basic House tested; do not generalize rounding or refunds for other materials from this single building.
+
+## Visible day counter increments at dawn (A2, boundary observation)
+- Status: new
+- Row: Which clock hour the stored shift fraction 0.0 corresponds to
+- Fact: The counter remained Day 2 when the dial changed to its blue night face. It was still Day 2 with the moon near the far-right end of the night arc, then showed Day 3 with the sun just appearing at the far-left edge of the yellow day face. The visible day boundary is dawn, rather than sunset or mid-night.
+- Target: day counter / clock dial
+- Obtained by: in-game clock observation at normal speed
+- Conditions: Playtest Refund sandbox, Jaqweshia third appearance; observed during A6. Screenshots bracket the dawn transition by approximately 10–15 real seconds rather than capturing its exact frame.
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/clock/clock-2-early-night.png; clock-2-late-night.png; clock-3-sunrise-counter-increment.png (same directory)
+- Confidence: confirmed
+- Notes: Confirms the visible counter boundary only. No numbered clock hours are shown, and this observation alone does not establish which stored shift fraction corresponds to dawn. A full precisely sampled day-length measurement remains open.
