@@ -68,6 +68,8 @@ Use only necessary evidence images, with the game version and source noted. Crop
 
 ## Before requesting review
 
+Add one line for your change under **Unreleased** in `CHANGELOG.md`: what a reader will see and the page to look at, with the pull request number in brackets. The maintainer dates the block on merge. `CONTENT-NOTES.md` stays the place for reasoning and provenance.
+
 Keep the change focused. Check names, numbers, links, evidence, and spoiler classification. List unresolved questions honestly. The maintainer reviews and merges changes. A merge to `main` builds, tests and publishes the website automatically; the pull request checks run the same build and tests, so browser-only edits get feedback without a local Node install.
 
 ## Licensing and attribution
