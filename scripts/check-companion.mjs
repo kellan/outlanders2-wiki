@@ -53,7 +53,7 @@ console.log('PASS: ratio presentation and Bakery capacity observation.');
 // Per-cycle recipe and capacity come from the gameplay block.
 const box2=(()=>{const b=h.render('buildings/bakery/');return b.slice(b.indexOf('class="infobox"'),b.indexOf('</aside>'))})();
 assert.ok(box2.includes('1 Flour')&&box2.includes('1 Stick')&&box2.includes('8 Bread'),'per-cycle recipe in infobox');
-assert.ok(box2.includes('Capacity')&&box2.includes('60 Bread'),'capacity in infobox');
+assert.ok(box2.includes('Capacity')&&/60 <a[^>]*>Bread<\/a>/.test(box2),'capacity in infobox');
 assert.ok(!box2.includes('0.8 Stick'),'derived ratio must not replace the confirmed recipe');
 assert.ok(h.render('production-chains/bakery/').includes('How production works'));
 assert.ok(h.render('buildings/').includes('8 Bread'),'catalog uses per-cycle recipe');
@@ -144,3 +144,18 @@ console.log('PASS: research handoff integration.');
  assert.ok(/Book\|+18\|+18\|+18\|/.test(row('Book')),'main objective book');
  assert.ok(/12 <a[^>]*>Glass Pane<\/a> at the/.test(level)&&/needs 18 <a[^>]*>Stick<\/a>/.test(level),'breakdown steps');
  console.log('PASS: stored recipes and objective rollups.');}
+// Decoded mechanics: capacities, heating, housing, version gates, needs model, weather, boosts, pile tables.
+{const glass=h.render('buildings/glassworks/');assert.ok(/Capacity<\/dt><dd>48 <a[^>]*>Glass Pane/.test(glass),'glassworks capacity from piles');assert.ok(glass.includes('2 piles of 24'),'pile breakdown');
+ const factory=h.render('buildings/canteen-factory/');assert.ok(/Capacity<\/dt><dd>12 <a[^>]*>Canteen/.test(factory),'canteen capacity');
+ const bakery2=h.render('buildings/bakery/');assert.ok(/Capacity<\/dt><dd>60 <a[^>]*>Bread/.test(bakery2),'bakery capacity kept from the gameplay block');
+ const cabin=h.render('buildings/winter-cabin/');assert.ok(cabin.includes('Heating')&&cabin.includes('burns one fuel item every day')&&cabin.includes('warms 4 sleeping spots'),'winter cabin heating row: '+(cabin.match(/Heating<\/dt><dd>[^<]*/)||[''])[0]);
+ const house=h.render('buildings/basic-house/');assert.ok(house.includes('4 villagers')&&house.includes('plus 1 baby and 1 pet'),'housing row with baby and pet spots');
+ const dock=h.render('buildings/fishing-dock/');assert.ok(/Added in<\/dt><dd>Update 17/.test(dock),'added-in row from MinGameVersion');
+ const needs=h.render('needs/');for(const t of ['How the meters work','Villager life','adult at 16','What keeping villagers content does','Falls per day'])assert.ok(needs.includes(t),'needs page: '+t);
+ const tropics=h.render('biomes/tropiclands/');assert.ok(tropics.includes('Weather')&&tropics.includes('Heat wave')&&tropics.includes('2 to 6 days'),'tropical weather');
+ assert.ok(!h.render('biomes/winterlands/').includes('<h2>Weather</h2>'),'no weather section elsewhere');
+ const research=h.render('verification/buildings/bakery/');assert.ok(research.includes('<h2>Piles</h2>')&&research.includes('public output'),'pile table on research page');assert.ok(!bakery2.includes('<h2>Piles</h2>'),'pile table stays on the research page');
+ assert.ok(h.render('tournament/').includes('<h2>Boosts</h2>'),'tournament boosts');
+ const spoil=JSON.parse(fs2.readFileSync(new URL('../content/spoilers.json',import.meta.url),'utf8'));assert.ok(spoil.entries.filter(e=>e.status==='confirmed-unreleased').length>=20,'version gates confirmed spoilers');
+ assert.ok(!h.render('buildings/').includes('Stroganoff'),'gated building still withheld from the catalog');
+ console.log('PASS: decoded mechanics on infoboxes, needs, biomes, research and tournament pages.');}

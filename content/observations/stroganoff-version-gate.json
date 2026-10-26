@@ -1,0 +1,16 @@
+{
+  "id": "stroganoff-version-gate",
+  "target": {
+    "type": "buildings",
+    "id": "105717"
+  },
+  "claim": "The Stroganoff Cookhouse, Concoction Shop, Mushroom chain, Swamp Trappers' Hut, Advanced Warehouse, Brick Road and leader Oona are gated to game version 32, above the installed version 30, which confirms they are not yet released in this build.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "decoded-data",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "SerializedKeyBehaviour.MinGameVersion on each prefab root: 32. 4909 of 5455 keys store 0; the highest value in use by released content is 30 (Amish villagers, Halloween Tombstone)."
+  },
+  "notes": "Spoiler entries for these items now carry confirmed-unreleased status."
+}

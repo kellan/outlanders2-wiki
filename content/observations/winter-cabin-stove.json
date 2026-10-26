@@ -1,0 +1,16 @@
+{
+  "id": "winter-cabin-stove",
+  "target": {
+    "type": "buildings",
+    "id": "105729"
+  },
+  "claim": "The Winter Cabin has a heat pile that burns one fuel item per day and warms its four sleeping spots with 6 heat units.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "decoded-data",
+    "game_version": "30 (254)",
+    "date": "2026-10-26",
+    "reference": "PileHeatSourceBehaviour on \"House With Chimney/Heat Pile\": ConsumeHeatInDays 1, HeatSleepSpots 4, SocialSpotHeatUnits 6."
+  },
+  "notes": "What 6 heat units are worth on the Heat meter is not stored with the pile; the Needs page gives the meter settings."
+}

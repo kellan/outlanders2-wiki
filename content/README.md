@@ -22,6 +22,10 @@ Observations have their own records and render in research pages. Spoiler placem
 
 `content/reference/research-findings.json` is a handed-over export from the research agent (see its `provenance` block): decoded gear effects, social-spot and eating-spot need units, the terrain enum, one game day in simulation seconds, crop yields per field, and per-building production profiles whose rates are a supplied-inputs capacity model. Reader pages show the decoded values labelled as stored; the modelled rates appear only on research pages. Re-import the whole file when the research agent publishes a new version; do not hand-edit it.
 
+## Decoded mechanics
+
+`content/reference/decoded-mechanics.json` is a generated export from the research repository (`tools/export_mechanics.py`; see its `provenance` block). Sections: `enums`, `needs`, `concerns`, `reproduction`, `life_stages`, `plant_spread`, `houses`, `heat_sources`, `level_events`, `tournament_boosts`, `min_game_version` (per prefab root: the game version that unlocks it; values above `current_game_version` mean unreleased), `piles` (every pile with capacity, kind and the workspots that fill it), `duplicate_resource_names`, `day_night_cycle`, `sandbox` and `map_generator`. Buildings and resources are matched to it by `internal_name`, which equals the prefab root name. Regenerate rather than edit.
+
 ## History
 
 `content/history.json` holds dated changes per entity: `type` (buildings, resources, levels, heroes, biomes), `id`, `game_version`, `date`, `change` and `evidence` (`kind`, `reference`, optional `url`). Entries render as a History section on the entity page and on the Changelog page, grouped by update. Backdate an entry only when an official source or a decoded marker ties the content to that update. After a re-extraction on a new build, `node scripts/compare-content.mjs <old content> <new content> --version N --date YYYY-MM-DD` prints candidate entries for review.
