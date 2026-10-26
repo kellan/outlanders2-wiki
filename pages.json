@@ -41,11 +41,11 @@
       "spoiler": false
     },
     {
-      "type": "needs",
+      "type": "mechanics",
       "id": "",
-      "name": "Needs",
+      "name": "Mechanics",
       "category": "Directory",
-      "path": "needs/",
+      "path": "mechanics/",
       "spoiler": false
     },
     {
@@ -150,6 +150,54 @@
       "name": "Spoilers",
       "category": "Directory",
       "path": "spoilers/",
+      "spoiler": false
+    },
+    {
+      "type": "needs",
+      "id": "",
+      "name": "Needs",
+      "category": "Mechanics",
+      "path": "needs/",
+      "spoiler": false
+    },
+    {
+      "type": "happiness",
+      "id": "",
+      "name": "Happiness",
+      "category": "Mechanics",
+      "path": "happiness/",
+      "spoiler": false
+    },
+    {
+      "type": "villagers",
+      "id": "",
+      "name": "Villagers and life",
+      "category": "Mechanics",
+      "path": "villagers/",
+      "spoiler": false
+    },
+    {
+      "type": "climate",
+      "id": "",
+      "name": "Heat, cooling and water",
+      "category": "Mechanics",
+      "path": "heat-cooling-water/",
+      "spoiler": false
+    },
+    {
+      "type": "time",
+      "id": "",
+      "name": "Days and time",
+      "category": "Mechanics",
+      "path": "time/",
+      "spoiler": false
+    },
+    {
+      "type": "gear",
+      "id": "",
+      "name": "Gear",
+      "category": "Mechanics",
+      "path": "gear/",
       "spoiler": false
     },
     {
@@ -10671,7 +10719,7 @@
     "plants/",
     "resources/",
     "food/",
-    "needs/",
+    "mechanics/",
     "production-chains/",
     "levels/",
     "challenges/",
@@ -10685,6 +10733,12 @@
     "contribute/",
     "about/",
     "spoilers/",
+    "needs/",
+    "happiness/",
+    "villagers/",
+    "heat-cooling-water/",
+    "time/",
+    "gear/",
     "houses/",
     "gathering-places/",
     "spoilers/buildings/advanced-warehouse/",
