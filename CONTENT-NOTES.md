@@ -66,9 +66,17 @@ The maintainer reports that the Bakery holds 40 Bread; the decoded "5 Flour + 4 
 
 Article pages gained a Stardew-style companion layer on top of the existing evidence model: an infobox (type, footprint, cost, workers, housing, inputs, outputs, growth stage days, level count), a single verification badge linking to the research page, level-objective backlinks computed from scenario objectives, build/plant availability grouped by campaign and story with unnamed archive maps collapsed, story context and previous/next links on level pages, story and level lists on leader pages, footer navboxes, and per-page "Suggest an edit" and "Report a problem" links. Decoded formula steps on chain pages and starting-object tables on level pages are collapsed by default. The Properties aside and leader gameplay checks now move to the research page with the other provenance material. Navboxes and backlinks read the spoiler-scoped datasets, so spoiler entries stay out of public pages.
 
+## Plant biomes and planters from data (2026-10-26)
+
+Plant pages and the Plants overview now show which sandbox biomes list each plant (from `content/reference/biomes.json`, the decoded MapBiomeSettings), which building plants it there, and where it grows wild with the map generator's density per tile. The planter is no longer a fixed table: a planter is any building whose description says it plants a source type (`Sources.Field`, `Sources.FruitTree` or `Sources.Tree`) and that is in the biome's sandbox build list, so the Nopal Tree, Date Palm and Watermelon are planted by the Oasis in the Drylands, and Winterlands crops by the Greenhouse. When no sandbox biome lists a plant, the planters are taken from the campaign level build lists that include the field, then from all planters of that type. Open point: the Drylands sandbox lists Mesquite as a forestry plant but has no Foresters' Hub, so its sandbox planter is unconfirmed. Internal, unnamed spawner outputs (the Trappers' trap state on Winter Pines) are no longer shown as yields.
+
 ## How unreleased status is decided (2026-10-26)
 
 Written down in CONTRIBUTING.md and on the Spoilers page: `confirmed-unreleased` needs the prefab's own `MinGameVersion` gate above the installed game version (32 against 30 here); reports give `reported-unreleased`; associated scenarios and biomes without a gate stay `related-release-unconfirmed`. Construction-material rollups for level objectives are tracked in issue 23.
+
+## Plant yields by type and a fruit rate (2026-10-26, issue 25)
+
+The Plants overview and plant infoboxes now lead with the yield that matches the plant type (field harvest, fruit drops, felling logs) and put the rest under "Also"; orchard trees are labelled fruit trees. A Rate row and column give fruit per day while the tree is picked regularly (1 ÷ mean spawn interval) and how long a full tree takes to fill (cap × mean interval): Palm about 0.61 a day and full in 8 days, Banana about 0.3 and 10 days. The rate is arithmetic on the stored spawner values, which stay on the page.
 
 ## Plants section, tree yields and the clock (2026-10-26)
 

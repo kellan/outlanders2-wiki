@@ -164,7 +164,17 @@ console.log('PASS: research handoff integration.');
  const dir=h.render('plants/');assert.ok(dir.includes('Apple Tree')&&dir.includes('Carrot')&&dir.includes('Field crop'),'plants directory lists crops and trees');
  assert.ok(!h.render('buildings/').includes('>Apple Tree<'),'buildings catalog no longer lists plants');
  const ash=h.render('plants/ash-tree/');assert.ok(/4 <a[^>]*>Log<\/a> per tree when felled/.test(ash)&&ash.includes('6 chops'),'ash felling yield: '+(ash.match(/Yields<\/dt><dd>[^<]*<[^>]*>[^<]*<\/a>[^<]*/)||[''])[0]);
- const apple=h.render('plants/apple-tree/');assert.ok(apple.includes('every 1.65–2.5 days')&&apple.includes('at most 4 waiting'),'apple drops');assert.ok(!apple.includes('Mushroom'),'gated mushroom spawner hidden');assert.ok(apple.includes('Plants</a>'),'plant breadcrumb');
+ const apple=h.render('plants/apple-tree/');assert.ok(apple.includes('every 1.65–2.5 days')&&apple.includes('at most 4 waiting'),'apple drops');assert.ok(/Yields<\/dt><dd>1 <a[^>]*>Fruit<\/a> every/.test(apple),'fruit tree leads with fruit');assert.ok(/Also<\/dt><dd>1 <a[^>]*>Log<\/a> per tree when felled/.test(apple),'felling is secondary on a fruit tree');assert.ok(apple.includes('Fruit tree')&&!apple.includes('Orchard tree'),'fruit tree label');
+ const palm=h.render('plants/palm-tree/');assert.ok(/Rate<\/dt><dd>about 0.61 <a[^>]*>Fruit<\/a> a day while picked; a full tree holds 5 and fills in about 8 days/.test(palm),'palm rate: '+(palm.match(/Rate<\/dt><dd>[^<]*<[^>]*>[^<]*<\/a>[^<]*/)||[''])[0]);
+ const nopal=h.render('plants/nopal-tree/');assert.ok(nopal.includes('Nopalito')&&/Also<\/dt><dd>1 <a[^>]*>Log<\/a> and 5/.test(nopal),'nopal shows fruit, nopals and felling');
+ assert.ok(/Yields<\/dt><dd>4 <a[^>]*>Log<\/a> per tree when felled/.test(ash),'forestry leads with logs');assert.ok(dir.includes('>Rate</th>')&&dir.includes('Fruit/day'),'rate column on the overview');assert.ok(!apple.includes('Mushroom'),'gated mushroom spawner hidden');assert.ok(apple.includes('Plants</a>'),'plant breadcrumb');
  assert.ok(h.render('buildings/').includes('dial turns to day'),'clock wording in work schedules');
  console.log('PASS: plants section, felling yields, fruit spawners and clock wording.');}
+// Plant biomes and data-driven planters.
+{const nopal=h.render('plants/nopal-tree/');assert.ok(/Planted by<\/dt><dd><a[^>]*>Oasis<\/a>/.test(nopal),'nopal planted by the Oasis');assert.ok(/Biomes<\/dt><dd><a[^>]*>Drylands<\/a>/.test(nopal),'nopal biome row');assert.ok(nopal.includes('Grows wild</dt><dd>')&&nopal.includes('0.003 per tile'),'nopal wild spawn');assert.ok(nopal.includes('id="biomes"')&&nopal.includes('<th scope="col">Planted by</th>'),'biome table on the plant page');
+ const palm=h.render('plants/palm-tree/');assert.ok(/Planted by<\/dt><dd><a[^>]*>Orchard<\/a><\/dd>/.test(palm),'palm planted by the Orchard (old prefab variant resolved)');
+ const cabbage=h.render('plants/cabbage/');assert.ok(/Planted by<\/dt><dd>.*Greenhouse/.test(cabbage)&&cabbage.includes('Winterlands'),'greenhouse plants cabbage in Winterlands');
+ const pine=h.render('plants/winter-pine-tree/');assert.ok(!pine.includes('HunterTrapFull'),'internal trap state hidden from yields');assert.ok(pine.includes('0.2 per tile'),'winter pine wild density');
+ const dir=h.render('plants/');assert.ok(dir.includes('>Biomes</th>')&&/Nopal Tree[\s\S]*?<a[^>]*>Oasis<\/a>[\s\S]*?Drylands/.test(dir),'biomes column on the overview');
+ console.log('PASS: plant biomes, wild spawns and data-driven planters.');}
 {const sp=h.render('spoilers/');assert.ok(sp.includes('How we tell that something is unreleased')&&sp.includes('MinGameVersion'),'spoiler method note');console.log('PASS: unreleased-status method documented.');}
