@@ -10,7 +10,9 @@
     "build": "node scripts/build.mjs",
     "content:find": "node scripts/find-content.mjs",
     "content:derive": "node scripts/derive-recipes.mjs",
-    "validate": "node scripts/compile-content.mjs --check"
+    "validate": "node scripts/compile-content.mjs --check",
+    "changelog": "node scripts/changelog.mjs",
+    "changelog:release": "node scripts/changelog.mjs release"
   },
   "engines": {
     "node": ">=18"

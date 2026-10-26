@@ -1,0 +1,1 @@
+Readable recipes for the 32 buildings that said "no single ratio applies": Open Kitchen "3 Stew ← 2 × (Veggie, Meat or Egg) + 1/5 Stick (plates reused)", Winery, Brewery, Cheesery, Trappers' Hut and the rest; planters, storage and the beer stand get plain sentences (#51).

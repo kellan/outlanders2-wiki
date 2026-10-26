@@ -1,0 +1,1 @@
+Changelog entries now live one file per change under `changelog/`, assembled at build time and released in dated batches with `npm run changelog:release`, so parallel pull requests no longer conflict on CHANGELOG.md (#53).

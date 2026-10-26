@@ -1,3 +1,7 @@
+## Changelog as fragments (2026-10-26)
+
+CHANGELOG.md was the one file every pull request edited at the same line, so parallel work conflicted. Entries now live as one file per change in `changelog/unreleased/`, assembled at build time for the Changelog page; `npm run changelog:release` moves a merged batch into `changelog/<date>.md` and regenerates CHANGELOG.md from the dated files only. The same treatment is the obvious next step for this notes file.
+
 ## Stored recipes from step graphs (2026-10-26, issue 47)
 
 `scripts/derive-recipes.mjs` now reads the step graph for buildings without a clean recipe, so 21 more resources carry `made_from`: Stew, Beer, Wine, Mead, Wheatshine, Fondue, Manchamanteles, Barley Porridge, Cheese, Paper, Clay, Honey, Water, Meat, Animal Hide, Log, Fruit, Nopalito and others. Resource pages show the natural batch ("2 × (Veggie, Meat or Egg) + 1/5 Stick → 3 Stew, plates reused") and level rollups work the alternatives in: Frostbound Valley's 100 Stew now needs 67 Veggie (or Meat or Egg) and 7 Sticks instead of "gathered or traded"; Full Tilt Queso's 100 Cheese needs 17 Milk and 9 Sticks. Pages merge recipes across same-named resource records.
