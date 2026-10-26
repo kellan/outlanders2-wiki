@@ -182,3 +182,29 @@ Campaign 2:
 - Evidence: assets/gameplay-evidence/planters/planters-1-drylands-fields.png; planters-1-drylands-mesquite.png; planters-1-drylands-fruit.png (same directory); assets/gameplay-evidence/fieldguide/Oasis-top.png; Oasis-cost.png (same directory)
 - Confidence: confirmed
 - Notes: These are displayed menu growth times, not measured elapsed growth times. Winterlands remains a separate test.
+
+## Winterlands crops and Greenhouse placement rule (A5)
+- Status: new
+- Row: Crop availability per biome in normal play, including greenhouse rules in Winterlands
+- Fact: Winterlands sandbox Field menu contains Cabbage (yield 1, 4 days), Beet (yield 2, 7 days), Potato (yield 3, 9 days). Wood Tree contains only Winter Pine (yield 4, 10 days), and there is no Fruit Tree tab. Greenhouse guide names those three crops, costs 6 Glass Panes and 6 Stone, and has three worker slots. A fresh Cabbage placement inside its glass-covered planting area enables Build; a fresh placement on nearby open snow is red and disables Build. Confirming the inside placement creates a field plot under the glass.
+- Target: Winterlands / Greenhouse
+- Obtained by: live menus, field guide and controlled planting placement
+- Conditions: fresh sandbox slot 3, Playtest Winterlands, Pablo, Large Islands, medium size, average trees/rocks/population (9 villagers), abundant resources, Autobuild enabled, day 1. One Greenhouse placed on clear ground. Separate fresh placement attempts were used for inside/outside comparison.
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/planters/planters-1-winterlands-fields.png; planters-1-winterlands-trees.png; planters-1-cabbage-inside-valid.png; planters-1-cabbage-outside-invalid.png (same directory); assets/gameplay-evidence/fieldguide/Greenhouse-Winterlands.png
+- Confidence: confirmed
+- Notes: Growth times are displayed menu values, not timed harvest measurements. The result establishes sandbox placement rules; no campaign-wide availability claim.
+
+## Additional production field guides, first capture batch (A1)
+- Status: new
+- Row: Field guide text, recipe, cost and worker slots for every building
+- Fact: Captured Oasis (two images to include cost), Drylands Foresters’ Hub, Trappers’ Hut, Open Kitchen, Chicken Coop, Fondue Bar, Dried Meat Shop, Fishing Dock, and Winterlands Greenhouse. Fishing Dock explicitly displays output 0–2 Meat; this is guide evidence, not a per-spot catch-frequency test. Open Kitchen displays any combination of 2 Veggies/Meat/Eggs plus 1 Stick producing 3 Stew; Fondue Bar displays 1 Cheese + 2 Veggies + 1 Stick producing 5 Fondue; Dried Meat Shop displays 1 Meat producing 2 Dried Meat without fuel.
+- Target: production buildings
+- Obtained by: in-game field guide
+- Conditions: paused day-1 Drylands and Winterlands sandboxes; English UI
+- Game version: 30 (254), installed application metadata
+- Date: 2026-10-26
+- Evidence: assets/gameplay-evidence/fieldguide/Oasis-top.png; Oasis-cost.png; Foresters-Hub-Drylands.png; Trappers-Hut.png; Open-Kitchen.png; Chicken-Coop.png; Fondue-Bar.png; Dried-Meat-Shop.png; Fishing-Dock.png; Greenhouse-Winterlands.png (all in same directory)
+- Confidence: confirmed
+- Notes: Partial coverage; do not mark the all-buildings row complete. UI effect icons are not a measured need-meter conversion.
