@@ -209,4 +209,7 @@ console.log('PASS: research handoff integration.');
  const sold=h.render('levels/sold-out/');assert.ok(/led by <a[^>]*>Izzy<\/a>/.test(sold),'starting leader linked');assert.ok(sold.includes('Spawn 30 Adults'),'scripted arrival');assert.ok(sold.includes('leaving out')&&sold.includes('scenery object'),'scenery count');
  assert.ok(h.render('levels/').includes('>You start with</th>')&&/5 adults, 2 kids · 1 building/.test(h.render('levels/')),'levels directory start column');
  console.log('PASS: level starting conditions resolved and grouped.');}
+// Guides elsewhere (issue 38).
+{assert.ok(h.lookup['guides/'],'guides route');const g=h.render('guides/');assert.ok(g.includes('Guides elsewhere')&&g.includes('<h2>Communities</h2>')&&/rel="nofollow noopener"[^>]*>r\/Outlanders_ios</.test(g),'guides page lists the seeded community link with nofollow');assert.ok(g.includes('not yet reviewed'),'unreviewed status shown');assert.ok(g.includes('external-link.yml'),'suggest-a-link form');
+ console.log('PASS: guides elsewhere page.');}
 {const sp=h.render('spoilers/');assert.ok(sp.includes('How we tell that something is unreleased')&&sp.includes('MinGameVersion'),'spoiler method note');console.log('PASS: unreleased-status method documented.');}

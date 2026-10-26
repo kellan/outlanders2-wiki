@@ -1,0 +1,57 @@
+name: Suggest a link
+description: Point the wiki at a guide, walkthrough, video or community elsewhere. A maintainer adds it to the Guides elsewhere page.
+title: "Link: "
+labels: [content, links]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: What the page or channel calls itself.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: What it is
+      options:
+        - Written guide
+        - Walkthrough (level by level)
+        - Video or channel
+        - Community (forum, Discord, subreddit)
+        - Official (studio, store page)
+        - Tool (calculator, planner)
+    validations:
+      required: true
+  - type: input
+    id: covers
+    attributes:
+      label: What it covers
+      description: Levels, biomes or mechanics it is about, comma separated.
+  - type: input
+    id: levels
+    attributes:
+      label: Levels
+      description: If it is about particular levels, their names as the game shows them, comma separated. The level pages will link to it.
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it is worth linking
+      description: One or two sentences. Say if you made it.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checks
+      options:
+        - label: The page is about Outlanders 2 and is not a copy of this wiki.
+          required: true
+        - label: It is free to read or watch.
+          required: true

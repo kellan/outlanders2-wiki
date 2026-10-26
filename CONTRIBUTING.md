@@ -50,6 +50,10 @@ For scenario needs, omitted means unspecified; it does not mean false. For crops
 
 Level pages have a Strategy section for community advice: a summary, a suggested build order and things to watch out for. Use the [level strategy form](https://github.com/kellan/outlanders2-wiki/issues/new?template=level-strategy.yml) (every level page links to it with the level filled in). A maintainer converts the submission into `content/strategies/<level id>.json`, which has `summary`, `build_order` (building IDs with a note each), `pitfalls`, `status` (`draft` until someone has finished the level that way, then `reviewed`), `game_version`, `date`, `contributor` and `source`. Strategies are rendered apart from decoded data and labelled as community advice. Keep them specific to the level, and do not restate objectives the page already shows.
 
+## Suggest a link
+
+The Guides elsewhere page points at strategy guides, walkthroughs, videos, tools and communities on other sites. Use the [link form](https://github.com/kellan/outlanders2-wiki/issues/new?template=external-link.yml). A maintainer adds accepted links to `content/links.json` (`id`, `title`, `url` (https), `site`, `type` one of `guide`, `walkthrough`, `video`, `community`, `official`, `tool`, `covers`, optional `levels` by id or name, `language`, `date_checked`, `status` `needs-check` until a maintainer has looked, then `listed`, and a one-line `note`). Level pages show the links that name them. Links are community pointers and are never cited as evidence for a decoded fact; a weekly check removes dead ones. We do not list copies of this wiki, paywalled pages or advert farms.
+
 ## Spoilers and unreleased content
 
 Use `content/spoilers.json` to place confirmed or explicitly reported unreleased content in the Spoilers section. Each entry records its target, classification, date and reason. Related content can be withheld as `related-release-unconfirmed` without asserting it is unreleased. Use the existing availability record and explain the evidence. Do not infer unreleased status merely from an unfamiliar name or presence in the game files. Keep uncertain release status distinct from spoilers.

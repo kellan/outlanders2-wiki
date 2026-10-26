@@ -70,6 +70,10 @@ The maintainer reports that the Bakery holds 40 Bread; the decoded "5 Flour + 4 
 
 Article pages gained a Stardew-style companion layer on top of the existing evidence model: an infobox (type, footprint, cost, workers, housing, inputs, outputs, growth stage days, level count), a single verification badge linking to the research page, level-objective backlinks computed from scenario objectives, build/plant availability grouped by campaign and story with unnamed archive maps collapsed, story context and previous/next links on level pages, story and level lists on leader pages, footer navboxes, and per-page "Suggest an edit" and "Report a problem" links. Decoded formula steps on chain pages and starting-object tables on level pages are collapsed by default. The Properties aside and leader gameplay checks now move to the research page with the other provenance material. Navboxes and backlinks read the spoiler-scoped datasets, so spoiler entries stay out of public pages.
 
+## Guides elsewhere (2026-10-26, issue 38)
+
+A links file, page, issue form and weekly link check for pointers to guides and communities on other sites. Seeded with two entries found by search and marked "not yet reviewed" (the Apple Arcade subreddit and the studio site); the maintainer's own list is awaited on the issue. Links are shown apart from decoded content and never cited as evidence.
+
 ## Level starting conditions made readable (2026-10-26, issue 33)
 
 The Starting conditions block now resolves what the old version dropped: buildings placed as map variants (matched by localization key) split into workplaces, homes, and roads and decoration; the starting leader, linked; wild trees and already-growing crops matched to their plant pages through the plant prefab roots; rock sources and reed plants as map resources; loose piles counted with a note that their contents are set at load; tool resources moved out of the stockpile; scripted arrivals and notices; and a count of scenery left out. The Levels directory gains a "You start with" column (villagers and building count). Scenery props, story statues and birds stay only in the raw list.
