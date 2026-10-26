@@ -161,6 +161,78 @@
       "spoiler": false
     },
     {
+      "type": "eating",
+      "id": "",
+      "name": "How eating works",
+      "category": "Mechanics",
+      "path": "eating/",
+      "spoiler": false
+    },
+    {
+      "type": "need",
+      "id": "food",
+      "name": "Food",
+      "category": "Need",
+      "path": "needs/food/",
+      "spoiler": false
+    },
+    {
+      "type": "need",
+      "id": "hydration",
+      "name": "Hydration",
+      "category": "Need",
+      "path": "needs/hydration/",
+      "spoiler": false
+    },
+    {
+      "type": "need",
+      "id": "heat",
+      "name": "Heat",
+      "category": "Need",
+      "path": "needs/heat/",
+      "spoiler": false
+    },
+    {
+      "type": "need",
+      "id": "energy",
+      "name": "Energy (sleep)",
+      "category": "Need",
+      "path": "needs/energy/",
+      "spoiler": false
+    },
+    {
+      "type": "need",
+      "id": "fun",
+      "name": "Fun",
+      "category": "Need",
+      "path": "needs/fun/",
+      "spoiler": false
+    },
+    {
+      "type": "need",
+      "id": "cooling",
+      "name": "Cooling",
+      "category": "Need",
+      "path": "needs/cooling/",
+      "spoiler": false
+    },
+    {
+      "type": "need",
+      "id": "wellness",
+      "name": "Wellness",
+      "category": "Need",
+      "path": "needs/wellness/",
+      "spoiler": false
+    },
+    {
+      "type": "need",
+      "id": "community",
+      "name": "Community",
+      "category": "Need",
+      "path": "needs/community/",
+      "spoiler": false
+    },
+    {
       "type": "happiness",
       "id": "",
       "name": "Happiness",
@@ -10734,6 +10806,15 @@
     "about/",
     "spoilers/",
     "needs/",
+    "eating/",
+    "needs/food/",
+    "needs/hydration/",
+    "needs/heat/",
+    "needs/energy/",
+    "needs/fun/",
+    "needs/cooling/",
+    "needs/wellness/",
+    "needs/community/",
     "happiness/",
     "villagers/",
     "heat-cooling-water/",
