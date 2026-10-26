@@ -746,22 +746,6 @@
     },
     {
       "type": "buildings",
-      "id": "92320",
-      "name": "Base",
-      "category": "Plant",
-      "path": "plants/base/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "92320",
-      "name": "Base — production",
-      "category": "Production chain",
-      "path": "production-chains/base/",
-      "spoiler": false
-    },
-    {
-      "type": "buildings",
       "id": "71099",
       "name": "Beet",
       "category": "Plant",
@@ -861,16 +845,16 @@
       "id": "67921",
       "name": "Cypress Tree",
       "category": "Plant",
-      "path": "plants/cypress-tree/",
-      "spoiler": false
+      "path": "spoilers/plants/cypress-tree/",
+      "spoiler": true
     },
     {
       "type": "chains",
       "id": "67921",
       "name": "Cypress Tree — production",
       "category": "Production chain",
-      "path": "production-chains/cypress-tree/",
-      "spoiler": false
+      "path": "spoilers/production-chains/cypress-tree/",
+      "spoiler": true
     },
     {
       "type": "buildings",
@@ -1197,16 +1181,16 @@
       "id": "67915",
       "name": "Willow Tree",
       "category": "Plant",
-      "path": "plants/willow-tree/",
-      "spoiler": false
+      "path": "spoilers/plants/willow-tree/",
+      "spoiler": true
     },
     {
       "type": "chains",
       "id": "67915",
       "name": "Willow Tree — production",
       "category": "Production chain",
-      "path": "production-chains/willow-tree/",
-      "spoiler": false
+      "path": "spoilers/production-chains/willow-tree/",
+      "spoiler": true
     },
     {
       "type": "buildings",
@@ -2187,17 +2171,17 @@
     {
       "type": "buildings",
       "id": "35464",
-      "name": "zBeer Stand",
+      "name": "Beer Stand",
       "category": "Building",
-      "path": "buildings/zbeer-stand/",
+      "path": "buildings/beer-stand/",
       "spoiler": false
     },
     {
       "type": "chains",
       "id": "35464",
-      "name": "zBeer Stand — production",
+      "name": "Beer Stand — production",
       "category": "Production chain",
-      "path": "production-chains/zbeer-stand/",
+      "path": "production-chains/beer-stand/",
       "spoiler": false
     },
     {
@@ -5938,22 +5922,6 @@
     },
     {
       "type": "evidence",
-      "id": "buildings/92320",
-      "name": "Base — research",
-      "category": "Research",
-      "path": "verification/plants/base/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
-      "id": "chains/92320",
-      "name": "Base — production — research",
-      "category": "Research",
-      "path": "verification/production-chains/base/",
-      "spoiler": false
-    },
-    {
-      "type": "evidence",
       "id": "buildings/71099",
       "name": "Beet — research",
       "category": "Research",
@@ -6053,7 +6021,7 @@
       "id": "buildings/67921",
       "name": "Cypress Tree — research",
       "category": "Research",
-      "path": "verification/plants/cypress-tree/",
+      "path": "verification/spoilers/plants/cypress-tree/",
       "spoiler": false
     },
     {
@@ -6061,7 +6029,7 @@
       "id": "chains/67921",
       "name": "Cypress Tree — production — research",
       "category": "Research",
-      "path": "verification/production-chains/cypress-tree/",
+      "path": "verification/spoilers/production-chains/cypress-tree/",
       "spoiler": false
     },
     {
@@ -6389,7 +6357,7 @@
       "id": "buildings/67915",
       "name": "Willow Tree — research",
       "category": "Research",
-      "path": "verification/plants/willow-tree/",
+      "path": "verification/spoilers/plants/willow-tree/",
       "spoiler": false
     },
     {
@@ -6397,7 +6365,7 @@
       "id": "chains/67915",
       "name": "Willow Tree — production — research",
       "category": "Research",
-      "path": "verification/production-chains/willow-tree/",
+      "path": "verification/spoilers/production-chains/willow-tree/",
       "spoiler": false
     },
     {
@@ -7379,17 +7347,17 @@
     {
       "type": "evidence",
       "id": "buildings/35464",
-      "name": "zBeer Stand — research",
+      "name": "Beer Stand — research",
       "category": "Research",
-      "path": "verification/buildings/zbeer-stand/",
+      "path": "verification/buildings/beer-stand/",
       "spoiler": false
     },
     {
       "type": "evidence",
       "id": "chains/35464",
-      "name": "zBeer Stand — production — research",
+      "name": "Beer Stand — production — research",
       "category": "Research",
-      "path": "verification/production-chains/zbeer-stand/",
+      "path": "verification/production-chains/beer-stand/",
       "spoiler": false
     },
     {
@@ -10757,8 +10725,6 @@
     "production-chains/ash-tree/",
     "plants/banana-tree/",
     "production-chains/banana-tree/",
-    "plants/base/",
-    "production-chains/base/",
     "plants/beet/",
     "production-chains/beet/",
     "plants/berry-bush/",
@@ -10771,7 +10737,9 @@
     "production-chains/cauliflower/",
     "plants/corn/",
     "production-chains/corn/",
+    "spoilers/plants/cypress-tree/",
     "plants/cypress-tree/",
+    "spoilers/production-chains/cypress-tree/",
     "production-chains/cypress-tree/",
     "plants/date-palm-tree/",
     "production-chains/date-palm-tree/",
@@ -10813,7 +10781,9 @@
     "production-chains/watermelon/",
     "plants/wheat/",
     "production-chains/wheat/",
+    "spoilers/plants/willow-tree/",
     "plants/willow-tree/",
+    "spoilers/production-chains/willow-tree/",
     "production-chains/willow-tree/",
     "plants/winter-pine-tree/",
     "production-chains/winter-pine-tree/",
@@ -10941,8 +10911,8 @@
     "buildings/wood-statue/",
     "buildings/zen-garden/",
     "buildings/zen-garden-105734/",
-    "buildings/zbeer-stand/",
-    "production-chains/zbeer-stand/",
+    "buildings/beer-stand/",
+    "production-chains/beer-stand/",
     "resources/bakerypeel/",
     "food/fondue/",
     "resources/hammer-rock/",
@@ -11426,8 +11396,6 @@
     "verification/production-chains/ash-tree/",
     "verification/plants/banana-tree/",
     "verification/production-chains/banana-tree/",
-    "verification/plants/base/",
-    "verification/production-chains/base/",
     "verification/plants/beet/",
     "verification/production-chains/beet/",
     "verification/plants/berry-bush/",
@@ -11440,8 +11408,8 @@
     "verification/production-chains/cauliflower/",
     "verification/plants/corn/",
     "verification/production-chains/corn/",
-    "verification/plants/cypress-tree/",
-    "verification/production-chains/cypress-tree/",
+    "verification/spoilers/plants/cypress-tree/",
+    "verification/spoilers/production-chains/cypress-tree/",
     "verification/plants/date-palm-tree/",
     "verification/production-chains/date-palm-tree/",
     "verification/plants/dragon-fruit-tree/",
@@ -11482,8 +11450,8 @@
     "verification/production-chains/watermelon/",
     "verification/plants/wheat/",
     "verification/production-chains/wheat/",
-    "verification/plants/willow-tree/",
-    "verification/production-chains/willow-tree/",
+    "verification/spoilers/plants/willow-tree/",
+    "verification/spoilers/production-chains/willow-tree/",
     "verification/plants/winter-pine-tree/",
     "verification/production-chains/winter-pine-tree/",
     "verification/buildings/firewood-yard/",
@@ -11606,8 +11574,8 @@
     "verification/buildings/wood-statue/",
     "verification/buildings/zen-garden/",
     "verification/buildings/zen-garden-105734/",
-    "verification/buildings/zbeer-stand/",
-    "verification/production-chains/zbeer-stand/",
+    "verification/buildings/beer-stand/",
+    "verification/production-chains/beer-stand/",
     "verification/resources/bakerypeel/",
     "verification/food/fondue/",
     "verification/resources/hammer-rock/",
@@ -12022,8 +11990,6 @@
     "production-chains/field-ashtree/",
     "buildings/field-bananatree/",
     "production-chains/field-bananatree/",
-    "buildings/field-base/",
-    "production-chains/field-base/",
     "buildings/field-beet/",
     "production-chains/field-beet/",
     "buildings/field-berrybush/",
@@ -12084,6 +12050,8 @@
     "production-chains/field-winter-pinetree/",
     "buildings/trading-outpost-75226/",
     "production-chains/trading-outpost-75226/",
+    "buildings/zbeer-stand/",
+    "production-chains/zbeer-stand/",
     "levels/too-hot-to-write-single08-c-desert/",
     "levels/cordial-work-environment-single08-l-cavecove/",
     "levels/frostbound-valley-single08-r-villagewinter/",
@@ -12141,8 +12109,6 @@
     "buildings/ash-tree/",
     "building/banana-tree/",
     "buildings/banana-tree/",
-    "building/base/",
-    "buildings/base/",
     "building/beet/",
     "buildings/beet/",
     "building/berry-bush/",
@@ -12155,8 +12121,6 @@
     "buildings/cauliflower/",
     "building/corn/",
     "buildings/corn/",
-    "building/cypress-tree/",
-    "buildings/cypress-tree/",
     "building/date-palm-tree/",
     "buildings/date-palm-tree/",
     "building/dragon-fruit-tree/",
@@ -12197,8 +12161,6 @@
     "buildings/watermelon/",
     "building/wheat/",
     "buildings/wheat/",
-    "building/willow-tree/",
-    "buildings/willow-tree/",
     "building/winter-pine-tree/",
     "buildings/winter-pine-tree/",
     "building/firewood-yard/",
@@ -12278,7 +12240,7 @@
     "building/wood-statue/",
     "building/zen-garden/",
     "building/zen-garden-105734/",
-    "building/zbeer-stand/",
+    "building/beer-stand/",
     "resources/fondue/",
     "resources/fondue-279217/",
     "resources/manchamanteles/",
@@ -12314,14 +12276,12 @@
     "verification/buildings/apple-tree/",
     "verification/buildings/ash-tree/",
     "verification/buildings/banana-tree/",
-    "verification/buildings/base/",
     "verification/buildings/beet/",
     "verification/buildings/berry-bush/",
     "verification/buildings/cabbage/",
     "verification/buildings/carrot/",
     "verification/buildings/cauliflower/",
     "verification/buildings/corn/",
-    "verification/buildings/cypress-tree/",
     "verification/buildings/date-palm-tree/",
     "verification/buildings/dragon-fruit-tree/",
     "verification/buildings/eggplant/",
@@ -12342,7 +12302,6 @@
     "verification/buildings/tomato/",
     "verification/buildings/watermelon/",
     "verification/buildings/wheat/",
-    "verification/buildings/willow-tree/",
     "verification/buildings/winter-pine-tree/"
   ]
 }
