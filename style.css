@@ -132,3 +132,19 @@ main .fg-desc a.resource-link{color:var(--ink)}
 .seen-in-play li{border-left:3px solid var(--accent);background:var(--white);padding:10px 14px;margin:0 0 10px;border-radius:0 8px 8px 0}
 .seen-in-play li p{margin:0 0 4px}
 .need-switch{display:flex;flex-wrap:wrap;gap:4px 2px;font-size:13px;margin:-8px 0 18px}
+
+/* Home page art */
+.home-biomes{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:0 0 22px}
+.home-biomes a{display:flex;flex-direction:column;align-items:center;gap:4px;padding:10px 6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--white);color:var(--ink);text-decoration:none;font-weight:600;font-size:13px;transition:transform .15s,box-shadow .15s}
+.home-biomes a:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.08)}
+.home-biome-img,img.gi.home-biome-img,img.gi.home-head-biome{width:100%;height:118px;object-fit:contain;background:none!important;border-radius:0}
+img.gi.home-head-biome{width:28px;height:28px}
+img.gi.home-portrait,img.gi.home-head-portrait{background:var(--sunken)!important;border-radius:50%}
+.home-biomes{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.index-group h2 a{display:inline-flex;align-items:center;gap:8px}
+.home-head-icon{width:28px;height:28px;flex:none}
+.home-head-icon.gi-tile{padding:3px}
+.home-head-portrait{border-radius:50%;object-fit:cover;object-position:top;background:var(--white)}
+.home-head-biome{object-fit:contain}
+.home-portrait{width:1.35em;height:1.35em;border-radius:50%;object-fit:cover;object-position:top;vertical-align:-.35em;margin-right:.3em;background:var(--sunken)}
+@media (max-width:700px){.home-biomes{grid-template-columns:repeat(4,minmax(96px,1fr));overflow-x:auto;scroll-snap-type:x mandatory}.home-biomes a{scroll-snap-align:start}.home-biome-img{height:84px}}
