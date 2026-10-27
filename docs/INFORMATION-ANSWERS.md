@@ -79,3 +79,100 @@ Source: research repository `kellan/outlanders2-research`, branch `codex/playtes
 | Meal test and five-day observation (B1) | recorded | observation `five-day-meal-log` (Needs page) |
 | Food preference remains uncontrolled (B1) | recorded, no conclusion | row kept open with the limitation |
 | Fishing test setup could not reach a working dock (B2) | recorded, no result | row kept open with the placement problem |
+
+## Basic House — complete field-guide card, 27 October 2026
+- Status: new
+- Row: Field guide text, recipe, cost and worker slots for every building
+- Fact: Field guide text: "A very basic, but still charming, log house." Provides: Housing, 4 beds. Cost: 6 Logs. No Workers row is displayed.
+- Target: Basic House
+- Obtained by: field guide
+- Conditions: Existing Playtest Refund sandbox, Evergreen landscape; opened through build catalog. Full card visible, including cost. This is a displayed-value observation, not a measured need effect or family-assignment test.
+- Game version: 30 (254), verified from installed app Info.plist; Settings did not display a version in the inspected list.
+- Date: 2026-10-27
+- Evidence: 2026-10-27/basic-house-field-guide.png
+- Confidence: confirmed
+
+## Plank House — complete field-guide card, 27 October 2026
+- Status: new
+- Row: Field guide text, recipe, cost and worker slots for every building
+- Fact: Field guide text: "A fresh, spacious house for five people." Provides: Housing, 5 beds. Cost: 6 Planks. No Workers row is displayed.
+- Target: Plank House
+- Obtained by: field guide
+- Conditions: Existing Playtest Refund sandbox, Evergreen landscape; opened through build catalog. Full card visible, including cost. This is a displayed-value observation, not a measured need effect or family-assignment test.
+- Game version: 30 (254), verified from installed app Info.plist; Settings did not display a version in the inspected list.
+- Date: 2026-10-27
+- Evidence: 2026-10-27/plank-house-field-guide.png
+- Confidence: confirmed
+
+## Brick House — complete field-guide card, 27 October 2026
+- Status: new
+- Row: Field guide text, recipe, cost and worker slots for every building
+- Fact: Field guide text: "A strong but expensive house for six people." Provides: Housing, 6 beds. Cost: 12 Bricks. No Workers row is displayed.
+- Target: Brick House
+- Obtained by: field guide
+- Conditions: Existing Playtest Refund sandbox, Evergreen landscape; opened through build catalog. Full card visible, including cost. This is a displayed-value observation, not a measured need effect or family-assignment test.
+- Game version: 30 (254), verified from installed app Info.plist; Settings did not display a version in the inspected list.
+- Date: 2026-10-27
+- Evidence: 2026-10-27/brick-house-field-guide.png
+- Confidence: confirmed
+
+## Two-Story House — complete field-guide card, 27 October 2026
+- Status: new
+- Row: Field guide text, recipe, cost and worker slots for every building
+- Fact: Field guide text: "A beautiful and sturdy two-story house for eight people." Provides: Housing, 8 beds. Cost: 8 Bricks + 8 Stone. No Workers row is displayed.
+- Target: Two-Story House
+- Obtained by: field guide
+- Conditions: Existing Playtest Refund sandbox, Evergreen landscape; opened through build catalog. Full card visible, including cost. This is a displayed-value observation, not a measured need effect or family-assignment test.
+- Game version: 30 (254), verified from installed app Info.plist; Settings did not display a version in the inspected list.
+- Date: 2026-10-27
+- Evidence: 2026-10-27/two-story-house-field-guide.png
+- Confidence: confirmed
+
+## Playground — complete field-guide card, 27 October 2026
+- Status: new
+- Row: Field guide text, recipe, cost and worker slots for every building
+- Fact: Field guide text: "A public space with activities that provide Fun." Provides: Fun 1. Cost: 9 Logs. No Workers row is displayed.
+- Target: Playground
+- Obtained by: field guide
+- Conditions: Existing Playtest Refund sandbox, Evergreen landscape; opened through build catalog. Full card visible, including cost. This is a displayed-value observation, not a measured need effect or family-assignment test.
+- Game version: 30 (254), verified from installed app Info.plist; Settings did not display a version in the inspected list.
+- Date: 2026-10-27
+- Evidence: 2026-10-27/playground-field-guide.png
+- Confidence: confirmed
+
+## Zen Garden — complete field-guide card, 27 October 2026
+- Status: new
+- Row: Field guide text, recipe, cost and worker slots for every building
+- Fact: Field guide text: "A minimalistic public environment where outlanders can meditate and raise their Wellness." Provides: Wellness 1. Cost: 6 Stone. No Workers row is displayed.
+- Target: Zen Garden
+- Obtained by: field guide
+- Conditions: Existing Playtest Refund sandbox, Evergreen landscape; opened through build catalog. Full card visible, including cost. This is a displayed-value observation, not a measured need effect or family-assignment test.
+- Game version: 30 (254), verified from installed app Info.plist; Settings did not display a version in the inspected list.
+- Date: 2026-10-27
+- Evidence: 2026-10-27/zen-garden-field-guide.png
+- Confidence: confirmed
+
+## Fitness Park — complete field-guide card, 27 October 2026
+- Status: new
+- Row: Field guide text, recipe, cost and worker slots for every building
+- Fact: Field guide text: "Fitness instructors utilize this space to lead various activities that raise the Wellness levels of participants." Provides: Wellness 3. Cost: 10 Planks + 6 Stone. Workers: 2.
+- Target: Fitness Park
+- Obtained by: field guide
+- Conditions: Existing Playtest Refund sandbox, Evergreen landscape; opened through build catalog. Full card visible, including cost. This is a displayed-value observation, not a measured need effect or family-assignment test.
+- Game version: 30 (254), verified from installed app Info.plist; Settings did not display a version in the inspected list.
+- Date: 2026-10-27
+- Evidence: 2026-10-27/fitness-park-field-guide.png
+- Confidence: confirmed
+
+## Finished Bakery refunds 5 Clay and 2 Stone
+- Status: new
+- Row: What demolishing a finished building, and a half-built site, gives back
+- Fact: A completed Bakery costing 9 Clay + 4 Stone previews and actually returns 5 Clay + 2 Stone when recycled. Town Clay increased from 9 to 14; Stone increased from 0 to 2. The Bakery disappeared and salvage piles appeared on its footprint.
+- Target: Bakery
+- Obtained by: building panel and controlled before/after gameplay observation
+- Conditions: Existing Playtest Refund sandbox, Evergreen landscape, 9 villagers. Bakery built during days 3–7 and recycled on day 8. All three Clay Pit workers were unassigned while paused before the baseline, and no other Clay/Stone construction or recycling ran during the measurement. Bakery had no Flour and had produced no Bread. Setup used fast speed; recycling ran at normal speed. Leader identity was not verified. This was an amount test, not a duration test.
+- Game version: 30 (254), verified from installed app Info.plist.
+- Date: 2026-10-27
+- Evidence: 2026-10-27/refund-8-clay-production-stopped.png; 2026-10-27/refund-8-bakery-complete.png; 2026-10-27/refund-8-bakery-preview.png; 2026-10-27/refund-8-bakery-after.png
+- Confidence: confirmed
+- Notes: Consistent with half of each construction material rounded upward (9 / 2 -> 5, 4 / 2 -> 2). Do not generalize the rounding rule to all buildings from this one test. Half-built Bakery refunds were not tested.
