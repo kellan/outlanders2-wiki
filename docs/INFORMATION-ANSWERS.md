@@ -217,3 +217,28 @@ Source: research repository `kellan/outlanders2-research`, branch `codex/playtes
 - Evidence: beer-2026-10-27/brewery-guide.png; beer-2026-10-27/day30-joshua-before-172609530Z.png; beer-2026-10-27/day30-joshua-after-172609916Z.png; beer-2026-10-27/day30-paused-after-fruit.png
 - Confidence: confirmed for the visible low-to-full transition; likely for attribution to one Beer and the stored-value interpretation
 - Notes: The ring has no numeric label; its low colored segment must not be treated as an exact 20-point reading. The Happiness panel hides the current-action text, so no simultaneous Drinking Beer label or Beer-stock decrement was captured. Exact uncapped +100 and exactly one item therefore remain unconfirmed; do not close the whole mismatch row or generalize to Cookie/Stew. The observed jump is substantially larger than half the displayed ring. Brewery guide comparison: Needs 1 Wheat + 1 Stick; Provides 5 Beer, with displayed Fun 2 and Community 1; cost 4 Stone + 15 Planks; 3 worker slots. Community ring did not visibly jump with Fun in the adjacent captures; no numeric Community claim is made.
+
+## Fishing Dock — 20 observed casts at the first occupied position
+- Status: new
+- Row: Fish per cast at the Fishing Dock
+- Fact: With Violet as the only fisher, 20 reviewed net casts at the far end of the long walkway, immediately left of the roofed structure in the screenshots, yielded 0, 1, or 2 Meat. The sample contains four 0s, five 1s, and eleven 2s: 27 Meat total, sample mean 1.35 Meat per cast. Ordered results: 1, 1, 2, 2, 2, 1, 2, 1, 0, 2, 2, 2, 2, 0, 2, 2, 0, 1, 0, 2. Zero-output casts were identified by a complete net cycle followed by another cast with the dock's Meat counter unchanged. Positive catches were followed through return to storage and the counter increment.
+- Target: Fishing Dock, first occupied fishing position (not yet mapped to a decoded spot ID)
+- Obtained by: timestamped gameplay screenshots, net-animation review, and before/after Resources-panel counts
+- Conditions: Existing Playtest Trade sandbox, Edgar, Evergreen, Large Islands, Medium, Autobuild enabled; user placed the dock on day 30 after agent placement difficulties. One worker, Violet, throughout; no other Meat producer or Meat-consuming building. Initial inspection and several preliminary catches used normal speed. The reported 20-cast sample used fast speed, with pauses between capture batches, during days 33–37. All 10 villagers remained alive, with food available. Samples are from one position only; this deliberately differs from B2's full-crew setup to isolate each output change.
+- Game version: 30 (254), installed app Info.plist verified earlier in session.
+- Date: 2026-10-27
+- Evidence: fishing-2026-10-27/first-position-20-casts.csv; fishing-2026-10-27/casts-01-10-contact.png; fishing-2026-10-27/casts-11-20-contact.png; fishing-2026-10-27/day37-one-worker.png; fishing-2026-10-27/one-meat-cast.png; fishing-2026-10-27/one-meat-deposit.png; fishing-2026-10-27/two-meat-cast.png; fishing-2026-10-27/two-meat-deposit.png; fishing-2026-10-27/empty-cast.png; fishing-2026-10-27/empty-next-cast-unchanged.png
+- Confidence: confirmed for observed 0/1/2 outcomes and sample counts; not a probability or all-position estimate
+- Notes: The two contact sheets combine unaltered screenshot crops of each net cast and its counter readings; labels and UTC capture times are added outside the crops. The CSV preserves the readings. A catch spanning a pause/capture boundary (stock 38 to 39) is excluded because the full cast was not captured; samples 19–20 begin at stock 39. Thus these are 20 reviewed casts, not 20 uninterrupted consecutive casts. Preliminary catches and later output are excluded. The observed range supports the stored 0–2 spot, but does not identify its internal ID or test the other two positions' proposed 0–1 rolls. Do not use the sample mean as a universal expected yield or derive real-time production rate from this fast-speed run. B2 remains open for the other positions.
+
+## Fishing Dock — full field-guide card captured
+- Status: new
+- Row: Field guide text, recipe, cost and worker slots for every building
+- Fact: Field guide text: "Fishers cast a net into the sea, hoping to catch fish for their Meat." Provides: 0–2 Meat. Cost: 18 Planks. Workers: 3. No Needs row is displayed.
+- Target: Fishing Dock
+- Obtained by: field guide
+- Conditions: Playtest Trade sandbox, Edgar, Evergreen, day 37. Full guide opened from the placed dock; this confirms a dock can operate in this Evergreen sandbox.
+- Game version: 30 (254)
+- Date: 2026-10-27
+- Evidence: fishing-2026-10-27/fishing-dock-guide.png
+- Confidence: confirmed
