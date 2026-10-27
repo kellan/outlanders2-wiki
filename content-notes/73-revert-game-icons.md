@@ -1,0 +1,3 @@
+## Composited game icons backed out (2026-10-27, issue 62)
+
+The maintainer did not like how the site looked with the composited icon set from #72, so it is reverted: the 893 exported files, `tiles.json`, the icon-check image, the About page wording and the test changes that went with them. Pages go back to the earlier line glyphs with stand-in fills and CSS tiles. The export itself is still on the local agent's branch `codex/playtest-2026-10-27` (commit 14850def) if a different treatment is wanted later. The one unrelated fix from #72 stays: the Buildings directory subtitle renders its Plants and Houses links instead of raw HTML.
