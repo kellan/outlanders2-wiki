@@ -35,7 +35,7 @@ Rows: *Which building plants Mesquite in sandbox Drylands*, *Crop availability p
 Row: *What demolishing a finished building, and a half-built site, gives back*. Done for the Basic House (3 of 6 Logs back; a half-built site returned everything delivered) and the Bakery (5 of 9 Clay, 2 of 4 Stone back, 27 Oct 2026): half of each material, rounded up. Optional next step: recycle a half-built Bakery after some but not all materials arrive, to check that part-built sites return everything delivered for buildings other than houses.
 
 ### A7 Trading Outpost trade `trade`
-Row: *How long one Trading Outpost trade takes*. Done once for Evergreen (27 Oct 2026): one worker, 216–232 s at normal speed from a full 12-Wheat store to the sixth good, and switching the import works as the files say. Still useful: repeat with 3 workers to see whether it gets faster, and capture the Tropiclands and Winterlands outposts' field guides (expected: 8 Glass Pane for 6 Animal Hide or 9 Wheat; 8 Animal Hide for 9 Wheat or 6 Glass Pane).
+Row: *How long one Trading Outpost trade takes*. Done once for Evergreen (27 Oct 2026): one worker, 216–232 s at normal speed from a full 12-Wheat store to the sixth good, and switching the import works as the files say. With 3 workers (27 Oct 2026) it took 234–269 s, no faster; the Tropiclands and Winterlands field guides match the expected trades. Optional: a matched one-versus-three repeat in daylight, starting both from the same Wheat stock.
 
 ## Part B: timed tests (one per session)
 
