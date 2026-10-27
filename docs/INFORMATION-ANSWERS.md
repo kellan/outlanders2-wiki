@@ -307,3 +307,16 @@ Source: research repository `kellan/outlanders2-research`, branch `codex/playtes
 - Evidence: trade-biomes-2026-10-27/tropic-outpost-guide.png
 - Confidence: confirmed for displayed values
 - Notes: Provides lists the two displayed imports; this screenshot alone does not establish simultaneous output. Evergreen gameplay separately confirmed choosing one import at a time. Actual output and duration in Tropiclands remain untested.
+
+## Beer — drinking action linked to a low-to-full Fun refill
+- Status: new
+- Row: Whether play uses a resource's stored need values or the different values the field guide displays (Stew shows Community 2 but stores none; Beer and Cookie show Fun 2 but store 4)
+- Fact: Violet's activity explicitly read "Drinking a mug of Beer" on day 44. Paused at that action, her Fun ring was still at its low colored segment. On resuming normal speed, the ring jumped directly to full between adjacent screenshots at 18:54:17.672 and 18:54:17.843 UTC. The following paused activity read "Having a sudden rush of inspiration". This strengthens the attribution of the low-to-full refill to one observed Beer-drinking action.
+- Target: Beer
+- Obtained by: selected villager activity label, paused Happiness check during that action, then continuous screenshot capture through completion
+- Conditions: Playtest Trade, Evergreen, day 44, Violet age 65, Brewery's only worker; 10 villagers, food available, no alternative Fun source or equipped Fun gear. Brewery stock was zero before resuming production. Paused between activity and Happiness views; normal-speed playback for the drink completion. The same selected villager was followed throughout.
+- Game version: 30 (254)
+- Date: 2026-10-27
+- Evidence: beer-2026-10-27/day44-violet-drinking.png; beer-2026-10-27/day44-violet-low-during-drink.png; beer-2026-10-27/day44-violet-before.png; beer-2026-10-27/day44-violet-after.png; beer-2026-10-27/day44-violet-after-action.png
+- Confidence: confirmed for named drinking action and visible refill; supports stored-value interpretation
+- Notes: This addresses the missing drinking label in the earlier Joshua observation. A single observed mug-drinking action is linked to the refill, but no isolated one-unit stock decrement or numeric uncapped +100 was measured. The ring has a minimum colored segment and no numerical label. Do not treat that segment as an exact 20 points, or extrapolate this to Cookie/Stew. The visible jump supports stored Fun 4 over displayed Fun 2; exact uncapped meter arithmetic remains open.
