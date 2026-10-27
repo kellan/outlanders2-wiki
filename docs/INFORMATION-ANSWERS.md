@@ -242,3 +242,16 @@ Source: research repository `kellan/outlanders2-research`, branch `codex/playtes
 - Date: 2026-10-27
 - Evidence: fishing-2026-10-27/fishing-dock-guide.png
 - Confidence: confirmed
+
+## Local icon export — composited game artwork now available
+- Status: new
+- Row: Local icon export requested in issues #10 and #62
+- Fact: The merged exporter produced 430 framed content tiles and 8 framed need icons, with zero skipped entries, from the installed build's resources.assets and streamed textures. Copied 893 output files (tiles, glyphs, need tiles/glyphs, and tiles.json) into assets/wiki-artwork/. Every file referenced by the exported mapping exists. Open Kitchen, Stew, Veggie, Stick, Food and Community were visually compared with the captured Open Kitchen field guide; frame shapes, palette, glyph fill and layer order match, aside from UI-added presentation such as shadows. Previously broken pot, honeycomb and mug glyph replacements now have visible dark lines and white fills.
+- Target: Wiki artwork / issue #62
+- Obtained by: local extraction using outlanders2-research tools/export_frames.py at merged commit 819a1b5, followed by screenshot comparison
+- Conditions: Exported from /Applications/Outlanders 2.app/Contents/Resources/Data with UnityPy 1.25.4 and Pillow 13.0.0. Used the committed icon plan; no decode cache needed. Exported images were copied unchanged; only the comparison sheet arranges scaled examples beside the reference screenshot.
+- Game version: 30 (254)
+- Date: 2026-10-27
+- Evidence: icon-check.png; assets/wiki-artwork/tiles.json and its mapped PNG files
+- Confidence: confirmed
+- Notes: This addresses the core export and broken-glyph replacement in #62. Worker icon identification and lower-priority category/challenge icons were not part of this exporter and remain open. The exporter printed a sysctl permission warning but completed successfully with zero skips.
