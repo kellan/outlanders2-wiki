@@ -1,0 +1,21 @@
+sample_cast,net_visible_utc,after_deposit_or_next_cast_utc,meat_before,meat_after,yield,note
+1,17:45:51.090,17:45:54.200,13,14,1,deposit observed
+2,17:45:56.118,17:45:58.768,14,15,1,deposit observed
+3,17:46:00.946,17:46:03.633,15,17,2,deposit observed
+4,17:46:05.597,17:46:08.517,17,19,2,deposit observed
+5,17:46:10.604,17:46:13.450,19,21,2,deposit observed
+6,17:46:15.534,17:46:18.461,21,22,1,deposit observed
+7,17:47:07.866,17:47:10.530,22,24,2,deposit observed
+8,17:47:12.805,17:47:15.887,24,25,1,deposit observed
+9,17:47:17.871,17:47:22.578,25,25,0,empty: count unchanged through next cast
+10,17:47:22.578,17:47:25.368,25,27,2,deposit observed
+11,17:47:27.493,17:47:30.283,27,29,2,deposit observed
+12,17:47:45.101,17:47:47.979,29,31,2,deposit observed
+13,17:48:31.564,17:48:34.154,31,33,2,deposit observed
+14,17:48:36.160,17:48:41.181,33,33,0,empty: count unchanged through next cast
+15,17:48:41.181,17:48:44.047,33,35,2,deposit observed
+16,17:48:45.846,17:48:48.845,35,37,2,deposit observed
+17,17:49:03.392,17:49:08.282,37,37,0,empty: count unchanged through next cast
+18,17:49:08.282,17:49:11.274,37,38,1,deposit observed
+19,17:49:53.099,17:49:57.994,39,39,0,empty: count unchanged through next cast
+20,17:49:57.994,17:50:00.699,39,41,2,deposit observed
