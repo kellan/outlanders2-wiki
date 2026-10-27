@@ -2509,5 +2509,3045 @@
     273825,
     273837,
     273841
-  ]
+  ],
+  "tiles": {
+    "note": "Composited from game sprites and palette colours as the UI draws them; see tools/export_frames.py.",
+    "text": "#473547",
+    "glyph_fill": "#ffffff",
+    "gameobjects": {
+      "33533": {
+        "tile": "tile-33533.png",
+        "glyph": "glyph-33533.png",
+        "key": "Decoration.Tomb",
+        "colour": "#f2eeed"
+      },
+      "33534": {
+        "tile": "tile-33534.png",
+        "glyph": "glyph-33534.png",
+        "key": "Decoration.Tomb",
+        "colour": "#f2eeed"
+      },
+      "33535": {
+        "tile": "tile-33535.png",
+        "glyph": "glyph-33535.png",
+        "key": "Decoration.Tomb",
+        "colour": "#f2eeed"
+      },
+      "33536": {
+        "tile": "tile-33536.png",
+        "glyph": "glyph-33536.png",
+        "key": "Decoration.Tomb",
+        "colour": "#f2eeed"
+      },
+      "33537": {
+        "tile": "tile-33537.png",
+        "glyph": "glyph-33537.png",
+        "key": "Decoration.Tomb",
+        "colour": "#f2eeed"
+      },
+      "33550": {
+        "tile": "tile-33550.png",
+        "glyph": "glyph-33550.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "35460": {
+        "tile": "tile-35460.png",
+        "glyph": "glyph-35460.png",
+        "key": "Building.UpgradedWarehouse",
+        "colour": "#6c966c"
+      },
+      "35461": {
+        "tile": "tile-35461.png",
+        "glyph": "glyph-35461.png",
+        "key": "Building.Warehouse",
+        "colour": "#6c966c"
+      },
+      "35462": {
+        "tile": "tile-35462.png",
+        "glyph": "glyph-35462.png",
+        "key": "Building.Market",
+        "colour": "#6c966c"
+      },
+      "35463": {
+        "tile": "tile-35463.png",
+        "glyph": "glyph-35463.png",
+        "key": "Building.Park",
+        "colour": "#96d9ba"
+      },
+      "35464": {
+        "tile": "tile-35464.png",
+        "glyph": "glyph-35464.png",
+        "key": "Building.BeerStand",
+        "colour": "#6c966c"
+      },
+      "35517": {
+        "tile": "tile-35517.png",
+        "glyph": "glyph-35517.png",
+        "key": "Resource.Stick",
+        "colour": "#f0c056"
+      },
+      "35518": {
+        "tile": "tile-35518.png",
+        "glyph": "glyph-35518.png",
+        "key": "Resource.Stick",
+        "colour": "#f0c056"
+      },
+      "35644": {
+        "tile": "tile-35644.png",
+        "glyph": "glyph-35644.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "36876": {
+        "tile": "tile-36876.png",
+        "glyph": "glyph-36876.png",
+        "key": "Resource.Brick",
+        "colour": "#f0c056"
+      },
+      "38154": {
+        "tile": "tile-38154.png",
+        "glyph": "glyph-38154.png",
+        "key": "FastMode.Action.SpeedBoost",
+        "colour": "#6c966c"
+      },
+      "38476": {
+        "tile": "tile-38476.png",
+        "glyph": "glyph-38476.png",
+        "key": "Building.Forager",
+        "colour": "#db4954"
+      },
+      "38477": {
+        "tile": "tile-38477.png",
+        "glyph": "glyph-38477.png",
+        "key": "Building.DesertForager",
+        "colour": "#db4954"
+      },
+      "38478": {
+        "tile": "tile-38478.png",
+        "glyph": "glyph-38478.png",
+        "key": "Building.Lumberjack",
+        "colour": "#f0c056"
+      },
+      "39438": {
+        "tile": "tile-39438.png",
+        "glyph": "glyph-39438.png",
+        "key": "FastMode.Action.GrowthBoost",
+        "colour": "#d87d68"
+      },
+      "39577": {
+        "tile": "tile-39577.png",
+        "glyph": "glyph-39577.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "40043": {
+        "tile": "tile-40043.png",
+        "glyph": "glyph-40043.png",
+        "key": "Resource.Flour",
+        "colour": "#e18f8f"
+      },
+      "40306": {
+        "tile": "tile-40306.png",
+        "glyph": "glyph-40306.png",
+        "key": "Building.Forester",
+        "colour": "#f0c056"
+      },
+      "40307": {
+        "tile": "tile-40307.png",
+        "glyph": "glyph-40307.png",
+        "key": "Building.Orchard",
+        "colour": "#db4954"
+      },
+      "40308": {
+        "tile": "tile-40308.png",
+        "glyph": "glyph-40308.png",
+        "key": "Building.Orchard",
+        "colour": "#db4954"
+      },
+      "40309": {
+        "tile": "tile-40309.png",
+        "glyph": "glyph-40309.png",
+        "key": "Building.Forester",
+        "colour": "#f0c056"
+      },
+      "42876": {
+        "tile": "tile-42876.png",
+        "glyph": "glyph-42876.png",
+        "key": "Resource.GlassOfWine",
+        "colour": "#f99adf"
+      },
+      "42878": {
+        "tile": "tile-42878.png",
+        "glyph": "glyph-42878.png",
+        "key": "Resource.Mead",
+        "colour": "#f99adf"
+      },
+      "42880": {
+        "tile": "tile-42880.png",
+        "glyph": "glyph-42880.png",
+        "key": "Resource.Beer",
+        "colour": "#f99adf"
+      },
+      "42887": {
+        "tile": "tile-42887.png",
+        "glyph": "glyph-42887.png",
+        "key": "Resource.Newspaper",
+        "colour": "#8e86f4"
+      },
+      "42889": {
+        "tile": "tile-42889.png",
+        "glyph": "glyph-42889.png",
+        "key": "Resource.HouseDrink",
+        "colour": "#f69329"
+      },
+      "43180": {
+        "tile": "tile-43180.png",
+        "glyph": "glyph-43180.png",
+        "key": "Sources.Animal",
+        "colour": "#db4954"
+      },
+      "43181": {
+        "tile": "tile-43181.png",
+        "glyph": "glyph-43181.png",
+        "key": "Sources.Rock",
+        "colour": "#f0c056"
+      },
+      "43182": {
+        "tile": "tile-43182.png",
+        "glyph": "glyph-43182.png",
+        "key": "Sources.Tree",
+        "colour": "#f0c056"
+      },
+      "43183": {
+        "tile": "tile-43183.png",
+        "glyph": "glyph-43183.png",
+        "key": "Sources.Coypu",
+        "colour": "#db4954"
+      },
+      "43184": {
+        "tile": "tile-43184.png",
+        "glyph": "glyph-43184.png",
+        "key": "Sources.Field",
+        "colour": "#e18f8f"
+      },
+      "43185": {
+        "tile": "tile-43185.png",
+        "glyph": "glyph-43185.png",
+        "key": "Sources.Fish",
+        "colour": "#db4954"
+      },
+      "43187": {
+        "tile": "tile-43187.png",
+        "glyph": "glyph-43187.png",
+        "key": "Sources.FruitTree",
+        "colour": "#db4954"
+      },
+      "43188": {
+        "tile": "tile-43188.png",
+        "glyph": "glyph-43188.png",
+        "key": "Sources.Reed",
+        "colour": "#f0c056"
+      },
+      "43384": {
+        "tile": "tile-43384.png",
+        "glyph": "glyph-43384.png",
+        "key": "Resource.IcePop",
+        "colour": "#99c2ee"
+      },
+      "43385": {
+        "tile": "tile-43385.png",
+        "glyph": "glyph-43385.png",
+        "key": "Resource.DriedMeat",
+        "colour": "#db4954"
+      },
+      "43388": {
+        "tile": "tile-43388.png",
+        "glyph": "glyph-43388.png",
+        "key": "Resource.Nopalito",
+        "colour": "#05a696"
+      },
+      "43399": {
+        "tile": "tile-43399.png",
+        "glyph": "glyph-43399.png",
+        "key": "Resource.Egg",
+        "colour": "#e18f8f"
+      },
+      "43402": {
+        "tile": "tile-43402.png",
+        "glyph": "glyph-43402.png",
+        "key": "Resource.FruitJuice",
+        "colour": "#96d9ba"
+      },
+      "43688": {
+        "tile": "tile-43688.png",
+        "glyph": "glyph-43688.png",
+        "key": "Decorations.FerryDock",
+        "colour": "#f2eeed"
+      },
+      "44027": {
+        "tile": "tile-44027.png",
+        "glyph": "glyph-44027.png",
+        "key": "Resource.Stew",
+        "colour": "#8e86f4"
+      },
+      "44029": {
+        "tile": "tile-44029.png",
+        "glyph": "glyph-44029.png",
+        "key": "Resource.Manchamanteles",
+        "colour": "#f99adf"
+      },
+      "44036": {
+        "tile": "tile-44036.png",
+        "glyph": "glyph-44036.png",
+        "key": "Resource.BarleyPorridge",
+        "colour": "#db4954"
+      },
+      "44037": {
+        "tile": "tile-44037.png",
+        "glyph": "glyph-44037.png",
+        "key": "Resource.Stew",
+        "colour": "#8e86f4"
+      },
+      "44254": {
+        "tile": "tile-44254.png",
+        "glyph": "glyph-44254.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "44488": {
+        "tile": "tile-44488.png",
+        "glyph": "glyph-44488.png",
+        "key": "Decoration.Gift",
+        "colour": "#f2eeed"
+      },
+      "44489": {
+        "tile": "tile-44489.png",
+        "glyph": "glyph-44489.png",
+        "key": "Decoration.Gift",
+        "colour": "#f2eeed"
+      },
+      "44490": {
+        "tile": "tile-44490.png",
+        "glyph": "glyph-44490.png",
+        "key": "Decoration.Gift",
+        "colour": "#f2eeed"
+      },
+      "44491": {
+        "tile": "tile-44491.png",
+        "glyph": "glyph-44491.png",
+        "key": "Decoration.Gift",
+        "colour": "#f2eeed"
+      },
+      "44492": {
+        "tile": "tile-44492.png",
+        "glyph": "glyph-44492.png",
+        "key": "Decoration.Gift",
+        "colour": "#f2eeed"
+      },
+      "45826": {
+        "tile": "tile-45826.png",
+        "glyph": "glyph-45826.png",
+        "key": "Building.Brewery",
+        "colour": "#f99adf"
+      },
+      "45922": {
+        "tile": "tile-45922.png",
+        "glyph": "glyph-45922.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "47614": {
+        "tile": "tile-47614.png",
+        "glyph": "glyph-47614.png",
+        "key": "Building.Playground",
+        "colour": "#f99adf"
+      },
+      "47753": {
+        "tile": "tile-47753.png",
+        "glyph": "glyph-47753.png",
+        "key": "Decoration.Crate",
+        "colour": "#f2eeed"
+      },
+      "49977": {
+        "tile": "tile-49977.png",
+        "glyph": "glyph-49977.png",
+        "key": "FastMode.Action.NeedBoost.Food",
+        "colour": "#db4954"
+      },
+      "51535": {
+        "tile": "tile-51535.png",
+        "glyph": "glyph-51535.png",
+        "key": "Resource.GlassOfWater",
+        "colour": "#05a696"
+      },
+      "52498": {
+        "tile": "tile-52498.png",
+        "glyph": "glyph-52498.png",
+        "key": "Notification.NoReproduction",
+        "colour": "#ebe1da"
+      },
+      "52499": {
+        "tile": "tile-52499.png",
+        "glyph": "glyph-52499.png",
+        "key": "Notification.HeatWave",
+        "colour": "#ebe1da"
+      },
+      "52500": {
+        "tile": "tile-52500.png",
+        "glyph": "glyph-52500.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "52501": {
+        "tile": "tile-52501.png",
+        "glyph": "glyph-52501.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "52502": {
+        "tile": "tile-52502.png",
+        "glyph": "glyph-52502.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "52503": {
+        "tile": "tile-52503.png",
+        "glyph": "glyph-52503.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "52504": {
+        "tile": "tile-52504.png",
+        "glyph": "glyph-52504.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "52505": {
+        "tile": "tile-52505.png",
+        "glyph": "glyph-52505.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "52506": {
+        "tile": "tile-52506.png",
+        "glyph": "glyph-52506.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "52507": {
+        "tile": "tile-52507.png",
+        "glyph": "glyph-52507.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "52508": {
+        "tile": "tile-52508.png",
+        "glyph": "glyph-52508.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "52510": {
+        "tile": "tile-52510.png",
+        "glyph": "glyph-52510.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "52511": {
+        "tile": "tile-52511.png",
+        "glyph": "glyph-52511.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "52512": {
+        "tile": "tile-52512.png",
+        "glyph": "glyph-52512.png",
+        "key": "Notification.Rain",
+        "colour": "#ebe1da"
+      },
+      "52513": {
+        "tile": "tile-52513.png",
+        "glyph": "glyph-52513.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "52514": {
+        "tile": "tile-52514.png",
+        "glyph": "glyph-52514.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "52515": {
+        "tile": "tile-52515.png",
+        "glyph": "glyph-52515.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "52517": {
+        "tile": "tile-52517.png",
+        "glyph": "glyph-52517.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "52519": {
+        "tile": "tile-52519.png",
+        "glyph": "glyph-52519.png",
+        "key": "Notification.SpawnPeople",
+        "colour": "#ebe1da"
+      },
+      "53964": {
+        "tile": "tile-53964.png",
+        "glyph": "glyph-53964.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "55559": {
+        "tile": "tile-55559.png",
+        "glyph": "glyph-55559.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "56443": {
+        "tile": "tile-56443.png",
+        "glyph": "glyph-56443.png",
+        "key": "FastMode.Action.SpawnVillager",
+        "colour": "#8e86f4"
+      },
+      "57167": {
+        "tile": "tile-57167.png",
+        "glyph": "glyph-57167.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "57394": {
+        "tile": "tile-57394.png",
+        "glyph": "glyph-57394.png",
+        "key": "Building.IcepopShop",
+        "colour": "#99c2ee"
+      },
+      "57395": {
+        "tile": "tile-57395.png",
+        "glyph": "glyph-57395.png",
+        "key": "Building.Bakery",
+        "colour": "#db4954"
+      },
+      "57396": {
+        "tile": "tile-57396.png",
+        "glyph": "glyph-57396.png",
+        "key": "Building.CookieShop",
+        "colour": "#f99adf"
+      },
+      "57397": {
+        "tile": "tile-57397.png",
+        "glyph": "glyph-57397.png",
+        "key": "Building.FruitJuiceStand",
+        "colour": "#96d9ba"
+      },
+      "58011": {
+        "tile": "tile-58011.png",
+        "glyph": "glyph-58011.png",
+        "key": "Resource.Stone",
+        "colour": "#f0c056"
+      },
+      "58425": {
+        "tile": "tile-58425.png",
+        "glyph": "glyph-58425.png",
+        "key": "Field.Wheat",
+        "colour": "#e18f8f"
+      },
+      "60667": {
+        "tile": "tile-60667.png",
+        "glyph": "glyph-60667.png",
+        "key": "Building.GingerbreadManShop",
+        "colour": "#f99adf"
+      },
+      "62709": {
+        "tile": "tile-62709.png",
+        "glyph": "glyph-62709.png",
+        "key": "Tree.Willow",
+        "colour": "#f0c056"
+      },
+      "62710": {
+        "tile": "tile-62710.png",
+        "glyph": "glyph-62710.png",
+        "key": "Tree.DeadTree",
+        "colour": "#f0c056"
+      },
+      "62711": {
+        "tile": "tile-62711.png",
+        "glyph": "glyph-62711.png",
+        "key": "Tree.Pine",
+        "colour": "#f0c056"
+      },
+      "62712": {
+        "tile": "tile-62712.png",
+        "glyph": "glyph-62712.png",
+        "key": "Tree.Ash",
+        "colour": "#f0c056"
+      },
+      "63810": {
+        "tile": "tile-63810.png",
+        "glyph": "glyph-63810.png",
+        "key": "",
+        "colour": "#ebe1da"
+      },
+      "63811": {
+        "tile": "tile-63811.png",
+        "glyph": "glyph-63811.png",
+        "key": "Notification.Rain",
+        "colour": "#ebe1da"
+      },
+      "63910": {
+        "tile": "tile-63910.png",
+        "glyph": "glyph-63910.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "64024": {
+        "tile": "tile-64024.png",
+        "glyph": "glyph-64024.png",
+        "key": "Field.JungleTree",
+        "colour": "#f0c056"
+      },
+      "64025": {
+        "tile": "tile-64025.png",
+        "glyph": "glyph-64025.png",
+        "key": "Field.MesquiteTree",
+        "colour": "#f0c056"
+      },
+      "64026": {
+        "tile": "tile-64026.png",
+        "glyph": "glyph-64026.png",
+        "key": "Field.JungleBigTree",
+        "colour": "#f0c056"
+      },
+      "65543": {
+        "tile": "tile-65543.png",
+        "glyph": "glyph-65543.png",
+        "key": "Building.TradingPost",
+        "colour": "#6c966c"
+      },
+      "65619": {
+        "tile": "tile-65619.png",
+        "glyph": "glyph-65619.png",
+        "key": "Building.Fountain",
+        "colour": "#a1bf75"
+      },
+      "66698": {
+        "tile": "tile-66698.png",
+        "glyph": "glyph-66698.png",
+        "key": "Tree",
+        "colour": "#db4954"
+      },
+      "67379": {
+        "tile": "tile-67379.png",
+        "glyph": "glyph-67379.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "67662": {
+        "tile": "tile-67662.png",
+        "glyph": "glyph-67662.png",
+        "key": "Building.HouseStone",
+        "colour": "#3975cd"
+      },
+      "67663": {
+        "tile": "tile-67663.png",
+        "glyph": "glyph-67663.png",
+        "key": "Building.WishingWell",
+        "colour": "#ebe1da"
+      },
+      "67664": {
+        "tile": "tile-67664.png",
+        "glyph": "glyph-67664.png",
+        "key": "Building.Noria",
+        "colour": "#ebe1da"
+      },
+      "67665": {
+        "tile": "tile-67665.png",
+        "glyph": "glyph-67665.png",
+        "key": "Building.BrickHouse",
+        "colour": "#3975cd"
+      },
+      "67666": {
+        "tile": "tile-67666.png",
+        "glyph": "glyph-67666.png",
+        "key": "Building.FestivalStage",
+        "colour": "#ebe1da"
+      },
+      "67667": {
+        "tile": "tile-67667.png",
+        "glyph": "glyph-67667.png",
+        "key": "Building.HouseStone",
+        "colour": "#3975cd"
+      },
+      "67668": {
+        "tile": "tile-67668.png",
+        "glyph": "glyph-67668.png",
+        "key": "Building.WatchTower",
+        "colour": "#ebe1da"
+      },
+      "67669": {
+        "tile": "tile-67669.png",
+        "glyph": "glyph-67669.png",
+        "key": "Building.MoonRitual",
+        "colour": "#ebe1da"
+      },
+      "67670": {
+        "tile": "tile-67670.png",
+        "glyph": "glyph-67670.png",
+        "key": "Building.GingerbreadManMan",
+        "colour": "#ebe1da"
+      },
+      "67671": {
+        "tile": "tile-67671.png",
+        "glyph": "glyph-67671.png",
+        "key": "Building.FakeWatchTower",
+        "colour": "#ebe1da"
+      },
+      "67672": {
+        "tile": "tile-67672.png",
+        "glyph": "glyph-67672.png",
+        "key": "Building.TropicalHouse",
+        "colour": "#99c2ee"
+      },
+      "67673": {
+        "tile": "tile-67673.png",
+        "glyph": "glyph-67673.png",
+        "key": "Building.FloatingGarden",
+        "colour": "#ebe1da"
+      },
+      "67674": {
+        "tile": "tile-67674.png",
+        "glyph": "glyph-67674.png",
+        "key": "Building.BookFairOrnament",
+        "colour": "#ebe1da"
+      },
+      "67675": {
+        "tile": "tile-67675.png",
+        "glyph": "glyph-67675.png",
+        "key": "Building.House",
+        "colour": "#3975cd"
+      },
+      "67676": {
+        "tile": "tile-67676.png",
+        "glyph": "glyph-67676.png",
+        "key": "Building.DesertHouse",
+        "colour": "#3975cd"
+      },
+      "67677": {
+        "tile": "tile-67677.png",
+        "glyph": "glyph-67677.png",
+        "key": "Building.PlankHouse",
+        "colour": "#3975cd"
+      },
+      "67678": {
+        "tile": "tile-67678.png",
+        "glyph": "glyph-67678.png",
+        "key": "Building.PablosLadder",
+        "colour": "#ebe1da"
+      },
+      "67679": {
+        "tile": "tile-67679.png",
+        "glyph": "glyph-67679.png",
+        "key": "FastMode.Props.Banner",
+        "colour": "#ebe1da"
+      },
+      "67680": {
+        "tile": "tile-67680.png",
+        "glyph": "glyph-67680.png",
+        "key": "Building.BookFair",
+        "colour": "#ebe1da"
+      },
+      "67817": {
+        "tile": "tile-67817.png",
+        "glyph": "glyph-67817.png",
+        "key": "Decoration.Crate",
+        "colour": "#f2eeed"
+      },
+      "67904": {
+        "tile": "tile-67904.png",
+        "glyph": "glyph-67904.png",
+        "key": "Field.MesquiteTree",
+        "colour": "#f0c056"
+      },
+      "67905": {
+        "tile": "tile-67905.png",
+        "glyph": "glyph-67905.png",
+        "key": "Field.JungleTree",
+        "colour": "#f0c056"
+      },
+      "67906": {
+        "tile": "tile-67906.png",
+        "glyph": "glyph-67906.png",
+        "key": "Field.GrapeTree",
+        "colour": "#db4954"
+      },
+      "67907": {
+        "tile": "tile-67907.png",
+        "glyph": "glyph-67907.png",
+        "key": "Field.PomeloTree",
+        "colour": "#db4954"
+      },
+      "67908": {
+        "tile": "tile-67908.png",
+        "glyph": "glyph-67908.png",
+        "key": "Field.BerryBush",
+        "colour": "#db4954"
+      },
+      "67909": {
+        "tile": "tile-67909.png",
+        "glyph": "glyph-67909.png",
+        "key": "Field.AppleTree",
+        "colour": "#db4954"
+      },
+      "67910": {
+        "tile": "tile-67910.png",
+        "glyph": "glyph-67910.png",
+        "key": "Field.AshTree",
+        "colour": "#f0c056"
+      },
+      "67911": {
+        "tile": "tile-67911.png",
+        "glyph": "glyph-67911.png",
+        "key": "Field.DatePalm",
+        "colour": "#db4954"
+      },
+      "67912": {
+        "tile": "tile-67912.png",
+        "glyph": "glyph-67912.png",
+        "key": "Tree.DeadTree",
+        "colour": "#f0c056"
+      },
+      "67913": {
+        "tile": "tile-67913.png",
+        "glyph": "glyph-67913.png",
+        "key": "Field.JungleBigTree",
+        "colour": "#f0c056"
+      },
+      "67914": {
+        "tile": "tile-67914.png",
+        "glyph": "glyph-67914.png",
+        "key": "Field.FigTree",
+        "colour": "#db4954"
+      },
+      "67915": {
+        "tile": "tile-67915.png",
+        "glyph": "glyph-67915.png",
+        "key": "Field.WillowTree",
+        "colour": "#f0c056"
+      },
+      "67916": {
+        "tile": "tile-67916.png",
+        "glyph": "glyph-67916.png",
+        "key": "Field.NopalTree",
+        "colour": "#db4954"
+      },
+      "67917": {
+        "tile": "tile-67917.png",
+        "glyph": "glyph-67917.png",
+        "key": "Field.BananaTree",
+        "colour": "#db4954"
+      },
+      "67918": {
+        "tile": "tile-67918.png",
+        "glyph": "glyph-67918.png",
+        "key": "Field.PalmTree",
+        "colour": "#db4954"
+      },
+      "67919": {
+        "tile": "tile-67919.png",
+        "glyph": "glyph-67919.png",
+        "key": "Field.DragonFruitTree",
+        "colour": "#db4954"
+      },
+      "67920": {
+        "tile": "tile-67920.png",
+        "glyph": "glyph-67920.png",
+        "key": "Field.PineTree",
+        "colour": "#f0c056"
+      },
+      "67921": {
+        "tile": "tile-67921.png",
+        "glyph": "glyph-67921.png",
+        "key": "Field.CypressTree",
+        "colour": "#f0c056"
+      },
+      "67922": {
+        "tile": "tile-67922.png",
+        "glyph": "glyph-67922.png",
+        "key": "Field.WinPineTree",
+        "colour": "#f0c056"
+      },
+      "68669": {
+        "tile": "tile-68669.png",
+        "glyph": "glyph-68669.png",
+        "key": "Notification.Rain",
+        "colour": "#ebe1da"
+      },
+      "69028": {
+        "tile": "tile-69028.png",
+        "glyph": "glyph-69028.png",
+        "key": "FastMode.Action.NeedBoost.Community",
+        "colour": "#8e86f4"
+      },
+      "69350": {
+        "tile": "tile-69350.png",
+        "glyph": "glyph-69350.png",
+        "key": "Building.Oasis",
+        "colour": "#db4954"
+      },
+      "69351": {
+        "tile": "tile-69351.png",
+        "glyph": "glyph-69351.png",
+        "key": "Building.ClayMaker",
+        "colour": "#f0c056"
+      },
+      "69352": {
+        "tile": "tile-69352.png",
+        "glyph": "glyph-69352.png",
+        "key": "Building.GreenHouse",
+        "colour": "#db4954"
+      },
+      "69353": {
+        "tile": "tile-69353.png",
+        "glyph": "glyph-69353.png",
+        "key": "Building.Farm",
+        "colour": "#db4954"
+      },
+      "69654": {
+        "tile": "tile-69654.png",
+        "glyph": "glyph-69654.png",
+        "key": "FastMode.Action.NeedBoost.Hydration",
+        "colour": "#05a696"
+      },
+      "71019": {
+        "tile": "tile-71019.png",
+        "glyph": "glyph-71019.png",
+        "key": "Resource.Clay",
+        "colour": "#f0c056"
+      },
+      "71020": {
+        "tile": "tile-71020.png",
+        "glyph": "glyph-71020.png",
+        "key": "Resource.HoneyPot",
+        "colour": "#96d9ba"
+      },
+      "71090": {
+        "tile": "tile-71090.png",
+        "glyph": "glyph-71090.png",
+        "key": "Field.Watermelon",
+        "colour": "#db4954"
+      },
+      "71091": {
+        "tile": "tile-71091.png",
+        "glyph": "glyph-71091.png",
+        "key": "Field.Pumpkin",
+        "colour": "#db4954"
+      },
+      "71092": {
+        "tile": "tile-71092.png",
+        "glyph": "glyph-71092.png",
+        "key": "Field.Onion",
+        "colour": "#db4954"
+      },
+      "71093": {
+        "tile": "tile-71093.png",
+        "glyph": "glyph-71093.png",
+        "key": "Field.Cabbage",
+        "colour": "#db4954"
+      },
+      "71094": {
+        "tile": "tile-71094.png",
+        "glyph": "glyph-71094.png",
+        "key": "Field.Potato",
+        "colour": "#db4954"
+      },
+      "71095": {
+        "tile": "tile-71095.png",
+        "glyph": "glyph-71095.png",
+        "key": "Field.Eggplant",
+        "colour": "#db4954"
+      },
+      "71096": {
+        "tile": "tile-71096.png",
+        "glyph": "glyph-71096.png",
+        "key": "Field.Tomato",
+        "colour": "#db4954"
+      },
+      "71097": {
+        "tile": "tile-71097.png",
+        "glyph": "glyph-71097.png",
+        "key": "Field.Cauliflower",
+        "colour": "#db4954"
+      },
+      "71098": {
+        "tile": "tile-71098.png",
+        "glyph": "glyph-71098.png",
+        "key": "Field.Carrot",
+        "colour": "#db4954"
+      },
+      "71099": {
+        "tile": "tile-71099.png",
+        "glyph": "glyph-71099.png",
+        "key": "Field.Beet",
+        "colour": "#db4954"
+      },
+      "71100": {
+        "tile": "tile-71100.png",
+        "glyph": "glyph-71100.png",
+        "key": "Field.Corn",
+        "colour": "#db4954"
+      },
+      "71872": {
+        "tile": "tile-71872.png",
+        "glyph": "glyph-71872.png",
+        "key": "Decoration.Torch",
+        "colour": "#f2eeed"
+      },
+      "71937": {
+        "tile": "tile-71937.png",
+        "glyph": "glyph-71937.png",
+        "key": "Building.Sawmill",
+        "colour": "#f0c056"
+      },
+      "71938": {
+        "tile": "tile-71938.png",
+        "glyph": "glyph-71938.png",
+        "key": "Building.Woodchopper",
+        "colour": "#f0c056"
+      },
+      "75000": {
+        "tile": "tile-75000.png",
+        "glyph": "glyph-75000.png",
+        "key": "FastMode.Action.ReproductionBoost",
+        "colour": "#8e86f4"
+      },
+      "75090": {
+        "tile": "tile-75090.png",
+        "glyph": "glyph-75090.png",
+        "key": "Resource.Plank",
+        "colour": "#f0c056"
+      },
+      "75091": {
+        "tile": "tile-75091.png",
+        "glyph": "glyph-75091.png",
+        "key": "Resource.Bottle",
+        "colour": "#8e9ec5"
+      },
+      "75092": {
+        "tile": "tile-75092.png",
+        "glyph": "glyph-75092.png",
+        "key": "Resource.Paper",
+        "colour": "#8e9ec5"
+      },
+      "75225": {
+        "tile": "tile-75225.png",
+        "glyph": "glyph-75225.png",
+        "key": "Building.TradingPost",
+        "colour": "#6c966c"
+      },
+      "75226": {
+        "tile": "tile-75226.png",
+        "glyph": "glyph-75226.png",
+        "key": "Building.TradingPost",
+        "colour": "#6c966c"
+      },
+      "75227": {
+        "tile": "tile-75227.png",
+        "glyph": "glyph-75227.png",
+        "key": "Building.TradingPost",
+        "colour": "#6c966c"
+      },
+      "76559": {
+        "tile": "tile-76559.png",
+        "glyph": "glyph-76559.png",
+        "key": "Decoration.IzzysTourBoat",
+        "colour": "#f2eeed"
+      },
+      "78174": {
+        "tile": "tile-78174.png",
+        "glyph": "glyph-78174.png",
+        "key": "Building.StoneRoad",
+        "colour": "#6c966c"
+      },
+      "78175": {
+        "tile": "tile-78175.png",
+        "glyph": "glyph-78175.png",
+        "key": "Building.BrickRoad",
+        "colour": "#6c966c"
+      },
+      "78917": {
+        "tile": "tile-78917.png",
+        "glyph": "glyph-78917.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "79645": {
+        "tile": "tile-79645.png",
+        "glyph": "glyph-79645.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "80722": {
+        "tile": "tile-80722.png",
+        "glyph": "glyph-80722.png",
+        "key": "Resource.Glass",
+        "colour": "#8e9ec5"
+      },
+      "80725": {
+        "tile": "tile-80725.png",
+        "glyph": "glyph-80725.png",
+        "key": "Resource.Wood",
+        "colour": "#f0c056"
+      },
+      "80802": {
+        "tile": "tile-80802.png",
+        "glyph": "glyph-80802.png",
+        "key": "Building.HuntersHut",
+        "colour": "#e18f8f"
+      },
+      "80803": {
+        "tile": "tile-80803.png",
+        "glyph": "glyph-80803.png",
+        "key": "Building.HuntersHutSwamp",
+        "colour": "#e18f8f"
+      },
+      "81402": {
+        "tile": "tile-81402.png",
+        "glyph": "glyph-81402.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "81574": {
+        "tile": "tile-81574.png",
+        "glyph": "glyph-81574.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81575": {
+        "tile": "tile-81575.png",
+        "glyph": "glyph-81575.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81576": {
+        "tile": "tile-81576.png",
+        "glyph": "glyph-81576.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81577": {
+        "tile": "tile-81577.png",
+        "glyph": "glyph-81577.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81578": {
+        "tile": "tile-81578.png",
+        "glyph": "glyph-81578.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81579": {
+        "tile": "tile-81579.png",
+        "glyph": "glyph-81579.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81580": {
+        "tile": "tile-81580.png",
+        "glyph": "glyph-81580.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81581": {
+        "tile": "tile-81581.png",
+        "glyph": "glyph-81581.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81582": {
+        "tile": "tile-81582.png",
+        "glyph": "glyph-81582.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81583": {
+        "tile": "tile-81583.png",
+        "glyph": "glyph-81583.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81584": {
+        "tile": "tile-81584.png",
+        "glyph": "glyph-81584.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81585": {
+        "tile": "tile-81585.png",
+        "glyph": "glyph-81585.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81586": {
+        "tile": "tile-81586.png",
+        "glyph": "glyph-81586.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81587": {
+        "tile": "tile-81587.png",
+        "glyph": "glyph-81587.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81588": {
+        "tile": "tile-81588.png",
+        "glyph": "glyph-81588.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81589": {
+        "tile": "tile-81589.png",
+        "glyph": "glyph-81589.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81590": {
+        "tile": "tile-81590.png",
+        "glyph": "glyph-81590.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81591": {
+        "tile": "tile-81591.png",
+        "glyph": "glyph-81591.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81592": {
+        "tile": "tile-81592.png",
+        "glyph": "glyph-81592.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81593": {
+        "tile": "tile-81593.png",
+        "glyph": "glyph-81593.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81594": {
+        "tile": "tile-81594.png",
+        "glyph": "glyph-81594.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81595": {
+        "tile": "tile-81595.png",
+        "glyph": "glyph-81595.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81596": {
+        "tile": "tile-81596.png",
+        "glyph": "glyph-81596.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81597": {
+        "tile": "tile-81597.png",
+        "glyph": "glyph-81597.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81598": {
+        "tile": "tile-81598.png",
+        "glyph": "glyph-81598.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81599": {
+        "tile": "tile-81599.png",
+        "glyph": "glyph-81599.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81600": {
+        "tile": "tile-81600.png",
+        "glyph": "glyph-81600.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81601": {
+        "tile": "tile-81601.png",
+        "glyph": "glyph-81601.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81602": {
+        "tile": "tile-81602.png",
+        "glyph": "glyph-81602.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81603": {
+        "tile": "tile-81603.png",
+        "glyph": "glyph-81603.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81604": {
+        "tile": "tile-81604.png",
+        "glyph": "glyph-81604.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81605": {
+        "tile": "tile-81605.png",
+        "glyph": "glyph-81605.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "81952": {
+        "tile": "tile-81952.png",
+        "glyph": "glyph-81952.png",
+        "key": "",
+        "colour": "#db4954"
+      },
+      "83535": {
+        "tile": "tile-83535.png",
+        "glyph": "glyph-83535.png",
+        "key": "FastMode.Action.NeedBoost.Heat",
+        "colour": "#f69329"
+      },
+      "83845": {
+        "tile": "tile-83845.png",
+        "glyph": "glyph-83845.png",
+        "key": "Building.TradingPost",
+        "colour": "#6c966c"
+      },
+      "85244": {
+        "tile": "tile-85244.png",
+        "glyph": "glyph-85244.png",
+        "key": "Building.PlanterHibiscus",
+        "colour": "#a1bf75"
+      },
+      "85245": {
+        "tile": "tile-85245.png",
+        "glyph": "glyph-85245.png",
+        "key": "Building.PlanterRoses",
+        "colour": "#a1bf75"
+      },
+      "85246": {
+        "tile": "tile-85246.png",
+        "glyph": "glyph-85246.png",
+        "key": "Building.PlanterHydrangea",
+        "colour": "#a1bf75"
+      },
+      "85247": {
+        "tile": "tile-85247.png",
+        "glyph": "glyph-85247.png",
+        "key": "Building.PlanterBirdsOfParadise",
+        "colour": "#a1bf75"
+      },
+      "85248": {
+        "tile": "tile-85248.png",
+        "glyph": "glyph-85248.png",
+        "key": "Building.PlanterCallaLilly",
+        "colour": "#a1bf75"
+      },
+      "86256": {
+        "tile": "tile-86256.png",
+        "glyph": "glyph-86256.png",
+        "key": "FastMode.Action.NeedBoost.Entertainment",
+        "colour": "#f99adf"
+      },
+      "88859": {
+        "tile": "tile-88859.png",
+        "glyph": "glyph-88859.png",
+        "key": "FastMode.Action.NeedBoost.Wellness",
+        "colour": "#96d9ba"
+      },
+      "90292": {
+        "tile": "tile-90292.png",
+        "glyph": "glyph-90292.png",
+        "key": "Resource.Ukulele",
+        "colour": "#8e86f4"
+      },
+      "90293": {
+        "tile": "tile-90293.png",
+        "glyph": "glyph-90293.png",
+        "key": "Resource.Coat",
+        "colour": "#f69329"
+      },
+      "90294": {
+        "tile": "tile-90294.png",
+        "glyph": "glyph-90294.png",
+        "key": "Resource.Boots",
+        "colour": "#6c966c"
+      },
+      "90295": {
+        "tile": "tile-90295.png",
+        "glyph": "glyph-90295.png",
+        "key": "Resource.Fruit",
+        "colour": "#db4954"
+      },
+      "90296": {
+        "tile": "tile-90296.png",
+        "glyph": "glyph-90296.png",
+        "key": "Resource.Veggie",
+        "colour": "#db4954"
+      },
+      "90297": {
+        "tile": "tile-90297.png",
+        "glyph": "glyph-90297.png",
+        "key": "Resource.Book",
+        "colour": "#f99adf"
+      },
+      "90299": {
+        "tile": "tile-90299.png",
+        "glyph": "glyph-90299.png",
+        "key": "Resource.Canteen",
+        "colour": "#99c2ee"
+      },
+      "90301": {
+        "tile": "tile-90301.png",
+        "glyph": "glyph-90301.png",
+        "key": "Resource.Pendant",
+        "colour": "#96d9ba"
+      },
+      "90543": {
+        "tile": "tile-90543.png",
+        "glyph": "glyph-90543.png",
+        "key": "Decoration.Crate",
+        "colour": "#f2eeed"
+      },
+      "92214": {
+        "tile": "tile-92214.png",
+        "glyph": "glyph-92214.png",
+        "key": "Tree.Fig",
+        "colour": "#db4954"
+      },
+      "92215": {
+        "tile": "tile-92215.png",
+        "glyph": "glyph-92215.png",
+        "key": "Tree.DatePalm",
+        "colour": "#db4954"
+      },
+      "92216": {
+        "tile": "tile-92216.png",
+        "glyph": "glyph-92216.png",
+        "key": "Tree.BerryBush",
+        "colour": "#db4954"
+      },
+      "92217": {
+        "tile": "tile-92217.png",
+        "glyph": "glyph-92217.png",
+        "key": "Tree.Pomelo",
+        "colour": "#db4954"
+      },
+      "92218": {
+        "tile": "tile-92218.png",
+        "glyph": "glyph-92218.png",
+        "key": "Tree.DragonFruit",
+        "colour": "#db4954"
+      },
+      "92219": {
+        "tile": "tile-92219.png",
+        "glyph": "glyph-92219.png",
+        "key": "Tree.Banana",
+        "colour": "#db4954"
+      },
+      "92220": {
+        "tile": "tile-92220.png",
+        "glyph": "glyph-92220.png",
+        "key": "Tree.NopalTree",
+        "colour": "#db4954"
+      },
+      "92221": {
+        "tile": "tile-92221.png",
+        "glyph": "glyph-92221.png",
+        "key": "Tree.Grape",
+        "colour": "#db4954"
+      },
+      "92222": {
+        "tile": "tile-92222.png",
+        "glyph": "glyph-92222.png",
+        "key": "Tree.Apple",
+        "colour": "#db4954"
+      },
+      "92319": {
+        "tile": "tile-92319.png",
+        "glyph": "glyph-92319.png",
+        "key": "",
+        "colour": "#db4954"
+      },
+      "92320": {
+        "tile": "tile-92320.png",
+        "glyph": "glyph-92320.png",
+        "key": "",
+        "colour": "#db4954"
+      },
+      "92582": {
+        "tile": "tile-92582.png",
+        "glyph": "glyph-92582.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "93255": {
+        "tile": "tile-93255.png",
+        "glyph": "glyph-93255.png",
+        "key": "Resource.AnimalHide",
+        "colour": "#8e9ec5"
+      },
+      "93256": {
+        "tile": "tile-93256.png",
+        "glyph": "glyph-93256.png",
+        "key": "Resource.Meat",
+        "colour": "#e18f8f"
+      },
+      "93811": {
+        "tile": "tile-93811.png",
+        "glyph": "glyph-93811.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "94267": {
+        "tile": "tile-94267.png",
+        "glyph": "glyph-94267.png",
+        "key": "Building.Bonfire",
+        "colour": "#f69329"
+      },
+      "94654": {
+        "tile": "tile-94654.png",
+        "glyph": "glyph-94654.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "95325": {
+        "tile": "tile-95325.png",
+        "glyph": "glyph-95325.png",
+        "key": "Tree.Pomelo",
+        "colour": "#db4954"
+      },
+      "95326": {
+        "tile": "tile-95326.png",
+        "glyph": "glyph-95326.png",
+        "key": "Field.DatePalmTree",
+        "colour": "#db4954"
+      },
+      "95327": {
+        "tile": "tile-95327.png",
+        "glyph": "glyph-95327.png",
+        "key": "Tree.Banana",
+        "colour": "#db4954"
+      },
+      "95328": {
+        "tile": "tile-95328.png",
+        "glyph": "glyph-95328.png",
+        "key": "Tree",
+        "colour": "#f0c056"
+      },
+      "95329": {
+        "tile": "tile-95329.png",
+        "glyph": "glyph-95329.png",
+        "key": "Tree.Grape",
+        "colour": "#db4954"
+      },
+      "95330": {
+        "tile": "tile-95330.png",
+        "glyph": "glyph-95330.png",
+        "key": "Tree.NopalTree",
+        "colour": "#db4954"
+      },
+      "95331": {
+        "tile": "tile-95331.png",
+        "glyph": "glyph-95331.png",
+        "key": "Tree.Pomelo",
+        "colour": "#db4954"
+      },
+      "95332": {
+        "tile": "tile-95332.png",
+        "glyph": "glyph-95332.png",
+        "key": "Tree.Fig",
+        "colour": "#db4954"
+      },
+      "95334": {
+        "tile": "tile-95334.png",
+        "glyph": "glyph-95334.png",
+        "key": "Tree.DragonFruit",
+        "colour": "#db4954"
+      },
+      "95335": {
+        "tile": "tile-95335.png",
+        "glyph": "glyph-95335.png",
+        "key": "Decoration.RuinedZenGarden",
+        "colour": "#f2eeed"
+      },
+      "95337": {
+        "tile": "tile-95337.png",
+        "glyph": "glyph-95337.png",
+        "key": "Decoration.RuinedPlaza",
+        "colour": "#f2eeed"
+      },
+      "95338": {
+        "tile": "tile-95338.png",
+        "glyph": "glyph-95338.png",
+        "key": "",
+        "colour": "#db4954"
+      },
+      "95339": {
+        "tile": "tile-95339.png",
+        "glyph": "glyph-95339.png",
+        "key": "Field.BerryBush",
+        "colour": "#db4954"
+      },
+      "95340": {
+        "tile": "tile-95340.png",
+        "glyph": "glyph-95340.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "95342": {
+        "tile": "tile-95342.png",
+        "glyph": "glyph-95342.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "95343": {
+        "tile": "tile-95343.png",
+        "glyph": "glyph-95343.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "95344": {
+        "tile": "tile-95344.png",
+        "glyph": "glyph-95344.png",
+        "key": "Decoration.RuinedHouse",
+        "colour": "#f2eeed"
+      },
+      "95345": {
+        "tile": "tile-95345.png",
+        "glyph": "glyph-95345.png",
+        "key": "Field.AppleTree",
+        "colour": "#db4954"
+      },
+      "95578": {
+        "tile": "tile-95578.png",
+        "glyph": "glyph-95578.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "97586": {
+        "tile": "tile-97586.png",
+        "glyph": "glyph-97586.png",
+        "key": "Resource.Bread",
+        "colour": "#db4954"
+      },
+      "97592": {
+        "tile": "tile-97592.png",
+        "glyph": "glyph-97592.png",
+        "key": "Resource.Concoction",
+        "colour": "#96d9ba"
+      },
+      "97595": {
+        "tile": "tile-97595.png",
+        "glyph": "glyph-97595.png",
+        "key": "Resource.Stroganoff",
+        "colour": "#db4954"
+      },
+      "97598": {
+        "tile": "tile-97598.png",
+        "glyph": "glyph-97598.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "97599": {
+        "tile": "tile-97599.png",
+        "glyph": "glyph-97599.png",
+        "key": "Resource.Cookie",
+        "colour": "#f99adf"
+      },
+      "97602": {
+        "tile": "tile-97602.png",
+        "glyph": "glyph-97602.png",
+        "key": "Resource.Cheese",
+        "colour": "#db4954"
+      },
+      "97615": {
+        "tile": "tile-97615.png",
+        "glyph": "glyph-97615.png",
+        "key": "Resource.GingerbreadMan",
+        "colour": "#f99adf"
+      },
+      "97701": {
+        "tile": "tile-97701.png",
+        "glyph": "glyph-97701.png",
+        "key": "Tree.Cypress",
+        "colour": "#f0c056"
+      },
+      "97702": {
+        "tile": "tile-97702.png",
+        "glyph": "glyph-97702.png",
+        "key": "Tree.WinPine",
+        "colour": "#f0c056"
+      },
+      "97703": {
+        "tile": "tile-97703.png",
+        "glyph": "glyph-97703.png",
+        "key": "Tree",
+        "colour": "#f0c056"
+      },
+      "98650": {
+        "tile": "tile-98650.png",
+        "glyph": "glyph-98650.png",
+        "key": "Decoration.Monolith",
+        "colour": "#f2eeed"
+      },
+      "98651": {
+        "tile": "tile-98651.png",
+        "glyph": "glyph-98651.png",
+        "key": "Decoration.ChicosHouseShip",
+        "colour": "#f2eeed"
+      },
+      "98652": {
+        "tile": "tile-98652.png",
+        "glyph": "glyph-98652.png",
+        "key": "Decoration.KiasShip",
+        "colour": "#f2eeed"
+      },
+      "98653": {
+        "tile": "tile-98653.png",
+        "glyph": "glyph-98653.png",
+        "key": "Decoration.KaiasShipIce",
+        "colour": "#f2eeed"
+      },
+      "98654": {
+        "tile": "tile-98654.png",
+        "glyph": "glyph-98654.png",
+        "key": "Decoration.DadsWorkshop",
+        "colour": "#f2eeed"
+      },
+      "98655": {
+        "tile": "tile-98655.png",
+        "glyph": "glyph-98655.png",
+        "key": "Decoration.Shipwreck",
+        "colour": "#f2eeed"
+      },
+      "98656": {
+        "tile": "tile-98656.png",
+        "glyph": "glyph-98656.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "98657": {
+        "tile": "tile-98657.png",
+        "glyph": "glyph-98657.png",
+        "key": "Decoration.FortCory",
+        "colour": "#f2eeed"
+      },
+      "98658": {
+        "tile": "tile-98658.png",
+        "glyph": "glyph-98658.png",
+        "key": "Decoration.Sundial",
+        "colour": "#f2eeed"
+      },
+      "98659": {
+        "tile": "tile-98659.png",
+        "glyph": "glyph-98659.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "98660": {
+        "tile": "tile-98660.png",
+        "glyph": "glyph-98660.png",
+        "key": "Decoration.MomsTerrace",
+        "colour": "#f2eeed"
+      },
+      "98661": {
+        "tile": "tile-98661.png",
+        "glyph": "glyph-98661.png",
+        "key": "Decoration.ChicosShip",
+        "colour": "#f2eeed"
+      },
+      "98662": {
+        "tile": "tile-98662.png",
+        "glyph": "glyph-98662.png",
+        "key": "Decoration.ChicosMeteorite",
+        "colour": "#f2eeed"
+      },
+      "99155": {
+        "tile": "tile-99155.png",
+        "glyph": "glyph-99155.png",
+        "key": "FastMode.Action.ChildGrowthBoost",
+        "colour": "#8e86f4"
+      },
+      "99246": {
+        "tile": "tile-99246.png",
+        "glyph": "glyph-99246.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "99686": {
+        "tile": "tile-99686.png",
+        "glyph": "glyph-99686.png",
+        "key": "Field.Pumpkin",
+        "colour": "#db4954"
+      },
+      "101731": {
+        "tile": "tile-101731.png",
+        "glyph": "glyph-101731.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "103081": {
+        "tile": "tile-103081.png",
+        "glyph": "glyph-103081.png",
+        "key": "Notification.HeatWave",
+        "colour": "#ebe1da"
+      },
+      "103664": {
+        "tile": "tile-103664.png",
+        "glyph": "glyph-103664.png",
+        "key": "Resource.Wheat",
+        "colour": "#e18f8f"
+      },
+      "104202": {
+        "tile": "tile-104202.png",
+        "glyph": "glyph-104202.png",
+        "key": "Building.Windmill",
+        "colour": "#e18f8f"
+      },
+      "105379": {
+        "tile": "tile-105379.png",
+        "glyph": "glyph-105379.png",
+        "key": "FastMode.Action.ResourceBundle",
+        "colour": null
+      },
+      "105694": {
+        "tile": "tile-105694.png",
+        "glyph": "glyph-105694.png",
+        "key": "Building.CoatMaker",
+        "colour": "#f69329"
+      },
+      "105695": {
+        "tile": "tile-105695.png",
+        "glyph": "glyph-105695.png",
+        "key": "Building.Quarry",
+        "colour": "#f0c056"
+      },
+      "105696": {
+        "tile": "tile-105696.png",
+        "glyph": "glyph-105696.png",
+        "key": "Building.Scriptorium",
+        "colour": "#f99adf"
+      },
+      "105697": {
+        "tile": "tile-105697.png",
+        "glyph": "glyph-105697.png",
+        "key": "Building.BrickMaker",
+        "colour": "#f0c056"
+      },
+      "105699": {
+        "tile": "tile-105699.png",
+        "glyph": "glyph-105699.png",
+        "key": "Building.Playground",
+        "colour": "#f99adf"
+      },
+      "105702": {
+        "tile": "tile-105702.png",
+        "glyph": "glyph-105702.png",
+        "key": "Building.WinterPub",
+        "colour": "#f69329"
+      },
+      "105703": {
+        "tile": "tile-105703.png",
+        "glyph": "glyph-105703.png",
+        "key": "Building.Papermill",
+        "colour": "#8e9ec5"
+      },
+      "105704": {
+        "tile": "tile-105704.png",
+        "glyph": "glyph-105704.png",
+        "key": "Building.OgirStatue",
+        "colour": "#a1bf75"
+      },
+      "105705": {
+        "tile": "tile-105705.png",
+        "glyph": "glyph-105705.png",
+        "key": "Building.FondueShop",
+        "colour": "#f99adf"
+      },
+      "105706": {
+        "tile": "tile-105706.png",
+        "glyph": "glyph-105706.png",
+        "key": "Building.ConcoctionShop",
+        "colour": "#96d9ba"
+      },
+      "105707": {
+        "tile": "tile-105707.png",
+        "glyph": "glyph-105707.png",
+        "key": "Building.Journal",
+        "colour": "#8e86f4"
+      },
+      "105708": {
+        "tile": "tile-105708.png",
+        "glyph": "glyph-105708.png",
+        "key": "Building.Papermill",
+        "colour": "#8e9ec5"
+      },
+      "105709": {
+        "tile": "tile-105709.png",
+        "glyph": "glyph-105709.png",
+        "key": "Building.GlassblowingFurnace",
+        "colour": "#8e9ec5"
+      },
+      "105710": {
+        "tile": "tile-105710.png",
+        "glyph": "glyph-105710.png",
+        "key": "Building.Jacaranda",
+        "colour": "#a1bf75"
+      },
+      "105711": {
+        "tile": "tile-105711.png",
+        "glyph": "glyph-105711.png",
+        "key": "Building.OpenKitchen",
+        "colour": "#8e86f4"
+      },
+      "105712": {
+        "tile": "tile-105712.png",
+        "glyph": "glyph-105712.png",
+        "key": "Building.ReedCutter",
+        "colour": "#f0c056"
+      },
+      "105713": {
+        "tile": "tile-105713.png",
+        "glyph": "glyph-105713.png",
+        "key": "Building.ChickenCoop",
+        "colour": "#e18f8f"
+      },
+      "105714": {
+        "tile": "tile-105714.png",
+        "glyph": "glyph-105714.png",
+        "key": "Building.Beehive",
+        "colour": "#96d9ba"
+      },
+      "105715": {
+        "tile": "tile-105715.png",
+        "glyph": "glyph-105715.png",
+        "key": "Building.PendantMaker",
+        "colour": "#96d9ba"
+      },
+      "105716": {
+        "tile": "tile-105716.png",
+        "glyph": "glyph-105716.png",
+        "key": "Building.ZenGarden",
+        "colour": "#96d9ba"
+      },
+      "105717": {
+        "tile": "tile-105717.png",
+        "glyph": "glyph-105717.png",
+        "key": "Building.StroganoffShop",
+        "colour": "#db4954"
+      },
+      "105718": {
+        "tile": "tile-105718.png",
+        "glyph": "glyph-105718.png",
+        "key": "Building.SwimmingPier",
+        "colour": "#99c2ee"
+      },
+      "105721": {
+        "tile": "tile-105721.png",
+        "glyph": "glyph-105721.png",
+        "key": "Building.Well",
+        "colour": "#05a696"
+      },
+      "105722": {
+        "tile": "tile-105722.png",
+        "glyph": "glyph-105722.png",
+        "key": "Building.MeadHall",
+        "colour": "#f99adf"
+      },
+      "105723": {
+        "tile": "tile-105723.png",
+        "glyph": "glyph-105723.png",
+        "key": "Building.StoneMine",
+        "colour": "#f0c056"
+      },
+      "105724": {
+        "tile": "tile-105724.png",
+        "glyph": "glyph-105724.png",
+        "key": "Building.SilkyOak",
+        "colour": "#a1bf75"
+      },
+      "105725": {
+        "tile": "tile-105725.png",
+        "glyph": "glyph-105725.png",
+        "key": "Building.OrchidTree",
+        "colour": "#a1bf75"
+      },
+      "105727": {
+        "tile": "tile-105727.png",
+        "glyph": "glyph-105727.png",
+        "key": "Decoration.Tomb",
+        "colour": "#a1bf75"
+      },
+      "105728": {
+        "tile": "tile-105728.png",
+        "glyph": "glyph-105728.png",
+        "key": "Building.GlassMaker",
+        "colour": "#8e9ec5"
+      },
+      "105729": {
+        "tile": "tile-105729.png",
+        "glyph": "glyph-105729.png",
+        "key": "Building.HouseWithChimney",
+        "colour": "#f69329"
+      },
+      "105730": {
+        "tile": "tile-105730.png",
+        "glyph": "glyph-105730.png",
+        "key": "Building.CheeseMaker",
+        "colour": "#db4954"
+      },
+      "105731": {
+        "tile": "tile-105731.png",
+        "glyph": "glyph-105731.png",
+        "key": "Building.FishingDock",
+        "colour": "#e18f8f"
+      },
+      "105732": {
+        "tile": "tile-105732.png",
+        "glyph": "glyph-105732.png",
+        "key": "Building.Plaza",
+        "colour": "#8e86f4"
+      },
+      "105733": {
+        "tile": "tile-105733.png",
+        "glyph": "glyph-105733.png",
+        "key": "Building.OpenKitchen",
+        "colour": "#8e86f4"
+      },
+      "105734": {
+        "tile": "tile-105734.png",
+        "glyph": "glyph-105734.png",
+        "key": "Building.ZenGarden",
+        "colour": "#96d9ba"
+      },
+      "105735": {
+        "tile": "tile-105735.png",
+        "glyph": "glyph-105735.png",
+        "key": "Building.RoadBuilder",
+        "colour": "#6c966c"
+      },
+      "105736": {
+        "tile": "tile-105736.png",
+        "glyph": "glyph-105736.png",
+        "key": "Building.ManchamantelesShop",
+        "colour": "#f99adf"
+      },
+      "105737": {
+        "tile": "tile-105737.png",
+        "glyph": "glyph-105737.png",
+        "key": "Building.FlameTree",
+        "colour": "#a1bf75"
+      },
+      "105738": {
+        "tile": "tile-105738.png",
+        "glyph": "glyph-105738.png",
+        "key": "Building.BarleyPorridgeShop",
+        "colour": "#db4954"
+      },
+      "105739": {
+        "tile": "tile-105739.png",
+        "glyph": "glyph-105739.png",
+        "key": "Building.Fountain",
+        "colour": "#a1bf75"
+      },
+      "105740": {
+        "tile": "tile-105740.png",
+        "glyph": "glyph-105740.png",
+        "key": "Building.Winery",
+        "colour": "#f99adf"
+      },
+      "105741": {
+        "tile": "tile-105741.png",
+        "glyph": "glyph-105741.png",
+        "key": "Building.CarvedStatue",
+        "colour": "#a1bf75"
+      },
+      "105743": {
+        "tile": "tile-105743.png",
+        "glyph": "glyph-105743.png",
+        "key": "Building.BootMaker",
+        "colour": "#6c966c"
+      },
+      "105745": {
+        "tile": "tile-105745.png",
+        "glyph": "glyph-105745.png",
+        "key": "Building.CanteenMaker",
+        "colour": "#99c2ee"
+      },
+      "105747": {
+        "tile": "tile-105747.png",
+        "glyph": "glyph-105747.png",
+        "key": "Building.DriedMeatShop",
+        "colour": "#db4954"
+      },
+      "105748": {
+        "tile": "tile-105748.png",
+        "glyph": "glyph-105748.png",
+        "key": "Building.SnowStatue",
+        "colour": "#a1bf75"
+      },
+      "105749": {
+        "tile": "tile-105749.png",
+        "glyph": "glyph-105749.png",
+        "key": "Decorations.Ufo",
+        "colour": "#f2eeed"
+      },
+      "105750": {
+        "tile": "tile-105750.png",
+        "glyph": "glyph-105750.png",
+        "key": "Building.Luthierie",
+        "colour": "#8e86f4"
+      },
+      "106081": {
+        "tile": "tile-106081.png",
+        "glyph": "glyph-106081.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "106846": {
+        "tile": "tile-106846.png",
+        "glyph": "glyph-106846.png",
+        "key": "Resource.Mushroom",
+        "colour": "#e18f8f"
+      },
+      "107053": {
+        "tile": "tile-107053.png",
+        "glyph": "glyph-107053.png",
+        "key": "Decoration.Crate",
+        "colour": "#f2eeed"
+      },
+      "107054": {
+        "tile": "tile-107054.png",
+        "glyph": "glyph-107054.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107055": {
+        "tile": "tile-107055.png",
+        "glyph": "glyph-107055.png",
+        "key": "Decorations.BrokenWatchtower",
+        "colour": "#f2eeed"
+      },
+      "107056": {
+        "tile": "tile-107056.png",
+        "glyph": "glyph-107056.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107057": {
+        "tile": "tile-107057.png",
+        "glyph": "glyph-107057.png",
+        "key": "Decorations.LeadersStatue",
+        "colour": "#f2eeed"
+      },
+      "107058": {
+        "tile": "tile-107058.png",
+        "glyph": "glyph-107058.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107059": {
+        "tile": "tile-107059.png",
+        "glyph": "glyph-107059.png",
+        "key": "Decoration.MidsupperArch",
+        "colour": "#f2eeed"
+      },
+      "107060": {
+        "tile": "tile-107060.png",
+        "glyph": "glyph-107060.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107061": {
+        "tile": "tile-107061.png",
+        "glyph": "glyph-107061.png",
+        "key": "Decorations.Billboard",
+        "colour": "#f2eeed"
+      },
+      "107062": {
+        "tile": "tile-107062.png",
+        "glyph": "glyph-107062.png",
+        "key": "Decoration.Ruins",
+        "colour": "#f2eeed"
+      },
+      "107063": {
+        "tile": "tile-107063.png",
+        "glyph": "glyph-107063.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107064": {
+        "tile": "tile-107064.png",
+        "glyph": "glyph-107064.png",
+        "key": "Decorations.DuckStatue",
+        "colour": "#f2eeed"
+      },
+      "107065": {
+        "tile": "tile-107065.png",
+        "glyph": "glyph-107065.png",
+        "key": "Decoration.Canoe",
+        "colour": "#f2eeed"
+      },
+      "107066": {
+        "tile": "tile-107066.png",
+        "glyph": "glyph-107066.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107067": {
+        "tile": "tile-107067.png",
+        "glyph": "glyph-107067.png",
+        "key": "Decoration.Crate",
+        "colour": "#f2eeed"
+      },
+      "107068": {
+        "tile": "tile-107068.png",
+        "glyph": "glyph-107068.png",
+        "key": "Decoration.Gift",
+        "colour": "#f2eeed"
+      },
+      "107069": {
+        "tile": "tile-107069.png",
+        "glyph": "glyph-107069.png",
+        "key": "Decorations.CartsStatue",
+        "colour": "#f2eeed"
+      },
+      "107070": {
+        "tile": "tile-107070.png",
+        "glyph": "glyph-107070.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107071": {
+        "tile": "tile-107071.png",
+        "glyph": "glyph-107071.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107072": {
+        "tile": "tile-107072.png",
+        "glyph": "glyph-107072.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107073": {
+        "tile": "tile-107073.png",
+        "glyph": "glyph-107073.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107074": {
+        "tile": "tile-107074.png",
+        "glyph": "glyph-107074.png",
+        "key": "Decorations.BrokenFerryDock",
+        "colour": "#f2eeed"
+      },
+      "107075": {
+        "tile": "tile-107075.png",
+        "glyph": "glyph-107075.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107076": {
+        "tile": "tile-107076.png",
+        "glyph": "glyph-107076.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107077": {
+        "tile": "tile-107077.png",
+        "glyph": "glyph-107077.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107078": {
+        "tile": "tile-107078.png",
+        "glyph": "glyph-107078.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107079": {
+        "tile": "tile-107079.png",
+        "glyph": "glyph-107079.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107080": {
+        "tile": "tile-107080.png",
+        "glyph": "glyph-107080.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107081": {
+        "tile": "tile-107081.png",
+        "glyph": "glyph-107081.png",
+        "key": "Decoration.Tomb",
+        "colour": "#f2eeed"
+      },
+      "107082": {
+        "tile": "tile-107082.png",
+        "glyph": "glyph-107082.png",
+        "key": "Decorations.CookieVan",
+        "colour": "#f2eeed"
+      },
+      "107083": {
+        "tile": "tile-107083.png",
+        "glyph": "glyph-107083.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107084": {
+        "tile": "tile-107084.png",
+        "glyph": "glyph-107084.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107085": {
+        "tile": "tile-107085.png",
+        "glyph": "glyph-107085.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107086": {
+        "tile": "tile-107086.png",
+        "glyph": "glyph-107086.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107087": {
+        "tile": "tile-107087.png",
+        "glyph": "glyph-107087.png",
+        "key": "Decorations.FerryDock",
+        "colour": "#f2eeed"
+      },
+      "107088": {
+        "tile": "tile-107088.png",
+        "glyph": "glyph-107088.png",
+        "key": "Decorations.StatueGeraldFox",
+        "colour": "#f2eeed"
+      },
+      "107089": {
+        "tile": "tile-107089.png",
+        "glyph": "glyph-107089.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107090": {
+        "tile": "tile-107090.png",
+        "glyph": "glyph-107090.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107091": {
+        "tile": "tile-107091.png",
+        "glyph": "glyph-107091.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107092": {
+        "tile": "tile-107092.png",
+        "glyph": "glyph-107092.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107093": {
+        "tile": "tile-107093.png",
+        "glyph": "glyph-107093.png",
+        "key": "Decorations.FjordaStatue",
+        "colour": "#f2eeed"
+      },
+      "107094": {
+        "tile": "tile-107094.png",
+        "glyph": "glyph-107094.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107095": {
+        "tile": "tile-107095.png",
+        "glyph": "glyph-107095.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107096": {
+        "tile": "tile-107096.png",
+        "glyph": "glyph-107096.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107097": {
+        "tile": "tile-107097.png",
+        "glyph": "glyph-107097.png",
+        "key": "Decorations.BrokenCookieVan",
+        "colour": "#f2eeed"
+      },
+      "107098": {
+        "tile": "tile-107098.png",
+        "glyph": "glyph-107098.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107099": {
+        "tile": "tile-107099.png",
+        "glyph": "glyph-107099.png",
+        "key": "Decoration.Crate",
+        "colour": "#f2eeed"
+      },
+      "107100": {
+        "tile": "tile-107100.png",
+        "glyph": "glyph-107100.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107101": {
+        "tile": "tile-107101.png",
+        "glyph": "glyph-107101.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107102": {
+        "tile": "tile-107102.png",
+        "glyph": "glyph-107102.png",
+        "key": "Decorations.StatueRonaldFox",
+        "colour": "#f2eeed"
+      },
+      "107103": {
+        "tile": "tile-107103.png",
+        "glyph": "glyph-107103.png",
+        "key": "Decorations.StatueEarlFox",
+        "colour": "#f2eeed"
+      },
+      "107104": {
+        "tile": "tile-107104.png",
+        "glyph": "glyph-107104.png",
+        "key": "Decorations.SignPost2",
+        "colour": "#f2eeed"
+      },
+      "107105": {
+        "tile": "tile-107105.png",
+        "glyph": "glyph-107105.png",
+        "key": "Decoration.Crate",
+        "colour": "#f2eeed"
+      },
+      "107106": {
+        "tile": "tile-107106.png",
+        "glyph": "glyph-107106.png",
+        "key": "Decorations.CookieVan",
+        "colour": "#f2eeed"
+      },
+      "107107": {
+        "tile": "tile-107107.png",
+        "glyph": "glyph-107107.png",
+        "key": "Decorations.FerryDock",
+        "colour": "#f2eeed"
+      },
+      "107108": {
+        "tile": "tile-107108.png",
+        "glyph": "glyph-107108.png",
+        "key": "Decoration.Canoe",
+        "colour": "#f2eeed"
+      },
+      "107109": {
+        "tile": "tile-107109.png",
+        "glyph": "glyph-107109.png",
+        "key": "Decorations.DeadEndSign",
+        "colour": "#f2eeed"
+      },
+      "107110": {
+        "tile": "tile-107110.png",
+        "glyph": "glyph-107110.png",
+        "key": "Decorations.SignPost1",
+        "colour": "#f2eeed"
+      },
+      "107111": {
+        "tile": "tile-107111.png",
+        "glyph": "glyph-107111.png",
+        "key": "Decorations.BreadMan",
+        "colour": "#f2eeed"
+      },
+      "107112": {
+        "tile": "tile-107112.png",
+        "glyph": "glyph-107112.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107113": {
+        "tile": "tile-107113.png",
+        "glyph": "glyph-107113.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107114": {
+        "tile": "tile-107114.png",
+        "glyph": "glyph-107114.png",
+        "key": "Decoration.Pallet",
+        "colour": "#f2eeed"
+      },
+      "107115": {
+        "tile": "tile-107115.png",
+        "glyph": "glyph-107115.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107116": {
+        "tile": "tile-107116.png",
+        "glyph": "glyph-107116.png",
+        "key": "",
+        "colour": "#f2eeed"
+      },
+      "107117": {
+        "tile": "tile-107117.png",
+        "glyph": "glyph-107117.png",
+        "key": "Decoration.Lantern",
+        "colour": "#f2eeed"
+      },
+      "107118": {
+        "tile": "tile-107118.png",
+        "glyph": "glyph-107118.png",
+        "key": "Decorations.JelenasBackpack",
+        "colour": "#f2eeed"
+      },
+      "107272": {
+        "tile": "tile-107272.png",
+        "glyph": "glyph-107272.png",
+        "key": "Decoration.Crate",
+        "colour": "#f2eeed"
+      },
+      "108200": {
+        "tile": "tile-108200.png",
+        "glyph": "glyph-108200.png",
+        "key": "Resource.Reed",
+        "colour": "#f0c056"
+      },
+      "111306": {
+        "tile": "tile-111306.png",
+        "glyph": "glyph-111306.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "114559": {
+        "tile": "tile-114559.png",
+        "glyph": "glyph-114559.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "115334": {
+        "tile": "tile-115334.png",
+        "glyph": "glyph-115334.png",
+        "key": "Tree.Palm",
+        "colour": "#db4954"
+      },
+      "115541": {
+        "tile": "tile-115541.png",
+        "glyph": "glyph-115541.png",
+        "key": "Building.Plaza",
+        "colour": "#8e86f4"
+      },
+      "115742": {
+        "tile": "tile-115742.png",
+        "glyph": "glyph-115742.png",
+        "key": "FastMode.Action.NeedBoost.Refreshment",
+        "colour": "#99c2ee"
+      },
+      "116136": {
+        "tile": "tile-116136.png",
+        "glyph": "glyph-116136.png",
+        "key": "Building.BrickRoad",
+        "colour": "#6c966c"
+      },
+      "116137": {
+        "tile": "tile-116137.png",
+        "glyph": "glyph-116137.png",
+        "key": "Building.Bridge",
+        "colour": "#6c966c"
+      },
+      "116138": {
+        "tile": "tile-116138.png",
+        "glyph": "glyph-116138.png",
+        "key": "Building.StoneRoad",
+        "colour": "#6c966c"
+      },
+      "116139": {
+        "tile": "tile-116139.png",
+        "glyph": "glyph-116139.png",
+        "key": "Building.Road",
+        "colour": "#6c966c"
+      },
+      "116140": {
+        "tile": "tile-116140.png",
+        "glyph": "glyph-116140.png",
+        "key": "Building.Road",
+        "colour": "#6c966c"
+      }
+    },
+    "concerns": {
+      "Heat": {
+        "tile": "concern-Heat.png",
+        "glyph": "concern-glyph-Heat.png",
+        "colour": "#f69329"
+      },
+      "Entertainment": {
+        "tile": "concern-Entertainment.png",
+        "glyph": "concern-glyph-Entertainment.png",
+        "colour": "#f99adf"
+      },
+      "Nutrition": {
+        "tile": "concern-Nutrition.png",
+        "glyph": "concern-glyph-Nutrition.png",
+        "colour": "#db4954"
+      },
+      "Housing": {
+        "tile": "concern-Housing.png",
+        "glyph": "concern-glyph-Housing.png",
+        "colour": "#3975cd"
+      },
+      "Community": {
+        "tile": "concern-Community.png",
+        "glyph": "concern-glyph-Community.png",
+        "colour": "#8e86f4"
+      },
+      "Hydration": {
+        "tile": "concern-Hydration.png",
+        "glyph": "concern-glyph-Hydration.png",
+        "colour": "#05a696"
+      },
+      "Refreshment": {
+        "tile": "concern-Refreshment.png",
+        "glyph": "concern-glyph-Refreshment.png",
+        "colour": "#99c2ee"
+      },
+      "Wellness": {
+        "tile": "concern-Wellness.png",
+        "glyph": "concern-glyph-Wellness.png",
+        "colour": "#96d9ba"
+      }
+    },
+    "skipped": [],
+    "resources": {
+      "278743": {
+        "tile": "tile-45922.png",
+        "glyph": "glyph-45922.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "279217": {
+        "tile": "tile-44254.png",
+        "glyph": "glyph-44254.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "279343": {
+        "tile": "tile-44027.png",
+        "glyph": "glyph-44027.png",
+        "key": "Resource.Stew",
+        "colour": "#8e86f4"
+      },
+      "279345": {
+        "tile": "tile-44029.png",
+        "glyph": "glyph-44029.png",
+        "key": "Resource.Manchamanteles",
+        "colour": "#f99adf"
+      },
+      "279352": {
+        "tile": "tile-44036.png",
+        "glyph": "glyph-44036.png",
+        "key": "Resource.BarleyPorridge",
+        "colour": "#db4954"
+      },
+      "279353": {
+        "tile": "tile-44037.png",
+        "glyph": "glyph-44037.png",
+        "key": "Resource.Stew",
+        "colour": "#8e86f4"
+      },
+      "281861": {
+        "tile": "tile-51535.png",
+        "glyph": "glyph-51535.png",
+        "key": "Resource.GlassOfWater",
+        "colour": "#05a696"
+      },
+      "284026": {
+        "tile": "tile-36876.png",
+        "glyph": "glyph-36876.png",
+        "key": "Resource.Brick",
+        "colour": "#f0c056"
+      },
+      "284810": {
+        "tile": "tile-35644.png",
+        "glyph": "glyph-35644.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "284894": {
+        "tile": "tile-35517.png",
+        "glyph": "glyph-35517.png",
+        "key": "Resource.Stick",
+        "colour": "#f0c056"
+      },
+      "284895": {
+        "tile": "tile-35518.png",
+        "glyph": "glyph-35518.png",
+        "key": "Resource.Stick",
+        "colour": "#f0c056"
+      },
+      "285149": {
+        "tile": "tile-33550.png",
+        "glyph": "glyph-33550.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "285897": {
+        "tile": "tile-42876.png",
+        "glyph": "glyph-42876.png",
+        "key": "Resource.GlassOfWine",
+        "colour": "#f99adf"
+      },
+      "285899": {
+        "tile": "tile-42878.png",
+        "glyph": "glyph-42878.png",
+        "key": "Resource.Mead",
+        "colour": "#f99adf"
+      },
+      "285901": {
+        "tile": "tile-42880.png",
+        "glyph": "glyph-42880.png",
+        "key": "Resource.Beer",
+        "colour": "#f99adf"
+      },
+      "285908": {
+        "tile": "tile-42887.png",
+        "glyph": "glyph-42887.png",
+        "key": "Resource.Newspaper",
+        "colour": "#8e86f4"
+      },
+      "285910": {
+        "tile": "tile-42889.png",
+        "glyph": "glyph-42889.png",
+        "key": "Resource.HouseDrink",
+        "colour": "#f69329"
+      },
+      "286343": {
+        "tile": "tile-43384.png",
+        "glyph": "glyph-43384.png",
+        "key": "Resource.IcePop",
+        "colour": "#99c2ee"
+      },
+      "286344": {
+        "tile": "tile-43385.png",
+        "glyph": "glyph-43385.png",
+        "key": "Resource.DriedMeat",
+        "colour": "#db4954"
+      },
+      "286347": {
+        "tile": "tile-43388.png",
+        "glyph": "glyph-43388.png",
+        "key": "Resource.Nopalito",
+        "colour": "#05a696"
+      },
+      "286358": {
+        "tile": "tile-43399.png",
+        "glyph": "glyph-43399.png",
+        "key": "Resource.Egg",
+        "colour": "#e18f8f"
+      },
+      "286361": {
+        "tile": "tile-43402.png",
+        "glyph": "glyph-43402.png",
+        "key": "Resource.FruitJuice",
+        "colour": "#96d9ba"
+      },
+      "286781": {
+        "tile": "tile-40043.png",
+        "glyph": "glyph-40043.png",
+        "key": "Resource.Flour",
+        "colour": "#e18f8f"
+      },
+      "287118": {
+        "tile": "tile-39577.png",
+        "glyph": "glyph-39577.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "288580": {
+        "tile": "tile-67379.png",
+        "glyph": "glyph-67379.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "290524": {
+        "tile": "tile-63910.png",
+        "glyph": "glyph-63910.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "292310": {
+        "tile": "tile-71019.png",
+        "glyph": "glyph-71019.png",
+        "key": "Resource.Clay",
+        "colour": "#f0c056"
+      },
+      "292311": {
+        "tile": "tile-71020.png",
+        "glyph": "glyph-71020.png",
+        "key": "Resource.HoneyPot",
+        "colour": "#96d9ba"
+      },
+      "293926": {
+        "tile": "tile-58011.png",
+        "glyph": "glyph-58011.png",
+        "key": "Resource.Stone",
+        "colour": "#f0c056"
+      },
+      "294702": {
+        "tile": "tile-57167.png",
+        "glyph": "glyph-57167.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "295643": {
+        "tile": "tile-55559.png",
+        "glyph": "glyph-55559.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "296315": {
+        "tile": "tile-53964.png",
+        "glyph": "glyph-53964.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "300123": {
+        "tile": "tile-90292.png",
+        "glyph": "glyph-90292.png",
+        "key": "Resource.Ukulele",
+        "colour": "#8e86f4"
+      },
+      "300124": {
+        "tile": "tile-90293.png",
+        "glyph": "glyph-90293.png",
+        "key": "Resource.Coat",
+        "colour": "#f69329"
+      },
+      "300125": {
+        "tile": "tile-90294.png",
+        "glyph": "glyph-90294.png",
+        "key": "Resource.Boots",
+        "colour": "#6c966c"
+      },
+      "300126": {
+        "tile": "tile-90295.png",
+        "glyph": "glyph-90295.png",
+        "key": "Resource.Fruit",
+        "colour": "#db4954"
+      },
+      "300127": {
+        "tile": "tile-90296.png",
+        "glyph": "glyph-90296.png",
+        "key": "Resource.Veggie",
+        "colour": "#db4954"
+      },
+      "300128": {
+        "tile": "tile-90297.png",
+        "glyph": "glyph-90297.png",
+        "key": "Resource.Book",
+        "colour": "#f99adf"
+      },
+      "300130": {
+        "tile": "tile-90299.png",
+        "glyph": "glyph-90299.png",
+        "key": "Resource.Canteen",
+        "colour": "#99c2ee"
+      },
+      "300131": {
+        "tile": "tile-90301.png",
+        "glyph": "glyph-90301.png",
+        "key": "Resource.Pendant",
+        "colour": "#96d9ba"
+      },
+      "303210": {
+        "tile": "tile-95578.png",
+        "glyph": "glyph-95578.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "303802": {
+        "tile": "tile-94654.png",
+        "glyph": "glyph-94654.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "304112": {
+        "tile": "tile-93255.png",
+        "glyph": "glyph-93255.png",
+        "key": "Resource.AnimalHide",
+        "colour": "#8e9ec5"
+      },
+      "304113": {
+        "tile": "tile-93256.png",
+        "glyph": "glyph-93256.png",
+        "key": "Resource.Meat",
+        "colour": "#e18f8f"
+      },
+      "304504": {
+        "tile": "tile-93811.png",
+        "glyph": "glyph-93811.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "305506": {
+        "tile": "tile-92582.png",
+        "glyph": "glyph-92582.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "308077": {
+        "tile": "tile-75090.png",
+        "glyph": "glyph-75090.png",
+        "key": "Resource.Plank",
+        "colour": "#f0c056"
+      },
+      "308078": {
+        "tile": "tile-75091.png",
+        "glyph": "glyph-75091.png",
+        "key": "Resource.Bottle",
+        "colour": "#8e9ec5"
+      },
+      "308079": {
+        "tile": "tile-75092.png",
+        "glyph": "glyph-75092.png",
+        "key": "Resource.Paper",
+        "colour": "#8e9ec5"
+      },
+      "309166": {
+        "tile": "tile-80722.png",
+        "glyph": "glyph-80722.png",
+        "key": "Resource.Glass",
+        "colour": "#8e9ec5"
+      },
+      "309169": {
+        "tile": "tile-80725.png",
+        "glyph": "glyph-80725.png",
+        "key": "Resource.Wood",
+        "colour": "#f0c056"
+      },
+      "309486": {
+        "tile": "tile-81402.png",
+        "glyph": "glyph-81402.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "310332": {
+        "tile": "tile-79645.png",
+        "glyph": "glyph-79645.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "310740": {
+        "tile": "tile-78917.png",
+        "glyph": "glyph-78917.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "312275": {
+        "tile": "tile-111306.png",
+        "glyph": "glyph-111306.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "312704": {
+        "tile": "tile-108200.png",
+        "glyph": "glyph-108200.png",
+        "key": "Resource.Reed",
+        "colour": "#f0c056"
+      },
+      "314863": {
+        "tile": "tile-114559.png",
+        "glyph": "glyph-114559.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "318457": {
+        "tile": "tile-99246.png",
+        "glyph": "glyph-99246.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "319667": {
+        "tile": "tile-97586.png",
+        "glyph": "glyph-97586.png",
+        "key": "Resource.Bread",
+        "colour": "#db4954"
+      },
+      "319673": {
+        "tile": "tile-97592.png",
+        "glyph": "glyph-97592.png",
+        "key": "Resource.Concoction",
+        "colour": "#96d9ba"
+      },
+      "319676": {
+        "tile": "tile-97595.png",
+        "glyph": "glyph-97595.png",
+        "key": "Resource.Stroganoff",
+        "colour": "#db4954"
+      },
+      "319679": {
+        "tile": "tile-97598.png",
+        "glyph": "glyph-97598.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "319680": {
+        "tile": "tile-97599.png",
+        "glyph": "glyph-97599.png",
+        "key": "Resource.Cookie",
+        "colour": "#f99adf"
+      },
+      "319683": {
+        "tile": "tile-97602.png",
+        "glyph": "glyph-97602.png",
+        "key": "Resource.Cheese",
+        "colour": "#db4954"
+      },
+      "319696": {
+        "tile": "tile-97615.png",
+        "glyph": "glyph-97615.png",
+        "key": "Resource.GingerbreadMan",
+        "colour": "#f99adf"
+      },
+      "320441": {
+        "tile": "tile-106846.png",
+        "glyph": "glyph-106846.png",
+        "key": "Resource.Mushroom",
+        "colour": "#e18f8f"
+      },
+      "320491": {
+        "tile": "tile-106081.png",
+        "glyph": "glyph-106081.png",
+        "key": "Resource.Fondue",
+        "colour": "#f99adf"
+      },
+      "320813": {
+        "tile": "tile-103664.png",
+        "glyph": "glyph-103664.png",
+        "key": "Resource.Wheat",
+        "colour": "#e18f8f"
+      }
+    }
+  }
 }
