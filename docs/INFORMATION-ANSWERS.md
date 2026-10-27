@@ -81,7 +81,7 @@ Source: research repository `kellan/outlanders2-research`, branch `codex/playtes
 | Fishing test setup could not reach a working dock (B2) | recorded, no result | row kept open with the placement problem |
 
 ## Local agent playtest, 27 October 2026 — recorded
-Source: wiki branch `codex/playtest-2026-10-27` (commits 484d8521 to 869d2440), `docs/INFORMATION-ANSWERS.md` there, and issue 10 comments 6445945995 to 6445960050. The cited screenshots are copied to `assets/gameplay-evidence/` as compressed JPEGs. The branch's older commits repeat the 26 October batch already recorded, and its move of CONTENT-NOTES.md into `docs/` was not taken.
+Source: wiki branch `codex/playtest-2026-10-27` (commits 484d8521 to 925ee57b), `docs/INFORMATION-ANSWERS.md` there, and issue 10 comments 6445945995 to 6445960050. The cited screenshots are copied to `assets/gameplay-evidence/` as compressed JPEGs. The branch's older commits repeat the 26 October batch already recorded, and its move of CONTENT-NOTES.md into `docs/` was not taken.
 
 | Entry | Status | Recorded as |
 |---|---|---|
@@ -98,3 +98,4 @@ Source: wiki branch `codex/playtest-2026-10-27` (commits 484d8521 to 869d2440), 
 | Evergreen Trading Outpost: three-worker follow-up (commit 95534692) | recorded | observation `outpost-three-workers`: 234–269 s, no visible speed-up over one worker (216–232 s); page text updated |
 | Fishing Dock: storage stop at 72 Meat (commit 95534692) | recorded | observation `fishing-dock-storage`; matches the decoded pile capacity of 72 |
 | Tropiclands and Winterlands Trading Outpost field guides (commit f272b4b5) | recorded | field-guide recipes on both outposts (8 Glass Pane → 9 Wheat or 6 Animal Hide; 8 Animal Hide → 6 Glass Pane or 9 Wheat); match the stored trades, cost and workers |
+| Fishing Dock: follow-up sampling limits and setup (commit 925ee57b) | recorded, no result | no per-position figures; the B2 test and row now carry the setup advice (follow one fisher; a Market set to Meat empties the dock) |
