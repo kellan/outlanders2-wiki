@@ -35,7 +35,7 @@ Rows: *Which building plants Mesquite in sandbox Drylands*, *Crop availability p
 Row: *What demolishing a finished building, and a half-built site, gives back*. Done for the Basic House (3 of 6 Logs back; a half-built site returned everything delivered) and the Bakery (5 of 9 Clay, 2 of 4 Stone back, 27 Oct 2026): half of each material, rounded up. Optional next step: recycle a half-built Bakery after some but not all materials arrive, to check that part-built sites return everything delivered for buildings other than houses.
 
 ### A7 Trading Outpost trade `trade`
-Row: *How long one Trading Outpost trade takes, and whether the outputs really are one or the other*. In an Evergreen sandbox, build a Trading Outpost and open its Resources tab; screenshot it with Glass Pane selected. Keep Wheat flowing and note the in-game day and hour when the Wheat store reaches 12 and when the 6 Glass Panes appear; repeat once. Then switch to Animal Hide and confirm the next trade gives Hides and no Glass. If you can, take the Tropiclands and Winterlands outposts' field guides too (expected: 8 Glass Pane for 6 Animal Hide or 9 Wheat; 8 Animal Hide for 9 Wheat or 6 Glass Pane).
+Row: *How long one Trading Outpost trade takes*. Done once for Evergreen (27 Oct 2026): one worker, 216–232 s at normal speed from a full 12-Wheat store to the sixth good, and switching the import works as the files say. Still useful: repeat with 3 workers to see whether it gets faster, and capture the Tropiclands and Winterlands outposts' field guides (expected: 8 Glass Pane for 6 Animal Hide or 9 Wheat; 8 Animal Hide for 9 Wheat or 6 Glass Pane).
 
 ## Part B: timed tests (one per session)
 

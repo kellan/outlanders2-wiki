@@ -88,3 +88,5 @@ Source: wiki branch `codex/playtest-2026-10-27` (commit 484d8521), `docs/INFORMA
 | Basic House, Plank House, Brick House, Two-Story House: complete field-guide cards | recorded | `ui_observations.buildings`; costs, beds and descriptions match the decoded data |
 | Playground, Zen Garden, Fitness Park: complete field-guide cards | recorded | `ui_observations.buildings`; costs and Fitness Park's 2 worker slots match the decoded data |
 | Finished Bakery refunds 5 Clay and 2 Stone (A6) | recorded | observation `bakery-demolition-refund`; row updated: half of each material, rounded up |
+| Evergreen Trading Outpost: complete guide and first trade (commit e45ca62b) | recorded | guide matches the recorded card (12 Wheat; Glass Pane and Animal Hide shown; 6 Plank + 12 Stone; 3 workers); the agent's "Ice" and "Leather" are icon readings of Glass Pane and Animal Hide |
+| Evergreen Trading Outpost: switching product and timed second trade (A7) | recorded | observation `evergreen-outpost-trade`; one import at a time confirmed; 216–232 s, one trial |

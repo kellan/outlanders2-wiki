@@ -6480,7 +6480,10 @@
         ],
         "screenshot": "fieldguide/Trading-Outpost-Evergreen.jpg",
         "captured": "2026-10-26, local agent playtest (field guide)",
-        "discrepancy": "The guide lists both goods under one Wheat count. The building's outputs are exclusive and the game files store two separate 12 Wheat trades, so one trade gives 6 Glass Panes or 6 Animal Hides, whichever is selected on the Resources tab. Corrected 2026-10-26; this page first read it as both."
+        "discrepancy": "The guide lists both goods under one Wheat count. The building's outputs are exclusive and the game files store two separate 12 Wheat trades, so one trade gives 6 Glass Panes or 6 Animal Hides, whichever is selected on the Resources tab. Corrected 2026-10-26; this page first read it as both.",
+        "more_screenshots": [
+          "trade/evergreen-outpost-guide.jpg"
+        ]
       },
       "Trappers' Hut": {
         "claims": [

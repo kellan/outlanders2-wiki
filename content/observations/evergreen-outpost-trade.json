@@ -1,0 +1,16 @@
+{
+  "id": "evergreen-outpost-trade",
+  "target": {
+    "type": "buildings",
+    "id": "75226"
+  },
+  "claim": "One trade turns 12 Wheat into 6 of the one import that is switched on in the outpost's Resources tab; switching on the other import pauses the first. In the test, the first trade gave 6 Glass Pane and no Animal Hide; after switching, the next gave 6 Animal Hide while the Glass Pane stock stayed at 6. From the store reaching 12 Wheat to the sixth good unloading took 216 to 232 seconds at normal speed, about three quarters of a game day, with one worker.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "30 (254)",
+    "date": "2026-10-27",
+    "reference": "Local agent playtest, 27 October 2026: wiki branch codex/playtest-2026-10-27 (commit e45ca62b), docs/INFORMATION-ANSWERS.md entries \"Evergreen Trading Outpost — complete guide and first Ice trade\" and \"Evergreen Trading Outpost — switching product and measured second trade\". Screenshots: gameplay-evidence/trade/ (resources-initial-ice-selected, day16-full12-161334Z, day17-ice6-161844Z, day17-switched-leather, day27-wheat12-163547Z, day28-leather6-163933Z)."
+  },
+  "notes": "Evergreen sandbox (Edgar, Medium map, Average population), one outpost worker, nothing consuming the imports. The Resources panel shows icons only; the agent called them Ice and Leather, and they are the Glass Pane and Animal Hide glyphs the decoded trade formulas name. The timing is bracketed by screenshot timestamps (12 Wheat at 16:35:47.6, 5 Goods at 16:39:23.3, 6 at 16:39:33.5 UTC), is a single trial, and includes the worker going to sleep before unloading finished; the first trade, interrupted by a night, is not timed. It is total elapsed time, not a work duration that scales with workers."
+}
