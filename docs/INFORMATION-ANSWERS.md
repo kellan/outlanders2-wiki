@@ -81,7 +81,7 @@ Source: research repository `kellan/outlanders2-research`, branch `codex/playtes
 | Fishing test setup could not reach a working dock (B2) | recorded, no result | row kept open with the placement problem |
 
 ## Local agent playtest, 27 October 2026 — recorded
-Source: wiki branch `codex/playtest-2026-10-27` (commits 484d8521 to f272b4b5), `docs/INFORMATION-ANSWERS.md` there, and issue 10 comments 6445945995 to 6445960050. The cited screenshots are copied to `assets/gameplay-evidence/` as compressed JPEGs. The branch's older commits repeat the 26 October batch already recorded, and its move of CONTENT-NOTES.md into `docs/` was not taken.
+Source: wiki branch `codex/playtest-2026-10-27` (commits 484d8521 to 869d2440), `docs/INFORMATION-ANSWERS.md` there, and issue 10 comments 6445945995 to 6445960050. The cited screenshots are copied to `assets/gameplay-evidence/` as compressed JPEGs. The branch's older commits repeat the 26 October batch already recorded, and its move of CONTENT-NOTES.md into `docs/` was not taken.
 
 | Entry | Status | Recorded as |
 |---|---|---|
@@ -90,7 +90,8 @@ Source: wiki branch `codex/playtest-2026-10-27` (commits 484d8521 to f272b4b5), 
 | Finished Bakery refunds 5 Clay and 2 Stone (A6) | recorded | observation `bakery-demolition-refund`; row updated: half of each material, rounded up |
 | Evergreen Trading Outpost: complete guide and first Glass trade (commits e45ca62b, 3c6f22e7) | recorded | guide matches the recorded card (12 Wheat; Glass Pane and Animal Hide shown; 6 Plank + 12 Stone; 3 workers); the agent's first reading of the icons as Ice and Leather was corrected to Glass and Hides |
 | Evergreen Trading Outpost: switching product and timed second trade (A7) | recorded | observation `evergreen-outpost-trade`; one import at a time confirmed; 216–232 s, one trial |
-| Beer: low-to-full Fun refill on day 30 (commit f92548fd) | recorded | observation `beer-fun-refill` (open: the agent rates it likely); fits the stored Fun 4 over the displayed 2; row kept open for the one-Beer check and Cookie and Stew. Brewery card matches the decoded data and the 26 Oct card |
+| Beer: low-to-full Fun refill on day 30 (commit f92548fd) | recorded | observation `beer-fun-refill`; fits the stored Fun 4 over the displayed 2. Brewery card matches the decoded data and the 26 Oct card |
+| Beer: drinking action linked to the refill, day 44 (commit 869d2440) | recorded | `beer-fun-refill` now confirmed: "Drinking a mug of Beer" seen with Fun low, then full; row kept open for Cookie and Stew and an exact +100 |
 | Fishing Dock: 20 casts at one position (commit 82e7c7ec, B2) | recorded | observation `fishing-dock-casts`; 0/1/2 Meat, 1.35 a cast, so this is the stored 0–2 spot; row kept open for the two 0–1 spots |
 | Fishing Dock: full field-guide card (commit 82e7c7ec) | recorded, no change | matches the decoded data and the 26 Oct card (0–2 Meat, 18 Planks, 3 workers) |
 | Local icon export (commit 14850def) | recorded | PR #72: 893 files into `assets/wiki-artwork/`, side-by-side as `icon-check.jpg`; worker and category icons still open on #62 |
