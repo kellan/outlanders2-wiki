@@ -21,3 +21,8 @@ console.log('PASS: reader/research separation, plant names, crop-only content, o
  for(const b of ['winery','brewery','cheesery','mead-hall','fondue-bar','fishing-dock'])if(!hp.render('buildings/'+b+'/').includes('Checked against the in-game field guide'))throw new Error(b+' field guide not recorded');
  const fs4=await import('node:fs');for(const f of ['fieldguide/Winery.jpg','refund/refund-3-finished-after-9-logs.jpg','challenges/challenges-menu-rules.jpg'])if(!fs4.existsSync(new URL('../assets/gameplay-evidence/'+f,import.meta.url)))throw new Error('missing evidence '+f);
  console.log('PASS: local agent playtest answers recorded and shown.');}
+{const {harness:hz}=await import('./render-harness.mjs');const h2=await hz();const strip=s=>s.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');
+ const bk=strip(h2.render('buildings/bakery/'));if(!bk.includes('5 Clay and 2 Stone'))throw new Error('Bakery refund observation missing');
+ for(const b of ['basic-house','plank-house','brick-house','two-story-house','playground','zen-garden','fitness-park'])if(!h2.render('buildings/'+b+'/').includes('Checked against the in-game field guide'))throw new Error(b+' field guide not shown');
+ const fs7=await import('node:fs');for(const f of ['fieldguide/Fitness-Park.jpg','refund/refund-8-bakery-preview.jpg'])if(!fs7.existsSync(new URL('../assets/gameplay-evidence/'+f,import.meta.url)))throw new Error('missing evidence '+f);
+ console.log('PASS: 27 October playtest answers recorded and shown.');}

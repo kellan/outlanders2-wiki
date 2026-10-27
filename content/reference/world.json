@@ -6506,6 +6506,65 @@
         ],
         "screenshot": "fieldguide/Winery.jpg",
         "captured": "2026-10-26, local agent playtest (field guide)"
+      },
+      "Basic House": {
+        "claims": [
+          "Field guide: “A very basic, but still charming, log house.” Provides Housing, 4 beds.",
+          "Construction: 6 Log. No Workers row."
+        ],
+        "screenshot": "fieldguide/Basic-House.jpg",
+        "captured": "2026-10-27, local agent playtest (field guide)"
+      },
+      "Plank House": {
+        "claims": [
+          "Field guide: “A fresh, spacious house for five people.” Provides Housing, 5 beds.",
+          "Construction: 6 Plank. No Workers row."
+        ],
+        "screenshot": "fieldguide/Plank-House.jpg",
+        "captured": "2026-10-27, local agent playtest (field guide)"
+      },
+      "Brick House": {
+        "claims": [
+          "Field guide: “A strong but expensive house for six people.” Provides Housing, 6 beds.",
+          "Construction: 12 Brick. No Workers row."
+        ],
+        "screenshot": "fieldguide/Brick-House.jpg",
+        "captured": "2026-10-27, local agent playtest (field guide)"
+      },
+      "Two-Story House": {
+        "claims": [
+          "Field guide: “A beautiful and sturdy two-story house for eight people.” Provides Housing, 8 beds.",
+          "Construction: 8 Brick + 8 Stone. No Workers row."
+        ],
+        "screenshot": "fieldguide/Two-Story-House.jpg",
+        "captured": "2026-10-27, local agent playtest (field guide)"
+      },
+      "Playground": {
+        "claims": [
+          "Field guide: “A public space with activities that provide Fun.” Provides Fun 1.",
+          "Construction: 9 Log. No Workers row."
+        ],
+        "screenshot": "fieldguide/Playground.jpg",
+        "captured": "2026-10-27, local agent playtest (field guide)",
+        "discrepancy": "The card shows Fun 1. One visit is stored as 2 Fun units (decoded social spots, Gathering places page). The guide shows half the stored value, as it does for Beer (Fun 2 shown, 4 stored); which number play uses is the open Beer test."
+      },
+      "Zen Garden": {
+        "claims": [
+          "Field guide: “A minimalistic public environment where outlanders can meditate and raise their Wellness.” Provides Wellness 1.",
+          "Construction: 6 Stone. No Workers row."
+        ],
+        "screenshot": "fieldguide/Zen-Garden.jpg",
+        "captured": "2026-10-27, local agent playtest (field guide)",
+        "discrepancy": "The card shows Wellness 1. One visit is stored as 2 Wellness units (decoded social spots, Gathering places page). The guide shows half the stored value, as it does for Beer (Fun 2 shown, 4 stored); which number play uses is the open Beer test."
+      },
+      "Fitness Park": {
+        "claims": [
+          "Field guide: “Fitness instructors utilize this space to lead various activities that raise the Wellness levels of participants.” Provides Wellness 3.",
+          "Construction: 10 Plank + 6 Stone. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Fitness-Park.jpg",
+        "captured": "2026-10-27, local agent playtest (field guide)",
+        "discrepancy": "The card shows Wellness 3. One visit is stored as 6 Wellness units (decoded social spots, Gathering places page). The guide shows half the stored value, as it does for Beer (Fun 2 shown, 4 stored); which number play uses is the open Beer test."
       }
     },
     "campaigns": [

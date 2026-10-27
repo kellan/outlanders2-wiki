@@ -1,0 +1,16 @@
+{
+  "id": "bakery-demolition-refund",
+  "target": {
+    "type": "buildings",
+    "id": "57395"
+  },
+  "claim": "Demolishing a finished Bakery (cost 9 Clay + 4 Stone) gives back 5 Clay and 2 Stone: half of each material, an odd amount rounded up. The Recycle tab previews the same amounts.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "30 (254)",
+    "date": "2026-10-27",
+    "reference": "Local agent playtest, 27 October 2026: wiki branch codex/playtest-2026-10-27 (commit 484d8521), docs/INFORMATION-ANSWERS.md there, and issue 10 comments 6445945995 to 6445960050: entry \"Finished Bakery refunds 5 Clay and 2 Stone\". Screenshots: gameplay-evidence/refund/ (refund-8-clay-production-stopped, refund-8-bakery-complete, refund-8-bakery-preview, refund-8-bakery-after)."
+  },
+  "notes": "Evergreen sandbox, 9 villagers. All three Clay Pit workers were unassigned before the baseline and nothing else used or recycled Clay or Stone during the test; the Bakery had no Flour and had made no Bread. Town Clay went from 9 to 14 and Stone from 0 to 2. Together with the Basic House (3 of 6 Logs back), this fits half of each material, rounded up; it has not been shown for every building, and a half-built Bakery was not tested."
+}

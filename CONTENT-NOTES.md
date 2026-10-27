@@ -1,3 +1,13 @@
+## Local agent playtest, 27 October 2026 (issues 10 and 31)
+
+The local agent published its answers on the wiki branch `codex/playtest-2026-10-27` (commit 484d8521) and posted them to issue 10. Only that commit's evidence and entries were taken. The branch's older commits repeat the 26 October batch, and its move of CONTENT-NOTES.md into `docs/` was left out.
+
+- **Field guides:** complete cards for the Basic, Plank, Brick and Two-Story House, the Playground, the Zen Garden and the Fitness Park. Each goes into `ui_observations.buildings`.
+- **They match the decoded data:** every cost, bed count, description and worker slot (Fitness Park 2).
+- **One systematic difference:** the cards show half the stored per-visit need value: Playground Fun 1 against 2, Zen Garden Wellness 1 against 2, Fitness Park Wellness 3 against 6. That is the same pattern as Beer (Fun 2 shown, 4 stored). Both values are kept on each page, and the open Beer test row now lists these as further examples.
+- **Bakery refund (A6):** a finished Bakery (9 Clay + 4 Stone) returned 5 Clay and 2 Stone, and the Recycle tab previewed the same. With the Basic House (3 of 6 Logs) this fits half of each material, rounded up. It is recorded as observation `bakery-demolition-refund`, and the row now asks only about half-built sites of other buildings.
+- **Screenshots:** eleven, copied as compressed JPEGs (about 0.8 MB).
+
 ## Footprints in game squares (2026-10-26)
 
 The maintainer reported that in game a crop field takes one square and a tree 2 × 2, while the wiki showed 2 × 2 and 4 × 4. The stored `GridDimensionsBehaviour` values use two units per in-game square: every stored dimension is even, and a road is 2 × 2. Footprints in infoboxes, the buildings directory, the Houses table and the food-sources table are now halved; the Basic House is 2 × 2 and the Trading Outpost 3 × 3. The research aside still shows the raw stored dimensions, labelled as such. Plant infoboxes gain a Footprint row. The Sandbox page shows map sizes as stored, because it is not established that they use the same units.
