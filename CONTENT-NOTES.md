@@ -1,3 +1,10 @@
+## Home page art (2026-10-27)
+
+The maintainer asked for a more appealing home page. Everything added is game artwork the site already carried; nothing is drawn.
+- **Biome strip:** the four biome island previews (Drylands, Evergreen, Tropiclands, Winterlands), linking to their biome pages. Spookylands has only a flat map shape, so it is left out of the strip. The strip replaces the text-only Biomes box.
+- **Section icons:** each section header carries a representative icon: Bakery, Apple Tree, Plank, Bread, Windmill, Basic House and Book, plus Edgar's and Pablo's portraits for Leaders and Campaigns and the Drylands island for Levels.
+- **Link icons:** building, plant, resource, food and chain links show their small icon tile, and leaders show a round portrait.
+
 ## Footprints in game squares (2026-10-26)
 
 The maintainer reported that in game a crop field takes one square and a tree 2 × 2, while the wiki showed 2 × 2 and 4 × 4. The stored `GridDimensionsBehaviour` values use two units per in-game square: every stored dimension is even, and a road is 2 × 2. Footprints in infoboxes, the buildings directory, the Houses table and the food-sources table are now halved; the Basic House is 2 × 2 and the Trading Outpost 3 × 3. The research aside still shows the raw stored dimensions, labelled as such. Plant infoboxes gain a Footprint row. The Sandbox page shows map sizes as stored, because it is not established that they use the same units.
