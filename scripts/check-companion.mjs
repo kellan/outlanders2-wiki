@@ -286,3 +286,9 @@ console.log('PASS: research handoff integration.');
  const raw=(src.match(/dimensions\.x\}? × \$\{(?:fmt\()?[a-z]+\.dimensions\.z/g)||[]).length;assert.ok(raw<=1,'footprints go through footprint(): only the raw research aside may print stored dimensions ('+raw+' found)');
  assert.ok(!/within \$\{plural\(sp\.max_reproduction_distance,'tile'\)/.test(src),'stored distances are labelled grid units, not tiles');
  console.log('PASS: sizes in game squares; stored distances labelled as grid units.');}
+{const home=h.render('');
+ for(const b of ['drylands','evergreen','tropiclands','winterlands'])assert.ok(home.includes(`href="/biomes/${b}/"><img class="gi home-biome-img"`),'home biome island '+b);
+ assert.ok(!home.includes('mapshape-valley'),'only island previews in the home strip');
+ assert.ok((home.match(/home-head-icon/g)||[]).length>=9,'section header icons');assert.ok((home.match(/gi gi-inline/g)||[]).length>60,'icons beside home links');assert.ok(home.includes('home-portrait'),'leader portraits');
+ assert.ok(!/<h2><a href="\/biomes\/">/.test(home),'the biome strip replaces the Biomes box');
+ console.log('PASS: home page art: biome islands, section icons, link icons and leader portraits.');}
