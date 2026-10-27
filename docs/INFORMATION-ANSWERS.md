@@ -79,3 +79,14 @@ Source: research repository `kellan/outlanders2-research`, branch `codex/playtes
 | Meal test and five-day observation (B1) | recorded | observation `five-day-meal-log` (Needs page) |
 | Food preference remains uncontrolled (B1) | recorded, no conclusion | row kept open with the limitation |
 | Fishing test setup could not reach a working dock (B2) | recorded, no result | row kept open with the placement problem |
+
+## Local agent playtest, 27 October 2026 — recorded
+Source: wiki branch `codex/playtest-2026-10-27` (commit 484d8521), `docs/INFORMATION-ANSWERS.md` there, and issue 10 comments 6445945995 to 6445960050. The cited screenshots are copied to `assets/gameplay-evidence/` as compressed JPEGs. The branch's older commits repeat the 26 October batch already recorded, and its move of CONTENT-NOTES.md into `docs/` was not taken.
+
+| Entry | Status | Recorded as |
+|---|---|---|
+| Basic House, Plank House, Brick House, Two-Story House: complete field-guide cards | recorded | `ui_observations.buildings`; costs, beds and descriptions match the decoded data |
+| Playground, Zen Garden, Fitness Park: complete field-guide cards | recorded | `ui_observations.buildings`; costs and Fitness Park's 2 worker slots match the decoded data |
+| Finished Bakery refunds 5 Clay and 2 Stone (A6) | recorded | observation `bakery-demolition-refund`; row updated: half of each material, rounded up |
+| Evergreen Trading Outpost: complete guide and first Glass trade (commits e45ca62b, 3c6f22e7) | recorded | guide matches the recorded card (12 Wheat; Glass Pane and Animal Hide shown; 6 Plank + 12 Stone; 3 workers); the agent's first reading of the icons as Ice and Leather was corrected to Glass and Hides |
+| Evergreen Trading Outpost: switching product and timed second trade (A7) | recorded | observation `evergreen-outpost-trade`; one import at a time confirmed; 216–232 s, one trial |
