@@ -6,7 +6,7 @@
   "description": "A static, evidence-backed Outlanders 2 wiki",
   "scripts": {
     "dev": "node scripts/serve.mjs",
-    "test": "npm run validate && node scripts/check.mjs && node scripts/check-scenarios.mjs && node scripts/check-reader-pages.mjs && node scripts/check-contributions.mjs && node scripts/check-companion.mjs",
+    "test": "npm run validate && node scripts/check.mjs && node scripts/check-scenarios.mjs && node scripts/check-reader-pages.mjs && node scripts/check-contributions.mjs && node scripts/check-companion.mjs && node scripts/check-fragments.mjs",
     "build": "node scripts/build.mjs",
     "content:find": "node scripts/find-content.mjs",
     "content:derive": "node scripts/derive-recipes.mjs",

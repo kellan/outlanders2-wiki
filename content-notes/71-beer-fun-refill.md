@@ -1,0 +1,11 @@
+## Beer refill and Fishing Dock casts (2026-10-27, issue 10)
+
+The local agent watched a brewer's Fun ring on day 30 with the Brewery as the town's only Fun source. It went from about a fifth full to full in one step, with no half-full stage, which fits Beer's stored Fun 4 (100 points) rather than the field guide's Fun 2. Recorded as observation `beer-fun-refill` with four screenshots in `assets/gameplay-evidence/beer/`. The pages keep showing both values. A second test on day 44 (commit 869d2440) caught a villager's action reading "Drinking a mug of Beer" while her Fun was low, then full, so the observation is confirmed. The information-needed row stays open for Cookie and Stew; an exact +100 is not measured.
+
+The agent also logged 20 Fishing Dock casts by one fisher at one position: four 0s, five 1s and eleven 2s, 1.35 Meat a cast. A catch of 2 marks it as the stored 0–2 spot. Recorded as observation `fishing-dock-casts` with the cast log and contact sheets in `assets/gameplay-evidence/fishing/`. The 1.35 is above the 1 the page assumes for that roll, but 20 casts cannot settle it, so the page wording is unchanged and the row asks for the two 0–1 spots and more casts.
+
+The same branch then brought three more results (commits 95534692 and f272b4b5):
+- **Trading Outpost with three workers:** one trade took 234–269 s against 216–232 s with one worker, so no visible speed-up. Conditions differed (night, staffing), so it is not proof workers never help. Observation `outpost-three-workers`; the trade section says so.
+- **Fishing Dock storage:** the dock stopped at 72 Meat with "No more storage space", matching its single stored pile of 72. Observation `fishing-dock-storage`. The agent also found a lone fisher moves to the first position, so removing workers does not isolate the other spots; the row now says so.
+- **Tropiclands and Winterlands outpost guides:** both match the stored trades, cost and worker slots and are recorded as field-guide recipes (choice of one), with the screenshots added to the Trading Outpost card.
+- **Fix found on the way:** resource infoboxes listed only one Trading Outpost per resource, and it was the hidden base outpost ("1 Wheat each" for Animal Hide and Glass Pane, where a trade costs 2). Hidden buildings are now left out of Made from, and each outpost is listed with its biome.
