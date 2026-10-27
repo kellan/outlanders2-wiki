@@ -1,3 +1,7 @@
+## Beer refills Fun from low to full (2026-10-27, issue 10)
+
+The local agent watched a brewer's Fun ring on day 30 with the Brewery as the town's only Fun source. It went from about a fifth full to full in one step, with no half-full stage, which fits Beer's stored Fun 4 (100 points) rather than the field guide's Fun 2. Recorded as observation `beer-fun-refill` with four screenshots in `assets/gameplay-evidence/beer/`. The pages keep showing both values. The information-needed row stays open: nobody saw the Beer stock fall by one at that moment, and Cookie and Stew are untested.
+
 ## Local agent playtest, 27 October 2026 (issues 10 and 31)
 
 The local agent published its answers on the wiki branch `codex/playtest-2026-10-27` (commit 484d8521) and posted them to issue 10. Only that commit's evidence and entries were taken. The branch's older commits repeat the 26 October batch, and its move of CONTENT-NOTES.md into `docs/` was left out.

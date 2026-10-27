@@ -26,4 +26,5 @@ console.log('PASS: reader/research separation, plant names, crop-only content, o
  for(const b of ['basic-house','plank-house','brick-house','two-story-house','playground','zen-garden','fitness-park'])if(!h2.render('buildings/'+b+'/').includes('Checked against the in-game field guide'))throw new Error(b+' field guide not shown');
  const fs7=await import('node:fs');for(const f of ['fieldguide/Fitness-Park.jpg','refund/refund-8-bakery-preview.jpg'])if(!fs7.existsSync(new URL('../assets/gameplay-evidence/'+f,import.meta.url)))throw new Error('missing evidence '+f);
  const to2=strip(h2.render('buildings/trading-outpost/'));if(!to2.includes('216 to 232 seconds')||!to2.includes('6 Glass Pane and no Animal Hide'))throw new Error('outpost trade timing or choice observation missing');
+ const beer=strip(h2.render('verification/resources/beer/'));if(!beer.includes('low (about a fifth full) to completely full')||!fs7.existsSync(new URL('../assets/gameplay-evidence/beer/day30-joshua-after-172609916Z.jpg',import.meta.url)))throw new Error('Beer Fun refill observation missing');
  console.log('PASS: 27 October playtest answers recorded and shown.');}
