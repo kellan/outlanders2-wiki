@@ -1,1 +1,0 @@
-Every building, resource and need icon is now the game's own: a coloured frame, white glyph and dark lines, as the in-game field guide draws them (issue 62). The Buildings page subtitle links work again.
