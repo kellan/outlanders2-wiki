@@ -255,3 +255,29 @@ Source: research repository `kellan/outlanders2-research`, branch `codex/playtes
 - Evidence: icon-check.png; assets/wiki-artwork/tiles.json and its mapped PNG files
 - Confidence: confirmed
 - Notes: This addresses the core export and broken-glyph replacement in #62. Worker icon identification and lower-priority category/challenge icons were not part of this exporter and remain open. The exporter printed a sysctl permission warning but completed successfully with zero skips.
+
+## Evergreen Trading Outpost — three-worker follow-up
+- Status: new
+- Row: Trading Outpost trade (PLAYTESTS A7 `trade`, requested in issue #10)
+- Fact: With three assigned workers, one further 12-Wheat batch added 6 Hides (stock 6 to 12), while Glass stayed at 6. Elapsed normal-speed time from the store reaching 12 Wheat to all six additional Hides being unloaded was bounded at approximately 234–269 seconds. This trial does not demonstrate a speedup over the earlier one-worker trial (216–232 seconds).
+- Target: Trading Outpost (Evergreen)
+- Obtained by: timestamped gameplay screenshots and Resources-panel counts
+- Conditions: Same Playtest Trade sandbox, Edgar, 10 villagers, food available, Autobuild for setup. Violet, Nancy and Joshua assigned throughout the measured interval on days 42–43. Hides enabled, Glass paused, no import consumers. Brewery unstaffed. Normal speed from 8 Wheat onward without pauses, guide modals or staffing changes through completion. Night occurred during the trade. Farm and food staffing differed from the earlier trial.
+- Game version: 30 (254)
+- Date: 2026-10-27
+- Evidence: trade-three-2026-10-27/wheat9.png; trade-three-2026-10-27/wheat12.png; trade-three-2026-10-27/hides11.png; trade-three-2026-10-27/hides12.png; trade-three-2026-10-27/three-workers.png
+- Confidence: confirmed for output and bounded duration; inconclusive for staffing effect
+- Notes: UTC screenshots: 9 Wheat at 18:30:25.933, 12 Wheat at 18:31:00.273, 11 Hides at 18:34:54.076, 12 Hides at 18:34:54.510. These bound elapsed time above 233.803 and below 268.577 seconds, subject to capture latency. Capture-batch gaps widen the bounds. Different time of day, worker needs and hauling conditions prevent a controlled one-versus-three speed claim. This measures total elapsed time including night and unloading, not balloon flight or active work alone.
+
+## Fishing Dock — observed storage stop at 72 Meat
+- Status: new
+- Row: Effective output storage capacity per production building
+- Fact: The Fishing Dock Resources panel reached 72 Meat and its main panel displayed "No more storage space" with three workers assigned.
+- Target: Fishing Dock
+- Obtained by: gameplay, paired Resources and workplace-status screenshots while paused
+- Conditions: Playtest Trade sandbox, Evergreen, day 41; Joshua, Violet and Nancy assigned. Dried Meat Shop not staffed until after this observation.
+- Game version: 30 (254)
+- Date: 2026-10-27
+- Evidence: fishing-2026-10-27/dock-full-count.png; fishing-2026-10-27/dock-full-status.png
+- Confidence: confirmed for this dock
+- Notes: Confirms the effective storage stop in this setup; does not establish all buildings' stop rules. Attempts to isolate the second fishing position by removing the first worker failed because the remaining worker moved to the first position on subsequent casts. Worker-list order must not be treated as a permanent fishing-spot assignment. The other two positions' 20-cast samples remain open.
