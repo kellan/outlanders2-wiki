@@ -1,0 +1,16 @@
+{
+  "id": "beer-fun-refill",
+  "target": {
+    "type": "resources",
+    "id": "285901"
+  },
+  "claim": "Drinking one mug of Beer takes a villager's Fun meter from low to completely full in one step, with no half-full stage. Seen twice: a brewer on day 30, and on day 44 a villager whose activity read \"Drinking a mug of Beer\" while her Fun was still low. That is more than the Fun 2 (50 points) the field guide shows and fits the stored Fun 4 (100 points).",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "30 (254)",
+    "date": "2026-10-27",
+    "reference": "Local agent playtest, 27 October 2026: wiki branch codex/playtest-2026-10-27 (commits f92548fd and 869d2440), docs/INFORMATION-ANSWERS.md there, entries \"Beer — low-to-full Fun refill captured on day 30\" and \"Beer — drinking action linked to a low-to-full Fun refill\"; issue 10 comments 6448914817 and 6450897175. Screenshots: gameplay-evidence/beer/ (brewery-guide, day30-joshua-before-172609530Z, day30-joshua-after-172609916Z, day30-paused-after-fruit, day44-violet-drinking, day44-violet-low-during-drink, day44-violet-before, day44-violet-after, day44-violet-after-action)."
+  },
+  "notes": "Trade sandbox, Evergreen, 10 villagers, the Brewery the only Fun source and no Fun gear. Day 30: Joshua's ring went from low to full between captures 0.4 s apart, but his action was not visible. Day 44: Violet's action read \"Drinking a mug of Beer\" with Fun still low; on resuming, it went full between frames at 18:54:17.672 and 18:54:17.843 UTC, then her action read \"Having a sudden rush of inspiration\". The ring has no numbers and a minimum coloured segment, so the start point is approximate and an exact +100 is not measured; nobody saw the Beer stock fall by one. Cookie and Stew, which also show different values, are untested."
+}

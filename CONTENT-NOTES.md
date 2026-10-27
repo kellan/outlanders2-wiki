@@ -1,3 +1,5 @@
+New notes go in `content-notes/`, one file per change (`content-notes/<pr-number>-<slug>.md`), so pull requests don't collide here. This file keeps the notes written before 27 October 2026.
+
 ## Home page art (2026-10-27)
 
 The maintainer asked for a more appealing home page. Everything added is game artwork the site already carried; nothing is drawn.

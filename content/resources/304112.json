@@ -92,7 +92,36 @@
         299853,
         304090
       ],
-      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+      "status": "per-unit ratio derived from the recorded per-cycle recipe",
+      "per_cycle": {
+        "inputs": [
+          {
+            "resource_id": 309166,
+            "name": "Glass Pane",
+            "count": 8
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 304112,
+            "name": "Animal Hide",
+            "count": 6
+          },
+          {
+            "resource_id": 320813,
+            "name": "Wheat",
+            "count": 9
+          }
+        ],
+        "status": "confirmed",
+        "evidence": {
+          "kind": "field-guide",
+          "game_version": "30 (254)",
+          "date": "2026-10-27",
+          "reference": "Field guide screenshot gameplay-evidence/trade/tropiclands-outpost-guide.jpg (Local agent playtest, 27 October 2026: wiki branch codex/playtest-2026-10-27 (commits 95534692 and f272b4b5), docs/INFORMATION-ANSWERS.md there, entry \"Tropiclands Trading Outpost — full field-guide card\"). The guide shows the input and both imports under one card; as for the Evergreen outpost, the outputs are exclusive in the prefab and the stored trades match, so a trade gives one import or the other. No trade was run in this biome."
+        },
+        "choice": "one"
+      }
     },
     {
       "building_id": 75226,
