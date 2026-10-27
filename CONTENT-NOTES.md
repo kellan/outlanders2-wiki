@@ -1,3 +1,10 @@
+## Home page art (2026-10-27)
+
+The maintainer asked for a more appealing home page. Everything added is game artwork the site already carried; nothing is drawn.
+- **Biome strip:** the four biome island previews (Drylands, Evergreen, Tropiclands, Winterlands), linking to their biome pages. Spookylands has only a flat map shape, so it is left out of the strip. The strip replaces the text-only Biomes box.
+- **Section icons:** each section header carries a representative icon: Bakery, Apple Tree, Plank, Bread, Windmill, Basic House and Book, plus Edgar's and Pablo's portraits for Leaders and Campaigns and the Drylands island for Levels.
+- **Link icons:** building, plant, resource, food and chain links show their small icon tile, and leaders show a round portrait.
+
 ## Local agent playtest, 27 October 2026 (issues 10 and 31)
 
 The local agent published its answers on the wiki branch `codex/playtest-2026-10-27` (commit 484d8521) and posted them to issue 10. Only that commit's evidence and entries were taken. The branch's older commits repeat the 26 October batch, and its move of CONTENT-NOTES.md into `docs/` was left out.
