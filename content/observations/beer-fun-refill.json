@@ -5,12 +5,12 @@
     "id": "285901"
   },
   "claim": "Drinking Beer took a villager's Fun meter from low (about a fifth full) to completely full in one step, with no half-full stage in between. That is more than the Fun 2 (50 points) the field guide shows and fits the stored Fun 4 (100 points).",
-  "status": "confirmed",
+  "status": "open",
   "evidence": {
     "kind": "gameplay-test",
     "game_version": "30 (254)",
     "date": "2026-10-27",
     "reference": "Local agent playtest, 27 October 2026: wiki branch codex/playtest-2026-10-27 (commit f92548fd), docs/INFORMATION-ANSWERS.md there, entry \"Beer — low-to-full Fun refill captured on day 30\". Screenshots: gameplay-evidence/beer/ (brewery-guide, day30-joshua-before-172609530Z, day30-joshua-after-172609916Z, day30-paused-after-fruit)."
   },
-  "notes": "Trade sandbox, Evergreen, 10 villagers. The Brewery was the town's only Fun source, staffed by one brewer, Joshua, whose Fun ring went from low to full between captures 0.4 s apart on day 30. The ring has no numbers, so the starting point is approximate. The panel hid his current action and no Beer stock drop was captured, so that it was exactly one Beer, and an exact +100, are not proven. Cookie and Stew, which also show different values from the stored ones, were not tested."
+  "notes": "Trade sandbox, Evergreen, 10 villagers. The Brewery was the town's only Fun source, staffed by one brewer, Joshua, whose Fun ring went from low to full between captures 0.4 s apart on day 30. The ring has no numbers, so the starting point is approximate. The panel hid his current action and no Beer stock drop was captured, so that it was exactly one Beer, and an exact +100, are not proven. Cookie and Stew, which also show different values from the stored ones, were not tested. Kept open: the local agent rates the link to one Beer, and so the stored-value reading, as likely rather than confirmed."
 }

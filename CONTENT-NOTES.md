@@ -1,6 +1,8 @@
-## Beer refills Fun from low to full (2026-10-27, issue 10)
+## Beer refill and Fishing Dock casts (2026-10-27, issue 10)
 
-The local agent watched a brewer's Fun ring on day 30 with the Brewery as the town's only Fun source. It went from about a fifth full to full in one step, with no half-full stage, which fits Beer's stored Fun 4 (100 points) rather than the field guide's Fun 2. Recorded as observation `beer-fun-refill` with four screenshots in `assets/gameplay-evidence/beer/`. The pages keep showing both values. The information-needed row stays open: nobody saw the Beer stock fall by one at that moment, and Cookie and Stew are untested.
+The local agent watched a brewer's Fun ring on day 30 with the Brewery as the town's only Fun source. It went from about a fifth full to full in one step, with no half-full stage, which fits Beer's stored Fun 4 (100 points) rather than the field guide's Fun 2. Recorded as observation `beer-fun-refill` with four screenshots in `assets/gameplay-evidence/beer/`. The pages keep showing both values. The observation is marked open, as the agent rates it likely. The information-needed row stays open: nobody saw the Beer stock fall by one at that moment, and Cookie and Stew are untested.
+
+The agent also logged 20 Fishing Dock casts by one fisher at one position: four 0s, five 1s and eleven 2s, 1.35 Meat a cast. A catch of 2 marks it as the stored 0–2 spot. Recorded as observation `fishing-dock-casts` with the cast log and contact sheets in `assets/gameplay-evidence/fishing/`. The 1.35 is above the 1 the page assumes for that roll, but 20 casts cannot settle it, so the page wording is unchanged and the row asks for the two 0–1 spots and more casts.
 
 ## Local agent playtest, 27 October 2026 (issues 10 and 31)
 
