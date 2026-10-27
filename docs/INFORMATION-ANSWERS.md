@@ -281,3 +281,29 @@ Source: research repository `kellan/outlanders2-research`, branch `codex/playtes
 - Evidence: fishing-2026-10-27/dock-full-count.png; fishing-2026-10-27/dock-full-status.png
 - Confidence: confirmed for this dock
 - Notes: Confirms the effective storage stop in this setup; does not establish all buildings' stop rules. Attempts to isolate the second fishing position by removing the first worker failed because the remaining worker moved to the first position on subsequent casts. Worker-list order must not be treated as a permanent fishing-spot assignment. The other two positions' 20-cast samples remain open.
+
+## Winterlands Trading Outpost — full field-guide card
+- Status: new
+- Row: Field guide text, recipe, cost and worker slots for every building
+- Fact: Needs: 8 Hides. Provides icons: 6 Glass and 9 Wheat. Cost: 12 Stone + 6 Planks. Workers: 3. Description: "Outpost workers collect resources native to this biome and trade them for those from another biome."
+- Target: Trading Outpost (Winterlands)
+- Obtained by: full field-guide card opened from the sandbox Infrastructure catalog
+- Conditions: Existing Playtest Winterlands, slot 3, day 1, 9 villagers; game paused for inspection. No trade was run in this biome.
+- Game version: 30 (254)
+- Date: 2026-10-27
+- Evidence: trade-biomes-2026-10-27/winter-outpost-guide.png
+- Confidence: confirmed for displayed values
+- Notes: Provides lists the two displayed imports; this screenshot alone does not establish simultaneous output. Evergreen gameplay separately confirmed choosing one import at a time. Actual output and duration in Winterlands remain untested.
+
+## Tropiclands Trading Outpost — full field-guide card
+- Status: new
+- Row: Field guide text, recipe, cost and worker slots for every building
+- Fact: Needs: 8 Glass. Provides icons: 9 Wheat and 6 Hides. Cost: 12 Stone + 6 Planks. Workers: 3. Description: "Outpost workers collect resources native to this biome and trade them for those from another biome."
+- Target: Trading Outpost (Tropiclands)
+- Obtained by: full field-guide card opened from the sandbox Infrastructure catalog
+- Conditions: Existing Playtest Fishing, slot 6, day 1, 9 villagers; game paused for inspection. No trade was run in this biome.
+- Game version: 30 (254)
+- Date: 2026-10-27
+- Evidence: trade-biomes-2026-10-27/tropic-outpost-guide.png
+- Confidence: confirmed for displayed values
+- Notes: Provides lists the two displayed imports; this screenshot alone does not establish simultaneous output. Evergreen gameplay separately confirmed choosing one import at a time. Actual output and duration in Tropiclands remain untested.
