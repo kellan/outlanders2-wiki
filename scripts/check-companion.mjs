@@ -287,3 +287,9 @@ console.log('PASS: research handoff integration.');
  assert.ok(!/within \$\{plural\(sp\.max_reproduction_distance,'tile'\)/.test(src),'stored distances are labelled grid units, not tiles');
  console.log('PASS: sizes in game squares; stored distances labelled as grid units.');}
 {const h4=await harness();const dir=h4.render('buildings/');assert.ok(!dir.includes('&lt;a href')&&dir.includes('>Plants</a> section'),'buildings directory subtitle links render as links');assert.ok(h4.render('about/').includes('430 building and resource icon tiles'),'about page counts the composited icons');console.log('PASS: game-composited icons committed; directory subtitle links render.');}
+{const home=h.render('');
+ for(const b of ['drylands','evergreen','tropiclands','winterlands'])assert.ok(home.includes(`href="/biomes/${b}/"><img class="gi home-biome-img"`),'home biome island '+b);
+ assert.ok(!home.includes('mapshape-valley'),'only island previews in the home strip');
+ assert.ok((home.match(/home-head-icon/g)||[]).length>=9,'section header icons');assert.ok((home.match(/gi (?:gi-framed )?gi-inline/g)||[]).length>60,'icons beside home links');assert.ok(home.includes('home-portrait'),'leader portraits');
+ assert.ok(!/<h2><a href="\/biomes\/">/.test(home),'the biome strip replaces the Biomes box');
+ console.log('PASS: home page art: biome islands, section icons, link icons and leader portraits.');}

@@ -2,6 +2,13 @@
 
 The local agent ran the research repository's `tools/export_frames.py` at research commit 819a1b5 on the installed game (wiki branch `codex/playtest-2026-10-27`, commit 14850def). It produced 430 building and resource tiles, 8 need icons, their unframed glyphs and `tiles.json`, with nothing skipped; all 893 files are copied unchanged into `assets/wiki-artwork/`. The site already switched to `tiles.json` when present, so icons, field-guide need circles and inline description icons now show the game's own art. The old line-only glyphs and the stand-in fills stay as the fallback. The agent's side-by-side against the Open Kitchen field guide is `assets/gameplay-evidence/icon-check.jpg`; the pot, honeycomb and mug glyphs that came out blank before now draw correctly. Still open on #62: the worker icon and the lower-priority category and challenge icons. Tests that checked the stand-in CSS tiles now accept the composited tile with the same colour, and the stand-in test runs with the tiles removed. The Buildings directory subtitle printed its Plants and Houses links as raw HTML; it now renders them as links.
 
+## Home page art (2026-10-27)
+
+The maintainer asked for a more appealing home page. Everything added is game artwork the site already carried; nothing is drawn.
+- **Biome strip:** the four biome island previews (Drylands, Evergreen, Tropiclands, Winterlands), linking to their biome pages. Spookylands has only a flat map shape, so it is left out of the strip. The strip replaces the text-only Biomes box.
+- **Section icons:** each section header carries a representative icon: Bakery, Apple Tree, Plank, Bread, Windmill, Basic House and Book, plus Edgar's and Pablo's portraits for Leaders and Campaigns and the Drylands island for Levels.
+- **Link icons:** building, plant, resource, food and chain links show their small icon tile, and leaders show a round portrait.
+
 ## Local agent playtest, 27 October 2026 (issues 10 and 31)
 
 The local agent published its answers on the wiki branch `codex/playtest-2026-10-27` (commit 484d8521) and posted them to issue 10. Only that commit's evidence and entries were taken. The branch's older commits repeat the 26 October batch, and its move of CONTENT-NOTES.md into `docs/` was left out.
