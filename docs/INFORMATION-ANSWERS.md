@@ -320,3 +320,16 @@ Source: research repository `kellan/outlanders2-research`, branch `codex/playtes
 - Evidence: beer-2026-10-27/day44-violet-drinking.png; beer-2026-10-27/day44-violet-low-during-drink.png; beer-2026-10-27/day44-violet-before.png; beer-2026-10-27/day44-violet-after.png; beer-2026-10-27/day44-violet-after-action.png
 - Confidence: confirmed for named drinking action and visible refill; supports stored-value interpretation
 - Notes: This addresses the missing drinking label in the earlier Joshua observation. A single observed mug-drinking action is linked to the refill, but no isolated one-unit stock decrement or numeric uncapped +100 was measured. The ring has a minimum colored segment and no numerical label. Do not treat that segment as an exact 20 points, or extrapolate this to Cookie/Stew. The visible jump supports stored Fun 4 over displayed Fun 2; exact uncapped meter arithmetic remains open.
+
+## Fishing Dock — follow-up sampling limitation and reproducible setup
+- Status: new
+- Row: Fish per cast at the Fishing Dock
+- Fact: The requested 20-cast samples for the other two positions are not established by this follow-up. Full-crew net cycles and output increases were recorded, but overlapping worker returns prevent reliable attribution of every shared-counter change. A computer-control connection failure interrupted a later batch; those casts are excluded. No new per-position distribution is claimed.
+- Target: Fishing Dock, remaining two positions
+- Obtained by: full-crew gameplay and review of timestamped screenshots
+- Conditions: Same Playtest Trade sandbox. A Market was built south of the dock and configured to collect only Meat, reducing dock storage from 68 to 12 alongside the Dried Meat Shop. Market and shop workers were removed before the new fishing sample. Three fishers assigned; fast-speed capture batches with pauses between batches. Camera rotated with Q to expose more of the walkways. Population was 9 at the start of this follow-up and 10 at the final pause on day 52; food remained available.
+- Game version: 30 (254)
+- Date: 2026-10-27
+- Evidence: fishing-2026-10-27/full-crew-rotated-view.png; fishing-2026-10-27/day52-paused-followup.png
+- Confidence: partial; per-position sampling remains open
+- Notes: Useful setup correction: Market accepts raw Meat and can clear dock storage faster than waiting for drying; Warehouse accepts construction materials and cannot clear Meat. An unused Warehouse remains near the Market, unstaffed. Before further controlled sampling, clear the dock again with Market workers, then stop both hauling and drying. Removing the first fisher does not hold the remaining fisher in the second spot: workers migrate between available positions. Future samples need uninterrupted footage that follows each individual from net cast through deposit, with ambiguous overlaps excluded. Final game state is paused, with the Market and Dried Meat Shop unstaffed and three dock workers assigned.
