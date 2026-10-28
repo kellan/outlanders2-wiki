@@ -8,4 +8,8 @@ assert.ok(lv.includes('Chill challenge · batch 00 · 3 Jul 2024')&&!lv.includes
 const ff=strip(h.render('levels/friends-in-the-frost/'));assert.ok(ff.includes('Chill · batch 01, 2 of 27 · released 17 Jul 2024'),'legacy challenge context line');const sm=strip(h.render('levels/sweet-maze/'));assert.ok(sm.includes('released 26 Mar 2025'),'Sweet Maze dated as the archive showed');
 const mo=strip(h.render('levels/magnus-opus/'));assert.ok(mo.includes('Ranked · batch'),'Leaderboard levels shown as Ranked');
 const ch=strip(h.render('challenges/'));assert.ok(ch.includes('The rotation')&&ch.includes('81 maps in 27 batches, of which 20 were released')&&ch.includes('began on 2 April 2025'),'challenges page explains the rotation');
+assert.ok(ch.includes('When does a challenge come back?')&&h.render('challenges/').includes('id="cycle-calculator" data-start="2025-04-02" data-days="364"'),'cycle calculator on the Challenges page');
+{const vm=await import('node:vm'),fs=await import('node:fs');const ctx={window:{},document:{getElementById:()=>null},location:{pathname:'/'}};vm.createContext(ctx);vm.runInContext(fs.readFileSync(new URL('../../src/page.js',import.meta.url),'utf8'),ctx);const runs=ctx.window.O2CycleRuns;
+ const r=runs('2026-10-28','2025-04-02',364);assert.equal(r.slot,'Wednesday');assert.equal(r.cycle,2);assert.equal(r.first,'2025-10-29');assert.equal(r.previous,'2025-10-29');assert.deepEqual([...r.next],['2027-10-27','2028-10-25']);
+ assert.equal(runs('2025-04-02','2025-04-02',364).previous,null);assert.equal(runs('2026-10-31','2025-04-02',364).slot,'weekend (Friday to Sunday)');assert.ok(runs('2025-03-26','2025-04-02',364).before);}
 console.log('PASS: levels grouped by campaign and challenge type; rotation explained.');
