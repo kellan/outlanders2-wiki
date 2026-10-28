@@ -16,5 +16,3 @@ Level pages for legacy challenges show their type, batch and neighbours in place
 - **The daily rotation:** from the client code, it is a 364-day cycle starting 2025-04-02 (`Challenges.InitDate`, `CycleDays` 364, `LevelsPerCycle` 260). Each slot's level returns 52 weeks later on the same weekday.
 
 The full analysis is in the private research repository (`docs/ONLINE-SERVICES.md`).
-
-**Calculator.** The maintainer asked for a calculator that predicts when a challenge comes round again. The Challenges page now has one, in `src/page.js` (`cycleRuns`), so it works on the static page. Given a day in the rotation, it gives the slot, the cycle, the slot's first and previous run, and the next two runs, each 364 days apart. It is labelled a prediction: the cycle is in the code, but that a slot replays the same level is still to be checked against the archive (#75).

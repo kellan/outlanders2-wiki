@@ -148,4 +148,3 @@ img.gi.home-portrait,img.gi.home-head-portrait{background:var(--sunken)!importan
 .home-head-biome{object-fit:contain}
 .home-portrait{width:1.35em;height:1.35em;border-radius:50%;object-fit:cover;object-position:top;vertical-align:-.35em;margin-right:.3em;background:var(--sunken)}
 @media (max-width:700px){.home-biomes{grid-template-columns:repeat(4,minmax(96px,1fr));overflow-x:auto;scroll-snap-type:x mandatory}.home-biomes a{scroll-snap-align:start}.home-biome-img{height:84px}}
-.cycle-calc{margin:18px 0}.cycle-calc label{display:flex;gap:10px;align-items:center;font-weight:600;flex-wrap:wrap}.cycle-calc input{font:inherit;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink)}.cycle-calc output{display:block;margin-top:10px}
