@@ -10777,5 +10777,110 @@
       "path": "Content/Buildings/Field/Pumpkin/Field Pumpkin.prefab",
       "policy": "Crop pages use scenario build lists; sandbox assignments remain in evidence until runtime interpretation is confirmed."
     }
+  },
+  "legacy_challenge_batches": {
+    "source": "Packaged TextAsset 6535 \"batches\" (Content/Levels/LegacyChallenges/batches), read by Challenges.LoadLegacyBatchList; version 30 (254).",
+    "batches": [
+      {
+        "batch": "00",
+        "date": "2024-07-03",
+        "min_version": 1
+      },
+      {
+        "batch": "01",
+        "date": "2024-07-17",
+        "min_version": 1
+      },
+      {
+        "batch": "02",
+        "date": "2024-07-31",
+        "min_version": 1
+      },
+      {
+        "batch": "03",
+        "date": "2024-08-14",
+        "min_version": 9
+      },
+      {
+        "batch": "04",
+        "date": "2024-08-28",
+        "min_version": 9
+      },
+      {
+        "batch": "05",
+        "date": "2024-09-11",
+        "min_version": 9
+      },
+      {
+        "batch": "05.1",
+        "date": "2024-09-25",
+        "min_version": 11
+      },
+      {
+        "batch": "06",
+        "date": "2024-10-09",
+        "min_version": 11
+      },
+      {
+        "batch": "06.1",
+        "date": "2024-10-23",
+        "min_version": 13
+      },
+      {
+        "batch": "07",
+        "date": "2024-11-06",
+        "min_version": 13
+      },
+      {
+        "batch": "08",
+        "date": "2024-11-20",
+        "min_version": 15
+      },
+      {
+        "batch": "09",
+        "date": "2024-12-04",
+        "min_version": 15
+      },
+      {
+        "batch": "10",
+        "date": "2024-12-18",
+        "min_version": 15
+      },
+      {
+        "batch": "11",
+        "date": "2025-01-01",
+        "min_version": 15
+      },
+      {
+        "batch": "12",
+        "date": "2025-01-15",
+        "min_version": 15
+      },
+      {
+        "batch": "13",
+        "date": "2025-01-29",
+        "min_version": 15
+      },
+      {
+        "batch": "14",
+        "date": "2025-02-12",
+        "min_version": 16
+      },
+      {
+        "batch": "15",
+        "date": "2025-02-26",
+        "min_version": 16
+      },
+      {
+        "batch": "16",
+        "date": "2025-03-12",
+        "min_version": 16
+      },
+      {
+        "batch": "17",
+        "date": "2025-03-26",
+        "min_version": 16
+      }
+    ]
   }
 }

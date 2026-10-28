@@ -9,3 +9,10 @@ The game files back this up and give the split:
 - **Online levels:** Original, Redux and Bounty levels are not in the installed files. The archive (`SinglesBatchArchiveView`) is downloaded, with a date on each button (`ChallengeArchiveButton.Date`). So the wiki lists only what has been seen so far, and asks the local agent to record the archive and the downloaded levels.
 
 Level pages for legacy challenges show their type, batch and neighbours in place of "Standalone / challenge unverified". The one remaining non-campaign map, `Level06Map`, is listed under Tutorials and other maps.
+
+**Dates.** A packaged text asset, `Content/Levels/LegacyChallenges/batches` (TextAsset 6535), dates the legacy batches:
+- **Released:** 20 batches, every 14 days, from Batch00 on 2024-07-03 to Batch17 on 2025-03-26. Sweet Maze is in Batch17, which matches the 3/26/2025 date the archive showed. The list is copied into `world.json` as `legacy_challenge_batches`, and the levels show their release date.
+- **Never scheduled:** Batch18 (Couples Retreat, Port Plateau, Sugar Frost) and Batch19–24 (unnamed maps) are packaged but not in the list, so they are shown separately.
+- **The daily rotation:** from the client code, it is a 364-day cycle starting 2025-04-02 (`Challenges.InitDate`, `CycleDays` 364, `LevelsPerCycle` 260). Each slot's level returns 52 weeks later on the same weekday.
+
+The full analysis is in the private research repository (`docs/ONLINE-SERVICES.md`).
