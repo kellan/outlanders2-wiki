@@ -25,3 +25,5 @@ The maintainer noticed the "Example from the archive" section on the Redux page 
 **All levels:** sorting by name ignores leading quote marks, so the Redux titles no longer fill the top of the table.
 
 **Older checks updated for the new wording:** `check-scenarios.mjs` accepts the Scoring goal heading on Bounty pages. `check-companion.mjs` keeps its no-internal-names test without the removed panel. `74-level-groups.mjs`, `79-level-pages.mjs` and `81-challenge-archive.mjs` follow the new text.
+
+**Home: Current challenge card (second commit).** At the maintainer's request, a small card under the summary line now shows the current challenge, when it ends, and the next one. `page.js` recomputes all of it in the reader's browser, using the same 2pm Eastern and 364-day logic as the Challenges page. It replaces the one-line "Today:" entry that sat inside the Challenges box.

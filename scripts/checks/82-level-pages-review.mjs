@@ -18,4 +18,5 @@ assert.ok(bounty.includes('Scoring goal Most Veggie')&&!bounty.includes('Main ob
 const all=strip(h.render('levels/')),first=all.slice(all.indexOf('Availability')+12,all.indexOf('Availability')+40);
 assert.ok(/^ A /.test(first),'All levels sorts by name, ignoring quote marks: '+first);
 assert.ok(!all.includes(' main / '),'All levels lists objectives, not counts');
+const home=h.render('');assert.ok(home.includes('<section class="current-challenge" id="home-today">')&&home.indexOf('current-challenge')<home.indexOf('home-biomes'),'Current challenge card near the top of the home page');assert.ok(!/Today: <a/.test(home),'no second today line in the Challenges box');
 console.log('PASS: challenge type pages, objective summaries, Challenges page, older challenge breadcrumbs, Bounty goal, All levels sort.');
