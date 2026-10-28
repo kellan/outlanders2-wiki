@@ -8,7 +8,7 @@ for(const [t,n] of [['original',52],['redux',104],['bounty',104]])assert.equal(l
 const stf=strip(h.render('challenges/redux/save-the-forests-redux/'));
 assert.ok(stf.includes('Wiki home › Challenges › Redux ›'),'breadcrumb under Challenges');
 assert.ok(stf.includes('Dead Tree ×268'),'starts with 268 Dead Trees');
-assert.ok(stf.includes('Have Dead Tree ≥ 222'),'objective names the Dead Tree');
+assert.ok(stf.includes('Have 222 Dead Tree'),'objective names the Dead Tree');
 assert.ok(stf.includes('#150 of 260 · first ran Tuesday 28 Oct 2025 · next run'),'archive number and first run');
 assert.ok(h.render('challenges/redux/save-the-forests-redux/').includes('data-next-run="2025-10-28" data-run-days="1"'),'next run recomputed in the browser');
 // Which challenge is live: 2pm Eastern rollover, Originals Friday to Sunday, 364-day cycle from 2 Apr 2025.
@@ -26,7 +26,7 @@ const page=fs.readFileSync(new URL('../../src/page.js',import.meta.url),'utf8');
 assert.ok(stf.includes('a simpler or different version of Save the Forests'),'Redux links its base level');
 assert.ok(stf.includes('Daily challenges roll over at 2pm Eastern'),'rollover observation shown');
 const bounty=strip(h.render('challenges/bounty/'));
-assert.ok(bounty.includes('Spooky Veggie Ritual')&&bounty.includes('Make as much Veggie as you can')||bounty.includes('Have as much Veggie as you can'),'Bounty scoring goal');
+assert.ok(bounty.includes('Spooky Veggie Ritual')&&/(Produce|Have) as many [^.]*Veggie[^.]* as you can/.test(bounty),'Bounty scoring goal');
 const ch=strip(h.render('challenges/'));
 assert.ok(ch.includes('a 364-day cycle of 260 levels: 52 Original, 104 Redux, 104 Bounty')&&ch.includes('the wiki has every level from it'),'rotation section counts');
 assert.ok(/Original Yes Weekends 52 Redux Yes Tuesdays and Thursdays 104/.test(ch),'types table counts live levels');
