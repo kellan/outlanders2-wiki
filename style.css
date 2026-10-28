@@ -158,3 +158,4 @@ img.gi.home-portrait,img.gi.home-head-portrait{background:var(--sunken)!importan
 .site-search .pagefind-ui__search-clear{border:0;background:none;color:var(--muted)}
 .level-links{margin:0 0 1rem;font-size:0.9375rem}.level-links p{margin:0 0 0.35rem}.level-links a{color:var(--link)}
 .today-challenge{border:1px solid var(--line);background:var(--white);border-radius:8px;padding:1rem 1.25rem;margin:0 0 1.5rem}.today-challenge h2{margin:0 0 .4rem;font-size:1.25rem}.today-main{font-size:1.125rem;margin:0 0 .4rem}.today-main a,.today-challenge a,.home-today a{color:var(--link)}.home-today{margin:.2rem 0 .6rem;font-size:0.9375rem}
+.current-challenge{border:1px solid var(--line);background:var(--white);border-radius:8px;padding:.8rem 1.1rem;margin:0 0 1.25rem}.current-challenge .eyebrow{margin:0 0 .25rem}.cc-main{font-size:1.125rem;margin:0 0 .2rem}.current-challenge a{color:var(--link)}.cc-next{margin:0}
