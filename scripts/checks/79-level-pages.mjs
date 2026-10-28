@@ -13,9 +13,8 @@ assert.ok(strip(lv).includes(total+' entries')&&!lv.includes('data-filter='),'ev
 for(const t of types)assert.ok(lv.includes(`challenges/${t}/`),'levels page links '+t);
 for(const t of types)assert.ok(h.pages.some(p=>p.type==='challenges'&&p.id===t&&p.path===`challenges/${t}/`),'page registered: '+t);
 const redux=strip(h.render('challenges/redux/'));
-assert.ok(redux.includes('What a Redux challenge is')&&redux.includes('a simpler or different version of a previous level'),'Redux page quotes the game’s description');
-assert.ok(redux.includes('On weekdays, alternating with Bounty')&&redux.includes('Example from the archive'),'Redux schedule and example');
-assert.ok(strip(h.render('challenges/original/')).includes('What an Original challenge is'),'article agrees with the name');
+assert.ok(redux.includes('In the game’s words')&&redux.includes('a simpler or different version of a previous level'),'Redux page quotes the game’s description');
+assert.ok(redux.includes('Tuesdays and Thursdays. Each runs for 24 hours')&&!redux.includes('Example from the archive'),'Redux schedule, no example section since PR 82');
 const ch=strip(h.render('challenges/'));
 assert.ok(ch.includes('The six challenge types')&&!ch.includes('Briefing describes a simpler or different version'),'overview links the types; per-type detail lives on their pages');
 assert.ok(h.render('levels/friends-in-the-frost/').includes('challenges/chill/'),'legacy level context links its type page');

@@ -8,7 +8,7 @@ for(const l of w.levels){
  const html=h.render(page.path);
  if(!l.scenario)continue;linked++;
  assert.ok(!html.includes('Objective quantities are not decoded'),l.id);
- for(const heading of ['Main objectives','Optional objectives','Villager needs','Available buildings &amp; plants','Starting objects &amp; resources'])assert.ok(html.includes(heading)||html.includes(heading.replaceAll('&amp;','&')),l.id+': '+heading);
+ for(const heading of [...(l.scenario.scoring?.length?['Scoring goal']:['Main objectives','Optional objectives']),'Villager needs','Available buildings &amp; plants','Starting objects &amp; resources'])assert.ok(html.includes(heading)||html.includes(heading.replaceAll('&amp;','&')),l.id+': '+heading);
  assert.equal(l.scenario.world_objectives_match_header,true);
  assert.equal(l.scenario.primary_objective_count,l.scenario.objectives.filter(x=>!x.IsSecondary).length);
  assert.equal(l.scenario.optional_objective_count,l.scenario.objectives.filter(x=>x.IsSecondary).length);

@@ -1,0 +1,1 @@
+Challenge pages are tidier: one table per challenge type listing each level’s objectives, no leftover example section, a shorter rotation explanation, and older challenge levels filed under Challenges (82).
