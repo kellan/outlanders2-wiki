@@ -12,5 +12,5 @@
     "date": "2026-10-25",
     "reference": "Maintainer report, 25 October 2026, from the running game."
   },
-  "notes": "Seasons rotate, so this is true as of the date given. The Rural style is stored under the internal key Amish with only its name; its reward set is not in the extracted text, unlike the completed Nordic and Mesoamerican seasons."
+  "notes": "Seasons rotate, so this is true as of the date given. The Rural style is stored under the internal key Amish. It has no reward text of its own, but its reward table is packaged with the game (decoded 28 October 2026) and uses the general reward wording."
 }

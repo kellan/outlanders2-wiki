@@ -188,14 +188,14 @@
       "id": "Egyptian",
       "status": "related-release-unconfirmed",
       "as_of": "2026-10-25",
-      "reason": "Stored as a style name only. The maintainer reports Rural as the live season on 25 October 2026, and the two seasons with full reward sets in the files (Nordic, Mesoamerican) are completed ones, so a name-only style that is not the live season is most likely a future season. Withheld until it is seen in game or in release notes; this does not assert it is unreleased."
+      "reason": "The files hold its style name and a reward table that uses the generic reward text, as the live Rural season does, so they do not show whether it has run. The maintainer reports Rural as the live season on 25 October 2026 and Nordic and Mesoamerican are completed seasons with their own reward text, so another style that is not the live season is most likely a future season. Withheld until it is seen in game or in release notes; this does not assert it is unreleased."
     },
     {
       "type": "tournament",
       "id": "Chinese",
       "status": "related-release-unconfirmed",
       "as_of": "2026-10-25",
-      "reason": "Stored as a style name only. The maintainer reports Rural as the live season on 25 October 2026, and the two seasons with full reward sets in the files (Nordic, Mesoamerican) are completed ones, so a name-only style that is not the live season is most likely a future season. Withheld until it is seen in game or in release notes; this does not assert it is unreleased."
+      "reason": "The files hold its style name and a reward table that uses the generic reward text, as the live Rural season does, so they do not show whether it has run. The maintainer reports Rural as the live season on 25 October 2026 and Nordic and Mesoamerican are completed seasons with their own reward text, so another style that is not the live season is most likely a future season. Withheld until it is seen in game or in release notes; this does not assert it is unreleased."
     },
     {
       "type": "buildings",
