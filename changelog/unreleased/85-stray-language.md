@@ -1,0 +1,1 @@
+Reader pages lose stray hedges and raw data: no more source-data dumps on the Challenges, Tournament and campaign pages; chain pages drop the stock "has not been established" lines; spoiler reasons are in plain words (85).
