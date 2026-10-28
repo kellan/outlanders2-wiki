@@ -28,8 +28,8 @@ assert.ok(stf.includes('Daily challenges roll over at 2pm Eastern'),'rollover ob
 const bounty=strip(h.render('challenges/bounty/'));
 assert.ok(bounty.includes('Spooky Veggie Ritual')&&bounty.includes('Make as much Veggie as you can')||bounty.includes('Have as much Veggie as you can'),'Bounty scoring goal');
 const ch=strip(h.render('challenges/'));
-assert.ok(ch.includes('The wiki has all 260 from the first cycle')&&ch.includes('52 Original, 104 Redux, 104 Bounty'),'rotation section counts');
-assert.ok(/Levels in the wiki.*Original Yes .*? 52 /.test(ch),'types table counts live levels');
+assert.ok(ch.includes('a 364-day cycle of 260 levels: 52 Original, 104 Redux, 104 Bounty')&&ch.includes('the wiki has every level from it'),'rotation section counts');
+assert.ok(/Original Yes Weekends 52 Redux Yes Tuesdays and Thursdays 104/.test(ch),'types table counts live levels');
 assert.ok(fs.readFileSync(new URL('../../content/collections.json',import.meta.url),'utf8').includes('challenges/Single_W_Nuevobosque_Redux-2025-10-28.json'),'records listed in collections');
 const bakery=h.render('buildings/bakery/');assert.ok(/<details><summary>\d+ challenge levels from the current rotation<\/summary>/.test(bakery),'building pages fold challenge levels away');
 console.log('PASS: 260 challenge levels (52 Original, 104 Redux, 104 Bounty), run dates, Dead Trees on "Save the Forests" Redux, rollover, grouped backlinks.');

@@ -94,7 +94,7 @@ assert.ok(h.render('buildings/quarry/').includes('rock sources'),'harvest row');
 assert.ok(h.render('buildings/bridge/').includes('Placement')&&h.render('buildings/bridge/').includes('slopes up to 5'),'placement row');
 console.log('PASS: biome per level, starting conditions, needs page, age limits, harvest sources and placement rules.');
 // Internal names stay out of player-facing text.
-const ch=h.render('challenges/');assert.ok(ch.includes('Tournament Mode supply-chain rules'));assert.ok(!ch.includes('FastMode supply chains'));
+const ch=h.render('challenges/');assert.ok(ch.includes('Tournament Mode'));assert.ok(!ch.includes('FastMode supply chains')&&!/Tournament · Action/.test(ch),'no internal tournament text on the Challenges page');
 assert.ok(!h.render('about/').includes('FastMode supply-chain rules describe'),'about page leaks internal name');
 console.log('PASS: FastMode shown as Tournament Mode.');
 // Tournament Mode page from game text; unconfirmed seasons only in spoilers.
