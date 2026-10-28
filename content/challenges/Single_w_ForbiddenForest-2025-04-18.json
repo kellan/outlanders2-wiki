@@ -1,0 +1,820 @@
+{
+  "id": "Single_w_ForbiddenForest-2025-04-18",
+  "name": "Hollowgrounds",
+  "description": "",
+  "objectives": [],
+  "source_entries": [],
+  "campaign_number": null,
+  "category": "live_challenge",
+  "verification_status": "downloaded_cache_decoded; menu_mapping_pending; starting_state_gameplay_unverified",
+  "live_challenge": {
+    "type": "Original",
+    "type_source": "archive menu",
+    "archive_number": 13,
+    "archive_number_source": "archive menu",
+    "batch_date": "2025-04-18",
+    "minimum_game_version": 17,
+    "capture_date": "2026-10-28",
+    "menu_evidence": "original-bottom.jpg",
+    "source": "research repo data/challenge-archive/2026-10-28/catalog.json"
+  },
+  "scenario": {
+    "asset_name": "Single_w_ForbiddenForest",
+    "title": "Hollowgrounds",
+    "source_level_path": "Assets/Levels/Challenges/2025-04-18/Single_w_ForbiddenForest.bytes",
+    "sha256": "18fd6acd885d745d9a7b2f3c25dd6bf8b5bf06b3e39c21e687f995adbdce9609",
+    "primary_objective_count": 3,
+    "optional_objective_count": 0,
+    "day_limit": -1,
+    "objectives": [
+      {
+        "NeededAmount": 7,
+        "PrefabKeyToCount": "b0dd9b7dd66909d4bb3c9269f4843864",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 105734,
+          "name": "Zen Garden",
+          "localization_key": "Building.ZenGarden"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        }
+      },
+      {
+        "NeededAmount": 13,
+        "PrefabKeyToCount": "799590d5a3548ff4eb40775d7da67e4d",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 1,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 62710,
+          "name": "Halloween Tree",
+          "localization_key": "Tree.DeadTree"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        }
+      },
+      {
+        "NeededAmount": 7,
+        "PrefabKeyToCount": "00b9bf993d983724f8cf65be2da3a0d4",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 67662,
+          "name": "Two-Story House",
+          "localization_key": "Building.HouseStone"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        }
+      }
+    ],
+    "scoring": [],
+    "level_config": [
+      {
+        "LevelScene": "",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 1,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "a1f9687f4e08b7e4296cccdfc75b9787",
+        "gameobject_id": 105730,
+        "name": "Cheesery",
+        "localization_key": "Building.CheeseMaker"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "9eb40effdb47a3243b119783975c8664",
+        "gameobject_id": 57396,
+        "name": "Cookie Shop",
+        "localization_key": "Building.CookieShop"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "398ef2a881962ad4cbf8572215838ef1",
+        "gameobject_id": 105705,
+        "name": "Fondue Bar",
+        "localization_key": "Building.FondueShop"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "7ab694c8a34d7462c9fa0c5d8478994a",
+        "gameobject_id": 75226,
+        "name": "Trading Outpost",
+        "localization_key": "Building.TradingPost"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "f6b750217d0a7024b998d05326e9f8e2",
+        "gameobject_id": 85247,
+        "name": "Crane Flower Planter",
+        "localization_key": "Building.PlanterBirdsOfParadise"
+      },
+      {
+        "guid": "fa8020660f384a8498fc4d700ffac0b0",
+        "gameobject_id": 85248,
+        "name": "Calla Lilly Planter",
+        "localization_key": "Building.PlanterCallaLilly"
+      },
+      {
+        "guid": "e9f4f3f1a09b3464ea0a0d4ded8228cd",
+        "gameobject_id": 85246,
+        "name": "Hydrangea Planter",
+        "localization_key": "Building.PlanterHydrangea"
+      },
+      {
+        "guid": "c88244b5c5896fa4ca3b216f220dd2a6",
+        "gameobject_id": 105739,
+        "name": "Fountain",
+        "localization_key": "Building.Fountain"
+      },
+      {
+        "guid": "376cd4d7bb455094faf2a6eac858ccd4",
+        "gameobject_id": 105704,
+        "name": "Tiny Man Statue",
+        "localization_key": "Building.OgirStatue"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "7f0517aae7626244db91df74eabaffa7",
+        "gameobject_id": 105723,
+        "name": "Stone Mine",
+        "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "d3fe3e52afd754f42a4f915d71cdf375",
+        "gameobject_id": 99686,
+        "name": "Pumpkin Field",
+        "localization_key": "Field.Pumpkin"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "02cd43766b5ab824192f8fae7363e4fb",
+        "instance_count": 1,
+        "gameobject_id": 81575,
+        "name": "Tool Shovel planted",
+        "localization_key": ""
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "instance_count": 1,
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "0f0713a4265f3ce4aa7bc92c6b4f9707",
+        "instance_count": 25,
+        "gameobject_id": 44028,
+        "name": "Fondue Empty Plate",
+        "localization_key": "Resource.OpenKitchen.Plate"
+      },
+      {
+        "guid": "108be5f4bfad94ed79e7deea4a031409",
+        "instance_count": 10,
+        "gameobject_id": 97586,
+        "name": "Bread",
+        "localization_key": "Resource.Bread"
+      },
+      {
+        "guid": "18e899ee9ddba7742b9326bd5ec6d125",
+        "instance_count": 3,
+        "gameobject_id": 97620,
+        "name": "Wheelbarrow",
+        "localization_key": "Tool.Wheelbarrow"
+      },
+      {
+        "guid": "246d88bf7d7b5634f92aa74832989150",
+        "instance_count": 2,
+        "gameobject_id": 112630,
+        "name": "Plant Hibiscus",
+        "localization_key": ""
+      },
+      {
+        "guid": "2ac4c7de8c339264c937f75c9ad89a01",
+        "instance_count": 4,
+        "gameobject_id": 79276,
+        "name": "Scythe - Rock",
+        "localization_key": "Tool.ScytheRock"
+      },
+      {
+        "guid": "2eb72fae16196cd4db88b8aa399e21eb",
+        "instance_count": 2,
+        "gameobject_id": 33533,
+        "name": "Halloween Grave 5",
+        "localization_key": "Decoration.Tomb"
+      },
+      {
+        "guid": "2f75a3fea3f854460ba75c2c08ecb57f",
+        "instance_count": 7,
+        "gameobject_id": 105961,
+        "name": "Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "instance_count": 1,
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "36dae96bed06e43a282028fa9a4c6e6b",
+        "instance_count": 2,
+        "gameobject_id": 111897,
+        "name": "BrickStep0Mold",
+        "localization_key": ""
+      },
+      {
+        "guid": "376cd4d7bb455094faf2a6eac858ccd4",
+        "instance_count": 2,
+        "gameobject_id": 105704,
+        "name": "Tiny Man Statue",
+        "localization_key": "Building.OgirStatue"
+      },
+      {
+        "guid": "38402218dfb78c246a104fd5a156783f",
+        "instance_count": 6,
+        "gameobject_id": 39603,
+        "name": "Fireflies Event",
+        "localization_key": ""
+      },
+      {
+        "guid": "398ef2a881962ad4cbf8572215838ef1",
+        "instance_count": 1,
+        "gameobject_id": 105705,
+        "name": "Fondue Bar",
+        "localization_key": "Building.FondueShop"
+      },
+      {
+        "guid": "39c81ad5a30184c52868b34fa8391f73",
+        "instance_count": 6,
+        "gameobject_id": 40043,
+        "name": "Flour",
+        "localization_key": "Resource.Flour"
+      },
+      {
+        "guid": "3cf00f5971f9342199f49761e4c73c9e",
+        "instance_count": 10,
+        "gameobject_id": 112631,
+        "name": "Plant Birds of Paradise",
+        "localization_key": ""
+      },
+      {
+        "guid": "3e1529491e1455a418db5d5667b48ecd",
+        "instance_count": 1,
+        "gameobject_id": 97623,
+        "name": "CheeseMakerBucket",
+        "localization_key": ""
+      },
+      {
+        "guid": "4c13d6cfb6b0dbe4c97e754e70de3611",
+        "instance_count": 5,
+        "gameobject_id": 107067,
+        "name": "Expedition Crate 1",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "instance_count": 6,
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "5372d4d38206ce94eb1404b0f6839eab",
+        "instance_count": 7,
+        "gameobject_id": 57086,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "instance_count": 1,
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 40,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      },
+      {
+        "guid": "6c8a02061577343418235fa311e69712",
+        "instance_count": 1,
+        "gameobject_id": 107078,
+        "name": "Bird Crow Idle",
+        "localization_key": ""
+      },
+      {
+        "guid": "6dbc9d8cd32eb4c11aa8d3ad0b063f7e",
+        "instance_count": 1,
+        "gameobject_id": 105718,
+        "name": "Swimming Pier",
+        "localization_key": "Building.SwimmingPier"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "instance_count": 1,
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "73bc82e7a16304b908eeaaeb7ed606a3",
+        "instance_count": 20,
+        "gameobject_id": 103664,
+        "name": "Wheat",
+        "localization_key": "Resource.Wheat"
+      },
+      {
+        "guid": "799590d5a3548ff4eb40775d7da67e4d",
+        "instance_count": 36,
+        "gameobject_id": 62710,
+        "name": "Halloween Tree",
+        "localization_key": "Tree.DeadTree"
+      },
+      {
+        "guid": "7c2da86f1c60ac94599c3f6713907b2a",
+        "instance_count": 5,
+        "gameobject_id": 85244,
+        "name": "Hibiscus Planter",
+        "localization_key": "Building.PlanterHibiscus"
+      },
+      {
+        "guid": "7cf0dcb49f1574350bcaf45c1ee7c1fb",
+        "instance_count": 1,
+        "gameobject_id": 46166,
+        "name": "BakeryPeel",
+        "localization_key": ""
+      },
+      {
+        "guid": "7fb08ac399fda2e44962199223192485",
+        "instance_count": 2,
+        "gameobject_id": 33534,
+        "name": "Halloween Grave 2",
+        "localization_key": "Decoration.Tomb"
+      },
+      {
+        "guid": "81df63f6e6197de4fbe1a32a72451494",
+        "instance_count": 1,
+        "gameobject_id": 107081,
+        "name": "Halloween Grave 0",
+        "localization_key": "Decoration.Tomb"
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 8,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "89e2e37739da1de4497c586e4808d96d",
+        "instance_count": 1,
+        "gameobject_id": 107084,
+        "name": "Halloween Fence",
+        "localization_key": ""
+      },
+      {
+        "guid": "8ca668f7495dd004db6cd1e04020a869",
+        "instance_count": 2,
+        "gameobject_id": 78505,
+        "name": "Plant Sapling Hibiscus",
+        "localization_key": ""
+      },
+      {
+        "guid": "9eb40effdb47a3243b119783975c8664",
+        "instance_count": 1,
+        "gameobject_id": 57396,
+        "name": "Cookie Shop",
+        "localization_key": "Building.CookieShop"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "instance_count": 1,
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "a1f9687f4e08b7e4296cccdfc75b9787",
+        "instance_count": 1,
+        "gameobject_id": 105730,
+        "name": "Cheesery",
+        "localization_key": "Building.CheeseMaker"
+      },
+      {
+        "guid": "a4f8c2f7b944d904280f084aa942ce97",
+        "instance_count": 5,
+        "gameobject_id": 107094,
+        "name": "Halloween Candle 0",
+        "localization_key": ""
+      },
+      {
+        "guid": "a681998e745a20946be7d4fa22ebc073",
+        "instance_count": 4,
+        "gameobject_id": 112632,
+        "name": "Plant Hydrangea",
+        "localization_key": ""
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "instance_count": 1,
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "instance_count": 49,
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "acbd98a561cbae8438bc404b74e11f37",
+        "instance_count": 2,
+        "gameobject_id": 112633,
+        "name": "Plant Calla Lilly",
+        "localization_key": ""
+      },
+      {
+        "guid": "ad5ce9a878c06d440bc86fedbddb10ba",
+        "instance_count": 1,
+        "gameobject_id": 105733,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "instance_count": 1,
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "b2bd091f46efaaf47bbc473039d9ba71",
+        "instance_count": 7,
+        "gameobject_id": 112161,
+        "name": "Two-Story House",
+        "localization_key": "Building.HouseStone"
+      },
+      {
+        "guid": "b8501c41316a6a14b92793239c8cf4e7",
+        "instance_count": 4,
+        "gameobject_id": 99576,
+        "name": "SeedBag",
+        "localization_key": ""
+      },
+      {
+        "guid": "b8cb8c52b58c565488e7ad9a085487cb",
+        "instance_count": 3,
+        "gameobject_id": 107099,
+        "name": "Expedition Crate 2",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "bb7eebb8e1cacc042a9b9be69c303529",
+        "instance_count": 2,
+        "gameobject_id": 64026,
+        "name": "Jungle Big Tree",
+        "localization_key": "Field.JungleBigTree"
+      },
+      {
+        "guid": "be4ba8a0cd8d7d94ea76cfab6e660952",
+        "instance_count": 6,
+        "gameobject_id": 81593,
+        "name": "Grass",
+        "localization_key": ""
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "instance_count": 75,
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "instance_count": 1,
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "c88244b5c5896fa4ca3b216f220dd2a6",
+        "instance_count": 2,
+        "gameobject_id": 105739,
+        "name": "Fountain",
+        "localization_key": "Building.Fountain"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "instance_count": 1,
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "cf5986de1d3a05740bc86ab16ff8053a",
+        "instance_count": 2,
+        "gameobject_id": 107105,
+        "name": "Expedition Crate 3",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "d3fe3e52afd754f42a4f915d71cdf375",
+        "instance_count": 21,
+        "gameobject_id": 99686,
+        "name": "Pumpkin Field",
+        "localization_key": "Field.Pumpkin"
+      },
+      {
+        "guid": "d4851207f4c9ccf45b972af735aa8441",
+        "instance_count": 1,
+        "gameobject_id": 33535,
+        "name": "Halloween Grave 4",
+        "localization_key": "Decoration.Tomb"
+      },
+      {
+        "guid": "d6136b1e43281ab43b177271d03557c0",
+        "instance_count": 1,
+        "gameobject_id": 33536,
+        "name": "Halloween Grave 1",
+        "localization_key": "Decoration.Tomb"
+      },
+      {
+        "guid": "dae25f757b6140c4ca85291df81ae49e",
+        "instance_count": 1,
+        "gameobject_id": 33537,
+        "name": "Halloween Grave 3",
+        "localization_key": "Decoration.Tomb"
+      },
+      {
+        "guid": "dbce2c22fd2121249aba32afc79fed77",
+        "instance_count": 1,
+        "gameobject_id": 107109,
+        "name": "4-3 DeadEndSign",
+        "localization_key": "Decorations.DeadEndSign"
+      },
+      {
+        "guid": "dcc4a2a85cac243a796ee1944133eaef",
+        "instance_count": 24,
+        "gameobject_id": 44039,
+        "name": "Plate",
+        "localization_key": "Resource.OpenKitchen.Plate"
+      },
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 14,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "e535ae9430dd40f4f82e4f0af3c2d4c6",
+        "instance_count": 7,
+        "gameobject_id": 107113,
+        "name": "Halloween Candle 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "instance_count": 1,
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "e9f4f3f1a09b3464ea0a0d4ded8228cd",
+        "instance_count": 3,
+        "gameobject_id": 85246,
+        "name": "Hydrangea Planter",
+        "localization_key": "Building.PlanterHydrangea"
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 9,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "f6731e44f36f8984ea4f1daebccbfd17",
+        "instance_count": 1,
+        "gameobject_id": 55508,
+        "name": "Birds flock Crow",
+        "localization_key": ""
+      },
+      {
+        "guid": "f6b750217d0a7024b998d05326e9f8e2",
+        "instance_count": 10,
+        "gameobject_id": 85247,
+        "name": "Crane Flower Planter",
+        "localization_key": "Building.PlanterBirdsOfParadise"
+      },
+      {
+        "guid": "f9e79a2d70e36944db7aae601779093c",
+        "instance_count": 1,
+        "gameobject_id": 107117,
+        "name": "Light Lantern",
+        "localization_key": "Decoration.Lantern"
+      },
+      {
+        "guid": "fa8020660f384a8498fc4d700ffac0b0",
+        "instance_count": 2,
+        "gameobject_id": 85248,
+        "name": "Calla Lilly Planter",
+        "localization_key": "Building.PlanterCallaLilly"
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 13,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 1,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      }
+    ],
+    "header_population": 20,
+    "world_objectives_match_header": true,
+    "source_category": "downloaded live challenge"
+  }
+}

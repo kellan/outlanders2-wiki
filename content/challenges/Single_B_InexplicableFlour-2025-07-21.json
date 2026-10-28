@@ -1,0 +1,349 @@
+{
+  "id": "Single_B_InexplicableFlour-2025-07-21",
+  "name": "Inexplicable Flour Archive",
+  "description": "",
+  "objectives": [],
+  "source_entries": [],
+  "campaign_number": null,
+  "category": "live_challenge",
+  "verification_status": "downloaded_cache_decoded; menu_mapping_pending; starting_state_gameplay_unverified",
+  "live_challenge": {
+    "type": "Bounty",
+    "type_source": "batch weekday",
+    "archive_number": 79,
+    "archive_number_source": "batch order",
+    "batch_date": "2025-07-21",
+    "minimum_game_version": 19,
+    "capture_date": "2026-10-28",
+    "menu_evidence": null,
+    "source": "research repo data/challenge-archive/2026-10-28/catalog.json"
+  },
+  "scenario": {
+    "asset_name": "Single_B_InexplicableFlour",
+    "title": "Inexplicable Flour Archive",
+    "source_level_path": "Assets/Levels/Challenges/2025-07-21/Single_B_InexplicableFlour.bytes",
+    "sha256": "2b4cf396fcb4fd5d8b4abd16e019b24bd521ecf5e2a79c092823de96ca96e8b2",
+    "primary_objective_count": 0,
+    "optional_objective_count": 0,
+    "day_limit": 35,
+    "objectives": [],
+    "scoring": [
+      {
+        "mode": "Have",
+        "goal": "maximize",
+        "resource": {
+          "gameobject_id": 40043,
+          "name": "Flour",
+          "localization_key": "Resource.Flour"
+        },
+        "resource_name": "Flour"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelSnow",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": true,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 2,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": "39c81ad5a30184c52868b34fa8391f73"
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "9eb40effdb47a3243b119783975c8664",
+        "gameobject_id": 57396,
+        "name": "Cookie Shop",
+        "localization_key": "Building.CookieShop"
+      },
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "c88244b5c5896fa4ca3b216f220dd2a6",
+        "gameobject_id": 105739,
+        "name": "Fountain",
+        "localization_key": "Building.Fountain"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "f4180e89ced871e44b81dcc578163c08",
+        "gameobject_id": 105748,
+        "name": "Snow Sculpture",
+        "localization_key": "Building.SnowStatue"
+      },
+      {
+        "guid": "376cd4d7bb455094faf2a6eac858ccd4",
+        "gameobject_id": 105704,
+        "name": "Tiny Man Statue",
+        "localization_key": "Building.OgirStatue"
+      },
+      {
+        "guid": "a122042526ded44a094f22861cb604f2",
+        "gameobject_id": 105729,
+        "name": "Winter Cabin",
+        "localization_key": "Building.HouseWithChimney"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "045b7542e94934d189e3d89b72a36b40",
+        "instance_count": 1,
+        "gameobject_id": 45826,
+        "name": "Brewery",
+        "localization_key": "Building.Brewery"
+      },
+      {
+        "guid": "0b49e2c50c81cb949914e41737a4c40b",
+        "instance_count": 2,
+        "gameobject_id": 47753,
+        "name": "Expedition Crate 3 Variant_Bread",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "10fe2c811f28e5a4c83df3fb0245499e",
+        "instance_count": 20,
+        "gameobject_id": 90293,
+        "name": "Coat",
+        "localization_key": "Resource.Coat"
+      },
+      {
+        "guid": "376cd4d7bb455094faf2a6eac858ccd4",
+        "instance_count": 2,
+        "gameobject_id": 105704,
+        "name": "Tiny Man Statue",
+        "localization_key": "Building.OgirStatue"
+      },
+      {
+        "guid": "39c81ad5a30184c52868b34fa8391f73",
+        "instance_count": 200,
+        "gameobject_id": 40043,
+        "name": "Flour",
+        "localization_key": "Resource.Flour"
+      },
+      {
+        "guid": "5a84359d73ace9a4392df4896ea2d3cf",
+        "instance_count": 20,
+        "gameobject_id": 42879,
+        "name": "BeerEmpty",
+        "localization_key": ""
+      },
+      {
+        "guid": "5b095a6b2b0a482438c5b92d15264188",
+        "instance_count": 1,
+        "gameobject_id": 107073,
+        "name": "Christmas Snowman 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "73bc82e7a16304b908eeaaeb7ed606a3",
+        "instance_count": 30,
+        "gameobject_id": 103664,
+        "name": "Wheat",
+        "localization_key": "Resource.Wheat"
+      },
+      {
+        "guid": "77f5d651a8646c8419f9a4045f8c136b",
+        "instance_count": 1,
+        "gameobject_id": 67817,
+        "name": "Expedition Crate 3 Variant_DriedMeat",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "instance_count": 1,
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "93e763672d92e4b56bb06e8fe3269a70",
+        "instance_count": 14,
+        "gameobject_id": 110894,
+        "name": "Winter Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "9900a1819cb6d754f81c08f520497838",
+        "instance_count": 2,
+        "gameobject_id": 107090,
+        "name": "Christmas Snowman 0",
+        "localization_key": ""
+      },
+      {
+        "guid": "a122042526ded44a094f22861cb604f2",
+        "instance_count": 1,
+        "gameobject_id": 105729,
+        "name": "Winter Cabin",
+        "localization_key": "Building.HouseWithChimney"
+      },
+      {
+        "guid": "ac3c375a164b340ecb49555349e7a453",
+        "instance_count": 6,
+        "gameobject_id": 51389,
+        "name": "Winter Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "b337bbd3ab03d477fae2f76d8bfb8af2",
+        "instance_count": 423,
+        "gameobject_id": 97702,
+        "name": "Winter Pine",
+        "localization_key": "Tree.WinPine"
+      },
+      {
+        "guid": "c88244b5c5896fa4ca3b216f220dd2a6",
+        "instance_count": 1,
+        "gameobject_id": 105739,
+        "name": "Fountain",
+        "localization_key": "Building.Fountain"
+      },
+      {
+        "guid": "d706f252be94e3a4b83bb28bd42298d8",
+        "instance_count": 3,
+        "gameobject_id": 107272,
+        "name": "Expedition Crate 2 Variant_DriedMeat",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 12,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 24,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      }
+    ],
+    "header_population": 20,
+    "world_objectives_match_header": true,
+    "source_category": "downloaded live challenge"
+  }
+}

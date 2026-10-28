@@ -1,0 +1,344 @@
+{
+  "id": "Single_w_Stages_Redux-2026-03-19",
+  "name": "\"Find the Forest\" Redux",
+  "description": "",
+  "objectives": [],
+  "source_entries": [],
+  "campaign_number": null,
+  "category": "live_challenge",
+  "verification_status": "downloaded_cache_decoded; menu_mapping_pending; starting_state_gameplay_unverified",
+  "live_challenge": {
+    "type": "Redux",
+    "type_source": "archive menu",
+    "archive_number": 252,
+    "archive_number_source": "archive menu",
+    "batch_date": "2026-03-19",
+    "minimum_game_version": 19,
+    "capture_date": "2026-10-28",
+    "menu_evidence": "all-types-256-250.jpg",
+    "source": "research repo data/challenge-archive/2026-10-28/catalog.json"
+  },
+  "scenario": {
+    "asset_name": "Single_w_Stages_Redux",
+    "title": "\"Find the Forest\" Redux",
+    "source_level_path": "Assets/Levels/Challenges/2026-03-19/Single_w_Stages_Redux.bytes",
+    "sha256": "bbf04cf2fc8ceb3973249ed53f0ae2c53433e0fa7d668d0dc779bab03c31b707",
+    "primary_objective_count": 1,
+    "optional_objective_count": 0,
+    "day_limit": -1,
+    "objectives": [
+      {
+        "NeededAmount": 200,
+        "PrefabKeyToCount": "cbdef787909bb1842b47662d86ce4ad4",
+        "PrefabKeyForBuilding": "72944978a58524b6a8d02456de83f702",
+        "Condition": 8,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0,
+        "condition_name": "HaveInBuilding",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 80725,
+          "name": "Log",
+          "localization_key": "Resource.Wood"
+        },
+        "building": {
+          "gameobject_id": 35461,
+          "name": "Warehouse",
+          "localization_key": "Building.Warehouse"
+        }
+      }
+    ],
+    "scoring": [],
+    "level_config": [
+      {
+        "LevelScene": "",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": true,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 1,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "7f0517aae7626244db91df74eabaffa7",
+        "gameobject_id": 105723,
+        "name": "Stone Mine",
+        "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "f0716db2a804caf41bb7fed60af17c5e",
+        "gameobject_id": 105747,
+        "name": "Dried Meat Shop",
+        "localization_key": "Building.DriedMeatShop"
+      },
+      {
+        "guid": "a4b6e4aeda5edb243ab0f187bf9d2ace",
+        "gameobject_id": 105731,
+        "name": "Fishing Dock",
+        "localization_key": "Building.FishingDock"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "0b49e2c50c81cb949914e41737a4c40b",
+        "instance_count": 1,
+        "gameobject_id": 47753,
+        "name": "Expedition Crate 3 Variant_Bread",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 33,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "instance_count": 2,
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "4c13d6cfb6b0dbe4c97e754e70de3611",
+        "instance_count": 1,
+        "gameobject_id": 107067,
+        "name": "Expedition Crate 1",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "551d21748adb743a8b46dac8d60b6cd1",
+        "instance_count": 36,
+        "gameobject_id": 64024,
+        "name": "Jungle Tree",
+        "localization_key": "Field.JungleTree"
+      },
+      {
+        "guid": "57113efc44b82409195c4f67a631462d",
+        "instance_count": 26,
+        "gameobject_id": 115334,
+        "name": "Palm Tree",
+        "localization_key": "Tree.Palm"
+      },
+      {
+        "guid": "5a41258aa6bbf461e83cc60ca43c7e5d",
+        "instance_count": 5,
+        "gameobject_id": 110893,
+        "name": "Tropical Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "instance_count": 31,
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 33,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "instance_count": 2,
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "77f5d651a8646c8419f9a4045f8c136b",
+        "instance_count": 2,
+        "gameobject_id": 67817,
+        "name": "Expedition Crate 3 Variant_DriedMeat",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "7980351dd2564464fbfb7c738bd58a7e",
+        "instance_count": 2,
+        "gameobject_id": null,
+        "name": "",
+        "localization_key": ""
+      },
+      {
+        "guid": "8ea44fb4d4532294da18cbe0cc5656a0",
+        "instance_count": 2,
+        "gameobject_id": 67672,
+        "name": "Tropical Shelter",
+        "localization_key": "Building.TropicalHouse"
+      },
+      {
+        "guid": "998e190f8b73bae44ad461ba9a25a164",
+        "instance_count": 2,
+        "gameobject_id": 90543,
+        "name": "Expedition Crate 2 Variant_Bread",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "b8c70cc86bd916147bc522445040bbe2",
+        "instance_count": 20,
+        "gameobject_id": 81592,
+        "name": "Sand snails",
+        "localization_key": ""
+      },
+      {
+        "guid": "bb7eebb8e1cacc042a9b9be69c303529",
+        "instance_count": 61,
+        "gameobject_id": 64026,
+        "name": "Jungle Big Tree",
+        "localization_key": "Field.JungleBigTree"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "instance_count": 2,
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "ce14c2ef50b8da3408ca5bcfb8e85920",
+        "instance_count": 12,
+        "gameobject_id": 92219,
+        "name": "BananaTree",
+        "localization_key": "Tree.Banana"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "instance_count": 2,
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "d706f252be94e3a4b83bb28bd42298d8",
+        "instance_count": 1,
+        "gameobject_id": 107272,
+        "name": "Expedition Crate 2 Variant_DriedMeat",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "da94570ec2cdb4a25a2f961098233dc1",
+        "instance_count": 4,
+        "gameobject_id": 107108,
+        "name": "Canoe",
+        "localization_key": "Decoration.Canoe"
+      },
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 250,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "e8c6f4a4dbf7846e3a18c1a001a66163",
+        "instance_count": 18,
+        "gameobject_id": 92222,
+        "name": "AppleTree",
+        "localization_key": "Tree.Apple"
+      },
+      {
+        "guid": "e998bf8debe484d3bb02ff5de23f6fb0",
+        "instance_count": 5,
+        "gameobject_id": 51390,
+        "name": "Tropical Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 17,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      }
+    ],
+    "header_population": 10,
+    "world_objectives_match_header": true,
+    "source_category": "downloaded live challenge"
+  }
+}

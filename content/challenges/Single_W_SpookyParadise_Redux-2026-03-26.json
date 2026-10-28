@@ -1,0 +1,428 @@
+{
+  "id": "Single_W_SpookyParadise_Redux-2026-03-26",
+  "name": "\"The Pit of Thorns\" Redux",
+  "description": "",
+  "objectives": [],
+  "source_entries": [],
+  "campaign_number": null,
+  "category": "live_challenge",
+  "verification_status": "downloaded_cache_decoded; menu_mapping_pending; starting_state_gameplay_unverified",
+  "live_challenge": {
+    "type": "Redux",
+    "type_source": "batch weekday",
+    "archive_number": 257,
+    "archive_number_source": "batch order",
+    "batch_date": "2026-03-26",
+    "minimum_game_version": 22,
+    "capture_date": "2026-10-28",
+    "menu_evidence": null,
+    "source": "research repo data/challenge-archive/2026-10-28/catalog.json"
+  },
+  "scenario": {
+    "asset_name": "Single_W_SpookyParadise_Redux",
+    "title": "\"The Pit of Thorns\" Redux",
+    "source_level_path": "Assets/Levels/Challenges/2026-03-26/Single_W_SpookyParadise_Redux.bytes",
+    "sha256": "50c16b8b6c3a89a813caed885dd25dfda6f1f5f50223611020cf8e195f800bcd",
+    "primary_objective_count": 2,
+    "optional_objective_count": 0,
+    "day_limit": -1,
+    "objectives": [
+      {
+        "NeededAmount": 10,
+        "PrefabKeyToCount": "66b35e9bf1f909946830309193ad3f91",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 105716,
+          "name": "Zen Garden",
+          "localization_key": "Building.ZenGarden"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        }
+      },
+      {
+        "NeededAmount": 80,
+        "PrefabKeyToCount": "83a98825b2e8b411ab0c8fd15517a777",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 4,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 1,
+        "condition_name": "Happiness",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 98767,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        }
+      }
+    ],
+    "scoring": [],
+    "level_config": [
+      {
+        "LevelScene": "LevelDesert",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": true,
+        "LeaderboardType": 1,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "d4b7759971e24cd4fa2a8d0f6569cb3d",
+        "gameobject_id": 67676,
+        "name": "Desert Home",
+        "localization_key": "Building.DesertHouse"
+      },
+      {
+        "guid": "d3fe3e52afd754f42a4f915d71cdf375",
+        "gameobject_id": 99686,
+        "name": "Pumpkin Field",
+        "localization_key": "Field.Pumpkin"
+      },
+      {
+        "guid": "36e28d241fc53a047b00a7a94f0b1534",
+        "gameobject_id": 105703,
+        "name": "Paper Mill",
+        "localization_key": "Building.Papermill"
+      },
+      {
+        "guid": "7d9d22da9d2da774c88dbbeca1ba1389",
+        "gameobject_id": 40307,
+        "name": "Orchard",
+        "localization_key": "Building.Orchard"
+      },
+      {
+        "guid": "c089a131da7791748a577c633d5a2ff6",
+        "gameobject_id": 40309,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "ba38fa869add9ee4198caf212db82158",
+        "gameobject_id": 105736,
+        "name": "Desert Cookhouse",
+        "localization_key": "Building.ManchamantelesShop"
+      },
+      {
+        "guid": "c4547f50c31efbd45b6f22024655b150",
+        "gameobject_id": 38477,
+        "name": "Nopalero's Hut",
+        "localization_key": "Building.DesertForager"
+      },
+      {
+        "guid": "42e360078982e4142b9d0104876a3224",
+        "gameobject_id": 69350,
+        "name": "Oasis",
+        "localization_key": "Building.Oasis"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "b181a6ade2121eb4c97d69ef08097932",
+        "gameobject_id": 57397,
+        "name": "Smoothie Stand",
+        "localization_key": "Building.FruitJuiceStand"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "6f91f0a136ebf4befa0e90bbbcbf3f79",
+        "gameobject_id": 40306,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "7f0517aae7626244db91df74eabaffa7",
+        "gameobject_id": 105723,
+        "name": "Stone Mine",
+        "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "a32c350a69d20034caa8e349b24d57f5",
+        "gameobject_id": 67916,
+        "name": "Nopal Tree",
+        "localization_key": "Field.NopalTree"
+      },
+      {
+        "guid": "8eb34657b77ee1d449fff0c46012a2a7",
+        "gameobject_id": 67911,
+        "name": "Date Palm Tree",
+        "localization_key": "Field.DatePalm"
+      },
+      {
+        "guid": "09162f20057b76041830fb394ac60c1c",
+        "gameobject_id": 67904,
+        "name": "Mesquite Tree",
+        "localization_key": "Field.MesquiteTree"
+      },
+      {
+        "guid": "2b16f546be527c642981abef2349105a",
+        "gameobject_id": 71090,
+        "name": "Watermelon Field",
+        "localization_key": "Field.Watermelon"
+      },
+      {
+        "guid": "cecad2a0f4c9bba4aa35e1da4de344cd",
+        "gameobject_id": 71098,
+        "name": "Carrot Field",
+        "localization_key": "Field.Carrot"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "023c99ccbed623442aac31782a68f85c",
+        "instance_count": 3,
+        "gameobject_id": null,
+        "name": "",
+        "localization_key": ""
+      },
+      {
+        "guid": "0b49e2c50c81cb949914e41737a4c40b",
+        "instance_count": 1,
+        "gameobject_id": 47753,
+        "name": "Expedition Crate 3 Variant_Bread",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "38402218dfb78c246a104fd5a156783f",
+        "instance_count": 3,
+        "gameobject_id": 39603,
+        "name": "Fireflies Event",
+        "localization_key": ""
+      },
+      {
+        "guid": "3985568a36e5e6a48bdcf01c0e11215c",
+        "instance_count": 2,
+        "gameobject_id": 107062,
+        "name": "Ruins",
+        "localization_key": "Decoration.Ruins"
+      },
+      {
+        "guid": "399c474ffc06295488fa639dc2efbec7",
+        "instance_count": 9,
+        "gameobject_id": 110892,
+        "name": "Desert Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "5f9be6e653f26c34b8338e137b9a5259",
+        "instance_count": 1,
+        "gameobject_id": 115541,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "61e2159b0ef2e074392fb08fbeae3d51",
+        "instance_count": 40,
+        "gameobject_id": 43388,
+        "name": "Nopalito",
+        "localization_key": "Resource.Nopalito"
+      },
+      {
+        "guid": "77f5d651a8646c8419f9a4045f8c136b",
+        "instance_count": 1,
+        "gameobject_id": 67817,
+        "name": "Expedition Crate 3 Variant_DriedMeat",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "799590d5a3548ff4eb40775d7da67e4d",
+        "instance_count": 3,
+        "gameobject_id": 62710,
+        "name": "Halloween Tree",
+        "localization_key": "Tree.DeadTree"
+      },
+      {
+        "guid": "7b73b4e14565181498ab8bfcaf218f0e",
+        "instance_count": 1,
+        "gameobject_id": 105721,
+        "name": "Well",
+        "localization_key": "Building.Well"
+      },
+      {
+        "guid": "95ab3ec13fc224ea5a49e126af375afb",
+        "instance_count": 2,
+        "gameobject_id": 62711,
+        "name": "PineTree",
+        "localization_key": "Tree.Pine"
+      },
+      {
+        "guid": "998e190f8b73bae44ad461ba9a25a164",
+        "instance_count": 1,
+        "gameobject_id": 90543,
+        "name": "Expedition Crate 2 Variant_Bread",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "a385cac47026ac445aa0c74430691898",
+        "instance_count": 77,
+        "gameobject_id": 64025,
+        "name": "Mesquite Tree",
+        "localization_key": "Field.MesquiteTree"
+      },
+      {
+        "guid": "a4944455c1d65ea4e9bcae485231cae4",
+        "instance_count": 1,
+        "gameobject_id": 95337,
+        "name": "Ruined Plaza",
+        "localization_key": "Decoration.RuinedPlaza"
+      },
+      {
+        "guid": "c4547f50c31efbd45b6f22024655b150",
+        "instance_count": 2,
+        "gameobject_id": 38477,
+        "name": "Nopalero's Hut",
+        "localization_key": "Building.DesertForager"
+      },
+      {
+        "guid": "d156686d36f840247b1d54ad1e691e9b",
+        "instance_count": 90,
+        "gameobject_id": 92220,
+        "name": "Nopal Tree",
+        "localization_key": "Tree.NopalTree"
+      },
+      {
+        "guid": "d4b7759971e24cd4fa2a8d0f6569cb3d",
+        "instance_count": 5,
+        "gameobject_id": 67676,
+        "name": "Desert Home",
+        "localization_key": "Building.DesertHouse"
+      },
+      {
+        "guid": "d706f252be94e3a4b83bb28bd42298d8",
+        "instance_count": 1,
+        "gameobject_id": 107272,
+        "name": "Expedition Crate 2 Variant_DriedMeat",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 4,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "ebd5cb9c62f73754585e54ba95795bbe",
+        "instance_count": 2,
+        "gameobject_id": 95344,
+        "name": "Ruined House",
+        "localization_key": "Decoration.RuinedHouse"
+      }
+    ],
+    "header_population": 12,
+    "world_objectives_match_header": true,
+    "source_category": "downloaded live challenge"
+  }
+}

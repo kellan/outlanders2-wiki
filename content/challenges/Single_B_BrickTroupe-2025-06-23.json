@@ -1,0 +1,284 @@
+{
+  "id": "Single_B_BrickTroupe-2025-06-23",
+  "name": "Chaotic Brick Troupe",
+  "description": "",
+  "objectives": [],
+  "source_entries": [],
+  "campaign_number": null,
+  "category": "live_challenge",
+  "verification_status": "downloaded_cache_decoded; menu_mapping_pending; starting_state_gameplay_unverified",
+  "live_challenge": {
+    "type": "Bounty",
+    "type_source": "batch weekday",
+    "archive_number": 59,
+    "archive_number_source": "batch order",
+    "batch_date": "2025-06-23",
+    "minimum_game_version": 16,
+    "capture_date": "2026-10-28",
+    "menu_evidence": null,
+    "source": "research repo data/challenge-archive/2026-10-28/catalog.json"
+  },
+  "scenario": {
+    "asset_name": "Single_B_BrickTroupe",
+    "title": "Chaotic Brick Troupe",
+    "source_level_path": "Assets/Levels/Challenges/2025-06-23/Single_B_BrickTroupe.bytes",
+    "sha256": "5214c0ae2a96e30c84cda4606091487436edef3b5874bb37be7cea7ff657f4af",
+    "primary_objective_count": 0,
+    "optional_objective_count": 0,
+    "day_limit": 30,
+    "objectives": [],
+    "scoring": [
+      {
+        "mode": "Have",
+        "goal": "maximize",
+        "resource": {
+          "gameobject_id": 36876,
+          "name": "Brick",
+          "localization_key": "Resource.Brick"
+        },
+        "resource_name": "Brick"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "Level",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 2,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": "6a9b952a510a4e94cbe2384a56d109bc"
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "9eb40effdb47a3243b119783975c8664",
+        "gameobject_id": 57396,
+        "name": "Cookie Shop",
+        "localization_key": "Building.CookieShop"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "578d4586224990b4099233f511e9ffd8",
+        "gameobject_id": 67667,
+        "name": "Two-Story House",
+        "localization_key": "Building.HouseStone"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "e08f96ef89f92934d854f74220956a7b",
+        "gameobject_id": 105743,
+        "name": "Bootmakers' Shop",
+        "localization_key": "Building.BootMaker"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "a1f9687f4e08b7e4296cccdfc75b9787",
+        "gameobject_id": 105730,
+        "name": "Cheesery",
+        "localization_key": "Building.CheeseMaker"
+      },
+      {
+        "guid": "398ef2a881962ad4cbf8572215838ef1",
+        "gameobject_id": 105705,
+        "name": "Fondue Bar",
+        "localization_key": "Building.FondueShop"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "7ab694c8a34d7462c9fa0c5d8478994a",
+        "gameobject_id": 75226,
+        "name": "Trading Outpost",
+        "localization_key": "Building.TradingPost"
+      },
+      {
+        "guid": "821e8494d9aa35140ba765e2dac5018b",
+        "gameobject_id": 71093,
+        "name": "Cabbage Field",
+        "localization_key": "Field.Cabbage"
+      },
+      {
+        "guid": "ffa49475cb05e0c48b7efdb975d2ad5a",
+        "gameobject_id": 71100,
+        "name": "Corn Field",
+        "localization_key": "Field.Corn"
+      },
+      {
+        "guid": "ba49332a824bb49599321ceee86e2462",
+        "gameobject_id": 71096,
+        "name": "Tomato Field",
+        "localization_key": "Field.Tomato"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "1563b62a2b7064b3ab44ddd9f6a04262",
+        "instance_count": 77,
+        "gameobject_id": 92214,
+        "name": "FigTree",
+        "localization_key": "Tree.Fig"
+      },
+      {
+        "guid": "2f75a3fea3f854460ba75c2c08ecb57f",
+        "instance_count": 2,
+        "gameobject_id": 105961,
+        "name": "Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "95ab3ec13fc224ea5a49e126af375afb",
+        "instance_count": 87,
+        "gameobject_id": 62711,
+        "name": "PineTree",
+        "localization_key": "Tree.Pine"
+      },
+      {
+        "guid": "dbe994cbb1f936845931d28403d988ed",
+        "instance_count": 84,
+        "gameobject_id": 92221,
+        "name": "GrapeTree",
+        "localization_key": "Tree.Grape"
+      },
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 74,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "e8c6f4a4dbf7846e3a18c1a001a66163",
+        "instance_count": 88,
+        "gameobject_id": 92222,
+        "name": "AppleTree",
+        "localization_key": "Tree.Apple"
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 8,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 21,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      }
+    ],
+    "header_population": 10,
+    "world_objectives_match_header": true,
+    "source_category": "downloaded live challenge"
+  }
+}

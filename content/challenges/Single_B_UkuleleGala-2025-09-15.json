@@ -1,0 +1,511 @@
+{
+  "id": "Single_B_UkuleleGala-2025-09-15",
+  "name": "Outlandish Ukulele Gala",
+  "description": "",
+  "objectives": [],
+  "source_entries": [],
+  "campaign_number": null,
+  "category": "live_challenge",
+  "verification_status": "downloaded_cache_decoded; menu_mapping_pending; starting_state_gameplay_unverified",
+  "live_challenge": {
+    "type": "Bounty",
+    "type_source": "batch weekday",
+    "archive_number": 119,
+    "archive_number_source": "batch order",
+    "batch_date": "2025-09-15",
+    "minimum_game_version": 21,
+    "capture_date": "2026-10-28",
+    "menu_evidence": null,
+    "source": "research repo data/challenge-archive/2026-10-28/catalog.json"
+  },
+  "scenario": {
+    "asset_name": "Single_B_UkuleleGala",
+    "title": "Outlandish Ukulele Gala",
+    "source_level_path": "Assets/Levels/Challenges/2025-09-15/Single_B_UkuleleGala.bytes",
+    "sha256": "8581842401cc3ab93f659897bf251a0c7b48a456fab59847be071100d0d7c084",
+    "primary_objective_count": 0,
+    "optional_objective_count": 0,
+    "day_limit": 40,
+    "objectives": [],
+    "scoring": [
+      {
+        "mode": "Create",
+        "goal": "maximize",
+        "resource": {
+          "gameobject_id": 90292,
+          "name": "Ukulele",
+          "localization_key": "Resource.Ukulele"
+        },
+        "resource_name": "Ukulele"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelDesert",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": true,
+        "LeaderboardType": 2,
+        "ResourceLeaderboardType": 1,
+        "LeaderboardResource": "0c1d12b9d37574df5a29a7f00f9700f4"
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "d4b7759971e24cd4fa2a8d0f6569cb3d",
+        "gameobject_id": 67676,
+        "name": "Desert Home",
+        "localization_key": "Building.DesertHouse"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "c4547f50c31efbd45b6f22024655b150",
+        "gameobject_id": 38477,
+        "name": "Nopalero's Hut",
+        "localization_key": "Building.DesertForager"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "c88244b5c5896fa4ca3b216f220dd2a6",
+        "gameobject_id": 105739,
+        "name": "Fountain",
+        "localization_key": "Building.Fountain"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "fc4f04012b712a34b86a82b4f100bb5d",
+        "gameobject_id": 105750,
+        "name": "Luthierie",
+        "localization_key": "Building.Luthierie"
+      },
+      {
+        "guid": "bb304fe94ede017468a673127eb4434f",
+        "gameobject_id": 105737,
+        "name": "Flame Tree Pit",
+        "localization_key": "Building.FlameTree"
+      },
+      {
+        "guid": "ffa49475cb05e0c48b7efdb975d2ad5a",
+        "gameobject_id": 71100,
+        "name": "Corn Field",
+        "localization_key": "Field.Corn"
+      },
+      {
+        "guid": "ba49332a824bb49599321ceee86e2462",
+        "gameobject_id": 71096,
+        "name": "Tomato Field",
+        "localization_key": "Field.Tomato"
+      },
+      {
+        "guid": "8e32febf780e48d47915bbaac9215222",
+        "gameobject_id": 105725,
+        "name": "Orchid Tree Pit",
+        "localization_key": "Building.OrchidTree"
+      },
+      {
+        "guid": "7c2da86f1c60ac94599c3f6713907b2a",
+        "gameobject_id": 85244,
+        "name": "Hibiscus Planter",
+        "localization_key": "Building.PlanterHibiscus"
+      },
+      {
+        "guid": "f6b750217d0a7024b998d05326e9f8e2",
+        "gameobject_id": 85247,
+        "name": "Crane Flower Planter",
+        "localization_key": "Building.PlanterBirdsOfParadise"
+      },
+      {
+        "guid": "6f91f0a136ebf4befa0e90bbbcbf3f79",
+        "gameobject_id": 40306,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "0f3d52bb8e303804ca0a2f88d05fdac5",
+        "gameobject_id": 67905,
+        "name": "Jungle Bush",
+        "localization_key": "Field.JungleTree"
+      },
+      {
+        "guid": "a32c350a69d20034caa8e349b24d57f5",
+        "gameobject_id": 67916,
+        "name": "Nopal Tree",
+        "localization_key": "Field.NopalTree"
+      },
+      {
+        "guid": "c027dd0faeda0be45b5ee9a1db7c0c92",
+        "gameobject_id": 67918,
+        "name": "Palm Tree",
+        "localization_key": "Field.PalmTree"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "instance_count": 4,
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "049760704a44fd04cbc5aebc371afef1",
+        "instance_count": 3,
+        "gameobject_id": 81576,
+        "name": "Tool Pick",
+        "localization_key": ""
+      },
+      {
+        "guid": "18e899ee9ddba7742b9326bd5ec6d125",
+        "instance_count": 3,
+        "gameobject_id": 97620,
+        "name": "Wheelbarrow",
+        "localization_key": "Tool.Wheelbarrow"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 98,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "2ac4c7de8c339264c937f75c9ad89a01",
+        "instance_count": 4,
+        "gameobject_id": 79276,
+        "name": "Scythe - Rock",
+        "localization_key": "Tool.ScytheRock"
+      },
+      {
+        "guid": "2cbad9a64f6156f4cbe4fca3fc6f431d",
+        "instance_count": 2,
+        "gameobject_id": null,
+        "name": "",
+        "localization_key": ""
+      },
+      {
+        "guid": "399c474ffc06295488fa639dc2efbec7",
+        "instance_count": 10,
+        "gameobject_id": 110892,
+        "name": "Desert Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "4c13d6cfb6b0dbe4c97e754e70de3611",
+        "instance_count": 1,
+        "gameobject_id": 107067,
+        "name": "Expedition Crate 1",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "instance_count": 1,
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "50154c674f0f7eb48aab1b75189cd5e8",
+        "instance_count": 16,
+        "gameobject_id": 97625,
+        "name": "Pick",
+        "localization_key": "Tool.Pick"
+      },
+      {
+        "guid": "551d21748adb743a8b46dac8d60b6cd1",
+        "instance_count": 64,
+        "gameobject_id": 64024,
+        "name": "Jungle Tree",
+        "localization_key": "Field.JungleTree"
+      },
+      {
+        "guid": "57113efc44b82409195c4f67a631462d",
+        "instance_count": 23,
+        "gameobject_id": 115334,
+        "name": "Palm Tree",
+        "localization_key": "Tree.Palm"
+      },
+      {
+        "guid": "5e298903dabe44a25b2581fcc96f0900",
+        "instance_count": 40,
+        "gameobject_id": 90295,
+        "name": "Fruit",
+        "localization_key": "Resource.Fruit"
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 48,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "instance_count": 1,
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "instance_count": 1,
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 8,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "instance_count": 1,
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "b181a6ade2121eb4c97d69ef08097932",
+        "instance_count": 1,
+        "gameobject_id": 57397,
+        "name": "Smoothie Stand",
+        "localization_key": "Building.FruitJuiceStand"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "instance_count": 1,
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "b8501c41316a6a14b92793239c8cf4e7",
+        "instance_count": 4,
+        "gameobject_id": 99576,
+        "name": "SeedBag",
+        "localization_key": ""
+      },
+      {
+        "guid": "be4ba8a0cd8d7d94ea76cfab6e660952",
+        "instance_count": 3,
+        "gameobject_id": 81593,
+        "name": "Grass",
+        "localization_key": ""
+      },
+      {
+        "guid": "c4547f50c31efbd45b6f22024655b150",
+        "instance_count": 1,
+        "gameobject_id": 38477,
+        "name": "Nopalero's Hut",
+        "localization_key": "Building.DesertForager"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "instance_count": 2,
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "cbdef787909bb1842b47662d86ce4ad4",
+        "instance_count": 5,
+        "gameobject_id": 80725,
+        "name": "Log",
+        "localization_key": "Resource.Wood"
+      },
+      {
+        "guid": "ce14c2ef50b8da3408ca5bcfb8e85920",
+        "instance_count": 4,
+        "gameobject_id": 92219,
+        "name": "BananaTree",
+        "localization_key": "Tree.Banana"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "instance_count": 4,
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "d156686d36f840247b1d54ad1e691e9b",
+        "instance_count": 50,
+        "gameobject_id": 92220,
+        "name": "Nopal Tree",
+        "localization_key": "Tree.NopalTree"
+      },
+      {
+        "guid": "d1f8e2782f2f644fab802d5c755a8204",
+        "instance_count": 1,
+        "gameobject_id": 72858,
+        "name": "Axe - Iron",
+        "localization_key": "Tool.AxeIron"
+      },
+      {
+        "guid": "d4b7759971e24cd4fa2a8d0f6569cb3d",
+        "instance_count": 2,
+        "gameobject_id": 67676,
+        "name": "Desert Home",
+        "localization_key": "Building.DesertHouse"
+      },
+      {
+        "guid": "d706f252be94e3a4b83bb28bd42298d8",
+        "instance_count": 1,
+        "gameobject_id": 107272,
+        "name": "Expedition Crate 2 Variant_DriedMeat",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "dcc4a2a85cac243a796ee1944133eaef",
+        "instance_count": 24,
+        "gameobject_id": 44039,
+        "name": "Plate",
+        "localization_key": "Resource.OpenKitchen.Plate"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "instance_count": 1,
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 2,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "f6c862130f1a3a842aefdee58293c866",
+        "instance_count": 52,
+        "gameobject_id": null,
+        "name": "",
+        "localization_key": ""
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 34,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "ffa49475cb05e0c48b7efdb975d2ad5a",
+        "instance_count": 27,
+        "gameobject_id": 71100,
+        "name": "Corn Field",
+        "localization_key": "Field.Corn"
+      }
+    ],
+    "header_population": 10,
+    "world_objectives_match_header": true,
+    "source_category": "downloaded live challenge"
+  }
+}

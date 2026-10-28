@@ -18,7 +18,7 @@ const binge=page('Level02B');assert.ok(binge.includes('≥ 120'));assert.ok(bing
 const town=page('Single_C_Villagers100');assert.ok(town.includes('≥ 100'));assert.ok(!town.includes('AudioEventBase'));
 const first=page('Level01A');assert.ok(first.includes('2 buildings and plants can be built'));assert.ok(first.includes('/buildings/foragers-hut/'));
 assert.ok(h.render('buildings/foragers-hut/').includes('Where it can be built'));
-assert.equal(linked,133);assert.equal(w.levels.filter(l=>!l.scenario).length,0);
+assert.equal(linked,133+w.levels.filter(l=>l.live_challenge).length);assert.equal(w.levels.filter(l=>!l.scenario).length,0);
 console.log(`PASS: ${linked} decoded scenario pages, primary/optional counts, exact targets, needs, legacy unknowns, asset links, and build-list backlinks.`);
 // Player wording must preserve the separate settlement and Housing-concern conditions.
 const resort=page('Single05_C_PeakResort');
