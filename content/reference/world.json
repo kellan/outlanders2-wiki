@@ -10882,5 +10882,665 @@
         "min_version": 16
       }
     ]
+  },
+  "tournament_rewards": {
+    "source": "Packaged RewardEntry MonoBehaviours in resources.assets, decoded with tools/decode_classes.py; version 30 (254).",
+    "seasons": [
+      {
+        "id": "Amish",
+        "rewards": [
+          {
+            "n": 1,
+            "reward_points_needed": 2,
+            "type": "Palette",
+            "localization_key": "FastMode.Palette.Reward",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272075
+          },
+          {
+            "n": 2,
+            "reward_points_needed": 5,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.1",
+            "building_guid": "c53e9b43869e44769a89e59c35bd9a8c",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272081
+          },
+          {
+            "n": 3,
+            "reward_points_needed": 8,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.2",
+            "building_guid": "e82d8e57fcb864803b79b17a12354f2b",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272082
+          },
+          {
+            "n": 4,
+            "reward_points_needed": 12,
+            "type": "Streak",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272083
+          },
+          {
+            "n": 5,
+            "reward_points_needed": 16,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.3",
+            "building_guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272084
+          },
+          {
+            "n": 6,
+            "reward_points_needed": 20,
+            "type": "Score",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": 20,
+            "asset_path_id": 272085
+          },
+          {
+            "n": 7,
+            "reward_points_needed": 26,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.4",
+            "building_guid": "a1f9687f4e08b7e4296cccdfc75b9787",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272086
+          },
+          {
+            "n": 8,
+            "reward_points_needed": 32,
+            "type": "Streak",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272087
+          },
+          {
+            "n": 9,
+            "reward_points_needed": 40,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.5",
+            "building_guid": "c782dc5014e694df9ac017c1d1879e79",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272088
+          },
+          {
+            "n": 10,
+            "reward_points_needed": 48,
+            "type": "Score",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": 50,
+            "asset_path_id": 272076
+          },
+          {
+            "n": 11,
+            "reward_points_needed": 58,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.6",
+            "building_guid": "ccf5d666f7dae9b43ac4eb388a52b4f6",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272077
+          },
+          {
+            "n": 12,
+            "reward_points_needed": 68,
+            "type": "Streak",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272078
+          },
+          {
+            "n": 13,
+            "reward_points_needed": 80,
+            "type": "Villagers",
+            "localization_key": "FastMode.VillagerStyle.Reward",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272079
+          },
+          {
+            "n": 14,
+            "reward_points_needed": 92,
+            "type": "Score",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": 100,
+            "asset_path_id": 272080
+          }
+        ]
+      },
+      {
+        "id": "Chinese",
+        "rewards": [
+          {
+            "n": 1,
+            "reward_points_needed": 2,
+            "type": "Palette",
+            "localization_key": "FastMode.Palette.Reward",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272089
+          },
+          {
+            "n": 2,
+            "reward_points_needed": 5,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.1",
+            "building_guid": "d69a1896465107d43ba4df5eaf06fa3d",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272095
+          },
+          {
+            "n": 3,
+            "reward_points_needed": 8,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.2",
+            "building_guid": "e82d8e57fcb864803b79b17a12354f2b",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272096
+          },
+          {
+            "n": 4,
+            "reward_points_needed": 12,
+            "type": "Streak",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272097
+          },
+          {
+            "n": 5,
+            "reward_points_needed": 16,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.3",
+            "building_guid": "5fe46a6f79002d74996c4ef9c0efe96d",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272098
+          },
+          {
+            "n": 6,
+            "reward_points_needed": 20,
+            "type": "Score",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": 20,
+            "asset_path_id": 272099
+          },
+          {
+            "n": 7,
+            "reward_points_needed": 26,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.4",
+            "building_guid": "36e28d241fc53a047b00a7a94f0b1534",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272100
+          },
+          {
+            "n": 8,
+            "reward_points_needed": 32,
+            "type": "Streak",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272101
+          },
+          {
+            "n": 9,
+            "reward_points_needed": 40,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.5",
+            "building_guid": "7d9d22da9d2da774c88dbbeca1ba1389",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272102
+          },
+          {
+            "n": 10,
+            "reward_points_needed": 48,
+            "type": "Score",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": 50,
+            "asset_path_id": 272090
+          },
+          {
+            "n": 11,
+            "reward_points_needed": 58,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.6",
+            "building_guid": "045b7542e94934d189e3d89b72a36b40",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272091
+          },
+          {
+            "n": 12,
+            "reward_points_needed": 68,
+            "type": "Streak",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272092
+          },
+          {
+            "n": 13,
+            "reward_points_needed": 80,
+            "type": "Villagers",
+            "localization_key": "FastMode.VillagerStyle.Reward",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272093
+          },
+          {
+            "n": 14,
+            "reward_points_needed": 92,
+            "type": "Score",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": 100,
+            "asset_path_id": 272094
+          }
+        ]
+      },
+      {
+        "id": "Egyptian",
+        "rewards": [
+          {
+            "n": 1,
+            "reward_points_needed": 2,
+            "type": "Palette",
+            "localization_key": "FastMode.Palette.Reward",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272103
+          },
+          {
+            "n": 2,
+            "reward_points_needed": 5,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.1",
+            "building_guid": "e7924e2353ad64cd5a0ff1e676be414b",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272109
+          },
+          {
+            "n": 3,
+            "reward_points_needed": 8,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.2",
+            "building_guid": "b181a6ade2121eb4c97d69ef08097932",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272110
+          },
+          {
+            "n": 4,
+            "reward_points_needed": 12,
+            "type": "Streak",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272111
+          },
+          {
+            "n": 5,
+            "reward_points_needed": 16,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.3",
+            "building_guid": "d4b7759971e24cd4fa2a8d0f6569cb3d",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272112
+          },
+          {
+            "n": 6,
+            "reward_points_needed": 20,
+            "type": "Score",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": 20,
+            "asset_path_id": 272113
+          },
+          {
+            "n": 7,
+            "reward_points_needed": 26,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.4",
+            "building_guid": "72e328e1626c6427698be5ccdab7c343",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272114
+          },
+          {
+            "n": 8,
+            "reward_points_needed": 32,
+            "type": "Streak",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272115
+          },
+          {
+            "n": 9,
+            "reward_points_needed": 40,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.5",
+            "building_guid": "7b73b4e14565181498ab8bfcaf218f0e",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272116
+          },
+          {
+            "n": 10,
+            "reward_points_needed": 48,
+            "type": "Score",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": 50,
+            "asset_path_id": 272104
+          },
+          {
+            "n": 11,
+            "reward_points_needed": 58,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.6",
+            "building_guid": "3e0a77d8aa71d734bbde24dc31944e28",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272105
+          },
+          {
+            "n": 12,
+            "reward_points_needed": 68,
+            "type": "Streak",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272106
+          },
+          {
+            "n": 13,
+            "reward_points_needed": 80,
+            "type": "Villagers",
+            "localization_key": "FastMode.VillagerStyle.Reward",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272107
+          },
+          {
+            "n": 14,
+            "reward_points_needed": 92,
+            "type": "Score",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": 100,
+            "asset_path_id": 272108
+          }
+        ]
+      },
+      {
+        "id": "Nordic",
+        "rewards": [
+          {
+            "n": 1,
+            "reward_points_needed": 2,
+            "type": "Palette",
+            "localization_key": "FastMode.Nordic.Reward.1",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272131
+          },
+          {
+            "n": 2,
+            "reward_points_needed": 5,
+            "type": "Building",
+            "localization_key": "FastMode.Nordic.Reward.2",
+            "building_guid": "c53e9b43869e44769a89e59c35bd9a8c",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272137
+          },
+          {
+            "n": 3,
+            "reward_points_needed": 8,
+            "type": "Building",
+            "localization_key": "FastMode.Nordic.Reward.3",
+            "building_guid": "e82d8e57fcb864803b79b17a12354f2b",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272138
+          },
+          {
+            "n": 4,
+            "reward_points_needed": 12,
+            "type": "Streak",
+            "localization_key": "FastMode.Nordic.Reward.4",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272139
+          },
+          {
+            "n": 5,
+            "reward_points_needed": 16,
+            "type": "Building",
+            "localization_key": "FastMode.Nordic.Reward.5",
+            "building_guid": "a4b6e4aeda5edb243ab0f187bf9d2ace",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272140
+          },
+          {
+            "n": 6,
+            "reward_points_needed": 20,
+            "type": "Score",
+            "localization_key": "FastMode.Nordic.Reward.6",
+            "building_guid": null,
+            "leaderboard_bonus": 20,
+            "asset_path_id": 272141
+          },
+          {
+            "n": 7,
+            "reward_points_needed": 26,
+            "type": "Building",
+            "localization_key": "FastMode.Nordic.Reward.7",
+            "building_guid": "e08f96ef89f92934d854f74220956a7b",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272142
+          },
+          {
+            "n": 8,
+            "reward_points_needed": 32,
+            "type": "Streak",
+            "localization_key": "FastMode.Nordic.Reward.8",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272143
+          },
+          {
+            "n": 9,
+            "reward_points_needed": 40,
+            "type": "Building",
+            "localization_key": "FastMode.Nordic.Reward.9",
+            "building_guid": "c17c777dcc03a4743903a8863a53fb60",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272144
+          },
+          {
+            "n": 10,
+            "reward_points_needed": 48,
+            "type": "Score",
+            "localization_key": "FastMode.Nordic.Reward.10",
+            "building_guid": null,
+            "leaderboard_bonus": 50,
+            "asset_path_id": 272132
+          },
+          {
+            "n": 11,
+            "reward_points_needed": 58,
+            "type": "Building",
+            "localization_key": "FastMode.Nordic.Reward.11",
+            "building_guid": "7bfd2dfef53be4a46954b889157f30da",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272133
+          },
+          {
+            "n": 12,
+            "reward_points_needed": 68,
+            "type": "Streak",
+            "localization_key": "FastMode.Nordic.Reward.12",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272134
+          },
+          {
+            "n": 13,
+            "reward_points_needed": 80,
+            "type": "Villagers",
+            "localization_key": "FastMode.Nordic.Reward.13",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272135
+          },
+          {
+            "n": 14,
+            "reward_points_needed": 92,
+            "type": "Score",
+            "localization_key": "FastMode.Nordic.Reward.14",
+            "building_guid": null,
+            "leaderboard_bonus": 100,
+            "asset_path_id": 272136
+          }
+        ]
+      },
+      {
+        "id": "PreColumbian",
+        "rewards": [
+          {
+            "n": 1,
+            "reward_points_needed": 2,
+            "type": "Palette",
+            "localization_key": "FastMode.PreColumbian.Reward.1",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272117
+          },
+          {
+            "n": 2,
+            "reward_points_needed": 5,
+            "type": "Building",
+            "localization_key": "FastMode.PreColumbian.Reward.2",
+            "building_guid": "4c40047729ff34ee88e34e3107cd2796",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272123
+          },
+          {
+            "n": 3,
+            "reward_points_needed": 8,
+            "type": "Building",
+            "localization_key": "FastMode.PreColumbian.Reward.3",
+            "building_guid": "c53e9b43869e44769a89e59c35bd9a8c",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272124
+          },
+          {
+            "n": 4,
+            "reward_points_needed": 12,
+            "type": "Streak",
+            "localization_key": "FastMode.PreColumbian.Reward.4",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272125
+          },
+          {
+            "n": 5,
+            "reward_points_needed": 16,
+            "type": "Building",
+            "localization_key": "FastMode.PreColumbian.Reward.5",
+            "building_guid": "72e328e1626c6427698be5ccdab7c343",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272126
+          },
+          {
+            "n": 6,
+            "reward_points_needed": 20,
+            "type": "Score",
+            "localization_key": "FastMode.PreColumbian.Reward.6",
+            "building_guid": null,
+            "leaderboard_bonus": 20,
+            "asset_path_id": 272127
+          },
+          {
+            "n": 7,
+            "reward_points_needed": 26,
+            "type": "Building",
+            "localization_key": "FastMode.PreColumbian.Reward.7",
+            "building_guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272128
+          },
+          {
+            "n": 8,
+            "reward_points_needed": 32,
+            "type": "Streak",
+            "localization_key": "FastMode.PreColumbian.Reward.8",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272129
+          },
+          {
+            "n": 9,
+            "reward_points_needed": 40,
+            "type": "Building",
+            "localization_key": "FastMode.PreColumbian.Reward.9",
+            "building_guid": "66117a968e09a8a40bc5104b08bda00b",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272130
+          },
+          {
+            "n": 10,
+            "reward_points_needed": 48,
+            "type": "Score",
+            "localization_key": "FastMode.PreColumbian.Reward.10",
+            "building_guid": null,
+            "leaderboard_bonus": 50,
+            "asset_path_id": 272118
+          },
+          {
+            "n": 11,
+            "reward_points_needed": 58,
+            "type": "Building",
+            "localization_key": "FastMode.PreColumbian.Reward.11",
+            "building_guid": "7f0517aae7626244db91df74eabaffa7",
+            "leaderboard_bonus": null,
+            "asset_path_id": 272119
+          },
+          {
+            "n": 12,
+            "reward_points_needed": 68,
+            "type": "Streak",
+            "localization_key": "FastMode.PreColumbian.Reward.12",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272120
+          },
+          {
+            "n": 13,
+            "reward_points_needed": 80,
+            "type": "Villagers",
+            "localization_key": "FastMode.PreColumbian.Reward.13",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 272121
+          },
+          {
+            "n": 14,
+            "reward_points_needed": 92,
+            "type": "Score",
+            "localization_key": "FastMode.PreColumbian.Reward.14",
+            "building_guid": null,
+            "leaderboard_bonus": 100,
+            "asset_path_id": 272122
+          }
+        ]
+      }
+    ]
   }
 }
