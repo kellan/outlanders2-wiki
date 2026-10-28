@@ -12,5 +12,5 @@
     "date": "2026-10-28",
     "reference": "Maintainer report in the wiki session, 28 October 2026; batch date from the research repo's challenge archive capture (data/challenge-archive/2026-10-28/catalog.json)."
   },
-  "notes": "The report was 2pm Eastern, which was 18:00 UTC on that date. The wiki takes the rollover to be fixed at 18:00 UTC; after the US clocks change on 1 November 2026 that would be 1pm Eastern. If it still changes at 2pm Eastern, the rollover is 19:00 UTC in winter. Not yet checked."
+  "notes": "Taken to be fixed at 18:00 UTC. If it instead follows US Eastern time, it moves to 19:00 UTC when the clocks change on 1 November 2026. Not yet checked."
 }
