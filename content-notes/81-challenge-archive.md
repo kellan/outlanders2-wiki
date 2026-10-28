@@ -30,7 +30,7 @@ The local agent walked Challenges → Archive and decoded every level in the gam
 - Archive numbers for unmapped levels come from batch order.
 - Every live level page says so.
 
-**Size:** `data/world.json` grows from about 260 KB to 625 KB gzipped. The browser caches it after the first page.
+**Size:** `data/world.json` grows from about 260 KB to 625 KB gzipped. Readers never load it: published pages are baked at build time and only load `page.js`. The data files are downloads for people and agents (listed in `llms.txt`).
 
 **Live dates (second commit).** The maintainer asked for the date information back, now that the real levels are in. Static pages only load `page.js`, so:
 - **Embedded data:** challenge pages carry each level's first-run date as `data-next-run`. The Challenges page and home also carry a small schedule (date, type, name, address for all 260).
