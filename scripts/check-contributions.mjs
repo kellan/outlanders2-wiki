@@ -18,7 +18,7 @@ try{
 const h=await harness();const guide=h.render('contribute/');assert.ok(guide.includes('content/scenarios/'));assert.ok(guide.includes('pull request'));assert.ok(guide.includes('npm run build'));
 for(const p of ['', 'heroes/','levels/','biomes/','index/','campaigns/campaign-3/'])assert.ok(!/Oona|Wetlands/.test(h.render(p)),p+' leaked spoiler names');
 assert.ok(h.query('Oona').includes('0 matches'));assert.ok(!h.query('Oona').includes('spoilers/heroes/oona'));assert.ok(h.render('spoilers/').includes('Oona'));assert.ok(h.render('spoilers/').includes('release unconfirmed'));
-assert.ok(h.lookup['spoilers/heroes/oona/']);assert.ok(h.render('heroes/oona/').includes('Spoilers: unreleased'));assert.ok(h.render('verification/buildings/clay-pit/').includes('Contributed observations'));
+assert.ok(h.lookup['spoilers/heroes/oona/']);assert.ok(h.render('heroes/oona/').includes('Spoiler warning'));assert.ok(h.render('verification/buildings/clay-pit/').includes('Contributed observations'));
 
 // Spoiler visibility and the home teaser are independent requirements.
 const spoilerNames=['Advanced Warehouse','Stroganoff','Mushroom','Concoction Shop',"Swamp Trappers"];
@@ -27,7 +27,7 @@ for(const route of ['', 'buildings/', 'food/', 'resources/', 'production-chains/
 }
 const spoilerIndex=h.render('spoilers/');for(const name of spoilerNames)assert.ok(spoilerIndex.includes(name),'Spoiler index missing '+name);
 for(const name of ['Mushroom','Stroganoff','Advanced Warehouse'])assert.ok(h.query(name).includes('0 matches'),'Search leaked '+name);
-assert.ok(h.render('spoilers/food/stroganoff/').includes('Spoilers: unreleased'));
+assert.ok(h.render('spoilers/food/stroganoff/').includes('Spoiler warning'));
 const home=h.query('');assert.ok(home.includes('Looking to look ahead?'));assert.ok(home.lastIndexOf('<h2>Spoilers</h2>')>home.indexOf('<h2>Reference</h2>'));
 assert.ok(!home.includes('Advanced Warehouse'));assert.ok(!home.includes('field-orchard-base'));
 
@@ -37,7 +37,7 @@ const clean=await harness();
 for(const route of ['', 'buildings/','resources/','food/','production-chains/','index/'])assert.ok(!/Mushroom|Concoction Shop|Stroganoff|Advanced Warehouse|Brick Road|Swamp Trappers/.test(clean.render(route)),route+' leaked mushroom or Oona content');
 assert.ok(clean.render('').includes('Browse Spoilers'));
 assert.ok(!clean.render('').includes('Verification status'));
-assert.ok(clean.render('resources/mushroom/').includes('Spoilers: unreleased'));
+assert.ok(clean.render('resources/mushroom/').includes('Spoiler warning'));
 assert.ok(clean.render('production-chains/advanced-warehouse/').includes('Production steps'));
 assert.ok(!/<details(?![^>]*\bopen\b)/.test(clean.render('verification/')));
 {const navHtml=clean.elements['#nav'].innerHTML;assert.ok(navHtml.lastIndexOf('Spoilers')>navHtml.indexOf('Sources &amp; artwork'),'Spoilers is the last navigation entry')}

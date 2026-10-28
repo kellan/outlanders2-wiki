@@ -6,210 +6,210 @@
       "id": "Oona.000",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "Reported unreleased by the user; packaged update-28 references and menu observations are retained in availability evidence. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Oona’s story isn’t out yet. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "levels",
       "id": "Campaign3_Level2A",
       "status": "related-release-unconfirmed",
       "as_of": "2026-10-23",
-      "reason": "Associated with the reported-unreleased leader story; current release not independently established."
+      "reason": "A level in Oona’s story, which isn’t out yet."
     },
     {
       "type": "levels",
       "id": "Campaign3_Level2B",
       "status": "related-release-unconfirmed",
       "as_of": "2026-10-23",
-      "reason": "Associated with the reported-unreleased leader story; current release not independently established."
+      "reason": "A level in Oona’s story, which isn’t out yet."
     },
     {
       "type": "levels",
       "id": "Campaign3_Level2C",
       "status": "related-release-unconfirmed",
       "as_of": "2026-10-23",
-      "reason": "Associated with the reported-unreleased leader story; current release not independently established."
+      "reason": "A level in Oona’s story, which isn’t out yet."
     },
     {
       "type": "biomes",
       "id": "Swamp",
       "status": "related-release-unconfirmed",
       "as_of": "2026-10-23",
-      "reason": "Packaged update text links this biome to the reported-unreleased story. Association does not establish a release date."
+      "reason": "The game’s update text links this biome to Oona’s story, which isn’t out yet."
     },
     {
       "type": "buildings",
       "id": "105706",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "buildings",
       "id": "105717",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "chains",
       "id": "105706",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "chains",
       "id": "105717",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "resources",
       "id": "320441",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "resources",
       "id": "319673",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "resources",
       "id": "286357",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "resources",
       "id": "286350",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "resources",
       "id": "286346",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "resources",
       "id": "286348",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "resources",
       "id": "319676",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "resources",
       "id": "286349",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "resources",
       "id": "286342",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "The mushroom production chain is reported unreleased by a player as of October 25, 2026. No release date is confirmed. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "buildings",
       "id": "35460",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "Advanced Warehouse appears only in Oona\u2019s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Used only in Oona’s levels. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "chains",
       "id": "35460",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "Advanced Warehouse appears only in Oona\u2019s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Used only in Oona’s levels. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "buildings",
       "id": "116136",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "Brick Road appears only in Oona\u2019s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Used only in Oona’s levels. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "buildings",
       "id": "80803",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "Swamp Trappers\u2019 Hut appears only in Oona\u2019s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Used only in Oona’s levels. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "chains",
       "id": "80803",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "Swamp Trappers\u2019 Hut appears only in Oona\u2019s reported-unreleased scenario build lists among the 133 decoded catalog scenarios. This is evidence of association, not independent confirmation of release status. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Used only in Oona’s levels. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "buildings",
       "id": "78175",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "Non-recyclable Brick Road variant; grouped with Brick Road in Spoilers following the player\u2019s report. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "A version of Brick Road that can’t be recycled. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "resources",
       "id": "319706",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "Associated with Oona\u2019s reported-unreleased story: used only by its associated building processes in the recovered formula links. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Used only by buildings from Oona’s update. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "resources",
       "id": "319711",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "Associated with Oona\u2019s reported-unreleased story: used only by its associated building processes in the recovered formula links. Confirmed from the game files on 2026-10-26: the prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it."
+      "reason": "Used only by buildings from Oona’s update. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "tournament",
       "id": "Egyptian",
       "status": "related-release-unconfirmed",
       "as_of": "2026-10-25",
-      "reason": "The files hold its style name and a reward table that uses the generic reward text, as the live Rural season does, so they do not show whether it has run. The maintainer reports Rural as the live season on 25 October 2026 and Nordic and Mesoamerican are completed seasons with their own reward text, so another style that is not the live season is most likely a future season. Withheld until it is seen in game or in release notes; this does not assert it is unreleased."
+      "reason": "A tournament season in the game files that hasn’t been seen in game. Rural is the live season; Nordic and Mesoamerican have finished."
     },
     {
       "type": "tournament",
       "id": "Chinese",
       "status": "related-release-unconfirmed",
       "as_of": "2026-10-25",
-      "reason": "The files hold its style name and a reward table that uses the generic reward text, as the live Rural season does, so they do not show whether it has run. The maintainer reports Rural as the live season on 25 October 2026 and Nordic and Mesoamerican are completed seasons with their own reward text, so another style that is not the live season is most likely a future season. Withheld until it is seen in game or in release notes; this does not assert it is unreleased."
+      "reason": "A tournament season in the game files that hasn’t been seen in game. Rural is the live season; Nordic and Mesoamerican have finished."
     },
     {
       "type": "buildings",
       "id": "67921",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "Confirmed from the game files on 2026-10-26: the Cypress Tree field prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it. It appears in no level or sandbox planting list."
+      "reason": "No level or sandbox lets you plant it. The game files mark it for version 32; the current game is version 30."
     },
     {
       "type": "buildings",
       "id": "67915",
       "status": "confirmed-unreleased",
       "as_of": "2026-10-26",
-      "reason": "Confirmed from the game files on 2026-10-26: the Willow Tree field prefab's MinGameVersion is 32, above the installed game version 30, so this build hides it. It appears in no level or sandbox planting list."
+      "reason": "No level or sandbox lets you plant it. The game files mark it for version 32; the current game is version 30."
     }
   ]
 }
