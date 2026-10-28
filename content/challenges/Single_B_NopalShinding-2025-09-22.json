@@ -1,0 +1,273 @@
+{
+  "id": "Single_B_NopalShinding-2025-09-22",
+  "name": "Spicy Nopalito Shindig",
+  "description": "",
+  "objectives": [],
+  "source_entries": [],
+  "campaign_number": null,
+  "category": "live_challenge",
+  "verification_status": "downloaded_cache_decoded; menu_mapping_pending; starting_state_gameplay_unverified",
+  "live_challenge": {
+    "type": "Bounty",
+    "type_source": "archive menu",
+    "archive_number": 124,
+    "archive_number_source": "archive menu",
+    "batch_date": "2025-09-22",
+    "minimum_game_version": 19,
+    "capture_date": "2026-10-28",
+    "menu_evidence": "all-types-125-120.jpg",
+    "source": "research repo data/challenge-archive/2026-10-28/catalog.json"
+  },
+  "scenario": {
+    "asset_name": "Single_B_NopalShinding",
+    "title": "Spicy Nopalito Shindig",
+    "source_level_path": "Assets/Levels/Challenges/2025-09-22/Single_B_NopalShinding.bytes",
+    "sha256": "fd11aec495844b8591ac43c2635031612dc7e574774a0469f78538cfca3ae035",
+    "primary_objective_count": 0,
+    "optional_objective_count": 0,
+    "day_limit": 35,
+    "objectives": [],
+    "scoring": [
+      {
+        "mode": "Have",
+        "goal": "maximize",
+        "resource": {
+          "gameobject_id": 43388,
+          "name": "Nopalito",
+          "localization_key": "Resource.Nopalito"
+        },
+        "resource_name": "Nopalito"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelDesert",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": true,
+        "LeaderboardType": 2,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": "61e2159b0ef2e074392fb08fbeae3d51"
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "b181a6ade2121eb4c97d69ef08097932",
+        "gameobject_id": 57397,
+        "name": "Smoothie Stand",
+        "localization_key": "Building.FruitJuiceStand"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "c4547f50c31efbd45b6f22024655b150",
+        "gameobject_id": 38477,
+        "name": "Nopalero's Hut",
+        "localization_key": "Building.DesertForager"
+      },
+      {
+        "guid": "d4b7759971e24cd4fa2a8d0f6569cb3d",
+        "gameobject_id": 67676,
+        "name": "Desert Home",
+        "localization_key": "Building.DesertHouse"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "c88244b5c5896fa4ca3b216f220dd2a6",
+        "gameobject_id": 105739,
+        "name": "Fountain",
+        "localization_key": "Building.Fountain"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "023c99ccbed623442aac31782a68f85c",
+        "instance_count": 2,
+        "gameobject_id": null,
+        "name": "",
+        "localization_key": ""
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "instance_count": 1,
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "2433953a4a0899e45b4364a979c88126",
+        "instance_count": 1,
+        "gameobject_id": null,
+        "name": "",
+        "localization_key": ""
+      },
+      {
+        "guid": "399c474ffc06295488fa639dc2efbec7",
+        "instance_count": 4,
+        "gameobject_id": 110892,
+        "name": "Desert Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "551d21748adb743a8b46dac8d60b6cd1",
+        "instance_count": 164,
+        "gameobject_id": 64024,
+        "name": "Jungle Tree",
+        "localization_key": "Field.JungleTree"
+      },
+      {
+        "guid": "57113efc44b82409195c4f67a631462d",
+        "instance_count": 45,
+        "gameobject_id": 115334,
+        "name": "Palm Tree",
+        "localization_key": "Tree.Palm"
+      },
+      {
+        "guid": "5e298903dabe44a25b2581fcc96f0900",
+        "instance_count": 20,
+        "gameobject_id": 90295,
+        "name": "Fruit",
+        "localization_key": "Resource.Fruit"
+      },
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "instance_count": 1,
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "instance_count": 1,
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "ce14c2ef50b8da3408ca5bcfb8e85920",
+        "instance_count": 15,
+        "gameobject_id": 92219,
+        "name": "BananaTree",
+        "localization_key": "Tree.Banana"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "instance_count": 2,
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "d156686d36f840247b1d54ad1e691e9b",
+        "instance_count": 87,
+        "gameobject_id": 92220,
+        "name": "Nopal Tree",
+        "localization_key": "Tree.NopalTree"
+      },
+      {
+        "guid": "d4b7759971e24cd4fa2a8d0f6569cb3d",
+        "instance_count": 2,
+        "gameobject_id": 67676,
+        "name": "Desert Home",
+        "localization_key": "Building.DesertHouse"
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 2,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 4,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      }
+    ],
+    "header_population": 6,
+    "world_objectives_match_header": true,
+    "source_category": "downloaded live challenge"
+  }
+}

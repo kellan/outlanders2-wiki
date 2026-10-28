@@ -1,0 +1,396 @@
+{
+  "id": "Single_b_meatpicnic_Redux-2026-01-29",
+  "name": "\"Fresh Meat Picnic\" Redux",
+  "description": "",
+  "objectives": [],
+  "source_entries": [],
+  "campaign_number": null,
+  "category": "live_challenge",
+  "verification_status": "downloaded_cache_decoded; menu_mapping_pending; starting_state_gameplay_unverified",
+  "live_challenge": {
+    "type": "Redux",
+    "type_source": "batch weekday",
+    "archive_number": 217,
+    "archive_number_source": "batch order",
+    "batch_date": "2026-01-29",
+    "minimum_game_version": 19,
+    "capture_date": "2026-10-28",
+    "menu_evidence": null,
+    "source": "research repo data/challenge-archive/2026-10-28/catalog.json"
+  },
+  "scenario": {
+    "asset_name": "Single_b_meatpicnic_Redux",
+    "title": "\"Fresh Meat Picnic\" Redux",
+    "source_level_path": "Assets/Levels/Challenges/2026-01-29/Single_b_meatpicnic_Redux.bytes",
+    "sha256": "8d928b48826ad4372686329cf2177c29cd01f0e76cb2fb04ecbdb1b82a28e409",
+    "primary_objective_count": 1,
+    "optional_objective_count": 0,
+    "day_limit": -1,
+    "objectives": [
+      {
+        "NeededAmount": 150,
+        "PrefabKeyToCount": "215d8655855710f499bf1545ad56ed40",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 2,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0,
+        "condition_name": "Consume",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 43385,
+          "name": "Dried Meat",
+          "localization_key": "Resource.DriedMeat"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        }
+      }
+    ],
+    "scoring": [],
+    "level_config": [
+      {
+        "LevelScene": "LevelSnow",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": true,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 1,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": "ca1242d5ba60d48fd9a917cb72e551e2"
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "ef055347ed1404c0fb79a68c6ddd4991",
+        "gameobject_id": 80802,
+        "name": "Trappers' Hut",
+        "localization_key": "Building.HuntersHut"
+      },
+      {
+        "guid": "8793924bc37fc12429340646df423230",
+        "gameobject_id": 69352,
+        "name": "Greenhouse",
+        "localization_key": "Building.GreenHouse"
+      },
+      {
+        "guid": "3e0a77d8aa71d734bbde24dc31944e28",
+        "gameobject_id": 105707,
+        "name": "Press",
+        "localization_key": "Building.Journal"
+      },
+      {
+        "guid": "40cbf11b6165740239a452b1c9a3f9b9",
+        "gameobject_id": 105708,
+        "name": "Paper Mill",
+        "localization_key": "Building.Papermill"
+      },
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "033493988e4a4d94b8f8ffd39ecadc63",
+        "gameobject_id": 105694,
+        "name": "Tailor",
+        "localization_key": "Building.CoatMaker"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "f0716db2a804caf41bb7fed60af17c5e",
+        "gameobject_id": 105747,
+        "name": "Dried Meat Shop",
+        "localization_key": "Building.DriedMeatShop"
+      },
+      {
+        "guid": "97798c772acc00442b4028893e05b090",
+        "gameobject_id": 71094,
+        "name": "Potato Field",
+        "localization_key": "Field.Potato"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "f4180e89ced871e44b81dcc578163c08",
+        "gameobject_id": 105748,
+        "name": "Snow Sculpture",
+        "localization_key": "Building.SnowStatue"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "578d4586224990b4099233f511e9ffd8",
+        "gameobject_id": 67667,
+        "name": "Two-Story House",
+        "localization_key": "Building.HouseStone"
+      },
+      {
+        "guid": "a122042526ded44a094f22861cb604f2",
+        "gameobject_id": 105729,
+        "name": "Winter Cabin",
+        "localization_key": "Building.HouseWithChimney"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "306fea5dcdb132a409da0ca0169a0ac5",
+        "gameobject_id": 105702,
+        "name": "Winter Pub",
+        "localization_key": "Building.WinterPub"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "0b49e2c50c81cb949914e41737a4c40b",
+        "instance_count": 2,
+        "gameobject_id": 47753,
+        "name": "Expedition Crate 3 Variant_Bread",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "2433953a4a0899e45b4364a979c88126",
+        "instance_count": 1,
+        "gameobject_id": null,
+        "name": "",
+        "localization_key": ""
+      },
+      {
+        "guid": "2ac4c7de8c339264c937f75c9ad89a01",
+        "instance_count": 3,
+        "gameobject_id": 79276,
+        "name": "Scythe - Rock",
+        "localization_key": "Tool.ScytheRock"
+      },
+      {
+        "guid": "306fea5dcdb132a409da0ca0169a0ac5",
+        "instance_count": 1,
+        "gameobject_id": 105702,
+        "name": "Winter Pub",
+        "localization_key": "Building.WinterPub"
+      },
+      {
+        "guid": "38402218dfb78c246a104fd5a156783f",
+        "instance_count": 1,
+        "gameobject_id": 39603,
+        "name": "Fireflies Event",
+        "localization_key": ""
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "instance_count": 1,
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "68146c529eba242b59a824d74431fc86",
+        "instance_count": 29,
+        "gameobject_id": 90296,
+        "name": "Veggie",
+        "localization_key": "Resource.Veggie"
+      },
+      {
+        "guid": "73bc82e7a16304b908eeaaeb7ed606a3",
+        "instance_count": 24,
+        "gameobject_id": 103664,
+        "name": "Wheat",
+        "localization_key": "Resource.Wheat"
+      },
+      {
+        "guid": "8793924bc37fc12429340646df423230",
+        "instance_count": 1,
+        "gameobject_id": 69352,
+        "name": "Greenhouse",
+        "localization_key": "Building.GreenHouse"
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 3,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "93e763672d92e4b56bb06e8fe3269a70",
+        "instance_count": 8,
+        "gameobject_id": 110894,
+        "name": "Winter Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "97798c772acc00442b4028893e05b090",
+        "instance_count": 12,
+        "gameobject_id": 71094,
+        "name": "Potato Field",
+        "localization_key": "Field.Potato"
+      },
+      {
+        "guid": "98333cbbe9caa954884c6795f4451476",
+        "instance_count": 20,
+        "gameobject_id": null,
+        "name": "",
+        "localization_key": ""
+      },
+      {
+        "guid": "998e190f8b73bae44ad461ba9a25a164",
+        "instance_count": 1,
+        "gameobject_id": 90543,
+        "name": "Expedition Crate 2 Variant_Bread",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "9b27dcad895aa2c4ba419cbc87dc741f",
+        "instance_count": 12,
+        "gameobject_id": null,
+        "name": "",
+        "localization_key": ""
+      },
+      {
+        "guid": "ac3c375a164b340ecb49555349e7a453",
+        "instance_count": 4,
+        "gameobject_id": 51389,
+        "name": "Winter Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "b337bbd3ab03d477fae2f76d8bfb8af2",
+        "instance_count": 67,
+        "gameobject_id": 97702,
+        "name": "Winter Pine",
+        "localization_key": "Tree.WinPine"
+      },
+      {
+        "guid": "b8501c41316a6a14b92793239c8cf4e7",
+        "instance_count": 3,
+        "gameobject_id": 99576,
+        "name": "SeedBag",
+        "localization_key": ""
+      },
+      {
+        "guid": "b8c70cc86bd916147bc522445040bbe2",
+        "instance_count": 7,
+        "gameobject_id": 81592,
+        "name": "Sand snails",
+        "localization_key": ""
+      },
+      {
+        "guid": "dcc4a2a85cac243a796ee1944133eaef",
+        "instance_count": 24,
+        "gameobject_id": 44039,
+        "name": "Plate",
+        "localization_key": "Resource.OpenKitchen.Plate"
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 6,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "edcccc5248abcfb45912850fd57aaf3f",
+        "instance_count": 1,
+        "gameobject_id": 81600,
+        "name": "Tool Shovel small",
+        "localization_key": ""
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 19,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      }
+    ],
+    "header_population": 12,
+    "world_objectives_match_header": true,
+    "source_category": "downloaded live challenge"
+  }
+}

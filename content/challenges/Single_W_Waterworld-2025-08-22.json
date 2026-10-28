@@ -1,0 +1,794 @@
+{
+  "id": "Single_W_Waterworld-2025-08-22",
+  "name": "Drifting Docks",
+  "description": "",
+  "objectives": [],
+  "source_entries": [],
+  "campaign_number": null,
+  "category": "live_challenge",
+  "verification_status": "downloaded_cache_decoded; menu_mapping_pending; starting_state_gameplay_unverified",
+  "live_challenge": {
+    "type": "Original",
+    "type_source": "archive menu",
+    "archive_number": 103,
+    "archive_number_source": "archive menu",
+    "batch_date": "2025-08-22",
+    "minimum_game_version": 19,
+    "capture_date": "2026-10-28",
+    "menu_evidence": "all-types-107-100.jpg",
+    "source": "research repo data/challenge-archive/2026-10-28/catalog.json"
+  },
+  "scenario": {
+    "asset_name": "Single_W_Waterworld",
+    "title": "Drifting Docks",
+    "source_level_path": "Assets/Levels/Challenges/2025-08-22/Single_W_Waterworld.bytes",
+    "sha256": "18de613cf9cf2064845e02193bb2e04df4fc24b6360ee9037a5762b3b4c2e4c4",
+    "primary_objective_count": 3,
+    "optional_objective_count": 0,
+    "day_limit": -1,
+    "objectives": [
+      {
+        "NeededAmount": 60,
+        "PrefabKeyToCount": "f199493215b865c4aba60ba926ab6d06",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 43402,
+          "name": "Smoothie",
+          "localization_key": "Resource.FruitJuice"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        }
+      },
+      {
+        "NeededAmount": 150,
+        "PrefabKeyToCount": "108be5f4bfad94ed79e7deea4a031409",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 2,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0,
+        "condition_name": "Consume",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 97586,
+          "name": "Bread",
+          "localization_key": "Resource.Bread"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        }
+      },
+      {
+        "NeededAmount": 2,
+        "PrefabKeyToCount": "045b7542e94934d189e3d89b72a36b40",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 45826,
+          "name": "Brewery",
+          "localization_key": "Building.Brewery"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        }
+      }
+    ],
+    "scoring": [],
+    "level_config": [
+      {
+        "LevelScene": "LevelTropical",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": true,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 1,
+        "ResourceLeaderboardType": 1,
+        "LeaderboardResource": "95cb223d0afcbfd48b39ae64a2cc475b"
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "97798c772acc00442b4028893e05b090",
+        "gameobject_id": 71094,
+        "name": "Potato Field",
+        "localization_key": "Field.Potato"
+      },
+      {
+        "guid": "5a5005ef2e8af421faa668d8e3f8c4ef",
+        "gameobject_id": 105712,
+        "name": "Reed Harvester",
+        "localization_key": "Building.ReedCutter"
+      },
+      {
+        "guid": "33bddeec1f69749c7b7d9e57347ffd8c",
+        "gameobject_id": 75225,
+        "name": "Trading Outpost",
+        "localization_key": "Building.TradingPost"
+      },
+      {
+        "guid": "6dbc9d8cd32eb4c11aa8d3ad0b063f7e",
+        "gameobject_id": 105718,
+        "name": "Swimming Pier",
+        "localization_key": "Building.SwimmingPier"
+      },
+      {
+        "guid": "20ecb7af470ed634e8ab471eaf7e5611",
+        "gameobject_id": 57394,
+        "name": "Ice Pop Stand",
+        "localization_key": "Building.IcepopShop"
+      },
+      {
+        "guid": "e84864e2a8cc0564796714eb6cb4fbe4",
+        "gameobject_id": 105745,
+        "name": "Canteen Factory",
+        "localization_key": "Building.CanteenMaker"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "398ef2a881962ad4cbf8572215838ef1",
+        "gameobject_id": 105705,
+        "name": "Fondue Bar",
+        "localization_key": "Building.FondueShop"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "a4b6e4aeda5edb243ab0f187bf9d2ace",
+        "gameobject_id": 105731,
+        "name": "Fishing Dock",
+        "localization_key": "Building.FishingDock"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "f0716db2a804caf41bb7fed60af17c5e",
+        "gameobject_id": 105747,
+        "name": "Dried Meat Shop",
+        "localization_key": "Building.DriedMeatShop"
+      },
+      {
+        "guid": "9eb40effdb47a3243b119783975c8664",
+        "gameobject_id": 57396,
+        "name": "Cookie Shop",
+        "localization_key": "Building.CookieShop"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "a1f9687f4e08b7e4296cccdfc75b9787",
+        "gameobject_id": 105730,
+        "name": "Cheesery",
+        "localization_key": "Building.CheeseMaker"
+      },
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "6f91f0a136ebf4befa0e90bbbcbf3f79",
+        "gameobject_id": 40306,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "7f0517aae7626244db91df74eabaffa7",
+        "gameobject_id": 105723,
+        "name": "Stone Mine",
+        "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "e08f96ef89f92934d854f74220956a7b",
+        "gameobject_id": 105743,
+        "name": "Bootmakers' Shop",
+        "localization_key": "Building.BootMaker"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "045b7542e94934d189e3d89b72a36b40",
+        "gameobject_id": 45826,
+        "name": "Brewery",
+        "localization_key": "Building.Brewery"
+      },
+      {
+        "guid": "36e28d241fc53a047b00a7a94f0b1534",
+        "gameobject_id": 105703,
+        "name": "Paper Mill",
+        "localization_key": "Building.Papermill"
+      },
+      {
+        "guid": "3e0a77d8aa71d734bbde24dc31944e28",
+        "gameobject_id": 105707,
+        "name": "Press",
+        "localization_key": "Building.Journal"
+      },
+      {
+        "guid": "05db8e0ea6cd1bf4ea62c578ff0096b1",
+        "gameobject_id": 105696,
+        "name": "Book Workshop",
+        "localization_key": "Building.Scriptorium"
+      },
+      {
+        "guid": "c88244b5c5896fa4ca3b216f220dd2a6",
+        "gameobject_id": 105739,
+        "name": "Fountain",
+        "localization_key": "Building.Fountain"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "b181a6ade2121eb4c97d69ef08097932",
+        "gameobject_id": 57397,
+        "name": "Smoothie Stand",
+        "localization_key": "Building.FruitJuiceStand"
+      },
+      {
+        "guid": "4abc497ff127b9741a42128d53d5117d",
+        "gameobject_id": 105710,
+        "name": "Jacaranda Tree Pit",
+        "localization_key": "Building.Jacaranda"
+      },
+      {
+        "guid": "e9f4f3f1a09b3464ea0a0d4ded8228cd",
+        "gameobject_id": 85246,
+        "name": "Hydrangea Planter",
+        "localization_key": "Building.PlanterHydrangea"
+      },
+      {
+        "guid": "806cee0400aaedf4f876b1d234bea487",
+        "gameobject_id": 105724,
+        "name": "Silky Oak Tree Pit",
+        "localization_key": "Building.SilkyOak"
+      },
+      {
+        "guid": "8ea44fb4d4532294da18cbe0cc5656a0",
+        "gameobject_id": 67672,
+        "name": "Tropical Shelter",
+        "localization_key": "Building.TropicalHouse"
+      },
+      {
+        "guid": "972f3ae94ccaec947ac0ae782532409e",
+        "gameobject_id": 105728,
+        "name": "Glassworks",
+        "localization_key": "Building.GlassMaker"
+      },
+      {
+        "guid": "0f3d52bb8e303804ca0a2f88d05fdac5",
+        "gameobject_id": 67905,
+        "name": "Jungle Bush",
+        "localization_key": "Field.JungleTree"
+      },
+      {
+        "guid": "93f0666313cd3cf41b2f378b5b9318b2",
+        "gameobject_id": 67913,
+        "name": "Jungle Tree",
+        "localization_key": "Field.JungleBigTree"
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      },
+      {
+        "guid": "ffa49475cb05e0c48b7efdb975d2ad5a",
+        "gameobject_id": 71100,
+        "name": "Corn Field",
+        "localization_key": "Field.Corn"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "067d54078093c24459db447f1533ec9e",
+        "instance_count": 21,
+        "gameobject_id": 71872,
+        "name": "Light Torch",
+        "localization_key": "Decoration.Torch"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "instance_count": 1,
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 30,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "2433953a4a0899e45b4364a979c88126",
+        "instance_count": 1,
+        "gameobject_id": null,
+        "name": "",
+        "localization_key": ""
+      },
+      {
+        "guid": "36ffeeddd6f534531beab31ea7553c75",
+        "instance_count": 1,
+        "gameobject_id": 98765,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "38402218dfb78c246a104fd5a156783f",
+        "instance_count": 4,
+        "gameobject_id": 39603,
+        "name": "Fireflies Event",
+        "localization_key": ""
+      },
+      {
+        "guid": "3e57df531fabd46629afc046c6386fe7",
+        "instance_count": 49,
+        "gameobject_id": 59933,
+        "name": "Reed Plant",
+        "localization_key": ""
+      },
+      {
+        "guid": "4c13d6cfb6b0dbe4c97e754e70de3611",
+        "instance_count": 2,
+        "gameobject_id": 107067,
+        "name": "Expedition Crate 1",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "instance_count": 1,
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "551d21748adb743a8b46dac8d60b6cd1",
+        "instance_count": 288,
+        "gameobject_id": 64024,
+        "name": "Jungle Tree",
+        "localization_key": "Field.JungleTree"
+      },
+      {
+        "guid": "57113efc44b82409195c4f67a631462d",
+        "instance_count": 17,
+        "gameobject_id": 115334,
+        "name": "Palm Tree",
+        "localization_key": "Tree.Palm"
+      },
+      {
+        "guid": "5a41258aa6bbf461e83cc60ca43c7e5d",
+        "instance_count": 10,
+        "gameobject_id": 110893,
+        "name": "Tropical Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "5c167dc8f95bbea4a86abebb4e359c59",
+        "instance_count": 1,
+        "gameobject_id": 107074,
+        "name": "2-1 Dock",
+        "localization_key": "Decorations.BrokenFerryDock"
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "instance_count": 105,
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "instance_count": 1,
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "6dbc9d8cd32eb4c11aa8d3ad0b063f7e",
+        "instance_count": 1,
+        "gameobject_id": 105718,
+        "name": "Swimming Pier",
+        "localization_key": "Building.SwimmingPier"
+      },
+      {
+        "guid": "76f15662f9436dd4bae5778e64127609",
+        "instance_count": 1,
+        "gameobject_id": 81585,
+        "name": "Tool Wheelbarrow",
+        "localization_key": ""
+      },
+      {
+        "guid": "77f5d651a8646c8419f9a4045f8c136b",
+        "instance_count": 7,
+        "gameobject_id": 67817,
+        "name": "Expedition Crate 3 Variant_DriedMeat",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "842cbe9f256384ec4bf8aa72d3efc1d0",
+        "instance_count": 6,
+        "gameobject_id": 92217,
+        "name": "PomeloTree",
+        "localization_key": "Tree.Pomelo"
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 8,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "8ea44fb4d4532294da18cbe0cc5656a0",
+        "instance_count": 3,
+        "gameobject_id": 67672,
+        "name": "Tropical Shelter",
+        "localization_key": "Building.TropicalHouse"
+      },
+      {
+        "guid": "9183f122e9398c044a761a651ba885c4",
+        "instance_count": 1,
+        "gameobject_id": 107087,
+        "name": "2-2 FerryDock",
+        "localization_key": "Decorations.FerryDock"
+      },
+      {
+        "guid": "929aae2b8ffd74855bc95bba925a30f4",
+        "instance_count": 15,
+        "gameobject_id": 71019,
+        "name": "Clay",
+        "localization_key": "Resource.Clay"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "instance_count": 1,
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "9a1b4c88ae0995b4cb9d627b958ef80b",
+        "instance_count": 1,
+        "gameobject_id": 81588,
+        "name": "Ship 0",
+        "localization_key": ""
+      },
+      {
+        "guid": "a4b6e4aeda5edb243ab0f187bf9d2ace",
+        "instance_count": 1,
+        "gameobject_id": 105731,
+        "name": "Fishing Dock",
+        "localization_key": "Building.FishingDock"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "instance_count": 1,
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "aa91c136987e9ad4b8dae78caed7d859",
+        "instance_count": 2,
+        "gameobject_id": 107096,
+        "name": "1-2 Sign#2",
+        "localization_key": ""
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "instance_count": 29,
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "aac5b3f1e7fa38a458d385042dcd5cfa",
+        "instance_count": 1,
+        "gameobject_id": 81590,
+        "name": "Tool Hammer",
+        "localization_key": ""
+      },
+      {
+        "guid": "b1d715c14bd154b46a3e9d244ccc3ea0",
+        "instance_count": 31,
+        "gameobject_id": 81591,
+        "name": "Reef",
+        "localization_key": ""
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "instance_count": 2,
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "b8c70cc86bd916147bc522445040bbe2",
+        "instance_count": 170,
+        "gameobject_id": 81592,
+        "name": "Sand snails",
+        "localization_key": ""
+      },
+      {
+        "guid": "b8cb8c52b58c565488e7ad9a085487cb",
+        "instance_count": 1,
+        "gameobject_id": 107099,
+        "name": "Expedition Crate 2",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "bb7eebb8e1cacc042a9b9be69c303529",
+        "instance_count": 11,
+        "gameobject_id": 64026,
+        "name": "Jungle Big Tree",
+        "localization_key": "Field.JungleBigTree"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "instance_count": 8,
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "ca1242d5ba60d48fd9a917cb72e551e2",
+        "instance_count": 50,
+        "gameobject_id": 93256,
+        "name": "Meat",
+        "localization_key": "Resource.Meat"
+      },
+      {
+        "guid": "ce14c2ef50b8da3408ca5bcfb8e85920",
+        "instance_count": 14,
+        "gameobject_id": 92219,
+        "name": "BananaTree",
+        "localization_key": "Tree.Banana"
+      },
+      {
+        "guid": "d1f8e2782f2f644fab802d5c755a8204",
+        "instance_count": 1,
+        "gameobject_id": 72858,
+        "name": "Axe - Iron",
+        "localization_key": "Tool.AxeIron"
+      },
+      {
+        "guid": "d5e93ef656a2280458607f66f790b179",
+        "instance_count": 1,
+        "gameobject_id": 98661,
+        "name": "Chico´s Ship",
+        "localization_key": "Decoration.ChicosShip"
+      },
+      {
+        "guid": "d706f252be94e3a4b83bb28bd42298d8",
+        "instance_count": 4,
+        "gameobject_id": 107272,
+        "name": "Expedition Crate 2 Variant_DriedMeat",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "da94570ec2cdb4a25a2f961098233dc1",
+        "instance_count": 11,
+        "gameobject_id": 107108,
+        "name": "Canoe",
+        "localization_key": "Decoration.Canoe"
+      },
+      {
+        "guid": "dcc4a2a85cac243a796ee1944133eaef",
+        "instance_count": 24,
+        "gameobject_id": 44039,
+        "name": "Plate",
+        "localization_key": "Resource.OpenKitchen.Plate"
+      },
+      {
+        "guid": "e53f3b47ed960e143ac36f3d2fe9e75a",
+        "instance_count": 1,
+        "gameobject_id": 55507,
+        "name": "Birds flock Seagull",
+        "localization_key": ""
+      },
+      {
+        "guid": "e932b0755062c0d41af38ab422ff6e76",
+        "instance_count": 1,
+        "gameobject_id": 81598,
+        "name": "Tool Bucket",
+        "localization_key": ""
+      },
+      {
+        "guid": "e998bf8debe484d3bb02ff5de23f6fb0",
+        "instance_count": 10,
+        "gameobject_id": 51390,
+        "name": "Tropical Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "eb42060c439999b468d3f93fef959c3e",
+        "instance_count": 3,
+        "gameobject_id": 72859,
+        "name": "Fishing Net",
+        "localization_key": "Tool.FishingNet"
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 6,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "f1c79859a589c564f89cd9eb64ca8dbc",
+        "instance_count": 1,
+        "gameobject_id": 81602,
+        "name": "Tool Bucket wSand",
+        "localization_key": ""
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 25,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "ff844fc4f8ea1864fb7e53344cc0156a",
+        "instance_count": 2,
+        "gameobject_id": 55509,
+        "name": "Birds flock Colorful",
+        "localization_key": ""
+      }
+    ],
+    "header_population": 20,
+    "world_objectives_match_header": true,
+    "source_category": "downloaded live challenge"
+  }
+}

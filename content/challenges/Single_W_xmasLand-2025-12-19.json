@@ -1,0 +1,678 @@
+{
+  "id": "Single_W_xmasLand-2025-12-19",
+  "name": "Holiday Shores",
+  "description": "",
+  "objectives": [],
+  "source_entries": [],
+  "campaign_number": null,
+  "category": "live_challenge",
+  "verification_status": "downloaded_cache_decoded; menu_mapping_pending; starting_state_gameplay_unverified",
+  "live_challenge": {
+    "type": "Original",
+    "type_source": "batch weekday",
+    "archive_number": 188,
+    "archive_number_source": "batch order",
+    "batch_date": "2025-12-19",
+    "minimum_game_version": 19,
+    "capture_date": "2026-10-28",
+    "menu_evidence": null,
+    "source": "research repo data/challenge-archive/2026-10-28/catalog.json"
+  },
+  "scenario": {
+    "asset_name": "Single_W_xmasLand",
+    "title": "Holiday Shores",
+    "source_level_path": "Assets/Levels/Challenges/2025-12-19/Single_W_xmasLand.bytes",
+    "sha256": "9817c9d1db073d0f023df1472e890dd0c83c2a0f2df90e7c40611a1edbdefcbe",
+    "primary_objective_count": 1,
+    "optional_objective_count": 0,
+    "day_limit": -1,
+    "objectives": [
+      {
+        "NeededAmount": 100,
+        "PrefabKeyToCount": "ed5c389b603c1e2479a9299fba755a1c",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 1,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0,
+        "condition_name": "Create",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": null,
+          "name": "",
+          "localization_key": ""
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        }
+      }
+    ],
+    "scoring": [],
+    "level_config": [
+      {
+        "LevelScene": "",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": true,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 1,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "7f0517aae7626244db91df74eabaffa7",
+        "gameobject_id": 105723,
+        "name": "Stone Mine",
+        "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "3e0a77d8aa71d734bbde24dc31944e28",
+        "gameobject_id": 105707,
+        "name": "Press",
+        "localization_key": "Building.Journal"
+      },
+      {
+        "guid": "36e28d241fc53a047b00a7a94f0b1534",
+        "gameobject_id": 105703,
+        "name": "Paper Mill",
+        "localization_key": "Building.Papermill"
+      },
+      {
+        "guid": "bce16e7ea8ff91e4da1bf626794075e0",
+        "gameobject_id": 116139,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "8eebecf277142204ba189081928c90f8",
+        "gameobject_id": 78174,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "4c40047729ff34ee88e34e3107cd2796",
+        "gameobject_id": 105711,
+        "name": "Open Kitchen",
+        "localization_key": "Building.OpenKitchen"
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "7ab694c8a34d7462c9fa0c5d8478994a",
+        "gameobject_id": 75226,
+        "name": "Trading Outpost",
+        "localization_key": "Building.TradingPost"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "c88244b5c5896fa4ca3b216f220dd2a6",
+        "gameobject_id": 105739,
+        "name": "Fountain",
+        "localization_key": "Building.Fountain"
+      },
+      {
+        "guid": "376cd4d7bb455094faf2a6eac858ccd4",
+        "gameobject_id": 105704,
+        "name": "Tiny Man Statue",
+        "localization_key": "Building.OgirStatue"
+      },
+      {
+        "guid": "7c2da86f1c60ac94599c3f6713907b2a",
+        "gameobject_id": 85244,
+        "name": "Hibiscus Planter",
+        "localization_key": "Building.PlanterHibiscus"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "40cbf11b6165740239a452b1c9a3f9b9",
+        "gameobject_id": 105708,
+        "name": "Paper Mill",
+        "localization_key": "Building.Papermill"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "067d54078093c24459db447f1533ec9e",
+        "instance_count": 7,
+        "gameobject_id": 71872,
+        "name": "Light Torch",
+        "localization_key": "Decoration.Torch"
+      },
+      {
+        "guid": "0b6f8506be352de42b91cc410d509b49",
+        "instance_count": 1,
+        "gameobject_id": 107054,
+        "name": "Christmas Tree Lights",
+        "localization_key": ""
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "instance_count": 2,
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "18e899ee9ddba7742b9326bd5ec6d125",
+        "instance_count": 6,
+        "gameobject_id": 97620,
+        "name": "Wheelbarrow",
+        "localization_key": "Tool.Wheelbarrow"
+      },
+      {
+        "guid": "2b81a52a02ce7db469192c5e5b717399",
+        "instance_count": 1,
+        "gameobject_id": 107059,
+        "name": "5-3 Arch",
+        "localization_key": "Decoration.MidsupperArch"
+      },
+      {
+        "guid": "2f75a3fea3f854460ba75c2c08ecb57f",
+        "instance_count": 7,
+        "gameobject_id": 105961,
+        "name": "Villager Kid",
+        "localization_key": ""
+      },
+      {
+        "guid": "322d5d439cb10fc4c88deb3cd6ddaecc",
+        "instance_count": 2,
+        "gameobject_id": 107060,
+        "name": "Festival Ornament 3",
+        "localization_key": ""
+      },
+      {
+        "guid": "33fedbdd12fe72b4abb0df799598139c",
+        "instance_count": 1,
+        "gameobject_id": 40290,
+        "name": "Plant Jacaranda",
+        "localization_key": ""
+      },
+      {
+        "guid": "35cc11aedcd9c914e97d7abce86d9fe1",
+        "instance_count": 11,
+        "gameobject_id": 44488,
+        "name": "Christmas Gift 2 Coats",
+        "localization_key": "Decoration.Gift"
+      },
+      {
+        "guid": "391cf060938854285ba68a34e1957e74",
+        "instance_count": 2,
+        "gameobject_id": 38476,
+        "name": "Foragers' Hut",
+        "localization_key": "Building.Forager"
+      },
+      {
+        "guid": "39abc3f0aa457fd4caebccbb3095079a",
+        "instance_count": 7,
+        "gameobject_id": 44489,
+        "name": "Christmas Gift 5 Books and Coats",
+        "localization_key": "Decoration.Gift"
+      },
+      {
+        "guid": "39c81ad5a30184c52868b34fa8391f73",
+        "instance_count": 61,
+        "gameobject_id": 40043,
+        "name": "Flour",
+        "localization_key": "Resource.Flour"
+      },
+      {
+        "guid": "3ba26cbfb1c627545a1d5c2c7ac81028",
+        "instance_count": 1,
+        "gameobject_id": null,
+        "name": "",
+        "localization_key": ""
+      },
+      {
+        "guid": "4181c05e47b76e24d97b342937bb2162",
+        "instance_count": 3,
+        "gameobject_id": 44490,
+        "name": "Christmas Gift 4 Coats",
+        "localization_key": "Decoration.Gift"
+      },
+      {
+        "guid": "4932d00b9da79c143a2b0f049d25461d",
+        "instance_count": 1,
+        "gameobject_id": 60667,
+        "name": "Gingerbread Man Shop",
+        "localization_key": "Building.GingerbreadManShop"
+      },
+      {
+        "guid": "4abc497ff127b9741a42128d53d5117d",
+        "instance_count": 1,
+        "gameobject_id": 105710,
+        "name": "Jacaranda Tree Pit",
+        "localization_key": "Building.Jacaranda"
+      },
+      {
+        "guid": "50765ea07e608f04d9eddddf25637284",
+        "instance_count": 4,
+        "gameobject_id": 107068,
+        "name": "Christmas Gift 0 Coats",
+        "localization_key": "Decoration.Gift"
+      },
+      {
+        "guid": "578d4586224990b4099233f511e9ffd8",
+        "instance_count": 1,
+        "gameobject_id": 67667,
+        "name": "Two-Story House",
+        "localization_key": "Building.HouseStone"
+      },
+      {
+        "guid": "5b095a6b2b0a482438c5b92d15264188",
+        "instance_count": 2,
+        "gameobject_id": 107073,
+        "name": "Christmas Snowman 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "5b37018b71b4344c98cf1ac3f2ee5333",
+        "instance_count": 75,
+        "gameobject_id": 93255,
+        "name": "Animal Hide",
+        "localization_key": "Resource.AnimalHide"
+      },
+      {
+        "guid": "5e9f29bce436146ac9c79110237d446d",
+        "instance_count": 2,
+        "gameobject_id": 105713,
+        "name": "Chicken Coop",
+        "localization_key": "Building.ChickenCoop"
+      },
+      {
+        "guid": "604f8d5606db9f84e903bb3204b55f10",
+        "instance_count": 7,
+        "gameobject_id": 44491,
+        "name": "Christmas Gift 1 Books and Coats",
+        "localization_key": "Decoration.Gift"
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 1,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "instance_count": 1,
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "instance_count": 2,
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "instance_count": 2,
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "77f5d651a8646c8419f9a4045f8c136b",
+        "instance_count": 1,
+        "gameobject_id": 67817,
+        "name": "Expedition Crate 3 Variant_DriedMeat",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "7ab694c8a34d7462c9fa0c5d8478994a",
+        "instance_count": 1,
+        "gameobject_id": 75226,
+        "name": "Trading Outpost",
+        "localization_key": "Building.TradingPost"
+      },
+      {
+        "guid": "80d02a9ceaa8ee04189c3fb074dac23a",
+        "instance_count": 1,
+        "gameobject_id": 67670,
+        "name": "Gingerbread Man Man",
+        "localization_key": "Building.GingerbreadManMan"
+      },
+      {
+        "guid": "846e1e0d839869e468a49db9a01268b5",
+        "instance_count": 4,
+        "gameobject_id": 95333,
+        "name": "Sea Ice",
+        "localization_key": "Decoration.SeaIce"
+      },
+      {
+        "guid": "87484fda17028401dbd7af2eb9bab112",
+        "instance_count": 1,
+        "gameobject_id": 94267,
+        "name": "Bonfire",
+        "localization_key": "Building.Bonfire"
+      },
+      {
+        "guid": "87963d4b832fb774d8c27aa8e96208e6",
+        "instance_count": 1,
+        "gameobject_id": null,
+        "name": "",
+        "localization_key": ""
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 8,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "8c3cbfc6d021dcd49b11d90787b2c5f4",
+        "instance_count": 2,
+        "gameobject_id": 107086,
+        "name": "Festival Ornament 1",
+        "localization_key": ""
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "instance_count": 3,
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "9900a1819cb6d754f81c08f520497838",
+        "instance_count": 2,
+        "gameobject_id": 107090,
+        "name": "Christmas Snowman 0",
+        "localization_key": ""
+      },
+      {
+        "guid": "9bb687950e471b54e9fceebf2dada633",
+        "instance_count": 10,
+        "gameobject_id": 107091,
+        "name": "Christmas Cane",
+        "localization_key": ""
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "instance_count": 2,
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "instance_count": 86,
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "instance_count": 2,
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "b337bbd3ab03d477fae2f76d8bfb8af2",
+        "instance_count": 90,
+        "gameobject_id": 97702,
+        "name": "Winter Pine",
+        "localization_key": "Tree.WinPine"
+      },
+      {
+        "guid": "b835de60bd68db54e9abb5668593aeec",
+        "instance_count": 1,
+        "gameobject_id": null,
+        "name": "",
+        "localization_key": ""
+      },
+      {
+        "guid": "c07ba5700cd43274bbad0bab1cd5125c",
+        "instance_count": 1,
+        "gameobject_id": null,
+        "name": "",
+        "localization_key": ""
+      },
+      {
+        "guid": "c2b53b746eabf40f29037cca460c2bae",
+        "instance_count": 6,
+        "gameobject_id": 97630,
+        "name": "Basket",
+        "localization_key": "Tool.Basket"
+      },
+      {
+        "guid": "c53e9b43869e44769a89e59c35bd9a8c",
+        "instance_count": 3,
+        "gameobject_id": 67675,
+        "name": "Basic House",
+        "localization_key": "Building.House"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "instance_count": 4,
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "d1f8e2782f2f644fab802d5c755a8204",
+        "instance_count": 3,
+        "gameobject_id": 72858,
+        "name": "Axe - Iron",
+        "localization_key": "Tool.AxeIron"
+      },
+      {
+        "guid": "d69a1896465107d43ba4df5eaf06fa3d",
+        "instance_count": 2,
+        "gameobject_id": 67677,
+        "name": "Plank House",
+        "localization_key": "Building.PlankHouse"
+      },
+      {
+        "guid": "d706f252be94e3a4b83bb28bd42298d8",
+        "instance_count": 3,
+        "gameobject_id": 107272,
+        "name": "Expedition Crate 2 Variant_DriedMeat",
+        "localization_key": "Decoration.Crate"
+      },
+      {
+        "guid": "da94570ec2cdb4a25a2f961098233dc1",
+        "instance_count": 2,
+        "gameobject_id": 107108,
+        "name": "Canoe",
+        "localization_key": "Decoration.Canoe"
+      },
+      {
+        "guid": "e08f96ef89f92934d854f74220956a7b",
+        "instance_count": 1,
+        "gameobject_id": 105743,
+        "name": "Bootmakers' Shop",
+        "localization_key": "Building.BootMaker"
+      },
+      {
+        "guid": "e5458553a52454008b3e3a702a5dca69",
+        "instance_count": 30,
+        "gameobject_id": 43399,
+        "name": "Egg",
+        "localization_key": "Resource.Egg"
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 6,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "ec091ebe6dff4ac4abcb98de722036a8",
+        "instance_count": 2,
+        "gameobject_id": 107115,
+        "name": "Christmas Sled",
+        "localization_key": ""
+      },
+      {
+        "guid": "ed5c389b603c1e2479a9299fba755a1c",
+        "instance_count": 18,
+        "gameobject_id": null,
+        "name": "",
+        "localization_key": ""
+      },
+      {
+        "guid": "f0716db2a804caf41bb7fed60af17c5e",
+        "instance_count": 1,
+        "gameobject_id": 105747,
+        "name": "Dried Meat Shop",
+        "localization_key": "Building.DriedMeatShop"
+      },
+      {
+        "guid": "f9e79a2d70e36944db7aae601779093c",
+        "instance_count": 3,
+        "gameobject_id": 107117,
+        "name": "Light Lantern",
+        "localization_key": "Decoration.Lantern"
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 13,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 20,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      }
+    ],
+    "header_population": 20,
+    "world_objectives_match_header": true,
+    "source_category": "downloaded live challenge"
+  }
+}

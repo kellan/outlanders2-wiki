@@ -1,0 +1,405 @@
+{
+  "id": "Campaign2_Level7C_Redux-2026-02-26",
+  "name": "\"Outgrown\" Redux",
+  "description": "",
+  "objectives": [],
+  "source_entries": [],
+  "campaign_number": null,
+  "category": "live_challenge",
+  "verification_status": "downloaded_cache_decoded; menu_mapping_pending; starting_state_gameplay_unverified",
+  "live_challenge": {
+    "type": "Redux",
+    "type_source": "batch weekday",
+    "archive_number": 237,
+    "archive_number_source": "batch order",
+    "batch_date": "2026-02-26",
+    "minimum_game_version": 24,
+    "capture_date": "2026-10-28",
+    "menu_evidence": null,
+    "source": "research repo data/challenge-archive/2026-10-28/catalog.json"
+  },
+  "scenario": {
+    "asset_name": "Campaign2_Level7C_Redux",
+    "title": "\"Outgrown\" Redux",
+    "source_level_path": "Assets/Levels/Challenges/2026-02-26/Campaign2_Level7C_Redux.bytes",
+    "sha256": "ba59c1cf0c54ca482efb64db0da0747aff7228c699902385dc2face32c79b0f6",
+    "primary_objective_count": 3,
+    "optional_objective_count": 0,
+    "day_limit": -1,
+    "objectives": [
+      {
+        "NeededAmount": 30,
+        "PrefabKeyToCount": "46124da7674330946812a5e7339786af",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 92216,
+          "name": "BerryBush",
+          "localization_key": "Tree.BerryBush"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        }
+      },
+      {
+        "NeededAmount": 80,
+        "PrefabKeyToCount": "83a98825b2e8b411ab0c8fd15517a777",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 4,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 1,
+        "condition_name": "Happiness",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 98767,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        }
+      },
+      {
+        "NeededAmount": 30,
+        "PrefabKeyToCount": "9ca3db9f2287e4d48807637bee4c7490",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 2,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": false,
+        "Value": 0,
+        "condition_name": "Consume",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 44036,
+          "name": "Barley Porridge",
+          "localization_key": "Resource.BarleyPorridge"
+        },
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        }
+      }
+    ],
+    "scoring": [],
+    "level_config": [
+      {
+        "LevelScene": "Level",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": false,
+        "LeaderboardType": 1,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": ""
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "c089a131da7791748a577c633d5a2ff6",
+        "gameobject_id": 40309,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "7d9d22da9d2da774c88dbbeca1ba1389",
+        "gameobject_id": 40307,
+        "name": "Orchard",
+        "localization_key": "Building.Orchard"
+      },
+      {
+        "guid": "36e28d241fc53a047b00a7a94f0b1534",
+        "gameobject_id": 105703,
+        "name": "Paper Mill",
+        "localization_key": "Building.Papermill"
+      },
+      {
+        "guid": "c17c777dcc03a4743903a8863a53fb60",
+        "gameobject_id": 105738,
+        "name": "Porridge Cookhouse",
+        "localization_key": "Building.BarleyPorridgeShop"
+      },
+      {
+        "guid": "bc256ee0d241047c685e39ff9a7a5537",
+        "gameobject_id": 40308,
+        "name": "Orchard",
+        "localization_key": "Building.Orchard"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "b181a6ade2121eb4c97d69ef08097932",
+        "gameobject_id": 57397,
+        "name": "Smoothie Stand",
+        "localization_key": "Building.FruitJuiceStand"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "485f6d7ce0bc7fc40bedb393a9ae176f",
+        "gameobject_id": 67908,
+        "name": "Berry Bush",
+        "localization_key": "Field.BerryBush"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "108be5f4bfad94ed79e7deea4a031409",
+        "instance_count": 4,
+        "gameobject_id": 97586,
+        "name": "Bread",
+        "localization_key": "Resource.Bread"
+      },
+      {
+        "guid": "1dc4976dd4a2ad945ab2b5cd81094d5e",
+        "instance_count": 40,
+        "gameobject_id": 35517,
+        "name": "Stick",
+        "localization_key": "Resource.Stick"
+      },
+      {
+        "guid": "24c4a7f895a494aa49256a191f3487e3",
+        "instance_count": 69,
+        "gameobject_id": 100756,
+        "name": "WheatPlant",
+        "localization_key": ""
+      },
+      {
+        "guid": "2ac4c7de8c339264c937f75c9ad89a01",
+        "instance_count": 4,
+        "gameobject_id": 79276,
+        "name": "Scythe - Rock",
+        "localization_key": "Tool.ScytheRock"
+      },
+      {
+        "guid": "3579311d25c9d4c519254df507775322",
+        "instance_count": 1,
+        "gameobject_id": 57395,
+        "name": "Bakery",
+        "localization_key": "Building.Bakery"
+      },
+      {
+        "guid": "39c81ad5a30184c52868b34fa8391f73",
+        "instance_count": 7,
+        "gameobject_id": 40043,
+        "name": "Flour",
+        "localization_key": "Resource.Flour"
+      },
+      {
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
+        "instance_count": 1,
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
+      },
+      {
+        "guid": "60727983fbac247eb8d29a65dab529a2",
+        "instance_count": 39,
+        "gameobject_id": 63696,
+        "name": "StandalonePile",
+        "localization_key": ""
+      },
+      {
+        "guid": "73bc82e7a16304b908eeaaeb7ed606a3",
+        "instance_count": 19,
+        "gameobject_id": 103664,
+        "name": "Wheat",
+        "localization_key": "Resource.Wheat"
+      },
+      {
+        "guid": "7cf0dcb49f1574350bcaf45c1ee7c1fb",
+        "instance_count": 1,
+        "gameobject_id": 46166,
+        "name": "BakeryPeel",
+        "localization_key": ""
+      },
+      {
+        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
+        "instance_count": 4,
+        "gameobject_id": 93927,
+        "name": "Hoe - Wood",
+        "localization_key": "Tool.HoeWood"
+      },
+      {
+        "guid": "95ab3ec13fc224ea5a49e126af375afb",
+        "instance_count": 105,
+        "gameobject_id": 62711,
+        "name": "PineTree",
+        "localization_key": "Tree.Pine"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "instance_count": 24,
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "b8501c41316a6a14b92793239c8cf4e7",
+        "instance_count": 4,
+        "gameobject_id": 99576,
+        "name": "SeedBag",
+        "localization_key": ""
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "instance_count": 24,
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "c782dc5014e694df9ac017c1d1879e79",
+        "instance_count": 1,
+        "gameobject_id": 104202,
+        "name": "Windmill",
+        "localization_key": "Building.Windmill"
+      },
+      {
+        "guid": "d156686d36f840247b1d54ad1e691e9b",
+        "instance_count": 1,
+        "gameobject_id": 92220,
+        "name": "Nopal Tree",
+        "localization_key": "Tree.NopalTree"
+      },
+      {
+        "guid": "e0e76dd042ebd3941806749cbeca1ea0",
+        "instance_count": 11,
+        "gameobject_id": 62712,
+        "name": "Ash",
+        "localization_key": "Tree.Ash"
+      },
+      {
+        "guid": "e82d8e57fcb864803b79b17a12354f2b",
+        "instance_count": 1,
+        "gameobject_id": 69353,
+        "name": "Farm",
+        "localization_key": "Building.Farm"
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 6,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 29,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      },
+      {
+        "guid": "ff19ad3f0aa405248bb47896f82d9c43",
+        "instance_count": 69,
+        "gameobject_id": 58425,
+        "name": "Wheat Field",
+        "localization_key": "Field.Wheat"
+      }
+    ],
+    "header_population": 6,
+    "world_objectives_match_header": true,
+    "source_category": "downloaded live challenge"
+  }
+}

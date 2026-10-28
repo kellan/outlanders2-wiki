@@ -1,0 +1,233 @@
+{
+  "id": "Single_B_WoodPastime-2026-02-23",
+  "name": "Useful Log Pastime",
+  "description": "",
+  "objectives": [],
+  "source_entries": [],
+  "campaign_number": null,
+  "category": "live_challenge",
+  "verification_status": "downloaded_cache_decoded; menu_mapping_pending; starting_state_gameplay_unverified",
+  "live_challenge": {
+    "type": "Bounty",
+    "type_source": "batch weekday",
+    "archive_number": 234,
+    "archive_number_source": "batch order",
+    "batch_date": "2026-02-23",
+    "minimum_game_version": 22,
+    "capture_date": "2026-10-28",
+    "menu_evidence": null,
+    "source": "research repo data/challenge-archive/2026-10-28/catalog.json"
+  },
+  "scenario": {
+    "asset_name": "Single_B_WoodPastime",
+    "title": "Useful Log Pastime",
+    "source_level_path": "Assets/Levels/Challenges/2026-02-23/Single_B_WoodPastime.bytes",
+    "sha256": "7c49d446797bee9e580b0983553d6d9432719424b0f129d69b7e61f366600293",
+    "primary_objective_count": 0,
+    "optional_objective_count": 0,
+    "day_limit": 30,
+    "objectives": [],
+    "scoring": [
+      {
+        "mode": "Have",
+        "goal": "maximize",
+        "resource": {
+          "gameobject_id": 80725,
+          "name": "Log",
+          "localization_key": "Resource.Wood"
+        },
+        "resource_name": "Log"
+      }
+    ],
+    "level_config": [
+      {
+        "LevelScene": "LevelDesert",
+        "IsConcernFoodAvailable": true,
+        "IsConcernHousingAvailable": true,
+        "IsConcernCommunityAvailable": true,
+        "IsConcernEntertainmentAvailable": true,
+        "IsConcernHeatAvailable": false,
+        "IsConcernWellnessAvailable": true,
+        "IsConcernRefreshmentAvailable": false,
+        "IsConcernHydrationAvailable": true,
+        "LeaderboardType": 2,
+        "ResourceLeaderboardType": 0,
+        "LeaderboardResource": "cbdef787909bb1842b47662d86ce4ad4"
+      }
+    ],
+    "buildable_entries": [
+      {
+        "guid": "e7924e2353ad64cd5a0ff1e676be414b",
+        "gameobject_id": 38478,
+        "name": "Lumberjacks' Base",
+        "localization_key": "Building.Lumberjack"
+      },
+      {
+        "guid": "60bd80ebe55cb4ff69d1028548164739",
+        "gameobject_id": 69351,
+        "name": "Clay Pit",
+        "localization_key": "Building.ClayMaker"
+      },
+      {
+        "guid": "041299b61bef1184f838e285dcfc542b",
+        "gameobject_id": 105695,
+        "name": "Quarry",
+        "localization_key": "Building.Quarry"
+      },
+      {
+        "guid": "1597b8b8c8e854d12aeba67e2e461dd5",
+        "gameobject_id": 71937,
+        "name": "Sawmill",
+        "localization_key": "Building.Sawmill"
+      },
+      {
+        "guid": "0c491eeefd24eb346a9426b797e75847",
+        "gameobject_id": 105697,
+        "name": "Brickyard",
+        "localization_key": "Building.BrickMaker"
+      },
+      {
+        "guid": "6f91f0a136ebf4befa0e90bbbcbf3f79",
+        "gameobject_id": 40306,
+        "name": "Foresters' Hub",
+        "localization_key": "Building.Forester"
+      },
+      {
+        "guid": "93ba28e5a54a840ae9f54a615725b2c0",
+        "gameobject_id": 71938,
+        "name": "Firewood Yard",
+        "localization_key": "Building.Woodchopper"
+      },
+      {
+        "guid": "7f0517aae7626244db91df74eabaffa7",
+        "gameobject_id": 105723,
+        "name": "Stone Mine",
+        "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "gameobject_id": 105735,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder"
+      },
+      {
+        "guid": "c6fba8994d7b543698cc1623a33189e1",
+        "gameobject_id": 116140,
+        "name": "Road",
+        "localization_key": "Building.Road"
+      },
+      {
+        "guid": "aaa8f04679915e040a9b34b24734186d",
+        "gameobject_id": 116138,
+        "name": "Stone Road",
+        "localization_key": "Building.StoneRoad"
+      },
+      {
+        "guid": "603207bba3fe83b4abb501a8dc519d76",
+        "gameobject_id": 116137,
+        "name": "Bridge",
+        "localization_key": "Building.Bridge"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "72e328e1626c6427698be5ccdab7c343",
+        "gameobject_id": 35462,
+        "name": "Market",
+        "localization_key": "Building.Market"
+      },
+      {
+        "guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+        "gameobject_id": 105699,
+        "name": "Playground",
+        "localization_key": "Building.Playground"
+      },
+      {
+        "guid": "a68392366cabc294c97f2daf7bf8b887",
+        "gameobject_id": 105732,
+        "name": "Communal Plaza",
+        "localization_key": "Building.Plaza"
+      },
+      {
+        "guid": "66b35e9bf1f909946830309193ad3f91",
+        "gameobject_id": 105716,
+        "name": "Zen Garden",
+        "localization_key": "Building.ZenGarden"
+      },
+      {
+        "guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+        "gameobject_id": 35463,
+        "name": "Fitness Park",
+        "localization_key": "Building.Park"
+      },
+      {
+        "guid": "cee76a1bec45a7d41abe7d811ea3e7cf",
+        "gameobject_id": 105741,
+        "name": "Wood Statue",
+        "localization_key": "Building.CarvedStatue"
+      },
+      {
+        "guid": "c4547f50c31efbd45b6f22024655b150",
+        "gameobject_id": 38477,
+        "name": "Nopalero's Hut",
+        "localization_key": "Building.DesertForager"
+      },
+      {
+        "guid": "09162f20057b76041830fb394ac60c1c",
+        "gameobject_id": 67904,
+        "name": "Mesquite Tree",
+        "localization_key": "Field.MesquiteTree"
+      },
+      {
+        "guid": "d4b7759971e24cd4fa2a8d0f6569cb3d",
+        "gameobject_id": 67676,
+        "name": "Desert Home",
+        "localization_key": "Building.DesertHouse"
+      }
+    ],
+    "initial_prefab_instances": [
+      {
+        "guid": "2a19592e630c52c47b385ff5c525257f",
+        "instance_count": 48,
+        "gameobject_id": 92215,
+        "name": "DatePalmTree",
+        "localization_key": "Tree.DatePalm"
+      },
+      {
+        "guid": "399c474ffc06295488fa639dc2efbec7",
+        "instance_count": 4,
+        "gameobject_id": 110892,
+        "name": "Desert Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "a385cac47026ac445aa0c74430691898",
+        "instance_count": 40,
+        "gameobject_id": 64025,
+        "name": "Mesquite Tree",
+        "localization_key": "Field.MesquiteTree"
+      },
+      {
+        "guid": "d156686d36f840247b1d54ad1e691e9b",
+        "instance_count": 68,
+        "gameobject_id": 92220,
+        "name": "Nopal Tree",
+        "localization_key": "Tree.NopalTree"
+      },
+      {
+        "guid": "fe4bce6373c604afabdb1581e3eae1ea",
+        "instance_count": 6,
+        "gameobject_id": 95346,
+        "name": "Rock Source",
+        "localization_key": ""
+      }
+    ],
+    "header_population": 4,
+    "world_objectives_match_header": true,
+    "source_category": "downloaded live challenge"
+  }
+}

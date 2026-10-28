@@ -1,0 +1,16 @@
+{
+  "id": "challenge-rollover-2pm-eastern",
+  "target": {
+    "type": "levels",
+    "id": "Single_W_Nuevobosque_Redux-2025-10-28"
+  },
+  "claim": "Daily challenges roll over at 2pm Eastern. On the morning of Wednesday 28 October 2026 the live Redux was still “Save the Forests” Redux, the Tuesday 27 October challenge, which first ran on 28 October 2025: 364 days earlier, on the same weekday.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "30 (254)",
+    "date": "2026-10-28",
+    "reference": "Maintainer report in the wiki session, 28 October 2026; batch date from the research repo's challenge archive capture (data/challenge-archive/2026-10-28/catalog.json)."
+  },
+  "notes": "2pm Eastern was 18:00 UTC on that date (daylight time). Whether the rollover follows Eastern time or a fixed UTC hour after the clocks change has not been checked."
+}
