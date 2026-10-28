@@ -156,3 +156,4 @@ img.gi.home-portrait,img.gi.home-head-portrait{background:var(--sunken)!importan
 .site-search .pagefind-ui__result-link{color:var(--link)}.site-search .pagefind-ui__result-excerpt mark{background:var(--active);color:var(--ink)}
 .site-search fieldset{border:0;padding:0;margin:0;min-width:0}
 .site-search .pagefind-ui__search-clear{border:0;background:none;color:var(--muted)}
+.level-links{margin:0 0 1rem;font-size:0.9375rem}.level-links p{margin:0 0 0.35rem}.level-links a{color:var(--link)}
