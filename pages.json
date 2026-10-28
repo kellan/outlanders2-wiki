@@ -289,6 +289,54 @@
       "spoiler": false
     },
     {
+      "type": "challenges",
+      "id": "original",
+      "name": "Original challenges",
+      "category": "Challenge type",
+      "path": "challenges/original/",
+      "spoiler": false
+    },
+    {
+      "type": "challenges",
+      "id": "redux",
+      "name": "Redux challenges",
+      "category": "Challenge type",
+      "path": "challenges/redux/",
+      "spoiler": false
+    },
+    {
+      "type": "challenges",
+      "id": "bounty",
+      "name": "Bounty challenges",
+      "category": "Challenge type",
+      "path": "challenges/bounty/",
+      "spoiler": false
+    },
+    {
+      "type": "challenges",
+      "id": "chill",
+      "name": "Chill challenges",
+      "category": "Challenge type",
+      "path": "challenges/chill/",
+      "spoiler": false
+    },
+    {
+      "type": "challenges",
+      "id": "ranked",
+      "name": "Ranked challenges",
+      "category": "Challenge type",
+      "path": "challenges/ranked/",
+      "spoiler": false
+    },
+    {
+      "type": "challenges",
+      "id": "remix",
+      "name": "Remix challenges",
+      "category": "Challenge type",
+      "path": "challenges/remix/",
+      "spoiler": false
+    },
+    {
       "type": "gathering",
       "id": "",
       "name": "Gathering places",
@@ -10670,6 +10718,12 @@
     "gear/",
     "sandbox/",
     "houses/",
+    "challenges/original/",
+    "challenges/redux/",
+    "challenges/bounty/",
+    "challenges/chill/",
+    "challenges/ranked/",
+    "challenges/remix/",
     "gathering-places/",
     "buildings/trading-outpost/",
     "production-chains/trading-outpost/",

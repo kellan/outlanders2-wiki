@@ -651,6 +651,15 @@ The complete datasets behind the pages, as JSON:
 - [Campaign 2](https://outlanders2wiki.com/campaigns/campaign-2/): Campaigns contain stories of three levels focused on a leader or town. Story order below was observed in the game menu.
 - [Campaign 3](https://outlanders2wiki.com/campaigns/campaign-3/): Campaigns contain stories of three levels focused on a leader or town. Story order below was observed in the game menu.
 
+## Challenge types
+
+- [Original challenges](https://outlanders2wiki.com/challenges/original/): A new, complete level, like the ones in the campaigns.
+- [Redux challenges](https://outlanders2wiki.com/challenges/redux/): A simpler or different version of an earlier level.
+- [Bounty challenges](https://outlanders2wiki.com/challenges/bounty/): Make or hold as much of one resource as you can before time runs out.
+- [Chill challenges](https://outlanders2wiki.com/challenges/chill/): An older challenge type, still playable from the archive. Some have a day limit, as Town of the Year does.
+- [Ranked challenges](https://outlanders2wiki.com/challenges/ranked/): An older challenge type scored on a leaderboard, still playable from the archive. The game files call it Leaderboard.
+- [Remix challenges](https://outlanders2wiki.com/challenges/remix/): An older challenge type, still playable from the archive. Going by their file names, several are reworked campaign levels.
+
 ## Leaders
 
 - [Pablo](https://outlanders2wiki.com/heroes/pablo/): Knows everything there is to know about the Outlands. Except where it ends.
