@@ -1,0 +1,1 @@
+Level objectives now read as they do in the game: "In 31 days: Produce as many bowls of Stew as you can." on Bounty levels, and "Brew 80 mugs of Beer.", "Sew 100 Coats.", "Have no Basic Houses." elsewhere, using each level’s own objective text where it has one (86).
