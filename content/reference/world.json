@@ -11542,5 +11542,1359 @@
         ]
       }
     ]
+  },
+  "objective_text": {
+    "source": "Packaged text tables and ContentBehaviour objective keys in resources.assets; version 30 (254). Exported by research tools/export_objective_text.py.",
+    "templates": {
+      "UI.Leaderboard.Resource.Objective.Create": "Produce as many <b>[{Resource}]</b> as you can.",
+      "UI.Leaderboard.Resource.Objective.Have": "Have as many <b>[{Resource}]</b> as you can.",
+      "UI.Leaderboard.Resource.ObjectiveComplete.Create": "{count} [{Resource}] produced.",
+      "UI.Leaderboard.Resource.ObjectiveComplete.Have": "{count} [{Resource}] collected.",
+      "UI.Leaderboard.Resource.TimeLimit": "In {count} days:",
+      "UI.Leaderboard.Resource.Title": "[{Adjective}] [{Resource}] [{Noun}]",
+      "UI.Objectives.MainTab.Bounty.Description": "Reach the end of the given time to see how well you did compared to other players!",
+      "WinConditions.Concern": "Satisfy <b>[{Name}]</b>.",
+      "WinConditions.Consume.ChopDown.Plural": "Chop down <b>{Count} [{Name}]</b>.",
+      "WinConditions.Consume.ChopDown.Singular": "Chop down <b>[{Name}]</b>.",
+      "WinConditions.Consume.Drink.Plural": "Drink <b>{Count} [{Name}]</b>.",
+      "WinConditions.Consume.Drink.Singular": "Drink <b>[{Name}]</b>.",
+      "WinConditions.Consume.Eat.Plural": "Eat <b>{Count} [{Name}]</b>.",
+      "WinConditions.Consume.Eat.Singular": "Eat <b>[{Name}]</b>.",
+      "WinConditions.Consume.Plural": "Consume <b>{Count} [{Name}]</b>.",
+      "WinConditions.Consume.Read.Plural": "Read <b>{Count} [{Name}]</b>.",
+      "WinConditions.Consume.Read.Singular": "Read <b>[{Name}]</b>.",
+      "WinConditions.Consume.Recycle.Plural": "Recycle <b>{Count} [{Name}]</b>.",
+      "WinConditions.Consume.Recycle.Singular": "Recycle <b>[{Name}]</b>.",
+      "WinConditions.Consume.Singular": "Consume <b>[{Name}]</b>.",
+      "WinConditions.Consume.Use.Plural": "Use <b>{Count} [{Name}]</b>.",
+      "WinConditions.Consume.Use.Singular": "Use <b>[{Name}]</b>.",
+      "WinConditions.Create.Bake.Plural": "Bake <b>{Count} [{Name}]</b>.",
+      "WinConditions.Create.Bake.Singular": "Bake <b>[{Name}]</b>.",
+      "WinConditions.Create.Brew.Plural": "Brew <b>{Count} [{Name}]</b>.",
+      "WinConditions.Create.Brew.Singular": "Brew <b>[{Name}]</b>.",
+      "WinConditions.Create.Build.Plural": "Build <b>{Count} [{Name}]</b>.",
+      "WinConditions.Create.Build.Singular": "Build <b>[{Name}]</b>.",
+      "WinConditions.Create.Harvest.Plural": "Harvest <b>{Count} [{Name}]</b>.",
+      "WinConditions.Create.Harvest.Singular": "Harvest <b>[{Name}]</b>.",
+      "WinConditions.Create.Make.Plural": "Make <b>{Count} [{Name}]</b>.",
+      "WinConditions.Create.Make.Singular": "Make <b>[{Name}]</b>.",
+      "WinConditions.Create.Obtain.Plural": "Obtain <b>{Count} [{Name}]</b>.",
+      "WinConditions.Create.Obtain.Singular": "Obtain <b>[{Name}]</b>.",
+      "WinConditions.Create.Plant.Plural": "Plant <b>{Count} [{Name}]</b>.",
+      "WinConditions.Create.Plant.Singular": "Plant <b>[{Name}]</b>.",
+      "WinConditions.Create.Produce.Plural": "Produce <b>{Count} [{Name}]</b>.",
+      "WinConditions.Create.Produce.Singular": "Produce <b>[{Name}]</b>.",
+      "WinConditions.Create.Sew.Plural": "Sew <b>{Count} [{Name}]</b>.",
+      "WinConditions.Create.Sew.Singular": "Sew <b>[{Name}]</b>.",
+      "WinConditions.Create.Write.Plural": "Write <b>{Count} [{Name}]</b>.",
+      "WinConditions.Create.Write.Singular": "Write <b>[{Name}]</b>.",
+      "WinConditions.Extract.Plural": "Extract <b>{Count} [{Name}]</b>.",
+      "WinConditions.Extract.Singular": "Extract <b>[{Name}]</b>.",
+      "WinConditions.FinishByDay": "Finish by day <b>{Count}</b>.",
+      "WinConditions.GearedPercentage": "Have every follower equipped with <b>[{Name}]</b>.",
+      "WinConditions.Happiness": "Satisfy <b>[Stat.Happiness.WithIcon]</b>.",
+      "WinConditions.Have.Build.Plural": "Build <b>{Count} [{Name}]</b>.",
+      "WinConditions.Have.Build.Singular": "Build <b>[{Name}]</b>.",
+      "WinConditions.Have.Plural": "Have <b>{Count} [{Name}]</b>.",
+      "WinConditions.Have.Singular": "Have <b>[{Name}]</b>.",
+      "WinConditions.Have.Zero": "Have no <b>[{Name}]</b>.",
+      "WinConditions.HaveInBuilding.Plural": "Have <b>{Count} [{Name}]</b> stored in <b>[{BuildingName}]</b>.",
+      "WinConditions.HaveInBuilding.Singular": "Have <b>[{Name}]</b> stored in <b>[{BuildingName}]</b>.",
+      "WinConditions.HaveInBuilding.Zero": "Have no <b>[{Name}]</b> stored in <b>[{BuildingName}]</b>.",
+      "WinConditions.Housing": "Have everyone settled.",
+      "WinConditions.ReachDay": "Reach day <b>{Count}</b>.",
+      "WinConditions.VillagerCount": "Reach a <b>[Stat.Population.WithIcon]</b> of <b>{Count}</b>."
+    },
+    "concerns": {
+      "Concern.Community": "Community",
+      "Concern.Entertainment": "Fun",
+      "Concern.Heat": "Heat",
+      "Concern.Housing": "Housing",
+      "Concern.Hydration": "Hydration",
+      "Concern.Nutrition": "Food",
+      "Concern.Refreshment": "Cooling",
+      "Concern.Wellness": "Wellness",
+      "Stat.Happiness": "Happiness",
+      "Stat.Population": "Population"
+    },
+    "objects": {
+      "Building.Bakery": {
+        "name": "Bakery",
+        "name_plural": "Bakeries",
+        "with_article": "a Bakery"
+      },
+      "Building.BarleyPorridgeShop": {
+        "name": "Porridge Cookhouse",
+        "name_plural": "Porridge Cookhouses",
+        "with_article": "a Porridge Cookhouse"
+      },
+      "Building.Beehive": {
+        "name": "Beehive",
+        "name_plural": "Beehives",
+        "with_article": "a Beehive"
+      },
+      "Building.Bonfire": {
+        "name": "Bonfire",
+        "name_plural": "Bonfires",
+        "with_article": "a Bonfire"
+      },
+      "Building.BookFair": {
+        "name": "Author's Stand",
+        "name_plural": "Author's Stands",
+        "with_article": "the Author's Stand"
+      },
+      "Building.BookFairOrnament": {
+        "name": "Gift Shop",
+        "name_plural": "Gift Shops",
+        "with_article": "a Gift Shop"
+      },
+      "Building.BootMaker": {
+        "name": "Bootmakers' Shop",
+        "name_plural": "Bootmakers' Shops",
+        "with_article": "a Bootmakers' Shop"
+      },
+      "Building.Brewery": {
+        "name": "Brewery",
+        "name_plural": "Breweries",
+        "with_article": "a Brewery"
+      },
+      "Building.BrickHouse": {
+        "name": "Brick House",
+        "name_plural": "Brick Houses",
+        "with_article": "a Brick House"
+      },
+      "Building.BrickMaker": {
+        "name": "Brickyard",
+        "name_plural": "Brickyards",
+        "with_article": "a Brickyard"
+      },
+      "Building.BrickRoad": {
+        "name": "Brick Road",
+        "name_plural": "Brick Roads",
+        "with_icon_plural": "tiles of Brick Road",
+        "with_article": "a Brick Road"
+      },
+      "Building.Bridge": {
+        "name": "Bridge",
+        "name_plural": "Bridges",
+        "with_article": "a Bridge"
+      },
+      "Building.CanteenMaker": {
+        "name": "Canteen Factory",
+        "name_plural": "Canteen Factories",
+        "with_article": "a Canteen Factory"
+      },
+      "Building.CarvedStatue": {
+        "name": "Wood Statue",
+        "name_plural": "Wood Statues",
+        "with_article": "a Wood Statue"
+      },
+      "Building.CheeseMaker": {
+        "name": "Cheesery",
+        "name_plural": "Cheeseries",
+        "with_article": "a Cheesery"
+      },
+      "Building.ChickenCoop": {
+        "name": "Chicken Coop",
+        "name_plural": "Chicken Coops",
+        "with_article": "a Chicken Coop"
+      },
+      "Building.ClayMaker": {
+        "name": "Clay Pit",
+        "name_plural": "Clay Pits",
+        "with_article": "a Clay Pit"
+      },
+      "Building.CoatMaker": {
+        "name": "Tailor",
+        "name_plural": "Tailors",
+        "with_article": "a Tailor"
+      },
+      "Building.ConcoctionShop": {
+        "name": "Concoction Shop",
+        "name_plural": "Concoction Shops",
+        "with_article": "a Concoction Shop"
+      },
+      "Building.CookieShop": {
+        "name": "Cookie Shop",
+        "name_plural": "Cookie Shops",
+        "with_article": "a Cookie Shop"
+      },
+      "Building.DesertForager": {
+        "name": "Nopalero's Hut",
+        "name_plural": "Nopalero's Huts",
+        "with_article": "a Nopalero's Hut"
+      },
+      "Building.DesertHouse": {
+        "name": "Desert Home",
+        "name_plural": "Desert Homes",
+        "with_article": "a Desert Home"
+      },
+      "Building.DriedMeatShop": {
+        "name": "Dried Meat Shop",
+        "name_plural": "Dried Meat Shops",
+        "with_article": "a Dried Meat Shop"
+      },
+      "Building.FakeWatchTower": {
+        "name": "Watchtower",
+        "name_plural": "Watchtowers",
+        "with_article": "a Watchtower"
+      },
+      "Building.Farm": {
+        "name": "Farm",
+        "name_plural": "Farms",
+        "with_article": "a Farm"
+      },
+      "Building.FestivalStage": {
+        "name": "Concert Stage",
+        "name_plural": "Concert Stages",
+        "with_article": "the Concert Stage"
+      },
+      "Building.FishingDock": {
+        "name": "Fishing Dock",
+        "name_plural": "Fishing Docks",
+        "with_article": "a Fishing Dock"
+      },
+      "Building.FlameTree": {
+        "name": "Flame Tree Pit",
+        "name_plural": "Flame Tree Pits",
+        "with_article": "a Flame Tree Pit"
+      },
+      "Building.FloatingGarden": {
+        "name": "Hanging Garden",
+        "name_plural": "Hanging Gardens",
+        "with_article": "the Hanging Garden",
+        "HaveKey": "WinConditions.Create.Build.Singular",
+        "HavePluralKey": "WinConditions.Create.Build.Plural"
+      },
+      "Building.FondueShop": {
+        "name": "Fondue Bar",
+        "name_plural": "Fondue Bars",
+        "with_article": "a Fondue Bar"
+      },
+      "Building.Forager": {
+        "name": "Foragers' Hut",
+        "name_plural": "Foragers' Huts",
+        "with_article": "a Foragers' Hut"
+      },
+      "Building.Forester": {
+        "name": "Foresters' Hub",
+        "name_plural": "Foresters' Hubs",
+        "with_article": "a Foresters' Hub"
+      },
+      "Building.Fountain": {
+        "name": "Fountain",
+        "name_plural": "Fountains",
+        "with_article": "a Fountain"
+      },
+      "Building.FruitJuiceStand": {
+        "name": "Smoothie Stand",
+        "name_plural": "Smoothie Stands",
+        "with_article": "a Smoothie Stand"
+      },
+      "Building.GingerbreadManMan": {
+        "name": "Gingerbread Man Man",
+        "name_plural": "Gingerbread Man Men",
+        "with_article": "the Gingerbread Man Man",
+        "HaveKey": "WinConditions.Create.Build.Singular",
+        "HavePluralKey": "WinConditions.Create.Build.Plural"
+      },
+      "Building.GingerbreadManShop": {
+        "name": "Gingerbread Man Shop",
+        "name_plural": "Gingerbread Man Shops",
+        "with_article": "a Gingerbread Man Shop"
+      },
+      "Building.GlassMaker": {
+        "name": "Glassworks",
+        "name_plural": "Glassworks",
+        "with_article": "a Glassworks"
+      },
+      "Building.GlassblowingFurnace": {
+        "name": "Bottle Factory",
+        "name_plural": "Bottle Factories",
+        "with_article": "a Bottle Factory"
+      },
+      "Building.GreenHouse": {
+        "name": "Greenhouse",
+        "name_plural": "Greenhouses",
+        "with_article": "a Greenhouse"
+      },
+      "Building.House": {
+        "name": "Basic House",
+        "name_plural": "Basic Houses",
+        "with_article": "a Basic House"
+      },
+      "Building.HouseStone": {
+        "name": "Two-Story House",
+        "name_plural": "Two-Story Houses",
+        "with_article": "a Two-Story House"
+      },
+      "Building.HouseWithChimney": {
+        "name": "Winter Cabin",
+        "name_plural": "Winter Cabins",
+        "with_article": "a Winter Cabin"
+      },
+      "Building.HuntersHut": {
+        "name": "Trappers' Hut",
+        "name_plural": "Trappers' Huts",
+        "with_article": "a Trappers' Hut"
+      },
+      "Building.HuntersHutSwamp": {
+        "name": "Swamp Trappers' Hut",
+        "name_plural": "Swamp Trappers' Huts",
+        "with_article": "a Swamp Trappers' Hut"
+      },
+      "Building.IcepopShop": {
+        "name": "Ice Pop Stand",
+        "name_plural": "Ice Pop Stands",
+        "with_article": "an Ice Pop Stand"
+      },
+      "Building.Jacaranda": {
+        "name": "Jacaranda Tree Pit",
+        "name_plural": "Jacaranda Tree Pits",
+        "with_article": "a Jacaranda Tree Pit"
+      },
+      "Building.Journal": {
+        "name": "Press",
+        "name_plural": "Presses",
+        "with_article": "a Press"
+      },
+      "Building.Lumberjack": {
+        "name": "Lumberjacks' Base",
+        "name_plural": "Lumberjacks' Bases",
+        "with_article": "a Lumberjacks' Base"
+      },
+      "Building.Luthierie": {
+        "name": "Luthierie",
+        "name_plural": "Luthieries",
+        "with_article": "a Luthierie"
+      },
+      "Building.ManchamantelesShop": {
+        "name": "Desert Cookhouse",
+        "name_plural": "Desert Cookhouses",
+        "with_article": "a Desert Cookhouse"
+      },
+      "Building.Market": {
+        "name": "Market",
+        "name_plural": "Markets",
+        "with_article": "a Market"
+      },
+      "Building.MeadHall": {
+        "name": "Mead Hall",
+        "name_plural": "Mead Halls",
+        "with_article": "a Mead Hall"
+      },
+      "Building.MoonRitual": {
+        "name": "Ritual of Hidden Light",
+        "name_plural": "Rituals of Hidden Light",
+        "with_article": "the Ritual of Hidden Light",
+        "HaveKey": "WinConditions.Create.Build.Singular",
+        "HavePluralKey": "WinConditions.Create.Build.Plural"
+      },
+      "Building.Noria": {
+        "name": "Giant Wheel",
+        "name_plural": "Giant Wheels",
+        "with_article": "the Giant Wheel",
+        "HaveKey": "WinConditions.Create.Build.Singular",
+        "HavePluralKey": "WinConditions.Create.Build.Plural"
+      },
+      "Building.Oasis": {
+        "name": "Oasis",
+        "name_plural": "Oases",
+        "with_article": "an Oasis"
+      },
+      "Building.OgirStatue": {
+        "name": "Tiny Man Statue",
+        "name_plural": "Tiny Man Statues",
+        "with_article": "a Tiny Man Statue"
+      },
+      "Building.OpenKitchen": {
+        "name": "Open Kitchen",
+        "name_plural": "Open Kitchens",
+        "with_article": "an Open Kitchen"
+      },
+      "Building.Orchard": {
+        "name": "Orchard",
+        "name_plural": "Orchards",
+        "with_article": "an Orchard"
+      },
+      "Building.OrchidTree": {
+        "name": "Orchid Tree Pit",
+        "name_plural": "Orchid Tree Pits",
+        "with_article": "an Orchid Tree Pit"
+      },
+      "Building.PablosLadder": {
+        "name": "Pablo's Ladder",
+        "with_article": "Pablo's Ladder",
+        "CreateKey": "WinConditions.Create.Build.Singular",
+        "HaveKey": "WinConditions.Have.Build.Singular",
+        "HavePluralKey": "WinConditions.Have.Build.Plural"
+      },
+      "Building.Papermill": {
+        "name": "Paper Mill",
+        "name_plural": "Paper Mills",
+        "with_article": "a Paper Mill"
+      },
+      "Building.Park": {
+        "name": "Fitness Park",
+        "name_plural": "Fitness Parks",
+        "with_article": "a Fitness Park"
+      },
+      "Building.PendantMaker": {
+        "name": "Pendant Craftshop",
+        "name_plural": "Pendant Craftshops",
+        "with_article": "a Pendant Craftshop"
+      },
+      "Building.PlankHouse": {
+        "name": "Plank House",
+        "name_plural": "Plank Houses",
+        "with_article": "a Plank House"
+      },
+      "Building.PlanterBirdsOfParadise": {
+        "name": "Crane Flower Planter",
+        "name_plural": "Crane Flower Planters",
+        "with_article": "a Crane Flower Planter"
+      },
+      "Building.PlanterCallaLilly": {
+        "name": "Calla Lilly Planter",
+        "name_plural": "Calla Lilly Planters",
+        "with_article": "a Calla Lilly Planter"
+      },
+      "Building.PlanterHibiscus": {
+        "name": "Hibiscus Planter",
+        "name_plural": "Hibiscus Planters",
+        "with_article": "a Hibiscus Planter"
+      },
+      "Building.PlanterHydrangea": {
+        "name": "Hydrangea Planter",
+        "name_plural": "Hydrangea Planters",
+        "with_article": "a Hydrangea Planter"
+      },
+      "Building.PlanterRoses": {
+        "name": "Rose Planter",
+        "name_plural": "Rose Planters",
+        "with_article": "a Rose Planter"
+      },
+      "Building.Playground": {
+        "name": "Playground",
+        "name_plural": "Playgrounds",
+        "with_article": "a Playground"
+      },
+      "Building.Plaza": {
+        "name": "Communal Plaza",
+        "name_plural": "Communal Plazas",
+        "with_article": "a Communal Plaza"
+      },
+      "Building.Quarry": {
+        "name": "Quarry",
+        "name_plural": "Quarries",
+        "with_article": "a Quarry"
+      },
+      "Building.ReedCutter": {
+        "name": "Reed Harvester",
+        "name_plural": "Reed Harvesters",
+        "with_article": "a Reed Harvester"
+      },
+      "Building.Road": {
+        "name": "Road",
+        "name_plural": "Roads",
+        "with_article": "a Road"
+      },
+      "Building.RoadBuilder": {
+        "name": "Roadworks Office",
+        "name_plural": "Roadworks Offices",
+        "with_article": "a Roadworks Office"
+      },
+      "Building.Sawmill": {
+        "name": "Sawmill",
+        "name_plural": "Sawmills",
+        "with_article": "a Sawmill"
+      },
+      "Building.Scriptorium": {
+        "name": "Book Workshop",
+        "name_plural": "Book Workshops",
+        "with_article": "a Book Workshop"
+      },
+      "Building.SilkyOak": {
+        "name": "Silky Oak Tree Pit",
+        "name_plural": "Silky Oak Tree Pits",
+        "with_article": "a Silky Oak Tree Pit"
+      },
+      "Building.SnowStatue": {
+        "name": "Snow Sculpture",
+        "name_plural": "Snow Sculptures",
+        "with_article": "a Snow Sculpture"
+      },
+      "Building.StoneMine": {
+        "name": "Stone Mine",
+        "name_plural": "Stone Mines",
+        "with_article": "a Stone Mine"
+      },
+      "Building.StoneRoad": {
+        "name": "Stone Road",
+        "name_plural": "Stone Roads",
+        "with_icon_plural": "tiles of Stone Road",
+        "with_article": "a Stone Road"
+      },
+      "Building.StroganoffShop": {
+        "name": "Stroganoff Cookhouse",
+        "name_plural": "Stroganoff Cookhouses",
+        "with_article": "a Stroganoff Cookhouse"
+      },
+      "Building.SwimmingPier": {
+        "name": "Swimming Pier",
+        "name_plural": "Swimming Piers",
+        "with_article": "a Swimming Pier"
+      },
+      "Building.TradingPost": {
+        "name": "Trading Outpost",
+        "name_plural": "Trading Outposts",
+        "with_article": "a Trading Outpost"
+      },
+      "Building.TropicalHouse": {
+        "name": "Tropical Shelter",
+        "name_plural": "Tropical Shelters",
+        "with_article": "a Tropical Shelter"
+      },
+      "Building.UpgradedWarehouse": {
+        "name": "Advanced Warehouse",
+        "name_plural": "Advanced Warehouses",
+        "with_article": "an Advanced Warehouse"
+      },
+      "Building.Warehouse": {
+        "name": "Warehouse",
+        "name_plural": "Warehouses",
+        "with_article": "a Warehouse"
+      },
+      "Building.WatchTower": {
+        "name": "Watchtower",
+        "name_plural": "Watchtowers",
+        "with_article": "a Watchtower"
+      },
+      "Building.Well": {
+        "name": "Well",
+        "name_plural": "Wells",
+        "with_article": "a Well"
+      },
+      "Building.Windmill": {
+        "name": "Windmill",
+        "name_plural": "Windmills",
+        "with_article": "a Windmill"
+      },
+      "Building.Winery": {
+        "name": "Winery",
+        "name_plural": "Wineries",
+        "with_article": "a Winery"
+      },
+      "Building.WinterPub": {
+        "name": "Winter Pub",
+        "name_plural": "Winter Pubs",
+        "with_article": "a Winter Pub"
+      },
+      "Building.WishingWell": {
+        "name": "Wishing Well",
+        "name_plural": "Wishing Wells",
+        "with_article": "the Wishing Well",
+        "CreateKey": "WinConditions.Create.Build.Singular",
+        "HaveKey": "WinConditions.Have.Build.Singular",
+        "HavePluralKey": "WinConditions.Have.Build.Plural"
+      },
+      "Building.Woodchopper": {
+        "name": "Firewood Yard",
+        "name_plural": "Firewood Yards",
+        "with_article": "a Firewood Yard"
+      },
+      "Building.ZenGarden": {
+        "name": "Zen Garden",
+        "name_plural": "Zen Gardens",
+        "with_article": "a Zen Garden"
+      },
+      "Concern.Community": {
+        "name": "Community"
+      },
+      "Concern.Entertainment": {
+        "name": "Fun"
+      },
+      "Concern.Heat": {
+        "name": "Heat"
+      },
+      "Concern.Housing": {
+        "name": "Housing"
+      },
+      "Concern.Hydration": {
+        "name": "Hydration"
+      },
+      "Concern.Nutrition": {
+        "name": "Food"
+      },
+      "Concern.Refreshment": {
+        "name": "Cooling"
+      },
+      "Concern.Wellness": {
+        "name": "Wellness"
+      },
+      "Decoration.Canoe": {
+        "name": "Canoe",
+        "with_article": "a Canoe"
+      },
+      "Decoration.ChicosHouseShip": {
+        "name": "El Viento"
+      },
+      "Decoration.ChicosMeteorite": {
+        "name": "Strange Rock"
+      },
+      "Decoration.ChicosShip": {
+        "name": "El Viento"
+      },
+      "Decoration.Crate": {
+        "name": "Scrap",
+        "with_article": "a pile of Scrap"
+      },
+      "Decoration.DadsWorkshop": {
+        "name": "Dad's Workshop"
+      },
+      "Decoration.FortCory": {
+        "name": "Fort Cory"
+      },
+      "Decoration.Gift": {
+        "name": "Present",
+        "with_article": "a Present"
+      },
+      "Decoration.IzzysTourBoat": {
+        "name": "Izzy's Tourboat"
+      },
+      "Decoration.KiasShip": {
+        "name": "Old shipwreck"
+      },
+      "Decoration.Lantern": {
+        "name": "Lantern"
+      },
+      "Decoration.MidsupperArch": {
+        "name": "Ancient Arch"
+      },
+      "Decoration.MomsTerrace": {
+        "name": "Mom's Terrace"
+      },
+      "Decoration.Monolith": {
+        "name": "Historical Location"
+      },
+      "Decoration.Pallet": {
+        "name": "Pallet",
+        "with_article": "a Pallet"
+      },
+      "Decoration.RuinedHouse": {
+        "name": "Ruined House",
+        "name_plural": "Ruined Houses",
+        "with_article": "a Ruined House"
+      },
+      "Decoration.RuinedPlaza": {
+        "name": "Ruined Community Plaza",
+        "name_plural": "Ruined Community Plazas",
+        "with_article": "a Ruined Community Plaza"
+      },
+      "Decoration.RuinedZenGarden": {
+        "name": "Ruined Zen Garden",
+        "name_plural": "Ruined Zen Gardens",
+        "with_article": "a Ruined Zen Garden"
+      },
+      "Decoration.Ruins": {
+        "name": "Ruins",
+        "with_icon_plural": "clusters of Ruins",
+        "with_article": "a cluster of Ruins"
+      },
+      "Decoration.Shipwreck": {
+        "name": "Important Shipwreck"
+      },
+      "Decoration.Sundial": {
+        "name": "Enigmatic Sundial"
+      },
+      "Decoration.Tomb": {
+        "name": "Tombstone",
+        "name_plural": "Tombstones",
+        "with_article": "a Tombstone"
+      },
+      "Decoration.Torch": {
+        "name": "Torch"
+      },
+      "Decorations.Billboard": {
+        "name": "\"The Singing Dolphin - Resort & Adventure\""
+      },
+      "Decorations.BreadMan": {
+        "name": "Ancient Ritual Ruins"
+      },
+      "Decorations.BrokenCookieVan": {
+        "name": "Broken Down Cookie Van"
+      },
+      "Decorations.BrokenFerryDock": {
+        "name": "Damaged Dock"
+      },
+      "Decorations.BrokenWatchtower": {
+        "name": "Overlook Tower"
+      },
+      "Decorations.CartsStatue": {
+        "name": "Town Statue"
+      },
+      "Decorations.CookieVan": {
+        "name": "Maddy's Cookie Van"
+      },
+      "Decorations.DeadEndSign": {
+        "name": "Sign Post"
+      },
+      "Decorations.DuckStatue": {
+        "name": "Town Statue"
+      },
+      "Decorations.FerryDock": {
+        "name": "Ferry Express Dock"
+      },
+      "Decorations.FjordaStatue": {
+        "name": "Lost Empress Statue"
+      },
+      "Decorations.LeadersStatue": {
+        "name": "Town Statue"
+      },
+      "Decorations.SignPost1": {
+        "name": "Sign Post"
+      },
+      "Decorations.SignPost2": {
+        "name": "Sign Post"
+      },
+      "Decorations.StatueEarlFox": {
+        "name": "Sagacious Fox Statue"
+      },
+      "Decorations.StatueGeraldFox": {
+        "name": "Cunning Fox Statue"
+      },
+      "Decorations.StatueRonaldFox": {
+        "name": "Odd Fox Statue"
+      },
+      "Decorations.Ufo": {
+        "name": "Odd Object"
+      },
+      "FastMode.Action.ChildGrowthBoost": {
+        "name": "Grow Up Bonus",
+        "name_plural": "days of Grow Up Bonus"
+      },
+      "FastMode.Action.GrowthBoost": {
+        "name": "Growth Bonus",
+        "name_plural": "days of Growth Bonus"
+      },
+      "FastMode.Action.NeedBoost.Community": {
+        "name": "Community Bonus",
+        "name_plural": "days of Community Bonus"
+      },
+      "FastMode.Action.NeedBoost.Entertainment": {
+        "name": "Fun Bonus",
+        "name_plural": "days of Fun Bonus"
+      },
+      "FastMode.Action.NeedBoost.Food": {
+        "name": "Food Bonus",
+        "name_plural": "days of Food Bonus"
+      },
+      "FastMode.Action.NeedBoost.Heat": {
+        "name": "Heat Bonus",
+        "name_plural": "days of Heat Bonus"
+      },
+      "FastMode.Action.NeedBoost.Hydration": {
+        "name": "Hydration Bonus",
+        "name_plural": "days of Hydration Bonus"
+      },
+      "FastMode.Action.NeedBoost.Refreshment": {
+        "name": "Cooling Bonus",
+        "name_plural": "days of Cooling Bonus"
+      },
+      "FastMode.Action.NeedBoost.Wellness": {
+        "name": "Wellness Bonus",
+        "name_plural": "days of Wellness Bonus"
+      },
+      "FastMode.Action.ReproductionBoost": {
+        "name": "Baby Boom",
+        "name_plural": "days of Baby Boom"
+      },
+      "FastMode.Action.SpawnVillager": {
+        "name": "1 Villager",
+        "name_plural": "Villagers"
+      },
+      "FastMode.Action.SpeedBoost": {
+        "name": "Speed Bonus",
+        "name_plural": "days of Speed Bonus"
+      },
+      "FastMode.Props.Banner": {
+        "name": "Tournament Banner"
+      },
+      "Field.AppleTree": {
+        "name": "Apple Tree",
+        "name_plural": "Apple Trees",
+        "with_article": "an Apple Tree"
+      },
+      "Field.AshTree": {
+        "name": "Ash Tree",
+        "name_plural": "Ash Trees",
+        "with_article": "an Ash Tree"
+      },
+      "Field.BananaTree": {
+        "name": "Banana Tree",
+        "name_plural": "Banana Trees",
+        "with_article": "a Banana Tree"
+      },
+      "Field.Beet": {
+        "name": "Beet Field",
+        "name_plural": "Beet Fields",
+        "with_article": "a Beet Field"
+      },
+      "Field.BerryBush": {
+        "name": "Berry Bush",
+        "name_plural": "Berry Bushes",
+        "with_article": "a Berry Bush"
+      },
+      "Field.Cabbage": {
+        "name": "Cabbage Field",
+        "name_plural": "Cabbage Fields",
+        "with_article": "a Cabbage Field"
+      },
+      "Field.Carrot": {
+        "name": "Carrot Field",
+        "name_plural": "Carrot Fields",
+        "with_article": "a Carrot Field"
+      },
+      "Field.Cauliflower": {
+        "name": "Cauliflower Field",
+        "name_plural": "Cauliflower Fields",
+        "with_article": "a Cauliflower Field"
+      },
+      "Field.Corn": {
+        "name": "Corn Field",
+        "name_plural": "Corn Fields",
+        "with_article": "a Corn Field"
+      },
+      "Field.CypressTree": {
+        "name": "Cypress Tree",
+        "name_plural": "Cypress Trees",
+        "with_article": "a Cypress Tree"
+      },
+      "Field.DatePalm": {
+        "name": "Date Palm Tree",
+        "name_plural": "Date Palm Trees",
+        "with_article": "a Date Palm Tree"
+      },
+      "Field.DragonFruitTree": {
+        "name": "Dragon Fruit Tree",
+        "name_plural": "Dragon Fruit Trees",
+        "with_article": "a Dragon Fruit Tree"
+      },
+      "Field.Eggplant": {
+        "name": "Eggplant Field",
+        "name_plural": "Eggplant Fields",
+        "with_article": "an Eggplant Field"
+      },
+      "Field.FigTree": {
+        "name": "Fig Tree",
+        "name_plural": "Fig Trees",
+        "with_article": "a Fig Tree"
+      },
+      "Field.GrapeTree": {
+        "name": "Grape Vine",
+        "name_plural": "Grape Vines",
+        "with_article": "a Grape Vine"
+      },
+      "Field.JungleBigTree": {
+        "name": "Jungle Tree",
+        "name_plural": "Jungle Trees",
+        "with_article": "a Jungle Tree"
+      },
+      "Field.JungleTree": {
+        "name": "Jungle Bush",
+        "name_plural": "Jungle Bushes",
+        "with_article": "a Jungle Bush"
+      },
+      "Field.MesquiteTree": {
+        "name": "Mesquite Tree",
+        "name_plural": "Mesquite Trees",
+        "with_article": "a Mesquite Tree"
+      },
+      "Field.NopalTree": {
+        "name": "Nopal Tree",
+        "name_plural": "Nopal Trees",
+        "with_article": "a Nopal Tree"
+      },
+      "Field.Onion": {
+        "name": "Onion Field",
+        "name_plural": "Onion Fields",
+        "with_article": "an Onion Field"
+      },
+      "Field.PalmTree": {
+        "name": "Palm Tree",
+        "name_plural": "Palm Trees",
+        "with_article": "a Palm Tree"
+      },
+      "Field.PineTree": {
+        "name": "Pine Tree",
+        "name_plural": "Pine Trees",
+        "with_article": "a Pine Tree"
+      },
+      "Field.PomeloTree": {
+        "name": "Pomelo Tree",
+        "name_plural": "Pomelo Trees",
+        "with_article": "a Pomelo Tree"
+      },
+      "Field.Potato": {
+        "name": "Potato Field",
+        "name_plural": "Potato Fields",
+        "with_article": "a Potato Field"
+      },
+      "Field.Pumpkin": {
+        "name": "Pumpkin Field",
+        "name_plural": "Pumpkin Fields",
+        "with_article": "a Pumpkin Field"
+      },
+      "Field.Tomato": {
+        "name": "Tomato Field",
+        "name_plural": "Tomato Fields",
+        "with_article": "a Tomato Field"
+      },
+      "Field.Watermelon": {
+        "name": "Watermelon Field",
+        "name_plural": "Watermelon Fields",
+        "with_article": "a Watermelon Field"
+      },
+      "Field.Wheat": {
+        "name": "Wheat Field",
+        "name_plural": "Wheat Fields",
+        "with_article": "a Wheat Field"
+      },
+      "Field.WillowTree": {
+        "name": "Willow Tree",
+        "name_plural": "Willow Trees",
+        "with_article": "a Willow Tree"
+      },
+      "Field.WinPineTree": {
+        "name": "Winter Pine Tree",
+        "name_plural": "Winter Pine Trees",
+        "with_article": "a Winter Pine Tree"
+      },
+      "Notification.HeatWave": {
+        "name": "Heatwave"
+      },
+      "Notification.NoReproduction": {
+        "name": "No reproduction"
+      },
+      "Notification.Rain": {
+        "name": "Rain"
+      },
+      "Notification.SpawnPeople": {
+        "name": "Guests"
+      },
+      "Resource.AnimalHide": {
+        "name": "Animal Hide",
+        "name_plural": "Animal Hides",
+        "with_article": "an Animal Hide",
+        "CreateKey": "WinConditions.Create.Obtain.Singular",
+        "CreatePluralKey": "WinConditions.Create.Obtain.Plural"
+      },
+      "Resource.BarleyPorridge": {
+        "name": "Barley Porridge",
+        "name_plural": "Barley Porridges",
+        "with_icon_plural": "bowls of Barley Porridge",
+        "with_article": "a bowl of Barley Porridge"
+      },
+      "Resource.Beer": {
+        "name": "Beer",
+        "name_plural": "Beers",
+        "with_icon_plural": "mugs of Beer",
+        "with_article": "a mug of Beer",
+        "CreateKey": "WinConditions.Create.Brew.Singular",
+        "CreatePluralKey": "WinConditions.Create.Brew.Plural",
+        "ConsumeKey": "WinConditions.Consume.Drink.Singular",
+        "ConsumePluralKey": "WinConditions.Consume.Drink.Plural"
+      },
+      "Resource.Book": {
+        "name": "Book",
+        "name_plural": "Books",
+        "with_article": "a Book",
+        "CreateKey": "WinConditions.Create.Write.Singular",
+        "CreatePluralKey": "WinConditions.Create.Write.Plural",
+        "ConsumeKey": "WinConditions.Consume.Read.Singular",
+        "ConsumePluralKey": "WinConditions.Consume.Read.Plural"
+      },
+      "Resource.Boots": {
+        "name": "Boots",
+        "name_plural": "Boots",
+        "with_icon_plural": "pairs of Boots",
+        "with_article": "a pair of Boots"
+      },
+      "Resource.Bottle": {
+        "name": "Bottle",
+        "name_plural": "Bottles",
+        "with_article": "a Bottle"
+      },
+      "Resource.Bread": {
+        "name": "Bread",
+        "name_plural": "Breads",
+        "with_icon_plural": "loaves of Bread",
+        "with_article": "a loaf of Bread",
+        "CreateKey": "WinConditions.Create.Bake.Singular",
+        "CreatePluralKey": "WinConditions.Create.Bake.Plural"
+      },
+      "Resource.Brick": {
+        "name": "Brick",
+        "name_plural": "Bricks",
+        "with_article": "a Brick"
+      },
+      "Resource.Canteen": {
+        "name": "Canteen",
+        "name_plural": "Canteens",
+        "with_article": "a Canteen"
+      },
+      "Resource.Cheese": {
+        "name": "Cheese",
+        "name_plural": "Cheeses",
+        "with_icon_plural": "pieces of Cheese",
+        "with_article": "a piece of Cheese"
+      },
+      "Resource.Clay": {
+        "name": "Clay",
+        "name_plural": "Clays",
+        "with_icon_plural": "lumps of Clay",
+        "with_article": "a lump of Clay",
+        "CreateKey": "WinConditions.Create.Obtain.Singular",
+        "CreatePluralKey": "WinConditions.Create.Obtain.Plural"
+      },
+      "Resource.Coat": {
+        "name": "Coat",
+        "name_plural": "Coats",
+        "with_article": "a Coat",
+        "CreateKey": "WinConditions.Create.Sew.Singular",
+        "CreatePluralKey": "WinConditions.Create.Sew.Plural"
+      },
+      "Resource.Concoction": {
+        "name": "Concoction",
+        "name_plural": "Concoctions",
+        "with_icon_plural": "pots of Concoction",
+        "with_article": "a pot of Concoction",
+        "CreateKey": "WinConditions.Create.Brew.Singular",
+        "CreatePluralKey": "WinConditions.Create.Brew.Plural",
+        "ConsumeKey": "WinConditions.Consume.Drink.Singular",
+        "ConsumePluralKey": "WinConditions.Consume.Drink.Plural"
+      },
+      "Resource.Cookie": {
+        "name": "Cookie",
+        "name_plural": "Cookies",
+        "with_article": "a Cookie",
+        "CreateKey": "WinConditions.Create.Bake.Singular",
+        "CreatePluralKey": "WinConditions.Create.Bake.Plural"
+      },
+      "Resource.DriedMeat": {
+        "name": "Dried Meat",
+        "name_plural": "Dried Meat",
+        "with_icon_plural": "pieces of Dried Meat",
+        "with_article": "a piece of Dried Meat"
+      },
+      "Resource.Egg": {
+        "name": "Egg",
+        "name_plural": "Eggs",
+        "with_article": "an Egg",
+        "CreateKey": "WinConditions.Create.Obtain.Singular",
+        "CreatePluralKey": "WinConditions.Create.Obtain.Plural"
+      },
+      "Resource.Flour": {
+        "name": "Flour",
+        "name_plural": "Flours",
+        "with_icon_plural": "bags of Flour",
+        "with_article": "a bag of Flour"
+      },
+      "Resource.Fondue": {
+        "name": "Fondue",
+        "name_plural": "Fondues",
+        "with_icon_plural": "pots of Fondue",
+        "with_article": "a pot of Fondue"
+      },
+      "Resource.Fruit": {
+        "name": "Fruit",
+        "name_plural": "Fruits",
+        "with_article": "a Fruit",
+        "CreateKey": "WinConditions.Create.Harvest.Singular",
+        "CreatePluralKey": "WinConditions.Create.Harvest.Plural"
+      },
+      "Resource.FruitJuice": {
+        "name": "Smoothie",
+        "name_plural": "Smoothies",
+        "with_article": "a Smoothie",
+        "ConsumeKey": "WinConditions.Consume.Drink.Singular",
+        "ConsumePluralKey": "WinConditions.Consume.Drink.Plural"
+      },
+      "Resource.GingerbreadMan": {
+        "name": "Gingerbread Man",
+        "name_plural": "Gingerbread Men",
+        "with_article": "a Gingerbread Man"
+      },
+      "Resource.Glass": {
+        "name": "Glass Pane",
+        "name_plural": "Glass Panes",
+        "with_article": "a Glass Pane"
+      },
+      "Resource.GlassOfWater": {
+        "name": "Water",
+        "name_plural": "Waters",
+        "with_icon_plural": "cups of Water",
+        "with_article": "a cup of Water",
+        "ConsumeKey": "WinConditions.Consume.Drink.Singular",
+        "ConsumePluralKey": "WinConditions.Consume.Drink.Plural"
+      },
+      "Resource.GlassOfWine": {
+        "name": "Wine",
+        "name_plural": "Wines",
+        "with_icon_plural": "glasses of Wine",
+        "with_article": "a glass of Wine",
+        "ConsumeKey": "WinConditions.Consume.Drink.Singular",
+        "ConsumePluralKey": "WinConditions.Consume.Drink.Plural"
+      },
+      "Resource.HoneyPot": {
+        "name": "Honey",
+        "name_plural": "Honeys",
+        "with_icon_plural": "pots of Honey"
+      },
+      "Resource.HouseDrink": {
+        "name": "Wheatshine",
+        "name_plural": "Wheatshines",
+        "with_icon_plural": "shots of Wheatshine",
+        "with_article": "a shot of Wheatshine",
+        "CreateKey": "WinConditions.Create.Brew.Singular",
+        "CreatePluralKey": "WinConditions.Create.Brew.Plural",
+        "ConsumeKey": "WinConditions.Consume.Drink.Singular",
+        "ConsumePluralKey": "WinConditions.Consume.Drink.Plural"
+      },
+      "Resource.IcePop": {
+        "name": "Ice Pop",
+        "name_plural": "Ice Pops",
+        "with_article": "an Ice Pop"
+      },
+      "Resource.Manchamanteles": {
+        "name": "Manchamanteles",
+        "name_plural": "Manchamanteles",
+        "with_icon_plural": "bowls of Manchamanteles",
+        "with_article": "a bowl of Manchamanteles"
+      },
+      "Resource.Mead": {
+        "name": "Mead",
+        "name_plural": "Meads",
+        "with_icon_plural": "mugs of Mead",
+        "with_article": "a mug of Mead",
+        "CreateKey": "WinConditions.Create.Brew.Singular",
+        "CreatePluralKey": "WinConditions.Create.Brew.Plural",
+        "ConsumeKey": "WinConditions.Consume.Drink.Singular",
+        "ConsumePluralKey": "WinConditions.Consume.Drink.Plural"
+      },
+      "Resource.Meat": {
+        "name": "Meat",
+        "name_plural": "Meats",
+        "with_icon_plural": "pieces of Meat",
+        "with_article": "a piece of Meat",
+        "CreateKey": "WinConditions.Create.Obtain.Singular",
+        "CreatePluralKey": "WinConditions.Create.Obtain.Plural"
+      },
+      "Resource.Mushroom": {
+        "name": "Mushroom",
+        "name_plural": "Mushrooms",
+        "with_article": "a Mushroom"
+      },
+      "Resource.Newspaper": {
+        "name": "Newspaper",
+        "name_plural": "Newspapers",
+        "with_article": "a Newspaper",
+        "CreateKey": "WinConditions.Create.Write.Singular",
+        "CreatePluralKey": "WinConditions.Create.Write.Plural",
+        "ConsumeKey": "WinConditions.Consume.Read.Singular",
+        "ConsumePluralKey": "WinConditions.Consume.Read.Plural"
+      },
+      "Resource.Nopalito": {
+        "name": "Nopalito",
+        "name_plural": "Nopalitos",
+        "with_article": "a Nopalito",
+        "CreateKey": "WinConditions.Create.Harvest.Singular",
+        "CreatePluralKey": "WinConditions.Create.Harvest.Plural"
+      },
+      "Resource.Paper": {
+        "name": "Paper",
+        "name_plural": "Papers",
+        "with_article": "a sheet of Paper"
+      },
+      "Resource.Pendant": {
+        "name": "Pendant",
+        "name_plural": "Pendants",
+        "with_article": "a Pendant",
+        "CreateKey": "WinConditions.Create.Make.Singular",
+        "CreatePluralKey": "WinConditions.Create.Make.Plural"
+      },
+      "Resource.Plank": {
+        "name": "Plank",
+        "name_plural": "Planks",
+        "with_article": "a Plank"
+      },
+      "Resource.Reed": {
+        "name": "Reed Bunch",
+        "name_plural": "Reed Bunches",
+        "with_article": "a Reed Bunch",
+        "CreateKey": "WinConditions.Create.Obtain.Singular",
+        "CreatePluralKey": "WinConditions.Create.Obtain.Plural"
+      },
+      "Resource.Stew": {
+        "name": "Stew",
+        "name_plural": "Stews",
+        "with_icon_plural": "bowls of Stew",
+        "with_article": "a bowl of Stew"
+      },
+      "Resource.Stick": {
+        "name": "Stick",
+        "name_plural": "Sticks",
+        "with_article": "a Stick",
+        "CreateKey": "WinConditions.Create.Obtain.Singular",
+        "CreatePluralKey": "WinConditions.Create.Obtain.Plural"
+      },
+      "Resource.Stone": {
+        "name": "Stone",
+        "name_plural": "Stones",
+        "with_article": "a Stone"
+      },
+      "Resource.Stroganoff": {
+        "name": "Stroganoff",
+        "name_plural": "Stroganoffs",
+        "with_icon_plural": "bowls of Stroganoff",
+        "with_article": "a bowl of Stroganoff"
+      },
+      "Resource.Ukulele": {
+        "name": "Ukulele",
+        "name_plural": "Ukuleles",
+        "with_article": "a Ukulele",
+        "CreateKey": "WinConditions.Create.Make.Singular",
+        "CreatePluralKey": "WinConditions.Create.Make.Plural"
+      },
+      "Resource.Veggie": {
+        "name": "Veggie",
+        "name_plural": "Veggies",
+        "with_article": "a Veggie",
+        "CreateKey": "WinConditions.Create.Harvest.Singular",
+        "CreatePluralKey": "WinConditions.Create.Harvest.Plural"
+      },
+      "Resource.Wheat": {
+        "name": "Wheat",
+        "name_plural": "Wheats",
+        "with_icon_plural": "stalks of Wheat",
+        "with_article": "a stalk of Wheat",
+        "CreateKey": "WinConditions.Create.Obtain.Singular",
+        "CreatePluralKey": "WinConditions.Create.Obtain.Plural"
+      },
+      "Resource.Wood": {
+        "name": "Log",
+        "name_plural": "Logs",
+        "with_article": "a Log",
+        "CreateKey": "WinConditions.Create.Obtain.Singular",
+        "CreatePluralKey": "WinConditions.Create.Obtain.Plural"
+      },
+      "Sources.Animal": {
+        "name": "Rabbit",
+        "name_plural": "Rabbits"
+      },
+      "Sources.Coypu": {
+        "name": "Coypu",
+        "name_plural": "Coypus"
+      },
+      "Sources.Field": {
+        "name": "Field",
+        "name_plural": "Fields"
+      },
+      "Sources.Fish": {
+        "name": "Fish",
+        "name_plural": "Fish"
+      },
+      "Sources.FruitTree": {
+        "name": "Fruit Tree",
+        "name_plural": "Fruit Trees"
+      },
+      "Sources.Reed": {
+        "name": "Reed",
+        "name_plural": "Reeds"
+      },
+      "Sources.Rock": {
+        "name": "Rock",
+        "name_plural": "Rocks"
+      },
+      "Sources.Tree": {
+        "name": "Tree",
+        "name_plural": "Trees"
+      },
+      "Tree.Apple": {
+        "name": "Apple Tree",
+        "name_plural": "Apple Trees",
+        "with_article": "an Apple Tree"
+      },
+      "Tree.Ash": {
+        "name": "Ash Tree",
+        "name_plural": "Ash Trees",
+        "with_article": "an Ash Tree"
+      },
+      "Tree.Banana": {
+        "name": "Banana Tree",
+        "name_plural": "Banana Trees",
+        "with_article": "a Banana Tree"
+      },
+      "Tree.BerryBush": {
+        "name": "Berry Bush",
+        "name_plural": "Berry Bushes",
+        "with_article": "a Berry Bush"
+      },
+      "Tree.Cypress": {
+        "name": "Cypress Tree",
+        "name_plural": "Cypress Trees",
+        "with_article": "a Cypress Tree"
+      },
+      "Tree.DatePalm": {
+        "name": "Date Palm Tree",
+        "name_plural": "Date Palm Trees",
+        "with_article": "a Date Palm Tree"
+      },
+      "Tree.DeadTree": {
+        "name": "Dead Tree",
+        "name_plural": "Dead Trees",
+        "with_article": "a Dead Tree"
+      },
+      "Tree.DragonFruit": {
+        "name": "Dragon Fruit Tree",
+        "name_plural": "Dragon Fruit Trees",
+        "with_article": "a Dragon Fruit Tree"
+      },
+      "Tree.Fig": {
+        "name": "Fig Tree",
+        "name_plural": "Fig Trees",
+        "with_article": "a Fig Tree"
+      },
+      "Tree.Grape": {
+        "name": "Grape Vine",
+        "name_plural": "Grape Vines",
+        "with_article": "a Grape Vine"
+      },
+      "Tree.NopalTree": {
+        "name": "Nopal Tree",
+        "name_plural": "Nopal Trees",
+        "with_article": "a Nopal Tree"
+      },
+      "Tree.Palm": {
+        "name": "Palm Tree",
+        "name_plural": "Palm Trees",
+        "with_article": "a Palm Tree"
+      },
+      "Tree.Pine": {
+        "name": "Pine Tree",
+        "name_plural": "Pine Trees",
+        "with_article": "a Pine Tree"
+      },
+      "Tree.Pomelo": {
+        "name": "Pomelo Tree",
+        "name_plural": "Pomelo Trees",
+        "with_article": "a Pomelo Tree"
+      },
+      "Tree.WinPine": {
+        "name": "Winter Pine Tree",
+        "name_plural": "Winter Pine Trees",
+        "with_article": "a Winter Pine Tree"
+      }
+    }
   }
 }
