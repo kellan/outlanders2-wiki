@@ -1,0 +1,22 @@
+// PR 79: home links to each campaign, each challenge type and All levels; levels/ is one sortable table;
+// each challenge type has its own page carrying its description, schedule, archive example and levels.
+import assert from 'node:assert/strict';import {harness} from '../render-harness.mjs';
+const h=await harness(),strip=s=>s.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');
+const types=['original','redux','bounty','chill','ranked','remix'];
+const home=h.render('');
+for(const c of ['campaign-1','campaign-2','campaign-3'])assert.ok(home.includes(`campaigns/${c}/"`),'home links '+c);
+for(const t of types)assert.ok(home.includes(`challenges/${t}/`),'home links challenge type '+t);
+const total=Number((strip(home).match(/All levels in one table \((\d+)\)/)||[])[1]);assert.ok(total>100,'home links All levels');
+const lv=h.render('levels/');
+assert.equal((lv.match(/<table/g)||[]).length,1,'All levels is a single table');
+assert.ok(strip(lv).includes(total+' entries')&&!lv.includes('data-filter='),'every level, no tabs');
+for(const t of types)assert.ok(lv.includes(`challenges/${t}/`),'levels page links '+t);
+for(const t of types)assert.ok(h.pages.some(p=>p.type==='challenges'&&p.id===t&&p.path===`challenges/${t}/`),'page registered: '+t);
+const redux=strip(h.render('challenges/redux/'));
+assert.ok(redux.includes('What a Redux challenge is')&&redux.includes('a simpler or different version of a previous level'),'Redux page quotes the game’s description');
+assert.ok(redux.includes('On weekdays, alternating with Bounty')&&redux.includes('Example from the archive'),'Redux schedule and example');
+assert.ok(strip(h.render('challenges/original/')).includes('What an Original challenge is'),'article agrees with the name');
+const ch=strip(h.render('challenges/'));
+assert.ok(ch.includes('The six challenge types')&&!ch.includes('Briefing describes a simpler or different version'),'overview links the types; per-type detail lives on their pages');
+assert.ok(h.render('levels/friends-in-the-frost/').includes('challenges/chill/'),'legacy level context links its type page');
+console.log('PASS: home campaign and challenge-type links; All levels in one table; six challenge type pages.');

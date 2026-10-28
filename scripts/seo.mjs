@@ -40,7 +40,7 @@ export function headTags({site,route,canonicalRoute,title,content,description,is
 }
 
 const SECTIONS=[['','Wiki home'],['buildings','Buildings'],['plants','Plants'],['resources','Resources'],['food','Food'],['production-chains','Production chains'],['mechanics','Mechanics'],['levels','Campaigns & levels'],['challenges','Challenges'],['tournament','Tournament Mode'],['biomes','Biomes'],['heroes','Leaders'],['index','All-pages A–Z index'],['changelog','Changelog'],['about','Sources & artwork']];
-const TYPE_TITLES={buildings:'Buildings',plants:'Plants',resources:'Resources',chains:'Production chains',levels:'Levels',campaigns:'Campaigns',heroes:'Leaders',biomes:'Biomes'};
+const TYPE_TITLES={buildings:'Buildings',plants:'Plants',resources:'Resources',chains:'Production chains',levels:'Levels',campaigns:'Campaigns',challenges:'Challenge types',heroes:'Leaders',biomes:'Biomes'};
 
 export function writeSiteFiles({root,site,pages,descriptions,notFoundHtml}){
  const canon=pages.filter(p=>!p.spoiler);

@@ -1,0 +1,1 @@
+Levels are easier to browse: the home page links each campaign and each of the six challenge types, every challenge type has its own page explaining what it is and when it runs, and All levels is one sortable table (79).
