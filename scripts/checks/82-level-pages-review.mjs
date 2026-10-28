@@ -4,7 +4,7 @@ const h=await harness(),strip=s=>s.replace(/<script[\s\S]*?<\/script>/g,'').repl
 for(const t of ['original','redux','bounty','chill','ranked','remix']){const p=strip(h.render(`challenges/${t}/`));
  assert.ok(!p.includes('Example from the archive'),t+': no example section');
  assert.ok(!p.includes('Availability')&&!p.includes('Unknown'),t+': no availability column');
- assert.ok(p.includes('Objectives Day limit You start with'),t+': same table columns on every type page')}
+ assert.ok(/Objectives (Day limit )?You start with/.test(p),t+': same table columns on every type page (a constant Day limit column is dropped since PR 83)')}
 const chill=strip(h.render('challenges/chill/'));
 assert.ok(!chill.includes('What a Chill challenge is'),'no section that only repeats the subtitle');
 assert.ok(chill.includes('Have 10 Brick House; No Basic House; Have 1 Zen Garden'),'objective summary, including a zero target');
