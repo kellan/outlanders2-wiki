@@ -5497,6 +5497,2086 @@
       "spoiler": false
     },
     {
+      "type": "levels",
+      "id": "Single_B_IncFruitRace-2025-04-02",
+      "name": "Incredible Fruit Race",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/incredible-fruit-race/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Level04B_Redux-2025-04-03",
+      "name": "\"Sugar Highway\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/sugar-highway-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Mountain1-2025-04-04",
+      "name": "Port Plateau",
+      "category": "Original challenge",
+      "path": "challenges/original/port-plateau/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_bootsadventure-2025-04-07",
+      "name": "Unbelievable Boots Adventure",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/unbelievable-boots-adventure/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single00_L_Eden_Redux-2025-04-08",
+      "name": "\"An Apple a Day\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/an-apple-a-day-redux-2025-04-08/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_beerop-2025-04-09",
+      "name": "OK Beer Operation",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/ok-beer-operation/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level1C_Redux-2025-04-10",
+      "name": "\"Summit Heat\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/summit-heat-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_WinterIsComing-2025-04-11",
+      "name": "First Frost",
+      "category": "Original challenge",
+      "path": "challenges/original/first-frost/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_cookiedoc-2025-04-14",
+      "name": "Dazzling Cookie Documentary",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/dazzling-cookie-documentary/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level4B_Redux-2025-04-15",
+      "name": "\"Remains\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/remains-redux-2025-04-15/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_blazingbricks-2025-04-16",
+      "name": "Blazing Brick Fever",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/blazing-brick-fever/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level3C_Redux-2025-04-17",
+      "name": "\"By the Sea\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/by-the-sea-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_w_ForbiddenForest-2025-04-18",
+      "name": "Hollowgrounds",
+      "category": "Original challenge",
+      "path": "challenges/original/hollowgrounds/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_winejoke-2025-04-21",
+      "name": "Copious Wine Joke",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/copious-wine-joke/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level4A_Redux-2025-04-22",
+      "name": "\"No memory\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/no-memory-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_VeggieExp-2025-04-23",
+      "name": "Silly Veggie Experiment",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/silly-veggie-experiment/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single00_C_Oasis_Redux-2025-04-24",
+      "name": "\"They/Them\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/they-them-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_TheGathering-2025-04-25",
+      "name": "Fancy Hangout",
+      "category": "Original challenge",
+      "path": "challenges/original/fancy-hangout/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_PlainPlank-2025-04-28",
+      "name": "Plain Plank Challenge",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/plain-plank-challenge/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single00_R_Barren_Redux-2025-04-29",
+      "name": "\"Barren't\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/barren-t-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_icepopjamboree-2025-04-30",
+      "name": "Sublime Ice Pop Jamboree",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/sublime-ice-pop-jamboree/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single02_L_Crescent_Redux-2025-05-01",
+      "name": "\"Croissant Moon\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/croissant-moon-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_EldersVillage-2025-05-02",
+      "name": "Retirement Town",
+      "category": "Original challenge",
+      "path": "challenges/original/retirement-town/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_FondueTreatment-2025-05-05",
+      "name": "Delicious Fondue Treatment",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/delicious-fondue-treatment/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level3A_Redux-2025-05-06",
+      "name": "\"Out of the Blue\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/out-of-the-blue-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_wheatspree-2025-05-07",
+      "name": "Bonus Wheat Spree",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/bonus-wheat-spree/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Level07B_Redux-2025-05-08",
+      "name": "\"What Happened?\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/what-happened-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_nuns-2025-05-09",
+      "name": "Historical Site",
+      "category": "Original challenge",
+      "path": "challenges/original/historical-site/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BottleMyth-2025-05-12",
+      "name": "Unusual Bottle Myth",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/unusual-bottle-myth/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single06_L_Crab_Redux-2025-05-13",
+      "name": "\"Tomato Race\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/tomato-race-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_StewQuest-2025-05-14",
+      "name": "Heroic Stew Quest",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/heroic-stew-quest/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_L_Hermit_Redux-2025-05-15",
+      "name": "\"Bundle Up!\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/bundle-up-redux-2025-05-15/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Grietas-2025-05-16",
+      "name": "Coastline Paradox",
+      "category": "Original challenge",
+      "path": "challenges/original/coastline-paradox/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_wood-2025-05-19",
+      "name": "Historical Log Gang",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/historical-log-gang/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_C_MagicWine_Redux-2025-05-20",
+      "name": "\"Sugar Cove\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/sugar-cove-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_JollyBooks-2025-05-21",
+      "name": "Jolly Book Forum",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/jolly-book-forum/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single03_C_Vesuvius_Redux-2025-05-22",
+      "name": "\"The Rekindling\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/the-rekindling-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_breadandbooks-2025-05-23",
+      "name": "A Farm Too Far",
+      "category": "Original challenge",
+      "path": "challenges/original/a-farm-too-far/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_FruitTheory-2025-05-26",
+      "name": "Mystifying Fruit Theory",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/mystifying-fruit-theory/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single03_L_Rocks_Redux-2025-05-27",
+      "name": "\"Mount Petizzo\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/mount-petizzo-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_driedMeatfeast-2025-05-28",
+      "name": "Catchy Dried Meat Feast",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/catchy-dried-meat-feast/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_C_Cheese_Redux-2025-05-29",
+      "name": "\"Patent Pending\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/patent-pending-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Amazonia-2025-05-30",
+      "name": "Braided Jungle",
+      "category": "Original challenge",
+      "path": "challenges/original/braided-jungle/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_newsconclave-2025-06-02",
+      "name": "Little Newspaper Conclave",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/little-newspaper-conclave/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Level01C_Redux-2025-06-03",
+      "name": "\"A New Start\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/a-new-start-redux-2025-06-03/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_FreshCanteenconvention-2025-06-04",
+      "name": "Fresh Canteen Convention",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/fresh-canteen-convention/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_C_Desert_Redux-2025-06-05",
+      "name": "\"Too Hot to Write\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/too-hot-to-write-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Laguna-2025-06-06",
+      "name": "Summer Camp",
+      "category": "Original challenge",
+      "path": "challenges/original/summer-camp/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_FlourWorship-2025-06-09",
+      "name": "Secret Flour Worship",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/secret-flour-worship/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single01_C_FriendsFrost_Redux-2025-06-10",
+      "name": "\"Friends in the Frost\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/friends-in-the-frost-redux-2025-06-10/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_spicyjuicesymposyum-2025-06-11",
+      "name": "Spicy Smoothie Symposium",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/spicy-smoothie-symposium/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Level04C_Redux-2025-06-12",
+      "name": "\"Too Many Cookies\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/too-many-cookies-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_w_littleones-2025-06-13",
+      "name": "School Break Daycare",
+      "category": "Original challenge",
+      "path": "challenges/original/school-break-daycare/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BreadBuffet-2025-06-16",
+      "name": "Shocking Bread Buffet",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/shocking-bread-buffet/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_C_SwimmingTime_Redux-2025-06-17",
+      "name": "\"Dandelion Springs\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/dandelion-springs-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_ReedCathartic-2025-06-18",
+      "name": "Cathartic Reed Bunch Trove",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/cathartic-reed-bunch-trove/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single02_C_Polar_Redux-2025-06-19",
+      "name": "\"Breadification Bias\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/breadification-bias-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_O1piratesstorm-2025-06-20",
+      "name": "Paradise Cove",
+      "category": "Original challenge",
+      "path": "challenges/original/paradise-cove/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BrickTroupe-2025-06-23",
+      "name": "Chaotic Brick Troupe",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/chaotic-brick-troupe/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single07_C_Divided_Redux-2025-06-24",
+      "name": "\"Cheers!\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/cheers-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BootsConfabulation-2025-06-25",
+      "name": "Strange Boots Confabulation",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/strange-boots-confabulation/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Level05C_Redux-2025-06-26",
+      "name": "\"Blown Away\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/blown-away-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_LevelCave-2025-06-27",
+      "name": "The Old Crossroads",
+      "category": "Original challenge",
+      "path": "challenges/original/the-old-crossroads/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_SublimeBeerQuest-2025-06-30",
+      "name": "Sublime Beer Quest",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/sublime-beer-quest/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single01_L_Andes_Redux-2025-07-01",
+      "name": "\"Alike!\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/alike-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_PlankSaga-2025-07-02",
+      "name": "Sensless Plank Saga",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/sensless-plank-saga/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single02_R_04A_Redux-2025-07-03",
+      "name": "\"Road Snow\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/road-snow-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Nuevobosque-2025-07-04",
+      "name": "Save the Forests",
+      "category": "Original challenge",
+      "path": "challenges/original/save-the-forests/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_cookiesserenade-2025-07-07",
+      "name": "Feverish Cookie Serenade",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/feverish-cookie-serenade/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Mountain1_Redux-2025-07-08",
+      "name": "\"Port Plateau\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/port-plateau-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_FondueDelight-2025-07-09",
+      "name": "Ultrarare Fondue Delight",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/ultrarare-fondue-delight/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level1A_Redux-2025-07-10",
+      "name": "\"Valley Draft\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/valley-draft-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Piramide-2025-07-11",
+      "name": "It's a Pyramid",
+      "category": "Original challenge",
+      "path": "challenges/original/it-s-a-pyramid/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "single_b_fancycoats-2025-07-14",
+      "name": "Fancy Coat Squad",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/fancy-coat-squad/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_L_Hermit_Redux-2025-07-15",
+      "name": "\"Bundle Up!\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/bundle-up-redux-2025-07-15/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_StickComrades-2025-07-16",
+      "name": "Serene Stick Comrades",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/serene-stick-comrades/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single06_C_Vortex_Redux-2025-07-17",
+      "name": "\"Tourist Trap\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/tourist-trap-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_broachtuarach-2025-07-18",
+      "name": "Twins of the Hill",
+      "category": "Original challenge",
+      "path": "challenges/original/twins-of-the-hill/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_InexplicableFlour-2025-07-21",
+      "name": "Inexplicable Flour Archive",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/inexplicable-flour-archive/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_w_ForbiddenForest_Redux-2025-07-22",
+      "name": "\"Hollowgrounds\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/hollowgrounds-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_VeggieReport-2025-07-23",
+      "name": "Blazing Veggie Report",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/blazing-veggie-report/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single01_C_FriendsFrost_Redux-2025-07-24",
+      "name": "\"Friends in the Frost\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/friends-in-the-frost-redux-2025-07-24/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Floatingisland-2025-07-25",
+      "name": "Feel Good Isle",
+      "category": "Original challenge",
+      "path": "challenges/original/feel-good-isle/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_b_meatpicnic-2025-07-28",
+      "name": "Fresh Meat Picnic",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/fresh-meat-picnic/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_nuns_Redux-2025-07-29",
+      "name": "\"Historical Site\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/historical-site-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BreadStash-2025-07-30",
+      "name": "Confidential Bread Stash",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/confidential-bread-stash/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single03_R_Volcano_Redux-2025-07-31",
+      "name": "\"Too Cold to Quit\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/too-cold-to-quit-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_LevelMonkeyIsland-2025-08-01",
+      "name": "Legally Safe Ape Island",
+      "category": "Original challenge",
+      "path": "challenges/original/legally-safe-ape-island/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_b_icepopdelight-2025-08-04",
+      "name": "Funny Ice Pop Delight",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/funny-ice-pop-delight/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_beerop_Redux-2025-08-05",
+      "name": "\"OK Beer Operation\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/ok-beer-operation-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_HideRaffle-2025-08-06",
+      "name": "Nice Animal Hide Raffle",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/nice-animal-hide-raffle/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_TheGathering_Redux-2025-08-07",
+      "name": "\"Fancy Hangout\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/fancy-hangout-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_FamilyIsland-2025-08-08",
+      "name": "Island Hoppers",
+      "category": "Original challenge",
+      "path": "challenges/original/island-hoppers/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "single_b_eggrace-2025-08-11",
+      "name": "Scandalous Egg Race",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/scandalous-egg-race/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level5A_Redux-2025-08-12",
+      "name": "\"Anthology\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/anthology-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_b_brickworkout-2025-08-13",
+      "name": "Curious Brick Workout",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/curious-brick-workout/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_EldersVillage_Redux-2025-08-14",
+      "name": "\"Retirement Town\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/retirement-town-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_newscontest-2025-08-15",
+      "name": "Breaking News!",
+      "category": "Original challenge",
+      "path": "challenges/original/breaking-news/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "single_b_veggieboggie-2025-08-18",
+      "name": "Sweet Veggie Boogie",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/sweet-veggie-boogie/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Level01A_Redux-2025-08-19",
+      "name": "\"The End of the World\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/the-end-of-the-world-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_FoundueRomance-2025-08-20",
+      "name": "Cathartic Fondue Romance",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/cathartic-fondue-romance/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level4B_Redux-2025-08-21",
+      "name": "\"Remains\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/remains-redux-2025-08-21/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Waterworld-2025-08-22",
+      "name": "Drifting Docks",
+      "category": "Original challenge",
+      "path": "challenges/original/drifting-docks/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "single_b_bottlesreview-2025-08-25",
+      "name": "Pleasant Bottle Review",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/pleasant-bottle-review/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "SIngle_W_Grietas_Redux-2025-08-26",
+      "name": "\"Coastline Paradox\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/coastline-paradox-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_DriedMeatDream-2025-08-27",
+      "name": "Imaginary Dried Meat Dream",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/imaginary-dried-meat-dream/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_w_littleones_Redux-2025-08-28",
+      "name": "\"School Break Daycare\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/school-break-daycare-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Temple-2025-08-29",
+      "name": "Garden City Summer",
+      "category": "Original challenge",
+      "path": "challenges/original/garden-city-summer/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_GlassExercise-2025-09-01",
+      "name": "Dangerous Glass Pane Exercise",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/dangerous-glass-pane-exercise/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_ReedCathartic_Redux-2025-09-02",
+      "name": "\"Cathartic Reed Bunch Trove\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/cathartic-reed-bunch-trove-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_FondueGathering-2025-09-03",
+      "name": "Pleasant Fondue Gathering",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/pleasant-fondue-gathering/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_O1piratesstorm_Redux-2025-09-04",
+      "name": "\"Paradise Cove\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/paradise-cove-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Yinyang-2025-09-05",
+      "name": "River of Harmony",
+      "category": "Original challenge",
+      "path": "challenges/original/river-of-harmony/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_b_CanteenHoard-2025-09-08",
+      "name": "Quirky Canteen Hoard",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/quirky-canteen-hoard/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_blazingbricks_Redux-2025-09-09",
+      "name": "\"Blazing Brick Fever\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/blazing-brick-fever-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_CookieSurprise-2025-09-10",
+      "name": "Mysterious Cookie Surprise",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/mysterious-cookie-surprise/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_broachtuarach_Redux-2025-09-11",
+      "name": "\"Twins of the Hill\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/twins-of-the-hill-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Roanoke-2025-09-12",
+      "name": "They're Still Here",
+      "category": "Original challenge",
+      "path": "challenges/original/they-re-still-here/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_UkuleleGala-2025-09-15",
+      "name": "Outlandish Ukulele Gala",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/outlandish-ukulele-gala/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BottleMyth_Redux-2025-09-16",
+      "name": "\"Unusual Bottle Myth\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/unusual-bottle-myth-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_b_exquisitebread-2025-09-17",
+      "name": "Exquisite Bread Operation",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/exquisite-bread-operation/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_driedMeatfeast_Redux-2025-09-18",
+      "name": "\"Catchy Dried Meat Feast\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/catchy-dried-meat-feast-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_LevelCraterO1-2025-09-19",
+      "name": "Comet Hollow",
+      "category": "Original challenge",
+      "path": "challenges/original/comet-hollow/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_NopalShinding-2025-09-22",
+      "name": "Spicy Nopalito Shindig",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/spicy-nopalito-shindig/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Amazonia_Redux-2025-09-23",
+      "name": "\"Braided Jungle\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/braided-jungle-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BeerMeetup-2025-09-24",
+      "name": "Hilarious Beer Meet-up",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/hilarious-beer-meet-up/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_LevelCave_Redux-2025-09-25",
+      "name": "\"The Old Crossroads\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/the-old-crossroads-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Frostpunk-2025-09-26",
+      "name": "Frostbound",
+      "category": "Original challenge",
+      "path": "challenges/original/frostbound/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BreadFiesta-2025-09-29",
+      "name": "Modest Bread Fiesta",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/modest-bread-fiesta/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single00_L_Eden_Redux-2025-09-30",
+      "name": "\"An Apple a Day\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/an-apple-a-day-redux-2025-09-30/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BookMarathon-2025-10-01",
+      "name": "Proper Book Marathon",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/proper-book-marathon/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_breadandbooks_Redux-2025-10-02",
+      "name": "\"A Farm Too Far\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/a-farm-too-far-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_FloatingGarden-2025-10-03",
+      "name": "The Hanging Garden",
+      "category": "Original challenge",
+      "path": "challenges/original/the-hanging-garden/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_b_secretbootstango-2025-10-06",
+      "name": "Secret Boots Tango",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/secret-boots-tango/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_wood_Redux-2025-10-07",
+      "name": "\"Historical Log Gang\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/historical-log-gang-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_CanteenStash-2025-10-08",
+      "name": "Wonderful Canteen Stash",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/wonderful-canteen-stash/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BrickTroupe_Redux-2025-10-09",
+      "name": "\"Chaotic Brick Troupe\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/chaotic-brick-troupe-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_FlowerPower-2025-10-10",
+      "name": "Spring Fling",
+      "category": "Original challenge",
+      "path": "challenges/original/spring-fling/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_b_Cookieparty-2025-10-13",
+      "name": "Enormous Cookie Party",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/enormous-cookie-party/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Floatingisland_Redux-2025-10-14",
+      "name": "\"Feel Good Isle\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/feel-good-isle-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BeerSurprise-2025-10-15",
+      "name": "Distorted Beer Surprise",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/distorted-beer-surprise/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Roanoke_Redux-2025-10-16",
+      "name": "\"They're Still Here\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/they-re-still-here-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_SkyrimLevel-2025-10-17",
+      "name": "Counterspell",
+      "category": "Original challenge",
+      "path": "challenges/original/counterspell/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_NewspaperMyth-2025-10-20",
+      "name": "Dark Newspaper Myth",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/dark-newspaper-myth/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Piramide_Redux-2025-10-21",
+      "name": "\"It's a Pyramid\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/it-s-a-pyramid-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_GingerbreadSeminar-2025-10-22",
+      "name": "Mysterious Gingerbread Man Seminar",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/mysterious-gingerbread-man-seminar/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single01_C_FriendsFrost_Redux-2025-10-23",
+      "name": "\"Friends in the Frost\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/friends-in-the-frost-redux-2025-10-23/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_SpookyVillageRoses-2025-10-24",
+      "name": "Spooktown",
+      "category": "Original challenge",
+      "path": "challenges/original/spooktown/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_VeggieRitual-2025-10-27",
+      "name": "Spooky Veggie Ritual",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/spooky-veggie-ritual/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Nuevobosque_Redux-2025-10-28",
+      "name": "\"Save the Forests\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/save-the-forests-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_DarkStewFeast-2025-10-29",
+      "name": "Dark Stew Feast",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/dark-stew-feast/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Waterworld_Redux-2025-10-30",
+      "name": "\"Drifting Docks\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/drifting-docks-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_SpookyParadise-2025-10-31",
+      "name": "The Pit of Thorns",
+      "category": "Original challenge",
+      "path": "challenges/original/the-pit-of-thorns/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_WheatshineTreatment-2025-11-03",
+      "name": "Experimental Wheatshine Treatment",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/experimental-wheatshine-treatment/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level6A_Redux-2025-11-04",
+      "name": "\"The Hermit\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/the-hermit-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_Bootsteam-2025-11-05",
+      "name": "Phenomenal Boots Team",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/phenomenal-boots-team/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_LevelMonkeyIsland_Redux-2025-11-06",
+      "name": "\"Legally Safe Ape Island\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/legally-safe-ape-island-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_w_Stages-2025-11-07",
+      "name": "Find the Forest",
+      "category": "Original challenge",
+      "path": "challenges/original/find-the-forest/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_GlassofwineOrdeal-2025-11-10",
+      "name": "Ingenuous Wine Ordeal",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/ingenuous-wine-ordeal/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_FamilyIsland_Redux-2025-11-11",
+      "name": "\"Island Hoppers\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/island-hoppers-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BreadShowdown-2025-11-12",
+      "name": "Dazzling Bread Showdown",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/dazzling-bread-showdown/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "single_b_eggrace_Redux-2025-11-13",
+      "name": "\"Scandalous Egg Race\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/scandalous-egg-race-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Pilgrims-2025-11-14",
+      "name": "Forkville",
+      "category": "Original challenge",
+      "path": "challenges/original/forkville/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_MeatGetTogether-2025-11-17",
+      "name": "Unusual Meat Get-together",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/unusual-meat-get-together/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Temple_Redux-2025-11-18",
+      "name": "\"Garden City Summer\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/garden-city-summer-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_StewBrunch-2025-11-19",
+      "name": "Large Stew Brunch",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/large-stew-brunch/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single01_R_04C_Redux-2025-11-20",
+      "name": "\"Too Many Bunnies\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/too-many-bunnies-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_SnowVolcano-2025-11-21",
+      "name": "Sweetroll Peak",
+      "category": "Original challenge",
+      "path": "challenges/original/sweetroll-peak/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_FondueGala-2025-11-24",
+      "name": "Spectacular Fondue Gala",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/spectacular-fondue-gala/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Laguna_Redux-2025-11-25",
+      "name": "\"Summer Camp\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/summer-camp-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_PendantFantasy-2025-11-26",
+      "name": "Mythical Pendant Fantasy",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/mythical-pendant-fantasy/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Level01C_Redux-2025-11-27",
+      "name": "\"A New Start\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/a-new-start-redux-2025-11-27/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_AhmShere-2025-11-28",
+      "name": "Secret Oasis",
+      "category": "Original challenge",
+      "path": "challenges/original/secret-oasis/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_AnimalHideBoogie-2025-12-01",
+      "name": "Beautiful Animal Hide Boogie",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/beautiful-animal-hide-boogie/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_newscontest_Redux-2025-12-02",
+      "name": "\"Breaking News!\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/breaking-news-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_NotableWineTrial-2025-12-03",
+      "name": "Notable Wine Trial",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/notable-wine-trial/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_FruitTheory_Redux-2025-12-04",
+      "name": "\"Mystifying Fruit Theory\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/mystifying-fruit-theory-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Noria-2025-12-05",
+      "name": "Wheel of Thirst",
+      "category": "Original challenge",
+      "path": "challenges/original/wheel-of-thirst/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_NewsBlast-2025-12-08",
+      "name": "Scandalous Newspaper Blast",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/scandalous-newspaper-blast/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_winejoke_Redux-2025-12-09",
+      "name": "\"Copious Wine Joke\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/copious-wine-joke-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_GoofyEgg-2025-12-10",
+      "name": "Goofy Egg Scuffle",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/goofy-egg-scuffle/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_StewQuest_Redux-2025-12-11",
+      "name": "\"Heroic Stew Quest\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/heroic-stew-quest-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Sweetroll-2025-12-12",
+      "name": "Cookie Loops",
+      "category": "Original challenge",
+      "path": "challenges/original/cookie-loops/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_WaterFiesta-2025-12-15",
+      "name": "Uncomplicated Water Fiesta",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/uncomplicated-water-fiesta/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_JollyBooks_Redux-2025-12-16",
+      "name": "\"Jolly Book Forum\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/jolly-book-forum-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_Trickybread-2025-12-17",
+      "name": "Tricky Bread Scheme",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/tricky-bread-scheme/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_L_Hermit_Redux-2025-12-18",
+      "name": "\"Bundle Up!\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/bundle-up-redux-2025-12-18/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_xmasLand-2025-12-19",
+      "name": "Holiday Shores",
+      "category": "Original challenge",
+      "path": "challenges/original/holiday-shores/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_ChaoticBootsRave-2025-12-22",
+      "name": "Chaotic Boots Rave",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/chaotic-boots-rave/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_SkyrimLevel_Redux-2025-12-23",
+      "name": "\"Counterspell\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/counterspell-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_MerrycookieParty-2025-12-24",
+      "name": "Merry Gingerbread Man Party",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/merry-gingerbread-man-party/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_WinterIsComing_Redux-2025-12-25",
+      "name": "\"First Frost\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/first-frost-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Gifts-2025-12-26",
+      "name": "Secret Gift Exchange",
+      "category": "Original challenge",
+      "path": "challenges/original/secret-gift-exchange/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_Icepopincident-2025-12-29",
+      "name": "Outlandish Ice Pop Incident",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/outlandish-ice-pop-incident/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level7B_Redux-2025-12-30",
+      "name": "\"Familiar\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/familiar-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_26-2025-12-31",
+      "name": "Elegant Wheatshine Gala",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/elegant-wheatshine-gala/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_CanteenHoard_Redux-2026-01-01",
+      "name": "\"Quirky Canteen Hoard\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/quirky-canteen-hoard-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_WineIsles-2026-01-02",
+      "name": "Vineyard Isles",
+      "category": "Original challenge",
+      "path": "challenges/original/vineyard-isles/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_PendantDrama-2026-01-05",
+      "name": "Manufactured Pendant Drama",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/manufactured-pendant-drama/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BreadFiesta_Redux-2026-01-06",
+      "name": "\"Modest Bread Fiesta\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/modest-bread-fiesta-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BottleAnomaly-2026-01-07",
+      "name": "Weird Bottle Anomaly",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/weird-bottle-anomaly/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_newsconclave_Redux-2026-01-08",
+      "name": "\"Little Newspaper Conclave\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/little-newspaper-conclave-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Meadowlands-2026-01-09",
+      "name": "Moondrop Meadows",
+      "category": "Original challenge",
+      "path": "challenges/original/moondrop-meadows/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_Flouroperation-2026-01-12",
+      "name": "Secretive Flour Operation",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/secretive-flour-operation/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_StewBrunch_Redux-2026-01-13",
+      "name": "\"Large Stew Brunch\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/large-stew-brunch-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_CheeseSurprise-2026-01-14",
+      "name": "Grand Cheese Surprise",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/grand-cheese-surprise/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_PlankSaga_Redux-2026-01-15",
+      "name": "\"Sensless Plank Saga\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/sensless-plank-saga-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_AllTrees-2026-01-16",
+      "name": "Overgrown",
+      "category": "Original challenge",
+      "path": "challenges/original/overgrown/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BeerOddity-2026-01-19",
+      "name": "First Beer Oddity",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/first-beer-oddity/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BreadBuffet_Redux-2026-01-20",
+      "name": "\"Shocking Bread Buffet\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/shocking-bread-buffet-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_MythicalFondue-2026-01-21",
+      "name": "Mythical Fondue Affair",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/mythical-fondue-affair/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_PlainPlank_Redux-2026-01-22",
+      "name": "\"Plain Plank Challenge\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/plain-plank-challenge-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_PomeloIsland-2026-01-23",
+      "name": "Company Picnic",
+      "category": "Original challenge",
+      "path": "challenges/original/company-picnic/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_IcepopSerenade-2026-01-26",
+      "name": "Tricky Ice Pop Serenade",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/tricky-ice-pop-serenade/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_IncFruitRace_Redux-2026-01-27",
+      "name": "\"Incredible Fruit Race\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/incredible-fruit-race-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_AnimalHidesWorship-2026-01-28",
+      "name": "Distorted Animal Hide Worship",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/distorted-animal-hide-worship/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_b_meatpicnic_Redux-2026-01-29",
+      "name": "\"Fresh Meat Picnic\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/fresh-meat-picnic-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_FakeOasis3-2026-01-30",
+      "name": "Hidden Paradise",
+      "category": "Original challenge",
+      "path": "challenges/original/hidden-paradise/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_FlourBacklog-2026-02-02",
+      "name": "Peculiar Flour Backlog",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/peculiar-flour-backlog/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_ChaoticBootsRave_Redux-2026-02-03",
+      "name": "\"Chaotic Boots Rave\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/chaotic-boots-rave-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_PerplexingCoat-2026-02-04",
+      "name": "Perplexing Coat Rendezvous",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/perplexing-coat-rendezvous/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_FreshCanteenconvention_Redux-2026-02-05",
+      "name": "\"Fresh Canteen Convention\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/fresh-canteen-convention-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Saycheese-2026-02-06",
+      "name": "Say Cheese!",
+      "category": "Original challenge",
+      "path": "challenges/original/say-cheese/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BreadRaffle-2026-02-09",
+      "name": "Opulent Bread Raffle",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/opulent-bread-raffle/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_DarkStewFeast_Redux-2026-02-10",
+      "name": "\"Dark Stew Feast\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/dark-stew-feast-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_WineSymposyum-2026-02-11",
+      "name": "Opulent Wine Symposyum",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/opulent-wine-symposyum/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_VeggieExp_Redux-2026-02-12",
+      "name": "\"Silly Veggie Experiment\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/silly-veggie-experiment-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_StValentinesVillage-2026-02-13",
+      "name": "Love Each Other",
+      "category": "Original challenge",
+      "path": "challenges/original/love-each-other/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_FruitJangle-2026-02-16",
+      "name": "Trivial Fruit Jangle",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/trivial-fruit-jangle/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_Flouroperation_Redux-2026-02-17",
+      "name": "\"Secretive Flour Operation\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/secretive-flour-operation-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_EggTheory-2026-02-18",
+      "name": "Plausible Egg Theory",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/plausible-egg-theory/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_AhmShere_Redux-2026-02-19",
+      "name": "\"Secret Oasis\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/secret-oasis-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Eywa-2026-02-20",
+      "name": "Mother Knows Best",
+      "category": "Original challenge",
+      "path": "challenges/original/mother-knows-best/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_WoodPastime-2026-02-23",
+      "name": "Useful Log Pastime",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/useful-log-pastime/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_AnimalHidesWorship_Redux-2026-02-24",
+      "name": "\"Distorted Animal Hide Worship\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/distorted-animal-hide-worship-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BookLeague-2026-02-25",
+      "name": "Dangerous Book League",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/dangerous-book-league/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Campaign2_Level7C_Redux-2026-02-26",
+      "name": "\"Outgrown\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/outgrown-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Islands-2026-02-27",
+      "name": "Twin Islands",
+      "category": "Original challenge",
+      "path": "challenges/original/twin-islands/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_UkuleleSerenade-2026-03-02",
+      "name": "Sleepy Ukulele Serenade",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/sleepy-ukulele-serenade/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Pilgrims_Redux-2026-03-03",
+      "name": "\"Forkville\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/forkville-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_GlassofWaterFiesta-2026-03-04",
+      "name": "Bewildering Water Fiesta",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/bewildering-water-fiesta/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_Icepopincident_Redux-2026-03-05",
+      "name": "\"Outlandish Ice Pop Incident\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/outlandish-ice-pop-incident-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Sumatra-2026-03-06",
+      "name": "All you need is Cove",
+      "category": "Original challenge",
+      "path": "challenges/original/all-you-need-is-cove/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BottlePursuit-2026-03-09",
+      "name": "Uplifting Bottle Pursuit",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/uplifting-bottle-pursuit/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Campaign3_Level1A_Redux-2026-03-10",
+      "name": "\"Seventeen\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/seventeen-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_PendantBinge-2026-03-11",
+      "name": "Unusual Pendant Binge",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/unusual-pendant-binge/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_icepopjamboree_Redux-2026-03-12",
+      "name": "\"Sublime Ice Pop Jamboree\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/sublime-ice-pop-jamboree-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Acantilado-2026-03-13",
+      "name": "Cold Cliffs",
+      "category": "Original challenge",
+      "path": "challenges/original/cold-cliffs/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_ManchamantelesExtravaganza-2026-03-16",
+      "name": "Opulent Manchamanteles Extravaganza",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/opulent-manchamanteles-extravaganza/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_EggTheory_Redux-2026-03-17",
+      "name": "\"Plausible Egg Theory\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/plausible-egg-theory-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_BarleyPorridgeSweepstake-2026-03-18",
+      "name": "Flavorful Barley Porridge Sweepstake",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/flavorful-barley-porridge-sweepstake/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_w_Stages_Redux-2026-03-19",
+      "name": "\"Find the Forest\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/find-the-forest-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Winterland-2026-03-20",
+      "name": "Winterland Blues",
+      "category": "Original challenge",
+      "path": "challenges/original/winterland-blues/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_CanteenAnecdote-2026-03-23",
+      "name": "Grand Canteen Anecdote",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/grand-canteen-anecdote/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_WineSymposyum_Redux-2026-03-24",
+      "name": "\"Opulent Wine Symposyum\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/opulent-wine-symposyum-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_VeggieLeague-2026-03-25",
+      "name": "Fantastical Veggie League",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/fantastical-veggie-league/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_SpookyParadise_Redux-2026-03-26",
+      "name": "\"The Pit of Thorns\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/the-pit-of-thorns-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_W_Snowdays-2026-03-27",
+      "name": "Final Snow Days",
+      "category": "Original challenge",
+      "path": "challenges/original/final-snow-days/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_HoneyMeditation-2026-03-30",
+      "name": "Solemn Honey Meditation",
+      "category": "Bounty challenge",
+      "path": "challenges/bounty/solemn-honey-meditation/",
+      "spoiler": false
+    },
+    {
+      "type": "levels",
+      "id": "Single_B_bootsadventure_Redux-2026-03-31",
+      "name": "\"Unbelievable Boots Adventure\" Redux",
+      "category": "Redux challenge",
+      "path": "challenges/redux/unbelievable-boots-adventure-redux/",
+      "spoiler": false
+    },
+    {
       "type": "campaigns",
       "id": "campaign-1",
       "name": "Campaign 1",
@@ -10673,6 +12753,2086 @@
       "spoiler": false
     },
     {
+      "type": "evidence",
+      "id": "levels/Single_B_IncFruitRace-2025-04-02",
+      "name": "Incredible Fruit Race — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/incredible-fruit-race/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Level04B_Redux-2025-04-03",
+      "name": "\"Sugar Highway\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/sugar-highway-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Mountain1-2025-04-04",
+      "name": "Port Plateau — research",
+      "category": "Research",
+      "path": "verification/challenges/original/port-plateau/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_bootsadventure-2025-04-07",
+      "name": "Unbelievable Boots Adventure — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/unbelievable-boots-adventure/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single00_L_Eden_Redux-2025-04-08",
+      "name": "\"An Apple a Day\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/an-apple-a-day-redux-2025-04-08/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_beerop-2025-04-09",
+      "name": "OK Beer Operation — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/ok-beer-operation/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Campaign2_Level1C_Redux-2025-04-10",
+      "name": "\"Summit Heat\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/summit-heat-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_WinterIsComing-2025-04-11",
+      "name": "First Frost — research",
+      "category": "Research",
+      "path": "verification/challenges/original/first-frost/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_cookiedoc-2025-04-14",
+      "name": "Dazzling Cookie Documentary — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/dazzling-cookie-documentary/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Campaign2_Level4B_Redux-2025-04-15",
+      "name": "\"Remains\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/remains-redux-2025-04-15/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_blazingbricks-2025-04-16",
+      "name": "Blazing Brick Fever — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/blazing-brick-fever/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Campaign2_Level3C_Redux-2025-04-17",
+      "name": "\"By the Sea\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/by-the-sea-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_w_ForbiddenForest-2025-04-18",
+      "name": "Hollowgrounds — research",
+      "category": "Research",
+      "path": "verification/challenges/original/hollowgrounds/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_winejoke-2025-04-21",
+      "name": "Copious Wine Joke — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/copious-wine-joke/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Campaign2_Level4A_Redux-2025-04-22",
+      "name": "\"No memory\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/no-memory-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_VeggieExp-2025-04-23",
+      "name": "Silly Veggie Experiment — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/silly-veggie-experiment/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single00_C_Oasis_Redux-2025-04-24",
+      "name": "\"They/Them\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/they-them-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_TheGathering-2025-04-25",
+      "name": "Fancy Hangout — research",
+      "category": "Research",
+      "path": "verification/challenges/original/fancy-hangout/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_PlainPlank-2025-04-28",
+      "name": "Plain Plank Challenge — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/plain-plank-challenge/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single00_R_Barren_Redux-2025-04-29",
+      "name": "\"Barren't\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/barren-t-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_icepopjamboree-2025-04-30",
+      "name": "Sublime Ice Pop Jamboree — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/sublime-ice-pop-jamboree/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single02_L_Crescent_Redux-2025-05-01",
+      "name": "\"Croissant Moon\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/croissant-moon-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_EldersVillage-2025-05-02",
+      "name": "Retirement Town — research",
+      "category": "Research",
+      "path": "verification/challenges/original/retirement-town/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_FondueTreatment-2025-05-05",
+      "name": "Delicious Fondue Treatment — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/delicious-fondue-treatment/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Campaign2_Level3A_Redux-2025-05-06",
+      "name": "\"Out of the Blue\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/out-of-the-blue-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_wheatspree-2025-05-07",
+      "name": "Bonus Wheat Spree — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/bonus-wheat-spree/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Level07B_Redux-2025-05-08",
+      "name": "\"What Happened?\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/what-happened-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_nuns-2025-05-09",
+      "name": "Historical Site — research",
+      "category": "Research",
+      "path": "verification/challenges/original/historical-site/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BottleMyth-2025-05-12",
+      "name": "Unusual Bottle Myth — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/unusual-bottle-myth/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single06_L_Crab_Redux-2025-05-13",
+      "name": "\"Tomato Race\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/tomato-race-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_StewQuest-2025-05-14",
+      "name": "Heroic Stew Quest — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/heroic-stew-quest/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_L_Hermit_Redux-2025-05-15",
+      "name": "\"Bundle Up!\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/bundle-up-redux-2025-05-15/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Grietas-2025-05-16",
+      "name": "Coastline Paradox — research",
+      "category": "Research",
+      "path": "verification/challenges/original/coastline-paradox/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_wood-2025-05-19",
+      "name": "Historical Log Gang — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/historical-log-gang/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_C_MagicWine_Redux-2025-05-20",
+      "name": "\"Sugar Cove\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/sugar-cove-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_JollyBooks-2025-05-21",
+      "name": "Jolly Book Forum — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/jolly-book-forum/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single03_C_Vesuvius_Redux-2025-05-22",
+      "name": "\"The Rekindling\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/the-rekindling-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_breadandbooks-2025-05-23",
+      "name": "A Farm Too Far — research",
+      "category": "Research",
+      "path": "verification/challenges/original/a-farm-too-far/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_FruitTheory-2025-05-26",
+      "name": "Mystifying Fruit Theory — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/mystifying-fruit-theory/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single03_L_Rocks_Redux-2025-05-27",
+      "name": "\"Mount Petizzo\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/mount-petizzo-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_driedMeatfeast-2025-05-28",
+      "name": "Catchy Dried Meat Feast — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/catchy-dried-meat-feast/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_C_Cheese_Redux-2025-05-29",
+      "name": "\"Patent Pending\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/patent-pending-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Amazonia-2025-05-30",
+      "name": "Braided Jungle — research",
+      "category": "Research",
+      "path": "verification/challenges/original/braided-jungle/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_newsconclave-2025-06-02",
+      "name": "Little Newspaper Conclave — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/little-newspaper-conclave/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Level01C_Redux-2025-06-03",
+      "name": "\"A New Start\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/a-new-start-redux-2025-06-03/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_FreshCanteenconvention-2025-06-04",
+      "name": "Fresh Canteen Convention — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/fresh-canteen-convention/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_C_Desert_Redux-2025-06-05",
+      "name": "\"Too Hot to Write\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/too-hot-to-write-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Laguna-2025-06-06",
+      "name": "Summer Camp — research",
+      "category": "Research",
+      "path": "verification/challenges/original/summer-camp/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_FlourWorship-2025-06-09",
+      "name": "Secret Flour Worship — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/secret-flour-worship/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single01_C_FriendsFrost_Redux-2025-06-10",
+      "name": "\"Friends in the Frost\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/friends-in-the-frost-redux-2025-06-10/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_spicyjuicesymposyum-2025-06-11",
+      "name": "Spicy Smoothie Symposium — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/spicy-smoothie-symposium/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Level04C_Redux-2025-06-12",
+      "name": "\"Too Many Cookies\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/too-many-cookies-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_w_littleones-2025-06-13",
+      "name": "School Break Daycare — research",
+      "category": "Research",
+      "path": "verification/challenges/original/school-break-daycare/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BreadBuffet-2025-06-16",
+      "name": "Shocking Bread Buffet — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/shocking-bread-buffet/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_C_SwimmingTime_Redux-2025-06-17",
+      "name": "\"Dandelion Springs\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/dandelion-springs-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_ReedCathartic-2025-06-18",
+      "name": "Cathartic Reed Bunch Trove — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/cathartic-reed-bunch-trove/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single02_C_Polar_Redux-2025-06-19",
+      "name": "\"Breadification Bias\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/breadification-bias-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_O1piratesstorm-2025-06-20",
+      "name": "Paradise Cove — research",
+      "category": "Research",
+      "path": "verification/challenges/original/paradise-cove/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BrickTroupe-2025-06-23",
+      "name": "Chaotic Brick Troupe — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/chaotic-brick-troupe/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single07_C_Divided_Redux-2025-06-24",
+      "name": "\"Cheers!\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/cheers-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BootsConfabulation-2025-06-25",
+      "name": "Strange Boots Confabulation — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/strange-boots-confabulation/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Level05C_Redux-2025-06-26",
+      "name": "\"Blown Away\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/blown-away-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_LevelCave-2025-06-27",
+      "name": "The Old Crossroads — research",
+      "category": "Research",
+      "path": "verification/challenges/original/the-old-crossroads/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_SublimeBeerQuest-2025-06-30",
+      "name": "Sublime Beer Quest — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/sublime-beer-quest/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single01_L_Andes_Redux-2025-07-01",
+      "name": "\"Alike!\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/alike-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_PlankSaga-2025-07-02",
+      "name": "Sensless Plank Saga — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/sensless-plank-saga/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single02_R_04A_Redux-2025-07-03",
+      "name": "\"Road Snow\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/road-snow-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Nuevobosque-2025-07-04",
+      "name": "Save the Forests — research",
+      "category": "Research",
+      "path": "verification/challenges/original/save-the-forests/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_cookiesserenade-2025-07-07",
+      "name": "Feverish Cookie Serenade — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/feverish-cookie-serenade/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Mountain1_Redux-2025-07-08",
+      "name": "\"Port Plateau\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/port-plateau-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_FondueDelight-2025-07-09",
+      "name": "Ultrarare Fondue Delight — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/ultrarare-fondue-delight/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Campaign2_Level1A_Redux-2025-07-10",
+      "name": "\"Valley Draft\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/valley-draft-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Piramide-2025-07-11",
+      "name": "It's a Pyramid — research",
+      "category": "Research",
+      "path": "verification/challenges/original/it-s-a-pyramid/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/single_b_fancycoats-2025-07-14",
+      "name": "Fancy Coat Squad — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/fancy-coat-squad/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_L_Hermit_Redux-2025-07-15",
+      "name": "\"Bundle Up!\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/bundle-up-redux-2025-07-15/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_StickComrades-2025-07-16",
+      "name": "Serene Stick Comrades — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/serene-stick-comrades/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single06_C_Vortex_Redux-2025-07-17",
+      "name": "\"Tourist Trap\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/tourist-trap-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_broachtuarach-2025-07-18",
+      "name": "Twins of the Hill — research",
+      "category": "Research",
+      "path": "verification/challenges/original/twins-of-the-hill/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_InexplicableFlour-2025-07-21",
+      "name": "Inexplicable Flour Archive — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/inexplicable-flour-archive/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_w_ForbiddenForest_Redux-2025-07-22",
+      "name": "\"Hollowgrounds\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/hollowgrounds-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_VeggieReport-2025-07-23",
+      "name": "Blazing Veggie Report — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/blazing-veggie-report/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single01_C_FriendsFrost_Redux-2025-07-24",
+      "name": "\"Friends in the Frost\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/friends-in-the-frost-redux-2025-07-24/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Floatingisland-2025-07-25",
+      "name": "Feel Good Isle — research",
+      "category": "Research",
+      "path": "verification/challenges/original/feel-good-isle/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_b_meatpicnic-2025-07-28",
+      "name": "Fresh Meat Picnic — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/fresh-meat-picnic/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_nuns_Redux-2025-07-29",
+      "name": "\"Historical Site\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/historical-site-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BreadStash-2025-07-30",
+      "name": "Confidential Bread Stash — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/confidential-bread-stash/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single03_R_Volcano_Redux-2025-07-31",
+      "name": "\"Too Cold to Quit\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/too-cold-to-quit-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_LevelMonkeyIsland-2025-08-01",
+      "name": "Legally Safe Ape Island — research",
+      "category": "Research",
+      "path": "verification/challenges/original/legally-safe-ape-island/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_b_icepopdelight-2025-08-04",
+      "name": "Funny Ice Pop Delight — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/funny-ice-pop-delight/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_beerop_Redux-2025-08-05",
+      "name": "\"OK Beer Operation\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/ok-beer-operation-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_HideRaffle-2025-08-06",
+      "name": "Nice Animal Hide Raffle — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/nice-animal-hide-raffle/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_TheGathering_Redux-2025-08-07",
+      "name": "\"Fancy Hangout\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/fancy-hangout-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_FamilyIsland-2025-08-08",
+      "name": "Island Hoppers — research",
+      "category": "Research",
+      "path": "verification/challenges/original/island-hoppers/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/single_b_eggrace-2025-08-11",
+      "name": "Scandalous Egg Race — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/scandalous-egg-race/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Campaign2_Level5A_Redux-2025-08-12",
+      "name": "\"Anthology\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/anthology-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_b_brickworkout-2025-08-13",
+      "name": "Curious Brick Workout — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/curious-brick-workout/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_EldersVillage_Redux-2025-08-14",
+      "name": "\"Retirement Town\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/retirement-town-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_newscontest-2025-08-15",
+      "name": "Breaking News! — research",
+      "category": "Research",
+      "path": "verification/challenges/original/breaking-news/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/single_b_veggieboggie-2025-08-18",
+      "name": "Sweet Veggie Boogie — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/sweet-veggie-boogie/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Level01A_Redux-2025-08-19",
+      "name": "\"The End of the World\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/the-end-of-the-world-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_FoundueRomance-2025-08-20",
+      "name": "Cathartic Fondue Romance — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/cathartic-fondue-romance/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Campaign2_Level4B_Redux-2025-08-21",
+      "name": "\"Remains\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/remains-redux-2025-08-21/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Waterworld-2025-08-22",
+      "name": "Drifting Docks — research",
+      "category": "Research",
+      "path": "verification/challenges/original/drifting-docks/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/single_b_bottlesreview-2025-08-25",
+      "name": "Pleasant Bottle Review — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/pleasant-bottle-review/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/SIngle_W_Grietas_Redux-2025-08-26",
+      "name": "\"Coastline Paradox\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/coastline-paradox-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_DriedMeatDream-2025-08-27",
+      "name": "Imaginary Dried Meat Dream — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/imaginary-dried-meat-dream/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_w_littleones_Redux-2025-08-28",
+      "name": "\"School Break Daycare\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/school-break-daycare-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Temple-2025-08-29",
+      "name": "Garden City Summer — research",
+      "category": "Research",
+      "path": "verification/challenges/original/garden-city-summer/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_GlassExercise-2025-09-01",
+      "name": "Dangerous Glass Pane Exercise — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/dangerous-glass-pane-exercise/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_ReedCathartic_Redux-2025-09-02",
+      "name": "\"Cathartic Reed Bunch Trove\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/cathartic-reed-bunch-trove-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_FondueGathering-2025-09-03",
+      "name": "Pleasant Fondue Gathering — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/pleasant-fondue-gathering/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_O1piratesstorm_Redux-2025-09-04",
+      "name": "\"Paradise Cove\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/paradise-cove-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Yinyang-2025-09-05",
+      "name": "River of Harmony — research",
+      "category": "Research",
+      "path": "verification/challenges/original/river-of-harmony/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_b_CanteenHoard-2025-09-08",
+      "name": "Quirky Canteen Hoard — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/quirky-canteen-hoard/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_blazingbricks_Redux-2025-09-09",
+      "name": "\"Blazing Brick Fever\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/blazing-brick-fever-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_CookieSurprise-2025-09-10",
+      "name": "Mysterious Cookie Surprise — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/mysterious-cookie-surprise/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_broachtuarach_Redux-2025-09-11",
+      "name": "\"Twins of the Hill\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/twins-of-the-hill-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Roanoke-2025-09-12",
+      "name": "They're Still Here — research",
+      "category": "Research",
+      "path": "verification/challenges/original/they-re-still-here/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_UkuleleGala-2025-09-15",
+      "name": "Outlandish Ukulele Gala — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/outlandish-ukulele-gala/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BottleMyth_Redux-2025-09-16",
+      "name": "\"Unusual Bottle Myth\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/unusual-bottle-myth-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_b_exquisitebread-2025-09-17",
+      "name": "Exquisite Bread Operation — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/exquisite-bread-operation/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_driedMeatfeast_Redux-2025-09-18",
+      "name": "\"Catchy Dried Meat Feast\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/catchy-dried-meat-feast-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_LevelCraterO1-2025-09-19",
+      "name": "Comet Hollow — research",
+      "category": "Research",
+      "path": "verification/challenges/original/comet-hollow/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_NopalShinding-2025-09-22",
+      "name": "Spicy Nopalito Shindig — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/spicy-nopalito-shindig/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Amazonia_Redux-2025-09-23",
+      "name": "\"Braided Jungle\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/braided-jungle-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BeerMeetup-2025-09-24",
+      "name": "Hilarious Beer Meet-up — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/hilarious-beer-meet-up/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_LevelCave_Redux-2025-09-25",
+      "name": "\"The Old Crossroads\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/the-old-crossroads-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Frostpunk-2025-09-26",
+      "name": "Frostbound — research",
+      "category": "Research",
+      "path": "verification/challenges/original/frostbound/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BreadFiesta-2025-09-29",
+      "name": "Modest Bread Fiesta — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/modest-bread-fiesta/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single00_L_Eden_Redux-2025-09-30",
+      "name": "\"An Apple a Day\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/an-apple-a-day-redux-2025-09-30/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BookMarathon-2025-10-01",
+      "name": "Proper Book Marathon — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/proper-book-marathon/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_breadandbooks_Redux-2025-10-02",
+      "name": "\"A Farm Too Far\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/a-farm-too-far-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_FloatingGarden-2025-10-03",
+      "name": "The Hanging Garden — research",
+      "category": "Research",
+      "path": "verification/challenges/original/the-hanging-garden/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_b_secretbootstango-2025-10-06",
+      "name": "Secret Boots Tango — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/secret-boots-tango/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_wood_Redux-2025-10-07",
+      "name": "\"Historical Log Gang\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/historical-log-gang-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_CanteenStash-2025-10-08",
+      "name": "Wonderful Canteen Stash — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/wonderful-canteen-stash/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BrickTroupe_Redux-2025-10-09",
+      "name": "\"Chaotic Brick Troupe\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/chaotic-brick-troupe-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_FlowerPower-2025-10-10",
+      "name": "Spring Fling — research",
+      "category": "Research",
+      "path": "verification/challenges/original/spring-fling/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_b_Cookieparty-2025-10-13",
+      "name": "Enormous Cookie Party — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/enormous-cookie-party/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Floatingisland_Redux-2025-10-14",
+      "name": "\"Feel Good Isle\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/feel-good-isle-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BeerSurprise-2025-10-15",
+      "name": "Distorted Beer Surprise — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/distorted-beer-surprise/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Roanoke_Redux-2025-10-16",
+      "name": "\"They're Still Here\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/they-re-still-here-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_SkyrimLevel-2025-10-17",
+      "name": "Counterspell — research",
+      "category": "Research",
+      "path": "verification/challenges/original/counterspell/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_NewspaperMyth-2025-10-20",
+      "name": "Dark Newspaper Myth — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/dark-newspaper-myth/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Piramide_Redux-2025-10-21",
+      "name": "\"It's a Pyramid\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/it-s-a-pyramid-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_GingerbreadSeminar-2025-10-22",
+      "name": "Mysterious Gingerbread Man Seminar — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/mysterious-gingerbread-man-seminar/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single01_C_FriendsFrost_Redux-2025-10-23",
+      "name": "\"Friends in the Frost\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/friends-in-the-frost-redux-2025-10-23/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_SpookyVillageRoses-2025-10-24",
+      "name": "Spooktown — research",
+      "category": "Research",
+      "path": "verification/challenges/original/spooktown/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_VeggieRitual-2025-10-27",
+      "name": "Spooky Veggie Ritual — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/spooky-veggie-ritual/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Nuevobosque_Redux-2025-10-28",
+      "name": "\"Save the Forests\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/save-the-forests-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_DarkStewFeast-2025-10-29",
+      "name": "Dark Stew Feast — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/dark-stew-feast/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Waterworld_Redux-2025-10-30",
+      "name": "\"Drifting Docks\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/drifting-docks-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_SpookyParadise-2025-10-31",
+      "name": "The Pit of Thorns — research",
+      "category": "Research",
+      "path": "verification/challenges/original/the-pit-of-thorns/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_WheatshineTreatment-2025-11-03",
+      "name": "Experimental Wheatshine Treatment — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/experimental-wheatshine-treatment/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Campaign2_Level6A_Redux-2025-11-04",
+      "name": "\"The Hermit\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/the-hermit-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_Bootsteam-2025-11-05",
+      "name": "Phenomenal Boots Team — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/phenomenal-boots-team/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_LevelMonkeyIsland_Redux-2025-11-06",
+      "name": "\"Legally Safe Ape Island\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/legally-safe-ape-island-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_w_Stages-2025-11-07",
+      "name": "Find the Forest — research",
+      "category": "Research",
+      "path": "verification/challenges/original/find-the-forest/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_GlassofwineOrdeal-2025-11-10",
+      "name": "Ingenuous Wine Ordeal — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/ingenuous-wine-ordeal/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_FamilyIsland_Redux-2025-11-11",
+      "name": "\"Island Hoppers\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/island-hoppers-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BreadShowdown-2025-11-12",
+      "name": "Dazzling Bread Showdown — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/dazzling-bread-showdown/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/single_b_eggrace_Redux-2025-11-13",
+      "name": "\"Scandalous Egg Race\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/scandalous-egg-race-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Pilgrims-2025-11-14",
+      "name": "Forkville — research",
+      "category": "Research",
+      "path": "verification/challenges/original/forkville/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_MeatGetTogether-2025-11-17",
+      "name": "Unusual Meat Get-together — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/unusual-meat-get-together/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Temple_Redux-2025-11-18",
+      "name": "\"Garden City Summer\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/garden-city-summer-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_StewBrunch-2025-11-19",
+      "name": "Large Stew Brunch — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/large-stew-brunch/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single01_R_04C_Redux-2025-11-20",
+      "name": "\"Too Many Bunnies\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/too-many-bunnies-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_SnowVolcano-2025-11-21",
+      "name": "Sweetroll Peak — research",
+      "category": "Research",
+      "path": "verification/challenges/original/sweetroll-peak/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_FondueGala-2025-11-24",
+      "name": "Spectacular Fondue Gala — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/spectacular-fondue-gala/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Laguna_Redux-2025-11-25",
+      "name": "\"Summer Camp\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/summer-camp-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_PendantFantasy-2025-11-26",
+      "name": "Mythical Pendant Fantasy — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/mythical-pendant-fantasy/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Level01C_Redux-2025-11-27",
+      "name": "\"A New Start\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/a-new-start-redux-2025-11-27/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_AhmShere-2025-11-28",
+      "name": "Secret Oasis — research",
+      "category": "Research",
+      "path": "verification/challenges/original/secret-oasis/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_AnimalHideBoogie-2025-12-01",
+      "name": "Beautiful Animal Hide Boogie — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/beautiful-animal-hide-boogie/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_newscontest_Redux-2025-12-02",
+      "name": "\"Breaking News!\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/breaking-news-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_NotableWineTrial-2025-12-03",
+      "name": "Notable Wine Trial — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/notable-wine-trial/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_FruitTheory_Redux-2025-12-04",
+      "name": "\"Mystifying Fruit Theory\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/mystifying-fruit-theory-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Noria-2025-12-05",
+      "name": "Wheel of Thirst — research",
+      "category": "Research",
+      "path": "verification/challenges/original/wheel-of-thirst/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_NewsBlast-2025-12-08",
+      "name": "Scandalous Newspaper Blast — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/scandalous-newspaper-blast/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_winejoke_Redux-2025-12-09",
+      "name": "\"Copious Wine Joke\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/copious-wine-joke-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_GoofyEgg-2025-12-10",
+      "name": "Goofy Egg Scuffle — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/goofy-egg-scuffle/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_StewQuest_Redux-2025-12-11",
+      "name": "\"Heroic Stew Quest\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/heroic-stew-quest-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Sweetroll-2025-12-12",
+      "name": "Cookie Loops — research",
+      "category": "Research",
+      "path": "verification/challenges/original/cookie-loops/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_WaterFiesta-2025-12-15",
+      "name": "Uncomplicated Water Fiesta — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/uncomplicated-water-fiesta/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_JollyBooks_Redux-2025-12-16",
+      "name": "\"Jolly Book Forum\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/jolly-book-forum-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_Trickybread-2025-12-17",
+      "name": "Tricky Bread Scheme — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/tricky-bread-scheme/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_L_Hermit_Redux-2025-12-18",
+      "name": "\"Bundle Up!\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/bundle-up-redux-2025-12-18/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_xmasLand-2025-12-19",
+      "name": "Holiday Shores — research",
+      "category": "Research",
+      "path": "verification/challenges/original/holiday-shores/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_ChaoticBootsRave-2025-12-22",
+      "name": "Chaotic Boots Rave — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/chaotic-boots-rave/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_SkyrimLevel_Redux-2025-12-23",
+      "name": "\"Counterspell\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/counterspell-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_MerrycookieParty-2025-12-24",
+      "name": "Merry Gingerbread Man Party — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/merry-gingerbread-man-party/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_WinterIsComing_Redux-2025-12-25",
+      "name": "\"First Frost\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/first-frost-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Gifts-2025-12-26",
+      "name": "Secret Gift Exchange — research",
+      "category": "Research",
+      "path": "verification/challenges/original/secret-gift-exchange/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_Icepopincident-2025-12-29",
+      "name": "Outlandish Ice Pop Incident — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/outlandish-ice-pop-incident/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Campaign2_Level7B_Redux-2025-12-30",
+      "name": "\"Familiar\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/familiar-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_26-2025-12-31",
+      "name": "Elegant Wheatshine Gala — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/elegant-wheatshine-gala/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_CanteenHoard_Redux-2026-01-01",
+      "name": "\"Quirky Canteen Hoard\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/quirky-canteen-hoard-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_WineIsles-2026-01-02",
+      "name": "Vineyard Isles — research",
+      "category": "Research",
+      "path": "verification/challenges/original/vineyard-isles/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_PendantDrama-2026-01-05",
+      "name": "Manufactured Pendant Drama — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/manufactured-pendant-drama/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BreadFiesta_Redux-2026-01-06",
+      "name": "\"Modest Bread Fiesta\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/modest-bread-fiesta-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BottleAnomaly-2026-01-07",
+      "name": "Weird Bottle Anomaly — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/weird-bottle-anomaly/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_newsconclave_Redux-2026-01-08",
+      "name": "\"Little Newspaper Conclave\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/little-newspaper-conclave-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Meadowlands-2026-01-09",
+      "name": "Moondrop Meadows — research",
+      "category": "Research",
+      "path": "verification/challenges/original/moondrop-meadows/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_Flouroperation-2026-01-12",
+      "name": "Secretive Flour Operation — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/secretive-flour-operation/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_StewBrunch_Redux-2026-01-13",
+      "name": "\"Large Stew Brunch\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/large-stew-brunch-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_CheeseSurprise-2026-01-14",
+      "name": "Grand Cheese Surprise — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/grand-cheese-surprise/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_PlankSaga_Redux-2026-01-15",
+      "name": "\"Sensless Plank Saga\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/sensless-plank-saga-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_AllTrees-2026-01-16",
+      "name": "Overgrown — research",
+      "category": "Research",
+      "path": "verification/challenges/original/overgrown/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BeerOddity-2026-01-19",
+      "name": "First Beer Oddity — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/first-beer-oddity/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BreadBuffet_Redux-2026-01-20",
+      "name": "\"Shocking Bread Buffet\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/shocking-bread-buffet-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_MythicalFondue-2026-01-21",
+      "name": "Mythical Fondue Affair — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/mythical-fondue-affair/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_PlainPlank_Redux-2026-01-22",
+      "name": "\"Plain Plank Challenge\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/plain-plank-challenge-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_PomeloIsland-2026-01-23",
+      "name": "Company Picnic — research",
+      "category": "Research",
+      "path": "verification/challenges/original/company-picnic/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_IcepopSerenade-2026-01-26",
+      "name": "Tricky Ice Pop Serenade — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/tricky-ice-pop-serenade/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_IncFruitRace_Redux-2026-01-27",
+      "name": "\"Incredible Fruit Race\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/incredible-fruit-race-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_AnimalHidesWorship-2026-01-28",
+      "name": "Distorted Animal Hide Worship — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/distorted-animal-hide-worship/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_b_meatpicnic_Redux-2026-01-29",
+      "name": "\"Fresh Meat Picnic\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/fresh-meat-picnic-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_FakeOasis3-2026-01-30",
+      "name": "Hidden Paradise — research",
+      "category": "Research",
+      "path": "verification/challenges/original/hidden-paradise/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_FlourBacklog-2026-02-02",
+      "name": "Peculiar Flour Backlog — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/peculiar-flour-backlog/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_ChaoticBootsRave_Redux-2026-02-03",
+      "name": "\"Chaotic Boots Rave\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/chaotic-boots-rave-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_PerplexingCoat-2026-02-04",
+      "name": "Perplexing Coat Rendezvous — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/perplexing-coat-rendezvous/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_FreshCanteenconvention_Redux-2026-02-05",
+      "name": "\"Fresh Canteen Convention\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/fresh-canteen-convention-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Saycheese-2026-02-06",
+      "name": "Say Cheese! — research",
+      "category": "Research",
+      "path": "verification/challenges/original/say-cheese/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BreadRaffle-2026-02-09",
+      "name": "Opulent Bread Raffle — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/opulent-bread-raffle/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_DarkStewFeast_Redux-2026-02-10",
+      "name": "\"Dark Stew Feast\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/dark-stew-feast-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_WineSymposyum-2026-02-11",
+      "name": "Opulent Wine Symposyum — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/opulent-wine-symposyum/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_VeggieExp_Redux-2026-02-12",
+      "name": "\"Silly Veggie Experiment\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/silly-veggie-experiment-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_StValentinesVillage-2026-02-13",
+      "name": "Love Each Other — research",
+      "category": "Research",
+      "path": "verification/challenges/original/love-each-other/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_FruitJangle-2026-02-16",
+      "name": "Trivial Fruit Jangle — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/trivial-fruit-jangle/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_Flouroperation_Redux-2026-02-17",
+      "name": "\"Secretive Flour Operation\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/secretive-flour-operation-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_EggTheory-2026-02-18",
+      "name": "Plausible Egg Theory — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/plausible-egg-theory/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_AhmShere_Redux-2026-02-19",
+      "name": "\"Secret Oasis\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/secret-oasis-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Eywa-2026-02-20",
+      "name": "Mother Knows Best — research",
+      "category": "Research",
+      "path": "verification/challenges/original/mother-knows-best/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_WoodPastime-2026-02-23",
+      "name": "Useful Log Pastime — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/useful-log-pastime/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_AnimalHidesWorship_Redux-2026-02-24",
+      "name": "\"Distorted Animal Hide Worship\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/distorted-animal-hide-worship-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BookLeague-2026-02-25",
+      "name": "Dangerous Book League — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/dangerous-book-league/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Campaign2_Level7C_Redux-2026-02-26",
+      "name": "\"Outgrown\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/outgrown-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Islands-2026-02-27",
+      "name": "Twin Islands — research",
+      "category": "Research",
+      "path": "verification/challenges/original/twin-islands/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_UkuleleSerenade-2026-03-02",
+      "name": "Sleepy Ukulele Serenade — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/sleepy-ukulele-serenade/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Pilgrims_Redux-2026-03-03",
+      "name": "\"Forkville\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/forkville-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_GlassofWaterFiesta-2026-03-04",
+      "name": "Bewildering Water Fiesta — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/bewildering-water-fiesta/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_Icepopincident_Redux-2026-03-05",
+      "name": "\"Outlandish Ice Pop Incident\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/outlandish-ice-pop-incident-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Sumatra-2026-03-06",
+      "name": "All you need is Cove — research",
+      "category": "Research",
+      "path": "verification/challenges/original/all-you-need-is-cove/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BottlePursuit-2026-03-09",
+      "name": "Uplifting Bottle Pursuit — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/uplifting-bottle-pursuit/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Campaign3_Level1A_Redux-2026-03-10",
+      "name": "\"Seventeen\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/seventeen-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_PendantBinge-2026-03-11",
+      "name": "Unusual Pendant Binge — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/unusual-pendant-binge/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_icepopjamboree_Redux-2026-03-12",
+      "name": "\"Sublime Ice Pop Jamboree\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/sublime-ice-pop-jamboree-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Acantilado-2026-03-13",
+      "name": "Cold Cliffs — research",
+      "category": "Research",
+      "path": "verification/challenges/original/cold-cliffs/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_ManchamantelesExtravaganza-2026-03-16",
+      "name": "Opulent Manchamanteles Extravaganza — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/opulent-manchamanteles-extravaganza/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_EggTheory_Redux-2026-03-17",
+      "name": "\"Plausible Egg Theory\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/plausible-egg-theory-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_BarleyPorridgeSweepstake-2026-03-18",
+      "name": "Flavorful Barley Porridge Sweepstake — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/flavorful-barley-porridge-sweepstake/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_w_Stages_Redux-2026-03-19",
+      "name": "\"Find the Forest\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/find-the-forest-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Winterland-2026-03-20",
+      "name": "Winterland Blues — research",
+      "category": "Research",
+      "path": "verification/challenges/original/winterland-blues/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_CanteenAnecdote-2026-03-23",
+      "name": "Grand Canteen Anecdote — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/grand-canteen-anecdote/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_WineSymposyum_Redux-2026-03-24",
+      "name": "\"Opulent Wine Symposyum\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/opulent-wine-symposyum-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_VeggieLeague-2026-03-25",
+      "name": "Fantastical Veggie League — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/fantastical-veggie-league/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_SpookyParadise_Redux-2026-03-26",
+      "name": "\"The Pit of Thorns\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/the-pit-of-thorns-redux/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_W_Snowdays-2026-03-27",
+      "name": "Final Snow Days — research",
+      "category": "Research",
+      "path": "verification/challenges/original/final-snow-days/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_HoneyMeditation-2026-03-30",
+      "name": "Solemn Honey Meditation — research",
+      "category": "Research",
+      "path": "verification/challenges/bounty/solemn-honey-meditation/",
+      "spoiler": false
+    },
+    {
+      "type": "evidence",
+      "id": "levels/Single_B_bootsadventure_Redux-2026-03-31",
+      "name": "\"Unbelievable Boots Adventure\" Redux — research",
+      "category": "Research",
+      "path": "verification/challenges/redux/unbelievable-boots-adventure-redux/",
+      "spoiler": false
+    },
+    {
       "type": "tournament",
       "id": "seasons",
       "name": "Tournament Mode — all seasons",
@@ -11399,6 +15559,266 @@
     "levels/unnamed-scenario-archive-20-3/",
     "levels/unnamed-scenario-archive-22-3/",
     "levels/unnamed-scenario-archive-19-3/",
+    "challenges/bounty/incredible-fruit-race/",
+    "challenges/redux/sugar-highway-redux/",
+    "challenges/original/port-plateau/",
+    "challenges/bounty/unbelievable-boots-adventure/",
+    "challenges/redux/an-apple-a-day-redux-2025-04-08/",
+    "challenges/bounty/ok-beer-operation/",
+    "challenges/redux/summit-heat-redux/",
+    "challenges/original/first-frost/",
+    "challenges/bounty/dazzling-cookie-documentary/",
+    "challenges/redux/remains-redux-2025-04-15/",
+    "challenges/bounty/blazing-brick-fever/",
+    "challenges/redux/by-the-sea-redux/",
+    "challenges/original/hollowgrounds/",
+    "challenges/bounty/copious-wine-joke/",
+    "challenges/redux/no-memory-redux/",
+    "challenges/bounty/silly-veggie-experiment/",
+    "challenges/redux/they-them-redux/",
+    "challenges/original/fancy-hangout/",
+    "challenges/bounty/plain-plank-challenge/",
+    "challenges/redux/barren-t-redux/",
+    "challenges/bounty/sublime-ice-pop-jamboree/",
+    "challenges/redux/croissant-moon-redux/",
+    "challenges/original/retirement-town/",
+    "challenges/bounty/delicious-fondue-treatment/",
+    "challenges/redux/out-of-the-blue-redux/",
+    "challenges/bounty/bonus-wheat-spree/",
+    "challenges/redux/what-happened-redux/",
+    "challenges/original/historical-site/",
+    "challenges/bounty/unusual-bottle-myth/",
+    "challenges/redux/tomato-race-redux/",
+    "challenges/bounty/heroic-stew-quest/",
+    "challenges/redux/bundle-up-redux-2025-05-15/",
+    "challenges/original/coastline-paradox/",
+    "challenges/bounty/historical-log-gang/",
+    "challenges/redux/sugar-cove-redux/",
+    "challenges/bounty/jolly-book-forum/",
+    "challenges/redux/the-rekindling-redux/",
+    "challenges/original/a-farm-too-far/",
+    "challenges/bounty/mystifying-fruit-theory/",
+    "challenges/redux/mount-petizzo-redux/",
+    "challenges/bounty/catchy-dried-meat-feast/",
+    "challenges/redux/patent-pending-redux/",
+    "challenges/original/braided-jungle/",
+    "challenges/bounty/little-newspaper-conclave/",
+    "challenges/redux/a-new-start-redux-2025-06-03/",
+    "challenges/bounty/fresh-canteen-convention/",
+    "challenges/redux/too-hot-to-write-redux/",
+    "challenges/original/summer-camp/",
+    "challenges/bounty/secret-flour-worship/",
+    "challenges/redux/friends-in-the-frost-redux-2025-06-10/",
+    "challenges/bounty/spicy-smoothie-symposium/",
+    "challenges/redux/too-many-cookies-redux/",
+    "challenges/original/school-break-daycare/",
+    "challenges/bounty/shocking-bread-buffet/",
+    "challenges/redux/dandelion-springs-redux/",
+    "challenges/bounty/cathartic-reed-bunch-trove/",
+    "challenges/redux/breadification-bias-redux/",
+    "challenges/original/paradise-cove/",
+    "challenges/bounty/chaotic-brick-troupe/",
+    "challenges/redux/cheers-redux/",
+    "challenges/bounty/strange-boots-confabulation/",
+    "challenges/redux/blown-away-redux/",
+    "challenges/original/the-old-crossroads/",
+    "challenges/bounty/sublime-beer-quest/",
+    "challenges/redux/alike-redux/",
+    "challenges/bounty/sensless-plank-saga/",
+    "challenges/redux/road-snow-redux/",
+    "challenges/original/save-the-forests/",
+    "challenges/bounty/feverish-cookie-serenade/",
+    "challenges/redux/port-plateau-redux/",
+    "challenges/bounty/ultrarare-fondue-delight/",
+    "challenges/redux/valley-draft-redux/",
+    "challenges/original/it-s-a-pyramid/",
+    "challenges/bounty/fancy-coat-squad/",
+    "challenges/redux/bundle-up-redux-2025-07-15/",
+    "challenges/bounty/serene-stick-comrades/",
+    "challenges/redux/tourist-trap-redux/",
+    "challenges/original/twins-of-the-hill/",
+    "challenges/bounty/inexplicable-flour-archive/",
+    "challenges/redux/hollowgrounds-redux/",
+    "challenges/bounty/blazing-veggie-report/",
+    "challenges/redux/friends-in-the-frost-redux-2025-07-24/",
+    "challenges/original/feel-good-isle/",
+    "challenges/bounty/fresh-meat-picnic/",
+    "challenges/redux/historical-site-redux/",
+    "challenges/bounty/confidential-bread-stash/",
+    "challenges/redux/too-cold-to-quit-redux/",
+    "challenges/original/legally-safe-ape-island/",
+    "challenges/bounty/funny-ice-pop-delight/",
+    "challenges/redux/ok-beer-operation-redux/",
+    "challenges/bounty/nice-animal-hide-raffle/",
+    "challenges/redux/fancy-hangout-redux/",
+    "challenges/original/island-hoppers/",
+    "challenges/bounty/scandalous-egg-race/",
+    "challenges/redux/anthology-redux/",
+    "challenges/bounty/curious-brick-workout/",
+    "challenges/redux/retirement-town-redux/",
+    "challenges/original/breaking-news/",
+    "challenges/bounty/sweet-veggie-boogie/",
+    "challenges/redux/the-end-of-the-world-redux/",
+    "challenges/bounty/cathartic-fondue-romance/",
+    "challenges/redux/remains-redux-2025-08-21/",
+    "challenges/original/drifting-docks/",
+    "challenges/bounty/pleasant-bottle-review/",
+    "challenges/redux/coastline-paradox-redux/",
+    "challenges/bounty/imaginary-dried-meat-dream/",
+    "challenges/redux/school-break-daycare-redux/",
+    "challenges/original/garden-city-summer/",
+    "challenges/bounty/dangerous-glass-pane-exercise/",
+    "challenges/redux/cathartic-reed-bunch-trove-redux/",
+    "challenges/bounty/pleasant-fondue-gathering/",
+    "challenges/redux/paradise-cove-redux/",
+    "challenges/original/river-of-harmony/",
+    "challenges/bounty/quirky-canteen-hoard/",
+    "challenges/redux/blazing-brick-fever-redux/",
+    "challenges/bounty/mysterious-cookie-surprise/",
+    "challenges/redux/twins-of-the-hill-redux/",
+    "challenges/original/they-re-still-here/",
+    "challenges/bounty/outlandish-ukulele-gala/",
+    "challenges/redux/unusual-bottle-myth-redux/",
+    "challenges/bounty/exquisite-bread-operation/",
+    "challenges/redux/catchy-dried-meat-feast-redux/",
+    "challenges/original/comet-hollow/",
+    "challenges/bounty/spicy-nopalito-shindig/",
+    "challenges/redux/braided-jungle-redux/",
+    "challenges/bounty/hilarious-beer-meet-up/",
+    "challenges/redux/the-old-crossroads-redux/",
+    "challenges/original/frostbound/",
+    "challenges/bounty/modest-bread-fiesta/",
+    "challenges/redux/an-apple-a-day-redux-2025-09-30/",
+    "challenges/bounty/proper-book-marathon/",
+    "challenges/redux/a-farm-too-far-redux/",
+    "challenges/original/the-hanging-garden/",
+    "challenges/bounty/secret-boots-tango/",
+    "challenges/redux/historical-log-gang-redux/",
+    "challenges/bounty/wonderful-canteen-stash/",
+    "challenges/redux/chaotic-brick-troupe-redux/",
+    "challenges/original/spring-fling/",
+    "challenges/bounty/enormous-cookie-party/",
+    "challenges/redux/feel-good-isle-redux/",
+    "challenges/bounty/distorted-beer-surprise/",
+    "challenges/redux/they-re-still-here-redux/",
+    "challenges/original/counterspell/",
+    "challenges/bounty/dark-newspaper-myth/",
+    "challenges/redux/it-s-a-pyramid-redux/",
+    "challenges/bounty/mysterious-gingerbread-man-seminar/",
+    "challenges/redux/friends-in-the-frost-redux-2025-10-23/",
+    "challenges/original/spooktown/",
+    "challenges/bounty/spooky-veggie-ritual/",
+    "challenges/redux/save-the-forests-redux/",
+    "challenges/bounty/dark-stew-feast/",
+    "challenges/redux/drifting-docks-redux/",
+    "challenges/original/the-pit-of-thorns/",
+    "challenges/bounty/experimental-wheatshine-treatment/",
+    "challenges/redux/the-hermit-redux/",
+    "challenges/bounty/phenomenal-boots-team/",
+    "challenges/redux/legally-safe-ape-island-redux/",
+    "challenges/original/find-the-forest/",
+    "challenges/bounty/ingenuous-wine-ordeal/",
+    "challenges/redux/island-hoppers-redux/",
+    "challenges/bounty/dazzling-bread-showdown/",
+    "challenges/redux/scandalous-egg-race-redux/",
+    "challenges/original/forkville/",
+    "challenges/bounty/unusual-meat-get-together/",
+    "challenges/redux/garden-city-summer-redux/",
+    "challenges/bounty/large-stew-brunch/",
+    "challenges/redux/too-many-bunnies-redux/",
+    "challenges/original/sweetroll-peak/",
+    "challenges/bounty/spectacular-fondue-gala/",
+    "challenges/redux/summer-camp-redux/",
+    "challenges/bounty/mythical-pendant-fantasy/",
+    "challenges/redux/a-new-start-redux-2025-11-27/",
+    "challenges/original/secret-oasis/",
+    "challenges/bounty/beautiful-animal-hide-boogie/",
+    "challenges/redux/breaking-news-redux/",
+    "challenges/bounty/notable-wine-trial/",
+    "challenges/redux/mystifying-fruit-theory-redux/",
+    "challenges/original/wheel-of-thirst/",
+    "challenges/bounty/scandalous-newspaper-blast/",
+    "challenges/redux/copious-wine-joke-redux/",
+    "challenges/bounty/goofy-egg-scuffle/",
+    "challenges/redux/heroic-stew-quest-redux/",
+    "challenges/original/cookie-loops/",
+    "challenges/bounty/uncomplicated-water-fiesta/",
+    "challenges/redux/jolly-book-forum-redux/",
+    "challenges/bounty/tricky-bread-scheme/",
+    "challenges/redux/bundle-up-redux-2025-12-18/",
+    "challenges/original/holiday-shores/",
+    "challenges/bounty/chaotic-boots-rave/",
+    "challenges/redux/counterspell-redux/",
+    "challenges/bounty/merry-gingerbread-man-party/",
+    "challenges/redux/first-frost-redux/",
+    "challenges/original/secret-gift-exchange/",
+    "challenges/bounty/outlandish-ice-pop-incident/",
+    "challenges/redux/familiar-redux/",
+    "challenges/bounty/elegant-wheatshine-gala/",
+    "challenges/redux/quirky-canteen-hoard-redux/",
+    "challenges/original/vineyard-isles/",
+    "challenges/bounty/manufactured-pendant-drama/",
+    "challenges/redux/modest-bread-fiesta-redux/",
+    "challenges/bounty/weird-bottle-anomaly/",
+    "challenges/redux/little-newspaper-conclave-redux/",
+    "challenges/original/moondrop-meadows/",
+    "challenges/bounty/secretive-flour-operation/",
+    "challenges/redux/large-stew-brunch-redux/",
+    "challenges/bounty/grand-cheese-surprise/",
+    "challenges/redux/sensless-plank-saga-redux/",
+    "challenges/original/overgrown/",
+    "challenges/bounty/first-beer-oddity/",
+    "challenges/redux/shocking-bread-buffet-redux/",
+    "challenges/bounty/mythical-fondue-affair/",
+    "challenges/redux/plain-plank-challenge-redux/",
+    "challenges/original/company-picnic/",
+    "challenges/bounty/tricky-ice-pop-serenade/",
+    "challenges/redux/incredible-fruit-race-redux/",
+    "challenges/bounty/distorted-animal-hide-worship/",
+    "challenges/redux/fresh-meat-picnic-redux/",
+    "challenges/original/hidden-paradise/",
+    "challenges/bounty/peculiar-flour-backlog/",
+    "challenges/redux/chaotic-boots-rave-redux/",
+    "challenges/bounty/perplexing-coat-rendezvous/",
+    "challenges/redux/fresh-canteen-convention-redux/",
+    "challenges/original/say-cheese/",
+    "challenges/bounty/opulent-bread-raffle/",
+    "challenges/redux/dark-stew-feast-redux/",
+    "challenges/bounty/opulent-wine-symposyum/",
+    "challenges/redux/silly-veggie-experiment-redux/",
+    "challenges/original/love-each-other/",
+    "challenges/bounty/trivial-fruit-jangle/",
+    "challenges/redux/secretive-flour-operation-redux/",
+    "challenges/bounty/plausible-egg-theory/",
+    "challenges/redux/secret-oasis-redux/",
+    "challenges/original/mother-knows-best/",
+    "challenges/bounty/useful-log-pastime/",
+    "challenges/redux/distorted-animal-hide-worship-redux/",
+    "challenges/bounty/dangerous-book-league/",
+    "challenges/redux/outgrown-redux/",
+    "challenges/original/twin-islands/",
+    "challenges/bounty/sleepy-ukulele-serenade/",
+    "challenges/redux/forkville-redux/",
+    "challenges/bounty/bewildering-water-fiesta/",
+    "challenges/redux/outlandish-ice-pop-incident-redux/",
+    "challenges/original/all-you-need-is-cove/",
+    "challenges/bounty/uplifting-bottle-pursuit/",
+    "challenges/redux/seventeen-redux/",
+    "challenges/bounty/unusual-pendant-binge/",
+    "challenges/redux/sublime-ice-pop-jamboree-redux/",
+    "challenges/original/cold-cliffs/",
+    "challenges/bounty/opulent-manchamanteles-extravaganza/",
+    "challenges/redux/plausible-egg-theory-redux/",
+    "challenges/bounty/flavorful-barley-porridge-sweepstake/",
+    "challenges/redux/find-the-forest-redux/",
+    "challenges/original/winterland-blues/",
+    "challenges/bounty/grand-canteen-anecdote/",
+    "challenges/redux/opulent-wine-symposyum-redux/",
+    "challenges/bounty/fantastical-veggie-league/",
+    "challenges/redux/the-pit-of-thorns-redux/",
+    "challenges/original/final-snow-days/",
+    "challenges/bounty/solemn-honey-meditation/",
+    "challenges/redux/unbelievable-boots-adventure-redux/",
     "campaigns/campaign-1/",
     "campaigns/campaign-2/",
     "campaigns/campaign-3/",
@@ -12046,6 +16466,266 @@
     "verification/levels/unnamed-scenario-archive-20-3/",
     "verification/levels/unnamed-scenario-archive-22-3/",
     "verification/levels/unnamed-scenario-archive-19-3/",
+    "verification/challenges/bounty/incredible-fruit-race/",
+    "verification/challenges/redux/sugar-highway-redux/",
+    "verification/challenges/original/port-plateau/",
+    "verification/challenges/bounty/unbelievable-boots-adventure/",
+    "verification/challenges/redux/an-apple-a-day-redux-2025-04-08/",
+    "verification/challenges/bounty/ok-beer-operation/",
+    "verification/challenges/redux/summit-heat-redux/",
+    "verification/challenges/original/first-frost/",
+    "verification/challenges/bounty/dazzling-cookie-documentary/",
+    "verification/challenges/redux/remains-redux-2025-04-15/",
+    "verification/challenges/bounty/blazing-brick-fever/",
+    "verification/challenges/redux/by-the-sea-redux/",
+    "verification/challenges/original/hollowgrounds/",
+    "verification/challenges/bounty/copious-wine-joke/",
+    "verification/challenges/redux/no-memory-redux/",
+    "verification/challenges/bounty/silly-veggie-experiment/",
+    "verification/challenges/redux/they-them-redux/",
+    "verification/challenges/original/fancy-hangout/",
+    "verification/challenges/bounty/plain-plank-challenge/",
+    "verification/challenges/redux/barren-t-redux/",
+    "verification/challenges/bounty/sublime-ice-pop-jamboree/",
+    "verification/challenges/redux/croissant-moon-redux/",
+    "verification/challenges/original/retirement-town/",
+    "verification/challenges/bounty/delicious-fondue-treatment/",
+    "verification/challenges/redux/out-of-the-blue-redux/",
+    "verification/challenges/bounty/bonus-wheat-spree/",
+    "verification/challenges/redux/what-happened-redux/",
+    "verification/challenges/original/historical-site/",
+    "verification/challenges/bounty/unusual-bottle-myth/",
+    "verification/challenges/redux/tomato-race-redux/",
+    "verification/challenges/bounty/heroic-stew-quest/",
+    "verification/challenges/redux/bundle-up-redux-2025-05-15/",
+    "verification/challenges/original/coastline-paradox/",
+    "verification/challenges/bounty/historical-log-gang/",
+    "verification/challenges/redux/sugar-cove-redux/",
+    "verification/challenges/bounty/jolly-book-forum/",
+    "verification/challenges/redux/the-rekindling-redux/",
+    "verification/challenges/original/a-farm-too-far/",
+    "verification/challenges/bounty/mystifying-fruit-theory/",
+    "verification/challenges/redux/mount-petizzo-redux/",
+    "verification/challenges/bounty/catchy-dried-meat-feast/",
+    "verification/challenges/redux/patent-pending-redux/",
+    "verification/challenges/original/braided-jungle/",
+    "verification/challenges/bounty/little-newspaper-conclave/",
+    "verification/challenges/redux/a-new-start-redux-2025-06-03/",
+    "verification/challenges/bounty/fresh-canteen-convention/",
+    "verification/challenges/redux/too-hot-to-write-redux/",
+    "verification/challenges/original/summer-camp/",
+    "verification/challenges/bounty/secret-flour-worship/",
+    "verification/challenges/redux/friends-in-the-frost-redux-2025-06-10/",
+    "verification/challenges/bounty/spicy-smoothie-symposium/",
+    "verification/challenges/redux/too-many-cookies-redux/",
+    "verification/challenges/original/school-break-daycare/",
+    "verification/challenges/bounty/shocking-bread-buffet/",
+    "verification/challenges/redux/dandelion-springs-redux/",
+    "verification/challenges/bounty/cathartic-reed-bunch-trove/",
+    "verification/challenges/redux/breadification-bias-redux/",
+    "verification/challenges/original/paradise-cove/",
+    "verification/challenges/bounty/chaotic-brick-troupe/",
+    "verification/challenges/redux/cheers-redux/",
+    "verification/challenges/bounty/strange-boots-confabulation/",
+    "verification/challenges/redux/blown-away-redux/",
+    "verification/challenges/original/the-old-crossroads/",
+    "verification/challenges/bounty/sublime-beer-quest/",
+    "verification/challenges/redux/alike-redux/",
+    "verification/challenges/bounty/sensless-plank-saga/",
+    "verification/challenges/redux/road-snow-redux/",
+    "verification/challenges/original/save-the-forests/",
+    "verification/challenges/bounty/feverish-cookie-serenade/",
+    "verification/challenges/redux/port-plateau-redux/",
+    "verification/challenges/bounty/ultrarare-fondue-delight/",
+    "verification/challenges/redux/valley-draft-redux/",
+    "verification/challenges/original/it-s-a-pyramid/",
+    "verification/challenges/bounty/fancy-coat-squad/",
+    "verification/challenges/redux/bundle-up-redux-2025-07-15/",
+    "verification/challenges/bounty/serene-stick-comrades/",
+    "verification/challenges/redux/tourist-trap-redux/",
+    "verification/challenges/original/twins-of-the-hill/",
+    "verification/challenges/bounty/inexplicable-flour-archive/",
+    "verification/challenges/redux/hollowgrounds-redux/",
+    "verification/challenges/bounty/blazing-veggie-report/",
+    "verification/challenges/redux/friends-in-the-frost-redux-2025-07-24/",
+    "verification/challenges/original/feel-good-isle/",
+    "verification/challenges/bounty/fresh-meat-picnic/",
+    "verification/challenges/redux/historical-site-redux/",
+    "verification/challenges/bounty/confidential-bread-stash/",
+    "verification/challenges/redux/too-cold-to-quit-redux/",
+    "verification/challenges/original/legally-safe-ape-island/",
+    "verification/challenges/bounty/funny-ice-pop-delight/",
+    "verification/challenges/redux/ok-beer-operation-redux/",
+    "verification/challenges/bounty/nice-animal-hide-raffle/",
+    "verification/challenges/redux/fancy-hangout-redux/",
+    "verification/challenges/original/island-hoppers/",
+    "verification/challenges/bounty/scandalous-egg-race/",
+    "verification/challenges/redux/anthology-redux/",
+    "verification/challenges/bounty/curious-brick-workout/",
+    "verification/challenges/redux/retirement-town-redux/",
+    "verification/challenges/original/breaking-news/",
+    "verification/challenges/bounty/sweet-veggie-boogie/",
+    "verification/challenges/redux/the-end-of-the-world-redux/",
+    "verification/challenges/bounty/cathartic-fondue-romance/",
+    "verification/challenges/redux/remains-redux-2025-08-21/",
+    "verification/challenges/original/drifting-docks/",
+    "verification/challenges/bounty/pleasant-bottle-review/",
+    "verification/challenges/redux/coastline-paradox-redux/",
+    "verification/challenges/bounty/imaginary-dried-meat-dream/",
+    "verification/challenges/redux/school-break-daycare-redux/",
+    "verification/challenges/original/garden-city-summer/",
+    "verification/challenges/bounty/dangerous-glass-pane-exercise/",
+    "verification/challenges/redux/cathartic-reed-bunch-trove-redux/",
+    "verification/challenges/bounty/pleasant-fondue-gathering/",
+    "verification/challenges/redux/paradise-cove-redux/",
+    "verification/challenges/original/river-of-harmony/",
+    "verification/challenges/bounty/quirky-canteen-hoard/",
+    "verification/challenges/redux/blazing-brick-fever-redux/",
+    "verification/challenges/bounty/mysterious-cookie-surprise/",
+    "verification/challenges/redux/twins-of-the-hill-redux/",
+    "verification/challenges/original/they-re-still-here/",
+    "verification/challenges/bounty/outlandish-ukulele-gala/",
+    "verification/challenges/redux/unusual-bottle-myth-redux/",
+    "verification/challenges/bounty/exquisite-bread-operation/",
+    "verification/challenges/redux/catchy-dried-meat-feast-redux/",
+    "verification/challenges/original/comet-hollow/",
+    "verification/challenges/bounty/spicy-nopalito-shindig/",
+    "verification/challenges/redux/braided-jungle-redux/",
+    "verification/challenges/bounty/hilarious-beer-meet-up/",
+    "verification/challenges/redux/the-old-crossroads-redux/",
+    "verification/challenges/original/frostbound/",
+    "verification/challenges/bounty/modest-bread-fiesta/",
+    "verification/challenges/redux/an-apple-a-day-redux-2025-09-30/",
+    "verification/challenges/bounty/proper-book-marathon/",
+    "verification/challenges/redux/a-farm-too-far-redux/",
+    "verification/challenges/original/the-hanging-garden/",
+    "verification/challenges/bounty/secret-boots-tango/",
+    "verification/challenges/redux/historical-log-gang-redux/",
+    "verification/challenges/bounty/wonderful-canteen-stash/",
+    "verification/challenges/redux/chaotic-brick-troupe-redux/",
+    "verification/challenges/original/spring-fling/",
+    "verification/challenges/bounty/enormous-cookie-party/",
+    "verification/challenges/redux/feel-good-isle-redux/",
+    "verification/challenges/bounty/distorted-beer-surprise/",
+    "verification/challenges/redux/they-re-still-here-redux/",
+    "verification/challenges/original/counterspell/",
+    "verification/challenges/bounty/dark-newspaper-myth/",
+    "verification/challenges/redux/it-s-a-pyramid-redux/",
+    "verification/challenges/bounty/mysterious-gingerbread-man-seminar/",
+    "verification/challenges/redux/friends-in-the-frost-redux-2025-10-23/",
+    "verification/challenges/original/spooktown/",
+    "verification/challenges/bounty/spooky-veggie-ritual/",
+    "verification/challenges/redux/save-the-forests-redux/",
+    "verification/challenges/bounty/dark-stew-feast/",
+    "verification/challenges/redux/drifting-docks-redux/",
+    "verification/challenges/original/the-pit-of-thorns/",
+    "verification/challenges/bounty/experimental-wheatshine-treatment/",
+    "verification/challenges/redux/the-hermit-redux/",
+    "verification/challenges/bounty/phenomenal-boots-team/",
+    "verification/challenges/redux/legally-safe-ape-island-redux/",
+    "verification/challenges/original/find-the-forest/",
+    "verification/challenges/bounty/ingenuous-wine-ordeal/",
+    "verification/challenges/redux/island-hoppers-redux/",
+    "verification/challenges/bounty/dazzling-bread-showdown/",
+    "verification/challenges/redux/scandalous-egg-race-redux/",
+    "verification/challenges/original/forkville/",
+    "verification/challenges/bounty/unusual-meat-get-together/",
+    "verification/challenges/redux/garden-city-summer-redux/",
+    "verification/challenges/bounty/large-stew-brunch/",
+    "verification/challenges/redux/too-many-bunnies-redux/",
+    "verification/challenges/original/sweetroll-peak/",
+    "verification/challenges/bounty/spectacular-fondue-gala/",
+    "verification/challenges/redux/summer-camp-redux/",
+    "verification/challenges/bounty/mythical-pendant-fantasy/",
+    "verification/challenges/redux/a-new-start-redux-2025-11-27/",
+    "verification/challenges/original/secret-oasis/",
+    "verification/challenges/bounty/beautiful-animal-hide-boogie/",
+    "verification/challenges/redux/breaking-news-redux/",
+    "verification/challenges/bounty/notable-wine-trial/",
+    "verification/challenges/redux/mystifying-fruit-theory-redux/",
+    "verification/challenges/original/wheel-of-thirst/",
+    "verification/challenges/bounty/scandalous-newspaper-blast/",
+    "verification/challenges/redux/copious-wine-joke-redux/",
+    "verification/challenges/bounty/goofy-egg-scuffle/",
+    "verification/challenges/redux/heroic-stew-quest-redux/",
+    "verification/challenges/original/cookie-loops/",
+    "verification/challenges/bounty/uncomplicated-water-fiesta/",
+    "verification/challenges/redux/jolly-book-forum-redux/",
+    "verification/challenges/bounty/tricky-bread-scheme/",
+    "verification/challenges/redux/bundle-up-redux-2025-12-18/",
+    "verification/challenges/original/holiday-shores/",
+    "verification/challenges/bounty/chaotic-boots-rave/",
+    "verification/challenges/redux/counterspell-redux/",
+    "verification/challenges/bounty/merry-gingerbread-man-party/",
+    "verification/challenges/redux/first-frost-redux/",
+    "verification/challenges/original/secret-gift-exchange/",
+    "verification/challenges/bounty/outlandish-ice-pop-incident/",
+    "verification/challenges/redux/familiar-redux/",
+    "verification/challenges/bounty/elegant-wheatshine-gala/",
+    "verification/challenges/redux/quirky-canteen-hoard-redux/",
+    "verification/challenges/original/vineyard-isles/",
+    "verification/challenges/bounty/manufactured-pendant-drama/",
+    "verification/challenges/redux/modest-bread-fiesta-redux/",
+    "verification/challenges/bounty/weird-bottle-anomaly/",
+    "verification/challenges/redux/little-newspaper-conclave-redux/",
+    "verification/challenges/original/moondrop-meadows/",
+    "verification/challenges/bounty/secretive-flour-operation/",
+    "verification/challenges/redux/large-stew-brunch-redux/",
+    "verification/challenges/bounty/grand-cheese-surprise/",
+    "verification/challenges/redux/sensless-plank-saga-redux/",
+    "verification/challenges/original/overgrown/",
+    "verification/challenges/bounty/first-beer-oddity/",
+    "verification/challenges/redux/shocking-bread-buffet-redux/",
+    "verification/challenges/bounty/mythical-fondue-affair/",
+    "verification/challenges/redux/plain-plank-challenge-redux/",
+    "verification/challenges/original/company-picnic/",
+    "verification/challenges/bounty/tricky-ice-pop-serenade/",
+    "verification/challenges/redux/incredible-fruit-race-redux/",
+    "verification/challenges/bounty/distorted-animal-hide-worship/",
+    "verification/challenges/redux/fresh-meat-picnic-redux/",
+    "verification/challenges/original/hidden-paradise/",
+    "verification/challenges/bounty/peculiar-flour-backlog/",
+    "verification/challenges/redux/chaotic-boots-rave-redux/",
+    "verification/challenges/bounty/perplexing-coat-rendezvous/",
+    "verification/challenges/redux/fresh-canteen-convention-redux/",
+    "verification/challenges/original/say-cheese/",
+    "verification/challenges/bounty/opulent-bread-raffle/",
+    "verification/challenges/redux/dark-stew-feast-redux/",
+    "verification/challenges/bounty/opulent-wine-symposyum/",
+    "verification/challenges/redux/silly-veggie-experiment-redux/",
+    "verification/challenges/original/love-each-other/",
+    "verification/challenges/bounty/trivial-fruit-jangle/",
+    "verification/challenges/redux/secretive-flour-operation-redux/",
+    "verification/challenges/bounty/plausible-egg-theory/",
+    "verification/challenges/redux/secret-oasis-redux/",
+    "verification/challenges/original/mother-knows-best/",
+    "verification/challenges/bounty/useful-log-pastime/",
+    "verification/challenges/redux/distorted-animal-hide-worship-redux/",
+    "verification/challenges/bounty/dangerous-book-league/",
+    "verification/challenges/redux/outgrown-redux/",
+    "verification/challenges/original/twin-islands/",
+    "verification/challenges/bounty/sleepy-ukulele-serenade/",
+    "verification/challenges/redux/forkville-redux/",
+    "verification/challenges/bounty/bewildering-water-fiesta/",
+    "verification/challenges/redux/outlandish-ice-pop-incident-redux/",
+    "verification/challenges/original/all-you-need-is-cove/",
+    "verification/challenges/bounty/uplifting-bottle-pursuit/",
+    "verification/challenges/redux/seventeen-redux/",
+    "verification/challenges/bounty/unusual-pendant-binge/",
+    "verification/challenges/redux/sublime-ice-pop-jamboree-redux/",
+    "verification/challenges/original/cold-cliffs/",
+    "verification/challenges/bounty/opulent-manchamanteles-extravaganza/",
+    "verification/challenges/redux/plausible-egg-theory-redux/",
+    "verification/challenges/bounty/flavorful-barley-porridge-sweepstake/",
+    "verification/challenges/redux/find-the-forest-redux/",
+    "verification/challenges/original/winterland-blues/",
+    "verification/challenges/bounty/grand-canteen-anecdote/",
+    "verification/challenges/redux/opulent-wine-symposyum-redux/",
+    "verification/challenges/bounty/fantastical-veggie-league/",
+    "verification/challenges/redux/the-pit-of-thorns-redux/",
+    "verification/challenges/original/final-snow-days/",
+    "verification/challenges/bounty/solemn-honey-meditation/",
+    "verification/challenges/redux/unbelievable-boots-adventure-redux/",
     "spoilers/tournament/",
     "buildings/field-appletree/",
     "production-chains/field-appletree/",

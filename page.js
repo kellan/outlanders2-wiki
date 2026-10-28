@@ -8,3 +8,23 @@ if(typeof document.addEventListener==='function'){document.addEventListener('cli
 if(/\/needs\/$/.test(location.pathname)&&location.hash){var map={'#need-food':'food/','#need-hydration':'hydration/','#need-heat':'heat/','#need-energy-sleep':'energy/','#need-fun':'fun/','#need-cooling':'cooling/','#need-wellness':'wellness/','#need-community':'community/','#need-housing':'../houses/','#eating':'../eating/','#need-model':'food/#meter'};if(map[location.hash])location.replace(map[location.hash])}
 var b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var r=document.documentElement,cur=r.dataset.theme||(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'),next=cur==='dark'?'light':'dark';r.dataset.theme=next;try{localStorage.setItem('theme',next)}catch(e){}});
 })();
+// Challenge dates, recomputed in the reader's browser (the page carries the build-day values as a fallback): a day's
+// challenge starts at 2pm Eastern, an Original runs Friday to Sunday, and the cycle repeats every 364 days from 2 April 2025.
+(function(){
+var MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],DAY=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],START='2025-04-02';
+function dn(i){return Date.UTC(+i.slice(0,4),+i.slice(5,7)-1,+i.slice(8,10))/864e5}
+function iso(n){return new Date(n*864e5).toISOString().slice(0,10)}
+function wd(n){return new Date(n*864e5).getUTCDay()}
+function short(n){var d=new Date(n*864e5);return d.getUTCDate()+' '+MON[d.getUTCMonth()]+' '+d.getUTCFullYear()}
+function esc(x){return String(x).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;')}
+var t;try{t=dn(new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(Date.now()-14*36e5)))}catch(e){return}
+document.querySelectorAll('[data-next-run]').forEach(function(el){var b=dn(el.getAttribute('data-next-run')),len=+el.getAttribute('data-run-days')||1,r=b+364*Math.max(0,Math.ceil((t-b-(len-1))/364));el.textContent=r<=t?'Running now, until 2pm Eastern '+short(r+len):short(r)+' (in '+(r-t)+' day'+(r-t===1?'':'s')+')';var td=el.closest('td');if(td)td.setAttribute('data-sort',iso(r))});
+var sc=document.getElementById('challenge-schedule');if(!sc)return;var list;try{list=JSON.parse(sc.textContent)}catch(e){return}
+var js=document.querySelector('script[src$="page.js"]'),base=js?new URL('.',js.src):new URL('/',location.href);
+function on(n){var w=wd(n);if(w===6)n-=1;else if(w===0)n-=2;var diff=n-dn(START);if(diff<0)return null;var b=iso(dn(START)+diff%364);for(var i=0;i<list.length;i++)if(list[i].d===b)return list[i];return null}
+function link(c){return '<a href="'+esc(new URL(c.u,base).href)+'">'+esc(c.n)+'</a>'}
+var now=on(t);if(!now)return;
+var home=document.getElementById('home-today');if(home)home.innerHTML='Today: '+link(now)+' <span class="objective-note">'+esc(now.t)+'</span>';
+var box=document.getElementById('today-challenge');if(box){var len=now.t==='Original'?3:1,start=dn(now.d)+364*Math.max(0,Math.ceil((t-dn(now.d)-(len-1))/364)),end=start+len,up=[];for(var i=1;up.length<5&&i<10;i++){var w=wd(t+i),c=on(t+i);if(w===0||w===6||!c||c===now)continue;up.push(DAY[w].slice(0,3)+' '+short(t+i)+': '+link(c)+' ('+esc(c.t)+')')}
+ var m=box.querySelector('.today-main');if(m)m.innerHTML=link(now)+' <span class="objective-note">'+esc(now.t)+' · until 2pm Eastern on '+DAY[wd(end)]+' '+short(end)+'</span>';var smalls=box.querySelectorAll('p.small');if(smalls[0])smalls[0].innerHTML='Coming up, each from 2pm Eastern: '+up.join(' · ')}
+})();
