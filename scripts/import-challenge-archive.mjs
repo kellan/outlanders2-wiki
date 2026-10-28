@@ -2,7 +2,7 @@
 // (research repo data/challenge-archive/<date>/catalog.json) as level records in content/challenges/, one per batch.
 // Usage: node scripts/import-challenge-archive.mjs ../outlanders2-research/data/challenge-archive/2026-10-28/catalog.json
 // References are resolved to the wiki's game objects through the packaged scenarios, then by prefab path for the few
-// buildings only the downloaded levels use. Starting conditions stay marked unverified until checked in play.
+// buildings only the downloaded levels use. The verification_status field records that the starting state was decoded, not compared with play.
 import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
 const project=fileURLToPath(new URL('../',import.meta.url)),read=p=>JSON.parse(fs.readFileSync(path.join(project,p),'utf8'));
 const catalogPath=process.argv[2];if(!catalogPath)throw new Error('Pass the path to catalog.json');
