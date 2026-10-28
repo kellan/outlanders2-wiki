@@ -31,3 +31,14 @@ The local agent walked Challenges → Archive and decoded every level in the gam
 - Every live level page says so.
 
 **Size:** `data/world.json` grows from about 260 KB to 625 KB gzipped. The browser caches it after the first page.
+
+**Live dates (second commit).** The maintainer asked for the date information back, now that the real levels are in. Static pages only load `page.js`, so:
+- **Embedded data:** challenge pages carry each level's first-run date as `data-next-run`. The Challenges page and home also carry a small schedule (date, type, name, address for all 260).
+- **What `page.js` computes in the reader's browser:**
+  - Today's challenge day is the Eastern date 14 hours ago, so the rollover lands at 2pm Eastern.
+  - On Saturday and Sunday the live level is Friday's Original.
+  - The cycle date is 2 Apr 2025 plus the day offset modulo 364.
+  - Each level's next run is its first date plus a multiple of 364 days, and an Original counts as running through Sunday.
+- **What readers see:** "Today's challenge" with the next five, at the top of the Challenges page and in the home page's Challenges box. A live "Next run" on every challenge level page and in the type tables.
+- **Fallback:** the build renders the same values for its own date, for readers without JavaScript. They go stale until the next deploy.
+- **Tests:** `81-challenge-archive.mjs` checks the logic with fixed dates rather than the build date: the rollover, 27 Oct 2026 being Save the Forests Redux, the weekend Original, and next runs.
