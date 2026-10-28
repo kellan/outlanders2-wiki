@@ -1,0 +1,1 @@
+Campaigns & levels now splits campaign levels from challenge levels, and groups the challenges by type: Original, Redux and Bounty in the current rotation, and the older Chill, Ranked and Remix sets in batch order. The Challenges page explains the rotation (74).
