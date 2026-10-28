@@ -46,9 +46,9 @@ const oona=h.render('heroes/oona/');assert.ok(!/issues\/new\?[^"]*Oona/.test(oon
 console.log('PASS: infoboxes, verification badge, objective and recipe backlinks, grouped availability, story context, navboxes, collapsed research detail, catalog columns and contribution links.');
 // Derived balances are ratios, not batches or capacities.
 const bakeryBox=bakery.slice(bakery.indexOf('class="infobox"'),bakery.indexOf('</aside>'));
-assert.ok(bakeryBox.includes('8 Bread'),'infobox shows per-cycle output');assert.ok(bakery.includes('ratio per 1 Flour'),'formula-graph ratio still shown as supporting detail');
+assert.ok(bakeryBox.includes('8 Bread'),'infobox shows per-cycle output');const bakeryChain=h.render('production-chains/bakery/');assert.ok(bakeryChain.includes('The game files differ')&&bakeryChain.includes('5 Flour + 4 Stick → 40 Bread'),'formula-graph ratio kept on the chain page where it differs from the field guide');
 const recipeRow=bakeryBox.slice(bakeryBox.indexOf('<dt>Recipe</dt>'),bakeryBox.indexOf('</div>',bakeryBox.indexOf('<dt>Recipe</dt>')));assert.ok(recipeRow&&!/\b40\b/.test(recipeRow),'recipe row must not present 40 Bread as output');
-assert.ok(bakery.includes('not a batch size, a storage limit or a speed'));
+assert.ok(!bakery.includes('ratio per 1 Flour'),'building page states the recipe once (infobox), since PR 83');
 assert.ok(h.render('verification/buildings/bakery/').includes('nominal 60 Bread'),'capacity observation on research page');
 console.log('PASS: ratio presentation and Bakery capacity observation.');
 // Per-cycle recipe and capacity come from the gameplay block.
@@ -124,7 +124,7 @@ assert.ok(h.render('buildings/chicken-coop/').includes('Reported output')&&h.ren
 assert.ok(h.render('verification/buildings/glassworks/').includes('Modelled production capacity'),'model on research page');
 assert.ok(h.render('production-chains/glassworks/').includes('Production notes'),'highlights on chain page');
 assert.ok(!h.render('buildings/glassworks/').includes('Modelled production capacity'),'model stays off reader page');
-assert.ok(h.render('buildings/bakery/').includes('60 Bread'),'bakery capacity from decoded piles');
+assert.ok(/<dt>Capacity<\/dt><dd>60 <a[^>]*>Bread/.test(h.render('buildings/bakery/')),'bakery capacity from decoded piles');
 console.log('PASS: research handoff integration.');
 // Stored per-unit recipes on resources, shown on resource, building and level pages.
 {const canteenRecord=JSON.parse(fs2.readFileSync(new URL('../content/resources/300130.json',import.meta.url),'utf8'));
@@ -210,7 +210,7 @@ console.log('PASS: research handoff integration.');
  const sold=h.render('levels/sold-out/');assert.ok(/led by <a[^>]*>Izzy<\/a>/.test(sold),'starting leader linked');assert.ok(sold.includes('Spawn 30 Adults'),'scripted arrival');assert.ok(sold.includes('leaving out')&&sold.includes('scenery object'),'scenery count');
  assert.ok(h.render('levels/').includes('>You start with</th>')&&/5 adults, 2 kids · 1 building/.test(h.render('levels/')),'levels directory start column');
  assert.ok(/Visitors<\/dt><dd>30 adults on day 50 <span class="objective-note">\(announced from the start\)/.test(sold),'visitors row with day and notice');const anth=h.render('levels/anthology/');assert.ok(anth.includes('3 adults on day 12 <span class="objective-note">(announced 8 days ahead)'),'waves of visitors');assert.ok(/the leaders <a[^>]*>Maira<\/a>/.test(h.render('levels/outgrown/')),'leader arrivals linked');assert.ok(h.render('levels/an-apple-a-day/').includes('No babies are born on this map; Rain on day 22 for 2 days'),'events row');assert.ok(!sold.includes('Scripted'),'old scripted row gone');
- const dock=h.render('buildings/fishing-dock/');assert.ok(dock.includes('straight from the map; no materials go in')&&dock.includes('3 work spots. Each cycle lands a random catch')&&dock.includes('Its output store holds <strong>72 Meat</strong>'),'fishing dock production text');assert.ok(dock.includes('at the water’s edge (no land terrain listed)'),'placement wording');assert.ok(/10 visitor spots: Wellness 6 each<br>2 staff spots: Wellness 6/.test(h.render('gathering-places/')),'fitness park wording');
+ const dock=h.render('buildings/fishing-dock/');assert.ok(dock.includes('straight from the map; no materials go in')&&dock.includes('3 work spots. Each cycle lands a random catch')&&/<dt>Capacity<\/dt><dd>72 <a[^>]*>Meat/.test(dock),'fishing dock production text; capacity in the infobox since PR 83');assert.ok(dock.includes('at the water’s edge (no land terrain listed)'),'placement wording');assert.ok(/10 visitor spots: Wellness 6 each<br>2 staff spots: Wellness 6/.test(h.render('gathering-places/')),'fitness park wording');
  console.log('PASS: level starting conditions resolved and grouped.');}
 // Guides elsewhere (issue 38).
 {assert.ok(h.lookup['guides/'],'guides route');const g=h.render('guides/');assert.ok(g.includes('Guides elsewhere')&&g.includes('<h2>Communities</h2>')&&/rel="nofollow noopener"[^>]*>r\/Outlanders_ios</.test(g),'guides page lists the seeded community link with nofollow');assert.ok(g.includes('not yet reviewed'),'unreviewed status shown');assert.ok(g.includes('external-link.yml'),'suggest-a-link form');
