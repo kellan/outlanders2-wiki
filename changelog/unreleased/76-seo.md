@@ -1,0 +1,1 @@
+Pages now carry their own search description, canonical address, link-preview image and structured data, and the site publishes a sitemap, robots.txt, an llms.txt guide for AI assistants and a proper 404 page (76).
