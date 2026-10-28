@@ -13,7 +13,7 @@ The [GitHub repository](https://github.com/kellan/outlanders2-wiki) is public. E
 1. Create a branch for one correction or closely related set of changes.
 2. Find the entry with `npm run content:find -- pumpkin`, or browse the content folders. Every article page also ends with a "Suggest an edit" link that opens its JSON record in the GitHub editor, and a "Report a problem" link that starts a correction issue for that page.
 3. Edit the JSON record, preserving its stable ID and source references. Add evidence for factual changes.
-4. If you changed a building recipe or gameplay block, run `npm run content:derive` to refresh the stored `made_from` recipes on resources. Run `npm run build`, then `npm test` (optional for small browser edits; the pull request checks run both).
+4. If you changed a building recipe or gameplay block, run `npm run content:derive` to refresh the stored `made_from` recipes on resources. Run `npm ci` once (it installs the search indexer), then `npm run build` and `npm test` (optional for small browser edits; the pull request checks run both).
 5. Run `npm run dev` and review the changed page and its links at the local address printed by the server.
 6. Open a pull request describing what changed, why, the evidence, and the checks you ran.
 
