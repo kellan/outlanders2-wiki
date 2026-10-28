@@ -13,6 +13,6 @@ Level pages for legacy challenges show their type, batch and neighbours in place
 **Dates.** A packaged text asset, `Content/Levels/LegacyChallenges/batches` (TextAsset 6535), dates the legacy batches:
 - **Released:** 20 batches, every 14 days, from Batch00 on 2024-07-03 to Batch17 on 2025-03-26. Sweet Maze is in Batch17, which matches the 3/26/2025 date the archive showed. The list is copied into `world.json` as `legacy_challenge_batches`, and the levels show their release date.
 - **Never scheduled:** Batch18 (Couples Retreat, Port Plateau, Sugar Frost) and Batch19–24 (unnamed maps) are packaged but not in the list, so they are shown separately.
-- **The daily rotation:** from the client code, it is a 364-day cycle starting 2025-04-02 (`Challenges.InitDate`, `CycleDays` 364, `LevelsPerCycle` 260). Each slot's level returns 52 weeks later on the same weekday.
+- **The daily rotation:** the client code shows a 364-day cycle starting 2025-04-02. The maintainer asked to leave that, and a calculator built on it, off the wiki until the actual Original, Redux and Bounty levels and their dates are recorded (#75).
 
 The full analysis is in the private research repository (`docs/ONLINE-SERVICES.md`).

@@ -7,5 +7,5 @@ assert.ok(lv.includes('Friends in the Frost Redux (a Redux of Friends in the Fro
 assert.ok(lv.includes('Chill challenge · batch 00 · 3 Jul 2024')&&!lv.includes('Standalone or challenge'),'legacy challenges labelled by type, batch and release date');assert.ok(lv.includes('Released every two weeks from 3 Jul 2024 to 26 Mar 2025'),'legacy release span');
 const ff=strip(h.render('levels/friends-in-the-frost/'));assert.ok(ff.includes('Chill · batch 01, 2 of 27 · released 17 Jul 2024'),'legacy challenge context line');const sm=strip(h.render('levels/sweet-maze/'));assert.ok(sm.includes('released 26 Mar 2025'),'Sweet Maze dated as the archive showed');
 const mo=strip(h.render('levels/magnus-opus/'));assert.ok(mo.includes('Ranked · batch'),'Leaderboard levels shown as Ranked');
-const ch=strip(h.render('challenges/'));assert.ok(ch.includes('The rotation')&&ch.includes('81 maps in 27 batches, of which 20 were released')&&ch.includes('began on 2 April 2025'),'challenges page explains the rotation');
+const ch=strip(h.render('challenges/'));assert.ok(ch.includes('The rotation')&&ch.includes('81 maps in 27 batches, of which 20 were released')&&!ch.includes('52-week'),'challenges page explains the rotation');
 console.log('PASS: levels grouped by campaign and challenge type; rotation explained.');
