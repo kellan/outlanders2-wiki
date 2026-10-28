@@ -1,0 +1,1 @@
+Pages repeat themselves less: tables drop columns that never change, building, chain, resource and plant pages state each recipe and cost once, each mechanics explanation lives on one page with links from the rest, and the Spoilers, Verification and Tournament pages list things once (83).
