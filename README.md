@@ -10,9 +10,10 @@ A reviewed, data-backed reference: static pages generated from individual JSON r
 
 ## Work locally
 
-Requires Node.js 18 or later. No package installation is needed.
+Requires Node.js 18 or later. Run `npm ci` once to install Pagefind, the search indexer the build uses.
 
 ```
+npm ci
 npm run content:find -- pumpkin
 npm run build
 npm test

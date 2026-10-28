@@ -13,6 +13,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Install the search indexer (Pagefind)
+        run: npm ci
       - name: Build the site from content, source and assets
         run: npm run build
       - name: Validate content, links, spoiler isolation and reader pages
