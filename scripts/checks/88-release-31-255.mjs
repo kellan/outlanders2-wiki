@@ -8,4 +8,5 @@ const sp=strip(h.render('spoilers/'));
 assert.ok(sp.includes('Holiday')&&sp.includes('Arctic'),'Holiday and Arctic listed under Spoilers');
 assert.ok(sp.includes('the current game is version 31'),'spoiler reasons name version 31');
 assert.ok(strip(h.render('tournament/seasons/')).includes('Holiday'),'all-seasons spoiler view includes the new names');
-console.log('PASS: version 31 Greek season, withheld Holiday and Arctic, Oona still gated.');
+const bak=h.render('buildings/bakery/');assert.ok(bak.includes('Game data v31 · build 255')&&!bak.includes('v30 · build 254'),'version label switched to 31');
+console.log('PASS: version 31 Greek season, withheld Holiday and Arctic, Oona still gated, version label 31.');
