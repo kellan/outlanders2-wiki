@@ -163,7 +163,7 @@ function outSep(q){return q?.choice==='one'?' or ':' + '}
 const LEGACY_TYPES={C:'Chill',L:'Ranked',R:'Remix'};
 function legacyChallenge(o){const m=(o.scenario?.source_level_path||'').match(/LegacyChallenges\/Batch([\d.]+)\//),t=o.id.match(/^Single[\d.]*_([CLR])_/);return m&&t?{type:LEGACY_TYPES[t[1]],batch:m[1],date:W.legacy_challenge_batches?.batches.find(b=>b.batch===m[1])?.date||null}:null}
 // Live challenges (Original, Redux, Bounty) imported from the game's download cache: one batch per day of the 364-day cycle
-// that began 2 April 2025, each running again 364 days later on the same weekday. A day's challenge starts at 18:00 UTC (18:00 UTC in daylight time), taken to be fixed in UTC.
+// that began 2 April 2025, each running again 364 days later on the same weekday. A day's challenge starts at 18:00 UTC, fixed in UTC (confirmed after the US clock change on 1 November 2026).
 function liveChallenge(o){return o?.live_challenge||null}
 function addDays(iso,n){const d=new Date(iso+'T12:00:00Z');d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10)}
 function liveRuns(o,count=3){const b=liveChallenge(o).batch_date;return Array.from({length:count},(_,k)=>addDays(b,364*k))}
