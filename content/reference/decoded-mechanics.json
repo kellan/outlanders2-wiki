@@ -4130,6 +4130,21 @@
     "min_version": 21,
     "max_version": 21
    },
+   "Greek Villager Adult": {
+    "root_version": 31,
+    "min_version": 20,
+    "max_version": 31
+   },
+   "Greek Villager Kid": {
+    "root_version": 31,
+    "min_version": 20,
+    "max_version": 31
+   },
+   "Greek Villager Old": {
+    "root_version": 31,
+    "min_version": 20,
+    "max_version": 31
+   },
    "GrowthBoost": {
     "root_version": 25,
     "min_version": 25,
@@ -5178,8 +5193,8 @@
   },
   "class": "SerializedKeyBehaviour",
   "field": "MinGameVersion",
-  "current_game_version": 30,
-  "note": "Objects whose MinGameVersion exceeds the running game version are hidden from it. 4909 of 5455 keys store 0.",
+  "current_game_version": 31,
+  "note": "Objects whose MinGameVersion exceeds the running game version are hidden from it. 4909 of 5464 keys store 0. Checked against version 31 (255) on 2026-11-01: no existing gate changed; the Greek villagers were added at 31.",
   "gates": {
    "12": [
     "House Stone",
@@ -5575,6 +5590,11 @@
     "Amish Villager Old",
     "Halloween Tombstone",
     "Halloween Tombstone Build Site"
+   ],
+   "31": [
+    "Greek Villager Adult",
+    "Greek Villager Kid",
+    "Greek Villager Old"
    ],
    "32": [
     "Concoction",
@@ -6753,6 +6773,17 @@
     ],
     "Halloween Tombstone": [
      "9547324f58c0a41dda57b6c0e7e31d73"
+    ]
+   },
+   "31": {
+    "Greek Villager Adult": [
+     "05f87edcb3fcf2c42a5b2dd46c2c5c01"
+    ],
+    "Greek Villager Kid": [
+     "5365a5705a45fd949aa02fb4e269bedd"
+    ],
+    "Greek Villager Old": [
+     "7a9f16e0de458e241be636d78cc9cc72"
     ]
    },
    "32": {
