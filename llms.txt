@@ -1,6 +1,6 @@
 # Outlanders 2 Wiki
 
-> An unofficial, evidence-backed reference for the city-builder Outlanders 2 by Pomelo Games: buildings, plants, resources, food, production chains, villager needs, campaigns, challenge levels, biomes and leaders. Values come from the game's own files (version 30, build 254) and are labelled when they have not been checked in play.
+> An unofficial, evidence-backed reference for the city-builder Outlanders 2 by Pomelo Games: buildings, plants, resources, food, production chains, villager needs, campaigns, challenge levels, biomes and leaders. Values come from the game's own files (version 31, build 255) and are labelled when they have not been checked in play.
 
 Every page is static HTML at a clean URL. Each article links to a "Sources & research" page with the evidence behind it, under https://outlanders2wiki.com/verification/.
 
