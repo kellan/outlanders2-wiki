@@ -6034,6 +6034,99 @@
         "source_text_asset_id": 6580,
         "source_table": "Challenges",
         "unresolved_placeholders": []
+      },
+      {
+        "key": "FastMode.Arctic.Name",
+        "english": "Arctic",
+        "source_text_asset_id": 6471,
+        "source_table": "FastSeasons",
+        "unresolved_placeholders": []
+      },
+      {
+        "key": "FastMode.Arctic.Name.WithArticle",
+        "english": "an Arctic",
+        "source_text_asset_id": 6471,
+        "source_table": "FastSeasons",
+        "unresolved_placeholders": []
+      },
+      {
+        "key": "FastMode.Arctic.Name.WithArticleCapitalized",
+        "english": "An Arctic",
+        "source_text_asset_id": 6471,
+        "source_table": "FastSeasons",
+        "unresolved_placeholders": []
+      },
+      {
+        "key": "FastMode.Greek.Name",
+        "english": "Greek",
+        "source_text_asset_id": 6471,
+        "source_table": "FastSeasons",
+        "unresolved_placeholders": []
+      },
+      {
+        "key": "FastMode.Greek.Name.WithArticle",
+        "english": "a Greek",
+        "source_text_asset_id": 6471,
+        "source_table": "FastSeasons",
+        "unresolved_placeholders": []
+      },
+      {
+        "key": "FastMode.Greek.Name.WithArticleCapitalized",
+        "english": "A Greek",
+        "source_text_asset_id": 6471,
+        "source_table": "FastSeasons",
+        "unresolved_placeholders": []
+      },
+      {
+        "key": "FastMode.Holiday.Name",
+        "english": "Holiday",
+        "source_text_asset_id": 6471,
+        "source_table": "FastSeasons",
+        "unresolved_placeholders": []
+      },
+      {
+        "key": "FastMode.Holiday.Name.WithArticle",
+        "english": "a Holiday",
+        "source_text_asset_id": 6471,
+        "source_table": "FastSeasons",
+        "unresolved_placeholders": []
+      },
+      {
+        "key": "FastMode.Holiday.Name.WithArticleCapitalized",
+        "english": "A Holiday",
+        "source_text_asset_id": 6471,
+        "source_table": "FastSeasons",
+        "unresolved_placeholders": []
+      },
+      {
+        "key": "FastMode.Popup.NewStyle.Description",
+        "english": "The <b>[{seasonStyle}]</b> Town Style is now available. Change your town's style anytime in <b>Options</b>, under <b>Active Style</b>.",
+        "source_text_asset_id": 6462,
+        "source_table": "FastMode",
+        "unresolved_placeholders": [
+          "seasonStyle"
+        ]
+      },
+      {
+        "key": "FastMode.Popup.NewStyle.Later",
+        "english": "Not Now",
+        "source_text_asset_id": 6462,
+        "source_table": "FastMode",
+        "unresolved_placeholders": []
+      },
+      {
+        "key": "FastMode.Popup.NewStyle.Title",
+        "english": "New Town Style!",
+        "source_text_asset_id": 6462,
+        "source_table": "FastMode",
+        "unresolved_placeholders": []
+      },
+      {
+        "key": "FastMode.Popup.NewStyle.Try",
+        "english": "Try It",
+        "source_text_asset_id": 6462,
+        "source_table": "FastMode",
+        "unresolved_placeholders": []
       }
     ],
     "verification_status": "packaged_help_and_title_templates; schedules_and_current_availability_unverified"
@@ -10884,7 +10977,7 @@
     ]
   },
   "tournament_rewards": {
-    "source": "Packaged RewardEntry MonoBehaviours in resources.assets, decoded with tools/decode_classes.py; version 30 (254).",
+    "source": "Packaged RewardEntry MonoBehaviours in resources.assets, decoded with tools/decode_classes.py; version 30 (254). Greek season added from version 31 (255).",
     "seasons": [
       {
         "id": "Amish",
@@ -11538,6 +11631,137 @@
             "building_guid": null,
             "leaderboard_bonus": 100,
             "asset_path_id": 272122
+          }
+        ]
+      },
+      {
+        "id": "Greek",
+        "rewards": [
+          {
+            "n": 1,
+            "reward_points_needed": 2,
+            "type": "Palette",
+            "localization_key": "FastMode.Palette.Reward",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 285145
+          },
+          {
+            "n": 2,
+            "reward_points_needed": 5,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.1",
+            "building_guid": "041299b61bef1184f838e285dcfc542b",
+            "leaderboard_bonus": null,
+            "asset_path_id": 285151
+          },
+          {
+            "n": 3,
+            "reward_points_needed": 8,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.2",
+            "building_guid": "578d4586224990b4099233f511e9ffd8",
+            "leaderboard_bonus": null,
+            "asset_path_id": 285152
+          },
+          {
+            "n": 4,
+            "reward_points_needed": 12,
+            "type": "Streak",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 285153
+          },
+          {
+            "n": 5,
+            "reward_points_needed": 16,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.3",
+            "building_guid": "3579311d25c9d4c519254df507775322",
+            "leaderboard_bonus": null,
+            "asset_path_id": 285154
+          },
+          {
+            "n": 6,
+            "reward_points_needed": 20,
+            "type": "Score",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": 20,
+            "asset_path_id": 285155
+          },
+          {
+            "n": 7,
+            "reward_points_needed": 26,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.4",
+            "building_guid": "9fd157b6dbedf46e2a8a41d23047d1c9",
+            "leaderboard_bonus": null,
+            "asset_path_id": 285156
+          },
+          {
+            "n": 8,
+            "reward_points_needed": 32,
+            "type": "Streak",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 285157
+          },
+          {
+            "n": 9,
+            "reward_points_needed": 40,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.5",
+            "building_guid": "a68392366cabc294c97f2daf7bf8b887",
+            "leaderboard_bonus": null,
+            "asset_path_id": 285158
+          },
+          {
+            "n": 10,
+            "reward_points_needed": 48,
+            "type": "Score",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": 50,
+            "asset_path_id": 285146
+          },
+          {
+            "n": 11,
+            "reward_points_needed": 58,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.6",
+            "building_guid": "05db8e0ea6cd1bf4ea62c578ff0096b1",
+            "leaderboard_bonus": null,
+            "asset_path_id": 285147
+          },
+          {
+            "n": 12,
+            "reward_points_needed": 68,
+            "type": "Streak",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 285148
+          },
+          {
+            "n": 13,
+            "reward_points_needed": 80,
+            "type": "Villagers",
+            "localization_key": "FastMode.VillagerStyle.Reward",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 285149
+          },
+          {
+            "n": 14,
+            "reward_points_needed": 92,
+            "type": "Score",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": 100,
+            "asset_path_id": 285150
           }
         ]
       }
