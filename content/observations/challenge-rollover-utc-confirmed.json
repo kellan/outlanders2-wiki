@@ -1,0 +1,15 @@
+{
+  "id": "challenge-rollover-utc-confirmed",
+  "target": {
+    "type": "levels",
+    "id": "Single_W_Nuevobosque_Redux-2025-10-28"
+  },
+  "claim": "After the US clocks changed on 1 November 2026, the daily challenge still rolled over at 18:00 UTC. The rollover is fixed in UTC, so in US Eastern time it moved an hour earlier.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "31 (255)",
+    "date": "2026-11-01",
+    "reference": "Maintainer report in the wiki session, 1 November 2026 at 17:47 UTC: the game showed the challenge rolling over in 13 minutes."
+  }
+}
