@@ -1,0 +1,3 @@
+day,adults,kids,population,stick,log,plank,clay,stone,glass_pane,wheat,flour,veggie,workers_quarry,workers_lumberjacks,workers_clay_pit,workers_sawmill,workers_glassworks,workers_outpost,workers_windmill,workers_other,placed,completed,objectives_ticked,restarted,notes
+0,5,1,6,13,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,"starting state from the level file: 5 adults 1 kid; Stick 13 Log 14 Fruit 26 Reed Bunch 4; Lumberjacks' Base, Clay Pit, 2 Foragers' Huts, Warehouse, 3 Basic Houses and the Watchtower site already placed"
+1,,,,,,,,,,,,,,,,,,,,,"Quarry","","","",""
