@@ -18,6 +18,7 @@ Players noticed that recycling a Winter Pub destroys its stock, while an Ice Pop
 - Building infobox: a new "When recycled" row.
 - A new Mechanics page, Recycling (`/recycling/`), with the rule, a tip and a table of every building.
 - Unnamed intermediates count as "part-made items". Workplace tools (`content/tools/`) and Heat are left out.
+- Fires (Bonfire, Winter Cabin) make warmth, not stock. They are shown as losing only unburnt firewood and are not counted among the 8 places that keep none of what they make (maintainer note, 3 November 2026).
 - Same-name variants that differ (the biome Trading Outposts) get their own rows.
 
 **Player reports (maintainer, 3 November 2026, version 31)**

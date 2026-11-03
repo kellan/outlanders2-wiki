@@ -23,4 +23,7 @@ assert.ok(h.render('mechanics/').includes('href="/recycling/"'),'listed on the m
 assert.ok(rec(57397).kept.length>0,'Smoothie Stand keeps stock in the data');
 assert.ok(strip(h.render('buildings/smoothie-stand/')).includes('Recycling a Smoothie Stand does not destroy its stock'),'smoothie stand report shown');
 assert.ok(t.includes('lost stock still counts towards a Produce goal')&&t.includes('no longer counts towards a Have goal')&&t.includes('Seen in play'),'goal counting note and report on the recycling page');
+// Heat sources make warmth, not stock: they are not counted among the buildings that keep nothing.
+assert.ok(/^Makes no stock, only warmth; loses its unburnt Stick/.test(row('buildings/bonfire/')),'bonfire row: '+row('buildings/bonfire/'));
+assert.ok(/Tip: 8 of these \d+ buildings keep none of what they make: [^.]*Winter Pub\./.test(t)&&!/keep none of what they make: [^.]*(Bonfire|Winter Cabin)/.test(t),'tip lists 8 places, fires excluded');
 console.log('PASS: recycling keeps only public output piles; player reports agree.');
