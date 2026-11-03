@@ -1,0 +1,1 @@
+New Recycling page and a "When recycled" row on building pages: what each building keeps when you recycle it (finished goods in its output piles) and what it loses (ingredients, part-made items, and everything at pubs and kitchens) (91).
