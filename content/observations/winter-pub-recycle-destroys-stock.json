@@ -1,0 +1,16 @@
+{
+  "id": "winter-pub-recycle-destroys-stock",
+  "target": {
+    "type": "buildings",
+    "id": 105702
+  },
+  "claim": "Recycling a Winter Pub destroys the stock inside it.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "31 (255)",
+    "date": "2026-11-03",
+    "reference": "Maintainer report in the wiki session, 3 November 2026 (issue 90)."
+  },
+  "notes": "Matches the decoded data: none of the Winter Pub's piles is a public output pile."
+}

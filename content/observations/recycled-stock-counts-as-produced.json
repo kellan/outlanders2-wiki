@@ -1,0 +1,15 @@
+{
+  "id": "recycled-stock-counts-as-produced",
+  "target": {
+    "type": "mechanics",
+    "id": "recycling"
+  },
+  "claim": "Stock destroyed by recycling still counts towards Produce goals, because it was already made, but it no longer counts towards Have goals.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "31 (255)",
+    "date": "2026-11-03",
+    "reference": "Maintainer report in the wiki session, 3 November 2026 (issue 90)."
+  }
+}
