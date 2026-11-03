@@ -281,6 +281,14 @@
       "spoiler": false
     },
     {
+      "type": "recycling",
+      "id": "",
+      "name": "Recycling",
+      "category": "Mechanics",
+      "path": "recycling/",
+      "spoiler": false
+    },
+    {
       "type": "houses",
       "id": "",
       "name": "Houses",
@@ -14877,6 +14885,7 @@
     "time/",
     "gear/",
     "sandbox/",
+    "recycling/",
     "houses/",
     "challenges/original/",
     "challenges/redux/",

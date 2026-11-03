@@ -36716,5 +36716,2471 @@
       }
     },
     "display_units_note": "ResourceBehaviour.Visual: the need values the field guide shows for a resource. Listed only where they differ from the consumed values (ResourceConfig); a dish can show a need it does not itself restore, such as Stew's Community 2, which comes from eating it at the Open Kitchen."
+  },
+  "recycle_stock": {
+    "class": "RecyclableBehaviour / ResourcePileBehaviour",
+    "rule": "When a building is recycled, only piles whose PileConfig.PublicOutput is true are recovered. RecyclableBehaviour.InitPiles keeps just those piles (its filter reads PileConfig.PublicOutput), and the recovery job (ActivityStoreResourceFromRecyclable) only takes from that list. Stock in every other pile goes with the building.",
+    "resource_matching": "Each pile is matched to a resource by its ReferenceResource, else the formula step of the workspot that outputs into it, else a gathering place output pile, else the formula step of the workspot that takes input from it.",
+    "checked_versions": [
+      "30 build 254",
+      "31 build 255"
+    ],
+    "research_tool": "tools/export_recycle_stock.py",
+    "records": [
+      {
+        "root": "Bakery",
+        "gameobject_id": 57395,
+        "kept": [
+          {
+            "resource_id": 319667,
+            "resource": "Bread"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 277707,
+            "resource": "BakeryPeel"
+          },
+          {
+            "resource_id": 319688,
+            "resource": "BigDough"
+          },
+          {
+            "resource_id": 319668,
+            "resource": "BreadInOven"
+          },
+          {
+            "resource_id": 286781,
+            "resource": "Flour"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 319687,
+            "resource": "MultipleBread"
+          },
+          {
+            "resource_id": 319672,
+            "resource": "SingleDough"
+          },
+          {
+            "resource_id": 319690,
+            "resource": "SingleDoughInOven"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 4,
+        "piles_total": 16
+      },
+      {
+        "root": "Barley Porridge Shop",
+        "gameobject_id": 105738,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 279357,
+            "resource": "AlmostBarleyPorridge"
+          },
+          {
+            "resource_id": 320816,
+            "resource": "Barley"
+          },
+          {
+            "resource_id": 279352,
+            "resource": "Barley Porridge"
+          },
+          {
+            "resource_id": 320814,
+            "resource": "BarleyPlant"
+          },
+          {
+            "resource_id": 279354,
+            "resource": "BarleyPorridgeEmptyPlate"
+          },
+          {
+            "resource_id": 320812,
+            "resource": "BarleyReady"
+          },
+          {
+            "resource_id": 320815,
+            "resource": "BarleySeed"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 309894,
+            "resource": "Scythe - Rock"
+          },
+          {
+            "resource_id": 318218,
+            "resource": "SeedBag"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 21
+      },
+      {
+        "root": "Beehive",
+        "gameobject_id": 105714,
+        "kept": [
+          {
+            "resource_id": 292311,
+            "resource": "HoneyPot"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 302954,
+            "resource": "ProcHoney"
+          },
+          {
+            "resource_id": 302956,
+            "resource": "RawHoney"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 3
+      },
+      {
+        "root": "Bonfire",
+        "gameobject_id": 94267,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 293928,
+            "resource": "Heat"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 2
+      },
+      {
+        "root": "Boot Maker",
+        "gameobject_id": 105743,
+        "kept": [
+          {
+            "resource_id": 307919,
+            "resource": "Axe - Iron"
+          },
+          {
+            "resource_id": 300125,
+            "resource": "Boots"
+          },
+          {
+            "resource_id": 280109,
+            "resource": "Hammer - Iron"
+          },
+          {
+            "resource_id": 282054,
+            "resource": "Scythe - Iron"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 304112,
+            "resource": "AnimalHide"
+          },
+          {
+            "resource_id": 319692,
+            "resource": "AnimalHideReady"
+          },
+          {
+            "resource_id": 300129,
+            "resource": "BootsReady"
+          },
+          {
+            "resource_id": 319697,
+            "resource": "CuttedLeather"
+          },
+          {
+            "resource_id": 293932,
+            "resource": "Hot Iron"
+          },
+          {
+            "resource_id": 293929,
+            "resource": "Iron"
+          },
+          {
+            "resource_id": 307739,
+            "resource": "IronAxeHead"
+          },
+          {
+            "resource_id": 295350,
+            "resource": "IronFire"
+          },
+          {
+            "resource_id": 287921,
+            "resource": "IronHammerHead"
+          },
+          {
+            "resource_id": 315859,
+            "resource": "IronScytheHead"
+          },
+          {
+            "resource_id": 319682,
+            "resource": "SingleBoot"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          },
+          {
+            "resource_id": 319678,
+            "resource": "TannedLeather"
+          },
+          {
+            "resource_id": 319685,
+            "resource": "TanningAgent"
+          },
+          {
+            "resource_id": 297722,
+            "resource": "Tweezers"
+          },
+          {
+            "resource_id": 309169,
+            "resource": "Wood"
+          },
+          {
+            "resource_id": 319666,
+            "resource": "WoodReady"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 4,
+        "piles_total": 30
+      },
+      {
+        "root": "Bottle Factory",
+        "gameobject_id": 105709,
+        "kept": [
+          {
+            "resource_id": 308078,
+            "resource": "Bottle"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 308081,
+            "resource": "AlmostBottle"
+          },
+          {
+            "resource_id": 309166,
+            "resource": "Glass"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 284024,
+            "resource": "OvenBottle"
+          },
+          {
+            "resource_id": 284025,
+            "resource": "RawBottle"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 17
+      },
+      {
+        "root": "Brewery",
+        "gameobject_id": 45826,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 285901,
+            "resource": "Beer"
+          },
+          {
+            "resource_id": 285900,
+            "resource": "BeerEmpty"
+          },
+          {
+            "resource_id": 285906,
+            "resource": "BrewMust"
+          },
+          {
+            "resource_id": 285898,
+            "resource": "FermentedBeer"
+          },
+          {
+            "resource_id": 285905,
+            "resource": "FermentedBeerInBucket"
+          },
+          {
+            "resource_id": 285912,
+            "resource": "FermentingMust"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          },
+          {
+            "resource_id": 285903,
+            "resource": "TripleBeer"
+          },
+          {
+            "resource_id": 320813,
+            "resource": "Wheat"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 12
+      },
+      {
+        "root": "Brick Maker",
+        "gameobject_id": 105697,
+        "kept": [
+          {
+            "resource_id": 284026,
+            "resource": "Brick"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 302996,
+            "resource": "Brick1Dry"
+          },
+          {
+            "resource_id": 311697,
+            "resource": "BrickBurnt"
+          },
+          {
+            "resource_id": 311698,
+            "resource": "BrickFire"
+          },
+          {
+            "resource_id": 311113,
+            "resource": "BrickStep0Mold"
+          },
+          {
+            "resource_id": 292310,
+            "resource": "Clay"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 9
+      },
+      {
+        "root": "Canteen Maker",
+        "gameobject_id": 105745,
+        "kept": [
+          {
+            "resource_id": 300130,
+            "resource": "Canteen"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 284031,
+            "resource": "AlmostCanteen"
+          },
+          {
+            "resource_id": 284027,
+            "resource": "DriedCanteen"
+          },
+          {
+            "resource_id": 284028,
+            "resource": "DryingCanteen"
+          },
+          {
+            "resource_id": 309166,
+            "resource": "Glass"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 284029,
+            "resource": "OvenCanteen"
+          },
+          {
+            "resource_id": 284030,
+            "resource": "RawCanteen"
+          },
+          {
+            "resource_id": 312704,
+            "resource": "Reed"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 20
+      },
+      {
+        "root": "Cheese Maker",
+        "gameobject_id": 105730,
+        "kept": [
+          {
+            "resource_id": 319683,
+            "resource": "Cheese"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 319671,
+            "resource": "Cheese Wheel"
+          },
+          {
+            "resource_id": 319703,
+            "resource": "CheeseMakerBucket"
+          },
+          {
+            "resource_id": 319693,
+            "resource": "Dry Cheese"
+          },
+          {
+            "resource_id": 319677,
+            "resource": "Dry Cheese mold"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 319686,
+            "resource": "Milk"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          },
+          {
+            "resource_id": 319691,
+            "resource": "Wet Cheese"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 21
+      },
+      {
+        "root": "Chicken Coop",
+        "gameobject_id": 105713,
+        "kept": [
+          {
+            "resource_id": 286358,
+            "resource": "Egg"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 286353,
+            "resource": "Chicken poop"
+          },
+          {
+            "resource_id": 286359,
+            "resource": "EggSpawned"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 6,
+        "piles_total": 10
+      },
+      {
+        "root": "ClayMaker",
+        "gameobject_id": 69351,
+        "kept": [
+          {
+            "resource_id": 292310,
+            "resource": "Clay"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 302958,
+            "resource": "ClayStep0Unfiltered"
+          },
+          {
+            "resource_id": 302955,
+            "resource": "ClayStep1Filtered"
+          },
+          {
+            "resource_id": 302953,
+            "resource": "ClayStep2Wet"
+          },
+          {
+            "resource_id": 302957,
+            "resource": "ClayStep3Dry"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 40
+      },
+      {
+        "root": "Coat Maker",
+        "gameobject_id": 105694,
+        "kept": [
+          {
+            "resource_id": 300124,
+            "resource": "Coat"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 304112,
+            "resource": "AnimalHide"
+          },
+          {
+            "resource_id": 319684,
+            "resource": "TreatedLeather"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 3
+      },
+      {
+        "root": "Concoction Shop",
+        "gameobject_id": 105706,
+        "kept": [
+          {
+            "resource_id": 319673,
+            "resource": "Concoction"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 292310,
+            "resource": "Clay"
+          },
+          {
+            "resource_id": 286357,
+            "resource": "ConcoctionReady"
+          },
+          {
+            "resource_id": 286342,
+            "resource": "DriedPot"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 320441,
+            "resource": "Mushroom"
+          },
+          {
+            "resource_id": 286346,
+            "resource": "Sliced Mushroom"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          },
+          {
+            "resource_id": 286349,
+            "resource": "WetPot"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 34
+      },
+      {
+        "root": "Cookie Shop",
+        "gameobject_id": 57396,
+        "kept": [
+          {
+            "resource_id": 319680,
+            "resource": "Cookie"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 319688,
+            "resource": "BigDough"
+          },
+          {
+            "resource_id": 286358,
+            "resource": "Egg"
+          },
+          {
+            "resource_id": 286781,
+            "resource": "Flour"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 319670,
+            "resource": "OvenCookies"
+          },
+          {
+            "resource_id": 319698,
+            "resource": "OvenCookiesDone"
+          },
+          {
+            "resource_id": 319674,
+            "resource": "RawCookies"
+          },
+          {
+            "resource_id": 319669,
+            "resource": "RolledDough"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 10
+      },
+      {
+        "root": "Cookie Shop _Christmas",
+        "gameobject_id": 60667,
+        "kept": [
+          {
+            "resource_id": 319696,
+            "resource": "Cookie_Christmas"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 319688,
+            "resource": "BigDough"
+          },
+          {
+            "resource_id": 286358,
+            "resource": "Egg"
+          },
+          {
+            "resource_id": 286781,
+            "resource": "Flour"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 319670,
+            "resource": "OvenCookies"
+          },
+          {
+            "resource_id": 319698,
+            "resource": "OvenCookiesDone"
+          },
+          {
+            "resource_id": 319674,
+            "resource": "RawCookies"
+          },
+          {
+            "resource_id": 319669,
+            "resource": "RolledDough"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 10
+      },
+      {
+        "root": "DairyFarm",
+        "gameobject_id": 105746,
+        "kept": [
+          {
+            "resource_id": 286356,
+            "resource": "Milk"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 2,
+        "piles_total": 2
+      },
+      {
+        "root": "Desert Forager",
+        "gameobject_id": 38477,
+        "kept": [
+          {
+            "resource_id": 300126,
+            "resource": "Fruit"
+          },
+          {
+            "resource_id": 286347,
+            "resource": "Nopal"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [],
+        "destroyed_unassigned_piles": [
+          "Tools Pile"
+        ],
+        "piles_kept": 8,
+        "piles_total": 9
+      },
+      {
+        "root": "Dried Meat Shop",
+        "gameobject_id": 105747,
+        "kept": [
+          {
+            "resource_id": 286344,
+            "resource": "Dried Meat"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 286352,
+            "resource": "Almost Dried Meat"
+          },
+          {
+            "resource_id": 286360,
+            "resource": "Drying Meat"
+          },
+          {
+            "resource_id": 304113,
+            "resource": "Meat"
+          },
+          {
+            "resource_id": 286354,
+            "resource": "Sliced Meat"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 37
+      },
+      {
+        "root": "Farm",
+        "gameobject_id": 69353,
+        "kept": [],
+        "kept_unassigned_piles": 5,
+        "destroyed": [
+          {
+            "resource_id": 304437,
+            "resource": "Hoe - Wood"
+          },
+          {
+            "resource_id": 309894,
+            "resource": "Scythe - Rock"
+          },
+          {
+            "resource_id": 318218,
+            "resource": "SeedBag"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 5,
+        "piles_total": 8
+      },
+      {
+        "root": "Field AppleTree",
+        "gameobject_id": 67909,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field AshTree",
+        "gameobject_id": 67910,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field BananaTree",
+        "gameobject_id": 67917,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field BerryBush",
+        "gameobject_id": 67908,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field CypressTree",
+        "gameobject_id": 67921,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field DatePalmTree",
+        "gameobject_id": 67911,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field DragonFruitTree",
+        "gameobject_id": 67919,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field FigTree",
+        "gameobject_id": 67914,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field GrapeTree",
+        "gameobject_id": 67906,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field HalloweenTree",
+        "gameobject_id": 67912,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field JungleBigTree",
+        "gameobject_id": 67913,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field JungleTree",
+        "gameobject_id": 67905,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field Mesquite",
+        "gameobject_id": 67904,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field NopalTree",
+        "gameobject_id": 67916,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field PalmTree",
+        "gameobject_id": 67918,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field PineTree",
+        "gameobject_id": 67920,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field PomeloTree",
+        "gameobject_id": 67907,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field WillowTree",
+        "gameobject_id": 67915,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Field Winter PineTree",
+        "gameobject_id": 67922,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Fishing Dock",
+        "gameobject_id": 105731,
+        "kept": [
+          {
+            "resource_id": 304113,
+            "resource": "Meat"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [],
+        "destroyed_unassigned_piles": [
+          "Tools Pile"
+        ],
+        "piles_kept": 1,
+        "piles_total": 2
+      },
+      {
+        "root": "Fondue Shop",
+        "gameobject_id": 105705,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 319683,
+            "resource": "Cheese"
+          },
+          {
+            "resource_id": 319694,
+            "resource": "Chopped Veggies"
+          },
+          {
+            "resource_id": 319679,
+            "resource": "Fondue"
+          },
+          {
+            "resource_id": 279344,
+            "resource": "Fondue Empty Plate"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 319675,
+            "resource": "Molten Cheese"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          },
+          {
+            "resource_id": 300127,
+            "resource": "Veggie"
+          },
+          {
+            "resource_id": 279659,
+            "resource": "Veggies Ready"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 9
+      },
+      {
+        "root": "Forager",
+        "gameobject_id": 38476,
+        "kept": [],
+        "kept_unassigned_piles": 2,
+        "destroyed": [],
+        "destroyed_unassigned_piles": [
+          "Tools Pile"
+        ],
+        "piles_kept": 2,
+        "piles_total": 3
+      },
+      {
+        "root": "Forester",
+        "gameobject_id": 40309,
+        "kept": [
+          {
+            "resource_id": 309169,
+            "resource": "Wood"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280313,
+            "resource": "GrowingSapling"
+          },
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [
+          "Tools Pile Axe",
+          "Tools Pile Hoe"
+        ],
+        "piles_kept": 2,
+        "piles_total": 36
+      },
+      {
+        "root": "Forester old",
+        "gameobject_id": 40306,
+        "kept": [
+          {
+            "resource_id": 309169,
+            "resource": "Wood"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280313,
+            "resource": "GrowingSapling"
+          },
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [
+          "Tools Pile Axe",
+          "Tools Pile Hoe"
+        ],
+        "piles_kept": 2,
+        "piles_total": 36
+      },
+      {
+        "root": "Glass Maker",
+        "gameobject_id": 105728,
+        "kept": [
+          {
+            "resource_id": 309166,
+            "resource": "Glass"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 303006,
+            "resource": "ColdCrucible"
+          },
+          {
+            "resource_id": 302997,
+            "resource": "CrucibleFull"
+          },
+          {
+            "resource_id": 303000,
+            "resource": "CrucibleInOven"
+          },
+          {
+            "resource_id": 303002,
+            "resource": "CrucibleInOvenReady"
+          },
+          {
+            "resource_id": 303001,
+            "resource": "HotCrucible"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 303007,
+            "resource": "Sand"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 2,
+        "piles_total": 13
+      },
+      {
+        "root": "Greenhouse",
+        "gameobject_id": 69352,
+        "kept": [],
+        "kept_unassigned_piles": 3,
+        "destroyed": [
+          {
+            "resource_id": 304437,
+            "resource": "Hoe - Wood"
+          },
+          {
+            "resource_id": 309894,
+            "resource": "Scythe - Rock"
+          },
+          {
+            "resource_id": 318218,
+            "resource": "SeedBag"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 3,
+        "piles_total": 6
+      },
+      {
+        "root": "House With Chimney",
+        "gameobject_id": 105729,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 293928,
+            "resource": "Heat"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 2
+      },
+      {
+        "root": "HuntersHut",
+        "gameobject_id": 80802,
+        "kept": [
+          {
+            "resource_id": 304112,
+            "resource": "AnimalHide"
+          },
+          {
+            "resource_id": 304113,
+            "resource": "Meat"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 319714,
+            "resource": "HunterTrap"
+          },
+          {
+            "resource_id": 319701,
+            "resource": "HunterTrapFull"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 2,
+        "piles_total": 5
+      },
+      {
+        "root": "HuntersHutSwamp",
+        "gameobject_id": 80803,
+        "kept": [
+          {
+            "resource_id": 304112,
+            "resource": "AnimalHide"
+          },
+          {
+            "resource_id": 304113,
+            "resource": "Meat"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 319706,
+            "resource": "HuntersSwampTrap"
+          },
+          {
+            "resource_id": 319711,
+            "resource": "HuntersSwampTrapFull"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 2,
+        "piles_total": 5
+      },
+      {
+        "root": "IcePops Shop",
+        "gameobject_id": 57394,
+        "kept": [
+          {
+            "resource_id": 286343,
+            "resource": "IcePop"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 286355,
+            "resource": "FrozenJuice"
+          },
+          {
+            "resource_id": 300126,
+            "resource": "Fruit"
+          },
+          {
+            "resource_id": 286351,
+            "resource": "FruitJuiceForIcePop"
+          },
+          {
+            "resource_id": 286345,
+            "resource": "JuiceInMold"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 5
+      },
+      {
+        "root": "Journal",
+        "gameobject_id": 105707,
+        "kept": [
+          {
+            "resource_id": 285908,
+            "resource": "Newspaper"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 309994,
+            "resource": "News"
+          },
+          {
+            "resource_id": 309993,
+            "resource": "NewspaperSeveral"
+          },
+          {
+            "resource_id": 308079,
+            "resource": "Paper"
+          },
+          {
+            "resource_id": 309992,
+            "resource": "Stereotype"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 2,
+        "piles_total": 7
+      },
+      {
+        "root": "Lumberjack",
+        "gameobject_id": 38478,
+        "kept": [
+          {
+            "resource_id": 309169,
+            "resource": "Wood"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [],
+        "destroyed_unassigned_piles": [
+          "Tools Pile"
+        ],
+        "piles_kept": 1,
+        "piles_total": 2
+      },
+      {
+        "root": "Manchamanteles Shop",
+        "gameobject_id": 105736,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 279356,
+            "resource": "AlmostStew"
+          },
+          {
+            "resource_id": 300126,
+            "resource": "Fruit"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 279345,
+            "resource": "Manchamanteles"
+          },
+          {
+            "resource_id": 279355,
+            "resource": "Plate"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          },
+          {
+            "resource_id": 279347,
+            "resource": "TripleStew_Manchamanteles"
+          },
+          {
+            "resource_id": 300127,
+            "resource": "Veggie"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 16
+      },
+      {
+        "root": "Market",
+        "gameobject_id": 35462,
+        "kept": [],
+        "kept_unassigned_piles": 9,
+        "destroyed": [
+          {
+            "resource_id": 319710,
+            "resource": "Basket"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 9,
+        "piles_total": 10
+      },
+      {
+        "root": "Mead Hall",
+        "gameobject_id": 105722,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 319704,
+            "resource": "Cooking Pot"
+          },
+          {
+            "resource_id": 285909,
+            "resource": "Empty Mead"
+          },
+          {
+            "resource_id": 285907,
+            "resource": "HoneyMix"
+          },
+          {
+            "resource_id": 292311,
+            "resource": "HoneyPot"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 285899,
+            "resource": "Mead"
+          },
+          {
+            "resource_id": 285895,
+            "resource": "MeadJar"
+          },
+          {
+            "resource_id": 285911,
+            "resource": "PreparedMead"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 13
+      },
+      {
+        "root": "Oasis",
+        "gameobject_id": 69350,
+        "kept": [],
+        "kept_unassigned_piles": 5,
+        "destroyed": [
+          {
+            "resource_id": 280313,
+            "resource": "GrowingSapling"
+          },
+          {
+            "resource_id": 304437,
+            "resource": "Hoe - Wood"
+          },
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          },
+          {
+            "resource_id": 309894,
+            "resource": "Scythe - Rock"
+          },
+          {
+            "resource_id": 318218,
+            "resource": "SeedBag"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 5,
+        "piles_total": 40
+      },
+      {
+        "root": "Open Kitchen",
+        "gameobject_id": 105711,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 279356,
+            "resource": "AlmostStew"
+          },
+          {
+            "resource_id": 279346,
+            "resource": "DoubleStew"
+          },
+          {
+            "resource_id": 286358,
+            "resource": "Egg"
+          },
+          {
+            "resource_id": 279358,
+            "resource": "FoodReady"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 304113,
+            "resource": "Meat"
+          },
+          {
+            "resource_id": 279355,
+            "resource": "Plate"
+          },
+          {
+            "resource_id": 279343,
+            "resource": "Stew"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          },
+          {
+            "resource_id": 300127,
+            "resource": "Veggie"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 10
+      },
+      {
+        "root": "Open Kitchen _Halloween",
+        "gameobject_id": 105733,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 279356,
+            "resource": "AlmostStew"
+          },
+          {
+            "resource_id": 279346,
+            "resource": "DoubleStew"
+          },
+          {
+            "resource_id": 286358,
+            "resource": "Egg"
+          },
+          {
+            "resource_id": 279358,
+            "resource": "FoodReady"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 304113,
+            "resource": "Meat"
+          },
+          {
+            "resource_id": 279355,
+            "resource": "Plate"
+          },
+          {
+            "resource_id": 279343,
+            "resource": "Stew"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          },
+          {
+            "resource_id": 300127,
+            "resource": "Veggie"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 10
+      },
+      {
+        "root": "Orchard",
+        "gameobject_id": 40307,
+        "kept": [
+          {
+            "resource_id": 300126,
+            "resource": "Fruit"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280313,
+            "resource": "GrowingSapling"
+          },
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [
+          "Tools Pile Hoe"
+        ],
+        "piles_kept": 5,
+        "piles_total": 38
+      },
+      {
+        "root": "Orchard old",
+        "gameobject_id": 40308,
+        "kept": [
+          {
+            "resource_id": 300126,
+            "resource": "Fruit"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280313,
+            "resource": "GrowingSapling"
+          },
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [
+          "Tools Pile Hoe"
+        ],
+        "piles_kept": 5,
+        "piles_total": 38
+      },
+      {
+        "root": "Papermill",
+        "gameobject_id": 105703,
+        "kept": [
+          {
+            "resource_id": 308079,
+            "resource": "Paper"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 319702,
+            "resource": "PaperBucket"
+          },
+          {
+            "resource_id": 289706,
+            "resource": "PaperBucket2"
+          },
+          {
+            "resource_id": 319708,
+            "resource": "PaperMold"
+          },
+          {
+            "resource_id": 301715,
+            "resource": "WetPaper"
+          },
+          {
+            "resource_id": 309169,
+            "resource": "Wood"
+          },
+          {
+            "resource_id": 301714,
+            "resource": "WoodChips 2"
+          },
+          {
+            "resource_id": 314656,
+            "resource": "WoodChips 3"
+          },
+          {
+            "resource_id": 301716,
+            "resource": "WoodMush"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 4,
+        "piles_total": 15
+      },
+      {
+        "root": "Papermill old",
+        "gameobject_id": 105708,
+        "kept": [
+          {
+            "resource_id": 308079,
+            "resource": "Paper"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 319708,
+            "resource": "PaperMold"
+          },
+          {
+            "resource_id": 301715,
+            "resource": "WetPaper"
+          },
+          {
+            "resource_id": 309169,
+            "resource": "Wood"
+          },
+          {
+            "resource_id": 301712,
+            "resource": "WoodChips"
+          },
+          {
+            "resource_id": 301716,
+            "resource": "WoodMush"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 4,
+        "piles_total": 15
+      },
+      {
+        "root": "Pendant Maker",
+        "gameobject_id": 105715,
+        "kept": [
+          {
+            "resource_id": 300131,
+            "resource": "Pendant"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 309166,
+            "resource": "Glass"
+          },
+          {
+            "resource_id": 309167,
+            "resource": "GlassGrinded"
+          },
+          {
+            "resource_id": 309165,
+            "resource": "GlassKnapped"
+          },
+          {
+            "resource_id": 309170,
+            "resource": "GlassKnappedReady"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 5
+      },
+      {
+        "root": "Quarry",
+        "gameobject_id": 105695,
+        "kept": [
+          {
+            "resource_id": 293926,
+            "resource": "Stone"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [],
+        "destroyed_unassigned_piles": [
+          "EquipmentPile"
+        ],
+        "piles_kept": 1,
+        "piles_total": 2
+      },
+      {
+        "root": "Reed Cutter",
+        "gameobject_id": 105712,
+        "kept": [
+          {
+            "resource_id": 312704,
+            "resource": "Reed"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 3,
+        "piles_total": 3
+      },
+      {
+        "root": "Road Builder",
+        "gameobject_id": 105735,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [],
+        "destroyed_unassigned_piles": [
+          "Tools Pile"
+        ],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "Sawmill",
+        "gameobject_id": 71937,
+        "kept": [
+          {
+            "resource_id": 308077,
+            "resource": "Plank"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 281859,
+            "resource": "PlankStep0"
+          },
+          {
+            "resource_id": 281858,
+            "resource": "PlankStep1"
+          },
+          {
+            "resource_id": 281860,
+            "resource": "PlankStep2"
+          },
+          {
+            "resource_id": 309169,
+            "resource": "Wood"
+          }
+        ],
+        "destroyed_unassigned_piles": [
+          "Tools Pile"
+        ],
+        "piles_kept": 2,
+        "piles_total": 15
+      },
+      {
+        "root": "Scriptorium",
+        "gameobject_id": 105696,
+        "kept": [
+          {
+            "resource_id": 300128,
+            "resource": "Book"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 304112,
+            "resource": "AnimalHide"
+          },
+          {
+            "resource_id": 282459,
+            "resource": "Manuscript"
+          },
+          {
+            "resource_id": 282458,
+            "resource": "Page"
+          },
+          {
+            "resource_id": 308079,
+            "resource": "Paper"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 5
+      },
+      {
+        "root": "Smoothie Stand",
+        "gameobject_id": 57397,
+        "kept": [
+          {
+            "resource_id": 286361,
+            "resource": "FruitJuice"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 300126,
+            "resource": "Fruit"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 2
+      },
+      {
+        "root": "Stone Mine",
+        "gameobject_id": 105723,
+        "kept": [
+          {
+            "resource_id": 293926,
+            "resource": "Stone"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 302998,
+            "resource": "Beam Complete"
+          },
+          {
+            "resource_id": 303003,
+            "resource": "Beam Step 1"
+          },
+          {
+            "resource_id": 303008,
+            "resource": "Beam Step 2"
+          },
+          {
+            "resource_id": 303005,
+            "resource": "Column Complete"
+          },
+          {
+            "resource_id": 303004,
+            "resource": "Column Step 1"
+          },
+          {
+            "resource_id": 302999,
+            "resource": "StoneReady"
+          },
+          {
+            "resource_id": 309169,
+            "resource": "Wood"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 6,
+        "piles_total": 14
+      },
+      {
+        "root": "Stroganoff Shop",
+        "gameobject_id": 105717,
+        "kept": [
+          {
+            "resource_id": 319676,
+            "resource": "Stroganoff"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 304113,
+            "resource": "Meat"
+          },
+          {
+            "resource_id": 320441,
+            "resource": "Mushroom"
+          },
+          {
+            "resource_id": 286354,
+            "resource": "Sliced Meat"
+          },
+          {
+            "resource_id": 286346,
+            "resource": "Sliced Mushroom"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          },
+          {
+            "resource_id": 286350,
+            "resource": "StrogMix"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 10
+      },
+      {
+        "root": "Trading Post Base",
+        "gameobject_id": 65543,
+        "kept": [
+          {
+            "resource_id": 304112,
+            "resource": "AnimalHide"
+          },
+          {
+            "resource_id": 309166,
+            "resource": "Glass"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 305548,
+            "resource": "AnimalHideTrade"
+          },
+          {
+            "resource_id": 294544,
+            "resource": "GlassTrade"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 320813,
+            "resource": "Wheat"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 2,
+        "piles_total": 7
+      },
+      {
+        "root": "Trading Post Evergreen",
+        "gameobject_id": 75226,
+        "kept": [
+          {
+            "resource_id": 304112,
+            "resource": "AnimalHide"
+          },
+          {
+            "resource_id": 309166,
+            "resource": "Glass"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 305548,
+            "resource": "AnimalHideTrade"
+          },
+          {
+            "resource_id": 294544,
+            "resource": "GlassTrade"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 320813,
+            "resource": "Wheat"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 2,
+        "piles_total": 7
+      },
+      {
+        "root": "Trading Post Tropics",
+        "gameobject_id": 75225,
+        "kept": [
+          {
+            "resource_id": 304112,
+            "resource": "AnimalHide"
+          },
+          {
+            "resource_id": 320813,
+            "resource": "Wheat"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 305548,
+            "resource": "AnimalHideTrade"
+          },
+          {
+            "resource_id": 309166,
+            "resource": "Glass"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 320589,
+            "resource": "WheatTrade"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 2,
+        "piles_total": 7
+      },
+      {
+        "root": "Trading Post Winterland",
+        "gameobject_id": 75227,
+        "kept": [
+          {
+            "resource_id": 309166,
+            "resource": "Glass"
+          },
+          {
+            "resource_id": 320813,
+            "resource": "Wheat"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 304112,
+            "resource": "AnimalHide"
+          },
+          {
+            "resource_id": 294544,
+            "resource": "GlassTrade"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 320589,
+            "resource": "WheatTrade"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 2,
+        "piles_total": 7
+      },
+      {
+        "root": "Ukulele Maker",
+        "gameobject_id": 105750,
+        "kept": [
+          {
+            "resource_id": 300123,
+            "resource": "Ukulele"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 319695,
+            "resource": "Back"
+          },
+          {
+            "resource_id": 319681,
+            "resource": "Neck"
+          },
+          {
+            "resource_id": 319689,
+            "resource": "Top"
+          },
+          {
+            "resource_id": 309169,
+            "resource": "Wood"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 10
+      },
+      {
+        "root": "Upgraded Warehouse",
+        "gameobject_id": 35460,
+        "kept": [],
+        "kept_unassigned_piles": 8,
+        "destroyed": [
+          {
+            "resource_id": 319700,
+            "resource": "Wheelbarrow"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 8,
+        "piles_total": 9
+      },
+      {
+        "root": "Warehouse",
+        "gameobject_id": 35461,
+        "kept": [],
+        "kept_unassigned_piles": 8,
+        "destroyed": [
+          {
+            "resource_id": 319700,
+            "resource": "Wheelbarrow"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 8,
+        "piles_total": 9
+      },
+      {
+        "root": "Well",
+        "gameobject_id": 105721,
+        "kept": [
+          {
+            "resource_id": 281861,
+            "resource": "GlassOfWater"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 281863,
+            "resource": "WaterInBarrel"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 1,
+        "piles_total": 2
+      },
+      {
+        "root": "Windmill",
+        "gameobject_id": 104202,
+        "kept": [
+          {
+            "resource_id": 286781,
+            "resource": "Flour"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 286782,
+            "resource": "FlourUnbagged"
+          },
+          {
+            "resource_id": 320813,
+            "resource": "Wheat"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 3,
+        "piles_total": 7
+      },
+      {
+        "root": "Winery",
+        "gameobject_id": 105740,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 308078,
+            "resource": "Bottle"
+          },
+          {
+            "resource_id": 285894,
+            "resource": "FermentedWineMust"
+          },
+          {
+            "resource_id": 300126,
+            "resource": "Fruit"
+          },
+          {
+            "resource_id": 285897,
+            "resource": "GlassOfWine"
+          },
+          {
+            "resource_id": 308080,
+            "resource": "WineBottle"
+          },
+          {
+            "resource_id": 322436,
+            "resource": "WineGlassEmpty"
+          },
+          {
+            "resource_id": 285914,
+            "resource": "WineMust"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 24
+      },
+      {
+        "root": "Winter Pub",
+        "gameobject_id": 105702,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 285896,
+            "resource": "DestiledMash"
+          },
+          {
+            "resource_id": 285902,
+            "resource": "Empty House Drink"
+          },
+          {
+            "resource_id": 285910,
+            "resource": "House Drink"
+          },
+          {
+            "resource_id": 279350,
+            "resource": "KitchenFire"
+          },
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          },
+          {
+            "resource_id": 285913,
+            "resource": "VodkaJar"
+          },
+          {
+            "resource_id": 320813,
+            "resource": "Wheat"
+          },
+          {
+            "resource_id": 285904,
+            "resource": "WheatMash"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 8
+      },
+      {
+        "root": "Woodchopper",
+        "gameobject_id": 71938,
+        "kept": [
+          {
+            "resource_id": 284894,
+            "resource": "Stick"
+          }
+        ],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 284895,
+            "resource": "FakeStick"
+          },
+          {
+            "resource_id": 309169,
+            "resource": "Wood"
+          }
+        ],
+        "destroyed_unassigned_piles": [
+          "Tools Pile"
+        ],
+        "piles_kept": 1,
+        "piles_total": 7
+      },
+      {
+        "root": "_Field Orchard Base",
+        "gameobject_id": 92319,
+        "kept": [],
+        "kept_unassigned_piles": 0,
+        "destroyed": [
+          {
+            "resource_id": 280314,
+            "resource": "Sapling"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 0,
+        "piles_total": 1
+      },
+      {
+        "root": "zBeer Stand",
+        "gameobject_id": 35464,
+        "kept": [],
+        "kept_unassigned_piles": 9,
+        "destroyed": [
+          {
+            "resource_id": 319710,
+            "resource": "Basket"
+          }
+        ],
+        "destroyed_unassigned_piles": [],
+        "piles_kept": 9,
+        "piles_total": 10
+      }
+    ]
   }
 }
