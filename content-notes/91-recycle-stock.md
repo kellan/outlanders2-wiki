@@ -25,6 +25,13 @@ Players noticed that recycling a Winter Pub destroys its stock, while an Ice Pop
 - Smoothie Stand and Ice Pop Stand keep their stock when recycled; the Winter Pub loses its stock. All three match the data. Each is an observation on its building page.
 - Stock lost to recycling still counts towards Produce goals but no longer towards Have goals. This is an observation on the Recycling page. The Produce meaning on level pages now says items lost to recycling still count.
 
+**Unloading (code, version 31; research docs/RECYCLING.md, open questions in research issue 15)**
+- A recycle site replaces the building: a workplace for up to 4 workers (2 on the 1x1 decoration site), with 1–2 demolition spots of 10 work rounds, or 5 on the 4x4 site.
+- Every demolition spot has `RecycleSiteWorkspotCondition`, which waits for `IsReadyToRecycle`. That stays false while a kept pile holds stock or an activity still depends on the building. So the kept stock comes out first.
+- Site workers carry stock during their shift only. `GetPileToDrop` uses the nearest pile in the zone that can take the resource if it lies within `MaxDistanceForPileFind` = 18. Otherwise it creates a new loose pile at the building's pile.
+- New data per record: `kept_capacity` (the most there can be to carry out) and `recycle_site`. New section data: `recycle_stock.unloading`.
+- The page gains an "Unloading: where the stock lands" section with planning tips, and a "Carried out first" column.
+
 **Not tested yet**
 - Whether recovered stock always waits on the ground or goes straight to storage.
 - Whether the building waits for recovery before it disappears.

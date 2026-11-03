@@ -36777,7 +36777,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 4,
-    "piles_total": 16
+    "piles_total": 16,
+    "kept_capacity": 60,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Barley Porridge Shop",
@@ -36832,7 +36841,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 21
+    "piles_total": 21,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Site 12x12",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Beehive",
@@ -36856,7 +36874,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 3
+    "piles_total": 3,
+    "kept_capacity": 4,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    },
    {
     "root": "Bonfire",
@@ -36875,7 +36902,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 2
+    "piles_total": 2,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Boot Maker",
@@ -36971,7 +37007,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 4,
-    "piles_total": 30
+    "piles_total": 30,
+    "kept_capacity": 33,
+    "recycle_site": {
+     "prefab": "Recycle Site",
+     "max_workers": 4,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Bottle Factory",
@@ -37011,7 +37056,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 17
+    "piles_total": 17,
+    "kept_capacity": 18,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    },
    {
     "root": "Brewery",
@@ -37062,7 +37116,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 12
+    "piles_total": 12,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Brick Maker",
@@ -37102,7 +37165,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 9
+    "piles_total": 9,
+    "kept_capacity": 32,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    },
    {
     "root": "Canteen Maker",
@@ -37154,7 +37226,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 20
+    "piles_total": 20,
+    "kept_capacity": 12,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Cheese Maker",
@@ -37202,7 +37283,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 21
+    "piles_total": 21,
+    "kept_capacity": 36,
+    "recycle_site": {
+     "prefab": "Recycle Site 10x10",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Chicken Coop",
@@ -37226,7 +37316,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 6,
-    "piles_total": 10
+    "piles_total": 10,
+    "kept_capacity": 72,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "ClayMaker",
@@ -37258,7 +37357,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 40
+    "piles_total": 40,
+    "kept_capacity": 40,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Coat Maker",
@@ -37282,7 +37390,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 3
+    "piles_total": 3,
+    "kept_capacity": 12,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Concoction Shop",
@@ -37330,7 +37447,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 34
+    "piles_total": 34,
+    "kept_capacity": 12,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Cookie Shop",
@@ -37382,7 +37508,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 10
+    "piles_total": 10,
+    "kept_capacity": 40,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Cookie Shop _Christmas",
@@ -37434,7 +37569,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 10
+    "piles_total": 10,
+    "kept_capacity": 40,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "DairyFarm",
@@ -37449,7 +37593,16 @@
     "destroyed": [],
     "destroyed_unassigned_piles": [],
     "piles_kept": 2,
-    "piles_total": 2
+    "piles_total": 2,
+    "kept_capacity": 12,
+    "recycle_site": {
+     "prefab": "Recycle Site",
+     "max_workers": 4,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Desert Forager",
@@ -37470,7 +37623,16 @@
      "Tools Pile"
     ],
     "piles_kept": 8,
-    "piles_total": 9
+    "piles_total": 9,
+    "kept_capacity": 72,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Dried Meat Shop",
@@ -37502,7 +37664,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 37
+    "piles_total": 37,
+    "kept_capacity": 40,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Farm",
@@ -37525,7 +37696,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 5,
-    "piles_total": 8
+    "piles_total": 8,
+    "kept_capacity": 225,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Field AppleTree",
@@ -37540,7 +37720,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field AshTree",
@@ -37555,7 +37744,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field BananaTree",
@@ -37570,7 +37768,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field BerryBush",
@@ -37585,7 +37792,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field CypressTree",
@@ -37600,7 +37816,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field DatePalmTree",
@@ -37615,7 +37840,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field DragonFruitTree",
@@ -37630,7 +37864,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field FigTree",
@@ -37645,7 +37888,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field GrapeTree",
@@ -37660,7 +37912,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field HalloweenTree",
@@ -37675,7 +37936,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field JungleBigTree",
@@ -37690,7 +37960,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field JungleTree",
@@ -37705,7 +37984,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field Mesquite",
@@ -37720,7 +38008,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field NopalTree",
@@ -37735,7 +38032,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field PalmTree",
@@ -37750,7 +38056,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field PineTree",
@@ -37765,7 +38080,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field PomeloTree",
@@ -37780,7 +38104,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field WillowTree",
@@ -37795,7 +38128,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Field Winter PineTree",
@@ -37810,7 +38152,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "Fishing Dock",
@@ -37827,7 +38178,16 @@
      "Tools Pile"
     ],
     "piles_kept": 1,
-    "piles_total": 2
+    "piles_total": 2,
+    "kept_capacity": 72,
+    "recycle_site": {
+     "prefab": "Recycle Site 10x10 Fishing Dock",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Fondue Shop",
@@ -37874,7 +38234,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 9
+    "piles_total": 9,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Forager",
@@ -37886,7 +38255,16 @@
      "Tools Pile"
     ],
     "piles_kept": 2,
-    "piles_total": 3
+    "piles_total": 3,
+    "kept_capacity": 40,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    },
    {
     "root": "Forester",
@@ -37913,7 +38291,16 @@
      "Tools Pile Hoe"
     ],
     "piles_kept": 2,
-    "piles_total": 36
+    "piles_total": 36,
+    "kept_capacity": 80,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Forester old",
@@ -37940,7 +38327,16 @@
      "Tools Pile Hoe"
     ],
     "piles_kept": 2,
-    "piles_total": 36
+    "piles_total": 36,
+    "kept_capacity": 80,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Glass Maker",
@@ -37988,7 +38384,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 2,
-    "piles_total": 13
+    "piles_total": 13,
+    "kept_capacity": 48,
+    "recycle_site": {
+     "prefab": "Recycle Site 10x10",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Greenhouse",
@@ -38011,7 +38416,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 3,
-    "piles_total": 6
+    "piles_total": 6,
+    "kept_capacity": 81,
+    "recycle_site": {
+     "prefab": "Recycle Site 12x12",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "House With Chimney",
@@ -38030,7 +38444,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 2
+    "piles_total": 2,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    },
    {
     "root": "HuntersHut",
@@ -38058,7 +38481,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 2,
-    "piles_total": 5
+    "piles_total": 5,
+    "kept_capacity": 54,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    },
    {
     "root": "HuntersHutSwamp",
@@ -38086,7 +38518,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 2,
-    "piles_total": 5
+    "piles_total": 5,
+    "kept_capacity": 54,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    },
    {
     "root": "IcePops Shop",
@@ -38118,7 +38559,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 5
+    "piles_total": 5,
+    "kept_capacity": 24,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Journal",
@@ -38150,7 +38600,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 2,
-    "piles_total": 7
+    "piles_total": 7,
+    "kept_capacity": 36,
+    "recycle_site": {
+     "prefab": "Recycle Site 10x10",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Lumberjack",
@@ -38167,7 +38626,16 @@
      "Tools Pile"
     ],
     "piles_kept": 1,
-    "piles_total": 2
+    "piles_total": 2,
+    "kept_capacity": 48,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    },
    {
     "root": "Manchamanteles Shop",
@@ -38210,7 +38678,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 16
+    "piles_total": 16,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Market",
@@ -38225,7 +38702,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 9,
-    "piles_total": 10
+    "piles_total": 10,
+    "kept_capacity": 162,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    },
    {
     "root": "Mead Hall",
@@ -38272,7 +38758,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 13
+    "piles_total": 13,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Oasis",
@@ -38303,7 +38798,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 5,
-    "piles_total": 40
+    "piles_total": 40,
+    "kept_capacity": 135,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Open Kitchen",
@@ -38354,7 +38858,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 10
+    "piles_total": 10,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Open Kitchen _Halloween",
@@ -38405,7 +38918,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 10
+    "piles_total": 10,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Orchard",
@@ -38431,7 +38953,16 @@
      "Tools Pile Hoe"
     ],
     "piles_kept": 5,
-    "piles_total": 38
+    "piles_total": 38,
+    "kept_capacity": 135,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Orchard old",
@@ -38457,7 +38988,16 @@
      "Tools Pile Hoe"
     ],
     "piles_kept": 5,
-    "piles_total": 38
+    "piles_total": 38,
+    "kept_capacity": 135,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Papermill",
@@ -38505,7 +39045,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 4,
-    "piles_total": 15
+    "piles_total": 15,
+    "kept_capacity": 16,
+    "recycle_site": {
+     "prefab": "Recycle Site 10x10",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Papermill old",
@@ -38541,7 +39090,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 4,
-    "piles_total": 15
+    "piles_total": 15,
+    "kept_capacity": 16,
+    "recycle_site": {
+     "prefab": "Recycle Site 10x10",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Pendant Maker",
@@ -38573,7 +39131,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 5
+    "piles_total": 5,
+    "kept_capacity": 12,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Quarry",
@@ -38590,7 +39157,16 @@
      "EquipmentPile"
     ],
     "piles_kept": 1,
-    "piles_total": 2
+    "piles_total": 2,
+    "kept_capacity": 60,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    },
    {
     "root": "Reed Cutter",
@@ -38605,7 +39181,16 @@
     "destroyed": [],
     "destroyed_unassigned_piles": [],
     "piles_kept": 3,
-    "piles_total": 3
+    "piles_total": 3,
+    "kept_capacity": 27,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Road Builder",
@@ -38617,7 +39202,16 @@
      "Tools Pile"
     ],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    },
    {
     "root": "Sawmill",
@@ -38651,7 +39245,16 @@
      "Tools Pile"
     ],
     "piles_kept": 2,
-    "piles_total": 15
+    "piles_total": 15,
+    "kept_capacity": 48,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Scriptorium",
@@ -38683,7 +39286,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 5
+    "piles_total": 5,
+    "kept_capacity": 12,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Smoothie Stand",
@@ -38703,7 +39315,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 2
+    "piles_total": 2,
+    "kept_capacity": 16,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    },
    {
     "root": "Stone Mine",
@@ -38747,7 +39368,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 6,
-    "piles_total": 14
+    "piles_total": 14,
+    "kept_capacity": 72,
+    "recycle_site": {
+     "prefab": "Recycle Site 10x10",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Stroganoff Shop",
@@ -38791,7 +39421,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 10
+    "piles_total": 10,
+    "kept_capacity": 20,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Trading Post Base",
@@ -38827,7 +39466,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 2,
-    "piles_total": 7
+    "piles_total": 7,
+    "kept_capacity": 12,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Trading Post Evergreen",
@@ -38863,7 +39511,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 2,
-    "piles_total": 7
+    "piles_total": 7,
+    "kept_capacity": 48,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Trading Post Tropics",
@@ -38899,7 +39556,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 2,
-    "piles_total": 7
+    "piles_total": 7,
+    "kept_capacity": 60,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Trading Post Winterland",
@@ -38935,7 +39601,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 2,
-    "piles_total": 7
+    "piles_total": 7,
+    "kept_capacity": 60,
+    "recycle_site": {
+     "prefab": "Recycle Site 6x6",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Ukulele Maker",
@@ -38967,7 +39642,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 10
+    "piles_total": 10,
+    "kept_capacity": 12,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Upgraded Warehouse",
@@ -38982,7 +39666,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 8,
-    "piles_total": 9
+    "piles_total": 9,
+    "kept_capacity": 216,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    },
    {
     "root": "Warehouse",
@@ -38997,7 +39690,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 8,
-    "piles_total": 9
+    "piles_total": 9,
+    "kept_capacity": 216,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    },
    {
     "root": "Well",
@@ -39017,7 +39719,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 1,
-    "piles_total": 2
+    "piles_total": 2,
+    "kept_capacity": 24,
+    "recycle_site": {
+     "prefab": "Recycle Site",
+     "max_workers": 4,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Windmill",
@@ -39041,7 +39752,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 3,
-    "piles_total": 7
+    "piles_total": 7,
+    "kept_capacity": 54,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Winery",
@@ -39080,7 +39800,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 24
+    "piles_total": 24,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Site 8x8",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Winter Pub",
@@ -39123,7 +39852,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 8
+    "piles_total": 8,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Site",
+     "max_workers": 4,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      10
+     ]
+    }
    },
    {
     "root": "Woodchopper",
@@ -39149,7 +39887,16 @@
      "Tools Pile"
     ],
     "piles_kept": 1,
-    "piles_total": 7
+    "piles_total": 7,
+    "kept_capacity": 100,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    },
    {
     "root": "_Field Orchard Base",
@@ -39164,7 +39911,16 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 0,
-    "piles_total": 1
+    "piles_total": 1,
+    "kept_capacity": 0,
+    "recycle_site": {
+     "prefab": "Recycle Field Site",
+     "max_workers": 2,
+     "demolition_spots": 1,
+     "work_rounds_per_spot": [
+      1
+     ]
+    }
    },
    {
     "root": "zBeer Stand",
@@ -39179,8 +39935,28 @@
     ],
     "destroyed_unassigned_piles": [],
     "piles_kept": 9,
-    "piles_total": 10
+    "piles_total": 10,
+    "kept_capacity": 162,
+    "recycle_site": {
+     "prefab": "Recycle Site 4x4",
+     "max_workers": 4,
+     "demolition_spots": 2,
+     "work_rounds_per_spot": [
+      5
+     ]
+    }
    }
-  ]
+  ],
+  "unloading": {
+   "max_distance_for_pile_find": 18.0,
+   "importance": [
+    0.61,
+    0.91
+   ],
+   "work_round_timeline_seconds": 0.65,
+   "finish_timeline_seconds": 1.0,
+   "rule": "Demolition waits until every kept pile is empty and no villager or animal activity still depends on the building (RecyclableBehaviour.IsReadyToRecycle via RecycleSiteWorkspotCondition). Recycle-site workers carry each load, during their shift, to the nearest pile in their zone that can take it if its distance is under MaxDistanceForPileFind; otherwise Level.CreateNewPile makes a loose pile at the building pile position (ActivityStoreResourceFromSite.GetPileToDrop).",
+   "open_question": "kellan/outlanders2-research issue 15"
+  }
  }
 }

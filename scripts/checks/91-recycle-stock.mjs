@@ -26,4 +26,9 @@ assert.ok(t.includes('lost stock still counts towards a Produce goal')&&t.includ
 // Heat sources make warmth, not stock: they are not counted among the buildings that keep nothing.
 assert.ok(/^Makes no stock, only warmth; loses its unburnt Stick/.test(row('buildings/bonfire/')),'bonfire row: '+row('buildings/bonfire/'));
 assert.ok(/Tip: 8 of these \d+ buildings keep none of what they make: [^.]*Winter Pub\./.test(t)&&!/keep none of what they make: [^.]*(Bonfire|Winter Cabin)/.test(t),'tip lists 8 places, fires excluded');
-console.log('PASS: recycling keeps only public output piles; player reports agree.');
+// Unloading, from code: stock out first, nearest pile within 18 or a new loose pile, then demolition.
+assert.equal(RS.unloading.max_distance_for_pile_find,18,'pile reach stored');
+assert.ok(t.includes('Unloading: where the stock lands')&&t.includes('within 18 grid units')&&t.includes('new loose pile where the building stood'),'unloading section');
+assert.ok(t.includes('Each demolition spot needs 10 rounds of work, or 5 on the smaller sites')&&t.includes('A full Warehouse holds up to 216 items'),'demolition rounds and warehouse example: '+(t.match(/Each demolition spot[^.]*\./)||[''])[0]);
+assert.ok(/Ice Pop Stand<\/a><\/td>[\s\S]{0,600}?<td data-sort="24">up to 24<\/td>/.test(page),'carried-out-first column');
+console.log('PASS: recycling keeps only public output piles; player reports agree; unloading explained.');
