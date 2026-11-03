@@ -20,6 +20,10 @@ Players noticed that recycling a Winter Pub destroys its stock, while an Ice Pop
 - Unnamed intermediates count as "part-made items". Workplace tools (`content/tools/`) and Heat are left out.
 - Same-name variants that differ (the biome Trading Outposts) get their own rows.
 
+**Player reports (maintainer, 3 November 2026, version 31)**
+- Smoothie Stand and Ice Pop Stand keep their stock when recycled; the Winter Pub loses its stock. All three match the data. Each is an observation on its building page.
+- Stock lost to recycling still counts towards Produce goals but no longer towards Have goals. This is an observation on the Recycling page. The Produce meaning on level pages now says items lost to recycling still count.
+
 **Not tested yet**
 - Whether recovered stock always waits on the ground or goes straight to storage.
 - Whether the building waits for recovery before it disappears.

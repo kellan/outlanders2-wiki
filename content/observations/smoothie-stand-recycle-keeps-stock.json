@@ -1,0 +1,16 @@
+{
+  "id": "smoothie-stand-recycle-keeps-stock",
+  "target": {
+    "type": "buildings",
+    "id": 57397
+  },
+  "claim": "Recycling a Smoothie Stand does not destroy its stock: its Smoothies are left in piles on the ground, as at the Ice Pop Stand.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "31 (255)",
+    "date": "2026-11-03",
+    "reference": "Maintainer report in the wiki session, 3 November 2026 (issue 90)."
+  },
+  "notes": "Matches the decoded data: the Smoothie Stand's Smoothie pile is a public output pile."
+}

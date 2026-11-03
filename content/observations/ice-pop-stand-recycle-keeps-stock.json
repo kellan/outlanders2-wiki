@@ -1,0 +1,16 @@
+{
+  "id": "ice-pop-stand-recycle-keeps-stock",
+  "target": {
+    "type": "buildings",
+    "id": 57394
+  },
+  "claim": "Recycling an Ice Pop Stand does not destroy its stock: its Ice Pops are left in piles on the ground.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "31 (255)",
+    "date": "2026-11-03",
+    "reference": "Maintainer report in the wiki session, 3 November 2026 (issue 90)."
+  },
+  "notes": "Matches the decoded data: the Ice Pop pile is a public output pile."
+}

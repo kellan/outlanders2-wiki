@@ -19,4 +19,8 @@ assert.ok(/Winter Pub<\/a><\/td><td data-sort="1"><strong>Nothing<\/strong><\/td
 assert.ok(/Trading Outpost<\/a> <span class="objective-note">\(Tropics\)<\/span>/.test(page),'differing variants get their own row');
 assert.ok(!/KitchenFire|JuiceInMold|Wheelbarrow|Cooking Pot/.test(t),'internal names and workplace tools stay out');
 assert.ok(h.render('mechanics/').includes('href="/recycling/"'),'listed on the mechanics hub');
-console.log('PASS: recycling keeps only public output piles.');
+// Player reports, 3 November 2026: Smoothie Stand and Ice Pop Stand keep stock, Winter Pub loses it; lost stock still counts as produced.
+assert.ok(rec(57397).kept.length>0,'Smoothie Stand keeps stock in the data');
+assert.ok(strip(h.render('buildings/smoothie-stand/')).includes('Recycling a Smoothie Stand does not destroy its stock'),'smoothie stand report shown');
+assert.ok(t.includes('lost stock still counts towards a Produce goal')&&t.includes('no longer counts towards a Have goal')&&t.includes('Seen in play'),'goal counting note and report on the recycling page');
+console.log('PASS: recycling keeps only public output piles; player reports agree.');
