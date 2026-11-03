@@ -39953,15 +39953,401 @@
         0.61,
         0.91
       ],
-      "work_round_timeline_seconds": 0.65,
-      "finish_timeline_seconds": 1,
       "rule": "Demolition waits until every kept pile is empty and no villager or animal activity still depends on the building (RecyclableBehaviour.IsReadyToRecycle via RecycleSiteWorkspotCondition). Recycle-site workers carry each load, during their shift, to the nearest pile in their zone that can take it if its distance is under MaxDistanceForPileFind; otherwise Level.CreateNewPile makes a loose pile at the building pile position (ActivityStoreResourceFromSite.GetPileToDrop).",
-      "open_question": "kellan/outlanders2-research issue 15",
-      "walk_speed": 1.7,
-      "walk_carrying_multiplier": 0.8,
-      "pickup_or_drop_seconds": 1,
-      "wheelbarrow_capacity": 4,
-      "timing_sources": "WalkerBehaviour.Speed 1.7 (_Villager Base, variance 0.1); VillagerConfig.WalkCarryingMultiplier 0.8; PickUpDrop_* animation clips 1.0-1.3 s; Wheelbarrow ContainerBehaviour pile capacity 4, DropManyAtOnce. Worked examples assume one item per trip, straight-line walking in grid units, no road bonus and no interruptions."
+      "open_question": "kellan/outlanders2-research issue 15"
+    },
+    "refund": {
+      "rounding": "down",
+      "unfinished": "everything delivered so far",
+      "evidence": "RecyclableBehaviour.GetRecycleValue multiplies BuildSiteBehaviour.GetTotalNeededResources by 0.6 (float constant 0x3f19999a); ResourceAmount.MultiplyBy truncates (fcvtzs). An unfinished site returns its pile counts."
+    }
+  },
+  "walking": {
+    "class": "WalkerBehaviour / VillagerBehaviour / WalkableTiles",
+    "units": "stored world units per second; a game square is 2 stored units (footprint rule)",
+    "checked_versions": [
+      "30 build 254",
+      "31 build 255"
+    ],
+    "research_tool": "tools/export_walking.py",
+    "villagers": [
+      {
+        "stage": "Adult",
+        "speed": 1.7,
+        "variance": 0.1,
+        "variants": 1
+      },
+      {
+        "stage": "Baby",
+        "speed": 0.4,
+        "variance": 0.1,
+        "variants": 1
+      },
+      {
+        "stage": "Elder",
+        "speed": 1.2,
+        "variance": 0.1,
+        "variants": 1
+      },
+      {
+        "stage": "Kid",
+        "speed": 1.35,
+        "variance": 0.1,
+        "variants": 1
+      }
+    ],
+    "carrying_multiplier": 0.8,
+    "surfaces": [
+      {
+        "root": "Bridge",
+        "gameobject_id": 116137,
+        "walk_multiplier": 1.35
+      },
+      {
+        "root": "Park",
+        "gameobject_id": 35463,
+        "walk_multiplier": 1.2
+      },
+      {
+        "root": "Playground",
+        "gameobject_id": 105699,
+        "walk_multiplier": 1.2
+      },
+      {
+        "root": "Plaza",
+        "gameobject_id": 105732,
+        "walk_multiplier": 1.2
+      },
+      {
+        "root": "Road",
+        "gameobject_id": 116140,
+        "walk_multiplier": 1.4
+      },
+      {
+        "root": "Road Brick",
+        "gameobject_id": 116136,
+        "walk_multiplier": 2.15
+      },
+      {
+        "root": "Road Stone",
+        "gameobject_id": 116138,
+        "walk_multiplier": 2.15
+      },
+      {
+        "root": "Upgraded Warehouse",
+        "gameobject_id": 35460,
+        "walk_multiplier": 1.2
+      },
+      {
+        "root": "Warehouse",
+        "gameobject_id": 35461,
+        "walk_multiplier": 1.2
+      },
+      {
+        "root": "Zen Garden",
+        "gameobject_id": 105716,
+        "walk_multiplier": 1.2
+      }
+    ],
+    "speed_boost": {
+      "walk": 1.5,
+      "carry": 1.5
+    },
+    "carry_containers": {
+      "Wheelbarrow": 4,
+      "Basket": 4
+    },
+    "note": "Multipliers multiply (see formula).",
+    "formula": {
+      "per_step": "speed = base (±variance) × slope × [if carrying: 0.8 × village carry effects] × village walk effects × surface of the tile stepped onto × gear (Road value if that surface is faster than 1, else Base)",
+      "slope": "1 + clamp((height from − height to) / horizontal distance, −MaxHeightMultiplier, +MaxHeightMultiplier); value of MaxHeightMultiplier not in the snapshot",
+      "village_effects": "StatsSystem.GlobalEffects: every active effect multiplied together (LevelEffect.Merge)",
+      "evidence": "VillagerActivity.CalculateWalkSpeedMultiplier, Level.GetSlopeSpeedMultiplier, PlaceableBehaviour.GetWalkSpeedMultiplier, WalkSpeedMultipliers.IsValid, LevelEffect.Merge (version 31 build 255); research docs/WALKING.md",
+      "open": "The final move job is Burst-compiled; that it multiplies base speed by this factor is assumed."
+    },
+    "village_effects": [
+      {
+        "concern": "Entertainment",
+        "when": "met",
+        "walk": 1.2,
+        "carry": 1
+      },
+      {
+        "concern": "Nutrition",
+        "when": "met",
+        "walk": 1,
+        "carry": 1.25
+      },
+      {
+        "concern": "Refreshment",
+        "when": "low",
+        "walk": 0.75,
+        "carry": 1
+      }
+    ],
+    "roadworks_office_gameobject_id": 105735
+  },
+  "timing_model": {
+    "about": "Copied from the research repo data/timing-model.json (tools/build_timing_model.py). Formulas: research docs/TIMING-MODEL.md. Pages compute their estimates from these constants; do not edit values here, rebuild in research and copy.",
+    "checked_versions": [
+      "30 build 254",
+      "31 build 255"
+    ],
+    "constants": {
+      "day_seconds": {
+        "value": 300,
+        "unit": "s",
+        "source": "Clock: one game day is 300 simulation seconds at normal speed (research findings, clock schedule; wiki Days and time page)",
+        "status": "decoded"
+      },
+      "shift_fraction": {
+        "value": 0.6,
+        "unit": "day",
+        "source": "WorkplaceConfig.WorkTimeRange standard shift 0.9 -> 0.5",
+        "status": "decoded"
+      },
+      "shift_seconds": {
+        "value": 180,
+        "unit": "s",
+        "source": "derived: shift_fraction x day_seconds",
+        "status": "decoded"
+      },
+      "walk_speed_adult": {
+        "value": 1.7,
+        "unit": "units/s",
+        "source": "WalkerBehaviour.Speed (Adult villager prefabs)",
+        "status": "decoded"
+      },
+      "walk_speed_baby": {
+        "value": 0.4,
+        "unit": "units/s",
+        "source": "WalkerBehaviour.Speed (Baby villager prefabs)",
+        "status": "decoded"
+      },
+      "walk_speed_elder": {
+        "value": 1.2,
+        "unit": "units/s",
+        "source": "WalkerBehaviour.Speed (Elder villager prefabs)",
+        "status": "decoded"
+      },
+      "walk_speed_kid": {
+        "value": 1.35,
+        "unit": "units/s",
+        "source": "WalkerBehaviour.Speed (Kid villager prefabs)",
+        "status": "decoded"
+      },
+      "walk_speed_variance": {
+        "value": 0.1,
+        "unit": "units/s",
+        "source": "WalkerBehaviour.SpeedVariance; WalkerBehaviour.RecalculateSpeed adds Random.Range(-v, +v)",
+        "status": "decoded"
+      },
+      "carrying_multiplier": {
+        "value": 0.8,
+        "unit": "x",
+        "source": "VillagerConfig.WalkCarryingMultiplier; applied in VillagerActivity.CalculateWalkSpeedMultiplier while carrying",
+        "status": "decoded"
+      },
+      "surface_road": {
+        "value": 1.4,
+        "unit": "x",
+        "source": "WalkableTiles.WalkSpeedMultiplier on Road",
+        "status": "decoded"
+      },
+      "surface_stone_road": {
+        "value": 2.15,
+        "unit": "x",
+        "source": "WalkableTiles.WalkSpeedMultiplier on Road Stone and Road Brick",
+        "status": "decoded"
+      },
+      "surface_bridge": {
+        "value": 1.35,
+        "unit": "x",
+        "source": "WalkableTiles.WalkSpeedMultiplier on Bridge",
+        "status": "decoded"
+      },
+      "surface_paved": {
+        "value": 1.2,
+        "unit": "x",
+        "source": "WalkableTiles.WalkSpeedMultiplier on Plaza, Park, Playground, Zen Garden, Warehouse floors",
+        "status": "decoded"
+      },
+      "boots_base": {
+        "value": 1.4,
+        "unit": "x",
+        "source": "GearConfig.WalkSpeedMultipliers.Base (Boots); used where surface <= 1",
+        "status": "decoded"
+      },
+      "boots_road": {
+        "value": 1.2,
+        "unit": "x",
+        "source": "GearConfig.WalkSpeedMultipliers.Road (Boots); used where surface > 1",
+        "status": "decoded"
+      },
+      "fun_met_walk": {
+        "value": 1.2,
+        "unit": "x",
+        "source": "ConcernBehaviour (Entertainment).SatisfiedEffect.WalkSpeedMultiplier; village-wide via StatsSystem.GlobalEffects",
+        "status": "decoded"
+      },
+      "food_met_carry": {
+        "value": 1.25,
+        "unit": "x",
+        "source": "ConcernBehaviour (Nutrition).SatisfiedEffect.CarrySpeedMultiplier; village-wide",
+        "status": "decoded"
+      },
+      "cooling_low_walk": {
+        "value": 0.75,
+        "unit": "x",
+        "source": "ConcernBehaviour (Refreshment).LowEffect.WalkSpeedMultiplier; village-wide",
+        "status": "decoded"
+      },
+      "speed_boost_walk": {
+        "value": 1.5,
+        "unit": "x",
+        "source": "SpeedBoostAction.WalkMultiplier (tournament boost)",
+        "status": "decoded"
+      },
+      "speed_boost_carry": {
+        "value": 1.5,
+        "unit": "x",
+        "source": "SpeedBoostAction.CarryMultiplier (tournament boost)",
+        "status": "decoded"
+      },
+      "units_per_square": {
+        "value": 2,
+        "unit": "units",
+        "source": "Footprints: stored dimensions are two units per game square (maintainer report 26 Oct 2026)",
+        "status": "assumed",
+        "note": "Confirmed for footprints only; that walking distances use the same unit is not yet checked."
+      },
+      "handling_seconds": {
+        "value": 1,
+        "unit": "s",
+        "source": "PickUpDrop_* animation clips run 1.0-1.3 s; one pick-up and one drop per trip",
+        "status": "assumed"
+      },
+      "items_per_trip": {
+        "value": 1,
+        "unit": "items",
+        "source": "Villagers carry one item unless holding a container",
+        "status": "assumed"
+      },
+      "wheelbarrow_capacity": {
+        "value": 4,
+        "unit": "items",
+        "source": "ContainerBehaviour (Wheelbarrow) pile capacity; DropManyAtOnce",
+        "status": "decoded"
+      },
+      "basket_capacity": {
+        "value": 4,
+        "unit": "items",
+        "source": "ContainerBehaviour (Basket) pile capacity",
+        "status": "decoded"
+      },
+      "refund_multiplier": {
+        "value": 0.6,
+        "unit": "x",
+        "source": "RecyclableBehaviour.GetRecycleValue: GetTotalNeededResources x 0.6 (0x3f19999a); ResourceAmount.MultiplyBy truncates",
+        "status": "decoded",
+        "note": "Unfinished sites return what was delivered."
+      },
+      "recycle_pile_reach": {
+        "value": 18,
+        "unit": "units",
+        "source": "ActivityStoreResourceFromRecyclable.MaxDistanceForPileFind; compared squared in ActivityStoreResourceFromSite.GetPileToDrop",
+        "status": "decoded"
+      },
+      "recycle_site_workers": {
+        "value": 4,
+        "unit": "workers",
+        "source": "WorkplaceConfig.MaxWorkers on Recycle Site prefabs (2 on the 1x1 site)",
+        "status": "decoded"
+      },
+      "recycle_round_seconds": {
+        "value": 0.65,
+        "unit": "s",
+        "source": "Recycle Site workspot Timeline length",
+        "status": "decoded"
+      },
+      "recycle_rounds": {
+        "value": 10,
+        "unit": "rounds",
+        "source": "FormulaStep.WorkIterations on Recycle Site demolition spots",
+        "status": "decoded"
+      },
+      "recycle_rounds_small": {
+        "value": 5,
+        "unit": "rounds",
+        "source": "FormulaStep.WorkIterations on the 4x4 Recycle Site",
+        "status": "decoded"
+      },
+      "recycle_finish_seconds": {
+        "value": 1,
+        "unit": "s",
+        "source": "RecycleSiteBehaviour.FinishWorkTimeline length",
+        "status": "decoded"
+      },
+      "road_tile_seconds": {
+        "value": 4.983,
+        "unit": "s",
+        "source": "Road Build Site workspot Timeline length (1 round)",
+        "status": "decoded"
+      },
+      "road_tile_rounds": {
+        "value": 1,
+        "unit": "rounds",
+        "source": "Road Build Site FormulaStep.WorkIterations",
+        "status": "decoded"
+      },
+      "road_tile_materials": {
+        "value": 0,
+        "unit": "items",
+        "source": "Road Build Site formula inputs (none)",
+        "status": "decoded"
+      },
+      "roadworks_office_logs": {
+        "value": 6,
+        "unit": "Logs",
+        "source": "Road Builder Build Site formula inputs",
+        "status": "decoded"
+      },
+      "roadworks_office_spots": {
+        "value": 4,
+        "unit": "spots",
+        "source": "Road Builder Build Site build workspots",
+        "status": "decoded"
+      },
+      "roadworks_office_rounds": {
+        "value": 10,
+        "unit": "rounds",
+        "source": "Road Builder Build Site FormulaStep.WorkIterations",
+        "status": "decoded"
+      },
+      "roadworks_office_round_seconds": {
+        "value": 0.65,
+        "unit": "s",
+        "source": "Road Builder Build Site workspot Timeline length",
+        "status": "decoded"
+      },
+      "pine_chops": {
+        "value": 6,
+        "unit": "chops",
+        "source": "PineTree felling workspot FormulaStep.WorkIterations",
+        "status": "decoded"
+      },
+      "pine_chop_seconds": {
+        "value": 6.667,
+        "unit": "s",
+        "source": "PineTree felling workspot Timeline length",
+        "status": "decoded"
+      },
+      "pine_logs": {
+        "value": 4,
+        "unit": "Logs",
+        "source": "Pine Tree felling yield (wiki plant page, decoded tree spawn values)",
+        "status": "decoded"
+      }
     }
   }
 }

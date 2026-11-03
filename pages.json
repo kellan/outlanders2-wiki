@@ -289,6 +289,14 @@
       "spoiler": false
     },
     {
+      "type": "walking",
+      "id": "",
+      "name": "Roads and walking",
+      "category": "Mechanics",
+      "path": "roads-and-walking/",
+      "spoiler": false
+    },
+    {
       "type": "houses",
       "id": "",
       "name": "Houses",
@@ -14886,6 +14894,7 @@
     "gear/",
     "sandbox/",
     "recycling/",
+    "roads-and-walking/",
     "houses/",
     "challenges/original/",
     "challenges/redux/",
