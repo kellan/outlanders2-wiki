@@ -15,4 +15,5 @@ assert.ok(/Stone Road ×2\.15/.test(t)&&/Road ×1\.4/.test(t)&&/Bridge ×1\.35/.
 assert.ok(t.includes('Boots : ×1.4 off roads and ×1.2 on them')&&t.includes('×1.5 walking'),'gear and boost');
 assert.ok(/Bare ground 55 s 3/.test(t)&&/Stone Road 27 s 6/.test(t),'road worth table');
 const hub=strip(h.render('mechanics/'));assert.ok(hub.includes('Roads and walking')&&!hub.includes('Base walking speed and the road bonus are not in the exported data'),'hub lists the page; open item gone');
-console.log('PASS: recycle refund 60% rounded down; Roads and walking page.');
+assert.ok(t.includes('When to build a road: rules of thumb')&&t.includes('Each square saves about 1.4 seconds per round trip')&&/A 20-square route walked 10 round trips a day saves about 280 seconds a day, 1\.6 shifts/.test(t)&&t.includes('60% of 1 Stone rounds down to 0'),'road rules of thumb: '+(t.match(/A 20-square route walked[^.]*\./)||[''])[0]);
+console.log('PASS: recycle refund 60% rounded down; Roads and walking page with road rules of thumb.');

@@ -24,3 +24,8 @@ The maintainer asked for two findings from the code work to go on the wiki.
 - New Mechanics page `/roads-and-walking/` with tables for age speeds, surfaces (with cost per tile) and other modifiers, plus a "What a road is worth" example. The example is a 20-square haul: 55 s round trip on bare ground, 27 s on a Stone Road.
 - Squares assume 2 stored units per square, the footprint rule. How multipliers combine is not decoded; the page says so, and a new INFORMATION-NEEDED row asks for a timing test.
 - "Roads and walking" is removed from the hub's "Not written yet" list.
+- At the maintainer's request, a "When to build a road: rules of thumb" section, worked from the same values:
+  - Stone or Brick Road halves the walk; a plain Road takes off about 29%.
+  - Each square saves about 1.4 s per round trip (0.8 s on a plain Road), so savings = squares × round trips × 1.4 s. A 20-square route walked 10 times a day saves about 280 s, 1.6 shifts, for 20 Stone.
+  - Pave where someone walks all day, and the busiest legs first.
+  - Skip it when Stone is scarce, near the end of a level, or on ground you will build over. A recycled Stone Road tile refunds nothing.
