@@ -24,11 +24,13 @@ The maintainer asked for two findings from the code work to go on the wiki.
 - New Mechanics page `/roads-and-walking/` with tables for age speeds, surfaces (with cost per tile) and other modifiers, plus a "What a road is worth" example. The example is a 20-square haul: 55 s round trip on bare ground, 27 s on a Stone Road.
 - Squares assume 2 stored units per square, the footprint rule. How multipliers combine is not decoded; the page says so, and a new INFORMATION-NEEDED row asks for a timing test.
 - "Roads and walking" is removed from the hub's "Not written yet" list.
-- At the maintainer's request, a "When to build a road: rules of thumb" section, worked from the same values:
-  - Stone or Brick Road halves the walk; a plain Road takes off about 29%.
-  - Each square saves about 1.4 s per round trip (0.8 s on a plain Road), so savings = squares × round trips × 1.4 s. A 20-square route walked 10 times a day saves about 280 s, 1.6 shifts, for 20 Stone.
-  - Pave where someone walks all day, and the busiest legs first.
-  - Skip it when Stone is scarce, near the end of a level, or on ground you will build over. A recycled Stone Road tile refunds nothing.
+- At the maintainer's request, a "When to build a road" section now leads the page. The maintainer pointed out that Stone Roads are rare, so it covers only the plain Road (×1.4):
+  - A Road cuts walking time by about 30%.
+  - Seven villagers walking on Roads do the walking of ten.
+  - Pave long, busy routes first, and keep the road unbroken (speed comes from the tile underfoot).
+  - Boots overlap with Roads: for a booted adult the Road adds 20%, not 40%.
+  - The example is time-based: 30 s of walking each way gives 2.9 trips a shift on bare ground, 4 on a Road, 4.8 on a Road in Boots.
+- The square-based examples and the "squares a second" column are removed (the maintainer found them confusing; the unit is unmeasured).
 - **How speed combines** (code, version 31; research docs/WALKING.md). `VillagerActivity.CalculateWalkSpeedMultiplier(from, to)` = slope × (if carrying: 0.8 × village carry effect) × village walk effect × surface of the destination tile × gear.
   - Gear uses its Road value (1.2) when that surface is above 1, else its Base value (1.4). So Boots on a Stone Road give ×2.58, and plazas and warehouse floors count as road for Boots.
   - Slope = 1 + clamp((height from − height to)/distance, ±`Level.MaxHeightMultiplier`). The cap value is not in the snapshot.

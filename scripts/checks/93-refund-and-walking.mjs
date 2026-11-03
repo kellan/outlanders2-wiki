@@ -10,12 +10,13 @@ assert.ok(strip(h.render('recycling/')).includes('refunds 60% of each material i
 for(const f of ['bakery-demolition-refund','basic-house-demolition-refund']){const o=JSON.parse(readFileSync(new URL(`../../content/observations/${f}.json`,import.meta.url)));assert.ok(!/half of each material|half its construction cost/.test(o.claim)&&o.notes.includes('60%'),'observation reworded: '+f)}
 assert.ok(h.lookup['roads-and-walking/'],'walking route');
 const t=strip(h.render('roads-and-walking/'));
-assert.ok(/Adult 1\.7 0\.85 100% Child 1\.35/.test(t)&&t.includes('Elder 1.2'),'speed table');
+assert.ok(/Adult 1\.7 100% Child 1\.35 79%/.test(t)&&t.includes('Elder 1.2'),'speed table');
+assert.ok(!/square/i.test(t),'no square-based examples');
 assert.ok(/Stone Road ×2\.15/.test(t)&&/Road ×1\.4/.test(t)&&/Bridge ×1\.35/.test(t)&&/Warehouse ×1\.2/.test(t),'surface table');
 assert.ok(t.includes('Boots : ×1.4 on bare ground and ×1.2 on any faster surface')&&t.includes('×1.5 walking'),'gear and boost');
-assert.ok(/Bare ground 55 s 3/.test(t)&&/Stone Road 27 s 6/.test(t),'road worth table');
+assert.ok(/Bare ground 62 s 2\.9 Road 45 s 4 Bare ground, in Boots 45 s 4 Road, in Boots 38 s 4\.8/.test(t),'plain road example table');
 const hub=strip(h.render('mechanics/'));assert.ok(hub.includes('Roads and walking')&&!hub.includes('Base walking speed and the road bonus are not in the exported data'),'hub lists the page; open item gone');
-assert.ok(t.includes('When to build a road: rules of thumb')&&t.includes('Each square saves about 1.4 seconds per round trip')&&/A 20-square route walked 10 round trips a day saves about 280 seconds a day, 1\.6 shifts/.test(t)&&t.includes('60% of 1 Stone rounds down to 0'),'road rules of thumb: '+(t.match(/A 20-square route walked[^.]*\./)||[''])[0]);
+assert.ok(t.indexOf('When to build a road')<t.indexOf('Walking speed')&&t.includes('A Road cuts walking time by about 30%')&&t.includes('get through the walking of about 10')&&t.includes('a Road adds about 20% rather than 40%'),'plain road rules of thumb lead the page');
 // How speed combines, from VillagerActivity.CalculateWalkSpeedMultiplier and LevelEffect.Merge.
 assert.ok(t.includes('speed = age speed × slope × (0.8 × carry bonuses, if carrying) × walking bonuses × surface × Boots')&&t.includes('An adult in Boots on a Stone Road walks ×2.58'),'combination formula');
 assert.ok(t.includes('Food met (village-wide): walking while carrying ×1.25')&&t.includes('Fun met (village-wide): walking ×1.2')&&t.includes('Cooling running low (village-wide): walking ×0.75'),'village effects: '+(t.match(/Slopes[^]*?Carrying/)||[''])[0]);
