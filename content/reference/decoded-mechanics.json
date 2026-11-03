@@ -39962,6 +39962,150 @@
    "pickup_or_drop_seconds": 1.0,
    "wheelbarrow_capacity": 4,
    "timing_sources": "WalkerBehaviour.Speed 1.7 (_Villager Base, variance 0.1); VillagerConfig.WalkCarryingMultiplier 0.8; PickUpDrop_* animation clips 1.0-1.3 s; Wheelbarrow ContainerBehaviour pile capacity 4, DropManyAtOnce. Worked examples assume one item per trip, straight-line walking in grid units, no road bonus and no interruptions."
+  },
+  "refund": {
+   "finished_multiplier": 0.6,
+   "rounding": "down",
+   "unfinished": "everything delivered so far",
+   "evidence": "RecyclableBehaviour.GetRecycleValue multiplies BuildSiteBehaviour.GetTotalNeededResources by 0.6 (float constant 0x3f19999a); ResourceAmount.MultiplyBy truncates (fcvtzs). An unfinished site returns its pile counts."
+  }
+ },
+ "walking": {
+  "class": "WalkerBehaviour / VillagerBehaviour / WalkableTiles",
+  "units": "stored world units per second; a game square is 2 stored units (footprint rule)",
+  "checked_versions": [
+   "30 build 254",
+   "31 build 255"
+  ],
+  "research_tool": "tools/export_walking.py",
+  "villagers": [
+   {
+    "stage": "Adult",
+    "speed": 1.7,
+    "variance": 0.1,
+    "variants": 1
+   },
+   {
+    "stage": "Baby",
+    "speed": 0.4,
+    "variance": 0.1,
+    "variants": 1
+   },
+   {
+    "stage": "Elder",
+    "speed": 1.2,
+    "variance": 0.1,
+    "variants": 1
+   },
+   {
+    "stage": "Kid",
+    "speed": 1.35,
+    "variance": 0.1,
+    "variants": 1
+   }
+  ],
+  "carrying_multiplier": 0.8,
+  "surfaces": [
+   {
+    "root": "Bridge",
+    "gameobject_id": 116137,
+    "walk_multiplier": 1.35
+   },
+   {
+    "root": "Park",
+    "gameobject_id": 35463,
+    "walk_multiplier": 1.2
+   },
+   {
+    "root": "Playground",
+    "gameobject_id": 105699,
+    "walk_multiplier": 1.2
+   },
+   {
+    "root": "Plaza",
+    "gameobject_id": 105732,
+    "walk_multiplier": 1.2
+   },
+   {
+    "root": "Road",
+    "gameobject_id": 116140,
+    "walk_multiplier": 1.4
+   },
+   {
+    "root": "Road Brick",
+    "gameobject_id": 116136,
+    "walk_multiplier": 2.15
+   },
+   {
+    "root": "Road Stone",
+    "gameobject_id": 116138,
+    "walk_multiplier": 2.15
+   },
+   {
+    "root": "Upgraded Warehouse",
+    "gameobject_id": 35460,
+    "walk_multiplier": 1.2
+   },
+   {
+    "root": "Warehouse",
+    "gameobject_id": 35461,
+    "walk_multiplier": 1.2
+   },
+   {
+    "root": "Zen Garden",
+    "gameobject_id": 105716,
+    "walk_multiplier": 1.2
+   }
+  ],
+  "speed_boost": {
+   "walk": 1.5,
+   "carry": 1.5
+  },
+  "carry_containers": {
+   "Wheelbarrow": 4,
+   "Basket": 4
+  },
+  "note": "Multipliers multiply (see formula).",
+  "formula": {
+   "per_step": "speed = base (±variance) × slope × [if carrying: 0.8 × village carry effects] × village walk effects × surface of the tile stepped onto × gear (Road value if that surface is faster than 1, else Base)",
+   "slope": "1 + clamp((height from − height to) / horizontal distance, −MaxHeightMultiplier, +MaxHeightMultiplier); value of MaxHeightMultiplier not in the snapshot",
+   "village_effects": "StatsSystem.GlobalEffects: every active effect multiplied together (LevelEffect.Merge)",
+   "evidence": "VillagerActivity.CalculateWalkSpeedMultiplier, Level.GetSlopeSpeedMultiplier, PlaceableBehaviour.GetWalkSpeedMultiplier, WalkSpeedMultipliers.IsValid, LevelEffect.Merge (version 31 build 255); research docs/WALKING.md",
+   "open": "The final move job is Burst-compiled; that it multiplies base speed by this factor is assumed."
+  },
+  "village_effects": [
+   {
+    "concern": "Entertainment",
+    "when": "met",
+    "walk": 1.2,
+    "carry": 1.0
+   },
+   {
+    "concern": "Nutrition",
+    "when": "met",
+    "walk": 1.0,
+    "carry": 1.25
+   },
+   {
+    "concern": "Refreshment",
+    "when": "low",
+    "walk": 0.75,
+    "carry": 1.0
+   }
+  ],
+  "road_cost": {
+   "office_gameobject_id": 105735,
+   "office_logs": 6,
+   "office_build_spots": 4,
+   "office_rounds_per_spot": 10,
+   "office_round_seconds": 0.65,
+   "road_tile_materials": 0,
+   "road_tile_work_seconds": 4.98,
+   "road_tile_rounds": 1,
+   "pine_logs_per_tree": 4,
+   "pine_chops": 6,
+   "pine_chop_seconds": 6.67,
+   "evidence": "Road Build Site: one workspot, 1 round of a 4.98 s timeline, no inputs. Road Builder Build Site: 6 Wood delivered, 4 workspots × 10 rounds of 0.65 s. PineTree workspot: 6 rounds of 6.67 s for 4 Logs. Timeline lengths read with tools/timeline_reader.py (version 31)."
   }
  }
 }
