@@ -1,0 +1,1 @@
+Recycling refunds are 60% of each material, rounded down, and each building page now shows its refund. There is also a new Roads and walking page: walking speeds by age, how much each road and surface speeds villagers up, and what a road saves on a haul. It opens with rules of thumb for when a Road is worth building (93).

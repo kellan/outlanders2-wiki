@@ -4,7 +4,7 @@
 // companion pages (each article links to its own), spoiler pages, 404 and the search page itself.
 import * as pagefind from 'pagefind';
 
-const SECTIONS=[[/^buildings\//,'Buildings'],[/^plants\//,'Plants'],[/^food\//,'Food'],[/^resources\//,'Resources'],[/^production-chains\//,'Production chains'],[/^(levels|campaigns)\//,'Levels'],[/^challenges\//,'Challenges'],[/^tournament\//,'Tournament Mode'],[/^heroes\//,'Leaders'],[/^biomes\//,'Biomes'],[/^(mechanics|needs|need|eating|happiness|villagers|heat-cooling-water|time|gear|houses|gathering-places|sandbox|recycling)\//,'Mechanics']];
+const SECTIONS=[[/^buildings\//,'Buildings'],[/^plants\//,'Plants'],[/^food\//,'Food'],[/^resources\//,'Resources'],[/^production-chains\//,'Production chains'],[/^(levels|campaigns)\//,'Levels'],[/^challenges\//,'Challenges'],[/^tournament\//,'Tournament Mode'],[/^heroes\//,'Leaders'],[/^biomes\//,'Biomes'],[/^(mechanics|needs|need|eating|happiness|villagers|heat-cooling-water|time|gear|houses|gathering-places|sandbox|recycling|roads-and-walking)\//,'Mechanics']];
 export function sectionFor(route){return (SECTIONS.find(([re])=>re.test(route))||[,'Reference'])[1]}
 export function indexable({route,canonicalRoute,type,spoiler}){return route===canonicalRoute&&type!=='evidence'&&type!=='verification'&&!spoiler&&!route.startsWith('spoilers/')}
 
