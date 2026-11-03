@@ -2,7 +2,7 @@
 import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {harness} from '../render-harness.mjs';
 const h=await harness(),strip=s=>s.replace(/<script[\s\S]*?<\/script>/g,'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');
 const DM=JSON.parse(readFileSync(new URL('../../content/reference/decoded-mechanics.json',import.meta.url)));
-assert.equal(DM.recycle_stock.refund.finished_multiplier,0.6,'refund multiplier from code');
+assert.equal(DM.timing_model.constants.refund_multiplier.value,0.6,'refund multiplier from code (timing model)');
 const row=p=>{const m=h.render(p).match(/Recycle refund<\/dt><dd>(.*?)<\/dd>/);return m?strip(m[1]).trim():''};
 assert.ok(row('buildings/bakery/').startsWith('5 Clay + 2 Stone'),'bakery refund matches the playtest: '+row('buildings/bakery/'));
 assert.ok(row('buildings/basic-house/').startsWith('3 Log'),'basic house refund matches the playtest: '+row('buildings/basic-house/'));
