@@ -36,3 +36,10 @@ The maintainer asked for two findings from the code work to go on the wiki.
   - Slope = 1 + clamp((height from − height to)/distance, ±`Level.MaxHeightMultiplier`). The cap value is not in the snapshot.
   - The village effects are `StatsSystem.GlobalEffects`, which `LevelEffect.Merge` multiplies together. Concern values: Fun met walk ×1.2, Food met carry ×1.25 (new on the site), Cooling low walk ×0.75 (new).
   - The page replaces "not decoded" with the formula. It still flags that the final Burst move job was not read.
+- **What a road costs, and when it pays back** (maintainer question):
+  - Road Build Site: one workspot, 1 round of a 4.98 s timeline, no inputs, so a plain Road tile is free apart from work.
+  - Roadworks Office (Road Builder Build Site): 6 Logs delivered, then 4 workspots × 10 rounds of 0.65 s.
+  - Pine Tree: 6 chops of 6.67 s for 4 Logs.
+  - Setup works out to about 4.5–7.1 minutes of villager work (1.5–2.4 shifts), mostly carrying, assuming trees and site are a 6–12 s walk from the stores.
+  - A tile pays back its ~6 s of work after about 20 s of villager walking on it. The office pays back in about 3–6 days if three haulers spend half their shift on the new roads.
+  - Values are in `walking.road_cost`.

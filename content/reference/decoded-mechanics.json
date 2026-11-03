@@ -40092,6 +40092,20 @@
     "walk": 0.75,
     "carry": 1.0
    }
-  ]
+  ],
+  "road_cost": {
+   "office_gameobject_id": 105735,
+   "office_logs": 6,
+   "office_build_spots": 4,
+   "office_rounds_per_spot": 10,
+   "office_round_seconds": 0.65,
+   "road_tile_materials": 0,
+   "road_tile_work_seconds": 4.98,
+   "road_tile_rounds": 1,
+   "pine_logs_per_tree": 4,
+   "pine_chops": 6,
+   "pine_chop_seconds": 6.67,
+   "evidence": "Road Build Site: one workspot, 1 round of a 4.98 s timeline, no inputs. Road Builder Build Site: 6 Wood delivered, 4 workspots × 10 rounds of 0.65 s. PineTree workspot: 6 rounds of 6.67 s for 4 Logs. Timeline lengths read with tools/timeline_reader.py (version 31)."
+  }
  }
 }
