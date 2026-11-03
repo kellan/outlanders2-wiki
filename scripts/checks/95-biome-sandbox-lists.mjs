@@ -1,4 +1,4 @@
-// PR 92: biome pages list their sandbox plants and buildings, what other biomes have that this one lacks,
+// PR 95: biome pages list their sandbox plants and buildings, what other biomes have that this one lacks,
 // and which hand-made maps in the biome still offer those buildings.
 import assert from 'node:assert/strict';import {harness} from '../render-harness.mjs';
 const h=await harness(),strip=s=>s.replace(/<script[\s\S]*?<\/script>/g,'').replace(/<[^>]+>/g,' ').replace(/&#39;/g,'’').replace(/&amp;/g,'&').replace(/\s+/g,' ').replace(/ \( /g,' (').replace(/ \)/g,')').replace(/ ([,.;])/g,'$1');
