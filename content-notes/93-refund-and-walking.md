@@ -29,3 +29,8 @@ The maintainer asked for two findings from the code work to go on the wiki.
   - Each square saves about 1.4 s per round trip (0.8 s on a plain Road), so savings = squares × round trips × 1.4 s. A 20-square route walked 10 times a day saves about 280 s, 1.6 shifts, for 20 Stone.
   - Pave where someone walks all day, and the busiest legs first.
   - Skip it when Stone is scarce, near the end of a level, or on ground you will build over. A recycled Stone Road tile refunds nothing.
+- **How speed combines** (code, version 31; research docs/WALKING.md). `VillagerActivity.CalculateWalkSpeedMultiplier(from, to)` = slope × (if carrying: 0.8 × village carry effect) × village walk effect × surface of the destination tile × gear.
+  - Gear uses its Road value (1.2) when that surface is above 1, else its Base value (1.4). So Boots on a Stone Road give ×2.58, and plazas and warehouse floors count as road for Boots.
+  - Slope = 1 + clamp((height from − height to)/distance, ±`Level.MaxHeightMultiplier`). The cap value is not in the snapshot.
+  - The village effects are `StatsSystem.GlobalEffects`, which `LevelEffect.Merge` multiplies together. Concern values: Fun met walk ×1.2, Food met carry ×1.25 (new on the site), Cooling low walk ×0.75 (new).
+  - The page replaces "not decoded" with the formula. It still flags that the final Burst move job was not read.

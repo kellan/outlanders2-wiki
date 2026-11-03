@@ -40065,6 +40065,33 @@
    "Wheelbarrow": 4,
    "Basket": 4
   },
-  "note": "Stored multipliers. How surface, gear, need and boost multipliers combine is code that has not been decoded."
+  "note": "Multipliers multiply (see formula).",
+  "formula": {
+   "per_step": "speed = base (±variance) × slope × [if carrying: 0.8 × village carry effects] × village walk effects × surface of the tile stepped onto × gear (Road value if that surface is faster than 1, else Base)",
+   "slope": "1 + clamp((height from − height to) / horizontal distance, −MaxHeightMultiplier, +MaxHeightMultiplier); value of MaxHeightMultiplier not in the snapshot",
+   "village_effects": "StatsSystem.GlobalEffects: every active effect multiplied together (LevelEffect.Merge)",
+   "evidence": "VillagerActivity.CalculateWalkSpeedMultiplier, Level.GetSlopeSpeedMultiplier, PlaceableBehaviour.GetWalkSpeedMultiplier, WalkSpeedMultipliers.IsValid, LevelEffect.Merge (version 31 build 255); research docs/WALKING.md",
+   "open": "The final move job is Burst-compiled; that it multiplies base speed by this factor is assumed."
+  },
+  "village_effects": [
+   {
+    "concern": "Entertainment",
+    "when": "met",
+    "walk": 1.2,
+    "carry": 1.0
+   },
+   {
+    "concern": "Nutrition",
+    "when": "met",
+    "walk": 1.0,
+    "carry": 1.25
+   },
+   {
+    "concern": "Refreshment",
+    "when": "low",
+    "walk": 0.75,
+    "carry": 1.0
+   }
+  ]
  }
 }
