@@ -8,7 +8,7 @@ for(const [route,rec] of Object.entries(h.lookup)){
  count++;
 }
 assert.equal(h.lookup['buildings/bakery/'].type,'buildings');assert.equal(h.lookup['food/bread/'].type,'resources');assert.equal(h.lookup['building/bakery/'],h.lookup['buildings/bakery/']);
-assert.ok(h.render('food/bread/').includes('/buildings/bakery/'));assert.ok(h.render('buildings/bakery/').includes('/production-chains/bakery/'));assert.ok(h.render('index/').includes('letter-B'));assert.ok(h.render('heroes/oona/').includes('Unreleased · user report'));assert.ok(h.render('biomes/evergreen/').includes('Available plants and buildings depend on the scenario'));assert.ok(h.render('biomes/tropiclands/').includes('Cooling'));
+assert.ok(h.render('food/bread/').includes('/buildings/bakery/'));assert.ok(h.render('buildings/bakery/').includes('/production-chains/bakery/'));assert.ok(h.render('index/').includes('letter-B'));assert.ok(h.render('heroes/oona/').includes('Unreleased · user report'));assert.ok(h.render('biomes/evergreen/').includes('<h2>Sandbox build list</h2>'));assert.ok(h.render('biomes/tropiclands/').includes('Cooling'));
 for(const q of ['bread','Pablo','Evergreen','Morrigwyn','no-such-entry'])assert.ok(h.query(q).length>100);
 const sub=await harness('/outlanders2-wiki/');assert.ok(sub.render('food/bread/').includes('href="/outlanders2-wiki/buildings/bakery/"'));
 const artwork=JSON.parse(fs.readFileSync(root+'data/artwork.json'));let images=0;for(const k of ['buildings','resources','leaders','biomes'])for(const a of Object.values(artwork[k])){assert.ok(fs.existsSync(root+a.path),a.path);images++}
