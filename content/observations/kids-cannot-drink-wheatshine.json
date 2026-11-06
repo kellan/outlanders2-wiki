@@ -1,0 +1,16 @@
+{
+  "id": "kids-cannot-drink-wheatshine",
+  "target": {
+    "type": "mechanics",
+    "id": "climate"
+  },
+  "claim": "Recycling the Winter Cabins so villagers would drink more Wheatshine for Heat killed the children: they cannot drink Wheatshine.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "31 (255)",
+    "date": "2026-11-06",
+    "reference": "Player posts on the Outlanders community Discord, early November 2026."
+  },
+  "notes": "Matches the data: Wheatshine is ConsumedByChildren false, ConsumedByAdults true, with Heat 4 units. Heat is the only need with a death value (−50, cause Cold). The Winter Cabin warms 4 sleeping spots and the Bonfire 8 social spots. A Coat has AdultsOnly false and raises Heat's floor to −50 + 129 = 79, so children wearing one cannot freeze (research docs/NEEDS.md)."
+}
