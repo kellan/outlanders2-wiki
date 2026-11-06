@@ -1,0 +1,16 @@
+{
+  "id": "fake-plaza-build-sites",
+  "target": {
+    "type": "mechanics",
+    "id": "recycling"
+  },
+  "claim": "Players place fake plaza build sites to get builders to carry materials to a spot, then recycle the sites before they are built, which brought ten Planks to where they were needed.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "31 (255)",
+    "date": "2026-11-06",
+    "reference": "Player posts on the Outlanders community Discord, early November 2026."
+  },
+  "notes": "Matches the code: RecyclableBehaviour.GetRecycleValue returns the build site's pile counts (everything delivered) for an unfinished site, rather than 60% of the cost. A finished Basic House playtest showed the same full return for a half-built site (observation basic-house-demolition-refund). Where the returned items land is placed at the site's position in RecycleSiteBehaviour.OnWorkspotComplete; not separately timed in play."
+}
