@@ -11,8 +11,8 @@ assert.ok(/Ice Pop Stand<\/a><\/td>[\s\S]{0,600}?<td data-sort="24">up to 24<\/t
 assert.ok(t.includes('How long unloading takes in play')&&!t.includes('Whether recovered stock always waits on the ground'),'open questions updated');
 // Worked examples: lumberjack with 30 logs and the full warehouse, computed from stored speeds.
 assert.ok(t.includes('Worked examples')&&t.includes('A Lumberjacks’ Base with 30 Logs and 2 workers'),'lumberjack example');
-assert.ok(/A Warehouse 17 units away, just inside the reach 24\.5 s 6\.1 minutes of work: about 2 shifts \(work days\)/.test(t),'slowest case inside the reach');
-assert.ok(/Nothing within 18 units 3\.3 s 50 seconds of work: within one shift/.test(t),'drop-beside case');
-assert.ok(/Another Warehouse 15 units away 21\.9 s 26\.2 minutes of work: about 8\.7 shifts/.test(t)&&t.includes('216 items loose on the ground'),'warehouse pathological case');
+assert.ok(/A Warehouse 17 units away, just inside the reach 29\.7 s 7\.4 minutes of work: about 2\.5 shifts \(work days\)/.test(t),'slowest case inside the reach');
+assert.ok(/Nothing within 18 units 8\.5 s 2\.1 minutes of work: within one shift/.test(t),'drop-beside case');
+assert.ok(/Another Warehouse 15 units away 22\.5 s 27 minutes of work: about 9 shifts/.test(t)&&t.includes('216 items loose on the ground'),'warehouse pathological case');
 assert.ok(t.includes('not timed in play'),'estimates flagged');
 console.log('PASS: recycling page explains unloading, where kept stock lands, and worked examples.');
