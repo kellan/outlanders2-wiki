@@ -777,27 +777,11 @@
       "spoiler": false
     },
     {
-      "type": "chains",
-      "id": "67909",
-      "name": "Apple Tree — production",
-      "category": "Production chain",
-      "path": "production-chains/apple-tree/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "67910",
       "name": "Ash Tree",
       "category": "Plant",
       "path": "plants/ash-tree/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "67910",
-      "name": "Ash Tree — production",
-      "category": "Production chain",
-      "path": "production-chains/ash-tree/",
       "spoiler": false
     },
     {
@@ -809,27 +793,11 @@
       "spoiler": false
     },
     {
-      "type": "chains",
-      "id": "67917",
-      "name": "Banana Tree — production",
-      "category": "Production chain",
-      "path": "production-chains/banana-tree/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "71099",
       "name": "Beet",
       "category": "Plant",
       "path": "plants/beet/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "71099",
-      "name": "Beet — production",
-      "category": "Production chain",
-      "path": "production-chains/beet/",
       "spoiler": false
     },
     {
@@ -841,27 +809,11 @@
       "spoiler": false
     },
     {
-      "type": "chains",
-      "id": "67908",
-      "name": "Berry Bush — production",
-      "category": "Production chain",
-      "path": "production-chains/berry-bush/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "71093",
       "name": "Cabbage",
       "category": "Plant",
       "path": "plants/cabbage/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "71093",
-      "name": "Cabbage — production",
-      "category": "Production chain",
-      "path": "production-chains/cabbage/",
       "spoiler": false
     },
     {
@@ -873,27 +825,11 @@
       "spoiler": false
     },
     {
-      "type": "chains",
-      "id": "71098",
-      "name": "Carrot — production",
-      "category": "Production chain",
-      "path": "production-chains/carrot/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "71097",
       "name": "Cauliflower",
       "category": "Plant",
       "path": "plants/cauliflower/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "71097",
-      "name": "Cauliflower — production",
-      "category": "Production chain",
-      "path": "production-chains/cauliflower/",
       "spoiler": false
     },
     {
@@ -905,27 +841,11 @@
       "spoiler": false
     },
     {
-      "type": "chains",
-      "id": "71100",
-      "name": "Corn — production",
-      "category": "Production chain",
-      "path": "production-chains/corn/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "67921",
       "name": "Cypress Tree",
       "category": "Plant",
       "path": "spoilers/plants/cypress-tree/",
-      "spoiler": true
-    },
-    {
-      "type": "chains",
-      "id": "67921",
-      "name": "Cypress Tree — production",
-      "category": "Production chain",
-      "path": "spoilers/production-chains/cypress-tree/",
       "spoiler": true
     },
     {
@@ -937,27 +857,11 @@
       "spoiler": false
     },
     {
-      "type": "chains",
-      "id": "67911",
-      "name": "Date Palm Tree — production",
-      "category": "Production chain",
-      "path": "production-chains/date-palm-tree/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "67919",
       "name": "Dragon Fruit Tree",
       "category": "Plant",
       "path": "plants/dragon-fruit-tree/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "67919",
-      "name": "Dragon Fruit Tree — production",
-      "category": "Production chain",
-      "path": "production-chains/dragon-fruit-tree/",
       "spoiler": false
     },
     {
@@ -969,27 +873,11 @@
       "spoiler": false
     },
     {
-      "type": "chains",
-      "id": "71095",
-      "name": "Eggplant — production",
-      "category": "Production chain",
-      "path": "production-chains/eggplant/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "67914",
       "name": "Fig Tree",
       "category": "Plant",
       "path": "plants/fig-tree/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "67914",
-      "name": "Fig Tree — production",
-      "category": "Production chain",
-      "path": "production-chains/fig-tree/",
       "spoiler": false
     },
     {
@@ -1001,27 +889,11 @@
       "spoiler": false
     },
     {
-      "type": "chains",
-      "id": "67906",
-      "name": "Grape Vine — production",
-      "category": "Production chain",
-      "path": "production-chains/grape-vine/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "67912",
       "name": "Dead Tree",
       "category": "Plant",
       "path": "plants/dead-tree/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "67912",
-      "name": "Dead Tree — production",
-      "category": "Production chain",
-      "path": "production-chains/dead-tree/",
       "spoiler": false
     },
     {
@@ -1033,27 +905,11 @@
       "spoiler": false
     },
     {
-      "type": "chains",
-      "id": "67913",
-      "name": "Jungle Tree — production",
-      "category": "Production chain",
-      "path": "production-chains/jungle-tree/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "67905",
       "name": "Jungle Bush",
       "category": "Plant",
       "path": "plants/jungle-bush/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "67905",
-      "name": "Jungle Bush — production",
-      "category": "Production chain",
-      "path": "production-chains/jungle-bush/",
       "spoiler": false
     },
     {
@@ -1065,27 +921,11 @@
       "spoiler": false
     },
     {
-      "type": "chains",
-      "id": "67904",
-      "name": "Mesquite Tree — production",
-      "category": "Production chain",
-      "path": "production-chains/mesquite-tree/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "67916",
       "name": "Nopal Tree",
       "category": "Plant",
       "path": "plants/nopal-tree/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "67916",
-      "name": "Nopal Tree — production",
-      "category": "Production chain",
-      "path": "production-chains/nopal-tree/",
       "spoiler": false
     },
     {
@@ -1097,27 +937,11 @@
       "spoiler": false
     },
     {
-      "type": "chains",
-      "id": "71092",
-      "name": "Onion — production",
-      "category": "Production chain",
-      "path": "production-chains/onion/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "67918",
       "name": "Palm Tree",
       "category": "Plant",
       "path": "plants/palm-tree/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "67918",
-      "name": "Palm Tree — production",
-      "category": "Production chain",
-      "path": "production-chains/palm-tree/",
       "spoiler": false
     },
     {
@@ -1129,27 +953,11 @@
       "spoiler": false
     },
     {
-      "type": "chains",
-      "id": "67920",
-      "name": "Pine Tree — production",
-      "category": "Production chain",
-      "path": "production-chains/pine-tree/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "67907",
       "name": "Pomelo Tree",
       "category": "Plant",
       "path": "plants/pomelo-tree/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "67907",
-      "name": "Pomelo Tree — production",
-      "category": "Production chain",
-      "path": "production-chains/pomelo-tree/",
       "spoiler": false
     },
     {
@@ -1161,27 +969,11 @@
       "spoiler": false
     },
     {
-      "type": "chains",
-      "id": "71094",
-      "name": "Potato — production",
-      "category": "Production chain",
-      "path": "production-chains/potato/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "71091",
       "name": "Pumpkin",
       "category": "Plant",
       "path": "plants/pumpkin/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "71091",
-      "name": "Pumpkin — production",
-      "category": "Production chain",
-      "path": "production-chains/pumpkin/",
       "spoiler": false
     },
     {
@@ -1193,27 +985,11 @@
       "spoiler": false
     },
     {
-      "type": "chains",
-      "id": "99686",
-      "name": "Pumpkin — production",
-      "category": "Production chain",
-      "path": "production-chains/pumpkin-99686/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "71096",
       "name": "Tomato",
       "category": "Plant",
       "path": "plants/tomato/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "71096",
-      "name": "Tomato — production",
-      "category": "Production chain",
-      "path": "production-chains/tomato/",
       "spoiler": false
     },
     {
@@ -1225,27 +1001,11 @@
       "spoiler": false
     },
     {
-      "type": "chains",
-      "id": "71090",
-      "name": "Watermelon — production",
-      "category": "Production chain",
-      "path": "production-chains/watermelon/",
-      "spoiler": false
-    },
-    {
       "type": "buildings",
       "id": "58425",
       "name": "Wheat",
       "category": "Plant",
       "path": "plants/wheat/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "58425",
-      "name": "Wheat — production",
-      "category": "Production chain",
-      "path": "production-chains/wheat/",
       "spoiler": false
     },
     {
@@ -1257,27 +1017,11 @@
       "spoiler": true
     },
     {
-      "type": "chains",
-      "id": "67915",
-      "name": "Willow Tree — production",
-      "category": "Production chain",
-      "path": "spoilers/production-chains/willow-tree/",
-      "spoiler": true
-    },
-    {
       "type": "buildings",
       "id": "67922",
       "name": "Winter Pine Tree",
       "category": "Plant",
       "path": "plants/winter-pine-tree/",
-      "spoiler": false
-    },
-    {
-      "type": "chains",
-      "id": "67922",
-      "name": "Winter Pine Tree — production",
-      "category": "Production chain",
-      "path": "production-chains/winter-pine-tree/",
       "spoiler": false
     },
     {
@@ -2258,26 +2002,10 @@
     },
     {
       "type": "resources",
-      "id": "277707",
-      "name": "BakeryPeel",
-      "category": "Intermediate",
-      "path": "resources/bakerypeel/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "278743",
       "name": "Fondue",
       "category": "Food",
       "path": "food/fondue/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "279174",
-      "name": "Hammer - Rock",
-      "category": "Intermediate",
-      "path": "resources/hammer-rock/",
       "spoiler": false
     },
     {
@@ -2290,14 +2018,6 @@
     },
     {
       "type": "resources",
-      "id": "279342",
-      "name": "Plate _Halloween",
-      "category": "Intermediate",
-      "path": "resources/plate-halloween/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "279343",
       "name": "Stew",
       "category": "Food",
@@ -2306,58 +2026,10 @@
     },
     {
       "type": "resources",
-      "id": "279344",
-      "name": "Fondue Empty Plate",
-      "category": "Intermediate",
-      "path": "resources/fondue-empty-plate/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "279345",
       "name": "Manchamanteles",
       "category": "Food",
       "path": "food/manchamanteles/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "279346",
-      "name": "DoubleStew",
-      "category": "Intermediate",
-      "path": "resources/doublestew/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "279347",
-      "name": "TripleStew_Manchamanteles",
-      "category": "Intermediate",
-      "path": "resources/triplestew-manchamanteles/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "279348",
-      "name": "Fondue Used Plate",
-      "category": "Intermediate",
-      "path": "resources/fondue-used-plate/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "279349",
-      "name": "TripleStew_BarleyPorridgeShop",
-      "category": "Intermediate",
-      "path": "resources/triplestew-barleyporridgeshop/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "279350",
-      "name": "KitchenFire",
-      "category": "Intermediate",
-      "path": "resources/kitchenfire/",
       "spoiler": false
     },
     {
@@ -2386,118 +2058,6 @@
     },
     {
       "type": "resources",
-      "id": "279354",
-      "name": "BarleyPorridgeEmptyPlate",
-      "category": "Intermediate",
-      "path": "resources/barleyporridgeemptyplate/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "279355",
-      "name": "Plate",
-      "category": "Intermediate",
-      "path": "resources/plate/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "279356",
-      "name": "AlmostStew",
-      "category": "Intermediate",
-      "path": "resources/almoststew/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "279357",
-      "name": "AlmostBarleyPorridge",
-      "category": "Intermediate",
-      "path": "resources/almostbarleyporridge/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "279358",
-      "name": "FoodReady",
-      "category": "Intermediate",
-      "path": "resources/foodready/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "279659",
-      "name": "Veggies Ready",
-      "category": "Intermediate",
-      "path": "resources/veggies-ready/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "279660",
-      "name": "Fruits Ready",
-      "category": "Intermediate",
-      "path": "resources/fruits-ready/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "279990",
-      "name": "SingleDough (1)",
-      "category": "Intermediate",
-      "path": "resources/singledough-1/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "280109",
-      "name": "Hammer - Iron",
-      "category": "Intermediate",
-      "path": "resources/hammer-iron/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "280313",
-      "name": "GrowingSapling",
-      "category": "Intermediate",
-      "path": "resources/growingsapling/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "280314",
-      "name": "Sapling",
-      "category": "Intermediate",
-      "path": "resources/sapling/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "281858",
-      "name": "PlankStep1",
-      "category": "Intermediate",
-      "path": "resources/plankstep1/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "281859",
-      "name": "PlankStep0",
-      "category": "Intermediate",
-      "path": "resources/plankstep0/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "281860",
-      "name": "PlankStep2",
-      "category": "Intermediate",
-      "path": "resources/plankstep2/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "281861",
       "name": "Water",
       "category": "Resource",
@@ -2506,106 +2066,10 @@
     },
     {
       "type": "resources",
-      "id": "281862",
-      "name": "PlankStep3",
-      "category": "Intermediate",
-      "path": "resources/plankstep3/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "281863",
-      "name": "WaterInBarrel",
-      "category": "Intermediate",
-      "path": "resources/waterinbarrel/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "282054",
-      "name": "Scythe - Iron",
-      "category": "Intermediate",
-      "path": "resources/scythe-iron/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "282458",
-      "name": "Page",
-      "category": "Intermediate",
-      "path": "resources/page/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "282459",
-      "name": "Manuscript",
-      "category": "Intermediate",
-      "path": "resources/manuscript/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "284024",
-      "name": "OvenBottle",
-      "category": "Intermediate",
-      "path": "resources/ovenbottle/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "284025",
-      "name": "RawBottle",
-      "category": "Intermediate",
-      "path": "resources/rawbottle/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "284026",
       "name": "Brick",
       "category": "Resource",
       "path": "resources/brick/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "284027",
-      "name": "DriedCanteen",
-      "category": "Intermediate",
-      "path": "resources/driedcanteen/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "284028",
-      "name": "DryingCanteen",
-      "category": "Intermediate",
-      "path": "resources/dryingcanteen/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "284029",
-      "name": "OvenCanteen",
-      "category": "Intermediate",
-      "path": "resources/ovencanteen/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "284030",
-      "name": "RawCanteen",
-      "category": "Intermediate",
-      "path": "resources/rawcanteen/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "284031",
-      "name": "AlmostCanteen",
-      "category": "Intermediate",
-      "path": "resources/almostcanteen/",
       "spoiler": false
     },
     {
@@ -2642,42 +2106,10 @@
     },
     {
       "type": "resources",
-      "id": "285894",
-      "name": "FermentedWineMust",
-      "category": "Intermediate",
-      "path": "resources/fermentedwinemust/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "285895",
-      "name": "MeadJar",
-      "category": "Intermediate",
-      "path": "resources/meadjar/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "285896",
-      "name": "DestiledMash",
-      "category": "Intermediate",
-      "path": "resources/destiledmash/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "285897",
       "name": "Wine",
       "category": "Resource",
       "path": "resources/wine/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "285898",
-      "name": "FermentedBeer",
-      "category": "Intermediate",
-      "path": "resources/fermentedbeer/",
       "spoiler": false
     },
     {
@@ -2690,66 +2122,10 @@
     },
     {
       "type": "resources",
-      "id": "285900",
-      "name": "BeerEmpty",
-      "category": "Intermediate",
-      "path": "resources/beerempty/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "285901",
       "name": "Beer",
       "category": "Resource",
       "path": "resources/beer/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "285902",
-      "name": "Empty House Drink",
-      "category": "Intermediate",
-      "path": "resources/empty-house-drink/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "285903",
-      "name": "TripleBeer",
-      "category": "Intermediate",
-      "path": "resources/triplebeer/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "285904",
-      "name": "WheatMash",
-      "category": "Intermediate",
-      "path": "resources/wheatmash/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "285905",
-      "name": "FermentedBeerInBucket",
-      "category": "Intermediate",
-      "path": "resources/fermentedbeerinbucket/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "285906",
-      "name": "BrewMust",
-      "category": "Intermediate",
-      "path": "resources/brewmust/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "285907",
-      "name": "HoneyMix",
-      "category": "Intermediate",
-      "path": "resources/honeymix/",
       "spoiler": false
     },
     {
@@ -2762,59 +2138,11 @@
     },
     {
       "type": "resources",
-      "id": "285909",
-      "name": "Empty Mead",
-      "category": "Intermediate",
-      "path": "resources/empty-mead/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "285910",
       "name": "Wheatshine",
       "category": "Resource",
       "path": "resources/wheatshine/",
       "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "285911",
-      "name": "PreparedMead",
-      "category": "Intermediate",
-      "path": "resources/preparedmead/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "285912",
-      "name": "FermentingMust",
-      "category": "Intermediate",
-      "path": "resources/fermentingmust/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "285913",
-      "name": "VodkaJar",
-      "category": "Intermediate",
-      "path": "resources/vodkajar/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "285914",
-      "name": "WineMust",
-      "category": "Intermediate",
-      "path": "resources/winemust/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "286342",
-      "name": "DriedPot",
-      "category": "Intermediate",
-      "path": "spoilers/resources/driedpot/",
-      "spoiler": true
     },
     {
       "type": "resources",
@@ -2834,107 +2162,11 @@
     },
     {
       "type": "resources",
-      "id": "286345",
-      "name": "JuiceInMold",
-      "category": "Intermediate",
-      "path": "resources/juiceinmold/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "286346",
-      "name": "Sliced Mushroom",
-      "category": "Intermediate",
-      "path": "spoilers/resources/sliced-mushroom/",
-      "spoiler": true
-    },
-    {
-      "type": "resources",
       "id": "286347",
       "name": "Nopalito",
       "category": "Resource",
       "path": "resources/nopalito/",
       "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "286348",
-      "name": "Mixture",
-      "category": "Intermediate",
-      "path": "spoilers/resources/mixture/",
-      "spoiler": true
-    },
-    {
-      "type": "resources",
-      "id": "286349",
-      "name": "WetPot",
-      "category": "Intermediate",
-      "path": "spoilers/resources/wetpot/",
-      "spoiler": true
-    },
-    {
-      "type": "resources",
-      "id": "286350",
-      "name": "StrogMix",
-      "category": "Intermediate",
-      "path": "spoilers/resources/strogmix/",
-      "spoiler": true
-    },
-    {
-      "type": "resources",
-      "id": "286351",
-      "name": "FruitJuiceForIcePop",
-      "category": "Intermediate",
-      "path": "resources/fruitjuiceforicepop/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "286352",
-      "name": "Almost Dried Meat",
-      "category": "Intermediate",
-      "path": "resources/almost-dried-meat/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "286353",
-      "name": "Chicken poop",
-      "category": "Intermediate",
-      "path": "resources/chicken-poop/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "286354",
-      "name": "Sliced Meat",
-      "category": "Intermediate",
-      "path": "resources/sliced-meat/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "286355",
-      "name": "FrozenJuice",
-      "category": "Intermediate",
-      "path": "resources/frozenjuice/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "286356",
-      "name": "Milk",
-      "category": "Intermediate",
-      "path": "resources/milk/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "286357",
-      "name": "ConcoctionReady",
-      "category": "Intermediate",
-      "path": "spoilers/resources/concoctionready/",
-      "spoiler": true
     },
     {
       "type": "resources",
@@ -2950,14 +2182,6 @@
       "name": "Egg",
       "category": "Resource",
       "path": "resources/egg-286359/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "286360",
-      "name": "Drying Meat",
-      "category": "Intermediate",
-      "path": "resources/drying-meat/",
       "spoiler": false
     },
     {
@@ -2978,14 +2202,6 @@
     },
     {
       "type": "resources",
-      "id": "286782",
-      "name": "FlourUnbagged",
-      "category": "Intermediate",
-      "path": "resources/flourunbagged/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "287118",
       "name": "Fondue",
       "category": "Food",
@@ -2994,42 +2210,10 @@
     },
     {
       "type": "resources",
-      "id": "287921",
-      "name": "IronHammerHead",
-      "category": "Intermediate",
-      "path": "resources/ironhammerhead/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "288580",
       "name": "Fondue",
       "category": "Food",
       "path": "food/fondue-288580/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "288633",
-      "name": "ToolBase",
-      "category": "Intermediate",
-      "path": "resources/toolbase/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "289706",
-      "name": "PaperBucket2",
-      "category": "Intermediate",
-      "path": "resources/paperbucket2/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "289804",
-      "name": "SingleDough (2)",
-      "category": "Intermediate",
-      "path": "resources/singledough-2/",
       "spoiler": false
     },
     {
@@ -3058,14 +2242,6 @@
     },
     {
       "type": "resources",
-      "id": "293925",
-      "name": "FoundryFire",
-      "category": "Intermediate",
-      "path": "resources/foundryfire/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "293926",
       "name": "Stone",
       "category": "Resource",
@@ -3074,74 +2250,10 @@
     },
     {
       "type": "resources",
-      "id": "293927",
-      "name": "RockDust",
-      "category": "Intermediate",
-      "path": "resources/rockdust/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "293928",
-      "name": "Heat",
-      "category": "Intermediate",
-      "path": "resources/heat/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "293929",
-      "name": "Iron",
-      "category": "Intermediate",
-      "path": "resources/iron/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "293930",
-      "name": "IronInOven",
-      "category": "Intermediate",
-      "path": "resources/ironinoven/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "293931",
-      "name": "Small Rock",
-      "category": "Intermediate",
-      "path": "resources/small-rock/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "293932",
-      "name": "Hot Iron",
-      "category": "Intermediate",
-      "path": "resources/hot-iron/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "294544",
-      "name": "GlassTrade",
-      "category": "Intermediate",
-      "path": "resources/glasstrade/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "294702",
       "name": "Fondue",
       "category": "Food",
       "path": "food/fondue-294702/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "295350",
-      "name": "IronFire",
-      "category": "Intermediate",
-      "path": "resources/ironfire/",
       "spoiler": false
     },
     {
@@ -3158,22 +2270,6 @@
       "name": "Fondue",
       "category": "Food",
       "path": "food/fondue-296315/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "297722",
-      "name": "Tweezers",
-      "category": "Intermediate",
-      "path": "resources/tweezers/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "300099",
-      "name": "Tweezers",
-      "category": "Intermediate",
-      "path": "resources/tweezers-300099/",
       "spoiler": false
     },
     {
@@ -3226,14 +2322,6 @@
     },
     {
       "type": "resources",
-      "id": "300129",
-      "name": "BootsReady",
-      "category": "Intermediate",
-      "path": "resources/bootsready/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "300130",
       "name": "Canteen",
       "category": "Resource",
@@ -3246,214 +2334,6 @@
       "name": "Pendant",
       "category": "Resource",
       "path": "resources/pendant/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "301712",
-      "name": "WoodChips",
-      "category": "Intermediate",
-      "path": "resources/woodchips/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "301713",
-      "name": "WetPaperOut",
-      "category": "Intermediate",
-      "path": "resources/wetpaperout/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "301714",
-      "name": "WoodChips 2",
-      "category": "Intermediate",
-      "path": "resources/woodchips-2/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "301715",
-      "name": "WetPaper",
-      "category": "Intermediate",
-      "path": "resources/wetpaper/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "301716",
-      "name": "WoodMush",
-      "category": "Intermediate",
-      "path": "resources/woodmush/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "301839",
-      "name": "Swimsuit",
-      "category": "Intermediate",
-      "path": "resources/swimsuit/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "302384",
-      "name": "Tweezers",
-      "category": "Intermediate",
-      "path": "resources/tweezers-302384/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "302953",
-      "name": "ClayStep2Wet",
-      "category": "Intermediate",
-      "path": "resources/claystep2wet/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "302954",
-      "name": "ProcHoney",
-      "category": "Intermediate",
-      "path": "resources/prochoney/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "302955",
-      "name": "ClayStep1Filtered",
-      "category": "Intermediate",
-      "path": "resources/claystep1filtered/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "302956",
-      "name": "RawHoney",
-      "category": "Intermediate",
-      "path": "resources/rawhoney/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "302957",
-      "name": "ClayStep3Dry",
-      "category": "Intermediate",
-      "path": "resources/claystep3dry/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "302958",
-      "name": "ClayStep0Unfiltered",
-      "category": "Intermediate",
-      "path": "resources/claystep0unfiltered/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "302996",
-      "name": "Brick1Dry",
-      "category": "Intermediate",
-      "path": "resources/brick1dry/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "302997",
-      "name": "CrucibleFull",
-      "category": "Intermediate",
-      "path": "resources/cruciblefull/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "302998",
-      "name": "Beam Complete",
-      "category": "Intermediate",
-      "path": "resources/beam-complete/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "302999",
-      "name": "StoneReady",
-      "category": "Intermediate",
-      "path": "resources/stoneready/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "303000",
-      "name": "CrucibleInOven",
-      "category": "Intermediate",
-      "path": "resources/crucibleinoven/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "303001",
-      "name": "HotCrucible",
-      "category": "Intermediate",
-      "path": "resources/hotcrucible/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "303002",
-      "name": "CrucibleInOvenReady",
-      "category": "Intermediate",
-      "path": "resources/crucibleinovenready/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "303003",
-      "name": "Beam Step 1",
-      "category": "Intermediate",
-      "path": "resources/beam-step-1/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "303004",
-      "name": "Column Step 1",
-      "category": "Intermediate",
-      "path": "resources/column-step-1/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "303005",
-      "name": "Column Complete",
-      "category": "Intermediate",
-      "path": "resources/column-complete/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "303006",
-      "name": "ColdCrucible",
-      "category": "Intermediate",
-      "path": "resources/coldcrucible/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "303007",
-      "name": "Sand",
-      "category": "Intermediate",
-      "path": "resources/sand/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "303008",
-      "name": "Beam Step 2",
-      "category": "Intermediate",
-      "path": "resources/beam-step-2/",
       "spoiler": false
     },
     {
@@ -3490,14 +2370,6 @@
     },
     {
       "type": "resources",
-      "id": "304437",
-      "name": "Hoe - Wood",
-      "category": "Intermediate",
-      "path": "resources/hoe-wood/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "304504",
       "name": "Fondue",
       "category": "Food",
@@ -3510,54 +2382,6 @@
       "name": "Fondue",
       "category": "Food",
       "path": "food/fondue-305506/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "305548",
-      "name": "AnimalHideTrade",
-      "category": "Intermediate",
-      "path": "resources/animalhidetrade/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "305906",
-      "name": "SingleDough",
-      "category": "Intermediate",
-      "path": "resources/singledough/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "307739",
-      "name": "IronAxeHead",
-      "category": "Intermediate",
-      "path": "resources/ironaxehead/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "307918",
-      "name": "CookieTray",
-      "category": "Intermediate",
-      "path": "resources/cookietray/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "307919",
-      "name": "Axe - Iron",
-      "category": "Intermediate",
-      "path": "resources/axe-iron/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "307920",
-      "name": "Fishing Net",
-      "category": "Intermediate",
-      "path": "resources/fishing-net/",
       "spoiler": false
     },
     {
@@ -3586,50 +2410,10 @@
     },
     {
       "type": "resources",
-      "id": "308080",
-      "name": "WineBottle",
-      "category": "Intermediate",
-      "path": "resources/winebottle/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "308081",
-      "name": "AlmostBottle",
-      "category": "Intermediate",
-      "path": "resources/almostbottle/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "309165",
-      "name": "GlassKnapped",
-      "category": "Intermediate",
-      "path": "resources/glassknapped/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "309166",
       "name": "Glass Pane",
       "category": "Resource",
       "path": "resources/glass-pane/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "309167",
-      "name": "GlassGrinded",
-      "category": "Intermediate",
-      "path": "resources/glassgrinded/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "309168",
-      "name": "GlassReady",
-      "category": "Intermediate",
-      "path": "resources/glassready/",
       "spoiler": false
     },
     {
@@ -3642,50 +2426,10 @@
     },
     {
       "type": "resources",
-      "id": "309170",
-      "name": "GlassKnappedReady",
-      "category": "Intermediate",
-      "path": "resources/glassknappedready/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "309486",
       "name": "Fondue",
       "category": "Food",
       "path": "food/fondue-309486/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "309894",
-      "name": "Scythe - Rock",
-      "category": "Intermediate",
-      "path": "resources/scythe-rock/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "309992",
-      "name": "Stereotype",
-      "category": "Intermediate",
-      "path": "resources/stereotype/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "309993",
-      "name": "NewspaperSeveral",
-      "category": "Intermediate",
-      "path": "resources/newspaperseveral/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "309994",
-      "name": "News",
-      "category": "Intermediate",
-      "path": "resources/news/",
       "spoiler": false
     },
     {
@@ -3706,38 +2450,6 @@
     },
     {
       "type": "resources",
-      "id": "311113",
-      "name": "BrickStep0Mold",
-      "category": "Intermediate",
-      "path": "resources/brickstep0mold/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "311456",
-      "name": "FoundryTray",
-      "category": "Intermediate",
-      "path": "resources/foundrytray/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "311697",
-      "name": "BrickBurnt",
-      "category": "Intermediate",
-      "path": "resources/brickburnt/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "311698",
-      "name": "BrickFire",
-      "category": "Intermediate",
-      "path": "resources/brickfire/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "312275",
       "name": "Fondue",
       "category": "Food",
@@ -3754,50 +2466,10 @@
     },
     {
       "type": "resources",
-      "id": "314335",
-      "name": "SingleDough (3)",
-      "category": "Intermediate",
-      "path": "resources/singledough-3/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "314656",
-      "name": "WoodChips 3",
-      "category": "Intermediate",
-      "path": "resources/woodchips-3/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "314863",
       "name": "Fondue",
       "category": "Food",
       "path": "food/fondue-314863/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "315424",
-      "name": "Brick0Wet",
-      "category": "Intermediate",
-      "path": "resources/brick0wet/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "315859",
-      "name": "IronScytheHead",
-      "category": "Intermediate",
-      "path": "resources/ironscythehead/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "318218",
-      "name": "SeedBag",
-      "category": "Intermediate",
-      "path": "resources/seedbag/",
       "spoiler": false
     },
     {
@@ -3810,66 +2482,10 @@
     },
     {
       "type": "resources",
-      "id": "319665",
-      "name": "Dry Cheese almost",
-      "category": "Intermediate",
-      "path": "resources/dry-cheese-almost/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319666",
-      "name": "WoodReady",
-      "category": "Intermediate",
-      "path": "resources/woodready/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "319667",
       "name": "Bread",
       "category": "Food",
       "path": "food/bread/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319668",
-      "name": "BreadInOven",
-      "category": "Intermediate",
-      "path": "resources/breadinoven/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319669",
-      "name": "RolledDough",
-      "category": "Intermediate",
-      "path": "resources/rolleddough/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319670",
-      "name": "OvenCookies",
-      "category": "Intermediate",
-      "path": "resources/ovencookies/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319671",
-      "name": "Cheese Wheel",
-      "category": "Intermediate",
-      "path": "resources/cheese-wheel/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319672",
-      "name": "SingleDough",
-      "category": "Intermediate",
-      "path": "resources/singledough-319672/",
       "spoiler": false
     },
     {
@@ -3882,43 +2498,11 @@
     },
     {
       "type": "resources",
-      "id": "319674",
-      "name": "RawCookies",
-      "category": "Intermediate",
-      "path": "resources/rawcookies/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319675",
-      "name": "Molten Cheese",
-      "category": "Intermediate",
-      "path": "resources/molten-cheese/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "319676",
       "name": "Stroganoff",
       "category": "Food",
       "path": "spoilers/food/stroganoff/",
       "spoiler": true
-    },
-    {
-      "type": "resources",
-      "id": "319677",
-      "name": "Dry Cheese mold",
-      "category": "Intermediate",
-      "path": "resources/dry-cheese-mold/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319678",
-      "name": "TannedLeather",
-      "category": "Intermediate",
-      "path": "resources/tannedleather/",
-      "spoiler": false
     },
     {
       "type": "resources",
@@ -3938,22 +2522,6 @@
     },
     {
       "type": "resources",
-      "id": "319681",
-      "name": "Neck",
-      "category": "Intermediate",
-      "path": "resources/neck/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319682",
-      "name": "SingleBoot",
-      "category": "Intermediate",
-      "path": "resources/singleboot/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "319683",
       "name": "Cheese",
       "category": "Food",
@@ -3962,250 +2530,10 @@
     },
     {
       "type": "resources",
-      "id": "319684",
-      "name": "TreatedLeather",
-      "category": "Intermediate",
-      "path": "resources/treatedleather/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319685",
-      "name": "TanningAgent",
-      "category": "Intermediate",
-      "path": "resources/tanningagent/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319686",
-      "name": "Milk",
-      "category": "Intermediate",
-      "path": "resources/milk-319686/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319687",
-      "name": "MultipleBread",
-      "category": "Intermediate",
-      "path": "resources/multiplebread/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319688",
-      "name": "BigDough",
-      "category": "Intermediate",
-      "path": "resources/bigdough/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319689",
-      "name": "Top",
-      "category": "Intermediate",
-      "path": "resources/top/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319690",
-      "name": "SingleDoughInOven",
-      "category": "Intermediate",
-      "path": "resources/singledoughinoven/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319691",
-      "name": "Wet Cheese",
-      "category": "Intermediate",
-      "path": "resources/wet-cheese/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319692",
-      "name": "AnimalHideReady",
-      "category": "Intermediate",
-      "path": "resources/animalhideready/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319693",
-      "name": "Dry Cheese",
-      "category": "Intermediate",
-      "path": "resources/dry-cheese/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319694",
-      "name": "Chopped Veggies",
-      "category": "Intermediate",
-      "path": "resources/chopped-veggies/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319695",
-      "name": "Back",
-      "category": "Intermediate",
-      "path": "resources/back/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "319696",
       "name": "Gingerbread Man",
       "category": "Food",
       "path": "food/gingerbread-man/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319697",
-      "name": "CuttedLeather",
-      "category": "Intermediate",
-      "path": "resources/cuttedleather/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319698",
-      "name": "OvenCookiesDone",
-      "category": "Intermediate",
-      "path": "resources/ovencookiesdone/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319699",
-      "name": "TanningWater",
-      "category": "Intermediate",
-      "path": "resources/tanningwater/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319700",
-      "name": "Wheelbarrow",
-      "category": "Intermediate",
-      "path": "resources/wheelbarrow/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319701",
-      "name": "HunterTrapFull",
-      "category": "Intermediate",
-      "path": "resources/huntertrapfull/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319702",
-      "name": "PaperBucket",
-      "category": "Intermediate",
-      "path": "resources/paperbucket/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319703",
-      "name": "CheeseMakerBucket",
-      "category": "Intermediate",
-      "path": "resources/cheesemakerbucket/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319704",
-      "name": "Cooking Pot",
-      "category": "Intermediate",
-      "path": "resources/cooking-pot/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319705",
-      "name": "Pick",
-      "category": "Intermediate",
-      "path": "resources/pick/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319706",
-      "name": "HuntersSwampTrap",
-      "category": "Intermediate",
-      "path": "spoilers/resources/huntersswamptrap/",
-      "spoiler": true
-    },
-    {
-      "type": "resources",
-      "id": "319707",
-      "name": "GlassMakerBucket",
-      "category": "Intermediate",
-      "path": "resources/glassmakerbucket/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319708",
-      "name": "PaperMold",
-      "category": "Intermediate",
-      "path": "resources/papermold/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319709",
-      "name": "ClayStep0Bucket",
-      "category": "Intermediate",
-      "path": "resources/claystep0bucket/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319710",
-      "name": "Basket",
-      "category": "Intermediate",
-      "path": "resources/basket/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319711",
-      "name": "HuntersSwampTrapFull",
-      "category": "Intermediate",
-      "path": "spoilers/resources/huntersswamptrapfull/",
-      "spoiler": true
-    },
-    {
-      "type": "resources",
-      "id": "319712",
-      "name": "FoundryTray",
-      "category": "Intermediate",
-      "path": "resources/foundrytray-319712/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319713",
-      "name": "Axe - Rock",
-      "category": "Intermediate",
-      "path": "resources/axe-rock/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "319714",
-      "name": "HunterTrap",
-      "category": "Intermediate",
-      "path": "resources/huntertrap/",
       "spoiler": false
     },
     {
@@ -4226,66 +2554,10 @@
     },
     {
       "type": "resources",
-      "id": "320589",
-      "name": "WheatTrade",
-      "category": "Intermediate",
-      "path": "resources/wheattrade/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "320812",
-      "name": "BarleyReady",
-      "category": "Intermediate",
-      "path": "resources/barleyready/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
       "id": "320813",
       "name": "Wheat",
       "category": "Resource",
       "path": "resources/wheat/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "320814",
-      "name": "BarleyPlant",
-      "category": "Intermediate",
-      "path": "resources/barleyplant/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "320815",
-      "name": "BarleySeed",
-      "category": "Intermediate",
-      "path": "resources/barleyseed/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "320816",
-      "name": "Barley",
-      "category": "Intermediate",
-      "path": "resources/barley/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "320905",
-      "name": "ResourceBase",
-      "category": "Intermediate",
-      "path": "resources/resourcebase/",
-      "spoiler": false
-    },
-    {
-      "type": "resources",
-      "id": "322436",
-      "name": "WineGlassEmpty",
-      "category": "Intermediate",
-      "path": "resources/wineglassempty/",
       "spoiler": false
     },
     {
