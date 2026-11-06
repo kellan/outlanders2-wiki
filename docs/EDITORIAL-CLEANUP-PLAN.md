@@ -94,4 +94,4 @@ In priority order: Fun and the other need pages, Farm and the ten most-built bui
 
 ## Progress
 
-- Step 1, first part (PR 101): production-step pages and plant chain pages redirect; research pages noindex and out of the sitemap. Duplicate-ID pages and unnamed archive maps are still to do.
+- Step 1 (PR 101): done. Production-step pages, plant chain pages, same-name copies and unnamed maps redirect; research pages noindex and out of the sitemap. Biome Trading Outposts deliberately keep separate pages.
