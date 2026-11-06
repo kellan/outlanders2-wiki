@@ -1,6 +1,6 @@
 ## Fun: Book base level and Newspapers (2026-11-06)
 
-The maintainer shared a screenshot of a player's post on the Outlanders community Discord (5 November 2026). The player's name is left out. The post says:
+A player posted on the Outlanders community Discord (5 November 2026); players are not named here. The post says:
 - Books give a base Fun level of 80 when carried by a villager.
 - Fun is satisfied at 90.
 - A Newspaper grants 25 Fun, but Fun falls by 20 each day.
@@ -29,7 +29,7 @@ The maintainer pointed out what matters: you cannot reach full happiness with Bo
 - The Fun page's worked example now leads with "Books alone cannot meet it".
 
 **Second correction: Newspapers alone can do it**
-Later Discord posts (6 November 2026, shared by the maintainer):
+Later Discord posts (6 November 2026):
 - Villagers keep reading while they have free time; one read three Newspapers in a day.
 - Four villagers in one house with 12 Newspapers and no jobs were full within a day or two.
 - Players switch from Books to Newspapers: they are faster to make and need no Trappers' Hut.
