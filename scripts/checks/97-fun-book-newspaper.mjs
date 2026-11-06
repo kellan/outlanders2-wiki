@@ -1,4 +1,4 @@
-// PR 96: player report that a Book holds Fun at about 80 and that Newspapers alone take 18 days to meet Fun; both fit the stored values.
+// PR 97: player report that a Book holds Fun at about 80 and that Newspapers alone take 18 days to meet Fun; both fit the stored values.
 import assert from 'node:assert/strict';import {harness} from '../render-harness.mjs';
 const h=await harness(),strip=s=>s.replace(/<script[\s\S]*?<\/script>/g,'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');
 const fun=strip(h.render('needs/fun/')),gear=strip(h.render('gear/'));
