@@ -1,0 +1,1 @@
+Gear never meets a need on its own: a carried Book, Ukulele, Canteen, Pendant or Coat only stops its need falling below 79, and a need counts as met at 90. For Fun, Newspapers can do it alone if you make enough, because villagers keep reading in their free time until Fun reaches 130, and they are cheaper than Books. Level pages now list what can meet each need on that map (97).

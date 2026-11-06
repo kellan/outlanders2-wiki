@@ -1,0 +1,16 @@
+{
+  "id": "book-fun-base-80",
+  "target": {
+    "type": "mechanics",
+    "id": "gear"
+  },
+  "claim": "A Book carried by a villager gives a base Fun level of about 80. Fun counts as met at 90, so a Book alone does not meet it; a Newspaper on top does.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "31 (255)",
+    "date": "2026-11-05",
+    "reference": "Player post on the Outlanders community Discord, 5 November 2026."
+  },
+  "notes": "Confirmed in the game code (version 31): the needs job adds each carried item's BaseValueIncrease to the need's MinValue (0 + 79 for the Book), and Need.Consume clamps the meter to that floor. The floor is 79, matching the player's 'about 80'. Every gear item ends at 79 (the Coat adds 129 to Heat's −50)."
+}
