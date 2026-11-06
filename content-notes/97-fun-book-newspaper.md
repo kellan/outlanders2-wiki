@@ -20,3 +20,10 @@ The maintainer shared a screenshot of a player's post on the Outlanders communit
 - The Fun page gains a worked example built from the stored values.
 - The Gear page's open note now gives the reported reading.
 - The INFORMATION-NEEDED gear row now records the report and what is left to check: Ukulele, Canteen and Pendant at 79, and the Coat at 129.
+
+**Follow-up: the strategic point**
+The maintainer pointed out what matters: you cannot reach full happiness with Books alone. That is relevant to the 5–6 November Redux challenge "Legally Safe Ape Island", where Books and Newspapers are the only Fun sources.
+- Level pages: the "Villager needs" table gains a "What can meet it here" column. It lists the items made by buildable buildings that carry the need's units, the carried gear, the gathering places whose spots give the need, and, for Heat, the Bonfire and Winter Cabin.
+- Level pages where the Book is the carried Fun option get a "Books alone will not do it" tip that names the other Fun sources on that map.
+- The Book and Newspaper pages each get a one-line tip.
+- The Fun page's worked example now leads with "Books alone cannot meet it".
