@@ -4,7 +4,7 @@
     "type": "mechanics",
     "id": "recycling"
   },
-  "claim": "Players fake-recycle buildings. Marking a building for recycling and leaving it unstaffed stops villagers from going there, which saves travel. Marking a full building to get its stock unloaded, then cancelling before it is demolished, empties it so it can work again.",
+  "claim": "Players fake-recycle buildings. Marking a building for recycling and leaving it unstaffed stops villagers from going there, which saves travel. Marking a full building to get its stock unloaded, then cancelling before it is demolished, empties it so it can work again. To time the cancel, players count the items left or watch the stock on the building itself, such as the Ice Pops still on the counter.",
   "status": "confirmed",
   "evidence": {
     "kind": "player-report",

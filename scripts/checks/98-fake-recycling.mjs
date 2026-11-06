@@ -5,5 +5,6 @@ const t=strip(h.render('recycling/'));
 assert.ok(t.includes('Fake recycling')&&t.includes('Mark it and leave it unstaffed: villagers stop going there')&&t.includes('Mark it to empty it, then cancel'),'both tricks');
 assert.ok(t.includes('Demolition starts the moment the last kept item leaves. It needs only 10 rounds per spot (5 on smaller sites) of about 0.65 seconds each'),'timing from the timing model');
 assert.ok(t.includes('ingredients and part-made items untouched'),'cancel keeps the rest');
+assert.ok(t.includes('like the Ice Pops on an Ice Pop Stand’s counter, so cancel when the last few are left'),'how to see what is left');
 assert.ok(t.includes('Players fake-recycle buildings')&&t.indexOf('Fake recycling')<t.indexOf('Every building'),'player report shown, section before the table');
 console.log('PASS: fake recycling tricks on the Recycling page.');

@@ -21,3 +21,5 @@ The maintainer described two common player tricks:
 - Check 98.
 
 **Not checked:** whether the recycle can be cancelled while the game is paused.
+
+**Timing tip (maintainer):** to know when to cancel, count the items left, or look at the building. The kept stock is drawn on the building, for example the Ice Pops on the counter. This fits the data: kept piles are visible piles (`PileVisualBehaviour`) on the building.
