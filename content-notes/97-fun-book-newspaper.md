@@ -37,3 +37,18 @@ Later Discord posts (6 November 2026, shared by the maintainer):
 The "18 days" only holds at one Newspaper a day, and the earlier "you need both" does not hold when Newspapers are plentiful. Recipes back it up: the Press makes 6 Newspapers from 2 Paper, while the Book Workshop needs 2 Paper plus an Animal Hide for one Book.
 - New observation `newspapers-read-several-a-day`; the 18-day observation now notes its assumption.
 - The level tip, the Book and Newspaper tips and the Fun worked example now say: Books alone cannot meet Fun, and Newspapers can if there are enough. Three a day is 55 net, under two days from empty.
+
+**Third pass: checked in the game code** (the maintainer asked not to take player reports on trust)
+- **Gear floor (confirmed).** In `NeedsSystem.NeedsSystem_Job.OriginalLambdaBody`, for each need, the job walks the villager's gear buffer. For each item whose `Need` matches, it adds that gear's `BaseValueIncrease` to the copied `NeedConfig.MinValue` before `Animal.SubstractNeedValue`. `Need.Consume` clamps the value to [MinValue, MaxValue].
+  - So a carried Book makes Fun's floor 0 + 79 = 79. The player's "about 80" is right; the wiki now says 79.
+  - Every gear item ends at 79: Ukulele, Book, Canteen and Pendant are 0 + 79, and the Coat is −50 + 129 for Heat.
+  - All are 11 short of the 90 "met" threshold, so gear alone never meets a need.
+- **Decay.** Each tick removes `DailyRequired × (product of active multipliers) × dt / 300`.
+- **Need status** (`Need.GetStatus`): Full at 130 or more, Satisfied at 90 or more, Critical only for needs with a death value, Low only for needs with a low value, otherwise Wanting.
+- **When villagers read** (confirmed in part):
+  - `ActivityConsumeResource` Fun priority is 0.4 (Wanting), 0.3 (Satisfied) and 0 (Full), so villagers keep wanting Fun until 130.
+  - `VillagerBehaviour.ShouldConsume` returns false for a villager who should be working unless the need is critical; Fun has no critical level, so reading happens only in free time.
+  - `VillagersByNeedSystem.ShouldConsume` shares the available items, needier villagers first.
+  - This explains why taking villagers off jobs helps. The "three a day" itself is not checked.
+- **Recipes** (confirmed from field-guide data): Press 2 Paper → 6 Newspapers; Book Workshop 2 Paper + 1 Animal Hide → 1 Book.
+- **Page changes:** the Gear page states the floor rule as decoded ("every floor is 79; gear alone never meets a need"). The tips say "stops Fun falling below 79" and "keep wanting Fun until 130, read in free time". The INFORMATION-NEEDED gear row is marked answered.

@@ -13,5 +13,5 @@
     "date": "2026-11-06",
     "reference": "Player posts on the Outlanders community Discord, 6 November 2026, shared by the maintainer as a screenshot."
   },
-  "notes": "Fits the stored values. Three Newspapers is 75 Fun against a fall of 20 a day, so under two days from empty. The Press makes 6 Newspapers from 2 Paper; the Book Workshop needs 2 Paper and an Animal Hide per Book. How many a villager reads in a day is not stored: it depends on free time."
+  "notes": "Fits the stored values. Three Newspapers is 75 Fun against a fall of 20 a day, so under two days from empty. The Press makes 6 Newspapers from 2 Paper; the Book Workshop needs 2 Paper and an Animal Hide per Book. How many a villager reads in a day is not stored: it depends on free time. From the code: villagers keep wanting Fun until 130 (Full). ActivityConsumeResource's Fun priority is 0.4 below 90, 0.3 from 90 to 130 and 0 at 130. VillagerBehaviour.ShouldConsume refuses villagers who should be working unless the need is critical, and Fun has no critical level, so reading happens only in free time. That is why taking villagers off their jobs speeds it up. The 'three in a day' is not checked."
 }

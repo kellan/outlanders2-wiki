@@ -12,5 +12,5 @@
     "date": "2026-11-05",
     "reference": "Player post on the Outlanders community Discord, 5 November 2026, shared by the maintainer as a screenshot on 6 November 2026."
   },
-  "notes": "The game files store a base increase of 79 for the Book's Fun. The report fits that number being a floor the meter rests at while the Book is carried. Not yet confirmed for the other 79-point items (Ukulele, Canteen, Pendant) or the Coat (129)."
+  "notes": "Confirmed in the game code (version 31): the needs job adds each carried item's BaseValueIncrease to the need's MinValue (0 + 79 for the Book), and Need.Consume clamps the meter to that floor. The floor is 79, matching the player's 'about 80'. Every gear item ends at 79 (the Coat adds 129 to Heat's −50)."
 }

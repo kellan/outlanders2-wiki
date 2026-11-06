@@ -5,8 +5,9 @@ const fun=strip(h.render('needs/fun/')),gear=strip(h.render('gear/'));
 assert.ok(fun.includes('One a day adds only 5 a day net (about 18 days from empty)')&&fun.includes('which is 55 a day net and under two days from empty'),'worked example from stored values');
 assert.ok(fun.includes('Seen in play')&&fun.includes('about 18 days to reach the 90 needed'),'newspaper report on the Fun page');
 assert.ok(!strip(h.render('eating/')).includes('about 18 days to reach the 90'),'kept off the eating page');
-assert.ok(gear.includes('Players report that a Book holds Fun at about 80')&&gear.includes('A Book carried by a villager gives a base Fun level of about 80'),'book report on the Gear page');
-assert.ok(!gear.includes('raises its cap or slows its fall'),'old open wording replaced');
+assert.ok(gear.includes('Gear sets a floor, and every floor is 79.')&&gear.includes('gear alone never meets a need')&&gear.includes('A Book carried by a villager gives a base Fun level of about 80'),'decoded floor rule and the player report on the Gear page');
+assert.ok(!gear.includes('raises its cap or slows its fall')&&!gear.includes('has not been read'),'old open wording replaced');
+assert.ok(!/about 80/.test(fun)&&!/about 80/.test(strip(h.render('resources/book/'))),'pages use the decoded 79, not the reported 80');
 // Level pages: what can meet each need on the map, and the Books-alone warning (today's "Legally Safe Ape Island" Redux).
 const ape=strip(h.render('challenges/redux/legally-safe-ape-island-redux/'));
 assert.ok(/Fun Yes Newspaper , Book \(carried\)/.test(ape),'fun sources on the map');
