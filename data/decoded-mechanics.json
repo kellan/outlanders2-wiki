@@ -40222,16 +40222,41 @@
         "note": "Confirmed for footprints only; that walking distances use the same unit is not yet checked."
       },
       "handling_seconds": {
-        "value": 1,
+        "value": 1.32,
         "unit": "s",
-        "source": "PickUpDrop_* animation clips run 1.0-1.3 s; one pick-up and one drop per trip",
-        "status": "assumed"
+        "source": "AnimationSet_2Hands PickUp_2HandsGround / Drop_2HandsGround clip length (212 of the carriable items use this set); one pick-up and one drop per trip",
+        "status": "decoded",
+        "note": "Slower exceptions: handling_shoulder_seconds (Logs, Glass) and the sack pick-up/drop (Wheat, Flour, Barley). The simulator plays each clip."
+      },
+      "handling_shoulder_seconds": {
+        "value": 3.58,
+        "unit": "s",
+        "source": "AnimationSet_Shoulder PickUp_ShoulderGround / Drop_ShoulderGround clip length (Logs, Glass: 7 items); 1.32 s at a work table",
+        "status": "decoded"
+      },
+      "handling_sack_pickup_seconds": {
+        "value": 3.58,
+        "unit": "s",
+        "source": "AnimationSet_Flour PickUp from the ground (Wheat, Flour, Barley: 7 items)",
+        "status": "decoded"
+      },
+      "handling_sack_drop_seconds": {
+        "value": 2.67,
+        "unit": "s",
+        "source": "AnimationSet_Flour Drop on the ground",
+        "status": "decoded"
+      },
+      "handling_one_hand_seconds": {
+        "value": 1.65,
+        "unit": "s",
+        "source": "AnimationSet_1Hand PickUp/Drop clip length (tools, bottles: 14 items)",
+        "status": "decoded"
       },
       "items_per_trip": {
         "value": 1,
         "unit": "items",
-        "source": "Villagers carry one item unless holding a container",
-        "status": "assumed"
+        "source": "Without a container a villager carries one item (ActivityBringResourceToWorkspot and the store activities pick up one); with a held container it picks up items until the container is full, checking each pick-up against the shift (ActivityBringResourceToWorkspot/<GetOrLeaveContainer>d__48, ported in tools/villageport/activities_work.py)",
+        "status": "decoded"
       },
       "wheelbarrow_capacity": {
         "value": 4,
