@@ -29,11 +29,11 @@ function crumbs(content,site){const m=content.match(/<div class="crumbs">([\s\S]
 
 function image(content,site,canonical){const m=content.match(/<div class="detail-icon">[\s\S]*?<img[^>]+src="([^"]+)"/)||content.match(/<img class="[^"]*detail-(?:portrait|landscape)[^"]*"[^>]+src="([^"]+)"/);return new URL(m?m[1]:DEFAULT_IMAGE,m&&!m[1].startsWith('/')?canonical:site+'/').href}
 
-export function headTags({site,route,canonicalRoute,title,content,description,isAlias}){
+export function headTags({site,route,canonicalRoute,title,content,description,isAlias,research}){
  const canonical=site+'/'+canonicalRoute,img=image(content,site,canonical),bc=crumbs(content,site);
  const graph=[{'@type':'WebSite','@id':site+'/#website',name:SITE_NAME,url:site+'/',inLanguage:'en',about:GAME},{'@type':route?'WebPage':'WebSite','@id':canonical+'#page',url:canonical,name:title,description,isPartOf:{'@id':site+'/#website'},about:GAME,inLanguage:'en',...(bc.length?{breadcrumb:{'@id':canonical+'#breadcrumb'}}:{})}];
  if(bc.length)graph.push({'@type':'BreadcrumbList','@id':canonical+'#breadcrumb',itemListElement:bc.map((c,i)=>({'@type':'ListItem',position:i+1,name:c.name,...(c.url?{item:c.url}:{})}))});
- return [`<link rel="canonical" href="${attr(canonical)}">`,isAlias?'<meta name="robots" content="noindex, follow">':'',
+ return [`<link rel="canonical" href="${attr(canonical)}">`,isAlias||research?'<meta name="robots" content="noindex, follow">':'',
   `<meta property="og:site_name" content="${SITE_NAME}">`,`<meta property="og:type" content="${route?'article':'website'}">`,`<meta property="og:title" content="${attr(title)}">`,`<meta property="og:description" content="${attr(description)}">`,`<meta property="og:url" content="${attr(canonical)}">`,`<meta property="og:image" content="${attr(img)}">`,
   '<meta name="twitter:card" content="summary">',`<meta name="twitter:title" content="${attr(title)}">`,`<meta name="twitter:description" content="${attr(description)}">`,
   `<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\\u003c')}</script>`].filter(Boolean).join('');
@@ -44,12 +44,14 @@ const TYPE_TITLES={buildings:'Buildings',plants:'Plants',resources:'Resources',c
 
 export function writeSiteFiles({root,site,pages,descriptions,notFoundHtml}){
  const canon=pages.filter(p=>!p.spoiler);
- fs.writeFileSync(root+'sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages.map(p=>`<url><loc>${site}/${p.path.replace(/&/g,'&amp;')}</loc></url>`).join('\n')}\n</urlset>\n`);
+ // Research pages are evidence for editors, kept out of search engines (noindex) and the sitemap.
+ const listed=pages.filter(p=>p.type!=='evidence'&&p.type!=='verification'&&!p.path.startsWith('verification/'));
+ fs.writeFileSync(root+'sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${listed.map(p=>`<url><loc>${site}/${p.path.replace(/&/g,'&amp;')}</loc></url>`).join('\n')}\n</urlset>\n`);
  fs.writeFileSync(root+'robots.txt',`# Search engines and AI assistants are welcome to read and cite this wiki.\nUser-agent: *\nAllow: /\n\nSitemap: ${site}/sitemap.xml\n`);
  const data=fs.readdirSync(root+'data').filter(f=>f.endsWith('.json')).sort();
  const groups=Object.entries(TYPE_TITLES).map(([t,title])=>[title,canon.filter(p=>p.type===t&&p.id&&!p.path.startsWith('verification/'))]).filter(([,ps])=>ps.length);
  const line=p=>`- [${p.name}](${site}/${p.path})${descriptions[p.path]?': '+descriptions[p.path].replace(/^.*?\(Outlanders 2\): /,''):''}`;
  fs.writeFileSync(root+'llms.txt',`# ${SITE_NAME}\n\n> An unofficial, evidence-backed reference for the city-builder Outlanders 2 by Pomelo Games: buildings, plants, resources, food, production chains, villager needs, campaigns, challenge levels, biomes and leaders. Values come from the game's own files (version 31, build 255) and are labelled when they have not been checked in play.\n\nEvery page is static HTML at a clean URL. Each article links to a "Sources & research" page with the evidence behind it, under ${site}/verification/.\n\n## Sections\n\n${SECTIONS.map(([p,n])=>`- [${n}](${site}/${p?p+'/':''})`).join('\n')}\n\n## Data downloads\n\nThe complete datasets behind the pages, as JSON:\n\n${data.map(f=>`- [${f}](${site}/data/${f})`).join('\n')}\n\n${groups.map(([title,ps])=>`## ${title}\n\n${ps.map(line).join('\n')}`).join('\n\n')}\n\n## Optional\n\n- [Spoilers](${site}/spoilers/): content in the game files that is not yet released\n- [Contribute](${site}/contribute/): how to report a correction or add a strategy\n`);
  fs.writeFileSync(root+'404.html',notFoundHtml);
- return {sitemap:pages.length,llms:groups.reduce((n,[,ps])=>n+ps.length,0)};
+ return {sitemap:listed.length,llms:groups.reduce((n,[,ps])=>n+ps.length,0)};
 }

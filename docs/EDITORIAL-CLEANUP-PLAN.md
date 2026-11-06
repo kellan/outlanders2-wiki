@@ -34,7 +34,7 @@ Counts are canonical reader pages in the current build.
 | Biome pages | 7 | **Rewrite lead and hedges** | Say what the biome is like to play (needs it switches on, crops, hazards) first. |
 | Mechanics and need pages | 21 | **Hand edit** | Mostly good. Fun first: short lead, code class names out of "Seen in play", remove the contradictory "unverified" paragraph. |
 | Leader pages | 15 | **Keep** | Thin but clean. |
-| Research pages (`/verification/…`) | 935 | **Keep, take out of the sitemap** | They are evidence and should stay public, but they are 905 of the 1,857 sitemap URLs and compete with reader pages in search engines. Keep them in the site search under their own tab. |
+| Research pages (`/verification/…`) | 935 | **Keep, hide from search engines** | They are evidence and stay public, linked from each article, but carry `noindex` and are left out of the sitemap (they were 905 of its 1,857 URLs). They were already out of site search. |
 
 Phase 1 alone takes roughly 380 pages off the reader surface (production-step pages, all chain pages, duplicates, unnamed maps) without losing a fact: everything stays reachable from research pages, and every old URL redirects.
 
@@ -53,7 +53,7 @@ Each step is one pull request with the repository's usual numbered `changelog/un
 
 - Production-step resources, plant chains, duplicate IDs and unnamed archive maps become redirects.
 - Remove them from the A–Z index, search, sitemap, `llms.txt` and related lists.
-- Remove research pages from the sitemap.
+- Research pages: `noindex` and out of the sitemap.
 - **Check:** no reader page title or link text matches an internal-name pattern (CamelCase with no space, `Step0`, `-123456` suffixes, "Unnamed scenario"); every removed URL resolves to a redirect.
 
 ### 2. Fold building chains into building pages
@@ -87,7 +87,11 @@ In priority order: Fun and the other need pages, Farm and the ten most-built bui
 - The checks from each step pass in CI.
 - Spot-read test: for each of the three example questions, the answer is in the first screen of the page a search lands on.
 
-## Open decisions
+## Decisions
 
-- **Research pages in search engines:** this plan keeps them public but out of the sitemap. Adding `noindex` would go further.
-- **Production-step names:** the plan keeps them on research pages only. If players do meet them in game (for example in a building's inspector), they could instead get one short shared glossary page.
+- **Research pages** stay public but are hidden from search engines: `noindex, follow` and no sitemap entry.
+- **Production-step names** never appear on reader pages: players do not see them in game, so there is no glossary. They live only on research pages.
+
+## Progress
+
+- Step 1, first part (PR 101): production-step pages and plant chain pages redirect; research pages noindex and out of the sitemap. Duplicate-ID pages and unnamed archive maps are still to do.
