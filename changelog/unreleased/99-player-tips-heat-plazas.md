@@ -1,1 +1,1 @@
-Two checked player tips: children cannot drink Wheatshine, so keep Winter Cabins or a Bonfire, or give them Coats, before relying on it for Heat; and a fake build site recycled before it is finished returns everything delivered, which moves materials where you need them (99).
+Wheatshine is not enough for Heat on levels with children, because children cannot drink it. Level pages with Wheatshine now say what else keeps children warm. Also, a fake build site recycled before it is finished returns everything delivered, which moves materials where you need them (99).
