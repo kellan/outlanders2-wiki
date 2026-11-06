@@ -1,1 +1,1 @@
-Books alone cannot meet Fun: a carried Book holds it at about 80, under the 90 needed. Level pages now warn about this and list what can meet each need on that map, and Newspapers alone take about 18 days (97).
+Books alone cannot meet Fun: a carried Book holds it at about 80, under the 90 needed. Newspapers can meet it on their own if you make enough, because villagers read several a day, and they are cheaper than Books. Level pages now list what can meet each need on that map (97).

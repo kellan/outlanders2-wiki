@@ -1,0 +1,17 @@
+{
+  "id": "newspapers-read-several-a-day",
+  "target": {
+    "type": "mechanics",
+    "id": "needs",
+    "need": "Fun"
+  },
+  "claim": "Villagers keep reading Newspapers while they have free time, not just one a day: one was seen reading three in a day. Four villagers in one house, given 12 Newspapers and taken off their jobs, had full Fun within a day or two. Players also switch from Books to Newspapers because they are faster to make and need no Trappers' Hut.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "31 (255)",
+    "date": "2026-11-06",
+    "reference": "Player posts on the Outlanders community Discord, 6 November 2026, shared by the maintainer as a screenshot."
+  },
+  "notes": "Fits the stored values. Three Newspapers is 75 Fun against a fall of 20 a day, so under two days from empty. The Press makes 6 Newspapers from 2 Paper; the Book Workshop needs 2 Paper and an Animal Hide per Book. How many a villager reads in a day is not stored: it depends on free time."
+}

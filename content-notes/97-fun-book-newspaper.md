@@ -27,3 +27,13 @@ The maintainer pointed out what matters: you cannot reach full happiness with Bo
 - Level pages where the Book is the carried Fun option get a "Books alone will not do it" tip that names the other Fun sources on that map.
 - The Book and Newspaper pages each get a one-line tip.
 - The Fun page's worked example now leads with "Books alone cannot meet it".
+
+**Second correction: Newspapers alone can do it**
+Later Discord posts (6 November 2026, shared by the maintainer):
+- Villagers keep reading while they have free time; one read three Newspapers in a day.
+- Four villagers in one house with 12 Newspapers and no jobs were full within a day or two.
+- Players switch from Books to Newspapers: they are faster to make and need no Trappers' Hut.
+
+The "18 days" only holds at one Newspaper a day, and the earlier "you need both" does not hold when Newspapers are plentiful. Recipes back it up: the Press makes 6 Newspapers from 2 Paper, while the Book Workshop needs 2 Paper plus an Animal Hide for one Book.
+- New observation `newspapers-read-several-a-day`; the 18-day observation now notes its assumption.
+- The level tip, the Book and Newspaper tips and the Fun worked example now say: Books alone cannot meet Fun, and Newspapers can if there are enough. Three a day is 55 net, under two days from empty.

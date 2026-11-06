@@ -13,5 +13,5 @@
     "date": "2026-11-05",
     "reference": "Player post on the Outlanders community Discord, 5 November 2026, shared by the maintainer as a screenshot on 6 November 2026."
   },
-  "notes": "Matches the stored values: a Newspaper carries 1 Fun unit, one unit restores 25 points, Fun falls 20 a day, is met at 90 and starts at 0."
+  "notes": "Matches the stored values: a Newspaper carries 1 Fun unit, one unit restores 25 points, Fun falls 20 a day, is met at 90 and starts at 0. The 18 days assume one Newspaper a day. Later reports (newspapers-read-several-a-day) show villagers reading several a day when Newspapers and free time allow, which is much faster."
 }
