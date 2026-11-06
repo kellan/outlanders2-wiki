@@ -1,0 +1,16 @@
+{
+  "id": "fake-recycling-tricks",
+  "target": {
+    "type": "mechanics",
+    "id": "recycling"
+  },
+  "claim": "Players fake-recycle buildings. Marking a building for recycling and leaving it unstaffed stops villagers from going there, which saves travel. Marking a full building to get its stock unloaded, then cancelling before it is demolished, empties it so it can work again.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "player-report",
+    "game_version": "31 (255)",
+    "date": "2026-11-06",
+    "reference": "Maintainer report of common player practice, wiki session, 6 November 2026."
+  },
+  "notes": "Fits the code: while marked, workspots refuse work, its piles leave the pile map and villagers skip the building. Unloading needs recycle-site workers, and demolition waits until the kept piles are empty. Cancelling (RestoreRecycleSiteAction → UnmarkForRecycling) moves the crew back."
+}
