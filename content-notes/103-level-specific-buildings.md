@@ -15,3 +15,4 @@ The maintainer asked whether buildings such as the Author's Stand, Beer Stand an
 - The buildings directory gains a "Level-specific" tab and chip, replacing the raw "Mission"/"Special" chips.
 - Building pages get a "Level-specific" tag, a short note listing the levels that offer the building, and an "Only on" infobox row.
 - Buildings in no starting build list (Beer Stand, Concert Stage, Pablo's Ladder, Banner) say "Not in any starting build list": they are placed on the map or unlocked during a level.
+- Buildings in the game's Mission group get one more line: "In the game's build menu it appears under Story." That is the group's in-game name. The wiki keeps "Level-specific" as its own label because it already uses "story" for campaign chapters, and some of these buildings appear in challenges.
