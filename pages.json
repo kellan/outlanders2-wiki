@@ -297,6 +297,14 @@
       "spoiler": false
     },
     {
+      "type": "food-production",
+      "id": "",
+      "name": "Food production compared",
+      "category": "Mechanics",
+      "path": "food-production/",
+      "spoiler": false
+    },
+    {
       "type": "houses",
       "id": "",
       "name": "Houses",
@@ -13167,6 +13175,7 @@
     "sandbox/",
     "recycling/",
     "roads-and-walking/",
+    "food-production/",
     "houses/",
     "challenges/original/",
     "challenges/redux/",
