@@ -1,0 +1,1 @@
+New page: Food production compared. One sortable table of every field, tree, gatherer and kitchen that makes food, with food units a day (one worker and fully staffed), what each uses up, net food, villagers fed and what limits it. Kitchen and bakery rates are now decoded from the game files instead of being left out (106).

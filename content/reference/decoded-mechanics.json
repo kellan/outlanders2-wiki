@@ -40374,5 +40374,1354 @@
     "status": "decoded"
    }
   }
+ },
+ "food_rates": {
+  "class": "WorkspotBehaviour / FormulaStepBehaviour / ResourceSourceBehaviour with TimelineAsset lengths",
+  "checked_versions": [
+   "30 build 254"
+  ],
+  "research_tool": "tools/export_food_rates.py",
+  "seconds_per_day": 300.0,
+  "method": "Work-time ceiling per building: recipe expanded through its intermediates; worker budget 300 s x work window x workers; each timed step a station bound; extraction steps use the source cycle from work-timings. No walking, carrying or waiting.",
+  "notes": "Work-time ceilings, not measured output. Inputs are assumed to be at the building and outputs cleared. A step whose animation has no readable length is counted as instant and listed under unresolved, so those rates may be lower in play.",
+  "records": [
+   {
+    "building": "Bakery",
+    "gameobject_id": 57395,
+    "formula_id": 313803,
+    "recipe": "MultipleBread -> Bread",
+    "work_window_fraction": 0.6000000238418579,
+    "max_workers": 2,
+    "outputs": [
+     {
+      "resource_id": 319667,
+      "name": "Bread",
+      "count": 2,
+      "food_units": 2
+     }
+    ],
+    "inputs_per_batch": [
+     {
+      "resource_id": 284894,
+      "name": "Stick",
+      "count": 0.2,
+      "food_units": 0
+     },
+     {
+      "resource_id": 286781,
+      "name": "Flour",
+      "count": 0.25,
+      "food_units": 0
+     }
+    ],
+    "building_stock": [],
+    "worker_seconds_per_batch": 16.529167524973552,
+    "rates": [
+     {
+      "workers": 1,
+      "batches_per_day": 10.889841057064693,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 2,
+      "batches_per_day": 21.779682114129386,
+      "limit": "Worker time"
+     }
+    ],
+    "unresolved": [],
+    "steps": [
+     {
+      "name": "MultipleBread -> Bread",
+      "runs_per_batch": 1.0,
+      "seconds": 0.016666666666666666,
+      "worker": false,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "BreadInOven -> MultipleBread",
+      "runs_per_batch": 1.0,
+      "seconds": 2.6666667461395264,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "1 SingleDoughInOven + 2 KitchenFire -> 2 BreadInOven",
+      "runs_per_batch": 1.0,
+      "seconds": 3.0,
+      "worker": false,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "1 SingleDough -> 1 SingleDoughInOven",
+      "runs_per_batch": 1.0,
+      "seconds": 6.983333587646484,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "1 BigDough -> 4 SingleDough",
+      "runs_per_batch": 0.25,
+      "seconds": 9.650000572204593,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "1 Flour -> 1 BigDough",
+      "runs_per_batch": 0.25,
+      "seconds": 9.600001017252604,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "1 Stick -> 8 KitchenFire",
+      "runs_per_batch": 0.2,
+      "seconds": 10.333333969116211,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     }
+    ]
+   },
+   {
+    "building": "Cheesery",
+    "gameobject_id": 105730,
+    "formula_id": 289355,
+    "recipe": "Cheese Wheel -> Cheese",
+    "work_window_fraction": 0.6000000238418579,
+    "max_workers": 2,
+    "outputs": [
+     {
+      "resource_id": 319683,
+      "name": "Cheese",
+      "count": 6,
+      "food_units": 3
+     }
+    ],
+    "inputs_per_batch": [
+     {
+      "resource_id": 284894,
+      "name": "Stick",
+      "count": 0.5,
+      "food_units": 0
+     }
+    ],
+    "building_stock": [],
+    "worker_seconds_per_batch": 56.32500123977662,
+    "rates": [
+     {
+      "workers": 1,
+      "batches_per_day": 3.195739071292584,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 2,
+      "batches_per_day": 4.5,
+      "limit": "Dry Cheese -> Cheese Wheel"
+     }
+    ],
+    "unresolved": [],
+    "steps": [
+     {
+      "name": "Cheese Wheel -> Cheese",
+      "runs_per_batch": 1.0,
+      "seconds": 5.6666669845581055,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Dry Cheese -> Cheese Wheel",
+      "runs_per_batch": 1.0,
+      "seconds": 400.0,
+      "worker": false,
+      "spots": 6,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Dry Cheese mold -> Dry Cheese",
+      "runs_per_batch": 1.0,
+      "seconds": 11.666666984558105,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Wet Cheese -> Dry Cheese mold",
+      "runs_per_batch": 1.0,
+      "seconds": 1.0,
+      "worker": false,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Milk + KitchenFire -> Wet Cheese",
+      "runs_per_batch": 1.0,
+      "seconds": 16.000000476837165,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": " -> Milk",
+      "runs_per_batch": 1.0,
+      "seconds": 19.5,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0,
+      "source": "Cow Adult",
+      "source_cycles": [
+       19.5
+      ]
+     },
+     {
+      "name": "Stick -> KitchenFire",
+      "runs_per_batch": 0.5,
+      "seconds": 6.98333358764649,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     }
+    ]
+   },
+   {
+    "building": "Cookie Shop",
+    "gameobject_id": 57396,
+    "formula_id": 320102,
+    "recipe": "OvenCookiesDone -> Cookie",
+    "work_window_fraction": 0.6000000238418579,
+    "max_workers": 2,
+    "outputs": [
+     {
+      "resource_id": 319680,
+      "name": "Cookie",
+      "count": 8,
+      "food_units": 1
+     }
+    ],
+    "inputs_per_batch": [
+     {
+      "resource_id": 284894,
+      "name": "Stick",
+      "count": 1.0,
+      "food_units": 0
+     },
+     {
+      "resource_id": 286358,
+      "name": "Egg",
+      "count": 2.0,
+      "food_units": 0
+     },
+     {
+      "resource_id": 286781,
+      "name": "Flour",
+      "count": 1.0,
+      "food_units": 0
+     }
+    ],
+    "building_stock": [],
+    "worker_seconds_per_batch": 33.78333711624146,
+    "rates": [
+     {
+      "workers": 1,
+      "batches_per_day": 5.328070656051966,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 2,
+      "batches_per_day": 10.656141312103932,
+      "limit": "Worker time"
+     }
+    ],
+    "unresolved": [
+     "Flour + Egg -> BigDough: 1 of 1 spots have no readable timeline (counted as 0 s)"
+    ],
+    "steps": [
+     {
+      "name": "OvenCookiesDone -> Cookie",
+      "runs_per_batch": 1.0,
+      "seconds": 4.166666507720947,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "OvenCookies + KitchenFire -> OvenCookiesDone",
+      "runs_per_batch": 1.0,
+      "seconds": 5.0,
+      "worker": false,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "RawCookies -> OvenCookies",
+      "runs_per_batch": 1.0,
+      "seconds": 4.166666507720954,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "RolledDough -> RawCookies",
+      "runs_per_batch": 1.0,
+      "seconds": 6.700000762939453,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "BigDough -> RolledDough",
+      "runs_per_batch": 1.0,
+      "seconds": 8.416669368743896,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Flour + Egg -> BigDough",
+      "runs_per_batch": 1.0,
+      "seconds": 0.0,
+      "worker": false,
+      "spots": 1,
+      "unresolved_spots": 1
+     },
+     {
+      "name": "Stick -> KitchenFire",
+      "runs_per_batch": 1.0,
+      "seconds": 10.333333969116211,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     }
+    ]
+   },
+   {
+    "building": "Desert Cookhouse",
+    "gameobject_id": 105736,
+    "formula_id": 288997,
+    "recipe": "TripleStew -> Manchamanteles",
+    "work_window_fraction": 0.6000000238418579,
+    "max_workers": 3,
+    "outputs": [
+     {
+      "resource_id": 279345,
+      "name": "Manchamanteles",
+      "count": 3,
+      "food_units": 1
+     }
+    ],
+    "inputs_per_batch": [
+     {
+      "resource_id": 284894,
+      "name": "Stick",
+      "count": 0.2,
+      "food_units": 0
+     },
+     {
+      "resource_id": 300126,
+      "name": "Fruit",
+      "count": 1.0,
+      "food_units": 1
+     },
+     {
+      "resource_id": 300127,
+      "name": "Veggie",
+      "count": 1.0,
+      "food_units": 1.0
+     }
+    ],
+    "building_stock": [
+     "Plate"
+    ],
+    "worker_seconds_per_batch": 28.126670515537263,
+    "rates": [
+     {
+      "workers": 1,
+      "batches_per_day": 6.399620141784104,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 2,
+      "batches_per_day": 12.799240283568208,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 3,
+      "batches_per_day": 19.198860425352315,
+      "limit": "Worker time"
+     }
+    ],
+    "unresolved": [
+     "TripleStew -> Manchamanteles: 3 of 3 spots have no readable timeline (counted as 0 s)"
+    ],
+    "steps": [
+     {
+      "name": "TripleStew -> Manchamanteles",
+      "runs_per_batch": 1.0,
+      "seconds": 0.0,
+      "worker": false,
+      "spots": 3,
+      "unresolved_spots": 3
+     },
+     {
+      "name": "AlmostStew + Plate -> TripleStew",
+      "runs_per_batch": 1.0,
+      "seconds": 7.750001907348635,
+      "worker": true,
+      "spots": 3,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Fruit + Veggie + KitchenFire -> AlmostStew",
+      "runs_per_batch": 1.0,
+      "seconds": 19.250001907348633,
+      "worker": true,
+      "spots": 3,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Stick -> KitchenFire",
+      "runs_per_batch": 0.2,
+      "seconds": 5.633333504199982,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     }
+    ]
+   },
+   {
+    "building": "Dried Meat Shop",
+    "gameobject_id": 105747,
+    "formula_id": 314771,
+    "recipe": "Almost Dried Meat -> Dried Meat",
+    "work_window_fraction": 0.6000000238418579,
+    "max_workers": 2,
+    "outputs": [
+     {
+      "resource_id": 286344,
+      "name": "Dried Meat",
+      "count": 1,
+      "food_units": 2
+     }
+    ],
+    "inputs_per_batch": [
+     {
+      "resource_id": 304113,
+      "name": "Meat",
+      "count": 0.5,
+      "food_units": 0
+     }
+    ],
+    "building_stock": [],
+    "worker_seconds_per_batch": 10.900000508626302,
+    "rates": [
+     {
+      "workers": 1,
+      "batches_per_day": 16.513761353506787,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 2,
+      "batches_per_day": 33.027522707013574,
+      "limit": "Worker time"
+     }
+    ],
+    "unresolved": [
+     "Sliced Meat -> Drying Meat: 2 of 2 spots have no readable timeline (counted as 0 s)"
+    ],
+    "steps": [
+     {
+      "name": "Almost Dried Meat -> Dried Meat",
+      "runs_per_batch": 1.0,
+      "seconds": 5.21666717529297,
+      "worker": true,
+      "spots": 16,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Drying Meat -> Almost Dried Meat",
+      "runs_per_batch": 1.0,
+      "seconds": 60.0,
+      "worker": false,
+      "spots": 16,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Sliced Meat -> Drying Meat",
+      "runs_per_batch": 1.0,
+      "seconds": 0.0,
+      "worker": true,
+      "spots": 2,
+      "unresolved_spots": 2
+     },
+     {
+      "name": "Meat -> Sliced Meat",
+      "runs_per_batch": 0.5,
+      "seconds": 11.366666666666667,
+      "worker": true,
+      "spots": 2,
+      "unresolved_spots": 0
+     }
+    ]
+   },
+   {
+    "building": "Fondue Bar",
+    "gameobject_id": 105705,
+    "formula_id": 314525,
+    "recipe": "MoltenCheese+ChoppedVeggies+Plate -> Fondue",
+    "work_window_fraction": 0.6000000238418579,
+    "max_workers": 3,
+    "outputs": [
+     {
+      "resource_id": 319679,
+      "name": "Fondue",
+      "count": 5,
+      "food_units": 2
+     }
+    ],
+    "inputs_per_batch": [
+     {
+      "resource_id": 284894,
+      "name": "Stick",
+      "count": 1.0,
+      "food_units": 0
+     },
+     {
+      "resource_id": 300127,
+      "name": "Veggie",
+      "count": 2.0,
+      "food_units": 1.0
+     },
+     {
+      "resource_id": 319683,
+      "name": "Cheese",
+      "count": 1.0,
+      "food_units": 3
+     }
+    ],
+    "building_stock": [
+     "Fondue Empty Plate"
+    ],
+    "worker_seconds_per_batch": 48.88334274291993,
+    "rates": [
+     {
+      "workers": 1,
+      "batches_per_day": 3.6822360553202524,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 2,
+      "batches_per_day": 7.364472110640505,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 3,
+      "batches_per_day": 8.194232400284037,
+      "limit": "MoltenCheese+ChoppedVeggies+Plate -> Fondue"
+     }
+    ],
+    "unresolved": [
+     "Veggie -> Veggies Ready: 1 of 1 spots have no readable timeline (counted as 0 s)"
+    ],
+    "steps": [
+     {
+      "name": "MoltenCheese+ChoppedVeggies+Plate -> Fondue",
+      "runs_per_batch": 1.0,
+      "seconds": 21.966670989990234,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Cheese + KitchenFire -> Molten Cheese",
+      "runs_per_batch": 1.0,
+      "seconds": 13.716667175292969,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Stick -> KitchenFire",
+      "runs_per_batch": 1.0,
+      "seconds": 6.98333358764649,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Veggies Ready -> Chopped Veggies",
+      "runs_per_batch": 1.0,
+      "seconds": 6.216670989990234,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Veggie -> Veggies Ready",
+      "runs_per_batch": 2.0,
+      "seconds": 0.0,
+      "worker": false,
+      "spots": 1,
+      "unresolved_spots": 1
+     }
+    ]
+   },
+   {
+    "building": "Foragers' Hut",
+    "gameobject_id": 38476,
+    "formula_id": 311265,
+    "recipe": " -> Fruits",
+    "work_window_fraction": 0.6000000238418579,
+    "max_workers": 3,
+    "outputs": [
+     {
+      "resource_id": 300126,
+      "name": "Fruit",
+      "count": 1,
+      "food_units": 1
+     }
+    ],
+    "inputs_per_batch": [],
+    "building_stock": [],
+    "worker_seconds_per_batch": 6.200000762939453,
+    "rates": [
+     {
+      "workers": 1,
+      "batches_per_day": 29.03225564559744,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 2,
+      "batches_per_day": 58.06451129119488,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 3,
+      "batches_per_day": 87.09676693679232,
+      "limit": "Worker time"
+     }
+    ],
+    "unresolved": [],
+    "steps": [
+     {
+      "name": " -> Fruits",
+      "runs_per_batch": 1.0,
+      "seconds": 6.200000762939453,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0,
+      "source": "Grape Source",
+      "source_cycles": [
+       5.983,
+       6.2,
+       6.333
+      ]
+     }
+    ]
+   },
+   {
+    "building": "Gingerbread Man Shop",
+    "gameobject_id": 60667,
+    "formula_id": 319599,
+    "recipe": "OvenCookiesDone -> Cookie_Christmas",
+    "work_window_fraction": 0.6000000238418579,
+    "max_workers": 2,
+    "outputs": [
+     {
+      "resource_id": 319696,
+      "name": "Gingerbread Man",
+      "count": 8,
+      "food_units": 1
+     }
+    ],
+    "inputs_per_batch": [
+     {
+      "resource_id": 284894,
+      "name": "Stick",
+      "count": 1.0,
+      "food_units": 0
+     },
+     {
+      "resource_id": 286358,
+      "name": "Egg",
+      "count": 2.0,
+      "food_units": 0
+     },
+     {
+      "resource_id": 286781,
+      "name": "Flour",
+      "count": 1.0,
+      "food_units": 0
+     }
+    ],
+    "building_stock": [],
+    "worker_seconds_per_batch": 33.78333711624146,
+    "rates": [
+     {
+      "workers": 1,
+      "batches_per_day": 5.328070656051966,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 2,
+      "batches_per_day": 10.656141312103932,
+      "limit": "Worker time"
+     }
+    ],
+    "unresolved": [
+     "Flour + Egg -> BigDough: 1 of 1 spots have no readable timeline (counted as 0 s)"
+    ],
+    "steps": [
+     {
+      "name": "OvenCookiesDone -> Cookie_Christmas",
+      "runs_per_batch": 1.0,
+      "seconds": 4.166666507720947,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "OvenCookies + KitchenFire -> OvenCookiesDone",
+      "runs_per_batch": 1.0,
+      "seconds": 5.0,
+      "worker": false,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "RawCookies -> OvenCookies",
+      "runs_per_batch": 1.0,
+      "seconds": 4.166666507720954,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "RolledDough -> RawCookies",
+      "runs_per_batch": 1.0,
+      "seconds": 6.700000762939453,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "BigDough -> RolledDough",
+      "runs_per_batch": 1.0,
+      "seconds": 8.416669368743896,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Flour + Egg -> BigDough",
+      "runs_per_batch": 1.0,
+      "seconds": 0.0,
+      "worker": false,
+      "spots": 1,
+      "unresolved_spots": 1
+     },
+     {
+      "name": "Stick -> KitchenFire",
+      "runs_per_batch": 1.0,
+      "seconds": 10.333333969116211,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     }
+    ]
+   },
+   {
+    "building": "Nopalero's Hut",
+    "gameobject_id": 38477,
+    "formula_id": 311266,
+    "recipe": " -> Fruits",
+    "work_window_fraction": 0.6000000238418579,
+    "max_workers": 3,
+    "outputs": [
+     {
+      "resource_id": 300126,
+      "name": "Fruit",
+      "count": 1,
+      "food_units": 1
+     }
+    ],
+    "inputs_per_batch": [],
+    "building_stock": [],
+    "worker_seconds_per_batch": 6.200000762939453,
+    "rates": [
+     {
+      "workers": 1,
+      "batches_per_day": 29.03225564559744,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 2,
+      "batches_per_day": 58.06451129119488,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 3,
+      "batches_per_day": 87.09676693679232,
+      "limit": "Worker time"
+     }
+    ],
+    "unresolved": [],
+    "steps": [
+     {
+      "name": " -> Fruits",
+      "runs_per_batch": 1.0,
+      "seconds": 6.200000762939453,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0,
+      "source": "Grape Source",
+      "source_cycles": [
+       5.983,
+       6.2,
+       6.333
+      ]
+     }
+    ]
+   },
+   {
+    "building": "Oasis",
+    "gameobject_id": 69350,
+    "formula_id": 289975,
+    "recipe": " -> Fruits",
+    "work_window_fraction": 0.6000000238418579,
+    "max_workers": 4,
+    "outputs": [
+     {
+      "resource_id": 300126,
+      "name": "Fruit",
+      "count": 1,
+      "food_units": 1
+     }
+    ],
+    "inputs_per_batch": [],
+    "building_stock": [],
+    "worker_seconds_per_batch": 6.200000762939453,
+    "rates": [
+     {
+      "workers": 1,
+      "batches_per_day": 29.03225564559744,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 2,
+      "batches_per_day": 58.06451129119488,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 3,
+      "batches_per_day": 87.09676693679232,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 4,
+      "batches_per_day": 116.12902258238977,
+      "limit": "Worker time"
+     }
+    ],
+    "unresolved": [],
+    "steps": [
+     {
+      "name": " -> Fruits",
+      "runs_per_batch": 1.0,
+      "seconds": 6.200000762939453,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0,
+      "source": "Grape Source",
+      "source_cycles": [
+       5.983,
+       6.2,
+       6.333
+      ]
+     }
+    ]
+   },
+   {
+    "building": "Open Kitchen",
+    "gameobject_id": 105733,
+    "formula_id": 288996,
+    "recipe": "1 DoubleStew -> 3 Stew",
+    "work_window_fraction": 0.6000000238418579,
+    "max_workers": 3,
+    "outputs": [
+     {
+      "resource_id": 279343,
+      "name": "Stew",
+      "count": 3,
+      "food_units": 1
+     }
+    ],
+    "inputs_per_batch": [
+     {
+      "resource_id": 284894,
+      "name": "Stick",
+      "count": 0.2,
+      "food_units": 0
+     },
+     {
+      "resource_id": 300127,
+      "name": "Veggie",
+      "count": 2.0,
+      "food_units": 1.0
+     }
+    ],
+    "alternative_inputs": [
+     [
+      {
+       "resource_id": 284894,
+       "name": "Stick",
+       "count": 0.2,
+       "food_units": 0
+      },
+      {
+       "resource_id": 300127,
+       "name": "Veggie",
+       "count": 2.0,
+       "food_units": 1.0
+      }
+     ],
+     [
+      {
+       "resource_id": 284894,
+       "name": "Stick",
+       "count": 0.2,
+       "food_units": 0
+      },
+      {
+       "resource_id": 304113,
+       "name": "Meat",
+       "count": 2.0,
+       "food_units": 0
+      }
+     ],
+     [
+      {
+       "resource_id": 284894,
+       "name": "Stick",
+       "count": 0.2,
+       "food_units": 0
+      },
+      {
+       "resource_id": 286358,
+       "name": "Egg",
+       "count": 2.0,
+       "food_units": 0
+      }
+     ]
+    ],
+    "building_stock": [
+     "Plate"
+    ],
+    "worker_seconds_per_batch": 18.8266703248024,
+    "rates": [
+     {
+      "workers": 1,
+      "batches_per_day": 9.560905037755083,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 2,
+      "batches_per_day": 18.090449859119804,
+      "limit": "2 FoodReady + 1 KitchenFire -> 1 AlmostStew"
+     },
+     {
+      "workers": 3,
+      "batches_per_day": 18.090449859119804,
+      "limit": "2 FoodReady + 1 KitchenFire -> 1 AlmostStew"
+     }
+    ],
+    "unresolved": [
+     "1 DoubleStew -> 3 Stew: 1 of 1 spots have no readable timeline (counted as 0 s)",
+     "Veggie -> FoodReady: 1 of 1 spots have no readable timeline (counted as 0 s)"
+    ],
+    "steps": [
+     {
+      "name": "1 DoubleStew -> 3 Stew",
+      "runs_per_batch": 1.0,
+      "seconds": 0.0,
+      "worker": false,
+      "spots": 1,
+      "unresolved_spots": 1
+     },
+     {
+      "name": "1 AlmostStew + 3 Plate -> 1 DoubleStew",
+      "runs_per_batch": 1.0,
+      "seconds": 7.750001907348635,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "2 FoodReady + 1 KitchenFire -> 1 AlmostStew",
+      "runs_per_batch": 1.0,
+      "seconds": 9.95000171661377,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Veggie -> FoodReady",
+      "runs_per_batch": 2.0,
+      "seconds": 0.0,
+      "worker": false,
+      "spots": 1,
+      "unresolved_spots": 1
+     },
+     {
+      "name": "Stick -> KitchenFire",
+      "runs_per_batch": 0.2,
+      "seconds": 5.633333504199982,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     }
+    ]
+   },
+   {
+    "building": "Open Kitchen",
+    "gameobject_id": 105711,
+    "formula_id": 288995,
+    "recipe": "1 DoubleStew -> 3 Stew",
+    "work_window_fraction": 0.6000000238418579,
+    "max_workers": 3,
+    "outputs": [
+     {
+      "resource_id": 279343,
+      "name": "Stew",
+      "count": 3,
+      "food_units": 1
+     }
+    ],
+    "inputs_per_batch": [
+     {
+      "resource_id": 284894,
+      "name": "Stick",
+      "count": 0.2,
+      "food_units": 0
+     },
+     {
+      "resource_id": 300127,
+      "name": "Veggie",
+      "count": 2.0,
+      "food_units": 1.0
+     }
+    ],
+    "alternative_inputs": [
+     [
+      {
+       "resource_id": 284894,
+       "name": "Stick",
+       "count": 0.2,
+       "food_units": 0
+      },
+      {
+       "resource_id": 300127,
+       "name": "Veggie",
+       "count": 2.0,
+       "food_units": 1.0
+      }
+     ],
+     [
+      {
+       "resource_id": 284894,
+       "name": "Stick",
+       "count": 0.2,
+       "food_units": 0
+      },
+      {
+       "resource_id": 304113,
+       "name": "Meat",
+       "count": 2.0,
+       "food_units": 0
+      }
+     ],
+     [
+      {
+       "resource_id": 284894,
+       "name": "Stick",
+       "count": 0.2,
+       "food_units": 0
+      },
+      {
+       "resource_id": 286358,
+       "name": "Egg",
+       "count": 2.0,
+       "food_units": 0
+      }
+     ]
+    ],
+    "building_stock": [
+     "Plate"
+    ],
+    "worker_seconds_per_batch": 18.8266703248024,
+    "rates": [
+     {
+      "workers": 1,
+      "batches_per_day": 9.560905037755083,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 2,
+      "batches_per_day": 18.090449859119804,
+      "limit": "2 FoodReady + 1 KitchenFire -> 1 AlmostStew"
+     },
+     {
+      "workers": 3,
+      "batches_per_day": 18.090449859119804,
+      "limit": "2 FoodReady + 1 KitchenFire -> 1 AlmostStew"
+     }
+    ],
+    "unresolved": [
+     "1 DoubleStew -> 3 Stew: 1 of 1 spots have no readable timeline (counted as 0 s)",
+     "Veggie -> FoodReady: 1 of 1 spots have no readable timeline (counted as 0 s)"
+    ],
+    "steps": [
+     {
+      "name": "1 DoubleStew -> 3 Stew",
+      "runs_per_batch": 1.0,
+      "seconds": 0.0,
+      "worker": false,
+      "spots": 1,
+      "unresolved_spots": 1
+     },
+     {
+      "name": "1 AlmostStew + 3 Plate -> 1 DoubleStew",
+      "runs_per_batch": 1.0,
+      "seconds": 7.750001907348635,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "2 FoodReady + 1 KitchenFire -> 1 AlmostStew",
+      "runs_per_batch": 1.0,
+      "seconds": 9.95000171661377,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Veggie -> FoodReady",
+      "runs_per_batch": 2.0,
+      "seconds": 0.0,
+      "worker": false,
+      "spots": 1,
+      "unresolved_spots": 1
+     },
+     {
+      "name": "Stick -> KitchenFire",
+      "runs_per_batch": 0.2,
+      "seconds": 5.633333504199982,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     }
+    ]
+   },
+   {
+    "building": "Porridge Cookhouse",
+    "gameobject_id": 105738,
+    "formula_id": 311897,
+    "recipe": "AlmostBP+Plate -> Barley Porridge",
+    "work_window_fraction": 0.6000000238418579,
+    "max_workers": 2,
+    "outputs": [
+     {
+      "resource_id": 279352,
+      "name": "Barley Porridge",
+      "count": 2,
+      "food_units": 2
+     }
+    ],
+    "inputs_per_batch": [
+     {
+      "resource_id": 284894,
+      "name": "Stick",
+      "count": 0.2,
+      "food_units": 0
+     }
+    ],
+    "building_stock": [
+     "BarleyPorridgeEmptyPlate"
+    ],
+    "worker_seconds_per_batch": 17.265559589862832,
+    "rates": [
+     {
+      "workers": 1,
+      "batches_per_day": 7.200000000000001,
+      "limit": "BarleySeed -> BarleyPlant"
+     },
+     {
+      "workers": 2,
+      "batches_per_day": 7.200000000000001,
+      "limit": "BarleySeed -> BarleyPlant"
+     }
+    ],
+    "unresolved": [
+     "BarleyReady -> Barley: 3 of 3 spots have no readable timeline (counted as 0 s)"
+    ],
+    "steps": [
+     {
+      "name": "AlmostBP+Plate -> Barley Porridge",
+      "runs_per_batch": 1.0,
+      "seconds": 3.466668128967285,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Barley+Fire -> AlmostBP",
+      "runs_per_batch": 1.0,
+      "seconds": 10.15000247955323,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "BarleyReady -> Barley",
+      "runs_per_batch": 1.0,
+      "seconds": 0.0,
+      "worker": false,
+      "spots": 3,
+      "unresolved_spots": 3
+     },
+     {
+      "name": "BarleyPlant -> BarleyReady",
+      "runs_per_batch": 0.3333333333333333,
+      "seconds": 2.2333333492279053,
+      "worker": true,
+      "spots": 3,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "BarleySeed -> BarleyPlant",
+      "runs_per_batch": 0.3333333333333333,
+      "seconds": 375.0,
+      "worker": false,
+      "spots": 3,
+      "unresolved_spots": 0
+     },
+     {
+      "name": " -> BarleySeed",
+      "runs_per_batch": 0.3333333333333333,
+      "seconds": 5.333333492279055,
+      "worker": true,
+      "spots": 3,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Stick -> KitchenFire",
+      "runs_per_batch": 0.2,
+      "seconds": 5.633333504199982,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     }
+    ]
+   },
+   {
+    "building": "Stroganoff Cookhouse",
+    "gameobject_id": 105717,
+    "formula_id": 312708,
+    "recipe": "KitchenFire + StrogMix -> Stroganoff",
+    "work_window_fraction": 0.6000000238418579,
+    "max_workers": 2,
+    "outputs": [
+     {
+      "resource_id": 319676,
+      "name": "Stroganoff",
+      "count": 1,
+      "food_units": 2
+     }
+    ],
+    "inputs_per_batch": [
+     {
+      "resource_id": 284894,
+      "name": "Stick",
+      "count": 0.2,
+      "food_units": 0
+     },
+     {
+      "resource_id": 304113,
+      "name": "Meat",
+      "count": 0.125,
+      "food_units": 0
+     },
+     {
+      "resource_id": 320441,
+      "name": "Mushroom",
+      "count": 0.125,
+      "food_units": 0
+     }
+    ],
+    "building_stock": [],
+    "worker_seconds_per_batch": 20.09750429391861,
+    "rates": [
+     {
+      "workers": 1,
+      "batches_per_day": 8.956336295299328,
+      "limit": "Worker time"
+     },
+     {
+      "workers": 2,
+      "batches_per_day": 10.334926753992919,
+      "limit": "KitchenFire + StrogMix -> Stroganoff"
+     }
+    ],
+    "unresolved": [],
+    "steps": [
+     {
+      "name": "KitchenFire + StrogMix -> Stroganoff",
+      "runs_per_batch": 1.0,
+      "seconds": 17.416669845581055,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Stick -> KitchenFire",
+      "runs_per_batch": 0.2,
+      "seconds": 5.633333504199982,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Sliced Meat + Sliced Mushroom -> StrogMix",
+      "runs_per_batch": 0.25,
+      "seconds": 0.0,
+      "worker": false,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Meat -> Sliced Meat",
+      "runs_per_batch": 0.125,
+      "seconds": 6.216670989990234,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     },
+     {
+      "name": "Mushroom -> Sliced Mushroom",
+      "runs_per_batch": 0.125,
+      "seconds": 6.216670989990234,
+      "worker": true,
+      "spots": 1,
+      "unresolved_spots": 0
+     }
+    ]
+   }
+  ]
  }
 }
