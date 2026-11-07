@@ -7,7 +7,7 @@ for(const n of ['Bakery','Mead Hall','Beehive','Fountain','Trading Outpost','Com
 const rit=strip(h.render('buildings/ritual-of-hidden-light/'));
 assert.ok(rit.includes('Level-specific building.')&&/Only on The Mirror/.test(rit)&&rit.includes('Counterspell'),'ritual note and Only on row');
 assert.ok(strip(h.render('buildings/beer-stand/')).includes('Not in any starting build list'),'beer stand: placed or unlocked, not in a build list');
-assert.ok(strip(h.render('buildings/beer-stand/')).includes('In the game’s build menu it appears under Story'),'Story pointer for the game\'s Story group');
-assert.ok(!strip(h.render('buildings/author-s-stand/')).includes('appears under Story')&&!rit.includes('appears under Story'),'no Story pointer outside that group');
+assert.ok(strip(h.render('buildings/wishing-well/')).includes('The game files it under Story in the build menu (not yet checked in play)'),'Story pointer where a Story-group building is buildable');
+for(const p of ['buildings/beer-stand/','buildings/author-s-stand/','buildings/ritual-of-hidden-light/'])assert.ok(!strip(h.render(p)).includes('under Story'),'no Story pointer where it cannot be built from a menu or is outside the group: '+p);
 const dir=strip(h.render('buildings/'));assert.ok(dir.includes('Level-specific')&&/Beer Stand Level-specific/.test(dir),'directory tab and chip');
 console.log('PASS: level-specific buildings identified and labelled.');
