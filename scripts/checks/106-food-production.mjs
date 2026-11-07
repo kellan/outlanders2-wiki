@@ -8,18 +8,23 @@ const row=n=>rows.find(r=>r.startsWith(n+' ')||r.startsWith(n+' * '))||'';
 const want=vm.runInContext(`DM.food_rates.records.filter(r=>B[r.gameobject_id]&&!isSuppressed("buildings",r.gameobject_id)&&r.rates.length).map(r=>r.building).concat(uniq(D.buildings.filter(b=>b.is_plant&&!isSuppressed("buildings",b.gameobject_id)&&foodPerDay(b))).map(b=>b.name))`,h.ctx);
 for(const n of new Set(want))assert.equal(rows.filter(r=>r.startsWith(n+' ')||r.startsWith(n+' * ')).length,1,'one row for '+n);
 // Numbers match the research tests (Bakery and Cheesery agree with the older production profiles).
-assert.match(row('Bakery'),/Kitchen 43\.6 Bread 43\.6 87\.1 \(2 workers\) 4\.4 Stick, 5\.4 Flour 0\.5 Stick, 0\.63 Wheat \(as Flour\) 87\.1 130\.7 Workers/);
+assert.match(row('Bakery'),/Kitchen 43\.6 Bread 43\.6 87\.1 \(2 workers\) 4\.4 Stick, 5\.4 Flour 0\.5 Stick, 0\.63 Wheat \(as Flour\) 51 s 0\.5 squares 87\.1 130\.7 Workers/);
 assert.match(row('Cheesery'),/27 Cheese .*81 \(2 workers\).*Milk from Cows.*6 timed spots: Cheese Wheel \(400 s\)/);
-assert.match(row('Open Kitchen'),/54\.3 Stew .*Veggie, Meat or Egg 18\.1 \(54\.3 if cooked from non-food\).*One work spot/);
-assert.match(row('Desert Cookhouse'),/57\.6 Manchamanteles .*19\.2 Fruit, 19\.2 Veggie 0\.67 Stick, 3\.3 Fruit, 3\.3 Veggie 19\.2 /);
-assert.match(row("Foragers' Hut"),/Gatherer 87\.1 Fruit 29 87\.1 \(3 workers\) Fruit growing nearby — — \(picks what trees grow\)/);
-assert.match(row('Carrot'),/Field crop 3 Veggie per 9 days \(per full field\) — 0\.33 Nothing Nothing 0\.33 /);
+assert.match(row('Open Kitchen'),/54\.3 Stew .*Veggie, Meat or Egg 91 s 1\.3 squares 18\.1 \(54\.3 if cooked from non-food\).*One work spot/);
+assert.match(row('Desert Cookhouse'),/57\.6 Manchamanteles .*19\.2 Fruit, 19\.2 Veggie 0\.67 Stick, 3\.3 Fruit, 3\.3 Veggie 130 s 2\.1 squares 19\.2 /);
+assert.match(row("Foragers' Hut"),/Gatherer 87\.1 Fruit 29 87\.1 \(3 workers\) Fruit growing nearby — 62 s — — \(picks what trees grow\)/);
+assert.match(row('Carrot'),/Field crop 3 Veggie per 9 days \(per full field\) — 0\.33 Nothing Nothing 78 s 2 squares 0\.33 /);
 assert.ok(/^Dried Meat Shop \*/.test(row('Dried Meat Shop'))&&/needs a worker, so treat its figure as a loose upper bound/.test(t),'unreadable step flagged');
 assert.ok(/Past a point, more workers add little/.test(t)&&/Open Kitchen \(2 workers make as much as 3\)/.test(t),'bottleneck takeaway');
 // Linked from Mechanics and from the Food directory, which no longer says factory speed is not stored.
 assert.ok(h.render('mechanics/').includes('Food production'),'listed on Mechanics');
 const food=h.render('food/');assert.ok(!/factory speed, which is not stored/.test(food)&&/Food production compared/.test(strip(food)),'Food page links the comparison');
 assert.match(t,/A food unit is how filling one item is.*a Bread is 2, a Cheese 3, a Cookie or a Fruit 1.*Each unit adds 60 to a villager’s Food meter, so one Bread fills a villager as much as two Cookies/,'food unit defined');
+// Whole chain: work from raw source to plate, and farmland per villager fed.
+assert.match(row('Cookie Shop'),/75 s † 1 square /,'Cookie chain work, partial (Eggs), 1 square');
+assert.match(row('Cheesery'),/33 s None /);assert.match(row('Potato'),/38 s 2 squares/);
+assert.match(t,/the cheapest food per worker is Cheese \( ?Cheesery\) 33 s, Potato eaten raw 38 s, Tomato eaten raw 38 s and Barley Porridge \( ?Porridge Cookhouse\) 45 s.*Bread \(51 s\) is also light on ground: about 0\.5 squares/);
+assert.match(t,/Whole-chain work adds, for each input.*Wheat 7\.6 s.*Flour 11\.2 s/);
 // Costs per 10 food units: Flour counts as Wheat only because the Windmill is 1 Wheat -> 1 Flour.
 const mill=vm.runInContext(`JSON.stringify(D.buildings.find(b=>b.name==='Windmill').formula_ids.map(id=>D.formulas.find(f=>f.id===id)).map(f=>[f.inputs.map(i=>i.count),f.outputs.map(o=>o.count)]))`,h.ctx);
 assert.equal(mill,'[[[1],[1]],[[1],[1]]]','Windmill turns 1 Wheat into 1 Flour');

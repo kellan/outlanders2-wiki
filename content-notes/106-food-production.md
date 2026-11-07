@@ -42,4 +42,11 @@ The maintainer asked for a page comparing the food production rates of every obj
   - the unreadable-step flag;
   - links.
 
+- Follow-up ("one page with the most complete sortable table ... whole chain cost as one of those columns"): two whole-chain columns.
+  - **Whole-chain work per 10 food units:** the kitchen's worker-seconds plus each input's supply work, from research `supply` (research commit f367e84). That covers crop sowing (5.33 s a field) plus harvest per plant over yield, Windmill bagging, firewood (Pine felling plus Firewood Yard), fruit picking, mushroom picking, egg collection and a Fishing Dock cast.
+  - **Farmland per villager fed:** field or orchard squares, using the same crop as the work figure (Wheat, Veggie from Potato) and the best fruit tree per square.
+  - Eggs and Meat are marked † because their supply work is partial. Coops, pastures and the Porridge Cookhouse plots are not counted as farmland.
+  - New takeaway: cheapest per worker are Cheese 33 s, Potato raw 38 s and Porridge 45 s; Bread is 51 s and needs 0.5 squares per villager; the costliest are Manchamanteles 130 s and Stroganoff 125 s.
+  - The costs table now names the same Veggie crop (Potato) as the chain columns.
+
 **Open:** these are ceilings without walking. A timed kitchen in play would calibrate them. The Dried Meat Shop has an unreadable worker step, so its figure is loose.

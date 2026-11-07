@@ -40486,7 +40486,9 @@
       "spots": 1,
       "unresolved_spots": 0
      }
-    ]
+    ],
+    "chain_work_seconds_per_batch": 20.230000952680907,
+    "chain_missing": []
    },
    {
     "building": "Cheesery",
@@ -40587,7 +40589,9 @@
       "spots": 1,
       "unresolved_spots": 0
      }
-    ]
+    ],
+    "chain_work_seconds_per_batch": 58.55625131676595,
+    "chain_missing": []
    },
    {
     "building": "Cookie Shop",
@@ -40698,7 +40702,9 @@
       "spots": 1,
       "unresolved_spots": 0
      }
-    ]
+    ],
+    "chain_work_seconds_per_batch": 60.07917123933635,
+    "chain_missing": []
    },
    {
     "building": "Desert Cookhouse",
@@ -40792,7 +40798,9 @@
       "spots": 1,
       "unresolved_spots": 0
      }
-    ]
+    ],
+    "chain_work_seconds_per_batch": 38.99139366924763,
+    "chain_missing": []
    },
    {
     "building": "Dried Meat Shop",
@@ -40867,7 +40875,9 @@
       "spots": 2,
       "unresolved_spots": 0
      }
-    ]
+    ],
+    "chain_work_seconds_per_batch": 20.391667246818546,
+    "chain_missing": []
    },
    {
     "building": "Fondue Bar",
@@ -40969,7 +40979,9 @@
       "spots": 1,
       "unresolved_spots": 1
      }
-    ]
+    ],
+    "chain_work_seconds_per_batch": 70.64966283630994,
+    "chain_missing": []
    },
    {
     "building": "Foragers' Hut",
@@ -41022,7 +41034,9 @@
        6.333
       ]
      }
-    ]
+    ],
+    "chain_work_seconds_per_batch": 6.200000762939453,
+    "chain_missing": []
    },
    {
     "building": "Gingerbread Man Shop",
@@ -41133,7 +41147,9 @@
       "spots": 1,
       "unresolved_spots": 0
      }
-    ]
+    ],
+    "chain_work_seconds_per_batch": 60.07917123933635,
+    "chain_missing": []
    },
    {
     "building": "Nopalero's Hut",
@@ -41186,7 +41202,9 @@
        6.333
       ]
      }
-    ]
+    ],
+    "chain_work_seconds_per_batch": 6.200000762939453,
+    "chain_missing": []
    },
    {
     "building": "Oasis",
@@ -41244,7 +41262,9 @@
        6.333
       ]
      }
-    ]
+    ],
+    "chain_work_seconds_per_batch": 6.200000762939453,
+    "chain_missing": []
    },
    {
     "building": "Open Kitchen",
@@ -41385,7 +41405,9 @@
       "spots": 1,
       "unresolved_spots": 0
      }
-    ]
+    ],
+    "chain_work_seconds_per_batch": 27.263615075548493,
+    "chain_missing": []
    },
    {
     "building": "Open Kitchen",
@@ -41526,7 +41548,9 @@
       "spots": 1,
       "unresolved_spots": 0
      }
-    ]
+    ],
+    "chain_work_seconds_per_batch": 27.263615075548493,
+    "chain_missing": []
    },
    {
     "building": "Porridge Cookhouse",
@@ -41627,7 +41651,9 @@
       "spots": 1,
       "unresolved_spots": 0
      }
-    ]
+    ],
+    "chain_work_seconds_per_batch": 18.158059620658566,
+    "chain_missing": []
    },
    {
     "building": "Stroganoff Cookhouse",
@@ -41720,8 +41746,214 @@
       "spots": 1,
       "unresolved_spots": 0
      }
-    ]
+    ],
+    "chain_work_seconds_per_batch": 25.09208775540193,
+    "chain_missing": []
    }
-  ]
+  ],
+  "crops": [
+   {
+    "building": "Beet",
+    "gameobject_id": 71099,
+    "resource_id": 300127,
+    "resource": "Veggie",
+    "yield": 2,
+    "growth_days": 7,
+    "positions": 2,
+    "sow_seconds": 5.333333492279055,
+    "harvest_seconds_per_plant": 5.983333587646484,
+    "work_seconds_per_unit": 8.650000333786013
+   },
+   {
+    "building": "Cabbage",
+    "gameobject_id": 71093,
+    "resource_id": 300127,
+    "resource": "Veggie",
+    "yield": 1,
+    "growth_days": 4,
+    "positions": 1,
+    "sow_seconds": 5.333333492279055,
+    "harvest_seconds_per_plant": 5.983333587646484,
+    "work_seconds_per_unit": 11.31666707992554
+   },
+   {
+    "building": "Carrot",
+    "gameobject_id": 71098,
+    "resource_id": 300127,
+    "resource": "Veggie",
+    "yield": 3,
+    "growth_days": 9,
+    "positions": 3,
+    "sow_seconds": 5.333333492279055,
+    "harvest_seconds_per_plant": 5.983333587646484,
+    "work_seconds_per_unit": 7.76111141840617
+   },
+   {
+    "building": "Cauliflower",
+    "gameobject_id": 71097,
+    "resource_id": 300127,
+    "resource": "Veggie",
+    "yield": 1,
+    "growth_days": 4,
+    "positions": 1,
+    "sow_seconds": 5.333333492279055,
+    "harvest_seconds_per_plant": 5.983333587646484,
+    "work_seconds_per_unit": 11.31666707992554
+   },
+   {
+    "building": "Corn",
+    "gameobject_id": 71100,
+    "resource_id": 300127,
+    "resource": "Veggie",
+    "yield": 2,
+    "growth_days": 7,
+    "positions": 2,
+    "sow_seconds": 5.333333492279055,
+    "harvest_seconds_per_plant": 5.983333587646484,
+    "work_seconds_per_unit": 8.650000333786013
+   },
+   {
+    "building": "Eggplant",
+    "gameobject_id": 71095,
+    "resource_id": 300127,
+    "resource": "Veggie",
+    "yield": 2,
+    "growth_days": 7,
+    "positions": 1,
+    "sow_seconds": 5.333333492279055,
+    "harvest_seconds_per_plant": 5.983333587646484,
+    "work_seconds_per_unit": 5.65833353996277
+   },
+   {
+    "building": "Onion",
+    "gameobject_id": 71092,
+    "resource_id": 300127,
+    "resource": "Veggie",
+    "yield": 3,
+    "growth_days": 9,
+    "positions": 3,
+    "sow_seconds": 5.333333492279055,
+    "harvest_seconds_per_plant": 5.983333587646484,
+    "work_seconds_per_unit": 7.76111141840617
+   },
+   {
+    "building": "Potato",
+    "gameobject_id": 71094,
+    "resource_id": 300127,
+    "resource": "Veggie",
+    "yield": 3,
+    "growth_days": 9,
+    "positions": 1,
+    "sow_seconds": 5.333333492279055,
+    "harvest_seconds_per_plant": 5.983333587646484,
+    "work_seconds_per_unit": 3.77222235997518
+   },
+   {
+    "building": "Pumpkin",
+    "gameobject_id": 71091,
+    "resource_id": 300127,
+    "resource": "Veggie",
+    "yield": 1,
+    "growth_days": 4,
+    "positions": 1,
+    "sow_seconds": 5.333333492279055,
+    "harvest_seconds_per_plant": 5.983333587646484,
+    "work_seconds_per_unit": 11.31666707992554
+   },
+   {
+    "building": "Pumpkin",
+    "gameobject_id": 99686,
+    "resource_id": 300127,
+    "resource": "Veggie",
+    "yield": 1,
+    "growth_days": 4,
+    "positions": 1,
+    "sow_seconds": 5.333333492279055,
+    "harvest_seconds_per_plant": 5.983333587646484,
+    "work_seconds_per_unit": 11.31666707992554
+   },
+   {
+    "building": "Tomato",
+    "gameobject_id": 71096,
+    "resource_id": 300127,
+    "resource": "Veggie",
+    "yield": 3,
+    "growth_days": 10,
+    "positions": 1,
+    "sow_seconds": 5.333333492279055,
+    "harvest_seconds_per_plant": 5.983333587646484,
+    "work_seconds_per_unit": 3.77222235997518
+   },
+   {
+    "building": "Watermelon",
+    "gameobject_id": 71090,
+    "resource_id": 300126,
+    "resource": "Fruit",
+    "yield": 1,
+    "growth_days": 4,
+    "positions": 1,
+    "sow_seconds": 5.333333492279055,
+    "harvest_seconds_per_plant": 5.983333587646484,
+    "work_seconds_per_unit": 11.31666707992554
+   },
+   {
+    "building": "Wheat",
+    "gameobject_id": 58425,
+    "resource_id": 320813,
+    "resource": "Wheat",
+    "yield": 1,
+    "growth_days": 12,
+    "positions": 1,
+    "sow_seconds": 5.333333492279055,
+    "harvest_seconds_per_plant": 2.2333333492279053,
+    "work_seconds_per_unit": 7.566666841506961
+   }
+  ],
+  "supply": {
+   "Wheat": {
+    "work_seconds": 7.566666841506961,
+    "how": "sown and harvested in a Wheat field",
+    "crop_gameobject_id": 58425
+   },
+   "Flour": {
+    "work_seconds": 11.233333587646488,
+    "how": "1 Wheat, ground (no worker) and bagged at the Windmill",
+    "crop_gameobject_id": 58425,
+    "via": "Wheat"
+   },
+   "Veggie": {
+    "work_seconds": 3.77222235997518,
+    "how": "sown and harvested in a Potato field",
+    "crop_gameobject_id": 71094
+   },
+   "Fruit": {
+    "work_seconds": 6.200000762939453,
+    "how": "picked from a fruit tree",
+    "tree": true
+   },
+   "Stick": {
+    "work_seconds": 4.462500153978666,
+    "how": "a Log felled from a timber tree and split at the Firewood Yard (1 Log -> 4 Sticks)"
+   },
+   "Egg": {
+    "work_seconds": 5.300000190734863,
+    "how": "collected at the Chicken Coop; laying and cleaning not counted",
+    "partial": true
+   },
+   "Meat": {
+    "work_seconds": 18.983333476384487,
+    "how": "one cast at the Fishing Dock, taken as 1 Meat (stored catch 0-1 or 0-2 a cast)",
+    "partial": true
+   },
+   "Mushroom": {
+    "work_seconds": 13.833333969116211,
+    "how": "picked from a wild mushroom"
+   },
+   "Cheese": {
+    "work_seconds": 9.759375219460992,
+    "how": "made at the Cheesery (milking included), with its fire Sticks"
+   }
+  },
+  "chain_method": "Whole-chain work per batch = the building's worker-seconds + each input x the worker-seconds to bring one unit of it to the door (supply). Work only: no walking or carrying. Where a kitchen takes alternative inputs, the first (Veggie for the Open Kitchen) is used."
  }
 }
