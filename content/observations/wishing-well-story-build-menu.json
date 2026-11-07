@@ -1,0 +1,16 @@
+{
+  "id": "wishing-well-story-build-menu",
+  "target": {
+    "type": "buildings",
+    "id": 67663
+  },
+  "claim": "On Sweetroll Peak the Wishing Well is built from a Story tab in the build menu (flag icon), the only entry there, costing 35 Stone and 10 Planks.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "31 (255)",
+    "date": "2026-11-07",
+    "reference": "Maintainer playtest of the archived Original challenge Sweetroll Peak, 7 November 2026, day 1."
+  },
+  "notes": "Matches the game data: the Wishing Well is in the Mission building category, whose in-game name is \"Story\", and its stored cost is 10 Plank + 35 Stone."
+}
