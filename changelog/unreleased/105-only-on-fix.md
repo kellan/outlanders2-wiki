@@ -1,1 +1,1 @@
-Level-specific building pages now list every level the building appears in, including levels where it starts on the map, instead of an incomplete "Only on" list (105).
+Level-specific building pages now list every level the building appears in, not an incomplete "Only on" list. Level pages now count buildings that are already on the map when they say what can meet a need or make an ingredient, and the building infobox row says "Buildable on" (105).
