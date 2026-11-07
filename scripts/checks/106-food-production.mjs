@@ -19,6 +19,7 @@ assert.ok(/Past a point, more workers add little/.test(t)&&/Open Kitchen \(2 wor
 // Linked from Mechanics and from the Food directory, which no longer says factory speed is not stored.
 assert.ok(h.render('mechanics/').includes('Food production'),'listed on Mechanics');
 const food=h.render('food/');assert.ok(!/factory speed, which is not stored/.test(food)&&/Food production compared/.test(strip(food)),'Food page links the comparison');
+assert.match(t,/A food unit is how filling one item is.*a Bread is 2, a Cheese 3, a Cookie or a Fruit 1.*Each unit adds 60 to a villager’s Food meter, so one Bread fills a villager as much as two Cookies/,'food unit defined');
 // Costs per 10 food units: Flour counts as Wheat only because the Windmill is 1 Wheat -> 1 Flour.
 const mill=vm.runInContext(`JSON.stringify(D.buildings.find(b=>b.name==='Windmill').formula_ids.map(id=>D.formulas.find(f=>f.id===id)).map(f=>[f.inputs.map(i=>i.count),f.outputs.map(o=>o.count)]))`,h.ctx);
 assert.equal(mill,'[[[1],[1]],[[1],[1]]]','Windmill turns 1 Wheat into 1 Flour');
