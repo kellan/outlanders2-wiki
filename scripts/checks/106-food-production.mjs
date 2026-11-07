@@ -25,7 +25,7 @@ assert.equal(mill,'[[[1],[1]],[[1],[1]]]','Windmill turns 1 Wheat into 1 Flour')
 const costs=t.slice(t.indexOf('What the food costs'),t.indexOf('What stands out'));
 assert.match(costs,/Cookie Shop 1\.3 Stick, 2\.5 Egg, 1\.3 Wheat \(as Flour\) 42 s 10\.7 Stick.*21\.3 Egg \(about 5 Chicken Coops at the reported 5 a day\); 10\.7 Wheat \(about 128 Wheat fields\)/);
 assert.match(costs,/Bakery 0\.5 Stick, 0\.63 Wheat \(as Flour\) 41 s/);
-assert.match(costs,/Cookies cost more than Bread\..*2 times the Wheat, plus the Eggs\..*4 Fun/);
+assert.match(costs,/Cookies cost more than Bread per food unit, not per item\. One Flour makes 8 loaves of Bread or 8 Cookies\. But a Bread is worth 2 food units and a Cookie 1,.*4 Fun/);
 assert.match(costs,/one Wheat bakes into 16 food units of Bread: about 1\.3 food units a day per field, against 0\.33 for a Carrot field/);
 assert.match(costs,/Cheesery 0\.28 Stick, 0\.56 Milk \(from its Cows\)/);
 console.log('PASS: food production page lists every food source with decoded ceilings, net food and cost per 10 food units.');

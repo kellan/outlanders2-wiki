@@ -28,7 +28,7 @@ The maintainer asked for a page comparing the food production rates of every obj
   - a "What the food costs" section: per 10 food units, the kitchen's worker-seconds, and what a fully staffed kitchen needs a day, turned into fields, coops, trees or Logs.
   - Flour counts as Wheat, because the Windmill is 1 Wheat to 1 Flour (check 106 asserts this).
   - Coop counts use the player-reported 5 Eggs a day, which is labelled as such.
-  - Findings: Cookies take 2 times the Wheat of Bread per food unit, plus 2.5 Eggs, and buy 4 Fun per Cookie. Baked, a Wheat field gives about 1.3 food units a day, against 0.33 for a Carrot field eaten raw, but a full Bakery would need about 66 Wheat fields.
+  - Findings: one Flour makes 8 Bread or 8 Cookies (same per item, checked in the decoded FormulaStep records), but Bread is 2 food units and a Cookie 1, so per food unit Cookies take twice the Flour, plus 2.5 Eggs, and buy 4 Fun per Cookie. The maintainer questioned the first wording ("twice the Wheat"), which read as per item; the page now says per item first. Baked, a Wheat field gives about 1.3 food units a day, against 0.33 for a Carrot field eaten raw, but a full Bakery would need about 66 Wheat fields.
 - "What stands out" bullets are generated from the data:
   - kitchens against fields;
   - food cooked into food;
