@@ -1,0 +1,1 @@
+Buildings that only appear on particular levels, such as the Author's Stand, Beer Stand and Ritual of Hidden Light, are now marked Level-specific, with their own tab in the buildings list and the levels that offer them (103).
