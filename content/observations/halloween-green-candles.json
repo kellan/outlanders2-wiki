@@ -1,0 +1,16 @@
+{
+  "id": "halloween-green-candles",
+  "target": {
+    "type": "biomes",
+    "id": "Halloween"
+  },
+  "claim": "On Halloween maps the candles at the gravestones burn with green flames, and small green lights drift among the trees at night.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "31 (255)",
+    "date": "2026-11-08",
+    "reference": "Maintainer playtest of The Great Pumpkin Race, 8 November 2026, day 1."
+  },
+  "notes": "The map places 37 Halloween candles and three Fireflies events; which effect makes the drifting green lights is not settled from the files."
+}
