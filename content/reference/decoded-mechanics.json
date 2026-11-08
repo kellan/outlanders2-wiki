@@ -2922,7 +2922,9 @@
    {
     "path": "No Reproduction Single00 L",
     "duration_days": 999.0,
-    "effect": {},
+    "effect": {
+     "ReproductionMultiplier": 0.0
+    },
     "villager_spawn_entries": 0,
     "resources_to_spawn": [],
     "notification_days_before": 0.0
@@ -3085,7 +3087,11 @@
    {
     "path": "Level 01A",
     "duration_days": 999.0,
-    "effect": {},
+    "effect": {
+     "ReproductionMultiplier": 0.0,
+     "NoDeath": true,
+     "ConstantHappiness": true
+    },
     "villager_spawn_entries": 0,
     "resources_to_spawn": [],
     "notification_days_before": 0.0
@@ -3101,7 +3107,9 @@
    {
     "path": "Level 01B",
     "duration_days": 999.0,
-    "effect": {},
+    "effect": {
+     "ReproductionMultiplier": 0.0
+    },
     "villager_spawn_entries": 0,
     "resources_to_spawn": [],
     "notification_days_before": 0.0
@@ -29740,7 +29748,9 @@
      "resources": [],
      "duration_days": 999.0,
      "announced_days_before": 0.0,
-     "effect": {}
+     "effect": {
+      "ReproductionMultiplier": 0.0
+     }
     }
    ],
    "Test House Brick Buildsite": [],
@@ -29933,7 +29943,9 @@
      "resources": [],
      "duration_days": 999.0,
      "announced_days_before": 0.0,
-     "effect": {}
+     "effect": {
+      "ReproductionMultiplier": 0.0
+     }
     }
    ],
    "Single_C_Demolicion": [
@@ -29993,6 +30005,7 @@
      "duration_days": 999.0,
      "announced_days_before": 0.0,
      "effect": {
+      "ReproductionMultiplier": 0.0,
       "NoDeath": true,
       "ConstantHappiness": true
      }
@@ -30606,7 +30619,9 @@
      "resources": [],
      "duration_days": 999.0,
      "announced_days_before": 0.0,
-     "effect": {}
+     "effect": {
+      "ReproductionMultiplier": 0.0
+     }
     },
     {
      "root": "Spawn 10 Villagers",
@@ -30651,7 +30666,9 @@
      "resources": [],
      "duration_days": 999.0,
      "announced_days_before": 0.0,
-     "effect": {}
+     "effect": {
+      "ReproductionMultiplier": 0.0
+     }
     }
    ],
    "Test Manchamanteles Shop Buildsite": [],
@@ -30938,7 +30955,9 @@
      "resources": [],
      "duration_days": 999.0,
      "announced_days_before": 0.0,
-     "effect": {}
+     "effect": {
+      "ReproductionMultiplier": 0.0
+     }
     },
     {
      "root": "Rain",
@@ -31032,7 +31051,9 @@
      "resources": [],
      "duration_days": 999.0,
      "announced_days_before": 0.0,
-     "effect": {}
+     "effect": {
+      "ReproductionMultiplier": 0.0
+     }
     }
    ],
    "Test Desert Forager": [],
