@@ -28,9 +28,10 @@ The maintainer asked for a page linking all the Halloween-themed content and ano
     - The page now splits maps into "Halloween maps" / "Christmas maps" (the whole map has the seasonal look) and "Other maps with … touches" (an ordinary scene with decorations added).
   - **Halloween lighting:** `HalloweenDayNightCycle` comes in Amish, Chinese, Egyptian, Precolumbian and Viking versions. These are the Halloween-scene overrides in the five Tournament Mode style Skins, shown under their English names: Rural, Imperial, Egyptian, Mesoamerican, Nordic. There is no Christmas lighting override.
   - **Christmas presents:** each present carries a `RecyclableBehaviour.OverrideRecycleValue` of 3 Coats, or 1 Coat + 2 Books (already in `salvage`). The Christmas page now has a Presents section linking to Recycling.
-- Ambience only, not listed separately:
-  - Halloween Event and Halloween Event Small have no effect and last 9,999 days;
-  - CrowHalloween; crows also appear on non-Halloween maps.
+- **Heavy mist (Atmosphere section, added after the maintainer confirmed it in play):** the "Halloween Event" level event lasts 9,999 days and holds one particle system and no gameplay effect (every multiplier is 1). The maintainer saw it in play as heavy mist; recorded as observation `halloween-event-heavy-mist` on the Spookylands biome, and shown on the Halloween page.
+  - It is placed only on the three Halloween story maps, not on the Halloween online challenges.
+  - "Halloween Event Small" is the same with a lighter effect, and no map uses it.
+- Not listed: CrowHalloween. No map places it; maps place ordinary crows, which also appear on non-Halloween maps.
 - `AssetReplacements` maps old Paper Mill, Foresters' Hub and Orchard prefabs to new ones. It is not seasonal.
 - **Level pages** show "· Halloween" or "· Christmas" beside the biome, linking to the collection page, with "(touches)" for decoration-only maps.
 
