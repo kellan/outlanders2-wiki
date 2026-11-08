@@ -11,9 +11,10 @@ assert.match(hwt,/Halloween maps These 11 maps use the game’s own Halloween sc
 assert.match(hwt,/Other maps with Halloween touches Ordinary scenes with Halloween decorations or buildings added\. Map Kind What is Halloween about it Hollowgrounds Online challenge, 2025-04-18/);
 for(const n of ['The Great Pumpkin Race','Morrigwyn Stones','A Moon Part','Spooktown','Spooky Veggie Ritual','The Pit of Thorns','Hollowgrounds','Dark Stew Feast'])assert.ok(hwt.includes(n),'Halloween map '+n);
 assert.match(hwt,/The Great Pumpkin Race Story or standalone map Halloween trees, candles, spooky fences, gravestones and heavy mist/);
-assert.match(hwt,/Atmosphere Heavy mist\. The Halloween event hangs a heavy mist over the map for the whole level\. It is only for looks: walking, carrying, sleep, births and needs are all unchanged\. It is on Morrigwyn Stones, The Great Pumpkin Race and A Moon Part ?; the Halloween online challenges do not have it\. A lighter version is in the game files but no map uses it\./);
-assert.match(hwt,/Seen in play The Halloween event on Halloween maps fills the map with heavy mist\. tested in play, 2026-11-08/);
-assert.match(strip(h.render('biomes/Halloween/')),/Seen in play The Halloween event on Halloween maps fills the map with heavy mist/,'Spookylands page shows it too');
+assert.match(hwt,/Atmosphere Heavy mist\. The Halloween event hangs a heavy mist over the map for the whole level: blue-grey at night, a pinkish haze by day\. It is only for looks: walking, carrying, sleep, births and needs are all unchanged\. It is on Morrigwyn Stones, The Great Pumpkin Race and A Moon Part ?; the Halloween online challenges do not have it\. A lighter version is in the game files but no map uses it\./);
+assert.match(hwt,/Seen in play The Halloween event fills the map with heavy mist: blue-grey at night, a pinkish haze by day\. tested in play, 2026-11-08/);assert.match(hwt,/candles at the gravestones burn with green flames/);
+assert.match(strip(h.render('buildings/zen-garden-105734/')),/Seen in play The Halloween Zen Garden is a horned stone statue with glowing yellow eyes/);
+assert.match(strip(h.render('biomes/Halloween/')),/Seen in play .*fills the map with heavy mist/,'Spookylands page shows it too');
 assert.ok(!/Town of the Year|River of Harmony|Unnamed scenario/.test(hwt),'build-list-only and unnamed maps left out');
 // Christmas: Gingerbread buildings and food, the decorated maps; snowman-only and Gift Shop maps left out.
 for(const n of ['Gingerbread Man Shop','Gingerbread Man Man','Gingerbread Man'])assert.ok(xmt.includes(n),'Christmas lists '+n);

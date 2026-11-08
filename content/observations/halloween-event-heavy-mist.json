@@ -4,13 +4,13 @@
     "type": "biomes",
     "id": "Halloween"
   },
-  "claim": "The Halloween event on Halloween maps fills the map with heavy mist.",
+  "claim": "The Halloween event fills the map with heavy mist: blue-grey at night, a pinkish haze by day.",
   "status": "confirmed",
   "evidence": {
     "kind": "gameplay-test",
     "game_version": "31 (255)",
     "date": "2026-11-08",
-    "reference": "Maintainer playtest, 8 November 2026."
+    "reference": "Maintainer playtest of The Great Pumpkin Race, 8 November 2026, day 1."
   },
   "notes": "Matches the game data: the \"Halloween Event\" level event lasts 9,999 days and holds one particle system and no gameplay effect (every multiplier is 1). It is placed on The Great Pumpkin Race, Morrigwyn Stones and A Moon Part."
 }

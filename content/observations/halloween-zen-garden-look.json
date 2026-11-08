@@ -1,0 +1,16 @@
+{
+  "id": "halloween-zen-garden-look",
+  "target": {
+    "type": "buildings",
+    "id": 105734
+  },
+  "claim": "The Halloween Zen Garden is a horned stone statue with glowing yellow eyes, wrapped in thorny vines and ringed by stepping stones. Villagers sit in front of it to meditate, as at an ordinary Zen Garden.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "31 (255)",
+    "date": "2026-11-08",
+    "reference": "Maintainer playtest of The Great Pumpkin Race, 8 November 2026, day 1."
+  },
+  "notes": "The map starts with one Zen Garden _Halloween (gameobject 105734) already placed."
+}

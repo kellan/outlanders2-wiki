@@ -31,6 +31,10 @@ The maintainer asked for a page linking all the Halloween-themed content and ano
 - **Heavy mist (Atmosphere section, added after the maintainer confirmed it in play):** the "Halloween Event" level event lasts 9,999 days and holds one particle system and no gameplay effect (every multiplier is 1). The maintainer saw it in play as heavy mist; recorded as observation `halloween-event-heavy-mist` on the Spookylands biome, and shown on the Halloween page.
   - It is placed only on the three Halloween story maps, not on the Halloween online challenges.
   - "Halloween Event Small" is the same with a lighter effect, and no map uses it.
+- **Screenshots from the maintainer's playtest of The Great Pumpkin Race (day 1)** added three observations:
+  - the mist is blue-grey at night and a pinkish haze by day;
+  - the pre-placed Halloween Zen Garden (105734) is a horned statue with glowing yellow eyes where villagers sit to meditate;
+  - the Halloween candles burn green, and green lights drift among the trees at night. The map has 3 Fireflies events and 37 candles; which effect makes the drifting lights is left open.
 - Not listed: CrowHalloween. No map places it; maps place ordinary crows, which also appear on non-Halloween maps.
 - `AssetReplacements` maps old Paper Mill, Foresters' Hub and Orchard prefabs to new ones. It is not seasonal.
 - **Level pages** show "· Halloween" or "· Christmas" beside the biome, linking to the collection page, with "(touches)" for decoration-only maps.
