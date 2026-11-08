@@ -1,0 +1,1 @@
+New pages: Halloween and Christmas. Each collects the themed buildings, plants and food and every map with seasonal scenery: the Spookylands biome, the Halloween Tombstone and the Halloween looks of seven buildings and plants, and 19 Halloween maps; the Gingerbread Man Shop, Gingerbread Men, the Gingerbread Man Man and 13 Christmas maps. Both are linked from the home page (108).
