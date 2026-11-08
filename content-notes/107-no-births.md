@@ -33,4 +33,14 @@ The maintainer asked whether the wiki surfaces that some levels have no reproduc
 
 **Seen in play:** the maintainer noticed no births while testing Full Tilt Queso (8 November 2026, version 31). Recorded as observation `full-tilt-queso-no-births` on that level page.
 
+**Babies and births page** (follow-up: "is there a page that they can all link to? ... explains baby rates and that there are no babies on some levels"):
+- New Mechanics page `births/`. It covers:
+  - the rules;
+  - a multiplier table (happiness, free beds, children, Community ×1.2 from its satisfied effect, tournament baby boost ×3, map rule ×0);
+  - babies a day for 10 houses;
+  - the map list, plus "Confirmed in play" from level observations.
+- Babies a day per house = 1 ÷ (1 ÷ chance + kid age), because the crib stays busy for 3 days after a birth. This is an approximation for steady factors.
+- The level tips and the Houses page now link to the new page. The Villagers Births section is cut to a summary and a link.
+
 Check 107 covers the decoded zeros, all 16 tips and event rows, a control map, and the Villagers text and list.
+- Check 83's "houses links to the birth rules" now looks for the Babies and births page, the rules' new single home.

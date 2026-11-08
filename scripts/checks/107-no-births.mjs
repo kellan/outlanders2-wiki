@@ -14,10 +14,16 @@ const eow=lv.find(x=>x[1]==='The End of the World');assert.match(strip(h.render(
 const ov=lv.find(x=>x[1]==='Overgrown');assert.ok(ov,'online challenge maps are covered (no event schedule, detected from placed prefabs)');
 // A map without the rule says nothing about it.
 assert.ok(!/No babies are born/.test(strip(h.render('levels/'+vm.runInContext(`W.levels.find(l=>l.scenario&&!noBirthsRule(l.scenario)).id`,h.ctx)+'/'))));
-// Villagers page: corrected birth rules and the list.
-const v=strip(h.render('villagers/'));
-assert.match(v,/Once a game day, if the village has more than one adult, every house that has residents and an empty crib rolls once for a baby\. The chance of each roll starts at 14%/);
-assert.match(v,/Free beds: ×0\.025 once villagers fill every bed/);assert.ok(!/pairs of adults|How often the check runs/.test(v),'old wording gone');
-assert.match(v,/Maps where no babies are born On 15 maps .*Story and standalone maps: Alike!, .*Middle Ground\. Online challenges: Retirement Town, .*Mother Knows Best\. On The End of the World the same rule also stops deaths/);
-assert.ok(!/Maps where no babies are born[^.]*Unnamed scenario/.test(v),'unnamed archive entries left out of the list');
-console.log('PASS: no-births maps flagged on 16 level pages and listed on Villagers; birth rules match the game code.');
+// Babies and births page: rules, rates, the list; Villagers and level tips link to it.
+const b=strip(h.render('births/'));
+assert.match(b,/Once a game day, if the village has more than one adult, every house that has residents and an empty crib rolls once for a baby\./);
+assert.match(b,/Each roll starts at 14% and is multiplied by: What Multiplier When Happiness up to ×1\.4 .*Free beds ×0\.025 .*Children ×0\.6 .*Community met ×1\.2 .*Baby boost ×3 .*Map rule ×0/);
+assert.match(b,/Fully happy, free beds 19\.6% 1\.23 8\.1 /,'10 houses: 10 ÷ (1 ÷ 0.196 + 3)');
+assert.match(b,/Fully happy, every bed taken 0\.5% 0\.05 207\.1 /);
+assert.match(b,/On 15 maps a map rule sets the birth chance to zero .*Story and standalone maps: Alike!, .*Middle Ground\. Online challenges: Retirement Town, .*Mother Knows Best\. On The End of the World the same rule also stops deaths and keeps happiness fixed\. Confirmed in play on Full Tilt Queso\./);
+assert.ok(!/Unnamed scenario/.test(b.slice(b.indexOf('Maps where no babies'))),'unnamed archive entries left out of the list');
+assert.ok(!/pairs of adults|How often the check runs/.test(b+strip(h.render('villagers/'))),'old wording gone');
+assert.match(strip(h.render('villagers/')),/On 15 maps no babies are born at all\. The full rules, birth rates and the list of maps are on Babies and births\./);
+assert.ok(h.render('levels/'+ftq[0]+'/').includes('births/">Babies and births</a>'),'level tip links the page');
+assert.ok(h.render('mechanics/').includes('Babies and births'),'listed on Mechanics');
+console.log('PASS: no-births maps flagged on 16 level pages; Babies and births page with rules, rates and the list.');
