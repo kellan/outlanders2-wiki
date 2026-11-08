@@ -313,6 +313,22 @@
       "spoiler": false
     },
     {
+      "type": "halloween",
+      "id": "",
+      "name": "Halloween",
+      "category": "Mechanics",
+      "path": "halloween/",
+      "spoiler": false
+    },
+    {
+      "type": "christmas",
+      "id": "",
+      "name": "Christmas",
+      "category": "Mechanics",
+      "path": "christmas/",
+      "spoiler": false
+    },
+    {
       "type": "houses",
       "id": "",
       "name": "Houses",
@@ -13185,6 +13201,8 @@
     "roads-and-walking/",
     "food-production/",
     "births/",
+    "halloween/",
+    "christmas/",
     "houses/",
     "challenges/original/",
     "challenges/redux/",
