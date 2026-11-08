@@ -31,4 +31,6 @@ The maintainer asked whether the wiki surfaces that some levels have no reproduc
 - "free housing" means beds (villagers below total housing), not cribs;
 - a baby does not count as a villager until it turns into a kid.
 
+**Seen in play:** the maintainer noticed no births while testing Full Tilt Queso (8 November 2026, version 31). Recorded as observation `full-tilt-queso-no-births` on that level page.
+
 Check 107 covers the decoded zeros, all 16 tips and event rows, a control map, and the Villagers text and list.

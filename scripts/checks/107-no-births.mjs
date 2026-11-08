@@ -9,6 +9,7 @@ assert.equal(lv.length,16,'16 maps place a no-births event: '+lv.map(x=>x[1]).jo
 for(const [id,name] of lv){const t=strip(h.render('levels/'+id+'/'));
  assert.match(t,/No babies are born on this map\. A map rule sets the birth chance to zero for the whole level/,name+': tip');
  assert.match(t,/Events No babies are born on this map/,name+': events row');}
+const ftq=lv.find(x=>x[1]==='Full Tilt Queso');assert.match(strip(h.render('levels/'+ftq[0]+'/')),/Seen in play On Full Tilt Queso no babies are born\. tested in play, 2026-11-08/,'in-play confirmation');
 const eow=lv.find(x=>x[1]==='The End of the World');assert.match(strip(h.render('levels/'+eow[0]+'/')),/Nobody dies here either, and happiness stays fixed\./);
 const ov=lv.find(x=>x[1]==='Overgrown');assert.ok(ov,'online challenge maps are covered (no event schedule, detected from placed prefabs)');
 // A map without the rule says nothing about it.
