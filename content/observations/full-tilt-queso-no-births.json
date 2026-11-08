@@ -1,0 +1,16 @@
+{
+  "id": "full-tilt-queso-no-births",
+  "target": {
+    "type": "levels",
+    "id": "Single_L_23"
+  },
+  "claim": "On Full Tilt Queso no babies are born.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "31 (255)",
+    "date": "2026-11-08",
+    "reference": "Maintainer playtest of Full Tilt Queso, 8 November 2026."
+  },
+  "notes": "Matches the game data: the map places the level event \"No Reproduction Single00 L\", which sets the birth chance multiplier (ReproductionMultiplier) to 0 for 999 days from day 0."
+}

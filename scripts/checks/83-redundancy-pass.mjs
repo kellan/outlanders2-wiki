@@ -21,7 +21,7 @@ assert.ok(!strip(h.render('plants/apple-tree/')).includes('A fruit tree that yie
 const heat=h.render('heat-cooling-water/');assert.ok(!heat.includes('From the warning</th>')&&heat.includes('/villagers/#death'),'death table only on Villagers and life');
 assert.ok(!h.render('villagers/').includes('Sandbox starting villagers'),'sandbox villagers only on Sandbox');
 assert.ok(!strip(h.render('needs/')).includes('More about needs'),'needs page relies on the mechanics menu');
-assert.ok(h.render('houses/').includes('/villagers/#births'),'houses links to the birth rules');
+assert.ok(h.render('houses/').includes('/births/"'),'houses links to the birth rules (on Babies and births since PR 107)');
 // Meta pages.
 const sp=strip(h.render('spoilers/'));assert.ok(count(sp,'The mushroom production chain is reported unreleased')<=2,'spoiler reasons stated once per group');
 assert.ok(!strip(h.render('verification/')).includes('New findings'),'no stale findings block');
