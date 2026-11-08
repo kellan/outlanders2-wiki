@@ -5,7 +5,7 @@ const hw=h.render('halloween/'),hwt=strip(hw),xm=h.render('christmas/'),xmt=stri
 // Halloween: biome, every Halloween-variant building and plant, the food, the maps.
 assert.ok(hw.includes('/biomes/')&&/Spookylands is the Halloween biome/.test(hwt),'Spookylands linked');
 for(const n of ['Halloween Tombstone','Communal Plaza','Fountain','Open Kitchen','Playground','Two-Story House','Zen Garden','Dead Tree','Pumpkin','Stew'])assert.ok(hwt.includes(n),'Halloween lists '+n);
-assert.match(hwt,/Two-Story House \(Halloween look; the ordinary one is here\)/);
+assert.match(hwt,/Two-Story House Halloween look of the ordinary Two-Story House/);
 assert.match(hwt,/19 maps in all\. 9 of the online challenges ran in October 2025\./);
 assert.match(hwt,/Halloween maps These 11 maps use the game’s own Halloween scene, so the whole map has the Halloween look, including its own day-and-night lighting, with a version for each Tournament Mode style \(Rural, Imperial, Egyptian, Mesoamerican and Nordic\)\./);
 assert.match(hwt,/Other maps with Halloween touches Ordinary scenes with Halloween decorations or buildings added\. Map Kind What is Halloween about it Hollowgrounds Online challenge, 2025-04-18/);
