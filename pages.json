@@ -305,6 +305,14 @@
       "spoiler": false
     },
     {
+      "type": "births",
+      "id": "",
+      "name": "Babies and births",
+      "category": "Mechanics",
+      "path": "births/",
+      "spoiler": false
+    },
+    {
       "type": "houses",
       "id": "",
       "name": "Houses",
@@ -13176,6 +13184,7 @@
     "recycling/",
     "roads-and-walking/",
     "food-production/",
+    "births/",
     "houses/",
     "challenges/original/",
     "challenges/redux/",
