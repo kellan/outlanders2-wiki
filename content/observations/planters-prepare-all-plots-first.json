@@ -4,7 +4,7 @@
     "type": "buildings",
     "id": 69353
   },
-  "claim": "Farm, Orchard and Foresters' Hub workers prepare every marked field or plot before they plant any of them, so marking a big farm at once delays the first harvest. At the Orchard and Foresters' Hub the workers also have to raise seedlings, which takes time too. With no plots to prepare, they start seedlings ahead of time.",
+  "claim": "Farm, Orchard and Foresters' Hub workers prepare every marked field or plot before they plant any of them, so marking a big farm at once delays the first harvest. At the Orchard and Foresters' Hub the workers also have to raise seedlings, which takes time too. With no plots to prepare they start seedlings ahead of time, but the fastest way to get trees in the ground is to prepare a few plots, then let them start seedlings: they plant each one as soon as it is ready.",
   "status": "confirmed",
   "evidence": {
     "kind": "gameplay-test",
