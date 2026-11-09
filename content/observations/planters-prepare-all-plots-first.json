@@ -1,0 +1,16 @@
+{
+  "id": "planters-prepare-all-plots-first",
+  "target": {
+    "type": "buildings",
+    "id": 69353
+  },
+  "claim": "Farm, Orchard and Foresters' Hub workers prepare every marked field or plot before they plant any of them, so marking a big farm at once delays the first harvest.",
+  "status": "confirmed",
+  "evidence": {
+    "kind": "gameplay-test",
+    "game_version": "31 (255)",
+    "date": "2026-11-09",
+    "reference": "Maintainer report from play, 9 November 2026."
+  },
+  "notes": "Matches the game data: the Farm, Greenhouse, Orchard, Foresters' Hub and Oasis each have a BuildSiteBuilderBehaviour listing their field and tree build sites, so a marked plot is a build site their workers build. A villager's ActivityWorkOnBuilderWorkplace (working a build site) has importance 0.91, above ActivityWorkOnWorkplace (workplace work such as planting) at 0.90; only ActivityExtractResource (harvesting) ranks higher at 0.92."
+}

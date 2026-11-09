@@ -1,0 +1,1 @@
+Farm, Greenhouse, Orchard, Foresters' Hub and Oasis pages, and the Plants page, now advise marking a few fields or plots at a time: workers prepare every marked plot before planting any, so a big farm marked at once delays the first harvest (seen in play, and matches the game's work priorities) (110).
