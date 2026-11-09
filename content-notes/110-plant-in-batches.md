@@ -25,6 +25,6 @@ The maintainer reported from play that Farm, Orchard and Foresters' Hub workers 
 - The buildings: Orchard (formulas 296905/277797), Foresters' Hub (296907/277799) and Oasis (303468/297818). The old Orchard/Foresters' Hub prefabs have 4 starting spots.
 - Copied into `decoded-mechanics.json` as `seedlings` from the version 30 decode (timelines via `export_work_timings.Game`).
 - Starting a seedling is workplace work (0.90), so it also waits behind plot preparation (0.91). The tree-planter tips and the Plants tip say so.
-- Not covered: whether seedlings are started ahead of demand once plots exist.
+- **Seedlings ahead of time** (maintainer, from play): with no plots to prepare, workers start seedlings ahead of time. The tree-planter tips now give the order: build the planter, let it fill its beds with seedlings, then mark a few plots at a time.
 
 Check 110 covers the tip, its placement and the observation.
