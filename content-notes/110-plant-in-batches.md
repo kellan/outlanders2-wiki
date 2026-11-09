@@ -18,4 +18,13 @@ The maintainer reported from play that Farm, Orchard and Foresters' Hub workers 
 - Observation `planters-prepare-all-plots-first` (on the Farm) records the play report with the decoded reasoning.
 - The Roadworks Office follows the same rule for marked road tiles but is not mentioned; the report was about planting.
 
+**Seedlings** (follow-up from the maintainer: at the Orchard and Foresters' Hub the workers have to raise seedlings, which takes time too)
+- Each tree planter has a two-step seedling recipe:
+  - a worker starts a seedling (` -> GrowingSapling`, 15.53 s timeline);
+  - it grows with no worker (`GrowingSapling -> Sapling`, 128 s timeline; 0.43 of a 300 s game day) in one of 16 beds.
+- The buildings: Orchard (formulas 296905/277797), Foresters' Hub (296907/277799) and Oasis (303468/297818). The old Orchard/Foresters' Hub prefabs have 4 starting spots.
+- Copied into `decoded-mechanics.json` as `seedlings` from the version 30 decode (timelines via `export_work_timings.Game`).
+- Starting a seedling is workplace work (0.90), so it also waits behind plot preparation (0.91). The tree-planter tips and the Plants tip say so.
+- Not covered: whether seedlings are started ahead of demand once plots exist.
+
 Check 110 covers the tip, its placement and the observation.
