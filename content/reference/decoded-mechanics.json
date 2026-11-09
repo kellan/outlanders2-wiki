@@ -41976,5 +41976,79 @@
    }
   },
   "chain_method": "Whole-chain work per batch = the building's worker-seconds + each input x the worker-seconds to bring one unit of it to the door (supply). Work only: no walking or carrying. Where a kitchen takes alternative inputs, the first (Veggie for the Open Kitchen) is used."
+ },
+ "seedlings": {
+  "class": "FormulaStepBehaviour / WorkspotBehaviour with TimelineAsset lengths",
+  "checked_versions": [
+   "30 build 254"
+  ],
+  "note": "Tree planters raise a seedling before planting: a worker starts it (\" -> GrowingSapling\"), then it grows by itself in a bed (\"GrowingSapling -> Sapling\"). Seconds are simulation seconds (300 a game day).",
+  "records": [
+   {
+    "building": "Foresters' Hub",
+    "gameobject_id": 40306,
+    "internal_name": "Forester old",
+    "start_formula_id": 296904,
+    "grow_formula_id": 277796,
+    "start_seconds": 15.533,
+    "start_needs_worker": true,
+    "start_spots": 4,
+    "grow_seconds": 128.0,
+    "grow_needs_worker": false,
+    "beds": 16
+   },
+   {
+    "building": "Orchard",
+    "gameobject_id": 40307,
+    "internal_name": "Orchard",
+    "start_formula_id": 296905,
+    "grow_formula_id": 277797,
+    "start_seconds": 15.533,
+    "start_needs_worker": true,
+    "start_spots": 16,
+    "grow_seconds": 128.0,
+    "grow_needs_worker": false,
+    "beds": 16
+   },
+   {
+    "building": "Orchard",
+    "gameobject_id": 40308,
+    "internal_name": "Orchard old",
+    "start_formula_id": 296906,
+    "grow_formula_id": 277798,
+    "start_seconds": 15.533,
+    "start_needs_worker": true,
+    "start_spots": 4,
+    "grow_seconds": 128.0,
+    "grow_needs_worker": false,
+    "beds": 16
+   },
+   {
+    "building": "Foresters' Hub",
+    "gameobject_id": 40309,
+    "internal_name": "Forester",
+    "start_formula_id": 296907,
+    "grow_formula_id": 277799,
+    "start_seconds": 15.533,
+    "start_needs_worker": true,
+    "start_spots": 16,
+    "grow_seconds": 128.0,
+    "grow_needs_worker": false,
+    "beds": 16
+   },
+   {
+    "building": "Oasis",
+    "gameobject_id": 69350,
+    "internal_name": "Oasis",
+    "start_formula_id": 303468,
+    "grow_formula_id": 297818,
+    "start_seconds": 15.533,
+    "start_needs_worker": true,
+    "start_spots": 16,
+    "grow_seconds": 128.0,
+    "grow_needs_worker": false,
+    "beds": 16
+   }
+  ]
  }
 }
