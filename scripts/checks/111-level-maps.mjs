@@ -10,8 +10,8 @@ for(const r of lm.records){const png=fs.readFileSync(root+r.image);assert.ok(png
  assert.ok(x.indexOf('id="map"')<x.indexOf('Starting conditions'),r.asset_name+': map before Starting conditions');
  assert.match(x,/alt="Schematic map of [^"]+, seen from above, facing the same way as the game&#39;s camera at the start\./,r.asset_name+': alt text');}
 const sf=strip(h.render('levels/Level06A/'));
-assert.match(sf,/Map Water Sand Soil Mountain Trees Fruit trees Rocks Buildings Build sites Villagers Our own drawing from the level file: one patch of colour per map square, seen flat from above and turned to face the same way as the game’s camera at the start/);
-assert.match(sf,/Buildings already placed: Basic House, Clay Pit, Foragers' Hut, Lumberjacks' Base, Warehouse, Watchtower \(build site\)\./);
+assert.match(sf,/Map .*?Water Sand Soil Mountain Trees Fruit trees Rocks Buildings Build sites Villagers Our own drawing from the level file: one patch of colour per map square, seen flat from above and turned to face the same way as the game’s camera at the start/);
+assert.match(sf,/Numbers mark the buildings already placed\./);
 const r6=lm.records.find(r=>r.asset_name==='Level06A');assert.equal(r6.villagers,7,'Storefront: 5 adults, 1 kid and the leader (matches the in-game count)');
 assert.ok(!/id="map"/.test(h.render('levels/'+vm.runInContext(`W.levels.find(l=>l.scenario&&!['Level01A','Level01B','Level01C','Level06A'].includes(l.scenario.asset_name)).id`,h.ctx)+'/')),'no map section where none is exported');
 assert.match(fs.readFileSync(new URL('../../docs/TOOLS-AND-PUBLICATION.md',import.meta.url),'utf8'),/Facts and our own drawings derived from those files are allowed; the files themselves are not/);

@@ -42127,6 +42127,7 @@
      396,
      446
     ],
+    "labels": [],
     "image_sha256": "03d55ab564d16ee8570fdd6e9c395f3828d932072b23f276ef0eb7ac628f873a",
     "tiles": {
      "water": 8286,
@@ -42151,6 +42152,13 @@
     "image_size": [
      634,
      562
+    ],
+    "labels": [
+     {
+      "name": "Foragers' Hut",
+      "x": 32.16,
+      "y": 51.65
+     }
     ],
     "image_sha256": "7af2fd3a588ec8fcc5a766aa9d8835b95a05a147eaf985854e71ece36cc0cf72",
     "tiles": {
@@ -42180,6 +42188,7 @@
      691,
      494
     ],
+    "labels": [],
     "image_sha256": "2f8e9fc642b7bf9fa5550f4dd9d84261e86a8e44de7a895fcd4e6d7cbe97c74c",
     "tiles": {
      "water": 7653,
@@ -42204,6 +42213,53 @@
     "image_size": [
      692,
      712
+    ],
+    "labels": [
+     {
+      "name": "Watchtower (build site)",
+      "x": 38.15,
+      "y": 39.85
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 29.16,
+      "y": 53.36
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 15.26,
+      "y": 55.74
+     },
+     {
+      "name": "Basic House",
+      "x": 30.79,
+      "y": 66.07
+     },
+     {
+      "name": "Warehouse",
+      "x": 29.16,
+      "y": 67.66
+     },
+     {
+      "name": "Basic House",
+      "x": 25.89,
+      "y": 70.84
+     },
+     {
+      "name": "Basic House",
+      "x": 29.16,
+      "y": 72.43
+     },
+     {
+      "name": "Clay Pit",
+      "x": 34.06,
+      "y": 73.22
+     },
+     {
+      "name": "Lumberjacks' Base",
+      "x": 14.44,
+      "y": 75.61
+     }
     ],
     "image_sha256": "97a7600bb185e6c1aadfee3e1b8af82b309eb0a66e515fb2a5446a75a30d438c",
     "tiles": {
