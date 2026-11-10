@@ -12,13 +12,14 @@ Issue 96. The maintainer settled the open questions one at a time.
 **Research (main):** `tools/export_level_maps.py`
 - It reads each level the simulator has (`data/levels/macos-30-254`: Level01A, Level01B, Level01C, Level06A) with the same reading as `tools/level_map.py`: the tile grid with terrain and height, plus the placement grid.
 - It draws one patch of colour per tile (terrain shaded by height; trees, fruit trees, rocks, clay, piles, buildings and build sites), with villagers as dots, and leaves out decorations.
-- It crops to the land, turns the image 45° anticlockwise, flattens it to 0.62 height and quantises it to 48 colours: 16–32 KB per level.
+- It turns the image 45° anticlockwise, crops the open water and quantises it to 48 colours: 22–46 KB per level.
+- **Flat, not tilted:** the first draft also flattened the image to 0.62 height to mimic the camera tilt. After seeing it, the maintainer preferred flat top-down maps. They chose the turned version (facing the game's direction) over a square north-up one, so `TILT` is now 1.0.
 - Outputs:
   - PNGs go to `assets/level-maps/`;
   - the summary (image, size, tile counts, object counts, placed buildings, villagers, orientation and publication notes) goes to `data/level-maps/level-maps.json` and into `decoded-mechanics.json` as `level_maps`.
 
 **Wiki**
-- A **Map** section comes before Starting conditions, with a legend, alt text and a caption ("our own drawing … the way the game's camera first shows the map").
+- A **Map** section comes before Starting conditions, with a legend, alt text and a caption ("our own drawing … seen flat from above and turned to face the same way as the game's camera at the start").
 - The alt text names what is on the map, without counts. The tool's "trees" include more wild plants than the Starting conditions list, so numbers there could disagree.
 - Villager counts include the leader and match the pages: Storefront 7, also seen on the in-game counter.
 - Checked in a phone-width screenshot.

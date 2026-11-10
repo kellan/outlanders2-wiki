@@ -42055,7 +42055,7 @@
   "class": "Level tile grid (Tile.Type, heights) and the placement grid, via the ported simulator",
   "game_version": "30 build 254",
   "research_tool": "tools/export_level_maps.py",
-  "orientation": "Drawn as the game's default camera shows the map: the top-down map turned 45 degrees anticlockwise and flattened top to bottom. Not mirrored. Checked against the maintainer's Storefront screenshot, 10 November 2026.",
+  "orientation": "Flat and top-down, turned 45 degrees anticlockwise so it faces the same way as the game's default camera (the game also tilts the view). Not mirrored. Checked against the maintainer's Storefront screenshot, 10 November 2026; flat chosen over tilted by the maintainer.",
   "publication": "Our own schematic drawings derived from the level files (maintainer decision, issue 96, 10 November 2026). The level files themselves are not published.",
   "legend": {
    "water": [
@@ -42124,10 +42124,10 @@
     "asset_name": "Level01A",
     "image": "level-maps/Level01A.png",
     "image_size": [
-     518,
-     321
+     396,
+     446
     ],
-    "image_sha256": "d4a256121fc969e094d4cefb60198397a652dc1fdb56bde12b2b3f47e3263f00",
+    "image_sha256": "03d55ab564d16ee8570fdd6e9c395f3828d932072b23f276ef0eb7ac628f873a",
     "tiles": {
      "water": 8286,
      "sand": 199,
@@ -42150,9 +42150,9 @@
     "image": "level-maps/Level01B.png",
     "image_size": [
      634,
-     393
+     562
     ],
-    "image_sha256": "803acec8797de7c96bb65b342ee256cd6e0068335f2bcd8108c02758b57ff23a",
+    "image_sha256": "7af2fd3a588ec8fcc5a766aa9d8835b95a05a147eaf985854e71ece36cc0cf72",
     "tiles": {
      "water": 2133,
      "sand": 16,
@@ -42177,10 +42177,10 @@
     "asset_name": "Level01C",
     "image": "level-maps/Level01C.png",
     "image_size": [
-     726,
-     450
+     691,
+     494
     ],
-    "image_sha256": "8ac8dfccc20019233dbc7149e1fa6ec2aad519c6c4c72670e4b551109e90bc92",
+    "image_sha256": "2f8e9fc642b7bf9fa5550f4dd9d84261e86a8e44de7a895fcd4e6d7cbe97c74c",
     "tiles": {
      "water": 7653,
      "sand": 39,
@@ -42202,10 +42202,10 @@
     "asset_name": "Level06A",
     "image": "level-maps/Level06A.png",
     "image_size": [
-     856,
-     530
+     692,
+     712
     ],
-    "image_sha256": "e69bbe1cea2c5b3f1a575bbe744cbeb27a2726fde6bb8546635c7d143e8b9320",
+    "image_sha256": "97a7600bb185e6c1aadfee3e1b8af82b309eb0a66e515fb2a5446a75a30d438c",
     "tiles": {
      "water": 17677,
      "sand": 3260,
