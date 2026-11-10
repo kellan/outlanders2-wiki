@@ -1,7 +1,9 @@
 import {compileContent} from './compile-content.mjs';
 compileContent();
 import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';import {harness,root} from './render-harness.mjs';
-const project=fileURLToPath(new URL('../',import.meta.url));const template=fs.readFileSync(project+'src/template.html','utf8');
+const project=fileURLToPath(new URL('../',import.meta.url));// Version stamp on the stylesheet and page script, so phones fetch the new copy after a deploy instead of a cached old one.
+const stamp=f=>(new Uint32Array([[...fs.readFileSync(project+'src/'+f,'utf8')].reduce((h,c)=>Math.imul(h^c.charCodeAt(0),16777619)>>>0,2166136261)]))[0].toString(36);
+const template=fs.readFileSync(project+'src/template.html','utf8').replace('href="./style.css"',`href="./style.css?v=${stamp('style.css')}"`).replace('src="./page.js"',`src="./page.js?v=${stamp('page.js')}"`);
 // Source assets (game icons, evidence screenshots) live in assets/ and are copied into the generated site. dist/ itself is not committed.
 for(const name of fs.readdirSync(project+'assets'))fs.cpSync(project+'assets/'+name,root+name,{recursive:true});
 const h=await harness();const manifests=[];

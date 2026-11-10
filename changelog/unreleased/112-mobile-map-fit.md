@@ -1,0 +1,1 @@
+Level maps now fit phone screens even when the phone still has an older copy of the site's styles, and the site's stylesheet and script are now version-stamped so phones pick up changes right after each update (112).

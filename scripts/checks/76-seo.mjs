@@ -12,7 +12,7 @@ assert.match(meta(page('verification/buildings/bakery/'),/<title>([^<]*)<\/title
 const sitemap=fs.readFileSync(root+'sitemap.xml','utf8');assert.ok(sitemap.includes('<loc>https://outlanders2wiki.com/buildings/bakery/</loc>')&&!sitemap.includes('/building/bakery/'),'sitemap lists canonical pages only');
 assert.ok(fs.readFileSync(root+'robots.txt','utf8').includes('Sitemap: https://outlanders2wiki.com/sitemap.xml'),'robots.txt points at the sitemap');
 const llms=fs.readFileSync(root+'llms.txt','utf8');assert.ok(llms.startsWith('# Outlanders 2 Wiki')&&llms.includes('## Data downloads')&&llms.includes('[Bakery](https://outlanders2wiki.com/buildings/bakery/)'),'llms.txt');
-const nf=fs.readFileSync(root+'404.html','utf8');assert.ok(nf.includes('noindex')&&nf.includes('href="/style.css"'),'404 page with root-relative assets');
+const nf=fs.readFileSync(root+'404.html','utf8');assert.ok(nf.includes('noindex')&&/href="\/style\.css(\?v=[0-9a-z]+)?"/.test(nf),'404 page with root-relative assets');
 let unique=new Set(),n=0;for(const p of JSON.parse(fs.readFileSync(root+'pages.json')).canonical_pages){unique.add(meta(page(p.path),/<meta name="description" content="([^"]*)"/));n++}
 assert.ok(unique.size>n*0.85,`most pages have their own description (${unique.size} of ${n})`);
 console.log(`PASS: canonical URLs, ${unique.size} distinct descriptions for ${n} pages, link previews, structured data, sitemap, robots.txt, llms.txt, 404.`);
