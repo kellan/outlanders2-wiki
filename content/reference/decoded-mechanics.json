@@ -42050,5 +42050,189 @@
     "beds": 16
    }
   ]
+ },
+ "level_maps": {
+  "class": "Level tile grid (Tile.Type, heights) and the placement grid, via the ported simulator",
+  "game_version": "30 build 254",
+  "research_tool": "tools/export_level_maps.py",
+  "orientation": "Flat and top-down, turned 45 degrees anticlockwise so it faces the same way as the game's default camera (the game also tilts the view). Not mirrored. Checked against the maintainer's Storefront screenshot, 10 November 2026; flat chosen over tilted by the maintainer.",
+  "publication": "Our own schematic drawings derived from the level files (maintainer decision, issue 96, 10 November 2026). The level files themselves are not published.",
+  "legend": {
+   "water": [
+    70,
+    130,
+    190
+   ],
+   "sand": [
+    225,
+    205,
+    150
+   ],
+   "soil": [
+    120,
+    165,
+    90
+   ],
+   "mountain": [
+    130,
+    125,
+    120
+   ],
+   "tree": [
+    40,
+    95,
+    45
+   ],
+   "fruit": [
+    150,
+    60,
+    50
+   ],
+   "rock": [
+    95,
+    95,
+    100
+   ],
+   "clay": [
+    190,
+    110,
+    60
+   ],
+   "pile": [
+    150,
+    110,
+    60
+   ],
+   "building": [
+    230,
+    120,
+    40
+   ],
+   "site": [
+    240,
+    170,
+    60
+   ],
+   "villager": [
+    250,
+    220,
+    70
+   ]
+  },
+  "records": [
+   {
+    "asset_name": "Level01A",
+    "image": "level-maps/Level01A.png",
+    "image_size": [
+     396,
+     446
+    ],
+    "image_sha256": "03d55ab564d16ee8570fdd6e9c395f3828d932072b23f276ef0eb7ac628f873a",
+    "tiles": {
+     "water": 8286,
+     "sand": 199,
+     "soil": 1268,
+     "mountain": 2791
+    },
+    "objects": {
+     "tree": 26,
+     "fruit": 6
+    },
+    "buildings": [],
+    "villagers": 3,
+    "size": [
+     112,
+     112
+    ]
+   },
+   {
+    "asset_name": "Level01B",
+    "image": "level-maps/Level01B.png",
+    "image_size": [
+     634,
+     562
+    ],
+    "image_sha256": "7af2fd3a588ec8fcc5a766aa9d8835b95a05a147eaf985854e71ece36cc0cf72",
+    "tiles": {
+     "water": 2133,
+     "sand": 16,
+     "soil": 2787,
+     "mountain": 7352
+    },
+    "objects": {
+     "tree": 27,
+     "fruit": 20,
+     "building": 1
+    },
+    "buildings": [
+     "Foragers' Hut"
+    ],
+    "villagers": 6,
+    "size": [
+     128,
+     96
+    ]
+   },
+   {
+    "asset_name": "Level01C",
+    "image": "level-maps/Level01C.png",
+    "image_size": [
+     691,
+     494
+    ],
+    "image_sha256": "2f8e9fc642b7bf9fa5550f4dd9d84261e86a8e44de7a895fcd4e6d7cbe97c74c",
+    "tiles": {
+     "water": 7653,
+     "sand": 39,
+     "soil": 2627,
+     "mountain": 6065
+    },
+    "objects": {
+     "tree": 28,
+     "fruit": 30
+    },
+    "buildings": [],
+    "villagers": 9,
+    "size": [
+     128,
+     128
+    ]
+   },
+   {
+    "asset_name": "Level06A",
+    "image": "level-maps/Level06A.png",
+    "image_size": [
+     692,
+     712
+    ],
+    "image_sha256": "97a7600bb185e6c1aadfee3e1b8af82b309eb0a66e515fb2a5446a75a30d438c",
+    "tiles": {
+     "water": 17677,
+     "sand": 3260,
+     "soil": 4107,
+     "mountain": 1708
+    },
+    "objects": {
+     "tree": 39,
+     "fruit": 27,
+     "rock": 6,
+     "building": 8,
+     "site": 1
+    },
+    "buildings": [
+     "Basic House",
+     "Clay Pit",
+     "Foragers' Hut",
+     "Lumberjacks' Base",
+     "Warehouse",
+     "Watchtower (build site)"
+    ],
+    "villagers": 7,
+    "size": [
+     176,
+     152
+    ]
+   }
+  ]
  }
 }
