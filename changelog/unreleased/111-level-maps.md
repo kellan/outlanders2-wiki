@@ -1,0 +1,1 @@
+Level pages for The End of the World, Middle Ground, A New Start and Storefront now show a map of the level: our own schematic drawing of the land, water, trees, rocks, buildings and starting villagers, turned the way the game's camera first shows it (111).
