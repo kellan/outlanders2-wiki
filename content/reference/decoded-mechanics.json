@@ -42103,6 +42103,16 @@
     110,
     60
    ],
+   "field": [
+    180,
+    195,
+    85
+   ],
+   "road": [
+    185,
+    175,
+    155
+   ],
    "building": [
     230,
     120,
@@ -42120,6 +42130,1936 @@
    ]
   },
   "records": [
+   {
+    "asset_name": "Campaign2_Level1A",
+    "image": "level-maps/Campaign2_Level1A.png",
+    "image_size": [
+     1356,
+     1358
+    ],
+    "labels": [
+     {
+      "name": "Greenhouse",
+      "x": 71.62,
+      "y": 49.86
+     },
+     {
+      "name": "Greenhouse",
+      "x": 65.64,
+      "y": 50.0
+     },
+     {
+      "name": "Trading Outpost (build site)",
+      "x": 52.43,
+      "y": 52.08
+     },
+     {
+      "name": "Basic House",
+      "x": 57.02,
+      "y": 56.25
+     },
+     {
+      "name": "Quarry",
+      "x": 52.43,
+      "y": 56.66
+     },
+     {
+      "name": "Roadworks Office",
+      "x": 56.18,
+      "y": 57.08
+     },
+     {
+      "name": "Plank House",
+      "x": 59.94,
+      "y": 57.5
+     },
+     {
+      "name": "Plank House",
+      "x": 62.02,
+      "y": 57.91
+     },
+     {
+      "name": "Open Kitchen",
+      "x": 57.85,
+      "y": 58.75
+     },
+     {
+      "name": "Clay Pit",
+      "x": 61.19,
+      "y": 59.16
+     },
+     {
+      "name": "Market",
+      "x": 59.1,
+      "y": 60.83
+     }
+    ],
+    "image_sha256": "7d25d28c022f0ece68dcc59ed26facbf4bfe2d632b745d8b620088145405052a",
+    "tiles": {
+     "water": 3414,
+     "soil": 14242,
+     "mountain": 39688
+    },
+    "objects": {
+     "tree": 101,
+     "rock": 25,
+     "field": 24,
+     "road": 64,
+     "building": 10,
+     "site": 1
+    },
+    "buildings": [
+     "Basic House",
+     "Clay Pit",
+     "Greenhouse",
+     "Market",
+     "Open Kitchen",
+     "Plank House",
+     "Quarry",
+     "Roadworks Office",
+     "Trading Outpost (build site)"
+    ],
+    "villagers": 15,
+    "size": [
+     224,
+     256
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level1B",
+    "image": "level-maps/Campaign2_Level1B.png",
+    "image_size": [
+     1042,
+     1042
+    ],
+    "labels": [
+     {
+      "name": "Basic House",
+      "x": 48.37,
+      "y": 63.57
+     },
+     {
+      "name": "Clay Pit",
+      "x": 45.66,
+      "y": 65.74
+     },
+     {
+      "name": "Lumberjacks' Base",
+      "x": 53.8,
+      "y": 65.74
+     },
+     {
+      "name": "Open Kitchen",
+      "x": 49.46,
+      "y": 66.83
+     },
+     {
+      "name": "Quarry",
+      "x": 54.34,
+      "y": 68.46
+     },
+     {
+      "name": "Basic House",
+      "x": 44.03,
+      "y": 73.34
+     },
+     {
+      "name": "Trappers' Hut",
+      "x": 45.66,
+      "y": 73.89
+     },
+     {
+      "name": "Brick House",
+      "x": 47.29,
+      "y": 74.43
+     }
+    ],
+    "image_sha256": "15b7c24fafd14f016c8bc91717691c2fc66daa95e55a1064cfa2d64049a323d8",
+    "tiles": {
+     "soil": 6166,
+     "mountain": 26090
+    },
+    "objects": {
+     "tree": 76,
+     "rock": 5,
+     "road": 164,
+     "building": 8
+    },
+    "buildings": [
+     "Basic House",
+     "Brick House",
+     "Clay Pit",
+     "Lumberjacks' Base",
+     "Open Kitchen",
+     "Quarry",
+     "Trappers' Hut"
+    ],
+    "villagers": 12,
+    "size": [
+     224,
+     144
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level1C",
+    "image": "level-maps/Campaign2_Level1C.png",
+    "image_size": [
+     1020,
+     1020
+    ],
+    "labels": [],
+    "image_sha256": "c43e7e44c5f8172911aad4069a20dca7439fc963ec11912cc9b872eab585dc7f",
+    "tiles": {
+     "water": 899,
+     "soil": 5789,
+     "mountain": 25712
+    },
+    "objects": {
+     "tree": 76,
+     "fruit": 26,
+     "rock": 5,
+     "road": 28
+    },
+    "buildings": [],
+    "villagers": 13,
+    "size": [
+     180,
+     180
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level2A",
+    "image": "level-maps/Campaign2_Level2A.png",
+    "image_size": [
+     734,
+     568
+    ],
+    "labels": [
+     {
+      "name": "Basic House",
+      "x": 49.09,
+      "y": 40.02
+     },
+     {
+      "name": "Brick House",
+      "x": 46.78,
+      "y": 43.01
+     },
+     {
+      "name": "Sawmill",
+      "x": 49.09,
+      "y": 46.99
+     },
+     {
+      "name": "Warehouse",
+      "x": 46.01,
+      "y": 49.98
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 28.28,
+      "y": 50.98
+     },
+     {
+      "name": "Roadworks Office",
+      "x": 47.55,
+      "y": 53.96
+     },
+     {
+      "name": "Firewood Yard",
+      "x": 49.09,
+      "y": 57.95
+     }
+    ],
+    "image_sha256": "ef484c4a4f76f3d241ec0f6bd3d69877e7204f41d993b4a21051eeef933ab655",
+    "tiles": {
+     "water": 9210,
+     "sand": 821,
+     "soil": 3462,
+     "mountain": 4939
+    },
+    "objects": {
+     "tree": 10,
+     "fruit": 37,
+     "rock": 5,
+     "road": 39,
+     "building": 7
+    },
+    "buildings": [
+     "Basic House",
+     "Brick House",
+     "Firewood Yard",
+     "Foragers' Hut",
+     "Roadworks Office",
+     "Sawmill",
+     "Warehouse"
+    ],
+    "villagers": 8,
+    "size": [
+     128,
+     144
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level2B",
+    "image": "level-maps/Campaign2_Level2B.png",
+    "image_size": [
+     726,
+     582
+    ],
+    "labels": [
+     {
+      "name": "Bridge",
+      "x": 53.9,
+      "y": 31.27
+     },
+     {
+      "name": "Bridge",
+      "x": 53.12,
+      "y": 32.24
+     },
+     {
+      "name": "Bridge",
+      "x": 52.34,
+      "y": 33.21
+     },
+     {
+      "name": "Bridge",
+      "x": 51.56,
+      "y": 34.18
+     },
+     {
+      "name": "Playground",
+      "x": 51.56,
+      "y": 37.1
+     },
+     {
+      "name": "Two-Story House",
+      "x": 60.91,
+      "y": 42.93
+     },
+     {
+      "name": "Bridge",
+      "x": 43.77,
+      "y": 43.9
+     },
+     {
+      "name": "Warehouse",
+      "x": 46.1,
+      "y": 43.9
+     },
+     {
+      "name": "Bridge",
+      "x": 42.99,
+      "y": 44.88
+     },
+     {
+      "name": "Bridge",
+      "x": 42.21,
+      "y": 45.85
+     },
+     {
+      "name": "Bridge",
+      "x": 41.43,
+      "y": 46.82
+     },
+     {
+      "name": "Bridge",
+      "x": 50.78,
+      "y": 46.82
+     },
+     {
+      "name": "Basic House",
+      "x": 54.68,
+      "y": 46.82
+     },
+     {
+      "name": "Bridge",
+      "x": 60.13,
+      "y": 46.82
+     },
+     {
+      "name": "Bridge",
+      "x": 50.0,
+      "y": 47.79
+     },
+     {
+      "name": "Bridge",
+      "x": 59.35,
+      "y": 47.79
+     },
+     {
+      "name": "Bridge",
+      "x": 49.22,
+      "y": 48.76
+     },
+     {
+      "name": "Bridge",
+      "x": 58.57,
+      "y": 48.76
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 67.14,
+      "y": 48.76
+     },
+     {
+      "name": "Bridge",
+      "x": 39.87,
+      "y": 50.71
+     },
+     {
+      "name": "Bridge",
+      "x": 40.65,
+      "y": 51.68
+     },
+     {
+      "name": "Bridge",
+      "x": 41.43,
+      "y": 52.65
+     },
+     {
+      "name": "Bridge",
+      "x": 55.45,
+      "y": 52.65
+     },
+     {
+      "name": "Bridge",
+      "x": 42.21,
+      "y": 53.62
+     },
+     {
+      "name": "Bridge",
+      "x": 54.68,
+      "y": 53.62
+     },
+     {
+      "name": "Bridge",
+      "x": 42.99,
+      "y": 54.6
+     },
+     {
+      "name": "Bridge",
+      "x": 53.9,
+      "y": 54.6
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 71.82,
+      "y": 54.6
+     },
+     {
+      "name": "Basic House",
+      "x": 66.36,
+      "y": 55.57
+     },
+     {
+      "name": "Bridge",
+      "x": 54.68,
+      "y": 57.51
+     },
+     {
+      "name": "Bridge",
+      "x": 60.91,
+      "y": 57.51
+     },
+     {
+      "name": "Bridge",
+      "x": 55.45,
+      "y": 58.48
+     },
+     {
+      "name": "Bridge",
+      "x": 60.13,
+      "y": 58.48
+     },
+     {
+      "name": "Bridge",
+      "x": 56.23,
+      "y": 59.46
+     },
+     {
+      "name": "Bridge",
+      "x": 59.35,
+      "y": 59.46
+     },
+     {
+      "name": "Bridge",
+      "x": 46.1,
+      "y": 60.43
+     },
+     {
+      "name": "Bridge",
+      "x": 58.57,
+      "y": 60.43
+     },
+     {
+      "name": "Bridge",
+      "x": 45.32,
+      "y": 61.4
+     },
+     {
+      "name": "Bridge",
+      "x": 44.55,
+      "y": 62.37
+     },
+     {
+      "name": "Bridge",
+      "x": 50.0,
+      "y": 63.34
+     },
+     {
+      "name": "Bridge",
+      "x": 36.75,
+      "y": 64.32
+     },
+     {
+      "name": "Bridge",
+      "x": 50.78,
+      "y": 64.32
+     },
+     {
+      "name": "Bridge",
+      "x": 67.92,
+      "y": 64.32
+     },
+     {
+      "name": "Bridge",
+      "x": 37.53,
+      "y": 65.29
+     },
+     {
+      "name": "Bridge",
+      "x": 51.56,
+      "y": 65.29
+     },
+     {
+      "name": "Bridge",
+      "x": 67.14,
+      "y": 65.29
+     },
+     {
+      "name": "Bridge",
+      "x": 38.31,
+      "y": 66.26
+     },
+     {
+      "name": "Bridge",
+      "x": 66.36,
+      "y": 66.26
+     },
+     {
+      "name": "Bridge",
+      "x": 39.09,
+      "y": 67.23
+     },
+     {
+      "name": "Bridge",
+      "x": 65.58,
+      "y": 67.23
+     },
+     {
+      "name": "Bridge",
+      "x": 64.8,
+      "y": 68.2
+     },
+     {
+      "name": "Bridge",
+      "x": 53.12,
+      "y": 69.17
+     },
+     {
+      "name": "Bridge",
+      "x": 52.34,
+      "y": 70.15
+     },
+     {
+      "name": "Bridge",
+      "x": 51.56,
+      "y": 71.12
+     },
+     {
+      "name": "Bridge",
+      "x": 42.99,
+      "y": 74.03
+     },
+     {
+      "name": "Bridge",
+      "x": 42.21,
+      "y": 75.01
+     },
+     {
+      "name": "Bridge",
+      "x": 41.43,
+      "y": 75.98
+     },
+     {
+      "name": "Reed Harvester",
+      "x": 38.31,
+      "y": 79.87
+     }
+    ],
+    "image_sha256": "1e06935b7d006dd7bda5dab5472de168b2eb27343bf71dea8261172aadceb3d2",
+    "tiles": {
+     "water": 6683,
+     "sand": 130,
+     "soil": 4690,
+     "mountain": 4881
+    },
+    "objects": {
+     "tree": 44,
+     "fruit": 26,
+     "rock": 7,
+     "road": 167,
+     "building": 58
+    },
+    "buildings": [
+     "Basic House",
+     "Bridge",
+     "Foragers' Hut",
+     "Playground",
+     "Reed Harvester",
+     "Two-Story House",
+     "Warehouse"
+    ],
+    "villagers": 12,
+    "size": [
+     128,
+     128
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level2C",
+    "image": "level-maps/Campaign2_Level2C.png",
+    "image_size": [
+     906,
+     906
+    ],
+    "labels": [
+     {
+      "name": "Fitness Park",
+      "x": 41.88,
+      "y": 26.9
+     },
+     {
+      "name": "Farm",
+      "x": 49.38,
+      "y": 30.02
+     },
+     {
+      "name": "Jacaranda Tree Pit",
+      "x": 45.63,
+      "y": 34.39
+     },
+     {
+      "name": "Bridge",
+      "x": 57.49,
+      "y": 34.39
+     },
+     {
+      "name": "Bridge",
+      "x": 58.12,
+      "y": 35.01
+     },
+     {
+      "name": "Bridge",
+      "x": 58.74,
+      "y": 35.64
+     },
+     {
+      "name": "Bridge",
+      "x": 59.37,
+      "y": 36.26
+     },
+     {
+      "name": "Jacaranda Tree Pit",
+      "x": 39.39,
+      "y": 36.89
+     },
+     {
+      "name": "Basic House",
+      "x": 48.75,
+      "y": 37.51
+     },
+     {
+      "name": "Basic House",
+      "x": 38.14,
+      "y": 38.14
+     },
+     {
+      "name": "Bridge",
+      "x": 61.24,
+      "y": 38.14
+     },
+     {
+      "name": "Bridge",
+      "x": 61.86,
+      "y": 38.76
+     },
+     {
+      "name": "Bridge",
+      "x": 62.49,
+      "y": 39.39
+     },
+     {
+      "name": "Firewood Yard",
+      "x": 36.26,
+      "y": 40.01
+     },
+     {
+      "name": "Bridge",
+      "x": 63.11,
+      "y": 40.01
+     },
+     {
+      "name": "Bridge",
+      "x": 53.75,
+      "y": 40.63
+     },
+     {
+      "name": "Bridge",
+      "x": 63.74,
+      "y": 40.63
+     },
+     {
+      "name": "Bridge",
+      "x": 54.37,
+      "y": 41.26
+     },
+     {
+      "name": "Bridge",
+      "x": 64.36,
+      "y": 41.26
+     },
+     {
+      "name": "Windmill",
+      "x": 33.14,
+      "y": 41.88
+     },
+     {
+      "name": "Bakery",
+      "x": 43.76,
+      "y": 41.88
+     },
+     {
+      "name": "Bridge",
+      "x": 55.0,
+      "y": 41.88
+     },
+     {
+      "name": "Bridge",
+      "x": 55.62,
+      "y": 42.51
+     },
+     {
+      "name": "Basic House",
+      "x": 66.23,
+      "y": 42.51
+     },
+     {
+      "name": "Playground",
+      "x": 35.64,
+      "y": 43.13
+     },
+     {
+      "name": "Bridge",
+      "x": 56.24,
+      "y": 43.13
+     },
+     {
+      "name": "Bridge",
+      "x": 56.87,
+      "y": 43.76
+     },
+     {
+      "name": "Jacaranda Tree Pit",
+      "x": 36.89,
+      "y": 44.38
+     },
+     {
+      "name": "Bakery",
+      "x": 41.26,
+      "y": 44.38
+     },
+     {
+      "name": "Bridge",
+      "x": 52.5,
+      "y": 44.38
+     },
+     {
+      "name": "Bridge",
+      "x": 57.49,
+      "y": 44.38
+     },
+     {
+      "name": "Bridge",
+      "x": 53.12,
+      "y": 45.0
+     },
+     {
+      "name": "Bridge",
+      "x": 58.12,
+      "y": 45.0
+     },
+     {
+      "name": "Bridge",
+      "x": 53.75,
+      "y": 45.63
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 63.74,
+      "y": 47.5
+     },
+     {
+      "name": "Basic House",
+      "x": 43.13,
+      "y": 48.13
+     },
+     {
+      "name": "Bridge",
+      "x": 56.24,
+      "y": 48.13
+     },
+     {
+      "name": "Bridge",
+      "x": 56.87,
+      "y": 48.75
+     },
+     {
+      "name": "Basic House",
+      "x": 31.89,
+      "y": 49.38
+     },
+     {
+      "name": "Roadworks Office",
+      "x": 40.63,
+      "y": 49.38
+     },
+     {
+      "name": "Bridge",
+      "x": 57.49,
+      "y": 49.38
+     },
+     {
+      "name": "Bridge",
+      "x": 44.38,
+      "y": 50.0
+     },
+     {
+      "name": "Bridge",
+      "x": 45.0,
+      "y": 50.62
+     },
+     {
+      "name": "Bridge",
+      "x": 45.63,
+      "y": 51.25
+     },
+     {
+      "name": "Quarry",
+      "x": 75.6,
+      "y": 51.87
+     },
+     {
+      "name": "Bridge",
+      "x": 49.38,
+      "y": 55.0
+     },
+     {
+      "name": "Jacaranda Tree Pit",
+      "x": 69.98,
+      "y": 55.0
+     },
+     {
+      "name": "Bridge",
+      "x": 50.0,
+      "y": 55.62
+     },
+     {
+      "name": "Jacaranda Tree Pit",
+      "x": 55.62,
+      "y": 55.62
+     },
+     {
+      "name": "Bridge",
+      "x": 50.62,
+      "y": 56.24
+     },
+     {
+      "name": "Bridge",
+      "x": 51.25,
+      "y": 56.87
+     },
+     {
+      "name": "Warehouse",
+      "x": 57.49,
+      "y": 57.49
+     },
+     {
+      "name": "Bridge",
+      "x": 33.77,
+      "y": 58.12
+     },
+     {
+      "name": "Bridge",
+      "x": 34.39,
+      "y": 58.74
+     },
+     {
+      "name": "Bridge",
+      "x": 35.01,
+      "y": 59.37
+     },
+     {
+      "name": "Bridge",
+      "x": 35.64,
+      "y": 59.99
+     },
+     {
+      "name": "Brickyard",
+      "x": 47.5,
+      "y": 59.99
+     },
+     {
+      "name": "Bridge",
+      "x": 36.26,
+      "y": 60.61
+     },
+     {
+      "name": "Bridge",
+      "x": 36.89,
+      "y": 61.24
+     },
+     {
+      "name": "Bridge",
+      "x": 37.51,
+      "y": 61.86
+     },
+     {
+      "name": "Clay Pit",
+      "x": 50.0,
+      "y": 61.86
+     },
+     {
+      "name": "Basic House",
+      "x": 51.87,
+      "y": 63.11
+     },
+     {
+      "name": "Quarry",
+      "x": 64.36,
+      "y": 63.11
+     },
+     {
+      "name": "Basic House",
+      "x": 55.0,
+      "y": 63.74
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 41.26,
+      "y": 67.48
+     },
+     {
+      "name": "Quarry",
+      "x": 53.12,
+      "y": 73.1
+     },
+     {
+      "name": "Quarry",
+      "x": 45.63,
+      "y": 74.35
+     }
+    ],
+    "image_sha256": "e50d2bfc86ddd8c116559ee8c1753661a71521c6463a35d7c717cbaf10358c02",
+    "tiles": {
+     "water": 1605,
+     "soil": 10857,
+     "mountain": 13138
+    },
+    "objects": {
+     "tree": 22,
+     "fruit": 20,
+     "rock": 2,
+     "field": 72,
+     "road": 497,
+     "building": 67
+    },
+    "buildings": [
+     "Bakery",
+     "Basic House",
+     "Brickyard",
+     "Bridge",
+     "Clay Pit",
+     "Farm",
+     "Firewood Yard",
+     "Fitness Park",
+     "Foragers' Hut",
+     "Jacaranda Tree Pit",
+     "Playground",
+     "Quarry",
+     "Roadworks Office",
+     "Warehouse",
+     "Windmill"
+    ],
+    "villagers": 23,
+    "size": [
+     160,
+     160
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level3A",
+    "image": "level-maps/Campaign2_Level3A.png",
+    "image_size": [
+     845,
+     853
+    ],
+    "labels": [
+     {
+      "name": "Clay Pit",
+      "x": 56.71,
+      "y": 46.47
+     },
+     {
+      "name": "Warehouse",
+      "x": 50.69,
+      "y": 47.8
+     },
+     {
+      "name": "Winter Cabin",
+      "x": 54.7,
+      "y": 47.8
+     },
+     {
+      "name": "Roadworks Office",
+      "x": 47.34,
+      "y": 51.12
+     },
+     {
+      "name": "Open Kitchen",
+      "x": 52.7,
+      "y": 51.12
+     },
+     {
+      "name": "Greenhouse",
+      "x": 44.22,
+      "y": 54.43
+     },
+     {
+      "name": "Winter Cabin",
+      "x": 54.7,
+      "y": 54.43
+     },
+     {
+      "name": "Trappers' Hut",
+      "x": 63.41,
+      "y": 55.1
+     }
+    ],
+    "image_sha256": "1f19f00d8f294f34dc40f791f1548eb31160f9fcc4f3f2b3af1b39af9f94c8f6",
+    "tiles": {
+     "water": 1625,
+     "soil": 9282,
+     "mountain": 14693
+    },
+    "objects": {
+     "tree": 183,
+     "field": 12,
+     "road": 34,
+     "building": 8
+    },
+    "buildings": [
+     "Clay Pit",
+     "Greenhouse",
+     "Open Kitchen",
+     "Roadworks Office",
+     "Trappers' Hut",
+     "Warehouse",
+     "Winter Cabin"
+    ],
+    "villagers": 8,
+    "size": [
+     160,
+     160
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level3B",
+    "image": "level-maps/Campaign2_Level3B.png",
+    "image_size": [
+     726,
+     715
+    ],
+    "labels": [],
+    "image_sha256": "84d03f7fc5b820cd765e789aebdfbf2eb36778ee84100451059d45a959195c62",
+    "tiles": {
+     "water": 1878,
+     "sand": 707,
+     "soil": 3305,
+     "mountain": 10494
+    },
+    "objects": {
+     "tree": 87,
+     "fruit": 17,
+     "rock": 1
+    },
+    "buildings": [],
+    "villagers": 6,
+    "size": [
+     128,
+     128
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level3C",
+    "image": "level-maps/Campaign2_Level3C.png",
+    "image_size": [
+     803,
+     1049
+    ],
+    "labels": [
+     {
+      "name": "Foragers' Hut",
+      "x": 52.61,
+      "y": 13.62
+     },
+     {
+      "name": "Brickyard",
+      "x": 63.17,
+      "y": 36.81
+     },
+     {
+      "name": "Clay Pit",
+      "x": 60.36,
+      "y": 37.35
+     },
+     {
+      "name": "Tropical Shelter",
+      "x": 58.95,
+      "y": 40.59
+     },
+     {
+      "name": "Zen Garden",
+      "x": 52.61,
+      "y": 41.66
+     },
+     {
+      "name": "Plank House",
+      "x": 56.83,
+      "y": 41.66
+     },
+     {
+      "name": "Roadworks Office",
+      "x": 55.42,
+      "y": 42.74
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 49.08,
+      "y": 44.36
+     },
+     {
+      "name": "Zen Garden",
+      "x": 62.47,
+      "y": 47.06
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 70.22,
+      "y": 58.38
+     }
+    ],
+    "image_sha256": "dd22a6b7cd09275e29500b7a285a7a3c3b91600d3ddd0255350ab82a94966368",
+    "tiles": {
+     "water": 29090,
+     "sand": 985,
+     "soil": 6593,
+     "mountain": 9924
+    },
+    "objects": {
+     "tree": 130,
+     "fruit": 31,
+     "road": 40,
+     "building": 10
+    },
+    "buildings": [
+     "Brickyard",
+     "Clay Pit",
+     "Foragers' Hut",
+     "Plank House",
+     "Roadworks Office",
+     "Tropical Shelter",
+     "Zen Garden"
+    ],
+    "villagers": 13,
+    "size": [
+     224,
+     208
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level4A",
+    "image": "level-maps/Campaign2_Level4A.png",
+    "image_size": [
+     509,
+     483
+    ],
+    "labels": [
+     {
+      "name": "Silky Oak Tree Pit",
+      "x": 84.23,
+      "y": 45.35
+     },
+     {
+      "name": "Calla Lilly Planter",
+      "x": 86.46,
+      "y": 46.52
+     },
+     {
+      "name": "Calla Lilly Planter",
+      "x": 80.9,
+      "y": 47.69
+     },
+     {
+      "name": "Calla Lilly Planter",
+      "x": 82.01,
+      "y": 48.86
+     },
+     {
+      "name": "Open Kitchen",
+      "x": 77.57,
+      "y": 52.37
+     },
+     {
+      "name": "Silky Oak Tree Pit",
+      "x": 86.46,
+      "y": 52.37
+     },
+     {
+      "name": "Calla Lilly Planter",
+      "x": 84.23,
+      "y": 53.54
+     },
+     {
+      "name": "Calla Lilly Planter",
+      "x": 82.01,
+      "y": 55.89
+     },
+     {
+      "name": "Silky Oak Tree Pit",
+      "x": 79.79,
+      "y": 57.06
+     }
+    ],
+    "image_sha256": "0407dca4d3da0f42ca777e000ebdcfe4b33d3dd732e5acab3cd241a210241235",
+    "tiles": {
+     "water": 16994,
+     "sand": 383,
+     "soil": 1539,
+     "mountain": 4124
+    },
+    "objects": {
+     "tree": 15,
+     "fruit": 5,
+     "rock": 2,
+     "road": 26,
+     "building": 9
+    },
+    "buildings": [
+     "Calla Lilly Planter",
+     "Open Kitchen",
+     "Silky Oak Tree Pit"
+    ],
+    "villagers": 3,
+    "size": [
+     160,
+     144
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level4B",
+    "image": "level-maps/Campaign2_Level4B.png",
+    "image_size": [
+     644,
+     644
+    ],
+    "labels": [],
+    "image_sha256": "789cfe21747521778a875b54fae8d58513a8eb318ebc74708e2e47d86463d843",
+    "tiles": {
+     "water": 17639,
+     "sand": 253,
+     "soil": 7118,
+     "mountain": 590
+    },
+    "objects": {
+     "tree": 29,
+     "rock": 3
+    },
+    "buildings": [],
+    "villagers": 4,
+    "size": [
+     160,
+     160
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level4C",
+    "image": "level-maps/Campaign2_Level4C.png",
+    "image_size": [
+     656,
+     532
+    ],
+    "labels": [
+     {
+      "name": "Wishing Well (build site)",
+      "x": 41.64,
+      "y": 37.46
+     }
+    ],
+    "image_sha256": "6a6d34341cd2c8c37bbf55079642425a34a556d9464dbea64d68649f1d6a9fe4",
+    "tiles": {
+     "water": 36024,
+     "sand": 3146,
+     "soil": 4094
+    },
+    "objects": {
+     "tree": 73,
+     "fruit": 12,
+     "rock": 10,
+     "site": 1
+    },
+    "buildings": [
+     "Wishing Well (build site)"
+    ],
+    "villagers": 8,
+    "size": [
+     208,
+     208
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level5A",
+    "image": "level-maps/Campaign2_Level5A.png",
+    "image_size": [
+     860,
+     860
+    ],
+    "labels": [
+     {
+      "name": "Desert Home",
+      "x": 53.29,
+      "y": 38.82
+     },
+     {
+      "name": "Zen Garden",
+      "x": 55.26,
+      "y": 40.79
+     },
+     {
+      "name": "Roadworks Office",
+      "x": 50.0,
+      "y": 46.05
+     },
+     {
+      "name": "Warehouse",
+      "x": 40.79,
+      "y": 48.68
+     }
+    ],
+    "image_sha256": "588c5d4e20106cf4719fac8d6982b0f0b97b0539ae3fd2c9ad717b6581afcd91",
+    "tiles": {
+     "water": 1022,
+     "sand": 365,
+     "soil": 5180,
+     "mountain": 16473
+    },
+    "objects": {
+     "tree": 42,
+     "rock": 5,
+     "road": 34,
+     "building": 4
+    },
+    "buildings": [
+     "Desert Home",
+     "Roadworks Office",
+     "Warehouse",
+     "Zen Garden"
+    ],
+    "villagers": 2,
+    "size": [
+     160,
+     144
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level5B",
+    "image": "level-maps/Campaign2_Level5B.png",
+    "image_size": [
+     726,
+     698
+    ],
+    "labels": [
+     {
+      "name": "Greenhouse",
+      "x": 51.56,
+      "y": 40.93
+     },
+     {
+      "name": "Basic House",
+      "x": 51.56,
+      "y": 47.14
+     },
+     {
+      "name": "Basic House",
+      "x": 53.12,
+      "y": 48.76
+     },
+     {
+      "name": "Bridge",
+      "x": 52.34,
+      "y": 52.01
+     },
+     {
+      "name": "Bonfire",
+      "x": 56.23,
+      "y": 52.01
+     },
+     {
+      "name": "Bridge",
+      "x": 51.56,
+      "y": 52.82
+     },
+     {
+      "name": "Bridge",
+      "x": 50.78,
+      "y": 53.63
+     },
+     {
+      "name": "Bridge",
+      "x": 50.0,
+      "y": 54.44
+     },
+     {
+      "name": "Bridge",
+      "x": 46.88,
+      "y": 65.78
+     },
+     {
+      "name": "Bridge",
+      "x": 46.1,
+      "y": 66.59
+     },
+     {
+      "name": "Bridge",
+      "x": 45.32,
+      "y": 67.4
+     },
+     {
+      "name": "Bridge",
+      "x": 44.55,
+      "y": 68.21
+     },
+     {
+      "name": "Bridge",
+      "x": 43.77,
+      "y": 69.02
+     },
+     {
+      "name": "Bridge",
+      "x": 44.55,
+      "y": 69.84
+     }
+    ],
+    "image_sha256": "9dcf0f83a38805b2f6e099014d779b302bee183807c956bcc42c67c28ab51d28",
+    "tiles": {
+     "water": 3102,
+     "sand": 631,
+     "soil": 4049,
+     "mountain": 8602
+    },
+    "objects": {
+     "tree": 59,
+     "rock": 4,
+     "field": 12,
+     "road": 44,
+     "building": 14
+    },
+    "buildings": [
+     "Basic House",
+     "Bonfire",
+     "Bridge",
+     "Greenhouse"
+    ],
+    "villagers": 7,
+    "size": [
+     128,
+     128
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level5C",
+    "image": "level-maps/Campaign2_Level5C.png",
+    "image_size": [
+     860,
+     860
+    ],
+    "labels": [
+     {
+      "name": "Plank House",
+      "x": 36.84,
+      "y": 40.79
+     },
+     {
+      "name": "Concert Stage (build site)",
+      "x": 53.95,
+      "y": 40.79
+     },
+     {
+      "name": "Farm",
+      "x": 34.21,
+      "y": 46.71
+     },
+     {
+      "name": "Roadworks Office",
+      "x": 51.32,
+      "y": 55.26
+     },
+     {
+      "name": "Cheesery",
+      "x": 49.34,
+      "y": 59.21
+     },
+     {
+      "name": "Farm",
+      "x": 36.19,
+      "y": 60.52
+     },
+     {
+      "name": "Warehouse",
+      "x": 46.05,
+      "y": 60.52
+     },
+     {
+      "name": "Plank House",
+      "x": 44.08,
+      "y": 62.5
+     },
+     {
+      "name": "Plank House",
+      "x": 48.68,
+      "y": 64.47
+     },
+     {
+      "name": "Plank House",
+      "x": 59.87,
+      "y": 67.76
+     },
+     {
+      "name": "Playground",
+      "x": 48.03,
+      "y": 69.08
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 40.79,
+      "y": 72.36
+     }
+    ],
+    "image_sha256": "30ef5b1a4155757e017cadcc6affc1d4620824b926b80fd592b5251c5948715c",
+    "tiles": {
+     "water": 1769,
+     "sand": 1086,
+     "soil": 20185
+    },
+    "objects": {
+     "tree": 354,
+     "fruit": 19,
+     "rock": 4,
+     "field": 109,
+     "road": 294,
+     "building": 11,
+     "site": 1
+    },
+    "buildings": [
+     "Cheesery",
+     "Concert Stage (build site)",
+     "Farm",
+     "Foragers' Hut",
+     "Plank House",
+     "Playground",
+     "Roadworks Office",
+     "Warehouse"
+    ],
+    "villagers": 15,
+    "size": [
+     160,
+     144
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level6A",
+    "image": "level-maps/Campaign2_Level6A.png",
+    "image_size": [
+     726,
+     726
+    ],
+    "labels": [
+     {
+      "name": "Foragers' Hut",
+      "x": 62.47,
+      "y": 29.74
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 46.88,
+      "y": 37.53
+     },
+     {
+      "name": "Warehouse",
+      "x": 49.22,
+      "y": 46.1
+     }
+    ],
+    "image_sha256": "34bac7b2edf9c8da7240354370e012e6a5b3043e7f82af5cd6ec6c3d1dc8bbd1",
+    "tiles": {
+     "water": 7,
+     "sand": 11953,
+     "soil": 3896,
+     "mountain": 528
+    },
+    "objects": {
+     "tree": 112,
+     "fruit": 37,
+     "road": 30,
+     "building": 3
+    },
+    "buildings": [
+     "Foragers' Hut",
+     "Warehouse"
+    ],
+    "villagers": 10,
+    "size": [
+     128,
+     128
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level6B",
+    "image": "level-maps/Campaign2_Level6B.png",
+    "image_size": [
+     952,
+     952
+    ],
+    "labels": [
+     {
+      "name": "Brick House",
+      "x": 50.0,
+      "y": 54.75
+     },
+     {
+      "name": "Firewood Yard",
+      "x": 42.87,
+      "y": 58.32
+     }
+    ],
+    "image_sha256": "c75173bb5877774cd0c8040d6f972845305cfafeca818a4c8c8bf363e43be9ce",
+    "tiles": {
+     "sand": 23178,
+     "soil": 2761,
+     "mountain": 1709
+    },
+    "objects": {
+     "tree": 3,
+     "fruit": 7,
+     "rock": 4,
+     "road": 29,
+     "building": 2
+    },
+    "buildings": [
+     "Brick House",
+     "Firewood Yard"
+    ],
+    "villagers": 7,
+    "size": [
+     192,
+     144
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level6C",
+    "image": "level-maps/Campaign2_Level6C.png",
+    "image_size": [
+     1268,
+     1268
+    ],
+    "labels": [
+     {
+      "name": "Basic House",
+      "x": 49.55,
+      "y": 33.49
+     },
+     {
+      "name": "Brick House",
+      "x": 48.66,
+      "y": 34.39
+     },
+     {
+      "name": "Warehouse",
+      "x": 47.32,
+      "y": 35.72
+     },
+     {
+      "name": "Brick House",
+      "x": 54.91,
+      "y": 36.17
+     },
+     {
+      "name": "Zen Garden",
+      "x": 54.02,
+      "y": 37.06
+     },
+     {
+      "name": "Ritual of Hidden Light (build site)",
+      "x": 46.88,
+      "y": 46.43
+     }
+    ],
+    "image_sha256": "524a00669ca011a4d8a0ce7a85ecce83ee3ea4b28a607c08c3e8094924461b97",
+    "tiles": {
+     "sand": 40709,
+     "soil": 6855,
+     "mountain": 2612
+    },
+    "objects": {
+     "tree": 113,
+     "rock": 10,
+     "building": 5,
+     "site": 1
+    },
+    "buildings": [
+     "Basic House",
+     "Brick House",
+     "Ritual of Hidden Light (build site)",
+     "Warehouse",
+     "Zen Garden"
+    ],
+    "villagers": 16,
+    "size": [
+     224,
+     224
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level7A",
+    "image": "level-maps/Campaign2_Level7A.png",
+    "image_size": [
+     1088,
+     913
+    ],
+    "labels": [
+     {
+      "name": "UFO part 1",
+      "x": 16.72,
+      "y": 46.57
+     },
+     {
+      "name": "UFO part 3",
+      "x": 76.52,
+      "y": 68.88
+     },
+     {
+      "name": "UFO part 2",
+      "x": 54.16,
+      "y": 84.99
+     }
+    ],
+    "image_sha256": "183f5fcc73be48be68fec9657528f732a3e0e56a68f021c7481fcdb455989335",
+    "tiles": {
+     "sand": 2911,
+     "soil": 22176,
+     "mountain": 11777
+    },
+    "objects": {
+     "tree": 10,
+     "fruit": 18,
+     "rock": 17,
+     "building": 3
+    },
+    "buildings": [
+     "UFO part 1",
+     "UFO part 2",
+     "UFO part 3"
+    ],
+    "villagers": 2,
+    "size": [
+     192,
+     192
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level7B",
+    "image": "level-maps/Campaign2_Level7B.png",
+    "image_size": [
+     726,
+     726
+    ],
+    "labels": [],
+    "image_sha256": "40f70616951ea484d0d3efb7acb0c8a8c1489ead2644cbcb86af81553e73e638",
+    "tiles": {
+     "water": 2253,
+     "soil": 3515,
+     "mountain": 10616
+    },
+    "objects": {
+     "tree": 14,
+     "fruit": 21,
+     "rock": 11
+    },
+    "buildings": [],
+    "villagers": 2,
+    "size": [
+     128,
+     128
+    ]
+   },
+   {
+    "asset_name": "Campaign2_Level7C",
+    "image": "level-maps/Campaign2_Level7C.png",
+    "image_size": [
+     967,
+     886
+    ],
+    "labels": [],
+    "image_sha256": "bb080bae926e9a9baa70f1fdbca4e3cc51c3540dda0c573f94c4d2a2cc43bff1",
+    "tiles": {
+     "sand": 2866,
+     "soil": 28847,
+     "mountain": 5151
+    },
+    "objects": {
+     "tree": 78,
+     "fruit": 6,
+     "rock": 29
+    },
+    "buildings": [],
+    "villagers": 8,
+    "size": [
+     192,
+     192
+    ]
+   },
+   {
+    "asset_name": "Campaign3_Level1A",
+    "image": "level-maps/Campaign3_Level1A.png",
+    "image_size": [
+     726,
+     724
+    ],
+    "labels": [],
+    "image_sha256": "89223d8239fd59b582d91c5c889acae8fb05afbd1e80429debe3a334b1506727",
+    "tiles": {
+     "water": 1721,
+     "soil": 13909,
+     "mountain": 754
+    },
+    "objects": {
+     "tree": 321,
+     "fruit": 26,
+     "rock": 18
+    },
+    "buildings": [],
+    "villagers": 4,
+    "size": [
+     128,
+     128
+    ]
+   },
+   {
+    "asset_name": "Campaign3_Level1B",
+    "image": "level-maps/Campaign3_Level1B.png",
+    "image_size": [
+     816,
+     816
+    ],
+    "labels": [
+     {
+      "name": "Stone Mine",
+      "x": 68.02,
+      "y": 51.39
+     }
+    ],
+    "image_sha256": "d1a9a3124bc93c8a08cfbf20e45eb1180132e66e5920c3824250609b72f427a3",
+    "tiles": {
+     "water": 3641,
+     "soil": 17095
+    },
+    "objects": {
+     "tree": 429,
+     "fruit": 1,
+     "building": 1
+    },
+    "buildings": [
+     "Stone Mine"
+    ],
+    "villagers": 7,
+    "size": [
+     144,
+     144
+    ]
+   },
+   {
+    "asset_name": "Campaign3_Level1C",
+    "image": "level-maps/Campaign3_Level1C.png",
+    "image_size": [
+     660,
+     596
+    ],
+    "labels": [
+     {
+      "name": "Basic House",
+      "x": 41.64,
+      "y": 29.68
+     },
+     {
+      "name": "Basic House",
+      "x": 57.07,
+      "y": 37.28
+     },
+     {
+      "name": "Farm",
+      "x": 42.5,
+      "y": 39.17
+     },
+     {
+      "name": "Basic House",
+      "x": 45.07,
+      "y": 46.77
+     }
+    ],
+    "image_sha256": "2c6ff081fae809240bd37dbdad16caace4e4f54d741adf0fcc2cd66d66759aac",
+    "tiles": {
+     "water": 7034,
+     "sand": 100,
+     "soil": 8049,
+     "mountain": 1201
+    },
+    "objects": {
+     "tree": 144,
+     "fruit": 32,
+     "building": 4
+    },
+    "buildings": [
+     "Basic House",
+     "Farm"
+    ],
+    "villagers": 11,
+    "size": [
+     128,
+     128
+    ]
+   },
    {
     "asset_name": "Level01A",
     "image": "level-maps/Level01A.png",
@@ -42208,6 +44148,735 @@
     ]
    },
    {
+    "asset_name": "Level02A",
+    "image": "level-maps/Level02A.png",
+    "image_size": [
+     371,
+     407
+    ],
+    "labels": [
+     {
+      "name": "Clay Pit",
+      "x": 59.07,
+      "y": 14.82
+     },
+     {
+      "name": "Windmill (build site)",
+      "x": 48.4,
+      "y": 23.16
+     },
+     {
+      "name": "Farm",
+      "x": 63.65,
+      "y": 27.33
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 71.27,
+      "y": 41.23
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 62.12,
+      "y": 57.91
+     },
+     {
+      "name": "Lumberjacks' Base",
+      "x": 22.48,
+      "y": 66.25
+     }
+    ],
+    "image_sha256": "c4597a357210ca9aef3181678aac06994fb808a7d525afefe559ccb177c5fbe1",
+    "tiles": {
+     "water": 16293,
+     "sand": 852,
+     "soil": 2484,
+     "mountain": 851
+    },
+    "objects": {
+     "tree": 32,
+     "fruit": 17,
+     "rock": 4,
+     "field": 45,
+     "building": 5,
+     "site": 1
+    },
+    "buildings": [
+     "Clay Pit",
+     "Farm",
+     "Foragers' Hut",
+     "Lumberjacks' Base",
+     "Windmill (build site)"
+    ],
+    "villagers": 11,
+    "size": [
+     160,
+     128
+    ]
+   },
+   {
+    "asset_name": "Level02B",
+    "image": "level-maps/Level02B.png",
+    "image_size": [
+     605,
+     573
+    ],
+    "labels": [
+     {
+      "name": "Foragers' Hut",
+      "x": 35.33,
+      "y": 28.28
+     },
+     {
+      "name": "Lumberjacks' Base",
+      "x": 44.68,
+      "y": 42.1
+     },
+     {
+      "name": "Farm",
+      "x": 61.51,
+      "y": 50.98
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 24.11,
+      "y": 51.97
+     },
+     {
+      "name": "Basic House",
+      "x": 48.42,
+      "y": 65.79
+     },
+     {
+      "name": "Plank House",
+      "x": 43.74,
+      "y": 66.78
+     }
+    ],
+    "image_sha256": "c39f1961710d2afac0b1e0778fe79e447e08f15a392019bf5fb12afdbac3abcf",
+    "tiles": {
+     "water": 8839,
+     "sand": 726,
+     "soil": 4682,
+     "mountain": 2137
+    },
+    "objects": {
+     "tree": 89,
+     "fruit": 16,
+     "rock": 5,
+     "field": 45,
+     "building": 6
+    },
+    "buildings": [
+     "Basic House",
+     "Farm",
+     "Foragers' Hut",
+     "Lumberjacks' Base",
+     "Plank House"
+    ],
+    "villagers": 13,
+    "size": [
+     128,
+     128
+    ]
+   },
+   {
+    "asset_name": "Level02C",
+    "image": "level-maps/Level02C.png",
+    "image_size": [
+     669,
+     669
+    ],
+    "labels": [
+     {
+      "name": "Basic House",
+      "x": 49.96,
+      "y": 51.65
+     }
+    ],
+    "image_sha256": "93c267943e3c2b437c80ecbb7c44d8c56f13934adf9dd2b408600a3677f49074",
+    "tiles": {
+     "water": 3185,
+     "soil": 3921,
+     "mountain": 9278
+    },
+    "objects": {
+     "tree": 42,
+     "rock": 6,
+     "building": 1
+    },
+    "buildings": [
+     "Basic House"
+    ],
+    "villagers": 8,
+    "size": [
+     128,
+     128
+    ]
+   },
+   {
+    "asset_name": "Level03A",
+    "image": "level-maps/Level03A.png",
+    "image_size": [
+     665,
+     661
+    ],
+    "labels": [
+     {
+      "name": "Farm",
+      "x": 67.89,
+      "y": 50.62
+     },
+     {
+      "name": "Basic House",
+      "x": 55.13,
+      "y": 52.34
+     },
+     {
+      "name": "Bakery",
+      "x": 55.13,
+      "y": 58.33
+     },
+     {
+      "name": "Windmill",
+      "x": 64.48,
+      "y": 60.04
+     },
+     {
+      "name": "Basic House",
+      "x": 51.72,
+      "y": 60.89
+     },
+     {
+      "name": "Warehouse",
+      "x": 61.93,
+      "y": 64.32
+     }
+    ],
+    "image_sha256": "72b02becc203124ed975f038d1e9ad1fa2523668649c114126552b48dc6ab7b2",
+    "tiles": {
+     "water": 27377,
+     "sand": 128,
+     "soil": 5071,
+     "mountain": 10688
+    },
+    "objects": {
+     "tree": 52,
+     "rock": 5,
+     "field": 59,
+     "building": 6
+    },
+    "buildings": [
+     "Bakery",
+     "Basic House",
+     "Farm",
+     "Warehouse",
+     "Windmill"
+    ],
+    "villagers": 13,
+    "size": [
+     208,
+     208
+    ]
+   },
+   {
+    "asset_name": "Level03B",
+    "image": "level-maps/Level03B.png",
+    "image_size": [
+     480,
+     510
+    ],
+    "labels": [
+     {
+      "name": "Quarry",
+      "x": 40.87,
+      "y": 20.32
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 42.05,
+      "y": 25.86
+     },
+     {
+      "name": "Basic House",
+      "x": 52.66,
+      "y": 35.85
+     },
+     {
+      "name": "Warehouse",
+      "x": 47.94,
+      "y": 38.06
+     },
+     {
+      "name": "Sawmill",
+      "x": 44.41,
+      "y": 40.28
+     },
+     {
+      "name": "Roadworks Office",
+      "x": 51.48,
+      "y": 41.39
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 59.73,
+      "y": 44.72
+     }
+    ],
+    "image_sha256": "77c93a51733120c6ab090209d69b2bb5023c5f437b790c55f40f6a07a394cbc6",
+    "tiles": {
+     "water": 13936,
+     "sand": 1566,
+     "soil": 4228,
+     "mountain": 750
+    },
+    "objects": {
+     "tree": 69,
+     "fruit": 24,
+     "rock": 10,
+     "road": 26,
+     "building": 7
+    },
+    "buildings": [
+     "Basic House",
+     "Foragers' Hut",
+     "Quarry",
+     "Roadworks Office",
+     "Sawmill",
+     "Warehouse"
+    ],
+    "villagers": 7,
+    "size": [
+     160,
+     128
+    ]
+   },
+   {
+    "asset_name": "Level03C",
+    "image": "level-maps/Level03C.png",
+    "image_size": [
+     568,
+     618
+    ],
+    "labels": [
+     {
+      "name": "Lumberjacks' Base",
+      "x": 52.48,
+      "y": 37.59
+     },
+     {
+      "name": "Basic House",
+      "x": 38.54,
+      "y": 43.09
+     },
+     {
+      "name": "Clay Pit",
+      "x": 29.58,
+      "y": 46.75
+     },
+     {
+      "name": "Farm",
+      "x": 26.59,
+      "y": 58.65
+     },
+     {
+      "name": "Warehouse",
+      "x": 40.53,
+      "y": 63.22
+     },
+     {
+      "name": "Basic House",
+      "x": 21.61,
+      "y": 64.14
+     },
+     {
+      "name": "Basic House",
+      "x": 38.54,
+      "y": 65.06
+     },
+     {
+      "name": "Roadworks Office",
+      "x": 37.54,
+      "y": 71.46
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 37.54,
+      "y": 78.79
+     }
+    ],
+    "image_sha256": "4bd95f8684cf6fbca07d0a254307ecc2e44b7410595e8cb04571360c220719a1",
+    "tiles": {
+     "water": 11250,
+     "sand": 576,
+     "soil": 3690,
+     "mountain": 5220
+    },
+    "objects": {
+     "tree": 65,
+     "fruit": 18,
+     "rock": 4,
+     "field": 30,
+     "road": 27,
+     "building": 9
+    },
+    "buildings": [
+     "Basic House",
+     "Clay Pit",
+     "Farm",
+     "Foragers' Hut",
+     "Lumberjacks' Base",
+     "Roadworks Office",
+     "Warehouse"
+    ],
+    "villagers": 13,
+    "size": [
+     144,
+     144
+    ]
+   },
+   {
+    "asset_name": "Level04A",
+    "image": "level-maps/Level04A.png",
+    "image_size": [
+     1246,
+     1246
+    ],
+    "labels": [
+     {
+      "name": "Open Kitchen",
+      "x": 63.62,
+      "y": 48.18
+     },
+     {
+      "name": "Chicken Coop",
+      "x": 66.8,
+      "y": 50.0
+     },
+     {
+      "name": "Basic House",
+      "x": 59.99,
+      "y": 50.91
+     },
+     {
+      "name": "Basic House",
+      "x": 64.07,
+      "y": 51.36
+     },
+     {
+      "name": "Plank House",
+      "x": 61.8,
+      "y": 51.82
+     },
+     {
+      "name": "Chicken Coop",
+      "x": 59.53,
+      "y": 53.63
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 67.25,
+      "y": 59.08
+     }
+    ],
+    "image_sha256": "288389fc3ca70543c4b8d63ab6d6c62799264d921cf552c318070f1ca1e7ef1f",
+    "tiles": {
+     "sand": 39247,
+     "soil": 9009
+    },
+    "objects": {
+     "tree": 63,
+     "fruit": 20,
+     "rock": 8,
+     "road": 291,
+     "building": 7
+    },
+    "buildings": [
+     "Basic House",
+     "Chicken Coop",
+     "Foragers' Hut",
+     "Open Kitchen",
+     "Plank House"
+    ],
+    "villagers": 9,
+    "size": [
+     208,
+     232
+    ]
+   },
+   {
+    "asset_name": "Level04B",
+    "image": "level-maps/Level04B.png",
+    "image_size": [
+     838,
+     838
+    ],
+    "labels": [
+     {
+      "name": "Sawmill",
+      "x": 34.47,
+      "y": 40.55
+     },
+     {
+      "name": "Lumberjacks' Base",
+      "x": 38.52,
+      "y": 41.22
+     },
+     {
+      "name": "Basic House",
+      "x": 38.52,
+      "y": 54.73
+     },
+     {
+      "name": "Basic House",
+      "x": 41.9,
+      "y": 55.4
+     },
+     {
+      "name": "Farm",
+      "x": 28.4,
+      "y": 57.43
+     },
+     {
+      "name": "Farm",
+      "x": 39.87,
+      "y": 62.15
+     }
+    ],
+    "image_sha256": "d26395b5372be335cb1898e8022df02120d66d27eb336edb21f38afff2fc4fb2",
+    "tiles": {
+     "sand": 14902,
+     "soil": 6858
+    },
+    "objects": {
+     "tree": 87,
+     "fruit": 3,
+     "rock": 24,
+     "field": 144,
+     "road": 38,
+     "building": 6
+    },
+    "buildings": [
+     "Basic House",
+     "Farm",
+     "Lumberjacks' Base",
+     "Sawmill"
+    ],
+    "villagers": 12,
+    "size": [
+     160,
+     136
+    ]
+   },
+   {
+    "asset_name": "Level04C",
+    "image": "level-maps/Level04C.png",
+    "image_size": [
+     1181,
+     1116
+    ],
+    "labels": [
+     {
+      "name": "Foragers' Hut",
+      "x": 53.99,
+      "y": 54.35
+     },
+     {
+      "name": "Basic House",
+      "x": 48.24,
+      "y": 61.45
+     },
+     {
+      "name": "Basic House",
+      "x": 54.95,
+      "y": 61.45
+     },
+     {
+      "name": "Quarry",
+      "x": 37.23,
+      "y": 70.07
+     },
+     {
+      "name": "Quarry",
+      "x": 47.76,
+      "y": 73.11
+     }
+    ],
+    "image_sha256": "624160fe38acd1b124c4279488a5453ea42dbc57abc02d5b42c63908ab34145c",
+    "tiles": {
+     "water": 10073,
+     "soil": 13257,
+     "mountain": 23070
+    },
+    "objects": {
+     "tree": 58,
+     "fruit": 23,
+     "rock": 14,
+     "building": 5
+    },
+    "buildings": [
+     "Basic House",
+     "Foragers' Hut",
+     "Quarry"
+    ],
+    "villagers": 15,
+    "size": [
+     232,
+     200
+    ]
+   },
+   {
+    "asset_name": "Level05A",
+    "image": "level-maps/Level05A.png",
+    "image_size": [
+     486,
+     498
+    ],
+    "labels": [
+     {
+      "name": "Greenhouse",
+      "x": 46.19,
+      "y": 27.28
+     },
+     {
+      "name": "Pablo's Ladder (build site)",
+      "x": 68.69,
+      "y": 35.23
+     },
+     {
+      "name": "Greenhouse",
+      "x": 54.73,
+      "y": 35.61
+     },
+     {
+      "name": "Basic House",
+      "x": 47.74,
+      "y": 39.78
+     },
+     {
+      "name": "Greenhouse",
+      "x": 34.94,
+      "y": 43.56
+     },
+     {
+      "name": "Greenhouse",
+      "x": 47.74,
+      "y": 62.12
+     }
+    ],
+    "image_sha256": "db48486aac515718c8f772d1f73b026a072fab4880ed4f862a67015f88dda09a",
+    "tiles": {
+     "water": 12,
+     "sand": 103,
+     "soil": 4809,
+     "mountain": 2820
+    },
+    "objects": {
+     "tree": 64,
+     "rock": 7,
+     "field": 48,
+     "building": 5,
+     "site": 1
+    },
+    "buildings": [
+     "Basic House",
+     "Greenhouse",
+     "Pablo's Ladder (build site)"
+    ],
+    "villagers": 9,
+    "size": [
+     88,
+     88
+    ]
+   },
+   {
+    "asset_name": "Level05B",
+    "image": "level-maps/Level05B.png",
+    "image_size": [
+     680,
+     680
+    ],
+    "labels": [
+     {
+      "name": "Bonfire",
+      "x": 40.85,
+      "y": 56.66
+     }
+    ],
+    "image_sha256": "0d5b0467bc88a32fbf48d0c6c4805dc72e194ef251cad0cb9242d4e4f37ca689",
+    "tiles": {
+     "soil": 2711,
+     "mountain": 11689
+    },
+    "objects": {
+     "tree": 44,
+     "rock": 3,
+     "building": 1
+    },
+    "buildings": [
+     "Bonfire"
+    ],
+    "villagers": 6,
+    "size": [
+     120,
+     120
+    ]
+   },
+   {
+    "asset_name": "Level05C",
+    "image": "level-maps/Level05C.png",
+    "image_size": [
+     690,
+     638
+    ],
+    "labels": [
+     {
+      "name": "Trading Outpost",
+      "x": 58.02,
+      "y": 12.1
+     },
+     {
+      "name": "Firewood Yard",
+      "x": 68.68,
+      "y": 52.88
+     },
+     {
+      "name": "Open Kitchen",
+      "x": 73.6,
+      "y": 52.88
+     },
+     {
+      "name": "Warehouse",
+      "x": 72.78,
+      "y": 57.31
+     }
+    ],
+    "image_sha256": "3086213314ab118e85dea058e07748c281336eb5433edfc932ecb1203510100a",
+    "tiles": {
+     "water": 26118,
+     "sand": 1427,
+     "soil": 5410,
+     "mountain": 3909
+    },
+    "objects": {
+     "tree": 67,
+     "rock": 15,
+     "road": 50,
+     "building": 4
+    },
+    "buildings": [
+     "Firewood Yard",
+     "Open Kitchen",
+     "Trading Outpost",
+     "Warehouse"
+    ],
+    "villagers": 10,
+    "size": [
+     192,
+     192
+    ]
+   },
+   {
     "asset_name": "Level06A",
     "image": "level-maps/Level06A.png",
     "image_size": [
@@ -42287,6 +44956,487 @@
     "size": [
      176,
      152
+    ]
+   },
+   {
+    "asset_name": "Level06B",
+    "image": "level-maps/Level06B.png",
+    "image_size": [
+     746,
+     769
+    ],
+    "labels": [
+     {
+      "name": "Farm",
+      "x": 40.32,
+      "y": 33.29
+     },
+     {
+      "name": "Basic House",
+      "x": 38.05,
+      "y": 40.65
+     },
+     {
+      "name": "Basic House",
+      "x": 41.08,
+      "y": 42.12
+     },
+     {
+      "name": "Quarry",
+      "x": 48.67,
+      "y": 42.12
+     },
+     {
+      "name": "Warehouse",
+      "x": 37.29,
+      "y": 42.85
+     },
+     {
+      "name": "Roadworks Office",
+      "x": 34.26,
+      "y": 44.32
+     },
+     {
+      "name": "Basic House",
+      "x": 39.57,
+      "y": 45.06
+     },
+     {
+      "name": "Basic House",
+      "x": 41.08,
+      "y": 46.53
+     },
+     {
+      "name": "Basic House",
+      "x": 39.57,
+      "y": 49.47
+     },
+     {
+      "name": "Watchtower (build site)",
+      "x": 33.5,
+      "y": 73.01
+     },
+     {
+      "name": "Watchtower",
+      "x": 41.08,
+      "y": 89.2
+     }
+    ],
+    "image_sha256": "f67c12e1304f013d6a1b09cf097c6285c7b94c94cb8fd58a136d5f5600a1fcd5",
+    "tiles": {
+     "water": 15865,
+     "sand": 698,
+     "soil": 6774,
+     "mountain": 3415
+    },
+    "objects": {
+     "tree": 66,
+     "rock": 7,
+     "field": 72,
+     "road": 32,
+     "building": 10,
+     "site": 1
+    },
+    "buildings": [
+     "Basic House",
+     "Farm",
+     "Quarry",
+     "Roadworks Office",
+     "Warehouse",
+     "Watchtower",
+     "Watchtower (build site)"
+    ],
+    "villagers": 19,
+    "size": [
+     152,
+     176
+    ]
+   },
+   {
+    "asset_name": "Level06C",
+    "image": "level-maps/Level06C.png",
+    "image_size": [
+     634,
+     769
+    ],
+    "labels": [
+     {
+      "name": "Watchtower",
+      "x": 8.28,
+      "y": 46.09
+     },
+     {
+      "name": "Watchtower (build site)",
+      "x": 43.97,
+      "y": 53.44
+     },
+     {
+      "name": "Watchtower",
+      "x": 17.2,
+      "y": 62.27
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 74.31,
+      "y": 63.74
+     }
+    ],
+    "image_sha256": "f150b5855e0f372a5f046684088ee91ad5e558f0393100023a1d1df272b0c2bb",
+    "tiles": {
+     "water": 14692,
+     "sand": 752,
+     "soil": 3465,
+     "mountain": 4195
+    },
+    "objects": {
+     "tree": 29,
+     "fruit": 22,
+     "building": 3,
+     "site": 1
+    },
+    "buildings": [
+     "Foragers' Hut",
+     "Watchtower",
+     "Watchtower (build site)"
+    ],
+    "villagers": 7,
+    "size": [
+     152,
+     152
+    ]
+   },
+   {
+    "asset_name": "Level06Map",
+    "image": "level-maps/Level06Map.png",
+    "image_size": [
+     831,
+     1115
+    ],
+    "labels": [],
+    "image_sha256": "9e09305b01133555f01aecf8b933bacea44abf8d85e9e7114fc366a2973451fd",
+    "tiles": {
+     "water": 44117,
+     "sand": 3669,
+     "soil": 11908,
+     "mountain": 5842
+    },
+    "objects": {
+     "tree": 68,
+     "fruit": 46,
+     "rock": 6
+    },
+    "buildings": [],
+    "villagers": 0,
+    "size": [
+     256,
+     256
+    ]
+   },
+   {
+    "asset_name": "Level07A",
+    "image": "level-maps/Level07A.png",
+    "image_size": [
+     726,
+     608
+    ],
+    "labels": [
+     {
+      "name": "Foragers' Hut",
+      "x": 45.32,
+      "y": 41.1
+     },
+     {
+      "name": "Farm",
+      "x": 57.79,
+      "y": 58.77
+     },
+     {
+      "name": "Basic House",
+      "x": 50.0,
+      "y": 63.43
+     },
+     {
+      "name": "Plank House",
+      "x": 48.44,
+      "y": 65.29
+     },
+     {
+      "name": "Foragers' Hut",
+      "x": 39.09,
+      "y": 69.01
+     },
+     {
+      "name": "Plank House",
+      "x": 48.44,
+      "y": 70.87
+     },
+     {
+      "name": "Basic House",
+      "x": 56.23,
+      "y": 72.73
+     },
+     {
+      "name": "Warehouse",
+      "x": 53.9,
+      "y": 75.52
+     }
+    ],
+    "image_sha256": "db68625d9da958fde9ff5d4b2928fd808760d50645fec3c6161b1f4c9ca7c508",
+    "tiles": {
+     "water": 4182,
+     "sand": 1929,
+     "soil": 3411,
+     "mountain": 6862
+    },
+    "objects": {
+     "tree": 42,
+     "fruit": 24,
+     "rock": 7,
+     "field": 72,
+     "road": 43,
+     "building": 8
+    },
+    "buildings": [
+     "Basic House",
+     "Farm",
+     "Foragers' Hut",
+     "Plank House",
+     "Warehouse"
+    ],
+    "villagers": 12,
+    "size": [
+     128,
+     128
+    ]
+   },
+   {
+    "asset_name": "Level07B",
+    "image": "level-maps/Level07B.png",
+    "image_size": [
+     726,
+     608
+    ],
+    "labels": [
+     {
+      "name": "Greenhouse",
+      "x": 44.29,
+      "y": 40.17
+     },
+     {
+      "name": "Plank House",
+      "x": 38.31,
+      "y": 42.03
+     },
+     {
+      "name": "Playground",
+      "x": 35.97,
+      "y": 44.82
+     },
+     {
+      "name": "Roadworks Office",
+      "x": 46.1,
+      "y": 45.75
+     },
+     {
+      "name": "Greenhouse",
+      "x": 34.68,
+      "y": 52.26
+     },
+     {
+      "name": "Greenhouse",
+      "x": 55.19,
+      "y": 53.19
+     },
+     {
+      "name": "Bonfire",
+      "x": 49.22,
+      "y": 56.91
+     },
+     {
+      "name": "Greenhouse",
+      "x": 59.87,
+      "y": 58.77
+     },
+     {
+      "name": "Warehouse",
+      "x": 45.32,
+      "y": 59.7
+     },
+     {
+      "name": "Brick House",
+      "x": 53.12,
+      "y": 59.7
+     },
+     {
+      "name": "Firewood Yard",
+      "x": 46.88,
+      "y": 61.56
+     },
+     {
+      "name": "Zen Garden",
+      "x": 51.56,
+      "y": 61.56
+     },
+     {
+      "name": "Playground",
+      "x": 50.0,
+      "y": 63.43
+     },
+     {
+      "name": "Brick House",
+      "x": 48.44,
+      "y": 65.29
+     }
+    ],
+    "image_sha256": "55a86c7385ae4f8048f4d4b708115feec6d905e112012424055cd4a6819c2f70",
+    "tiles": {
+     "water": 4182,
+     "sand": 1929,
+     "soil": 3411,
+     "mountain": 6862
+    },
+    "objects": {
+     "tree": 10,
+     "rock": 8,
+     "field": 48,
+     "road": 99,
+     "building": 14
+    },
+    "buildings": [
+     "Bonfire",
+     "Brick House",
+     "Firewood Yard",
+     "Greenhouse",
+     "Plank House",
+     "Playground",
+     "Roadworks Office",
+     "Warehouse",
+     "Zen Garden"
+    ],
+    "villagers": 15,
+    "size": [
+     128,
+     128
+    ]
+   },
+   {
+    "asset_name": "Level07C",
+    "image": "level-maps/Level07C.png",
+    "image_size": [
+     726,
+     608
+    ],
+    "labels": [
+     {
+      "name": "Foresters' Hub",
+      "x": 42.99,
+      "y": 42.03
+     },
+     {
+      "name": "Glassworks",
+      "x": 47.66,
+      "y": 48.54
+     },
+     {
+      "name": "Quarry",
+      "x": 35.2,
+      "y": 51.33
+     },
+     {
+      "name": "Plank House",
+      "x": 50.0,
+      "y": 54.12
+     },
+     {
+      "name": "Lumberjacks' Base",
+      "x": 38.31,
+      "y": 55.05
+     },
+     {
+      "name": "Chicken Coop",
+      "x": 46.1,
+      "y": 55.98
+     },
+     {
+      "name": "Market",
+      "x": 44.55,
+      "y": 58.77
+     },
+     {
+      "name": "Clay Pit",
+      "x": 49.22,
+      "y": 59.7
+     },
+     {
+      "name": "Warehouse",
+      "x": 42.99,
+      "y": 60.63
+     },
+     {
+      "name": "Sawmill",
+      "x": 46.88,
+      "y": 62.5
+     },
+     {
+      "name": "Plank House",
+      "x": 42.99,
+      "y": 64.36
+     },
+     {
+      "name": "Author's Stand (build site)",
+      "x": 51.56,
+      "y": 66.22
+     },
+     {
+      "name": "Gift Shop (build site)",
+      "x": 57.79,
+      "y": 68.08
+     },
+     {
+      "name": "Farm",
+      "x": 36.75,
+      "y": 69.01
+     },
+     {
+      "name": "Gift Shop (build site)",
+      "x": 53.12,
+      "y": 73.66
+     }
+    ],
+    "image_sha256": "35d3a2850f4502be5ca39c1665b32b6c83b740118f7e665285f2dd7b2eee7972",
+    "tiles": {
+     "water": 4182,
+     "sand": 1929,
+     "soil": 3411,
+     "mountain": 6862
+    },
+    "objects": {
+     "tree": 47,
+     "rock": 5,
+     "field": 46,
+     "road": 56,
+     "building": 12,
+     "site": 3
+    },
+    "buildings": [
+     "Author's Stand (build site)",
+     "Chicken Coop",
+     "Clay Pit",
+     "Farm",
+     "Foresters' Hub",
+     "Gift Shop (build site)",
+     "Glassworks",
+     "Lumberjacks' Base",
+     "Market",
+     "Plank House",
+     "Quarry",
+     "Sawmill",
+     "Warehouse"
+    ],
+    "villagers": 14,
+    "size": [
+     128,
+     128
     ]
    }
   ]
