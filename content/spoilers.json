@@ -5,183 +5,183 @@
       "type": "heroes",
       "id": "Oona.000",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Oona’s story isn’t out yet. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Oona’s story isn’t out yet. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "levels",
       "id": "Campaign3_Level2A",
       "status": "related-release-unconfirmed",
-      "as_of": "2026-10-23",
-      "reason": "A level in Oona’s story, which isn’t out yet."
+      "as_of": "2026-11-13",
+      "reason": "A level in Oona’s story, which the developers announced on 12 November 2026 as coming soon. It is not out yet."
     },
     {
       "type": "levels",
       "id": "Campaign3_Level2B",
       "status": "related-release-unconfirmed",
-      "as_of": "2026-10-23",
-      "reason": "A level in Oona’s story, which isn’t out yet."
+      "as_of": "2026-11-13",
+      "reason": "A level in Oona’s story, which the developers announced on 12 November 2026 as coming soon. It is not out yet."
     },
     {
       "type": "levels",
       "id": "Campaign3_Level2C",
       "status": "related-release-unconfirmed",
-      "as_of": "2026-10-23",
-      "reason": "A level in Oona’s story, which isn’t out yet."
+      "as_of": "2026-11-13",
+      "reason": "A level in Oona’s story, which the developers announced on 12 November 2026 as coming soon. It is not out yet."
     },
     {
       "type": "biomes",
       "id": "Swamp",
       "status": "related-release-unconfirmed",
-      "as_of": "2026-10-23",
-      "reason": "The game’s update text links this biome to Oona’s story, which isn’t out yet."
+      "as_of": "2026-11-13",
+      "reason": "The game’s update text links this biome to Oona’s story, which the developers announced on 12 November 2026 as coming soon. It is not out yet."
     },
     {
       "type": "buildings",
       "id": "105706",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "buildings",
       "id": "105717",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "chains",
       "id": "105706",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "chains",
       "id": "105717",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "resources",
       "id": "320441",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "resources",
       "id": "319673",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "resources",
       "id": "286357",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "resources",
       "id": "286350",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "resources",
       "id": "286346",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "resources",
       "id": "286348",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "resources",
       "id": "319676",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "resources",
       "id": "286349",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "resources",
       "id": "286342",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Part of the mushroom production chain, which isn’t in the game yet. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "buildings",
       "id": "35460",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Used only in Oona’s levels. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Used only in Oona’s levels. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "chains",
       "id": "35460",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Used only in Oona’s levels. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Used only in Oona’s levels. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "buildings",
       "id": "116136",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Used only in Oona’s levels. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Used only in Oona’s levels. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "buildings",
       "id": "80803",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Used only in Oona’s levels. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Used only in Oona’s levels. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "chains",
       "id": "80803",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Used only in Oona’s levels. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Used only in Oona’s levels. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "buildings",
       "id": "78175",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "A version of Brick Road that can’t be recycled. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "A version of Brick Road that can’t be recycled. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "resources",
       "id": "319706",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Used only by buildings from Oona’s update. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Used only by buildings from Oona’s update. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "resources",
       "id": "319711",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "Used only by buildings from Oona’s update. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "Used only by buildings from Oona’s update. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "tournament",
@@ -201,15 +201,15 @@
       "type": "buildings",
       "id": "67921",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "No level or sandbox lets you plant it. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "No level or sandbox lets you plant it. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "buildings",
       "id": "67915",
       "status": "confirmed-unreleased",
-      "as_of": "2026-10-26",
-      "reason": "No level or sandbox lets you plant it. The game files mark it for version 32; the current game is version 31, which still hides it. The game’s update notes list Oona’s Wetlands as the next update."
+      "as_of": "2026-11-13",
+      "reason": "No level or sandbox lets you plant it. The game files mark it for version 32; the current game is version 31, which still hides it. The developers announced Oona on the official Outlanders Discord on 12 November 2026, “coming soon” in an update they call Oona’s Potion (the game’s own update notes call it Oona’s Wetlands)."
     },
     {
       "type": "tournament",
