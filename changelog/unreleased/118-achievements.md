@@ -1,0 +1,1 @@
+New Achievements page: every Game Center achievement that is out, with the game's own goal for each, grouped (stories, running totals, single town, finishing levels, villagers, Sandbox and Tournament) and linked to the goods, buildings, biomes and needs involved. Off the Menu and Speedrunner are marked new in version 31 (118).

@@ -53215,5 +53215,353 @@
     ]
    }
   ]
+ },
+ "achievements": {
+  "class": "Localization table rows Achievement.<Id>.Name / .Description (en-US)",
+  "game_version": "31 (255)",
+  "sources": [
+   {
+    "version": "30 (254)",
+    "text_asset_id": 6521
+   },
+   {
+    "version": "31 (255)",
+    "text_asset_id": 6634
+   }
+  ],
+  "research_tool": "tools/export_achievements.py",
+  "note": "Achievement rules are built in code (Achievements and its subclasses); only the names and descriptions are stored as data. What exactly counts toward each one is read from the description, not the code.",
+  "records": [
+   {
+    "id": "Tutorial",
+    "name": "First Steps",
+    "description": "You have learned a lot!",
+    "added_in": "30 (254)",
+    "order": 0,
+    "target": null
+   },
+   {
+    "id": "Campaign1",
+    "name": "The Gang's Back Together!",
+    "description": "Finish the first 7 stories",
+    "added_in": "30 (254)",
+    "order": 1,
+    "target": 7
+   },
+   {
+    "id": "Campaign1Optional",
+    "name": "Everything, Everywhere!",
+    "description": "Complete the optional objectives of the first 7 stories",
+    "added_in": "30 (254)",
+    "order": 2,
+    "target": 7
+   },
+   {
+    "id": "WinterBake",
+    "name": "Miracle Bread",
+    "description": "Bake 150 loaves of bread in Winterlands levels",
+    "added_in": "30 (254)",
+    "order": 3,
+    "target": 150
+   },
+   {
+    "id": "Books",
+    "name": "Brevity is (...) Wit",
+    "description": "Write 200 books",
+    "added_in": "30 (254)",
+    "order": 4,
+    "target": 200
+   },
+   {
+    "id": "CutTrees",
+    "name": "Got Wood?",
+    "description": "Chop down 1000 trees",
+    "added_in": "30 (254)",
+    "order": 5,
+    "target": 1000
+   },
+   {
+    "id": "PlantTrees",
+    "name": "Save The Forests!",
+    "description": "Plant 1000 trees",
+    "added_in": "30 (254)",
+    "order": 6,
+    "target": 1000
+   },
+   {
+    "id": "Wine",
+    "name": "Incoming Headache",
+    "description": "Produce 500 glasses of wine",
+    "added_in": "30 (254)",
+    "order": 7,
+    "target": 500
+   },
+   {
+    "id": "Beer",
+    "name": "Brewmaster",
+    "description": "Drink 500 mugs of beer",
+    "added_in": "30 (254)",
+    "order": 8,
+    "target": 500
+   },
+   {
+    "id": "Meat",
+    "name": "Fire Up The Grill!",
+    "description": "Obtain 1000 pieces of meat",
+    "added_in": "30 (254)",
+    "order": 9,
+    "target": 1000
+   },
+   {
+    "id": "FruitsAndVeggies",
+    "name": "Go Vegan!",
+    "description": "Eat 2000 Fruits or Veggies",
+    "added_in": "30 (254)",
+    "order": 10,
+    "target": 2000
+   },
+   {
+    "id": "Births",
+    "name": "Baby Boom!",
+    "description": "1000 births!",
+    "added_in": "30 (254)",
+    "order": 11,
+    "target": 1000
+   },
+   {
+    "id": "Deaths",
+    "name": "The Cycle Of Life",
+    "description": "200 deaths",
+    "added_in": "30 (254)",
+    "order": 12,
+    "target": 200
+   },
+   {
+    "id": "Happiness",
+    "name": "Shiny Happy People!",
+    "description": "Finish 10 levels with Happiness satisfied",
+    "added_in": "30 (254)",
+    "order": 13,
+    "target": 10
+   },
+   {
+    "id": "GreenLevels",
+    "name": "Evergreen Bliss",
+    "description": "Finish 15 levels in the Evergreen biome",
+    "added_in": "30 (254)",
+    "order": 14,
+    "target": 15
+   },
+   {
+    "id": "WinterLevels",
+    "name": "Winterland Charm",
+    "description": "Finish 15 levels in the Winterland biome",
+    "added_in": "30 (254)",
+    "order": 15,
+    "target": 15
+   },
+   {
+    "id": "TropicalLevels",
+    "name": "Tropiclands Paradise",
+    "description": "Finish 15 levels in the Tropiclands biome",
+    "added_in": "30 (254)",
+    "order": 16,
+    "target": 15
+   },
+   {
+    "id": "ConcernHousing",
+    "name": "No Outlander Left Behind",
+    "description": "Finish 40 levels with Housing satisfied",
+    "added_in": "30 (254)",
+    "order": 17,
+    "target": 40
+   },
+   {
+    "id": "ConcernEntertainment",
+    "name": "Party Town!",
+    "description": "Finish 25 levels with Fun satisfied",
+    "added_in": "30 (254)",
+    "order": 18,
+    "target": 25
+   },
+   {
+    "id": "ConcernCommunity",
+    "name": "Come Together",
+    "description": "Finish 30 levels with Community satisfied",
+    "added_in": "30 (254)",
+    "order": 19,
+    "target": 30
+   },
+   {
+    "id": "ConcernHeat",
+    "name": "Feel The Heat",
+    "description": "Finish 15 levels with Heat satisfied",
+    "added_in": "30 (254)",
+    "order": 20,
+    "target": 15
+   },
+   {
+    "id": "ConcernFood",
+    "name": "It's Lunchtime!",
+    "description": "Finish 30 levels with Food satisfied",
+    "added_in": "30 (254)",
+    "order": 21,
+    "target": 30
+   },
+   {
+    "id": "ConcernWellness",
+    "name": "Mindful Communities",
+    "description": "Finish 20 levels with Wellness satisfied",
+    "added_in": "30 (254)",
+    "order": 22,
+    "target": 20
+   },
+   {
+    "id": "ConcernRefreshment",
+    "name": "Keep It Cool",
+    "description": "Finish 20 levels with Cooling satisfied",
+    "added_in": "30 (254)",
+    "order": 23,
+    "target": 20
+   },
+   {
+    "id": "Population",
+    "name": "Take It To The Limit",
+    "description": "Have 200 villagers in one level",
+    "added_in": "30 (254)",
+    "order": 24,
+    "target": 200
+   },
+   {
+    "id": "SandboxDays",
+    "name": "For the History Books",
+    "description": "Reach day 500 in a Sandbox map",
+    "added_in": "30 (254)",
+    "order": 25,
+    "target": 500
+   },
+   {
+    "id": "Decorations",
+    "name": "A E S T H E T I C",
+    "description": "Have 70 decorations in a single town",
+    "added_in": "30 (254)",
+    "order": 26,
+    "target": 70
+   },
+   {
+    "id": "CreateBootsnCoats",
+    "name": "Boots and Coats!",
+    "description": "Make 50 pairs of boots and 50 coats in a single town",
+    "added_in": "30 (254)",
+    "order": 27,
+    "target": 50
+   },
+   {
+    "id": "500Stone",
+    "name": "Stone Age... Again?",
+    "description": "Obtain 500 stones in a single town",
+    "added_in": "30 (254)",
+    "order": 28,
+    "target": 500
+   },
+   {
+    "id": "200Ukulele",
+    "name": "Music Makers",
+    "description": "Make 200 ukuleles",
+    "added_in": "30 (254)",
+    "order": 29,
+    "target": 200
+   },
+   {
+    "id": "200Pendant",
+    "name": "Dreamers of Dreams",
+    "description": "Make 200 pendants",
+    "added_in": "30 (254)",
+    "order": 30,
+    "target": 200
+   },
+   {
+    "id": "2000GlassofWater",
+    "name": "Good Hydrations",
+    "description": "Drink 2000 glasses of water in a single town",
+    "added_in": "30 (254)",
+    "order": 31,
+    "target": 2000
+   },
+   {
+    "id": "50Oasis",
+    "name": "Some Might Say",
+    "description": "Build 50 Oasis",
+    "added_in": "30 (254)",
+    "order": 32,
+    "target": 50
+   },
+   {
+    "id": "800BarleyPorridge",
+    "name": "Heart to Hearth",
+    "description": "Eat 800 bowls of Barley Porridge in a single town",
+    "added_in": "30 (254)",
+    "order": 33,
+    "target": 800
+   },
+   {
+    "id": "150Beehive",
+    "name": "Yasss Honey!",
+    "description": "Build 150 Beehives",
+    "added_in": "30 (254)",
+    "order": 34,
+    "target": 150
+   },
+   {
+    "id": "50StroganoffShop",
+    "name": "Let Them Cook!",
+    "description": "Build 50 Stroganoff Cookhouses.",
+    "added_in": "30 (254)",
+    "order": 35,
+    "target": 50,
+    "held_back": "names content the wiki holds back as a spoiler (content/spoilers.json)"
+   },
+   {
+    "id": "500Concoction",
+    "name": "Bottoms Up!",
+    "description": "Drink 500 pots of Concoction in a single town.",
+    "added_in": "30 (254)",
+    "order": 36,
+    "target": 500,
+    "held_back": "names content the wiki holds back as a spoiler (content/spoilers.json)"
+   },
+   {
+    "id": "20TournamentStreak",
+    "name": "Locked In",
+    "description": "Maintain a 20-day streak in Tournament levels.",
+    "added_in": "30 (254)",
+    "order": 37,
+    "target": 20
+   },
+   {
+    "id": "ClaimAllRewardsInTournament",
+    "name": "No Claim, No Gain",
+    "description": "Claim all available rewards in a Tournament Season.",
+    "added_in": "30 (254)",
+    "order": 38,
+    "target": null
+   },
+   {
+    "id": "TournamentSpeedRun",
+    "name": "Speedrunner",
+    "description": "Finish a Tournament level in under 3 minutes and 30 seconds.",
+    "added_in": "31 (255)",
+    "order": 39,
+    "target": null
+   },
+   {
+    "id": "BuyFromBagInTournament",
+    "name": "Off the Menu",
+    "description": "Buy 100 tiles from the Bag in Tournament levels.",
+    "added_in": "31 (255)",
+    "order": 40,
+    "target": 100
+   }
+  ]
  }
 }
