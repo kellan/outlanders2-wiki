@@ -11,7 +11,7 @@ assert.ok(!DM.walking.road_cost&&!('walk_speed' in DM.recycle_stock.unloading)&&
 const w=strip(h.render('roads-and-walking/')),r=strip(h.render('recycling/'));
 assert.ok(/Bare ground 63 s 2\.9 Road 45 s 4 Bare ground, in Boots 45 s 4 Road, in Boots 38 s 4\.7/.test(w),'road example');
 assert.ok(w.includes('5.5–8.2 minutes of villager work')&&w.includes('A shift is about 180 seconds of work'),'road cost');
-assert.ok(/A Warehouse 17 units away, just inside the reach 29\.7 s 7\.4 minutes/.test(r)&&r.includes('27 minutes of work')&&r.includes('A shift is 60% of a 300-second day'),'recycling examples');
+assert.ok(/A loose pile of Logs with room for 9, 15 units away 27 s then 9\.8 s 3\.7 minutes/.test(r)&&r.includes('6.3 minutes of work')&&r.includes('A shift is 60% of a 300-second day'),'recycling examples');
 assert.ok(/Recycle refund<\/dt><dd>[^]*?5 Clay[^]*?2 Stone/.test(h.render('buildings/bakery/')),'refund from the model');
 // Changing a constant changes the page: the pages really read the model.
 const src=readFileSync(new URL('../../src/app.js',import.meta.url),'utf8');

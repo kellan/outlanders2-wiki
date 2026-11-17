@@ -1,0 +1,1 @@
+Recycling: recovered stock goes onto loose piles on the ground (up to 9 each) beside the building, or onto a matching loose pile nearby, and never straight into a Warehouse. The page used to advise keeping storage within reach; that advice, its worked examples and the "Fake recycling" wording are corrected, and the in-game checks still needed are listed (117).
