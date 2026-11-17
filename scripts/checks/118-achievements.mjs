@@ -1,0 +1,20 @@
+// PR 118: an Achievements page from the game's own text (names and goals), grouped and linked; held-back ones left off.
+import assert from 'node:assert/strict';import vm from 'node:vm';import {harness} from '../render-harness.mjs';
+const h=await harness(),strip=s=>s.replace(/<[^>]+>/g,' ').replace(/&#39;/g,"'").replace(/\s+/g,' ').replace(/ ([,.)])/g,'$1');
+const A=JSON.parse(vm.runInContext('JSON.stringify(DM.achievements)',h.ctx));
+assert.equal(A.records.length,41,'41 achievements in version 31');assert.deepEqual(A.sources.map(s=>s.version),['30 (254)','31 (255)']);
+assert.deepEqual(A.records.filter(r=>r.added_in==='31 (255)').map(r=>r.name).sort(),['Off the Menu','Speedrunner']);
+assert.equal(A.records.filter(r=>r.held_back).length,2,'two achievements name content not out yet');
+const x=h.render('achievements/'),t=strip(x);
+assert.match(t,/Achievements The Game Center achievements in Outlanders 2, with the goal the game gives for each/);
+for(const g of ['Stories','Running totals','In a single town','Finishing levels','Villagers','Sandbox and Tournament'])assert.ok(t.includes(g),g);
+assert.equal((x.match(/<tr><td><strong>/g)||[]).length,39,'39 rows: every achievement that is out');
+for(const r of A.records.filter(r=>r.held_back))assert.ok(!t.includes(r.name)&&!t.includes(r.description),'held back: not on the page');
+assert.ok(!/Oona|Potion|Wetlands/.test(t),'no spoiler names');
+assert.match(t,/Got Wood\? Chop down 1000 trees Lumberjacks' Base/);
+assert.match(t,/Miracle Bread Bake 150 loaves of bread in Winterlands levels Bread, Winterlands/);
+assert.match(t,/No Outlander Left Behind Finish 40 levels with Housing satisfied Housing/);
+assert.match(t,/Speedrunner \(new in version 31\) Finish a Tournament level in under 3 minutes and 30 seconds\. Tournament Mode/);
+assert.ok(x.includes('href="/resources/')&&x.includes('href="/biomes/')&&x.includes('href="/tournament/"'),'linked to resources, biomes and pages');
+assert.ok(h.render('').includes('href="/achievements/"'),'linked from the home page');
+console.log('PASS: Achievements page, 39 shown, 2 held back, grouped and linked.');
