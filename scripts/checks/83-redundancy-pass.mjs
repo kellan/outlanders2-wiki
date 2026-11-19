@@ -2,7 +2,8 @@
 import assert from 'node:assert/strict';import {harness} from '../render-harness.mjs';
 const h=await harness(),strip=s=>s.replace(/<script[\s\S]*?<\/script>/g,'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' '),count=(s,t)=>s.split(t).length-1;
 // Tables drop columns that never change.
-for(const r of ['buildings/','plants/','resources/','biomes/'])assert.ok(!h.render(r).includes('>Availability</th>'),r+': no all-Unknown Availability column');
+for(const r of ['buildings/','plants/','resources/'])assert.ok(!h.render(r).includes('>Availability</th>'),r+': no all-Unknown Availability column');
+assert.ok(h.render('biomes/').includes('>Availability</th>'),'biomes/: Availability column kept now that Wetlands has a status (PR 119)');
 assert.ok(!h.render('campaigns/campaign-1/').includes('>Category</th>'),'campaign tables drop the Category column');
 assert.ok(strip(h.render('challenges/redux/')).includes('Day limit: No limit on every row.'),'constant informative column becomes one note');
 // Building and chain pages.

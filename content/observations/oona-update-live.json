@@ -1,0 +1,8 @@
+{
+  "id": "oona-update-live",
+  "target": {"type": "heroes", "id": "Oona.000"},
+  "claim": "Oona's update is out: her story, her three levels, the Wetlands biome and the mushroom chain are live in the game.",
+  "status": "confirmed",
+  "evidence": {"kind": "player-report", "game_version": "32 (not yet decoded)", "date": "2026-11-19", "reference": "Maintainer report in the wiki session, 19 November 2026. The developers had announced it on the official Outlanders Discord on 12 November 2026 as coming soon in an update called Oona's Potion."},
+  "notes": "The wiki's pages for this content are still built from the version 31 files, where it was gated to version 32. Details that changed at release will show up once the version 32 game files are decoded (research docs/RELEASE-WATCH.md)."
+}

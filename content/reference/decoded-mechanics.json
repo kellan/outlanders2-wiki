@@ -44065,6 +44065,116 @@
     ]
    },
    {
+    "asset_name": "Campaign3_Level2A",
+    "image": "level-maps/Campaign3_Level2A.png",
+    "image_size": [
+     544,
+     544
+    ],
+    "labels": [
+     {
+      "name": "Beehive",
+      "x": 40.64,
+      "y": 26.08
+     },
+     {
+      "name": "Beehive",
+      "x": 39.6,
+      "y": 33.36
+     },
+     {
+      "name": "Roadworks Office",
+      "x": 37.52,
+      "y": 39.6
+     },
+     {
+      "name": "Brick House",
+      "x": 43.76,
+      "y": 56.24
+     }
+    ],
+    "image_sha256": "6bd4a627b19bcd484bc45e61c2eb0d7ac18f23f0ab9148775edba0680d47abf9",
+    "tiles": {
+     "water": 221,
+     "sand": 2759,
+     "soil": 6236
+    },
+    "objects": {
+     "tree": 122,
+     "fruit": 100,
+     "road": 27,
+     "building": 4
+    },
+    "buildings": [
+     "Beehive",
+     "Brick House",
+     "Roadworks Office"
+    ],
+    "villagers": 10,
+    "size": [
+     96,
+     96
+    ]
+   },
+   {
+    "asset_name": "Campaign3_Level2B",
+    "image": "level-maps/Campaign3_Level2B.png",
+    "image_size": [
+     384,
+     454
+    ],
+    "labels": [],
+    "image_sha256": "347b3ce72d8074f79ddf2a0fee79580195f217fac82d363305ef79695244d709",
+    "tiles": {
+     "water": 1242,
+     "sand": 2441,
+     "soil": 2717
+    },
+    "objects": {
+     "tree": 145
+    },
+    "buildings": [],
+    "villagers": 4,
+    "size": [
+     80,
+     80
+    ]
+   },
+   {
+    "asset_name": "Campaign3_Level2C",
+    "image": "level-maps/Campaign3_Level2C.png",
+    "image_size": [
+     544,
+     544
+    ],
+    "labels": [
+     {
+      "name": "Book Workshop",
+      "x": 28.16,
+      "y": 66.64
+     }
+    ],
+    "image_sha256": "946911534b296b3c8f0f319a60de6980c5f84b065669e5773023ac917c03035c",
+    "tiles": {
+     "water": 528,
+     "sand": 4976,
+     "soil": 3712
+    },
+    "objects": {
+     "tree": 164,
+     "road": 3,
+     "building": 1
+    },
+    "buildings": [
+     "Book Workshop"
+    ],
+    "villagers": 10,
+    "size": [
+     96,
+     96
+    ]
+   },
+   {
     "asset_name": "FAST_Tutorial01",
     "image": "level-maps/FAST_Tutorial01.png",
     "image_size": [
@@ -53518,8 +53628,7 @@
     "description": "Build 50 Stroganoff Cookhouses.",
     "added_in": "30 (254)",
     "order": 35,
-    "target": 50,
-    "held_back": "names content the wiki holds back as a spoiler (content/spoilers.json)"
+    "target": 50
    },
    {
     "id": "500Concoction",
@@ -53527,8 +53636,7 @@
     "description": "Drink 500 pots of Concoction in a single town.",
     "added_in": "30 (254)",
     "order": 36,
-    "target": 500,
-    "held_back": "names content the wiki holds back as a spoiler (content/spoilers.json)"
+    "target": 500
    },
    {
     "id": "20TournamentStreak",
