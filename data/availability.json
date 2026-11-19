@@ -16,10 +16,10 @@
     {
       "id": "Oona.000",
       "name": "Oona",
-      "availability_status": "user_reported_unreleased",
-      "as_of": "2026-10-23",
+      "availability_status": "user_reported_released",
+      "as_of": "2026-11-19",
       "release_date": null,
-      "release_date_status": "no_public_date_found",
+      "release_date_status": "reported_live_not_dated",
       "packaged_presence": true,
       "associated_story": "Oona",
       "associated_level_ids": [
@@ -131,18 +131,21 @@
           "date": "2026-10-23",
           "finding": "User states Oona is not released."
         }
-      ]
+      ],
+      "release_report": "The maintainer reported Oona’s content live on 19 November 2026. The developers announced it on 12 November 2026 as coming soon in an update called Oona’s Potion."
     },
     {
       "id": "Wetlands",
       "name": "Wetlands",
-      "availability_status": "public_release_unconfirmed",
+      "availability_status": "user_reported_released",
       "release_date": null,
       "evidence_keys": [
         "Sandbox.Biome.Swamp",
         "Store.VersionWhatsNew.28"
       ],
-      "note": "Packaged update28 text links Wetlands to Oona. Do not infer release merely from localized biome presence."
+      "note": "Packaged update28 text links Wetlands to Oona. Do not infer release merely from localized biome presence.",
+      "as_of": "2026-11-19",
+      "release_report": "The maintainer reported Oona’s content live on 19 November 2026. The developers announced it on 12 November 2026 as coming soon in an update called Oona’s Potion."
     }
   ],
   "public_release_history": [
