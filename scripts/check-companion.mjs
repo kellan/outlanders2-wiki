@@ -42,7 +42,7 @@ assert.ok(/<details>\s*<summary>Show the \d+ steps/.test(chain),'steps collapsed
 // Buildings catalog has type and produces columns.
 const dir=h.render('buildings/');assert.ok(dir.includes('<th scope="col">Type</th>'));assert.ok(dir.includes('<th scope="col">Produces</th>'));
 // Spoiler pages keep neutral report titles.
-const held=h.render('buildings/brick-road/');assert.ok(held.includes('Spoiler warning')&&!/issues\/new\?[^"]*NonRecycle/.test(held),'spoiler name in issue title');
+const held=h.render('spoilers/tournament/');assert.ok(held.includes('Egyptian')&&!/issues\/new\?[^"]*Egyptian/.test(held),'spoiler name in issue title');
 console.log('PASS: infoboxes, verification badge, objective and recipe backlinks, grouped availability, story context, navboxes, collapsed research detail, catalog columns and contribution links.');
 // Derived balances are ratios, not batches or capacities.
 const bakeryBox=bakery.slice(bakery.indexOf('class="infobox"'),bakery.indexOf('</aside>'));
@@ -158,7 +158,7 @@ console.log('PASS: research handoff integration.');
  assert.ok(!h.render('biomes/winterlands/').includes('<h2>Weather</h2>'),'no weather section elsewhere');
  const research=h.render('verification/buildings/bakery/');assert.ok(research.includes('<h2>Piles</h2>')&&research.includes('public output'),'pile table on research page');assert.ok(!bakery2.includes('<h2>Piles</h2>'),'pile table stays on the research page');
  assert.ok(h.render('tournament/').includes('<h2>Boosts</h2>'),'tournament boosts');
- const spoil=JSON.parse(fs2.readFileSync(new URL('../content/spoilers.json',import.meta.url),'utf8'));assert.ok(spoil.entries.filter(e=>e.status==='confirmed-unreleased').length>=1,'version gates confirmed spoilers');
+ const spoil=JSON.parse(fs2.readFileSync(new URL('../content/spoilers.json',import.meta.url),'utf8'));assert.ok(spoil.entries.length>0&&spoil.entries.every(e=>e.type==='tournament'),'only unseen tournament seasons remain held once update 32 was out');
  assert.ok(h.render('buildings/').includes('Stroganoff')&&h.render('plants/').includes('Willow Tree'),'released building and tree in the catalogs');
  console.log('PASS: decoded mechanics on infoboxes, needs, biomes, research and tournament pages.');}
 // Plants section (issue 20) and tree yields (issue 21).
