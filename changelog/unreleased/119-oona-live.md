@@ -1,0 +1,1 @@
+Oona's update is out, so her story, her three levels (with maps), the Wetlands biome, the mushroom chain, the Swamp Trappers' Hut, the Advanced Warehouse, Brick Road and her two achievements are no longer hidden as spoilers. Trees now list the mushrooms that can grow under them (119).

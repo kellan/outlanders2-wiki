@@ -8,6 +8,6 @@ const bakery=strip(h.render('production-chains/bakery/'));assert.ok(bakery.inclu
 assert.ok(strip(h.render('production-chains/')).includes('hasn’t been measured'),'speed caveat stated once on the index');
 assert.ok(!strip(h.render('buildings/road/')).includes('which one a level uses is not known'),'variant list without the hedge');
 assert.ok(!strip(h.render('buildings/foragers-hut/')).includes('not yet checked in play'),'tree regrowth note without the hedge');
-const sp=strip(h.render('spoilers/'));assert.ok(!sp.includes('reported-unreleased content')&&!sp.includes('Placement here is editorial')&&sp.includes('Used only in Oona’s levels'),'plain spoiler wording');
-assert.ok(strip(h.render('heroes/oona/')).includes('Spoiler warning'),'spoiler banner');
+const sp=strip(h.render('spoilers/'));assert.ok(!sp.includes('reported-unreleased content')&&!sp.includes('Placement here is editorial')&&sp.includes('No level or sandbox in the version 31 files lets you plant it'),'plain spoiler wording');
+assert.ok(strip(h.render('plants/willow-tree/')).includes('Spoiler warning'),'spoiler banner');
 console.log('PASS: no raw evidence dumps on reader pages, chain boilerplate gone, plain spoiler wording.');

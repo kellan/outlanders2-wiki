@@ -16,10 +16,10 @@
     {
       "id": "Oona.000",
       "name": "Oona",
-      "availability_status": "user_reported_unreleased",
-      "as_of": "2026-10-23",
+      "availability_status": "user_reported_released",
+      "as_of": "2026-11-19",
       "release_date": null,
-      "release_date_status": "no_public_date_found",
+      "release_date_status": "reported_live_not_dated",
       "packaged_presence": true,
       "associated_story": "Oona",
       "associated_level_ids": [
@@ -85,13 +85,13 @@
           "source_text_asset_id": 6484,
           "source_table": "LevelsStandalone",
           "key": "Level.Campaign3_Level2B.Description",
-          "text": "Rumour has it that Oona has been up to no good, making a ruckus. She, however, insists she hasn\u2019t been here for weeks."
+          "text": "Rumour has it that Oona has been up to no good, making a ruckus. She, however, insists she hasn’t been here for weeks."
         },
         {
           "source_text_asset_id": 6484,
           "source_table": "LevelsStandalone",
           "key": "Level.Campaign3_Level2B.Ending",
-          "text": "It\u2019s as if there have been other versions of herself walking around."
+          "text": "It’s as if there have been other versions of herself walking around."
         },
         {
           "source_text_asset_id": 6484,
@@ -131,18 +131,21 @@
           "date": "2026-10-23",
           "finding": "User states Oona is not released."
         }
-      ]
+      ],
+      "release_report": "The maintainer reported Oona’s content live on 19 November 2026. The developers announced it on 12 November 2026 as coming soon in an update called Oona’s Potion."
     },
     {
       "id": "Wetlands",
       "name": "Wetlands",
-      "availability_status": "public_release_unconfirmed",
+      "availability_status": "user_reported_released",
       "release_date": null,
       "evidence_keys": [
         "Sandbox.Biome.Swamp",
         "Store.VersionWhatsNew.28"
       ],
-      "note": "Packaged update28 text links Wetlands to Oona. Do not infer release merely from localized biome presence."
+      "note": "Packaged update28 text links Wetlands to Oona. Do not infer release merely from localized biome presence.",
+      "as_of": "2026-11-19",
+      "release_report": "The maintainer reported Oona’s content live on 19 November 2026. The developers announced it on 12 November 2026 as coming soon in an update called Oona’s Potion."
     }
   ],
   "public_release_history": [
@@ -246,7 +249,7 @@
     },
     {
       "url": "https://www.pomelogames.com/outlanders-2-update/",
-      "title": "Pomelo Games: Jelena\u2019s Climb is out now",
+      "title": "Pomelo Games: Jelena’s Climb is out now",
       "finding": "Confirms Jelena identity for the new campaign announcement; no explicit date captured."
     }
   ]
