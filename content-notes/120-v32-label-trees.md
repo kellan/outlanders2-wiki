@@ -25,3 +25,14 @@ The maintainer confirmed that the Cypress and Willow trees, Brick Road, the Adva
   - Caveat on the page: whether mushrooms grow outside the Wetlands, and how far the workers walk to pick, are not checked yet.
   - The section only appears for non-food goods that grow under plants; Fruit keeps its own page layout.
 - **Checks:** the spoiler checks now use the tournament seasons (`spoilers/tournament/`, searches for "Egyptian" and "Chinese"). Check 120 covers the Brick Road and the Mushroom section.
+
+### Follow-up: two Stroganoff cooking spots (disputed)
+
+The maintainer reports two cooking spots at the Stroganoff Cookhouse in the live game. The decoded version 30 files give it five work spots, only one of which cooks (KitchenFire + StrogMix -> Stroganoff, 17.4 s). The others are the fire, Meat slicing, Mushroom slicing and the mixing spot.
+
+Following the rule for conflicts, both sources are kept:
+- observation `stroganoff-two-cooking-spots` is recorded as **disputed**;
+- the food table keeps the decoded figure;
+- a note under the table gives the two-spot figure.
+
+With two cooking spots, a full crew of 2 is limited by worker time (2 × 180 s ÷ 20.1 s), not the stove: about 18 Stroganoff, or 36 food units, a day, instead of about 10 (21). The version 32 files should settle it.
