@@ -21,7 +21,7 @@ assert.ok(cookie.includes('≥ 33'));
 assert.ok(cookie.includes('/buildings/cookie-shop/'),'produced by');
 const bread=h.render('food/bread/');
 assert.ok(bread.includes('class="navbox"'));assert.ok(bread.includes('/food/cookie/'),'food navbox');
-assert.ok(!/Cypress Tree|Willow Tree/.test(bread),'navbox leaked spoilers (held back until version 32 is checked)');
+assert.ok(!/href="\/spoilers\/[a-z]/.test(bread),'navbox links no held-back page');
 // Leaders link to their stories and levels.
 const pablo=h.render('heroes/pablo/');
 assert.ok(pablo.includes("Pablo&#39;s Quest"));assert.ok(pablo.includes('/levels/the-end-of-the-world/'));assert.ok(pablo.includes('/campaigns/campaign-1/'));
@@ -42,7 +42,7 @@ assert.ok(/<details>\s*<summary>Show the \d+ steps/.test(chain),'steps collapsed
 // Buildings catalog has type and produces columns.
 const dir=h.render('buildings/');assert.ok(dir.includes('<th scope="col">Type</th>'));assert.ok(dir.includes('<th scope="col">Produces</th>'));
 // Spoiler pages keep neutral report titles.
-const wil=h.render('plants/willow-tree/');assert.ok(!/issues\/new\?[^"]*Willow/.test(wil),'spoiler name in issue title');
+const held=h.render('buildings/brick-road/');assert.ok(held.includes('Spoiler warning')&&!/issues\/new\?[^"]*NonRecycle/.test(held),'spoiler name in issue title');
 console.log('PASS: infoboxes, verification badge, objective and recipe backlinks, grouped availability, story context, navboxes, collapsed research detail, catalog columns and contribution links.');
 // Derived balances are ratios, not batches or capacities.
 const bakeryBox=bakery.slice(bakery.indexOf('class="infobox"'),bakery.indexOf('</aside>'));
@@ -88,7 +88,7 @@ const moon=h.render('levels/a-moon-part/');assert.ok(moon.includes('5 adults, 2 
 assert.ok(h.render('biomes/winterlands/').includes('Levels in this biome'));assert.ok(h.render('biomes/winterlands/').includes('Map resources'));
 assert.ok(h.render('levels/').includes('<th scope="col">Biome</th>'));
 const needs=needsAll();assert.ok(h.render('needs/cooling/').includes('<h1>Cooling</h1>')&&h.render('needs/cooling/').includes('Ice Pop'),'needs satisfiers on the Cooling page');assert.ok(needs.includes('adults only'),'age limit');
-assert.ok(!/Cypress Tree|Willow Tree/.test(needs),'needs page leaked spoilers');
+assert.ok(!/href="\/spoilers\/[a-z]/.test(needs),'needs page links no held-back page');
 assert.ok(h.render('resources/wine/').includes('Adults only'));
 assert.ok(h.render('buildings/quarry/').includes('rock sources'),'harvest row');
 assert.ok(h.render('buildings/bridge/').includes('Placement')&&h.render('buildings/bridge/').includes('slopes up to 5'),'placement row');
@@ -158,8 +158,8 @@ console.log('PASS: research handoff integration.');
  assert.ok(!h.render('biomes/winterlands/').includes('<h2>Weather</h2>'),'no weather section elsewhere');
  const research=h.render('verification/buildings/bakery/');assert.ok(research.includes('<h2>Piles</h2>')&&research.includes('public output'),'pile table on research page');assert.ok(!bakery2.includes('<h2>Piles</h2>'),'pile table stays on the research page');
  assert.ok(h.render('tournament/').includes('<h2>Boosts</h2>'),'tournament boosts');
- const spoil=JSON.parse(fs2.readFileSync(new URL('../content/spoilers.json',import.meta.url),'utf8'));assert.ok(spoil.entries.filter(e=>e.status==='confirmed-unreleased').length>=3,'version gates confirmed spoilers');
- assert.ok(h.render('buildings/').includes('Stroganoff')&&!h.render('plants/').includes('Willow Tree'),'released building in the catalog; held-back tree still withheld');
+ const spoil=JSON.parse(fs2.readFileSync(new URL('../content/spoilers.json',import.meta.url),'utf8'));assert.ok(spoil.entries.filter(e=>e.status==='confirmed-unreleased').length>=1,'version gates confirmed spoilers');
+ assert.ok(h.render('buildings/').includes('Stroganoff')&&h.render('plants/').includes('Willow Tree'),'released building and tree in the catalogs');
  console.log('PASS: decoded mechanics on infoboxes, needs, biomes, research and tournament pages.');}
 // Plants section (issue 20) and tree yields (issue 21).
 {assert.ok(h.lookup['plants/'],'plants directory route');assert.ok(h.lookup['plants/apple-tree/']&&h.lookup['buildings/apple-tree/'],'plant route with building alias');assert.equal(h.lookup['buildings/apple-tree/'],h.lookup['plants/apple-tree/'],'alias resolves to the same page');
@@ -181,7 +181,7 @@ console.log('PASS: research handoff integration.');
  console.log('PASS: plant biomes, wild spawns and data-driven planters.');}
 // How eating works (Needs page).
 {const needs=h.render('eating/');assert.ok(needs.includes('id="eating"')&&needs.includes('How eating works'),'eating page');assert.ok(needs.includes('starves only after about 6.25 days'),'days to starve from the stored curve');assert.ok(/<td>Satisfied<\/td><td>90–110<\/td><td>0.45<\/td>/.test(needs),'eat priority at Satisfied');assert.ok(/<td>Full<\/td><td>110 and above<\/td><td>0 \(never\)<\/td>/.test(needs),'full villagers never eat');
- assert.ok(/>Bread<\/a><\/td><td>2<\/td><td>120<\/td><td>30<\/td><td>0.33<\/td>/.test(needs),'bread row: units, restore, worth-it-below, per day');assert.ok(!/Cypress Tree|Willow Tree/.test(needs),'eating table keeps spoilers out');
+ assert.ok(/>Bread<\/a><\/td><td>2<\/td><td>120<\/td><td>30<\/td><td>0.33<\/td>/.test(needs),'bread row: units, restore, worth-it-below, per day');assert.ok(!/href="\/spoilers\/[a-z]/.test(needs),'eating table keeps spoilers out');
  console.log('PASS: how eating works from the stored meter and eat priority.');}
 // Salvage values on level starting conditions and biome map resources.
 {const stones=h.render('levels/morrigwyn-stones/');assert.ok(/Salvage<\/dt><dd>/.test(stones)||stones.includes('<dt>Salvage</dt>')||stones.includes('>Salvage<'),'salvage row');assert.ok(/Pallet ×2 <span class="objective-note">\(1 <a[^>]*>Plank<\/a> each\)/.test(stones),'pallet salvage: '+(stones.match(/Pallet[^<]{0,40}<span[^<]*<a[^>]*>[^<]*<\/a>[^<]*/)||[''])[0]);assert.ok(/Dismantling them all gives 14 <a[^>]*>Plank<\/a>/.test(stones),'salvage total');
@@ -238,7 +238,7 @@ console.log('PASS: research handoff integration.');
  const tm=h.render('time/');for(const t of ['five minutes at normal speed','about 3 minutes','30 seconds later','Middle Ground'])assert.ok(tm.includes(t),'time page: '+t);assert.ok(!/Unnamed scenario/.test(tm)&&!/Unnamed scenario/.test(h.render('happiness/')),'archive levels stay off mechanics pages');
  const gr=h.render('gear/');for(const t of ['Tailor','Adults only','×1.4, ×1.2 on roads','The Hermit'])assert.ok(gr.includes(t),'gear page: '+t);
  for(const p of ['needs/','houses/','gathering-places/','gear/'])assert.ok(h.render(p).includes('aria-label="Mechanics pages"'),'mechanics strip on '+p);
- for(const p of ['mechanics/','happiness/','villagers/','heat-cooling-water/','time/','gear/'])assert.ok(!/Cypress Tree|Willow Tree|Egyptian|Arctic/.test(h.render(p)),p+' leaked spoilers');
+ for(const p of ['mechanics/','happiness/','villagers/','heat-cooling-water/','time/','gear/'])assert.ok(!/Egyptian|Arctic/.test(h.render(p)),p+' leaked spoilers');
  console.log('PASS: mechanics section hub and pages.');}
 {const fs3=await import('node:fs');const tpl=fs3.readFileSync(new URL('../src/template.html',import.meta.url),'utf8'),pj=fs3.readFileSync(new URL('../src/page.js',import.meta.url),'utf8'),css=fs3.readFileSync(new URL('../src/style.css',import.meta.url),'utf8');
  assert.ok(tpl.includes('src="./page.js"'),'static pages load page.js (sorting and theme toggle)');assert.ok(/function sortTable/.test(pj)&&pj.includes('theme-toggle'),'page.js carries sorting and the toggle');
@@ -270,9 +270,9 @@ console.log('PASS: research handoff integration.');
  const hide=strip(h.render('resources/animal-hide/'));assert.ok(hide.includes('Trading Outpost (Tropiclands)')&&hide.includes('Trading Outpost (Evergreen)')&&!/1 Wheat each/.test(hide),'resource page lists outposts by biome');
  console.log('PASS: Trading Outpost trades are a choice, per biome, with base and test variants hidden.');}
 {const plants=h.render('plants/');assert.ok(!/>Base</.test(plants),'junk Base plant row hidden');assert.ok(!h.pages.some(p=>p.type==='buildings'&&String(p.id)==='92320'),'Base plant page hidden');
- for(const n of ['Cypress Tree','Willow Tree']){assert.ok(!plants.includes('>'+n+'<'),n+' kept off the plants list');assert.ok(h.render('spoilers/').includes(n),n+' listed on the spoilers page')}
+ for(const n of ['Cypress Tree','Willow Tree']){assert.ok(plants.includes('>'+n+'<'),n+' on the plants list (released with Oona, PR 120)');assert.ok(!h.render('spoilers/').includes(n),n+' off the spoilers page')}
  assert.equal(String(h.lookup['buildings/zbeer-stand/'].id),'35464','old Beer Stand URL resolves');assert.ok(h.render('buildings/beer-stand/').includes('<h1>Beer Stand</h1>'),'Beer Stand display name');
- console.log('PASS: junk Base plant hidden; update-32 Cypress and Willow trees moved to spoilers; Beer Stand named.');}
+ console.log('PASS: junk Base plant hidden; update-32 Cypress and Willow trees (released with Oona); Beer Stand named.');}
 {const strip=s=>s.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');const sb=strip(h.render('sandbox/'));
  for(const t of ['Scarce 4 0 0 4 60 12','Average 7 2 0 9 135 27','Abundant 12 6 2 20 300 60','180 × 136','228 × 140','256 × 208','15 construction tiles','Drylands','Mesquite Tree','Hydration','Winter Pine Tree'])assert.ok(sb.includes(t),'sandbox page: '+t);
  assert.ok(h.render('mechanics/').includes('href="/sandbox/"'),'Sandbox listed on the mechanics hub');

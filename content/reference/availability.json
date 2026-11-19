@@ -252,5 +252,12 @@
       "title": "Pomelo Games: Jelena’s Climb is out now",
       "finding": "Confirms Jelena identity for the new campaign announcement; no explicit date captured."
     }
+  ],
+  "reported_releases": [
+    {
+      "version": 32,
+      "date": "2026-11-19",
+      "note": "Oona’s update, reported live by the maintainer on 19 November 2026"
+    }
   ]
 }

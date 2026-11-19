@@ -6,7 +6,7 @@ assert.ok(t.includes('Greek Quarry')&&t.includes('Greek Book Workshop')&&t.inclu
 assert.ok(!t.includes('Holiday')&&!t.includes('Arctic'),'Holiday and Arctic withheld from the regular page');
 const sp=strip(h.render('spoilers/'));
 assert.ok(sp.includes('Holiday')&&sp.includes('Arctic'),'Holiday and Arctic listed under Spoilers');
-assert.ok(sp.includes('The files mark it for version 32'),'spoiler reasons name the version gate (reworded in PR 119 once Oona’s update was out)');
+assert.ok(sp.includes('mark it for version 32'),'spoiler reasons name the version gate (reworded in PR 119 once Oona’s update was out)');
 assert.ok(strip(h.render('tournament/seasons/')).includes('Holiday'),'all-seasons spoiler view includes the new names');
 const bak=h.render('buildings/bakery/');assert.ok(bak.includes('Game data v31 · build 255')&&!bak.includes('v30 · build 254'),'version label switched to 31');
 console.log('PASS: version 31 Greek season, withheld Holiday and Arctic, Oona still gated, version label 31.');

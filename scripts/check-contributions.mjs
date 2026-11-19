@@ -16,29 +16,29 @@ try{
  const policy=path.join(temp,'content/spoilers.json'),sp=JSON.parse(fs.readFileSync(policy));sp.entries[0].id='missing';fs.writeFileSync(policy,JSON.stringify(sp));assert.throws(()=>assembleContent(temp),/Unknown spoiler target/);
 }finally{fs.rmSync(temp,{recursive:true,force:true})}
 const h=await harness();const guide=h.render('contribute/');assert.ok(guide.includes('content/scenarios/'));assert.ok(guide.includes('pull request'));assert.ok(guide.includes('npm run build'));
-for(const p of ['', 'heroes/','levels/','biomes/','index/','campaigns/campaign-3/'])assert.ok(!/Cypress Tree|Willow Tree|Egyptian|Arctic/.test(h.render(p)),p+' leaked spoiler names');
-assert.ok(h.query('Willow Tree').includes('0 matches'));assert.ok(!h.query('Willow Tree').includes('spoilers/plants/willow-tree'));assert.ok(h.render('spoilers/').includes('Willow Tree'));assert.ok(h.render('spoilers/').includes('release unconfirmed'));
+for(const p of ['', 'heroes/','levels/','biomes/','index/','campaigns/campaign-3/'])assert.ok(!/Egyptian|Arctic/.test(h.render(p)),p+' leaked spoiler names');
+assert.ok(!h.query('Brick Road').includes('spoilers/buildings/brick-road'));assert.ok(h.render('spoilers/').includes('can’t be recycled'));assert.ok(h.render('spoilers/').includes('release unconfirmed'));
 assert.ok(!h.query('Oona').includes('0 matches')&&!h.render('spoilers/').includes('spoilers/heroes/oona'),'Oona released (PR 119): searchable, off the spoiler index');
-assert.ok(h.lookup['spoilers/plants/willow-tree/']);assert.ok(h.render('plants/willow-tree/').includes('Spoiler warning'));assert.ok(!h.render('heroes/oona/').includes('Spoiler warning'));assert.ok(h.render('verification/buildings/clay-pit/').includes('Contributed observations'));
+assert.ok(h.lookup['spoilers/buildings/brick-road/']);assert.ok(h.render('buildings/brick-road/').includes('Spoiler warning'));assert.ok(!h.render('heroes/oona/').includes('Spoiler warning'));assert.ok(h.render('verification/buildings/clay-pit/').includes('Contributed observations'));
 
 // Spoiler visibility and the home teaser are independent requirements.
-const spoilerNames=['Cypress Tree','Willow Tree'];
+const spoilerNames=['can’t be recycled'];
 for(const route of ['', 'buildings/', 'food/', 'resources/', 'production-chains/', 'index/', 'resources/stick/']){
  const html=h.render(route);for(const name of spoilerNames)assert.ok(!html.includes(name),route+' leaked '+name);
 }
 const spoilerIndex=h.render('spoilers/');for(const name of spoilerNames)assert.ok(spoilerIndex.includes(name),'Spoiler index missing '+name);
-for(const name of ['Cypress Tree','Willow Tree'])assert.ok(h.query(name).includes('0 matches'),'Search leaked '+name);
-assert.ok(h.render('spoilers/plants/cypress-tree/').includes('Spoiler warning'));
+assert.ok(!h.query('Brick Road').includes('spoilers/buildings/brick-road'),'Search leaked the held-back Brick Road');
+assert.ok(h.render('spoilers/buildings/brick-road/').includes('Spoiler warning'));
 const home=h.query('');assert.ok(home.includes('Looking to look ahead?'));assert.ok(home.lastIndexOf('<h2>Spoilers</h2>')>home.indexOf('<h2>Reference</h2>'));
-assert.ok(!home.includes('Willow Tree'));assert.ok(!home.includes('field-orchard-base'));
+assert.ok(!/href="\/spoilers\/[a-z]/.test(home));assert.ok(!home.includes('field-orchard-base'));
 
 console.log('PASS: contribution guide, invalid-content rejection, observation references, spoiler classification, navigation, search and old URLs.');
 
 const clean=await harness();
-for(const route of ['', 'buildings/','resources/','food/','production-chains/','index/'])assert.ok(!/Cypress Tree|Willow Tree/.test(clean.render(route)),route+' leaked held-back trees');
+for(const route of ['', 'buildings/','resources/','food/','production-chains/','index/'])assert.ok(!/href="\/spoilers\/[a-z]/.test(clean.render(route)),route+' links a held-back page');
 assert.ok(clean.render('').includes('Browse Spoilers'));
 assert.ok(!clean.render('').includes('Verification status'));
-assert.ok(clean.render('plants/willow-tree/').includes('Spoiler warning'));assert.ok(!clean.render('resources/mushroom/').includes('Spoiler warning'),'mushroom chain released (PR 119)');
+assert.ok(clean.render('buildings/brick-road/').includes('Spoiler warning'));assert.ok(!clean.render('resources/mushroom/').includes('Spoiler warning'),'mushroom chain released (PR 119)');
 assert.ok(clean.render('production-chains/advanced-warehouse/').includes('Production steps'));
 assert.ok(!/<details(?![^>]*\bopen\b)/.test(clean.render('verification/')));
 {const navHtml=clean.elements['#nav'].innerHTML;assert.ok(navHtml.lastIndexOf('Spoilers')>navHtml.indexOf('Sources &amp; artwork'),'Spoilers is the last navigation entry')}

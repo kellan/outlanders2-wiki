@@ -23,20 +23,6 @@
       "reason": "A tournament season in the game files that hasn’t been seen in game. Greek is the season added in version 31; Rural, Nordic and Mesoamerican have run."
     },
     {
-      "type": "buildings",
-      "id": "67921",
-      "status": "confirmed-unreleased",
-      "as_of": "2026-11-19",
-      "reason": "No level or sandbox in the version 31 files lets you plant it. The files mark it for version 32, the version that brings Oona’s update (reported live on 19 November 2026); whether players can plant it now is not confirmed yet. The version 32 game files will tell."
-    },
-    {
-      "type": "buildings",
-      "id": "67915",
-      "status": "confirmed-unreleased",
-      "as_of": "2026-11-19",
-      "reason": "No level or sandbox in the version 31 files lets you plant it. The files mark it for version 32, the version that brings Oona’s update (reported live on 19 November 2026); whether players can plant it now is not confirmed yet. The version 32 game files will tell."
-    },
-    {
       "type": "tournament",
       "id": "Holiday",
       "status": "related-release-unconfirmed",
