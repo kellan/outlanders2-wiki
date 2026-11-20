@@ -581,8 +581,8 @@
       "id": "78175",
       "name": "Brick Road",
       "category": "Building",
-      "path": "spoilers/buildings/brick-road/",
-      "spoiler": true
+      "path": "buildings/brick-road/",
+      "spoiler": false
     },
     {
       "type": "buildings",
@@ -885,8 +885,8 @@
       "id": "67921",
       "name": "Cypress Tree",
       "category": "Plant",
-      "path": "spoilers/plants/cypress-tree/",
-      "spoiler": true
+      "path": "plants/cypress-tree/",
+      "spoiler": false
     },
     {
       "type": "buildings",
@@ -1053,8 +1053,8 @@
       "id": "67915",
       "name": "Willow Tree",
       "category": "Plant",
-      "path": "spoilers/plants/willow-tree/",
-      "spoiler": true
+      "path": "plants/willow-tree/",
+      "spoiler": false
     },
     {
       "type": "buildings",
@@ -6109,7 +6109,7 @@
       "id": "buildings/78175",
       "name": "Brick Road — research",
       "category": "Research",
-      "path": "verification/spoilers/buildings/brick-road/",
+      "path": "verification/buildings/brick-road/",
       "spoiler": false
     },
     {
@@ -6485,7 +6485,7 @@
       "id": "buildings/67921",
       "name": "Cypress Tree — research",
       "category": "Research",
-      "path": "verification/spoilers/plants/cypress-tree/",
+      "path": "verification/plants/cypress-tree/",
       "spoiler": false
     },
     {
@@ -6493,7 +6493,7 @@
       "id": "chains/67921",
       "name": "Cypress Tree — production — research",
       "category": "Research",
-      "path": "verification/spoilers/production-chains/cypress-tree/",
+      "path": "verification/production-chains/cypress-tree/",
       "spoiler": false
     },
     {
@@ -6821,7 +6821,7 @@
       "id": "buildings/67915",
       "name": "Willow Tree — research",
       "category": "Research",
-      "path": "verification/spoilers/plants/willow-tree/",
+      "path": "verification/plants/willow-tree/",
       "spoiler": false
     },
     {
@@ -6829,7 +6829,7 @@
       "id": "chains/67915",
       "name": "Willow Tree — production — research",
       "category": "Research",
-      "path": "verification/spoilers/production-chains/willow-tree/",
+      "path": "verification/production-chains/willow-tree/",
       "spoiler": false
     },
     {
@@ -13242,7 +13242,6 @@
     "buildings/brewery/",
     "production-chains/brewery/",
     "buildings/brick-house/",
-    "spoilers/buildings/brick-road/",
     "buildings/brick-road/",
     "buildings/brick-road-116136/",
     "buildings/brickyard/",
@@ -13290,9 +13289,7 @@
     "production-chains/cauliflower/",
     "plants/corn/",
     "production-chains/corn/",
-    "spoilers/plants/cypress-tree/",
     "plants/cypress-tree/",
-    "spoilers/production-chains/cypress-tree/",
     "production-chains/cypress-tree/",
     "plants/date-palm-tree/",
     "production-chains/date-palm-tree/",
@@ -13334,9 +13331,7 @@
     "production-chains/watermelon/",
     "plants/wheat/",
     "production-chains/wheat/",
-    "spoilers/plants/willow-tree/",
     "plants/willow-tree/",
-    "spoilers/production-chains/willow-tree/",
     "production-chains/willow-tree/",
     "plants/winter-pine-tree/",
     "production-chains/winter-pine-tree/",
@@ -14154,7 +14149,7 @@
     "verification/buildings/brewery/",
     "verification/production-chains/brewery/",
     "verification/buildings/brick-house/",
-    "verification/spoilers/buildings/brick-road/",
+    "verification/buildings/brick-road/",
     "verification/buildings/brick-road-116136/",
     "verification/buildings/brickyard/",
     "verification/production-chains/brickyard/",
@@ -14201,8 +14196,8 @@
     "verification/production-chains/cauliflower/",
     "verification/plants/corn/",
     "verification/production-chains/corn/",
-    "verification/spoilers/plants/cypress-tree/",
-    "verification/spoilers/production-chains/cypress-tree/",
+    "verification/plants/cypress-tree/",
+    "verification/production-chains/cypress-tree/",
     "verification/plants/date-palm-tree/",
     "verification/production-chains/date-palm-tree/",
     "verification/plants/dragon-fruit-tree/",
@@ -14243,8 +14238,8 @@
     "verification/production-chains/watermelon/",
     "verification/plants/wheat/",
     "verification/production-chains/wheat/",
-    "verification/spoilers/plants/willow-tree/",
-    "verification/spoilers/production-chains/willow-tree/",
+    "verification/plants/willow-tree/",
+    "verification/production-chains/willow-tree/",
     "verification/plants/winter-pine-tree/",
     "verification/production-chains/winter-pine-tree/",
     "verification/buildings/firewood-yard/",
@@ -15140,6 +15135,7 @@
     "building/bottle-factory/",
     "building/brewery/",
     "building/brick-house/",
+    "building/brick-road/",
     "building/brick-road-116136/",
     "building/brickyard/",
     "building/bridge/",
@@ -15177,6 +15173,8 @@
     "buildings/cauliflower/",
     "building/corn/",
     "buildings/corn/",
+    "building/cypress-tree/",
+    "buildings/cypress-tree/",
     "building/date-palm-tree/",
     "buildings/date-palm-tree/",
     "building/dragon-fruit-tree/",
@@ -15217,6 +15215,8 @@
     "buildings/watermelon/",
     "building/wheat/",
     "buildings/wheat/",
+    "building/willow-tree/",
+    "buildings/willow-tree/",
     "building/winter-pine-tree/",
     "buildings/winter-pine-tree/",
     "building/firewood-yard/",
@@ -15341,6 +15341,7 @@
     "verification/buildings/carrot/",
     "verification/buildings/cauliflower/",
     "verification/buildings/corn/",
+    "verification/buildings/cypress-tree/",
     "verification/buildings/date-palm-tree/",
     "verification/buildings/dragon-fruit-tree/",
     "verification/buildings/eggplant/",
@@ -15361,6 +15362,7 @@
     "verification/buildings/tomato/",
     "verification/buildings/watermelon/",
     "verification/buildings/wheat/",
+    "verification/buildings/willow-tree/",
     "verification/buildings/winter-pine-tree/"
   ]
 }
