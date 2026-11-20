@@ -1,4 +1,4 @@
-// PR 127: the Spoilers page leads with what each unseen tournament season brings; the method note is short and at the end.
+// PR 128: the Spoilers page leads with what each unseen tournament season brings; the method note is short and at the end.
 import assert from 'node:assert/strict';import {harness} from '../render-harness.mjs';
 const h=await harness(),t=h.render('spoilers/').replace(/<script[\s\S]*?<\/script>/g,'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');
 assert.ok(t.indexOf('Tournament seasons waiting in the files')<t.indexOf('How we tell'),'seasons before the method note');

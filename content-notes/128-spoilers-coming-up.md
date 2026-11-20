@@ -7,4 +7,4 @@ The maintainer found the Spoilers page dull: after PR 119 lifted Oona's holds it
 - Imperial (asset name Chinese): Plank House, Farm, Beehive, Paper Mill, Orchard, Brewery; villagers gated at 29.
 - Arctic: name and leaderboard only.
 
-The page renders these as cards (Holiday first), skips the generic tournament list when highlights exist, and moves a shortened method note to the end. Checks: check-contributions now looks for "Not seen in game yet" instead of "release unconfirmed"; new check 127.
+The page renders these as cards (Holiday first), skips the generic tournament list when highlights exist, and moves a shortened method note to the end. Checks: check-contributions now looks for "Not seen in game yet" instead of "release unconfirmed"; new check 128.
