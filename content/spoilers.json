@@ -3,31 +3,50 @@
   "entries": [
     {
       "type": "tournament",
+      "id": "Holiday",
+      "status": "related-release-unconfirmed",
+      "as_of": "2026-11-20",
+      "reason": "Named in version 31; version 32 adds its full reward table, a Christmas town style and three villagers, all switched on for version 32. The server picks the running season, and this one hasn’t been announced or seen in game.",
+      "highlights": [
+        "Holiday-dressed Playground, Winter Cabin, Bonfire, Tailor, Winter Pub and Fondue Bar as rewards.",
+        "A Christmas town style: on Evergreen maps the trees turn snowy, with leaves drifting down from Ash and Pine.",
+        "Holiday villagers with their own hair and winter outfits, and holiday lighting for day and night in every biome.",
+        "Next after Greek in the game’s season order."
+      ]
+    },
+    {
+      "type": "tournament",
       "id": "Egyptian",
       "status": "related-release-unconfirmed",
       "as_of": "2026-10-25",
-      "reason": "A tournament season in the game files that hasn’t been seen in game. Greek is the season added in version 31; Rural, Nordic and Mesoamerican have run."
+      "reason": "A tournament season in the game files that hasn’t been seen in game. Greek is the season added in version 31; Rural, Nordic and Mesoamerican have run.",
+      "highlights": [
+        "Egyptian-styled Lumberjacks’ Base, Smoothie Stand, Desert Home, Market, Well and Press as rewards.",
+        "An Egyptian palette for your town and an Egyptian look for your villagers.",
+        "Complete in the files since version 28."
+      ]
     },
     {
       "type": "tournament",
       "id": "Chinese",
       "status": "related-release-unconfirmed",
       "as_of": "2026-10-25",
-      "reason": "A tournament season in the game files that hasn’t been seen in game. Greek is the season added in version 31; Rural, Nordic and Mesoamerican have run."
-    },
-    {
-      "type": "tournament",
-      "id": "Holiday",
-      "status": "related-release-unconfirmed",
-      "as_of": "2026-11-20",
-      "reason": "Named in version 31; version 32 adds its full reward table, a Christmas town style and three villagers, all switched on for version 32. The server picks the running season, and this one hasn’t been announced or seen in game."
+      "reason": "A tournament season in the game files that hasn’t been seen in game. Greek is the season added in version 31; Rural, Nordic and Mesoamerican have run.",
+      "highlights": [
+        "Imperial-styled Plank House, Farm, Beehive, Paper Mill, Orchard and Brewery as rewards.",
+        "An Imperial palette for your town and an Imperial look for your villagers.",
+        "Complete in the files since version 29."
+      ]
     },
     {
       "type": "tournament",
       "id": "Arctic",
       "status": "related-release-unconfirmed",
       "as_of": "2026-11-20",
-      "reason": "Added in version 31 as a season name and a Game Center leaderboard only; still no rewards, town style or villagers in version 32. Not seen in game."
+      "reason": "Added in version 31 as a season name and a Game Center leaderboard only; still no rewards, town style or villagers in version 32. Not seen in game.",
+      "highlights": [
+        "Only a name and a Game Center leaderboard so far."
+      ]
     }
   ]
 }

@@ -9,9 +9,9 @@ assert.ok(strip(h.render('challenges/redux/')).includes('Day limit: No limit on 
 // Building and chain pages.
 const bakery=strip(h.render('buildings/bakery/'));
 assert.ok(!bakery.includes('Construction inputs')&&!bakery.includes('How production works')&&!bakery.includes('Each Bread:'),'Bakery states cost and recipe once');
-assert.ok(bakery.includes('The game files differ on one point')&&!bakery.includes('one difference noted below'),'field-guide card links the difference');
+assert.ok(bakery.includes('The recipe differs on one point')&&!bakery.includes('one difference noted below'),'field-guide card links the difference');
 const chain=strip(h.render('production-chains/bakery/'));
-assert.ok(!chain.includes('In-game field guide')&&chain.includes('The game files differ'),'chain page keeps the ratio difference, not a field-guide repeat');
+assert.ok(!chain.includes('In-game field guide')&&chain.includes('From the production steps'),'chain page keeps the ratio difference, not a field-guide repeat');
 assert.ok(count(strip(h.render('buildings/sawmill/')),'1 Log → 1 Plank')<=1,'Sawmill recipe once');
 // Resources, food and plants.
 const plank=strip(h.render('resources/plank/'));
