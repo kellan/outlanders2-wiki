@@ -1,7 +1,7 @@
 // PR 120: "Added in Update 32" no longer says "not yet released"; Cypress, Willow and the non-recyclable Brick Road are public; the Mushroom page says where mushrooms come from.
 import assert from 'node:assert/strict';import fs from 'node:fs';import {harness} from '../render-harness.mjs';
 const h=await harness(),strip=s=>s.replace(/<[^>]+>/g,' ').replace(/&#39;/g,"'").replace(/\s+/g,' ');
-for(const p of ['buildings/swamp-trappers-hut/','food/stroganoff/']){const t=strip(h.render(p));assert.match(t,/Added in Update 32 \(released; Oona’s update, reported live by the maintainer on 19 November 2026\)/,p);assert.ok(!t.includes('not yet released'),p+': stale label gone')}
+for(const p of ['buildings/swamp-trappers-hut/','food/stroganoff/']){const t=strip(h.render(p));assert.match(t,/Added in Update 32 \(released; Oona’s update, 19 November 2026\)/,p);assert.ok(!t.includes('not yet released'),p+': stale label gone')}
 for(const n of ['cypress-tree','willow-tree']){assert.ok(!h.render('plants/'+n+'/').includes('Spoiler warning'),n+' public');assert.ok(!h.lookup['spoilers/plants/'+n+'/'],n+' off the spoiler routes')}
 const sp=JSON.parse(fs.readFileSync(new URL('../../content/spoilers.json',import.meta.url),'utf8')).entries;assert.ok(!sp.some(e=>e.type!=='tournament'),'only the unseen tournament seasons stay held');assert.ok(!h.render('buildings/brick-road/').includes('Spoiler warning'),'non-recyclable Brick Road public (maintainer, 19 Nov)');
 const mu=strip(h.render('resources/mushroom/'));assert.match(mu,/Where to get it Mushrooms grow only on the ground under Willow Trees/);assert.match(mu,/Willow Tree 1\.5–4\.5 days 3 about 0\.33/);// PR 121: the v31 tree spawners were inactive and v32 deleted them

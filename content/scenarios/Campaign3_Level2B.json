@@ -29,8 +29,7 @@
     "title": "Copies",
     "text_asset_id": 6548,
     "source_level_path": "Assets/Resources/Content/Levels/Campaign 3/Story 2/Campaign3_Level2B.bytes",
-    "sha256": "df67d9ac715acc23d46f8c7c362a9d480285ce03a6e1ecbc08c2285f800b4cb9",
-    "header_bytes": 1438,
+    "sha256": "f8d26d070c70c4a1ed6f9a8cd9ae7b4e6d685a5fdebda68ac9b74cbcc5e16d6c",
     "primary_objective_count": 2,
     "optional_objective_count": 1,
     "day_limit": 60,
@@ -43,7 +42,6 @@
         "Comparison": 5,
         "ConcernType": 0,
         "IsSecondary": false,
-        "Value": 0.0,
         "condition_name": "Consume",
         "comparison_name": "GreaterOrEqual",
         "concern_name": "Nutrition",
@@ -56,8 +54,7 @@
           "gameobject_id": 57395,
           "name": "Bakery",
           "localization_key": "Building.Bakery"
-        },
-        "header_byte_offset": 449
+        }
       },
       {
         "NeededAmount": 100,
@@ -67,7 +64,6 @@
         "Comparison": 5,
         "ConcernType": 0,
         "IsSecondary": false,
-        "Value": 0.0,
         "condition_name": "GearedPercentage",
         "comparison_name": "GreaterOrEqual",
         "concern_name": "Nutrition",
@@ -80,18 +76,16 @@
           "gameobject_id": 57395,
           "name": "Bakery",
           "localization_key": "Building.Bakery"
-        },
-        "header_byte_offset": 674
+        }
       },
       {
-        "NeededAmount": 20,
+        "NeededAmount": 16,
         "PrefabKeyToCount": "83a98825b2e8b411ab0c8fd15517a777",
         "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
         "Condition": 3,
         "Comparison": 5,
         "ConcernType": 0,
         "IsSecondary": true,
-        "Value": 0.20000000298023224,
         "condition_name": "VillagerCount",
         "comparison_name": "GreaterOrEqual",
         "concern_name": "Nutrition",
@@ -104,8 +98,7 @@
           "gameobject_id": 57395,
           "name": "Bakery",
           "localization_key": "Building.Bakery"
-        },
-        "header_byte_offset": 899
+        }
       }
     ],
     "localized_objective_templates": [],
@@ -263,27 +256,6 @@
         "localization_key": "Tree.Willow"
       },
       {
-        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
-        "instance_count": 4,
-        "gameobject_id": 80697,
-        "name": "Villager Adult",
-        "localization_key": ""
-      },
-      {
-        "guid": "eb7e3be2335b4754c95659a0d54327df",
-        "instance_count": 4,
-        "gameobject_id": 107114,
-        "name": "Pallet",
-        "localization_key": "Decoration.Pallet"
-      },
-      {
-        "guid": "3985568a36e5e6a48bdcf01c0e11215c",
-        "instance_count": 4,
-        "gameobject_id": 107062,
-        "name": "Ruins",
-        "localization_key": "Decoration.Ruins"
-      },
-      {
         "guid": "0b8694f450f0242d99f8015e57915185",
         "instance_count": 11,
         "gameobject_id": 44027,
@@ -303,9 +275,39 @@
         "gameobject_id": 44036,
         "name": "Barley Porridge",
         "localization_key": "Resource.BarleyPorridge"
+      },
+      {
+        "guid": "fca945d17313c4b16b9bb4a57391e3cb",
+        "instance_count": 6,
+        "gameobject_id": 80697,
+        "name": "Villager Adult",
+        "localization_key": ""
+      },
+      {
+        "guid": "eb7e3be2335b4754c95659a0d54327df",
+        "instance_count": 4,
+        "gameobject_id": 107114,
+        "name": "Pallet",
+        "localization_key": "Decoration.Pallet"
+      },
+      {
+        "guid": "3985568a36e5e6a48bdcf01c0e11215c",
+        "instance_count": 4,
+        "gameobject_id": 107062,
+        "name": "Ruins",
+        "localization_key": "Decoration.Ruins"
+      },
+      {
+        "guid": "3e947636ef21cac4ab28d1c63f6d2f00",
+        "instance_count": 1,
+        "gameobject_id": null,
+        "name": "Leader Oona B",
+        "localization_key": null
       }
     ],
     "world_objectives_match_header": true,
-    "source_category": "campaign"
+    "source_category": "campaign",
+    "source_build": "32 build 257",
+    "refreshed_by": "tools/refresh_level_records.py"
   }
 }
