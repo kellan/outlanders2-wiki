@@ -1,0 +1,1 @@
+The Wetlands and Spookylands biome pages, and their rows on the Biomes list, no longer show a picture. The images they used were level map previews from the game files, not pictures of those biomes, and the game has no island preview for either; they now show the plain biome symbol like other entries without artwork. [#122]

@@ -1,0 +1,3 @@
+# Biome artwork: island previews only
+
+The game ships island previews (`MiniBiome-*` sprites) for Evergreen, Drylands, Tropiclands and Winterlands only. `content/reference/artwork.json` filled the Swamp (Wetlands) and Halloween (Spookylands) slots with `MapShape_Valley BiomeSwamp` and `MapShape_Valley BiomeHalloween`, which are top-down level map previews. The Swamp one is a dry green meadow with rocky edges and reads as nothing like wetlands. The home page already showed only island previews; `icon()` now applies the same rule for biomes everywhere. The artwork records and files are kept for reference.
