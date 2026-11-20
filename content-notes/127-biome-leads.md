@@ -20,3 +20,7 @@ Biome art: the game has island previews (`MiniBiome-*`) for Evergreen, Drylands,
 - Map resources use internal names (CypressTree, PineTree, Ash, TropicalMountainVegetation, Halloween Candle 0) and raw densities with no unit; Spookylands lists ruins at density 0.
 - Evergreen and Tropiclands list 53 and 74 challenge levels plus five "Unnamed scenario · archive" maps inline.
 - The Biomes catalog says "Not established" for Wetlands' hazards (it has marshes) and "Unknown" availability for long-released biomes.
+
+## Hedges removed, and stale data flagged
+
+The two inline hedges on every biome page ("as stored in the game files. Not yet checked in play." and "The scene name is stored map configuration…") are removed; the levels line now reads "3 levels are set in the Wetlands." `content/reference/scenarios.json` is version 30 (254) and only Wetlands and Spookylands in `biomes.json` come from version 32; a row in `docs/INFORMATION-NEEDED.md` asks for a full version 32 re-export. The lead itself uses no scenario data.

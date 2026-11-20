@@ -10,3 +10,4 @@ assert.ok(!lead('evergreen').includes('Missing here'),'Evergreen lacks nothing e
 for(const p of ['evergreen','wetlands','spookylands'])assert.ok(!h.render('biomes/'+p+'/').includes('See individual scenarios for their enabled needs'),'no filler needs section on '+p);
 for(const p of ['biomes/','biomes/wetlands/','biomes/spookylands/'])assert.ok(!h.render(p).includes('mapshape-valley'),'no level map preview on '+p);
 assert.ok(h.render('biomes/evergreen/').includes('minibiome-'),'island preview kept');
+for(const p of ['evergreen','wetlands'])assert.ok(!/as stored in the game files|Not yet checked in play|scene name is stored/.test(h.render('biomes/'+p+'/').replace(/<[^>]+>/g,' ')),'no checking-mechanics hedges on '+p);
