@@ -5,5 +5,4 @@ assert.ok(t.indexOf('Tournament seasons waiting in the files')<t.indexOf('How we
 assert.match(t,/Holiday Not seen in game yet Holiday-dressed Playground, Winter Cabin, Bonfire, Tailor, Winter Pub and Fondue Bar/);
 assert.match(t,/on Evergreen maps the trees turn snowy/);assert.match(t,/Imperial Not seen in game yet Imperial-styled Plank House/);assert.match(t,/Egyptian-styled Lumberjacks’ Base/);
 assert.ok(t.indexOf('Holiday Not seen')<t.indexOf('Egyptian Not seen'),'Holiday first');
-assert.ok(!/0 matches/.test(h.query('Winter Cabin'))||true);
 console.log('PASS: Spoilers page leads with what each unseen season brings.');
