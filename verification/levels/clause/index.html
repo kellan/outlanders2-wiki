@@ -23,10 +23,10 @@
 }</pre></div></details><details open class="source"><summary>Availability evidence</summary><div class="source-body"><p>Recovered from game v32, build 257. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>{
   &quot;id&quot;: &quot;Oona.000&quot;,
   &quot;name&quot;: &quot;Oona&quot;,
-  &quot;availability_status&quot;: &quot;user_reported_released&quot;,
-  &quot;as_of&quot;: &quot;2026-11-19&quot;,
-  &quot;release_date&quot;: null,
-  &quot;release_date_status&quot;: &quot;reported_live_not_dated&quot;,
+  &quot;availability_status&quot;: &quot;official_release_notes_evidence&quot;,
+  &quot;as_of&quot;: &quot;2026-11-20&quot;,
+  &quot;release_date&quot;: &quot;2026-11-19&quot;,
+  &quot;release_date_status&quot;: &quot;maintainer_report_and_patch_notes&quot;,
   &quot;packaged_presence&quot;: true,
   &quot;associated_story&quot;: &quot;Oona&quot;,
   &quot;associated_level_ids&quot;: [
@@ -36,9 +36,9 @@
   ],
   &quot;packaged_update_association&quot;: 28,
   &quot;association_evidence_key&quot;: &quot;Store.VersionWhatsNew.28&quot;,
-  &quot;association_note&quot;: &quot;A localized update description associates Oona and Wetlands with update28; this does not establish an actual release date or availability.&quot;,
-  &quot;gate_value&quot;: null,
-  &quot;gate_status&quot;: &quot;not_decoded&quot;,
+  &quot;association_note&quot;: &quot;The store text key Store.VersionWhatsNew.29 in version 32 (and .28 in version 31) describes Oona’s update; the patch notes call it game version 29.&quot;,
+  &quot;gate_value&quot;: 32,
+  &quot;gate_status&quot;: &quot;decoded; passes in version 32&quot;,
   &quot;evidence&quot;: [
     {
       &quot;source_text_asset_id&quot;: 6249,
@@ -140,13 +140,14 @@
     }
   ],
   &quot;release_report&quot;: &quot;The maintainer reported Oona’s content live on 19 November 2026. The developers announced it on 12 November 2026 as coming soon in an update called Oona’s Potion.&quot;,
+  &quot;release_note&quot;: &quot;Released on 19 November 2026 in Oona’s update. The developers’ patch notes, posted on the official Discord, list Oona, her three levels and the Wetlands biome (campaign and sandbox).&quot;,
   &quot;parent_evidence&quot;: {
     &quot;id&quot;: &quot;Oona.000&quot;,
     &quot;name&quot;: &quot;Oona&quot;,
-    &quot;availability_status&quot;: &quot;user_reported_released&quot;,
-    &quot;as_of&quot;: &quot;2026-11-19&quot;,
-    &quot;release_date&quot;: null,
-    &quot;release_date_status&quot;: &quot;reported_live_not_dated&quot;,
+    &quot;availability_status&quot;: &quot;official_release_notes_evidence&quot;,
+    &quot;as_of&quot;: &quot;2026-11-20&quot;,
+    &quot;release_date&quot;: &quot;2026-11-19&quot;,
+    &quot;release_date_status&quot;: &quot;maintainer_report_and_patch_notes&quot;,
     &quot;packaged_presence&quot;: true,
     &quot;associated_story&quot;: &quot;Oona&quot;,
     &quot;associated_level_ids&quot;: [
@@ -156,9 +157,9 @@
     ],
     &quot;packaged_update_association&quot;: 28,
     &quot;association_evidence_key&quot;: &quot;Store.VersionWhatsNew.28&quot;,
-    &quot;association_note&quot;: &quot;A localized update description associates Oona and Wetlands with update28; this does not establish an actual release date or availability.&quot;,
-    &quot;gate_value&quot;: null,
-    &quot;gate_status&quot;: &quot;not_decoded&quot;,
+    &quot;association_note&quot;: &quot;The store text key Store.VersionWhatsNew.29 in version 32 (and .28 in version 31) describes Oona’s update; the patch notes call it game version 29.&quot;,
+    &quot;gate_value&quot;: 32,
+    &quot;gate_status&quot;: &quot;decoded; passes in version 32&quot;,
     &quot;evidence&quot;: [
       {
         &quot;source_text_asset_id&quot;: 6249,
@@ -259,7 +260,8 @@
         &quot;finding&quot;: &quot;User states Oona is not released.&quot;
       }
     ],
-    &quot;release_report&quot;: &quot;The maintainer reported Oona’s content live on 19 November 2026. The developers announced it on 12 November 2026 as coming soon in an update called Oona’s Potion.&quot;
+    &quot;release_report&quot;: &quot;The maintainer reported Oona’s content live on 19 November 2026. The developers announced it on 12 November 2026 as coming soon in an update called Oona’s Potion.&quot;,
+    &quot;release_note&quot;: &quot;Released on 19 November 2026 in Oona’s update. The developers’ patch notes, posted on the official Discord, list Oona, her three levels and the Wetlands biome (campaign and sandbox).&quot;
   }
 }</pre></div></details><details open class="source"><summary>Recovered text &amp; source identifiers</summary><div class="source-body"><p>Recovered from game v32, build 257. A source match confirms the stored value; it does not confirm live gameplay behavior.</p><pre>{
   &quot;id&quot;: &quot;Campaign3_Level2A&quot;,
@@ -280,5 +282,5 @@
       &quot;unresolved_placeholders&quot;: []
     }
   ]
-}</pre></div></details><aside class="detail-aside"><div class="panel"><h4>Properties</h4><dl class="definition"><div><dt>Level identifier</dt><dd>Campaign3_Level2A</dd></div><div><dt>Category</dt><dd>Campaign 3</dd></div><div><dt>Campaign</dt><dd>3</dd></div><div><dt>Objective quantities</dt><dd>Decoded and cross-checked</dd></div><div><dt>Packaged map</dt><dd>Present</dd></div></dl><div class="tags"></div></div></aside><section class="rule-section"><h2>Remaining checks</h2><ul class="check-list"><li>Confirm current menu category and release availability.</li><li>Check runtime unlocks and defaults for need fields absent in legacy maps.</li><li>Measure yields, need decay, production rates and other runtime effects.</li></ul></section><section class="rule-section"><h2>Content availability</h2><div class="tags"><span class="tag ">Released · maintainer report</span></div><p class="small">The maintainer reported Oona’s content live on 19 November 2026. The developers announced it on 12 November 2026 as coming soon in an update called Oona’s Potion. Reported 2026-11-19.</p></section><p class="small">Stored map configuration for version 32, build 257. Packaged content does not establish live menu availability.</p><p class="small">An absent field in an older map is not treated as disabled. Runtime defaults and migration remain unverified.</p><p class="small">Counts below are serialized prefab entities. They do not establish harvest yields, stockpile units, or numbers of independent buildings; child entities and internal objects can be included.</p><p class="article-actions"><a href="https://github.com/kellan/outlanders2-wiki/issues/new?template=gameplay-observation.yml&amp;title=Observation%3A%20Clause&amp;target=Clause">Report a gameplay observation</a><a href="https://github.com/kellan/outlanders2-wiki/blob/main/CONTRIBUTING.md#evidence-and-uncertainty">What counts as evidence</a></p></main><footer class="page-footer"><span>OUTLANDERS 2 WIKI <span class="dot-sep">·</span> An unofficial Outlanders 2 reference</span><a href="../../../about/">Sources & artwork credits ↗</a><a href="https://github.com/kellan/outlanders2-wiki">GitHub repository ↗</a></footer></div><footer class="legal-footer">Unofficial community guide. Outlanders 2 artwork and game text belong to Pomelo Games and their respective rights holders. <a href="../../../THIRD_PARTY_NOTICES.txt">Attribution</a> · <a href="../../../LICENSE.txt">Original contributions: MIT</a></footer>
+}</pre></div></details><aside class="detail-aside"><div class="panel"><h4>Properties</h4><dl class="definition"><div><dt>Level identifier</dt><dd>Campaign3_Level2A</dd></div><div><dt>Category</dt><dd>Campaign 3</dd></div><div><dt>Campaign</dt><dd>3</dd></div><div><dt>Objective quantities</dt><dd>Decoded and cross-checked</dd></div><div><dt>Packaged map</dt><dd>Present</dd></div></dl><div class="tags"></div></div></aside><section class="rule-section"><h2>Remaining checks</h2><ul class="check-list"><li>Confirm current menu category and release availability.</li><li>Check runtime unlocks and defaults for need fields absent in legacy maps.</li><li>Measure yields, need decay, production rates and other runtime effects.</li></ul></section><section class="rule-section"><h2>Content availability</h2><div class="tags"><span class="tag ">Released · official notes</span></div><p class="small">Released on 19 November 2026 in Oona’s update. The developers’ patch notes, posted on the official Discord, list Oona, her three levels and the Wetlands biome (campaign and sandbox).</p></section><p class="small">Stored map configuration for version 32, build 257. Packaged content does not establish live menu availability.</p><p class="small">An absent field in an older map is not treated as disabled. Runtime defaults and migration remain unverified.</p><p class="small">Counts below are serialized prefab entities. They do not establish harvest yields, stockpile units, or numbers of independent buildings; child entities and internal objects can be included.</p><p class="article-actions"><a href="https://github.com/kellan/outlanders2-wiki/issues/new?template=gameplay-observation.yml&amp;title=Observation%3A%20Clause&amp;target=Clause">Report a gameplay observation</a><a href="https://github.com/kellan/outlanders2-wiki/blob/main/CONTRIBUTING.md#evidence-and-uncertainty">What counts as evidence</a></p></main><footer class="page-footer"><span>OUTLANDERS 2 WIKI <span class="dot-sep">·</span> An unofficial Outlanders 2 reference</span><a href="../../../about/">Sources & artwork credits ↗</a><a href="https://github.com/kellan/outlanders2-wiki">GitHub repository ↗</a></footer></div><footer class="legal-footer">Unofficial community guide. Outlanders 2 artwork and game text belong to Pomelo Games and their respective rights holders. <a href="../../../THIRD_PARTY_NOTICES.txt">Attribution</a> · <a href="../../../LICENSE.txt">Original contributions: MIT</a></footer>
 </body></html>
