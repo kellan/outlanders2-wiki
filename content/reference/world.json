@@ -10977,7 +10977,7 @@
     ]
   },
   "tournament_rewards": {
-    "source": "Packaged RewardEntry MonoBehaviours in resources.assets, decoded with tools/decode_classes.py; version 30 (254). Greek season added from version 31 (255).",
+    "source": "Packaged RewardEntry MonoBehaviours in resources.assets, decoded with tools/decode_classes.py; version 30 (254). Greek season added from version 31 (255). Holiday season added from version 32 (257).",
     "seasons": [
       {
         "id": "Amish",
@@ -11762,6 +11762,137 @@
             "building_guid": null,
             "leaderboard_bonus": 100,
             "asset_path_id": 285150
+          }
+        ]
+      },
+      {
+        "id": "Holiday",
+        "rewards": [
+          {
+            "n": 1,
+            "reward_points_needed": 2,
+            "type": "Palette",
+            "localization_key": "FastMode.Palette.Reward",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 311278
+          },
+          {
+            "n": 2,
+            "reward_points_needed": 5,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.1",
+            "building_guid": "185f0159bb9fa6744b69e6ad1cd3b3a0",
+            "leaderboard_bonus": null,
+            "asset_path_id": 311284
+          },
+          {
+            "n": 3,
+            "reward_points_needed": 8,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.2",
+            "building_guid": "a122042526ded44a094f22861cb604f2",
+            "leaderboard_bonus": null,
+            "asset_path_id": 311285
+          },
+          {
+            "n": 4,
+            "reward_points_needed": 12,
+            "type": "Streak",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 311286
+          },
+          {
+            "n": 5,
+            "reward_points_needed": 16,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.3",
+            "building_guid": "87484fda17028401dbd7af2eb9bab112",
+            "leaderboard_bonus": null,
+            "asset_path_id": 311287
+          },
+          {
+            "n": 6,
+            "reward_points_needed": 20,
+            "type": "Score",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": 20,
+            "asset_path_id": 311288
+          },
+          {
+            "n": 7,
+            "reward_points_needed": 26,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.4",
+            "building_guid": "033493988e4a4d94b8f8ffd39ecadc63",
+            "leaderboard_bonus": null,
+            "asset_path_id": 311289
+          },
+          {
+            "n": 8,
+            "reward_points_needed": 32,
+            "type": "Streak",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 311290
+          },
+          {
+            "n": 9,
+            "reward_points_needed": 40,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.5",
+            "building_guid": "306fea5dcdb132a409da0ca0169a0ac5",
+            "leaderboard_bonus": null,
+            "asset_path_id": 311291
+          },
+          {
+            "n": 10,
+            "reward_points_needed": 48,
+            "type": "Score",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": 50,
+            "asset_path_id": 311279
+          },
+          {
+            "n": 11,
+            "reward_points_needed": 58,
+            "type": "Building",
+            "localization_key": "FastMode.Building.Reward.6",
+            "building_guid": "398ef2a881962ad4cbf8572215838ef1",
+            "leaderboard_bonus": null,
+            "asset_path_id": 311280
+          },
+          {
+            "n": 12,
+            "reward_points_needed": 68,
+            "type": "Streak",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 311281
+          },
+          {
+            "n": 13,
+            "reward_points_needed": 80,
+            "type": "Villagers",
+            "localization_key": "FastMode.VillagerStyle.Reward",
+            "building_guid": null,
+            "leaderboard_bonus": null,
+            "asset_path_id": 311282
+          },
+          {
+            "n": 14,
+            "reward_points_needed": 92,
+            "type": "Score",
+            "localization_key": null,
+            "building_guid": null,
+            "leaderboard_bonus": 100,
+            "asset_path_id": 311283
           }
         ]
       }

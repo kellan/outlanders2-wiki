@@ -19,15 +19,15 @@
       "type": "tournament",
       "id": "Holiday",
       "status": "related-release-unconfirmed",
-      "as_of": "2026-11-01",
-      "reason": "Added in version 31 as a season name and a Game Center leaderboard only, with no rewards, town style or villagers yet. Not seen in game."
+      "as_of": "2026-11-20",
+      "reason": "Named in version 31; version 32 adds its full reward table, a Christmas town style and three villagers, all switched on for version 32. The server picks the running season, and this one hasn’t been announced or seen in game."
     },
     {
       "type": "tournament",
       "id": "Arctic",
       "status": "related-release-unconfirmed",
-      "as_of": "2026-11-01",
-      "reason": "Added in version 31 as a season name and a Game Center leaderboard only, with no rewards, town style or villagers yet. Not seen in game."
+      "as_of": "2026-11-20",
+      "reason": "Added in version 31 as a season name and a Game Center leaderboard only; still no rewards, town style or villagers in version 32. Not seen in game."
     }
   ]
 }

@@ -267,7 +267,7 @@ console.log('PASS: research handoff integration.');
  assert.equal(String(h.lookup['buildings/trading-outpost/'].id),'75226','Evergreen outpost takes the plain URL');assert.equal(String(h.lookup['buildings/trading-outpost-75226/'].id),'75226','old Evergreen URL still resolves');
  for(const id of [65543,83845])assert.ok(!h.pages.some(p=>(p.type==='buildings'||p.type==='chains')&&String(p.id)===String(id)),'hidden outpost '+id);
  assert.ok(strip(h.render('buildings/trading-outpost-75225/')).includes('8 Glass Pane → 6 Animal Hide or 9 Wheat'),'Tropics trade in infobox');
- const hide=strip(h.render('resources/animal-hide/'));assert.ok(hide.includes('Trading Outpost (Tropiclands)')&&hide.includes('Trading Outpost (Evergreen)')&&!/1 Wheat each/.test(hide),'resource page lists outposts by biome');
+ const hide=strip(h.render('resources/animal-hide/'));assert.ok(hide.includes('Trading Outpost (Tropiclands)')&&hide.includes('Trading Outpost (Evergreen, Spookylands)')&&!/1 Wheat each/.test(hide),'resource page lists outposts by biome');
  console.log('PASS: Trading Outpost trades are a choice, per biome, with base and test variants hidden.');}
 {const plants=h.render('plants/');assert.ok(!/>Base</.test(plants),'junk Base plant row hidden');assert.ok(!h.pages.some(p=>p.type==='buildings'&&String(p.id)==='92320'),'Base plant page hidden');
  for(const n of ['Cypress Tree','Willow Tree']){assert.ok(plants.includes('>'+n+'<'),n+' on the plants list (released with Oona, PR 120)');assert.ok(!h.render('spoilers/').includes(n),n+' off the spoilers page')}

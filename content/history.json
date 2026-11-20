@@ -1,5 +1,5 @@
 {
-  "baseline": "Baseline: version 30, build 254, extracted 23 October 2026. Everything on the wiki exists in that build unless its History says otherwise.",
+  "baseline": "Baseline: version 30, build 254, extracted 23 October 2026, checked against version 31 (build 255) and version 32 (build 257). Everything on the wiki exists in the baseline build unless its History says otherwise.",
   "entries": [
     {
       "type": "heroes",
@@ -371,6 +371,149 @@
         "kind": "official-source",
         "reference": "App Store version history, update 8 (09/18/2024); Developer announcement supplies Jelena name; App Store note describes new campaign without leader name",
         "url": "https://apps.apple.com/us/app/outlanders-2/id1614682164"
+      }
+    },
+    {
+      "type": "buildings",
+      "id": "105717",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "Recipe reworked: a worker now cooks 2 StrogMix over one fire into two bowls at once, and the pot splits into 2 Stroganoff by itself. 1 Meat + 1 Mushroom makes 4 Stroganoff (was 8) and the fire costs 0.4 Stick per 4 bowls. Construction work 105 → 90 builder actions; a fire lasts 0.12 days (was 0.1). Cost unchanged.",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) game files compared with version 31 (build 255); research data/release-32-257 and docs/RELEASE-32-257.md."
+      }
+    },
+    {
+      "type": "buildings",
+      "id": "105706",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "The dried-pot pile holds 1 pot (was 12) and shaping a wet pot from Clay takes 9.6 s (was 9.1). Villagers now drink it (a drinking animation, where it used to be eaten), and the building now shows its recipe as 1 Stick + 1 Mushroom + 3 Clay → 3 Concoction. Recipe and cost unchanged.",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) game files compared with version 31 (build 255); research data/release-32-257 and docs/RELEASE-32-257.md."
+      }
+    },
+    {
+      "type": "buildings",
+      "id": "35460",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "Added to every sandbox biome’s base list. Construction is now 4 spots of 15 actions instead of 6 of 10: the same 60 actions, but a full crew needs 30 actions’ time instead of 20. Its entrance moved to the other side, and villagers can walk across 7 of its tiles (was 5). Storage unchanged.",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) game files compared with version 31 (build 255); research data/release-32-257 and docs/RELEASE-32-257.md."
+      }
+    },
+    {
+      "type": "buildings",
+      "id": "116136",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "Added to every sandbox biome’s base list. Walking speed unchanged: ×2.15, the same as the Stone Road.",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) game files compared with version 31 (build 255); research data/release-32-257 and docs/RELEASE-32-257.md."
+      }
+    },
+    {
+      "type": "buildings",
+      "id": "80803",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "Coypu burrows can now appear on soil as well as sand, and on slightly sloped ground (height difference up to 0.1).",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) game files compared with version 31 (build 255); research data/release-32-257 and docs/RELEASE-32-257.md."
+      }
+    },
+    {
+      "type": "buildings",
+      "id": "67921",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "Its coypu burrows can now sit on soil as well as sand, and on slightly sloped ground. Description now says the tree is endemic to the Wetlands (was Swamplands).",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) game files compared with version 31 (build 255); research data/release-32-257 and docs/RELEASE-32-257.md."
+      }
+    },
+    {
+      "type": "buildings",
+      "id": "67915",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "Lost a second, inactive mushroom spawner; the remaining one makes the Willow the only Mushroom source in the game files. The Willow and Cypress fields became plantable.",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) game files compared with version 31 (build 255); research data/release-32-257 and docs/RELEASE-32-257.md."
+      }
+    },
+    {
+      "type": "resources",
+      "id": "320441",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "The inactive mushroom spawners on 12 trees and the unused forage source were deleted; only Willow Trees drop Mushrooms. The description now says they are found around Willow Trees, and that eating them raw can have side-effects.",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) game files compared with version 31 (build 255); research data/release-32-257 and docs/RELEASE-32-257.md."
+      }
+    },
+    {
+      "type": "biomes",
+      "id": "Swamp",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "Released as a sandbox biome, with its own build list (Concoction Shop, Stroganoff Cookhouse, Swamp Trappers’ Hut, Willow and Cypress) and no Rock Source.",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) game files compared with version 31 (build 255); research data/release-32-257 and docs/RELEASE-32-257.md."
+      }
+    },
+    {
+      "type": "heroes",
+      "id": "Oona.000",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "Released with her story, Oona’s Potion (Clause, Copies, Chaos), and as a sandbox leader.",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) game files compared with version 31 (build 255); research data/release-32-257 and docs/RELEASE-32-257.md."
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign3_Level2A",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "Released with Oona’s story in Campaign 3.",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) game files compared with version 31 (build 255); research data/release-32-257 and docs/RELEASE-32-257.md."
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign3_Level2B",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "Released with Oona’s story in Campaign 3.",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) game files compared with version 31 (build 255); research data/release-32-257 and docs/RELEASE-32-257.md."
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign3_Level2C",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "Released with Oona’s story in Campaign 3.",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) game files compared with version 31 (build 255); research data/release-32-257 and docs/RELEASE-32-257.md."
       }
     }
   ]

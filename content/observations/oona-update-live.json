@@ -3,6 +3,6 @@
   "target": {"type": "heroes", "id": "Oona.000"},
   "claim": "Oona's update is out: her story, her three levels, the Wetlands biome and the mushroom chain are live in the game.",
   "status": "confirmed",
-  "evidence": {"kind": "player-report", "game_version": "32 (not yet decoded)", "date": "2026-11-19", "reference": "Maintainer report in the wiki session, 19 November 2026. The developers had announced it on the official Outlanders Discord on 12 November 2026 as coming soon in an update called Oona's Potion."},
-  "notes": "The wiki's pages for this content are still built from the version 31 files, where it was gated to version 32. Details that changed at release will show up once the version 32 game files are decoded (research docs/RELEASE-WATCH.md)."
+  "evidence": {"kind": "player-report", "game_version": "32", "date": "2026-11-19", "reference": "Maintainer report in the wiki session, 19 November 2026. The developers had announced it on the official Outlanders Discord on 12 November 2026 as coming soon in an update called Oona's Potion. Patch notes posted on the official Discord at release list Oona, three levels, the Wetlands (campaign and sandbox, with shallow marshes that slow walking), the Swamp Trappers' Hut, Stroganoff Cookhouse, Concoction Shop, Advanced Warehouse and Brick Road (all biomes), Cypress and Willow Trees, Coypus, nine more Spookylands sandbox buildings and two achievements."},
+  "notes": "Confirmed in the version 32 files (build 257, decoded 20 November 2026): the game version is now 32, so everything gated to 32 is released. Oona's story (Clause, Copies, Chaos) is in the campaign list, her 19 availability switches are on, and the Wetlands is a sandbox biome with Oona as a sandbox leader."
 }
