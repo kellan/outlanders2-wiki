@@ -16,10 +16,10 @@
     {
       "id": "Oona.000",
       "name": "Oona",
-      "availability_status": "user_reported_released",
-      "as_of": "2026-11-19",
-      "release_date": null,
-      "release_date_status": "reported_live_not_dated",
+      "availability_status": "official_release_notes_evidence",
+      "as_of": "2026-11-20",
+      "release_date": "2026-11-19",
+      "release_date_status": "maintainer_report_and_patch_notes",
       "packaged_presence": true,
       "associated_story": "Oona",
       "associated_level_ids": [
@@ -29,9 +29,9 @@
       ],
       "packaged_update_association": 28,
       "association_evidence_key": "Store.VersionWhatsNew.28",
-      "association_note": "A localized update description associates Oona and Wetlands with update28; this does not establish an actual release date or availability.",
-      "gate_value": null,
-      "gate_status": "not_decoded",
+      "association_note": "The store text key Store.VersionWhatsNew.29 in version 32 (and .28 in version 31) describes Oona’s update; the patch notes call it game version 29.",
+      "gate_value": 32,
+      "gate_status": "decoded; passes in version 32",
       "evidence": [
         {
           "source_text_asset_id": 6249,
@@ -132,20 +132,22 @@
           "finding": "User states Oona is not released."
         }
       ],
-      "release_report": "The maintainer reported Oona’s content live on 19 November 2026. The developers announced it on 12 November 2026 as coming soon in an update called Oona’s Potion."
+      "release_report": "The maintainer reported Oona’s content live on 19 November 2026. The developers announced it on 12 November 2026 as coming soon in an update called Oona’s Potion.",
+      "release_note": "Released on 19 November 2026 in Oona’s update. The developers’ patch notes, posted on the official Discord, list Oona, her three levels and the Wetlands biome (campaign and sandbox)."
     },
     {
       "id": "Wetlands",
       "name": "Wetlands",
-      "availability_status": "user_reported_released",
-      "release_date": null,
+      "availability_status": "official_release_notes_evidence",
+      "release_date": "2026-11-19",
       "evidence_keys": [
         "Sandbox.Biome.Swamp",
         "Store.VersionWhatsNew.28"
       ],
-      "note": "Packaged update28 text links Wetlands to Oona. Do not infer release merely from localized biome presence.",
-      "as_of": "2026-11-19",
-      "release_report": "The maintainer reported Oona’s content live on 19 November 2026. The developers announced it on 12 November 2026 as coming soon in an update called Oona’s Potion."
+      "note": "Released with Oona’s update; listed in the official patch notes.",
+      "as_of": "2026-11-20",
+      "release_report": "The maintainer reported Oona’s content live on 19 November 2026. The developers announced it on 12 November 2026 as coming soon in an update called Oona’s Potion.",
+      "release_note": "Released on 19 November 2026 in Oona’s update. The developers’ patch notes, posted on the official Discord, list Oona, her three levels and the Wetlands biome (campaign and sandbox)."
     }
   ],
   "public_release_history": [
