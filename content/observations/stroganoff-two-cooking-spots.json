@@ -1,0 +1,8 @@
+{
+  "id": "stroganoff-two-cooking-spots",
+  "target": {"type": "buildings", "id": "105717"},
+  "claim": "The Stroganoff Cookhouse has two cooking spots in the live game.",
+  "status": "disputed",
+  "evidence": {"kind": "player-report", "game_version": "32", "date": "2026-11-19", "reference": "Maintainer report in the wiki session, 19 November 2026."},
+  "notes": "The decoded version 30 files give the Cookhouse five work spots, with one cooking spot (KitchenFire + StrogMix -> Stroganoff, 17.4 s) plus a fire spot, a Meat-slicing spot, a Mushroom-slicing spot and a mixing spot. The second cooking spot was probably added for the release; the version 32 files are not decoded yet. With two cooking spots a full crew of 2 is limited by worker time, not the stove: about 18 Stroganoff (36 food units) a day instead of about 10 (21)."
+}
