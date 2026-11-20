@@ -1,0 +1,14 @@
+# Oona's levels as released (version 32)
+
+A last pass over the version 32 snapshot compared every packaged TextAsset with versions 30 and 31. Only twelve differ, and among level files only Oona's three (Campaign3_Level2A–C); the other 131 level files are byte-identical in 30, 31 and 32. The wiki's level data came from version 30, so Oona's pages showed the pre-release levels.
+
+New research tool `tools/refresh_level_records.py` reads the version 32 files (stored privately in research `data/levels/macos-32-257/`, never published) with `level_patch.Level` and rewrites just these records in `content/reference/scenarios.json` and `content/scenarios/<level>.json`. GUIDs resolve through existing records first, then the ResourceDatabase. Maps were redrawn with `export_level_maps.collect` pointed at the version 32 files and merged into `DM.level_maps`.
+
+What changed (WinCondition, Buildable, PrefabKey counts; day limits unchanged at 60):
+
+- **Clause (2A):** Brick Road goal 80 → 60; new optional "Have 10 Calla Lilly Planters"; build list adds Warehouse and Calla Lilly Planter. Starting map loses its 27 Brick Road tiles and 4 Wood Hoes; the Roadworks Office is now a build site (its prefab instance is unchanged, but the placement grid sees a BuildSiteBehaviour and its Workplace component is gone). `initial_prefab_instances` entries carry a new `build_site` flag from the map pass, and the starting-conditions row prints "(build site, not yet built)" for any flagged building.
+- **Copies (2B):** 4 → 6 adults; optional population goal 20 → 16.
+- **Chaos (2C):** the main "population 16" goal is now optional and 20; the optional Calla Lilly goal is replaced by "Produce 16 Boots"; Warehouse added and Calla Lilly Planter removed from the build list. Starting map: Wetlands villagers (6 adults, 4 kids) instead of ordinary ones, a stockpile of Dried Meat 15, Barley Porridge 13 and Stew 11, three Pallets, six Ruins (was seven), 55 Willows (was 52), and no Book Workshop, Brick Road or expedition crates. Some tiles were repainted. The map collector doesn't count the new Wetlands villager prefabs, so the Chaos map shows no villager dots.
+- All three now place their leader (Leader Oona A/B/C), so the pages say "led by Oona".
+
+Also in this PR: Mushroom gets its version 32 resource category (Ingredient; it had none in 30/31). The reported-release note for version 32 drops "reported live by the maintainer"; the release is in the official patch notes. The Spoilers page gains one line: the unseen season's name and leaderboard were translated into every language in version 32. Information-needed: the level/biome re-export row is resolved (the other four biomes are identical in 32; see research `data/sandbox-biomes-32-257.json`); the biome art row now says the island previews exist but their pixels are in `resources.assets.resS`, which the snapshot lacks.

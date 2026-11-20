@@ -515,6 +515,39 @@
         "kind": "decoded-data",
         "reference": "Version 32 (build 257) game files compared with version 31 (build 255); research data/release-32-257 and docs/RELEASE-32-257.md."
       }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign3_Level2A",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "Changed at release: the Brick Road goal is 60 tiles (was 80), a new optional goal asks for 10 Calla Lilly Planters, and Warehouses and Calla Lilly Planters can be built. The map no longer starts with 27 tiles of Brick Road or a finished Roadworks Office (it starts as a build site), and the wooden hoes are gone. Oona now leads the level.",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) level file compared with version 31 (255); research tools/refresh_level_records.py."
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign3_Level2B",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "Changed at release: the level starts with 6 adults (was 4) and the optional population goal is 16 (was 20). Oona now leads the level.",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) level file compared with version 31 (255); research tools/refresh_level_records.py."
+      }
+    },
+    {
+      "type": "levels",
+      "id": "Campaign3_Level2C",
+      "game_version": "32",
+      "date": "2026-11-19",
+      "change": "Changed at release: the population goal of 16 became an optional goal of 20, the optional Calla Lilly Planter goal became one for 16 pairs of Boots, Warehouses can be built and Calla Lilly Planters can't. The map starts with Wetlands villagers, a stockpile of Dried Meat, Barley Porridge and Stew, and no Book Workshop, Brick Road or expedition crates; there is one Ruin fewer. Oona now leads the level.",
+      "evidence": {
+        "kind": "decoded-data",
+        "reference": "Version 32 (build 257) level file compared with version 31 (255); research tools/refresh_level_records.py."
+      }
     }
   ]
 }

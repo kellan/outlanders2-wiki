@@ -29,10 +29,9 @@
     "title": "Clause",
     "text_asset_id": 6308,
     "source_level_path": "Assets/Resources/Content/Levels/Campaign 3/Story 2/Campaign3_Level2A.bytes",
-    "sha256": "30f43b4c8b7d5ed5dfe703b143dbba9dbcda536b2cb12d39566257543e1276c3",
-    "header_bytes": 1438,
+    "sha256": "4aa2ab62d780c923abeeb747778b67c258d06da95c221aba5347fc796d9d4653",
     "primary_objective_count": 2,
-    "optional_objective_count": 1,
+    "optional_objective_count": 2,
     "day_limit": 60,
     "objectives": [
       {
@@ -43,7 +42,6 @@
         "Comparison": 5,
         "ConcernType": 0,
         "IsSecondary": false,
-        "Value": 0.0,
         "condition_name": "HaveInBuilding",
         "comparison_name": "GreaterOrEqual",
         "concern_name": "Nutrition",
@@ -56,18 +54,16 @@
           "gameobject_id": 35460,
           "name": "Advanced Warehouse",
           "localization_key": "Building.UpgradedWarehouse"
-        },
-        "header_byte_offset": 449
+        }
       },
       {
-        "NeededAmount": 80,
+        "NeededAmount": 60,
         "PrefabKeyToCount": "406cb216a232d6247992d5c843ef9aa4",
         "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
         "Condition": 0,
         "Comparison": 5,
         "ConcernType": 0,
         "IsSecondary": false,
-        "Value": 0.3375000059604645,
         "condition_name": "Have",
         "comparison_name": "GreaterOrEqual",
         "concern_name": "Nutrition",
@@ -80,8 +76,7 @@
           "gameobject_id": 57395,
           "name": "Bakery",
           "localization_key": "Building.Bakery"
-        },
-        "header_byte_offset": 674
+        }
       },
       {
         "NeededAmount": 40,
@@ -91,7 +86,6 @@
         "Comparison": 5,
         "ConcernType": 0,
         "IsSecondary": true,
-        "Value": 0.0,
         "condition_name": "Extract",
         "comparison_name": "GreaterOrEqual",
         "concern_name": "Nutrition",
@@ -104,8 +98,29 @@
           "gameobject_id": 57395,
           "name": "Bakery",
           "localization_key": "Building.Bakery"
+        }
+      },
+      {
+        "NeededAmount": 10,
+        "PrefabKeyToCount": "fa8020660f384a8498fc4d700ffac0b0",
+        "PrefabKeyForBuilding": "3579311d25c9d4c519254df507775322",
+        "Condition": 0,
+        "Comparison": 5,
+        "ConcernType": 0,
+        "IsSecondary": true,
+        "condition_name": "Have",
+        "comparison_name": "GreaterOrEqual",
+        "concern_name": "Nutrition",
+        "target": {
+          "gameobject_id": 85248,
+          "name": "Calla Lilly Planter",
+          "localization_key": "Building.PlanterCallaLilly"
         },
-        "header_byte_offset": 899
+        "building": {
+          "gameobject_id": 57395,
+          "name": "Bakery",
+          "localization_key": "Building.Bakery"
+        }
       }
     ],
     "localized_objective_templates": [],
@@ -227,16 +242,21 @@
         "gameobject_id": 105723,
         "name": "Stone Mine",
         "localization_key": "Building.StoneMine"
+      },
+      {
+        "guid": "72944978a58524b6a8d02456de83f702",
+        "gameobject_id": 35461,
+        "name": "Warehouse",
+        "localization_key": "Building.Warehouse"
+      },
+      {
+        "guid": "fa8020660f384a8498fc4d700ffac0b0",
+        "gameobject_id": 85248,
+        "name": "Calla Lilly Planter",
+        "localization_key": "Building.PlanterCallaLilly"
       }
     ],
     "initial_prefab_instances": [
-      {
-        "guid": "89511604c2c8b6f4bbd681983ec6c4ca",
-        "instance_count": 4,
-        "gameobject_id": 93927,
-        "name": "Hoe - Wood",
-        "localization_key": "Tool.HoeWood"
-      },
       {
         "guid": "9655a717379323940b6e3d661a397edb",
         "instance_count": 122,
@@ -266,13 +286,6 @@
         "localization_key": ""
       },
       {
-        "guid": "4d6e67db404b4014586ba62b62ee4118",
-        "instance_count": 1,
-        "gameobject_id": 67665,
-        "name": "Brick House",
-        "localization_key": "Building.BrickHouse"
-      },
-      {
         "guid": "5fe46a6f79002d74996c4ef9c0efe96d",
         "instance_count": 2,
         "gameobject_id": 105714,
@@ -280,21 +293,31 @@
         "localization_key": "Building.Beehive"
       },
       {
-        "guid": "b204fd4036c9146bbb4be1a4ae0c6529",
+        "guid": "4d6e67db404b4014586ba62b62ee4118",
         "instance_count": 1,
-        "gameobject_id": 105735,
-        "name": "Roadworks Office",
-        "localization_key": "Building.RoadBuilder"
+        "gameobject_id": 67665,
+        "name": "Brick House",
+        "localization_key": "Building.BrickHouse"
       },
       {
-        "guid": "406cb216a232d6247992d5c843ef9aa4",
-        "instance_count": 27,
-        "gameobject_id": 116136,
-        "name": "Brick Road",
-        "localization_key": "Building.BrickRoad"
+        "guid": "e160bf55b8ebc544ba745abb2dd72be9",
+        "instance_count": 1,
+        "gameobject_id": null,
+        "name": "Leader Oona A",
+        "localization_key": null
+      },
+      {
+        "guid": "a49cc8c1b307941f7b79263dc4ce0c7e",
+        "instance_count": 1,
+        "gameobject_id": 57115,
+        "name": "Roadworks Office",
+        "localization_key": "Building.RoadBuilder",
+        "build_site": true
       }
     ],
     "world_objectives_match_header": true,
-    "source_category": "campaign"
+    "source_category": "campaign",
+    "source_build": "32 build 257",
+    "refreshed_by": "tools/refresh_level_records.py"
   }
 }
