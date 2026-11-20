@@ -1,0 +1,1 @@
+Reader pages state facts without asides about how they were checked: about 60 repeated sentences such as "stored", "decoded data", "not timed in play", "the game files hold" and "read from the game code" are gone from building, resource, mechanics and level pages. Research pages keep the detail. [#126]
