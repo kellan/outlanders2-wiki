@@ -2750,10 +2750,11 @@
       {
         "path": "Stroganoff Shop/Workspots/Fire Pile",
         "root": "Stroganoff Shop",
-        "consume_heat_in_days": 0.1,
+        "consume_heat_in_days": 0.12,
         "heated_social_spots": 0,
         "heated_sleep_spots": 0,
-        "social_spot_heat_units": 0
+        "social_spot_heat_units": 0,
+        "note": "0.1 in version 30/31; 0.12 in version 32 (257)."
       },
       {
         "path": "Cookie Shop _Christmas/Workspots/Stick -> KitchenFire Workspot/FirePile",
@@ -5201,8 +5202,8 @@
     },
     "class": "SerializedKeyBehaviour",
     "field": "MinGameVersion",
-    "current_game_version": 31,
-    "note": "Objects whose MinGameVersion exceeds the running game version are hidden from it. 4909 of 5464 keys store 0. Checked against version 31 (255) on 2026-11-01: no existing gate changed; the Greek villagers were added at 31.",
+    "current_game_version": 32,
+    "note": "Objects whose MinGameVersion exceeds the running game version are hidden from it. 4909 of 5464 keys store 0. Checked against version 31 (255) on 2026-11-01: no existing gate changed; the Greek villagers were added at 31. Checked against version 32 (257) on 2026-11-20: the game is now version 32, so every root gated at 32 (Oona’s update and the Holiday villagers) passes; nothing in the files is gated above 32.",
     "gates": {
       "12": [
         "House Stone",
@@ -27161,27 +27162,6 @@
         ],
         "spawners": [
           {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
-            "spawn_yield": [
-              {
-                "formula_id": 287421,
-                "outputs": [
-                  {
-                    "resource_id": 320441,
-                    "resource": "Mushroom",
-                    "count": 1
-                  }
-                ],
-                "work_iterations": 0
-              }
-            ]
-          },
-          {
             "name": "Apple Spawner",
             "max_spawned": 4,
             "min_days": 1.65,
@@ -27201,15 +27181,6 @@
                 "work_iterations": 0
               }
             ]
-          },
-          {
-            "name": "Sticks Spawner",
-            "max_spawned": 4,
-            "min_days": 1.5,
-            "max_days": 4.5,
-            "initial_offset_days": -3,
-            "spawns": "Stick",
-            "spawn_yield": []
           }
         ]
       },
@@ -27236,27 +27207,6 @@
             "initial_offset_days": -3,
             "spawns": "Stick",
             "spawn_yield": []
-          },
-          {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
-            "spawn_yield": [
-              {
-                "formula_id": 287421,
-                "outputs": [
-                  {
-                    "resource_id": 320441,
-                    "resource": "Mushroom",
-                    "count": 1
-                  }
-                ],
-                "work_iterations": 0
-              }
-            ]
           }
         ]
       },
@@ -27275,27 +27225,6 @@
           }
         ],
         "spawners": [
-          {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
-            "spawn_yield": [
-              {
-                "formula_id": 287421,
-                "outputs": [
-                  {
-                    "resource_id": 320441,
-                    "resource": "Mushroom",
-                    "count": 1
-                  }
-                ],
-                "work_iterations": 0
-              }
-            ]
-          },
           {
             "name": "Apple Spawner",
             "max_spawned": 3,
@@ -27316,15 +27245,6 @@
                 "work_iterations": 0
               }
             ]
-          },
-          {
-            "name": "Sticks Spawner",
-            "max_spawned": 4,
-            "min_days": 1.5,
-            "max_days": 4.5,
-            "initial_offset_days": -3,
-            "spawns": "Stick",
-            "spawn_yield": []
           }
         ]
       },
@@ -27360,27 +27280,6 @@
         ],
         "spawners": [
           {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
-            "spawn_yield": [
-              {
-                "formula_id": 287421,
-                "outputs": [
-                  {
-                    "resource_id": 320441,
-                    "resource": "Mushroom",
-                    "count": 1
-                  }
-                ],
-                "work_iterations": 0
-              }
-            ]
-          },
-          {
             "name": "Berry Spawner",
             "max_spawned": 4,
             "min_days": 1.65,
@@ -27400,15 +27299,6 @@
                 "work_iterations": 0
               }
             ]
-          },
-          {
-            "name": "Sticks Spawner",
-            "max_spawned": 4,
-            "min_days": 1.5,
-            "max_days": 4.5,
-            "initial_offset_days": -3,
-            "spawns": "Stick",
-            "spawn_yield": []
           }
         ]
       },
@@ -27521,7 +27411,17 @@
             "spawns": "Stick",
             "spawn_yield": []
           }
-        ]
+        ],
+        "natural_spread": {
+          "chance_per_day": 0.02,
+          "max_tiles": 3,
+          "min_tiles_from_plants": 1
+        },
+        "wild_terrains": [
+          "soil",
+          "sand"
+        ],
+        "chop_condition": "Cannot be chopped while its coypu burrow is being trapped (SpawnedWorkspotNotExecutingCondition on the Otter Spawner)."
       },
       "DatePalmTree": {
         "harvest": [
@@ -27538,27 +27438,6 @@
           }
         ],
         "spawners": [
-          {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
-            "spawn_yield": [
-              {
-                "formula_id": 287421,
-                "outputs": [
-                  {
-                    "resource_id": 320441,
-                    "resource": "Mushroom",
-                    "count": 1
-                  }
-                ],
-                "work_iterations": 0
-              }
-            ]
-          },
           {
             "name": "Date Spawner",
             "max_spawned": 4,
@@ -27579,15 +27458,6 @@
                 "work_iterations": 0
               }
             ]
-          },
-          {
-            "name": "Sticks Spawner",
-            "max_spawned": 4,
-            "min_days": 1.5,
-            "max_days": 4.5,
-            "initial_offset_days": -3,
-            "spawns": "Stick",
-            "spawn_yield": []
           }
         ]
       },
@@ -27606,27 +27476,6 @@
           }
         ],
         "spawners": [
-          {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
-            "spawn_yield": [
-              {
-                "formula_id": 287421,
-                "outputs": [
-                  {
-                    "resource_id": 320441,
-                    "resource": "Mushroom",
-                    "count": 1
-                  }
-                ],
-                "work_iterations": 0
-              }
-            ]
-          },
           {
             "name": "Apple Spawner",
             "max_spawned": 4,
@@ -27647,15 +27496,6 @@
                 "work_iterations": 0
               }
             ]
-          },
-          {
-            "name": "Sticks Spawner",
-            "max_spawned": 4,
-            "min_days": 1.5,
-            "max_days": 4.5,
-            "initial_offset_days": -3,
-            "spawns": "Stick",
-            "spawn_yield": []
           }
         ]
       },
@@ -27691,27 +27531,6 @@
         ],
         "spawners": [
           {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
-            "spawn_yield": [
-              {
-                "formula_id": 287421,
-                "outputs": [
-                  {
-                    "resource_id": 320441,
-                    "resource": "Mushroom",
-                    "count": 1
-                  }
-                ],
-                "work_iterations": 0
-              }
-            ]
-          },
-          {
             "name": "Fig Spawner",
             "max_spawned": 3,
             "min_days": 3,
@@ -27731,15 +27550,6 @@
                 "work_iterations": 0
               }
             ]
-          },
-          {
-            "name": "Sticks Spawner",
-            "max_spawned": 4,
-            "min_days": 1.5,
-            "max_days": 4.5,
-            "initial_offset_days": -3,
-            "spawns": "Stick",
-            "spawn_yield": []
           }
         ]
       },
@@ -27758,27 +27568,6 @@
           }
         ],
         "spawners": [
-          {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
-            "spawn_yield": [
-              {
-                "formula_id": 287421,
-                "outputs": [
-                  {
-                    "resource_id": 320441,
-                    "resource": "Mushroom",
-                    "count": 1
-                  }
-                ],
-                "work_iterations": 0
-              }
-            ]
-          },
           {
             "name": "Grape Spawner",
             "max_spawned": 5,
@@ -27799,15 +27588,6 @@
                 "work_iterations": 0
               }
             ]
-          },
-          {
-            "name": "Sticks Spawner",
-            "max_spawned": 4,
-            "min_days": 1.5,
-            "max_days": 4.5,
-            "initial_offset_days": -3,
-            "spawns": "Stick",
-            "spawn_yield": []
           }
         ]
       },
@@ -27834,27 +27614,6 @@
             "initial_offset_days": -3,
             "spawns": "Stick",
             "spawn_yield": []
-          },
-          {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
-            "spawn_yield": [
-              {
-                "formula_id": 287421,
-                "outputs": [
-                  {
-                    "resource_id": 320441,
-                    "resource": "Mushroom",
-                    "count": 1
-                  }
-                ],
-                "work_iterations": 0
-              }
-            ]
           }
         ]
       },
@@ -27975,27 +27734,6 @@
         ],
         "spawners": [
           {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
-            "spawn_yield": [
-              {
-                "formula_id": 287421,
-                "outputs": [
-                  {
-                    "resource_id": 320441,
-                    "resource": "Mushroom",
-                    "count": 1
-                  }
-                ],
-                "work_iterations": 0
-              }
-            ]
-          },
-          {
             "name": "PricklyPear Spawner",
             "max_spawned": 2,
             "min_days": 2.2,
@@ -28036,15 +27774,6 @@
                 "work_iterations": 0
               }
             ]
-          },
-          {
-            "name": "Sticks Spawner",
-            "max_spawned": 4,
-            "min_days": 1.5,
-            "max_days": 4.5,
-            "initial_offset_days": -3,
-            "spawns": "Stick",
-            "spawn_yield": []
           }
         ]
       },
@@ -28125,27 +27854,6 @@
             "initial_offset_days": -3,
             "spawns": "Stick",
             "spawn_yield": []
-          },
-          {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
-            "spawn_yield": [
-              {
-                "formula_id": 287421,
-                "outputs": [
-                  {
-                    "resource_id": 320441,
-                    "resource": "Mushroom",
-                    "count": 1
-                  }
-                ],
-                "work_iterations": 0
-              }
-            ]
           }
         ]
       },
@@ -28226,27 +27934,6 @@
         ],
         "spawners": [
           {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
-            "spawn_yield": [
-              {
-                "formula_id": 287421,
-                "outputs": [
-                  {
-                    "resource_id": 320441,
-                    "resource": "Mushroom",
-                    "count": 1
-                  }
-                ],
-                "work_iterations": 0
-              }
-            ]
-          },
-          {
             "name": "Pomelo Spawner",
             "max_spawned": 4,
             "min_days": 1.65,
@@ -28266,15 +27953,6 @@
                 "work_iterations": 0
               }
             ]
-          },
-          {
-            "name": "Sticks Spawner",
-            "max_spawned": 4,
-            "min_days": 1.5,
-            "max_days": 4.5,
-            "initial_offset_days": -3,
-            "spawns": "Stick",
-            "spawn_yield": []
           }
         ]
       },
@@ -28374,27 +28052,6 @@
         ],
         "spawners": [
           {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
-            "spawn_yield": [
-              {
-                "formula_id": 287421,
-                "outputs": [
-                  {
-                    "resource_id": 320441,
-                    "resource": "Mushroom",
-                    "count": 1
-                  }
-                ],
-                "work_iterations": 0
-              }
-            ]
-          },
-          {
             "name": "Sticks Spawner",
             "max_spawned": 4,
             "min_days": 1.5,
@@ -28459,18 +28116,9 @@
             "max_days": 4.5,
             "initial_offset_days": -3,
             "spawns": "Mushroom",
-            "spawn_yield": []
-          },
-          {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
             "spawn_yield": [
               {
-                "formula_id": 287421,
+                "formula_id": null,
                 "outputs": [
                   {
                     "resource_id": 320441,
@@ -28480,7 +28128,8 @@
                 ],
                 "work_iterations": 0
               }
-            ]
+            ],
+            "note": "Drops the Mushroom straight onto the ground as a pile (no forage source object), like a Sticks Spawner."
           },
           {
             "name": "Sticks Spawner",
@@ -28491,6 +28140,14 @@
             "spawns": "Stick",
             "spawn_yield": []
           }
+        ],
+        "natural_spread": {
+          "chance_per_day": 0.03,
+          "max_tiles": 3,
+          "min_tiles_from_plants": 1
+        },
+        "wild_terrains": [
+          "soil"
         ]
       },
       "Winter Pine": {
@@ -28567,27 +28224,6 @@
             "initial_offset_days": -3,
             "spawns": "Stick",
             "spawn_yield": []
-          },
-          {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
-            "spawn_yield": [
-              {
-                "formula_id": 287421,
-                "outputs": [
-                  {
-                    "resource_id": 320441,
-                    "resource": "Mushroom",
-                    "count": 1
-                  }
-                ],
-                "work_iterations": 0
-              }
-            ]
           }
         ]
       },
@@ -28607,27 +28243,6 @@
         ],
         "spawners": [
           {
-            "name": "Mushroom Spawner",
-            "max_spawned": 3,
-            "min_days": 1.7,
-            "max_days": 3.9,
-            "initial_offset_days": -3,
-            "spawns": "Mushroom Source",
-            "spawn_yield": [
-              {
-                "formula_id": 287421,
-                "outputs": [
-                  {
-                    "resource_id": 320441,
-                    "resource": "Mushroom",
-                    "count": 1
-                  }
-                ],
-                "work_iterations": 0
-              }
-            ]
-          },
-          {
             "name": "Sticks Spawner",
             "max_spawned": 4,
             "min_days": 1.5,
@@ -28638,11 +28253,12 @@
           }
         ]
       }
-    }
+    },
+    "note_v32": "Checked against version 32 (257) on 2026-11-20. The Mushroom Spawners that spawned 'Mushroom Source' on 12 trees, Willow's second spawner and the tree templates were inactive (m_IsActive false) in version 31 and are deleted in 32, so they are removed here; only the Willow Tree drops Mushrooms. The Sticks Spawners on Apple, Banana, Berry Bush, Date Palm, Dragon Fruit, Fig, Grape, Nopal and Pomelo trees are inactive in both versions and are removed too. CoypuBurrow may now sit on sand or soil (was sand only), with up to 0.1 height difference."
   },
   "biomes": {
     "class": "MapBiomeSettings",
-    "note": "Sandbox configuration per biome: what the player may place and what the map generator scatters (density per tile). Campaign levels list their own buildable entries. Asset GUIDs resolved through each prefab root SerializedKey.",
+    "note": "Sandbox configuration per biome: what the player may place and what the map generator scatters (density per tile). Campaign levels list their own buildable entries. Asset GUIDs resolved through each prefab root SerializedKey. Wetlands added and Spookylands updated from version 32 (257); base_placeables from MapGenerationOptions (every biome unless excluded).",
     "records": [
       {
         "name_key": "Sandbox.Biome.Desert",
@@ -28838,7 +28454,16 @@
           "Ukulele Maker",
           "Decorative Planter Roses",
           "Decorative Planter Calla Lilly",
-          "Decorative Tree Jacaranda"
+          "Decorative Tree Jacaranda",
+          "Trading Post Evergreen",
+          "Bottle Factory",
+          "Winery",
+          "Dried Meat Shop",
+          "Fishing Dock",
+          "Boot Maker",
+          "Brewery",
+          "Scriptorium",
+          "Pendant Maker"
         ],
         "excluded_base_placeables": [
           "Playground",
@@ -29100,7 +28725,110 @@
             "food_source": false
           }
         ]
+      },
+      {
+        "name_key": "Sandbox.Biome.Swamp",
+        "id": "Swamp",
+        "scene": "LevelSwamp",
+        "placeables": [
+          "Cheese Maker",
+          "Farm",
+          "Fishing Dock",
+          "Fondue Shop",
+          "Forager",
+          "Open Kitchen",
+          "Orchard old",
+          "Stroganoff Shop",
+          "HuntersHutSwamp",
+          "Beehive",
+          "Concoction Shop",
+          "Mead Hall",
+          "Scriptorium",
+          "Ukulele Maker",
+          "Decorative Planter Hibiscus",
+          "Decorative Planter Calla Lilly",
+          "Decorative Tree Jacaranda",
+          "Decorative Tree Orchid Tree",
+          "Fountain",
+          "Field BerryBush",
+          "Field GrapeTree",
+          "Field Corn",
+          "Field Tomato",
+          "Field Pumpkin",
+          "House",
+          "House Brick",
+          "House Plank",
+          "House Stone",
+          "Field WillowTree",
+          "Field CypressTree",
+          "Boot Maker",
+          "Smoothie Stand",
+          "Dried Meat Shop"
+        ],
+        "excluded_base_placeables": [],
+        "spawns": [
+          {
+            "prefab": "CypressTree",
+            "spawn_key": "WoodTrees",
+            "density": 0.12,
+            "food_source": false
+          },
+          {
+            "prefab": "WillowTree",
+            "spawn_key": "WoodTrees",
+            "density": 0.12,
+            "food_source": false
+          },
+          {
+            "prefab": "GrapeTree",
+            "spawn_key": "FruitTrees",
+            "density": 0.005,
+            "food_source": true
+          },
+          {
+            "prefab": "BerryBush",
+            "spawn_key": "FruitTrees",
+            "density": 0.005,
+            "food_source": true
+          },
+          {
+            "prefab": "Fish decoration",
+            "spawn_key": "Fishes",
+            "density": 0.005,
+            "food_source": false
+          },
+          {
+            "prefab": "Ruins",
+            "spawn_key": "",
+            "density": 0.0006,
+            "food_source": false
+          }
+        ]
       }
+    ],
+    "base_placeables": [
+      "Lumberjack",
+      "ClayMaker",
+      "Sawmill",
+      "Brick Maker",
+      "Forester old",
+      "Woodchopper",
+      "Stone Mine",
+      "Road Builder",
+      "Road",
+      "Road Stone",
+      "Bridge",
+      "Warehouse",
+      "Market",
+      "Playground",
+      "Plaza",
+      "Zen Garden",
+      "Park",
+      "Papermill old",
+      "Journal",
+      "Carved Statue",
+      "Road Brick",
+      "Upgraded Warehouse"
     ]
   },
   "eating": {
@@ -39992,7 +39720,8 @@
     "units": "stored world units per second; a game square is 2 stored units (footprint rule)",
     "checked_versions": [
       "30 build 254",
-      "31 build 255"
+      "31 build 255",
+      "32 build 257"
     ],
     "research_tool": "tools/export_walking.py",
     "villagers": [
@@ -40110,7 +39839,22 @@
         "carry": 1
       }
     ],
-    "roadworks_office_gameobject_id": 105735
+    "roadworks_office_gameobject_id": 105735,
+    "sink_in_sand": {
+      "walk_value": 0.7,
+      "max_slope_multiplier": 0.3,
+      "move_cost": 1.5,
+      "bare_sand_move_cost": 1.1,
+      "visual_sink_height": -0.5,
+      "rule": "If the level's TileMapMesh has SinkInTheSand on and the walker stands on a Sand tile, the slope factor is clamped to 0.3–0.7: 0.7 on flat sand, as low as 0.3 uphill, no downhill bonus. Surfaces (roads) and gear still multiply on top. Path cost on such sand is 1.5 instead of 1.1, so villagers route around it.",
+      "where": "Wetlands, in campaign and sandbox: the official patch notes for Oona's update say Outlanders sink into its shallow marshes and walk slower while crossing them. The switch itself is stored on the scene's TileMapMesh (LevelSwamp), which is not in the decoded files; the numbers come from the code.",
+      "sand_share": {
+        "Campaign3_Level2A": 0.3,
+        "Campaign3_Level2B": 0.38,
+        "Campaign3_Level2C": 0.54
+      },
+      "evidence": "Activity.CalculateWalkSpeedMultiplier and PathfindingMaps.UpdatePathfinding (version 32 build 257); research docs/RELEASE-32-257.md"
+    }
   },
   "timing_model": {
     "about": "Copied from the research repo data/timing-model.json (tools/build_timing_model.py). Formulas: research docs/TIMING-MODEL.md. Pages compute their estimates from these constants; do not edit values here, rebuild in research and copy.",
@@ -40403,7 +40147,8 @@
   "food_rates": {
     "class": "WorkspotBehaviour / FormulaStepBehaviour / ResourceSourceBehaviour with TimelineAsset lengths",
     "checked_versions": [
-      "30 build 254"
+      "30 build 254",
+      "32 build 257 (Stroganoff Cookhouse)"
     ],
     "research_tool": "tools/export_food_rates.py",
     "seconds_per_day": 300,
@@ -41684,7 +41429,7 @@
         "building": "Stroganoff Cookhouse",
         "gameobject_id": 105717,
         "formula_id": 312708,
-        "recipe": "KitchenFire + StrogMix -> Stroganoff",
+        "recipe": "KitchenFire + 2 StrogMix -> DoubleStroganoff -> 2 Stroganoff",
         "work_window_fraction": 0.6000000238418579,
         "max_workers": 2,
         "outputs": [
@@ -41699,49 +41444,57 @@
           {
             "resource_id": 284894,
             "name": "Stick",
-            "count": 0.2,
+            "count": 0.1,
             "food_units": 0
           },
           {
             "resource_id": 304113,
             "name": "Meat",
-            "count": 0.125,
+            "count": 0.25,
             "food_units": 0
           },
           {
             "resource_id": 320441,
             "name": "Mushroom",
-            "count": 0.125,
+            "count": 0.25,
             "food_units": 0
           }
         ],
         "building_stock": [],
-        "worker_seconds_per_batch": 20.09750429391861,
+        "worker_seconds_per_batch": 12.380003768205643,
         "rates": [
           {
             "workers": 1,
-            "batches_per_day": 8.956336295299328,
+            "batches_per_day": 14.539576119906672,
             "limit": "Worker time"
           },
           {
             "workers": 2,
-            "batches_per_day": 10.334926753992919,
-            "limit": "KitchenFire + StrogMix -> Stroganoff"
+            "batches_per_day": 20.669853507985838,
+            "limit": "KitchenFire + 2 StrogMix -> DoubleStroganoff"
           }
         ],
         "unresolved": [],
         "steps": [
           {
-            "name": "KitchenFire + StrogMix -> Stroganoff",
-            "runs_per_batch": 1,
+            "name": "KitchenFire + 2 StrogMix -> DoubleStroganoff",
+            "runs_per_batch": 0.5,
             "seconds": 17.416669845581055,
             "worker": true,
             "spots": 1,
             "unresolved_spots": 0
           },
           {
+            "name": "DoubleStroganoff -> 2 Stroganoff",
+            "runs_per_batch": 0.5,
+            "seconds": 0,
+            "worker": false,
+            "spots": 1,
+            "unresolved_spots": 0
+          },
+          {
             "name": "Stick -> KitchenFire",
-            "runs_per_batch": 0.2,
+            "runs_per_batch": 0.1,
             "seconds": 5.633333504199982,
             "worker": true,
             "spots": 1,
@@ -41749,7 +41502,7 @@
           },
           {
             "name": "Sliced Meat + Sliced Mushroom -> StrogMix",
-            "runs_per_batch": 0.25,
+            "runs_per_batch": 0.5,
             "seconds": 0,
             "worker": false,
             "spots": 1,
@@ -41757,7 +41510,7 @@
           },
           {
             "name": "Meat -> Sliced Meat",
-            "runs_per_batch": 0.125,
+            "runs_per_batch": 0.25,
             "seconds": 6.216670989990234,
             "worker": true,
             "spots": 1,
@@ -41765,15 +41518,17 @@
           },
           {
             "name": "Mushroom -> Sliced Mushroom",
-            "runs_per_batch": 0.125,
+            "runs_per_batch": 0.25,
             "seconds": 6.216670989990234,
             "worker": true,
             "spots": 1,
             "unresolved_spots": 0
           }
         ],
-        "chain_work_seconds_per_batch": 25.09208775540193,
-        "chain_missing": []
+        "chain_work_seconds_per_batch": 21.030420644978683,
+        "chain_missing": [],
+        "checked_version": "32 build 257",
+        "note": "Reworked in version 32: the mix step makes 2 StrogMix (was 4), and a worker cooks 2 StrogMix with one fire into a DoubleStroganoff, which splits into 2 Stroganoff on its own with no worker. 1 Meat + 1 Mushroom now makes 4 Stroganoff (was 8), and the fire costs 0.4 Stick per 4 bowls. Still one worker cooking spot."
       }
     ],
     "crops": [
@@ -41972,7 +41727,8 @@
       },
       "Mushroom": {
         "work_seconds": 13.833333969116211,
-        "how": "picked from a wild mushroom"
+        "how": "picked up where a Willow Tree drops it (time from the version 31 wild-mushroom pick; the pick-up from the ground pile in version 32 is not decoded)",
+        "partial": true
       },
       "Cheese": {
         "work_seconds": 9.759375219460992,
