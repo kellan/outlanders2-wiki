@@ -46,6 +46,14 @@ Preserve contradictions. For example, the Bakery field guide and decoded process
 
 For scenario needs, omitted means unspecified; it does not mean false. For crops, use the exact scenario planting list. A sandbox biome reference alone does not establish normal crop availability. Unknown values must not be replaced with zero.
 
+Before treating a game object as a source of anything (a spawner, a workspot, a bonus), check that its GameObject is active (`m_IsActive`). The decoded JSON does not carry the flag. Version 31 had mushroom spawners on 12 trees and stick spawners on 9 fruit trees that never ran, and the wiki listed them as sources until version 32 deleted them.
+
+The developers' patch notes and in-game text are `official-source` evidence. Cite them, and prefer them to an inference from code when both exist (the marsh slow-down was code plus a guess about a scene switch until the patch notes named it).
+
+When a new game version changes a fact, update the checks that asserted the old fact to assert the new one, and say so in the content note. Don't keep a stale assertion alive by bending the page to fit it.
+
+Version labels ("Added in Update N", History rows) use the game files' internal content gate, which runs ahead of the developers' public numbering (Oona's update is gate 32, "game version 29" in the patch notes). Note the public number in the content note when they differ; don't relabel.
+
 ## Sizes and distances
 
 Write every size and distance a player would measure in **game squares**, the cells of the placement grid as the game draws them: a crop field is 1 × 1, a fruit tree 2 × 2, a Basic House 2 × 2. The stored building grid (`GridDimensionsBehaviour`) uses two units per square, so stored dimensions are halved for display; on the site this goes through `footprint()` in `src/app.js`, and a test fails if a page prints stored dimensions anywhere but the raw research notes. When a stored distance or count has not been shown to use the same grid (tree seeding range, wild-spawn density, sandbox map sizes and construction tiles), show the stored number labelled "grid units" or "stored", never as squares, and add a row to INFORMATION-NEEDED until play confirms the unit.

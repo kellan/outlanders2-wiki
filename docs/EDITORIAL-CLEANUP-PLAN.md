@@ -16,6 +16,14 @@ A page fails when it does any of these:
 - **Pads:** long level lists, a sibling-catalog menu at the bottom of every page, empty sections ("No material inputs recorded for this step").
 - **Hedges inline:** "stored", "decoded", "not yet checked in play", "the scene name is stored map configuration; it does not by itself establish…" in the reading text. 364 reader pages use "stored"; 132 say "file order".
 
+### Rules from review (20 November 2026)
+
+- **Use the game's names.** Write what a player sees: "shallow marshes", not the Sand tiles they are stored as; Stroganoff Cookhouse, not `Stroganoff Shop`. Take names from the in-game text, then the developers' patch notes. Internal names stay in the data and research notes.
+- **Size a mechanic by what it changes for the player.** A rule that alters no decision gets one bullet in the existing list, not its own section. A section is for something a player plans around.
+- **Only describe what can happen in play.** Before writing a consequence derived from code or data, check it against placement rules and the real maps. Roads can't be placed on marshes, and the marshes are flat, so "a road over a marsh" and "slower uphill" were both true of the code and wrong for the page.
+- **Keep how-we-checked out of reader pages.** No "not timed in play", "decoded", "read from the code", "inferred" or "the switch is not in the snapshot" in the reading text. State the fact. The checking story goes in `content-notes/<pr>-<slug>.md` and, where a reader needs it, one line on the research page. A fact too shaky to state plainly stays off the page and goes in `docs/INFORMATION-NEEDED.md`.
+- **No special cases for one entity.** A tag, banner or note that appears for a single leader or building (an "Oona" branch in a template) goes stale the day its reason ends. Use the shared data (`availability.json`, observations, history) so every page follows the same rule.
+
 ## Inventory and verdict
 
 Counts are canonical reader pages in the current build.

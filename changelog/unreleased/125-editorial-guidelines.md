@@ -1,0 +1,1 @@
+Contributor guidelines: new writing rules (use the game's names, size a mechanic by what it changes for the player, only describe what can happen in play, keep how-we-checked out of reader pages, no one-off templates), evidence rules in CONTRIBUTING, and an AGENTS.md for automated contributors. No reader pages change. [#125]
