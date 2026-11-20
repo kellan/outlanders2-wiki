@@ -33280,6 +33280,7 @@
       "319711": "Basket",
       "319713": "Axe",
       "319714": "Basket",
+      "320441": "Ingredient",
       "320491": "Food",
       "320813": "Ingredient"
     },
@@ -43839,7 +43840,7 @@
             "y": 33.36
           },
           {
-            "name": "Roadworks Office",
+            "name": "Roadworks Office (build site)",
             "x": 37.52,
             "y": 39.6
           },
@@ -43849,7 +43850,7 @@
             "y": 56.24
           }
         ],
-        "image_sha256": "6bd4a627b19bcd484bc45e61c2eb0d7ac18f23f0ab9148775edba0680d47abf9",
+        "image_sha256": "b18e26d533bac680db05fc95e186af171586213c7d81b2667b63c4d82d967dc2",
         "tiles": {
           "water": 221,
           "sand": 2759,
@@ -43858,19 +43859,20 @@
         "objects": {
           "tree": 122,
           "fruit": 100,
-          "road": 27,
-          "building": 4
+          "building": 3,
+          "site": 1
         },
         "buildings": [
           "Beehive",
           "Brick House",
-          "Roadworks Office"
+          "Roadworks Office (build site)"
         ],
         "villagers": 10,
         "size": [
           96,
           96
-        ]
+        ],
+        "game_version": "32 build 257"
       },
       {
         "asset_name": "Campaign3_Level2B",
@@ -43880,7 +43882,7 @@
           454
         ],
         "labels": [],
-        "image_sha256": "347b3ce72d8074f79ddf2a0fee79580195f217fac82d363305ef79695244d709",
+        "image_sha256": "d68c4c1894a0c07693ee673908d8c2fd3c54904dbd16d7f3e1afdd17f937e839",
         "tiles": {
           "water": 1242,
           "sand": 2441,
@@ -43890,11 +43892,12 @@
           "tree": 145
         },
         "buildings": [],
-        "villagers": 4,
+        "villagers": 6,
         "size": [
           80,
           80
-        ]
+        ],
+        "game_version": "32 build 257"
       },
       {
         "asset_name": "Campaign3_Level2C",
@@ -43903,32 +43906,23 @@
           544,
           544
         ],
-        "labels": [
-          {
-            "name": "Book Workshop",
-            "x": 28.16,
-            "y": 66.64
-          }
-        ],
-        "image_sha256": "946911534b296b3c8f0f319a60de6980c5f84b065669e5773023ac917c03035c",
+        "labels": [],
+        "image_sha256": "127c2ea8e58831551922314a2238a077b271c50393c174d94a4703ddbe2e8592",
         "tiles": {
           "water": 528,
           "sand": 4976,
           "soil": 3712
         },
         "objects": {
-          "tree": 164,
-          "road": 3,
-          "building": 1
+          "tree": 167
         },
-        "buildings": [
-          "Book Workshop"
-        ],
-        "villagers": 10,
+        "buildings": [],
+        "villagers": 0,
         "size": [
           96,
           96
-        ]
+        ],
+        "game_version": "32 build 257"
       },
       {
         "asset_name": "FAST_Tutorial01",
@@ -53080,7 +53074,8 @@
           128
         ]
       }
-    ]
+    ],
+    "note_v32": "Oona's three levels (Campaign3_Level2A-C) re-drawn from the version 32 (257) level files, which changed at release; every other level file is identical in versions 30, 31 and 32."
   },
   "achievements": {
     "class": "Localization table rows Achievement.<Id>.Name / .Description (en-US)",

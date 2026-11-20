@@ -706,7 +706,7 @@ function startingConditions(s){const items=s.initial_prefab_instances||[];const 
   if(/^Leader /.test(n)){const who=n.replace(/^Leader /,'').replace(/\s+[ABC]$/,''),l=W.leaders.find(x=>x.name===who);push(leaders,who,{name:who,id:l?.id,count:c});continue}
   if(/^Notification\./.test(k)||/^Spawn /.test(n)||levelSchedule(s).some(e=>e.root===n)){continue}
   const b=B[x.gameobject_id]||(k.startsWith('Building.')?Bkey[k]:null),r=Rkey[k]||D.resources.find(r=>r.publicly_named&&(r.name===n||r.internal_name===n));
-  if(b&&!b.is_plant){push(built,b.name,{name:b.name,id:b.gameobject_id,count:c,road:/road/i.test(b.name)});continue}
+  if(b&&!b.is_plant){push(built,b.name+(x.build_site?' site':''),{name:b.name,id:b.gameobject_id,count:c,road:/road/i.test(b.name),note:x.build_site?'build site, not yet built':undefined});continue}
   if(r){if(/^(Hoe|Axe|Scythe|Pick|Shovel|Hammer|Wheelbarrow|SeedBag|Bucket|Saw)\b/i.test(r.name)||/ - /.test(r.name)){push(tools,r.name,{name:r.name.replace(/\s*-\s*/,' · '),id:r.id,count:c});continue}push(stock,r.name,{name:r.name,id:r.id,count:c});continue}
   if(n==='StandalonePile'){piles+=c;continue}
   if(n==='Rock Source'){push(sources,'rock',{name:'Rock sources',count:c,note:'for a Quarry'});continue}
