@@ -1,0 +1,1 @@
+The Spoilers page now leads with what each unseen tournament season brings: Holiday's six holiday-dressed buildings, snowy Evergreen maps and holiday villagers; the Egyptian and Imperial reward buildings; and Arctic, still only a name. The note on how unreleased content is spotted is shorter and at the end. [#127]

@@ -17,7 +17,7 @@ try{
 }finally{fs.rmSync(temp,{recursive:true,force:true})}
 const h=await harness();const guide=h.render('contribute/');assert.ok(guide.includes('content/scenarios/'));assert.ok(guide.includes('pull request'));assert.ok(guide.includes('npm run build'));
 for(const p of ['', 'heroes/','levels/','biomes/','index/','campaigns/campaign-3/'])assert.ok(!/Egyptian|Arctic/.test(h.render(p)),p+' leaked spoiler names');
-assert.ok(h.query('Egyptian').includes('0 matches'));assert.ok(h.render('spoilers/').includes('Egyptian'));assert.ok(h.render('spoilers/').includes('release unconfirmed'));
+assert.ok(h.query('Egyptian').includes('0 matches'));assert.ok(h.render('spoilers/').includes('Egyptian'));assert.ok(h.render('spoilers/').includes('Not seen in game yet'));
 assert.ok(!h.query('Oona').includes('0 matches')&&!h.render('spoilers/').includes('spoilers/heroes/oona'),'Oona released (PR 119): searchable, off the spoiler index');
 assert.ok(h.lookup['spoilers/tournament/']);assert.ok(!h.render('tournament/').includes('Egyptian'));assert.ok(!h.render('heroes/oona/').includes('Spoiler warning'));assert.ok(h.render('verification/buildings/clay-pit/').includes('Contributed observations'));
 
