@@ -1,0 +1,1 @@
+Roads and walking: the Wetlands' shallow marshes are now one line under "Other things that change speed" instead of a section of their own, and the page no longer repeats that its speeds haven't been timed in play. The Wetlands terrain note no longer mentions the game's internal sand tiles. [#123]
