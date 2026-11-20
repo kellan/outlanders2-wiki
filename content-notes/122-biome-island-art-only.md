@@ -1,3 +1,7 @@
 # Biome artwork: island previews only
 
 The game ships island previews (`MiniBiome-*` sprites) for Evergreen, Drylands, Tropiclands and Winterlands only. `content/reference/artwork.json` filled the Swamp (Wetlands) and Halloween (Spookylands) slots with `MapShape_Valley BiomeSwamp` and `MapShape_Valley BiomeHalloween`, which are top-down level map previews. The Swamp one is a dry green meadow with rocky edges and reads as nothing like wetlands. The home page already showed only island previews; `icon()` now applies the same rule for biomes everywhere. The artwork records and files are kept for reference.
+
+# Wetlands lead section
+
+The Wetlands page had almost nothing, because no sandbox configuration exists for the biome. `wetlandsLead()` in `src/app.js` now leads it with what a player notices. Facts that come from the three Wetlands levels (Clause, Copies, Chaos, scene `LevelSwamp`) are read from the scenario data: build lists, starting Ruins counts, the Ruins salvage value (10 Stone) and the need switches. The building descriptions are the game's own text. Two points are maintainer reports from play, recorded as observations: Stone comes only from Ruins (`wetlands-stone-from-ruins`; note that the version 31 data puts a Stone Mine on Clause's build list) and the maps have shallow marshes (`wetlands-shallow-marshes`; what they do is not yet recorded). The level data is from version 31, where this content was gated; the page says so.

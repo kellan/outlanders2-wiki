@@ -1,0 +1,8 @@
+{
+  "id": "wetlands-shallow-marshes",
+  "target": {"type": "biomes", "id": "Swamp"},
+  "claim": "Wetlands maps have shallow marshes.",
+  "status": "confirmed",
+  "evidence": {"kind": "player-report", "game_version": "32 (not yet decoded)", "date": "2026-11-20", "reference": "Maintainer report in the wiki session, 20 November 2026."},
+  "notes": "What the marshes do to building placement and walking has not been recorded."
+}

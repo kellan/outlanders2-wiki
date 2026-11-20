@@ -1,0 +1,1 @@
+The Wetlands page now opens with what's different there: wild mushrooms for the Stroganoff Cookhouse and Concoction Shop, the Swamp Trappers' Hut, Stone only from Ruins, shallow marshes, Cypress and Willow forests, and no Heat, Cooling or Thirst. [#122]
