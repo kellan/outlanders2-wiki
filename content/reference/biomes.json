@@ -5680,7 +5680,7 @@
         "Entertainment",
         "Wellness"
       ],
-      "terrain_note": "No rock source is scattered and none of Oona’s three maps has mountain tiles, so there is no Stone here. Much of the ground is shallow marsh (stored as Sand tiles), where, as the patch notes say, villagers sink in and walk slower: ×0.7 in the version 32 code, and they route around it (path cost 1.5 instead of 1.1). See Roads and walking."
+      "terrain_note": "No rock source is scattered and none of Oona’s three maps has mountain tiles, so there is no Stone here. Much of the ground is shallow marsh, where villagers sink in and walk ×0.7 and route around it where they can. See Roads and walking."
     },
     {
       "id": "Halloween",
