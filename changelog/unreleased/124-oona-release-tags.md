@@ -1,0 +1,1 @@
+The home page no longer shows a special release tag next to Oona, and her page drops an out-of-date note saying her story was missing from the campaign menu. Oona, her levels and the Wetlands now cite the developers' patch notes as their release evidence. [#124]
