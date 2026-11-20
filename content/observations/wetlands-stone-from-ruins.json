@@ -1,8 +1,0 @@
-{
-  "id": "wetlands-stone-from-ruins",
-  "target": {"type": "biomes", "id": "Swamp"},
-  "claim": "Stone is scarce in the Wetlands: the only source is Ruins, which you recycle for Stone.",
-  "status": "confirmed",
-  "evidence": {"kind": "player-report", "game_version": "32 (not yet decoded)", "date": "2026-11-20", "reference": "Maintainer report in the wiki session, 20 November 2026."},
-  "notes": "The version 31 files store 10 Stone for recycling one Ruins, and list 4 Ruins at the start of Copies and 7 at the start of Chaos. They also put a Stone Mine on Clause's build list; whether Clause has rocks to mine has not been checked."
-}
