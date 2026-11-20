@@ -1,4 +1,4 @@
-// PR 126: every sourced biome page leads with "What's different here", built from its data; biome art is island previews only.
+// PR 127: every sourced biome page leads with "What's different here", built from its data; biome art is island previews only.
 import assert from 'node:assert/strict';import {harness} from '../render-harness.mjs';
 const h=await harness(),strip=s=>s.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');
 const lead=p=>{const html=h.render('biomes/'+p+'/'),h2=[...html.matchAll(/<h2>([^<]*)/g)].map(x=>x[1]);assert.equal(h2[0],'What’s different here',p+' leads with the lead: '+h2.join(' | '));return strip(html.match(/id="special"[\s\S]*?<\/section>/)[0])};
