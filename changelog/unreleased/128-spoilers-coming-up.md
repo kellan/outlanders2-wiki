@@ -1,0 +1,1 @@
+The Spoilers page now leads with what each tournament season that hasn't run yet brings, with the full reward lists one click away. The note on how unreleased content is spotted is shorter and at the end. [#128]
