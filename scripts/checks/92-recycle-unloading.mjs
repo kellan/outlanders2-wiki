@@ -14,5 +14,5 @@ assert.ok(t.includes('Worked examples')&&t.includes('A Lumberjacks’ Base with 
 assert.ok(/No loose Logs within 18 units 9\.8 s 2\.5 minutes of work: within one shift/.test(t),'new loose piles beside the building (updated in PR 117: recovered stock never goes into storage)');
 assert.ok(/A loose pile of Logs with room for 9, 15 units away 27 s then 9\.8 s 3\.7 minutes/.test(t),'a matching loose pile in reach is slower');
 assert.ok(/No loose piles of its goods within 18 units 5\.3 s 6\.3 minutes of work/.test(t)&&t.includes('216 items in at least 24 loose piles around it'),'warehouse pathological case');
-assert.ok(t.includes('not timed in play'),'estimates flagged');
+assert.ok(t.includes('Estimates. They assume'),'estimates flagged');// PR 126 dropped "not timed in play"
 console.log('PASS: recycling page explains unloading, where kept stock lands, and worked examples.');
