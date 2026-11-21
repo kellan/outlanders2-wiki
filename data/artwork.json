@@ -2121,10 +2121,12 @@
       "presentation": "original sprite image"
     },
     "Halloween": {
-      "path": "wiki-artwork/mapshape-valley-biomehalloween.png",
-      "sprite_asset_id": 9791,
-      "source_name": "MapShape_Valley BiomeHalloween",
-      "presentation": "original sprite image"
+      "path": "wiki-artwork/minibiome-halloween.png",
+      "sprite_asset_id": 10349,
+      "source_name": "MiniBiome-Halloween",
+      "presentation": "original sprite image",
+      "source_build": "32 (257)",
+      "exported_by": "local agent on the maintainer’s Mac, 21 November 2026 (wiki branch codex/research-answers, research/production-findings.json key biome_artwork_v32)"
     },
     "Evergreen": {
       "path": "wiki-artwork/minibiome-evergreen.png",
@@ -2133,10 +2135,12 @@
       "presentation": "original sprite image"
     },
     "Swamp": {
-      "path": "wiki-artwork/mapshape-valley-biomeswamp.png",
-      "sprite_asset_id": 9930,
-      "source_name": "MapShape_Valley BiomeSwamp",
-      "presentation": "original sprite image"
+      "path": "wiki-artwork/minibiome-swamp.png",
+      "sprite_asset_id": 10637,
+      "source_name": "MiniBiome-Swamp",
+      "presentation": "original sprite image",
+      "source_build": "32 (257)",
+      "exported_by": "local agent on the maintainer’s Mac, 21 November 2026 (wiki branch codex/research-answers, research/production-findings.json key biome_artwork_v32)"
     },
     "Desert": {
       "path": "wiki-artwork/minibiome-desert.png",
