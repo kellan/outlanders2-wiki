@@ -218,3 +218,12 @@ Version 30 (254), research date 2026-10-25. Method: existing decoded ResourceBeh
 Resource 284894 belongs to GameObject 35517, internally named `Stick`, and has ResourceCategory 273123. Resource 284895 belongs to GameObject 35518, internally named `FakeStick`, and has no ResourceCategory (null reference). Both ResourceConfig records contain zero need units. They therefore are distinct definitions despite a shared displayed name; do not merge their identity by name alone.
 
 This establishes an internal/template distinction, not yet its runtime purpose. The name FakeStick alone does not prove that it is excluded from stockpile totals or fuel use. Category acceptance, conversion formula direction and objective counting still need tracing before changing Log costs or declaring a second usable fuel type. Evidence: decoded-stream.jsonl ResourceBehaviour IDs 284894/284895, gameobjects.json IDs 35517/35518. No gameplay observation.
+
+## Art for the Wetlands and Spookylands biome pages — exported
+
+Version **32 (build 257)**, research date **2026-11-21**. Extracted the installed macOS game sprites with UnityPy `Sprite.image`, reading `resources.assets` and its local `.resS` stream; visually checked both PNGs. These are decoded assets, not a capacity model or player report.
+
+- Wetlands: `MiniBiome-Swamp`, sprite path ID 10637, **783 × 977 pixels**, `assets/wiki-artwork/minibiome-swamp.png`.
+- Spookylands: `MiniBiome-Halloween`, sprite path ID 10349, **852 × 989 pixels**, `assets/wiki-artwork/minibiome-halloween.png`.
+
+Evidence: both PNGs are on `codex/research-answers`; SHA-256 hashes and method are in `research/production-findings.json`, key `biome_artwork_v32`. Raw sprite exports preserve their alpha; runtime tint and menu availability were not tested. No game binaries or texture streams are uploaded.

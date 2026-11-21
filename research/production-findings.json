@@ -104,14 +104,14 @@
     "40307": {
       "kind": "growing_workplace",
       "notes": [
-        "Output depends on the number and kind of planted fields or mature trees. More workers reduce planting and collection delays; they do not multiply each plant’s yield or shorten growth."
+        "Output depends on the number and kind of planted fields or mature trees. More workers reduce planting and collection delays; they do not multiply each plant\u2019s yield or shorten growth."
       ],
       "name": "Orchard"
     },
     "40308": {
       "kind": "growing_workplace",
       "notes": [
-        "Output depends on the number and kind of planted fields or mature trees. More workers reduce planting and collection delays; they do not multiply each plant’s yield or shorten growth."
+        "Output depends on the number and kind of planted fields or mature trees. More workers reduce planting and collection delays; they do not multiply each plant\u2019s yield or shorten growth."
       ],
       "name": "Orchard"
     },
@@ -774,14 +774,14 @@
     "69352": {
       "kind": "growing_workplace",
       "notes": [
-        "Output depends on the number and kind of planted fields or mature trees. More workers reduce planting and collection delays; they do not multiply each plant’s yield or shorten growth."
+        "Output depends on the number and kind of planted fields or mature trees. More workers reduce planting and collection delays; they do not multiply each plant\u2019s yield or shorten growth."
       ],
       "name": "Greenhouse"
     },
     "69353": {
       "kind": "growing_workplace",
       "notes": [
-        "Output depends on the number and kind of planted fields or mature trees. More workers reduce planting and collection delays; they do not multiply each plant’s yield or shorten growth."
+        "Output depends on the number and kind of planted fields or mature trees. More workers reduce planting and collection delays; they do not multiply each plant\u2019s yield or shorten growth."
       ],
       "name": "Farm"
     },
@@ -2650,8 +2650,8 @@
       "workday_fraction": 0.6,
       "highlights": [
         "One cheese wheel is cut into 6 portions of cheese. The material balance of 12 cheese per stick combines two batches; it is not the yield of one wheel.",
-        "Milking the building’s cows is part of the production process. The model includes the milking action, stirring, unmolding, cutting and fuel preparation. It excludes travel to the cow and equipment changes.",
-        "Aging takes 400 simulation seconds (1⅓ game days) per wheel, with six aging positions. Fully occupied, those positions have a ceiling of 27 cheese portions per day. More workers do not shorten aging. Cow availability, handoffs and work schedules can leave positions empty."
+        "Milking the building\u2019s cows is part of the production process. The model includes the milking action, stirring, unmolding, cutting and fuel preparation. It excludes travel to the cow and equipment changes.",
+        "Aging takes 400 simulation seconds (1\u2153 game days) per wheel, with six aging positions. Fully occupied, those positions have a ceiling of 27 cheese portions per day. More workers do not shorten aging. Cow availability, handoffs and work schedules can leave positions empty."
       ],
       "name": "Cheesery",
       "products": [
@@ -3384,5 +3384,35 @@
     ],
     "status": "Distinct definitions verified; stockpile acceptance, objective counting and runtime conversion interpretation unresolved.",
     "issue_comment": 6405953837
+  },
+  "biome_artwork_v32": {
+    "row": "Art for the Wetlands and Spookylands biome pages",
+    "version": "32 (257)",
+    "research_date": "2026-11-21",
+    "classification": "decoded asset",
+    "method": "UnityPy Sprite.image from installed resources.assets and resources.assets.resS; visually inspected both PNGs",
+    "uncertainty": "Raw sprite exports; no claim about runtime tint or menu availability",
+    "images": [
+      {
+        "file": "assets/wiki-artwork/minibiome-swamp.png",
+        "sprite": "MiniBiome-Swamp",
+        "path_id": 10637,
+        "pixels": [
+          783,
+          977
+        ],
+        "sha256": "1698249bd4e3b4548c1bfe16db378723c47243f6fe32c871dc126053d87c7e6b"
+      },
+      {
+        "file": "assets/wiki-artwork/minibiome-halloween.png",
+        "sprite": "MiniBiome-Halloween",
+        "path_id": 10349,
+        "pixels": [
+          852,
+          989
+        ],
+        "sha256": "e1b72ed8df0f68547e830dcbfd01c1ec61f3c7757135fb44023efac052b46b64"
+      }
+    ]
   }
 }
