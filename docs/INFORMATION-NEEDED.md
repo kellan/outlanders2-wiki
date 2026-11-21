@@ -104,5 +104,4 @@ How to read the "Source" column:
 | Need | Why it matters | Source | Status |
 |---|---|---|---|
 | Runtime colour composition for leader portraits | Portraits are static variants | mine | Not reproduced |
-| Second game build for version history | History sections need a diff; `scripts/compare-content.mjs` is ready | mine (next release) | Waiting on a new build |
 | Release update for each level, building and resource that predates the baseline | Backdated History for everything, not just the eight dated stories | official (App Store version history lists update contents by date), mine (`MinGameVersion` gate values on SerializedKeyBehaviour were declared but not decoded) | MinGameVersion gates decoded for 546 objects (26 Oct 2026): infoboxes show "Added in update N"; dates are known for updates 8, 12, 13, 14, 16, 18, 20 and 21 from the App Store history, the other updates still need dates |
