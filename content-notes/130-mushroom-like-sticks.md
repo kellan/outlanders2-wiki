@@ -1,0 +1,5 @@
+# Mushrooms work like sticks
+
+A player on the official Outlanders Discord (20 November 2026) asked whether the Stroganoff Cookhouse and the other mushroom buildings have a limited radius for grabbing mushrooms, and why it isn't shown like a Foragers' Hut's. Another player guessed it works like stick collection; a developer replied "yeah, it's just like sticks; mushrooms spawn on the map ready to be used". The maintainer shared the thread and noted the replier is one of the developers, so it is recorded as `official-source` (observation `mushrooms-picked-like-sticks`). Players are not named.
+
+It agrees with the version 32 files: Willow's Mushroom Spawner drops Mushrooms straight onto the ground as `TreeStickPile` piles, and version 32 deleted the forage source (`Mushroom Source`) that a gatherer would have worked. The Mushroom page's "How far the workers walk to pick them is not checked yet" is replaced with the fact. The stick-fetching reach itself is still unknown, so the page gives no distance.
