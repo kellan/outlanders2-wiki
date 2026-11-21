@@ -1,0 +1,1 @@
+The Mushroom page now says how mushrooms are gathered: like Sticks, they lie on the ground ready to use and workers fetch them as they would a Stick, with no Foragers' Hut-style radius. A developer confirmed this on the official Discord. [#130]

@@ -1,0 +1,8 @@
+{
+  "id": "mushrooms-picked-like-sticks",
+  "target": {"type": "resources", "id": "320441"},
+  "claim": "Mushrooms work like Sticks: they spawn on the map ready to use, and the buildings that need them fetch them the way they fetch Sticks, with no Foragers’ Hut-style gathering radius.",
+  "status": "confirmed",
+  "evidence": {"kind": "official-source", "game_version": "32", "date": "2026-11-20", "reference": "A developer’s reply on the official Outlanders Discord, 20 November 2026, to a player asking whether the Stroganoff Cookhouse has a limited mushroom radius: “it’s just like sticks; mushrooms spawn on the map ready to be used”."},
+  "notes": "Agrees with the version 32 files: the Willow Tree’s Mushroom Spawner drops Mushrooms straight onto the ground as piles (the same pile type as Sticks), and the forage source object that version 31 had is gone. How far that reach is for Sticks is not recorded."
+}
