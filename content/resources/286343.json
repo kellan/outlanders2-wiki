@@ -60,7 +60,30 @@
         307478,
         319137
       ],
-      "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+      "status": "per-unit ratio derived from the recorded per-cycle recipe",
+      "per_cycle": {
+        "inputs": [
+          {
+            "resource_id": 300126,
+            "name": "Fruit",
+            "count": 2
+          }
+        ],
+        "outputs": [
+          {
+            "resource_id": 286343,
+            "name": "Ice Pop",
+            "count": 4
+          }
+        ],
+        "status": "confirmed",
+        "evidence": {
+          "kind": "field-guide",
+          "game_version": "32 (257)",
+          "date": "2026-11-21",
+          "reference": "Ice Pop Stand field guide screenshot (gameplay-evidence/fieldguide/Ice-Pop-Stand.jpg), local agent on the maintainer’s Mac. Research data/gameplay-2026-11-21."
+        }
+      }
     }
   ]
 }

@@ -137,5 +137,40 @@
     "fields": [
       "WorkplaceConfig"
     ]
+  },
+  "gameplay": {
+    "recipe_per_cycle": {
+      "inputs": [
+        {
+          "resource_id": 300127,
+          "name": "Veggie",
+          "count": 1
+        },
+        {
+          "resource_id": 300126,
+          "name": "Fruit",
+          "count": 1
+        },
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 1
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 279345,
+          "name": "Manchamanteles",
+          "count": 3
+        }
+      ],
+      "status": "confirmed",
+      "evidence": {
+        "kind": "field-guide",
+        "game_version": "32 (257)",
+        "date": "2026-11-21",
+        "reference": "Desert Cookhouse field guide screenshot (gameplay-evidence/fieldguide/Desert-Cookhouse.jpg), local agent on the maintainer’s Mac. Research data/gameplay-2026-11-21."
+      }
+    }
   }
 }

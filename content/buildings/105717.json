@@ -135,5 +135,40 @@
     "fields": [
       "WorkplaceConfig"
     ]
+  },
+  "gameplay": {
+    "recipe_per_cycle": {
+      "inputs": [
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 1
+        },
+        {
+          "resource_id": 304113,
+          "name": "Meat",
+          "count": 1
+        },
+        {
+          "resource_id": 320441,
+          "name": "Mushroom",
+          "count": 1
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 319676,
+          "name": "Stroganoff",
+          "count": 4
+        }
+      ],
+      "status": "confirmed",
+      "evidence": {
+        "kind": "field-guide",
+        "game_version": "32 (257)",
+        "date": "2026-11-21",
+        "reference": "Stroganoff Cookhouse field guide screenshot (gameplay-evidence/fieldguide/Stroganoff-Cookhouse.jpg), local agent on the maintainer’s Mac. Research data/gameplay-2026-11-21."
+      }
+    }
   }
 }

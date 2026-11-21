@@ -6664,6 +6664,168 @@
         "screenshot": "fieldguide/Fitness-Park.jpg",
         "captured": "2026-10-27, local agent playtest (field guide)",
         "discrepancy": "The card shows Wellness 3. One visit is stored as 6 Wellness units (decoded social spots, Gathering places page). The guide shows half the stored value, as it does for Beer (Fun 2 shown, 4 stored); which number play uses is the open Beer test."
+      },
+      "Swamp Trappers' Hut": {
+        "claims": [
+          "Field guide: “Swamp trappers lay traps next to Cypress Trees during the day to catch Coypus for their Animal Hides and Meat at night.” Needs 1 Coypu; provides 2 Meat and 1 Animal Hide.",
+          "Construction: 4 Log + 8 Stick. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Swamp-Trappers-Hut.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Stroganoff Cookhouse": {
+        "claims": [
+          "Field guide: “Stroganoff cooks use Meat and Mushrooms they pick from the ground to create a heartwarming Stroganoff on a fire fueled by Sticks.” Needs 1 Stick, 1 Meat, 1 Mushroom; provides 4 Stroganoff, each Food 2.",
+          "Construction: 8 Log + 4 Clay. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Stroganoff-Cookhouse.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)",
+        "discrepancy": "The card's 1 Meat + 1 Mushroom → 4 Stroganoff matches the version 32 recipe. It shows 1 Stick; the recipe lights two fires per 4 bowls, and one Stick makes five fires, so a Stick lasts more than one batch."
+      },
+      "Winter Cabin": {
+        "claims": [
+          "Field guide: a house with a wood stove that burns Sticks to raise its occupants’ Heat. Provides Heat 3; 4 villagers sleep here. No numeric Stick row is shown.",
+          "Construction: 3 Stone + 3 Plank."
+        ],
+        "screenshot": "fieldguide/Winter-Cabin.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Winter Pub": {
+        "claims": [
+          "Field guide: Needs 1 Stick, 1 Wheat; provides 4 Wheatshine, each Heat 2 and Fun 2.",
+          "Construction: 10 Log + 8 Stone. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Winter-Pub.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Tailor": {
+        "claims": [
+          "Field guide: Needs 3 Animal Hide; provides 1 Coat, which raises the wearer’s base Heat.",
+          "Construction: 12 Brick. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Tailor.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Bonfire": {
+        "claims": [
+          "Field guide: Needs 3 Sticks; provides Heat 2.",
+          "Construction: 12 Log. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Bonfire.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Nopalero's Hut": {
+        "claims": [
+          "Field guide: gathers from Nopal Trees, Date Palm Trees and Watermelon Fields; provides 1 Fruit and 1 Nopalito (Food 1, Hydration 2).",
+          "Construction: 5 Log. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Nopaleros-Hut.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Desert Cookhouse": {
+        "claims": [
+          "Field guide: Needs 1 Veggie, 1 Fruit, 1 Stick; provides 3 Manchamanteles, each Food 1 and Fun 2.",
+          "Construction: 6 Stick + 8 Clay. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Desert-Cookhouse.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Desert Home": {
+        "claims": [
+          "Field guide: 3 villagers sleep here.",
+          "Construction: 8 Clay."
+        ],
+        "screenshot": "fieldguide/Desert-Home.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Well": {
+        "claims": [
+          "Field guide: provides 2 Water, each Hydration 1.",
+          "Construction: 8 Log + 12 Stone. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Well.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Tropical Shelter": {
+        "claims": [
+          "Field guide: provides Cooling 1; 8 villagers sleep here.",
+          "Construction: 4 Log + 8 Reed Bunch."
+        ],
+        "screenshot": "fieldguide/Tropical-Shelter.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Canteen Factory": {
+        "claims": [
+          "Field guide: Needs 1 Reed Bunch, 2 Glass Panes, 2 Sticks; provides 1 Canteen, which raises the owner’s base Cooling.",
+          "Construction: 16 Brick + 6 Plank. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Canteen-Factory.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)",
+        "discrepancy": "The card shows 2 Sticks per Canteen. The production steps use 2 Sticks for every 5 Canteens (10 Glass Panes + 5 Reed Bunches + 2 Sticks → 5 Canteens); Glass Panes and Reed Bunches agree."
+      },
+      "Swimming Pier": {
+        "claims": [
+          "Field guide: provides Fun 3 and Cooling 3.",
+          "Construction: 16 Stone + 8 Plank."
+        ],
+        "screenshot": "fieldguide/Swimming-Pier.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Ice Pop Stand": {
+        "claims": [
+          "Field guide: Needs 2 Fruits; provides 4 Ice Pops, each Cooling 3.",
+          "Construction: 9 Log + 6 Clay. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Ice-Pop-Stand.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Glassworks": {
+        "claims": [
+          "Field guide: “Glass workers light a fire with Sticks and, through the use of science, make Glass Panes out of common sand.” Needs 3 Sticks; provides 1 Glass Pane.",
+          "Construction: 8 Brick + 13 Stone. Worker slots: 2."
+        ],
+        "screenshot": "fieldguide/Glassworks.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)",
+        "discrepancy": "The card shows 3 Sticks → 1 Glass Pane. The production steps give 2 Glass Panes for 3 Sticks."
+      },
+      "Reed Harvester": {
+        "claims": [
+          "Field guide: harvests Reeds from the highlighted area; provides 1 Reed Bunch.",
+          "Construction: 6 Stick. Worker slots: 3."
+        ],
+        "screenshot": "fieldguide/Reed-Harvester.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Road": {
+        "claims": [
+          "Field guide: faster walking (no number shown). Cost: free."
+        ],
+        "screenshot": "fieldguide/Road.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Stone Road": {
+        "claims": [
+          "Field guide: much faster than regular roads (no number shown).",
+          "Construction: 1 Stone."
+        ],
+        "screenshot": "fieldguide/Stone-Road.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Brick Road": {
+        "claims": [
+          "Field guide: much faster than regular roads (no number shown).",
+          "Construction: 2 Brick."
+        ],
+        "screenshot": "fieldguide/Brick-Road.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
+      },
+      "Bridge": {
+        "claims": [
+          "Field guide: connects landmasses; once it connects two, it can’t be recycled.",
+          "Construction: 1 Stone + 2 Plank."
+        ],
+        "screenshot": "fieldguide/Bridge.jpg",
+        "captured": "2026-11-21, local agent on the maintainer’s Mac (field guide), version 32 (257)"
       }
     },
     "campaigns": [

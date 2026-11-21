@@ -1,0 +1,8 @@
+{
+  "id": "tournament-greek-season-live",
+  "target": {"type": "tournament", "id": "Greek"},
+  "claim": "The Greek season is the one currently running, with 12 days left on 21 November 2026.",
+  "status": "confirmed",
+  "evidence": {"kind": "gameplay-test", "game_version": "32 (257)", "date": "2026-11-21", "reference": "Tournament screen captured by the local agent on the maintainer’s Mac, 21 November 2026 (research data/gameplay-2026-11-21, tournament-overview.png and the reward-track screenshots)."},
+  "notes": "The screen showed “12 days left”, which puts the end around 3 December 2026; the game gives no exact end time. The reward track showed Greek Palette, Quarry, Two-Story House, Communal Plaza, Book Workshop and Greek Villagers Style at 80 points, matching the packaged Greek table. No other season was shown."
+}
