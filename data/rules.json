@@ -31232,6 +31232,41 @@
         "fields": [
           "WorkplaceConfig"
         ]
+      },
+      "gameplay": {
+        "recipe_per_cycle": {
+          "inputs": [
+            {
+              "resource_id": 300127,
+              "name": "Veggie",
+              "count": 1
+            },
+            {
+              "resource_id": 300126,
+              "name": "Fruit",
+              "count": 1
+            },
+            {
+              "resource_id": 284894,
+              "name": "Stick",
+              "count": 1
+            }
+          ],
+          "outputs": [
+            {
+              "resource_id": 279345,
+              "name": "Manchamanteles",
+              "count": 3
+            }
+          ],
+          "status": "confirmed",
+          "evidence": {
+            "kind": "field-guide",
+            "game_version": "32 (257)",
+            "date": "2026-11-21",
+            "reference": "Desert Cookhouse field guide screenshot (gameplay-evidence/fieldguide/Desert-Cookhouse.jpg), local agent on the maintainer’s Mac. Research data/gameplay-2026-11-21."
+          }
+        }
       }
     },
     {
@@ -36849,6 +36884,31 @@
         "fields": [
           "WorkplaceConfig"
         ]
+      },
+      "gameplay": {
+        "recipe_per_cycle": {
+          "inputs": [
+            {
+              "resource_id": 300126,
+              "name": "Fruit",
+              "count": 2
+            }
+          ],
+          "outputs": [
+            {
+              "resource_id": 286343,
+              "name": "Ice Pop",
+              "count": 4
+            }
+          ],
+          "status": "confirmed",
+          "evidence": {
+            "kind": "field-guide",
+            "game_version": "32 (257)",
+            "date": "2026-11-21",
+            "reference": "Ice Pop Stand field guide screenshot (gameplay-evidence/fieldguide/Ice-Pop-Stand.jpg), local agent on the maintainer’s Mac. Research data/gameplay-2026-11-21."
+          }
+        }
       }
     },
     {
@@ -40639,6 +40699,41 @@
         "fields": [
           "WorkplaceConfig"
         ]
+      },
+      "gameplay": {
+        "recipe_per_cycle": {
+          "inputs": [
+            {
+              "resource_id": 284894,
+              "name": "Stick",
+              "count": 1
+            },
+            {
+              "resource_id": 304113,
+              "name": "Meat",
+              "count": 1
+            },
+            {
+              "resource_id": 320441,
+              "name": "Mushroom",
+              "count": 1
+            }
+          ],
+          "outputs": [
+            {
+              "resource_id": 319676,
+              "name": "Stroganoff",
+              "count": 4
+            }
+          ],
+          "status": "confirmed",
+          "evidence": {
+            "kind": "field-guide",
+            "game_version": "32 (257)",
+            "date": "2026-11-21",
+            "reference": "Stroganoff Cookhouse field guide screenshot (gameplay-evidence/fieldguide/Stroganoff-Cookhouse.jpg), local agent on the maintainer’s Mac. Research data/gameplay-2026-11-21."
+          }
+        }
       }
     },
     {
@@ -41181,6 +41276,31 @@
         "fields": [
           "WorkplaceConfig"
         ]
+      },
+      "gameplay": {
+        "recipe_per_cycle": {
+          "inputs": [
+            {
+              "resource_id": 304112,
+              "name": "Animal Hide",
+              "count": 3
+            }
+          ],
+          "outputs": [
+            {
+              "resource_id": 300124,
+              "name": "Coat",
+              "count": 1
+            }
+          ],
+          "status": "confirmed",
+          "evidence": {
+            "kind": "field-guide",
+            "game_version": "32 (257)",
+            "date": "2026-11-21",
+            "reference": "Tailor field guide screenshot (gameplay-evidence/fieldguide/Tailor.jpg), local agent on the maintainer’s Mac. Research data/gameplay-2026-11-21."
+          }
+        }
       }
     },
     {
@@ -43225,6 +43345,36 @@
         "fields": [
           "WorkplaceConfig"
         ]
+      },
+      "gameplay": {
+        "recipe_per_cycle": {
+          "inputs": [
+            {
+              "resource_id": 284894,
+              "name": "Stick",
+              "count": 1
+            },
+            {
+              "resource_id": 320813,
+              "name": "Wheat",
+              "count": 1
+            }
+          ],
+          "outputs": [
+            {
+              "resource_id": 285910,
+              "name": "Wheatshine",
+              "count": 4
+            }
+          ],
+          "status": "confirmed",
+          "evidence": {
+            "kind": "field-guide",
+            "game_version": "32 (257)",
+            "date": "2026-11-21",
+            "reference": "Winter Pub field guide screenshot (gameplay-evidence/fieldguide/Winter-Pub.jpg), local agent on the maintainer’s Mac. Research data/gameplay-2026-11-21."
+          }
+        }
       }
     },
     {
@@ -46775,7 +46925,30 @@
             307478,
             319137
           ],
-          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+          "status": "per-unit ratio derived from the recorded per-cycle recipe",
+          "per_cycle": {
+            "inputs": [
+              {
+                "resource_id": 300126,
+                "name": "Fruit",
+                "count": 2
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 286343,
+                "name": "Ice Pop",
+                "count": 4
+              }
+            ],
+            "status": "confirmed",
+            "evidence": {
+              "kind": "field-guide",
+              "game_version": "32 (257)",
+              "date": "2026-11-21",
+              "reference": "Ice Pop Stand field guide screenshot (gameplay-evidence/fieldguide/Ice-Pop-Stand.jpg), local agent on the maintainer’s Mac. Research data/gameplay-2026-11-21."
+            }
+          }
         }
       ]
     },
@@ -48733,7 +48906,30 @@
             291264,
             306804
           ],
-          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+          "status": "per-unit ratio derived from the recorded per-cycle recipe",
+          "per_cycle": {
+            "inputs": [
+              {
+                "resource_id": 304112,
+                "name": "Animal Hide",
+                "count": 3
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 300124,
+                "name": "Coat",
+                "count": 1
+              }
+            ],
+            "status": "confirmed",
+            "evidence": {
+              "kind": "field-guide",
+              "game_version": "32 (257)",
+              "date": "2026-11-21",
+              "reference": "Tailor field guide screenshot (gameplay-evidence/fieldguide/Tailor.jpg), local agent on the maintainer’s Mac. Research data/gameplay-2026-11-21."
+            }
+          }
         }
       ]
     },
@@ -53038,17 +53234,17 @@
             {
               "resource_id": 284894,
               "name": "Stick",
-              "count": 0.2
+              "count": 0.25
             },
             {
               "resource_id": 304113,
               "name": "Meat",
-              "count": 0.125
+              "count": 0.25
             },
             {
               "resource_id": 320441,
               "name": "Mushroom",
-              "count": 0.125
+              "count": 0.25
             }
           ],
           "smallest_whole_batch": {
@@ -53084,7 +53280,40 @@
             314770,
             318167
           ],
-          "status": "per-unit ratio derived from the decoded production steps; not measured in play"
+          "status": "per-unit ratio derived from the recorded per-cycle recipe",
+          "per_cycle": {
+            "inputs": [
+              {
+                "resource_id": 284894,
+                "name": "Stick",
+                "count": 1
+              },
+              {
+                "resource_id": 304113,
+                "name": "Meat",
+                "count": 1
+              },
+              {
+                "resource_id": 320441,
+                "name": "Mushroom",
+                "count": 1
+              }
+            ],
+            "outputs": [
+              {
+                "resource_id": 319676,
+                "name": "Stroganoff",
+                "count": 4
+              }
+            ],
+            "status": "confirmed",
+            "evidence": {
+              "kind": "field-guide",
+              "game_version": "32 (257)",
+              "date": "2026-11-21",
+              "reference": "Stroganoff Cookhouse field guide screenshot (gameplay-evidence/fieldguide/Stroganoff-Cookhouse.jpg), local agent on the maintainer’s Mac. Research data/gameplay-2026-11-21."
+            }
+          }
         }
       ]
     },
