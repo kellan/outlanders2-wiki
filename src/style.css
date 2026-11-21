@@ -97,6 +97,7 @@ img.gi-inline{width:1.15em;height:1.15em;vertical-align:-.2em;margin-right:.15em
 .fg-tile img.fg-icon{width:60px;height:60px;padding:8px}
 .fg-tile:hover img.fg-icon{transform:translateY(-1px);box-shadow:0 4px 10px var(--shadow)}
 .fg-count{font-size:1.125rem;font-weight:700;line-height:1.2;color:var(--ink)}
+.fg-worker-icon{width:28px;height:28px;display:block}
 .fg-note{font-size:0.75rem;color:var(--faint);margin-top:-2px}
 .fg-group-tiles{display:flex;gap:4px}
 .fg-bracket{display:block;align-self:stretch;height:12px;margin:-4px 10px 0;border:2px solid var(--faint);border-top:0;border-radius:0 0 14px 14px}

@@ -134,5 +134,35 @@
     "fields": [
       "WorkplaceConfig"
     ]
+  },
+  "gameplay": {
+    "recipe_per_cycle": {
+      "inputs": [
+        {
+          "resource_id": 284894,
+          "name": "Stick",
+          "count": 1
+        },
+        {
+          "resource_id": 320813,
+          "name": "Wheat",
+          "count": 1
+        }
+      ],
+      "outputs": [
+        {
+          "resource_id": 285910,
+          "name": "Wheatshine",
+          "count": 4
+        }
+      ],
+      "status": "confirmed",
+      "evidence": {
+        "kind": "field-guide",
+        "game_version": "32 (257)",
+        "date": "2026-11-21",
+        "reference": "Winter Pub field guide screenshot (gameplay-evidence/fieldguide/Winter-Pub.jpg), local agent on the maintainer’s Mac. Research data/gameplay-2026-11-21."
+      }
+    }
   }
 }
