@@ -13,3 +13,4 @@ assert.ok(!/not (yet )?(known|tested|measured)|unverified|pending/i.test(p),'no 
 assert.ok(h.render('buildings/cypress-tree/').includes('/coypus/"'),'Cypress Tree links to the page');
 assert.ok(h.render('mechanics/').includes('/coypus/"'),'listed under Mechanics');
 console.log('PASS: Coypus page with burrows, trapping, reach, output and level needs.');
+assert.match(p,/The real animal The coypu, also called the nutria/);assert.ok(h.render('coypus/').includes('https://en.wikipedia.org/wiki/Coypu'),'Wikipedia credited');
