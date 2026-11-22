@@ -313,6 +313,14 @@
       "spoiler": false
     },
     {
+      "type": "coypus",
+      "id": "",
+      "name": "Coypus",
+      "category": "Mechanics",
+      "path": "coypus/",
+      "spoiler": false
+    },
+    {
       "type": "halloween",
       "id": "",
       "name": "Halloween",
@@ -13209,6 +13217,7 @@
     "roads-and-walking/",
     "food-production/",
     "births/",
+    "coypus/",
     "halloween/",
     "christmas/",
     "achievements/",
