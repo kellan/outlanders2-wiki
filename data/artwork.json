@@ -799,11 +799,16 @@
       "contrast_background": "#edf0e4"
     },
     "105714": {
-      "path": "wiki-artwork/icon-273694.png",
+      "path": "wiki-artwork/beehive-glyph-v32.png",
       "icon_asset_id": 273694,
       "content_component_id": 284770,
       "match": "gameobject",
-      "contrast_background": "#536057"
+      "contrast_background": "#536057",
+      "artwork_source": {
+        "game_version": "32 (257)",
+        "date": "2026-11-22",
+        "method": "Source sprite rectangles; aligned background and line layers, tinted with the game UI palette. Matched by localization key across builds."
+      }
     },
     "105715": {
       "path": "wiki-artwork/icon-273776.png",
@@ -946,11 +951,16 @@
       "contrast_background": "#edf0e4"
     },
     "105738": {
-      "path": "wiki-artwork/icon-273681.png",
+      "path": "wiki-artwork/barley-porridge-glyph-v32.png",
       "icon_asset_id": 273681,
       "content_component_id": 284794,
       "match": "gameobject",
-      "contrast_background": "#536057"
+      "contrast_background": "#536057",
+      "artwork_source": {
+        "game_version": "32 (257)",
+        "date": "2026-11-22",
+        "method": "Source sprite rectangles; aligned background and line layers, tinted with the game UI palette. Matched by localization key across builds."
+      }
     },
     "105739": {
       "path": "wiki-artwork/icon-273692.png",
@@ -1088,11 +1098,16 @@
       "contrast_background": "#edf0e4"
     },
     "279352": {
-      "path": "wiki-artwork/icon-273681.png",
+      "path": "wiki-artwork/barley-porridge-glyph-v32.png",
       "icon_asset_id": 273681,
       "content_component_id": 317802,
       "match": "gameobject",
-      "contrast_background": "#536057"
+      "contrast_background": "#536057",
+      "artwork_source": {
+        "game_version": "32 (257)",
+        "date": "2026-11-22",
+        "method": "Source sprite rectangles; aligned background and line layers, tinted with the game UI palette. Matched by localization key across builds."
+      }
     },
     "279353": {
       "path": "wiki-artwork/icon-273779.png",
@@ -1256,11 +1271,16 @@
       "contrast_background": "#edf0e4"
     },
     "292311": {
-      "path": "wiki-artwork/icon-273694.png",
+      "path": "wiki-artwork/beehive-glyph-v32.png",
       "icon_asset_id": 273694,
       "content_component_id": 310842,
       "match": "gameobject",
-      "contrast_background": "#536057"
+      "contrast_background": "#536057",
+      "artwork_source": {
+        "game_version": "32 (257)",
+        "date": "2026-11-22",
+        "method": "Source sprite rectangles; aligned background and line layers, tinted with the game UI palette. Matched by localization key across builds."
+      }
     },
     "293926": {
       "path": "wiki-artwork/icon-273781.png",
@@ -2433,7 +2453,6 @@
     "finding": "Original UIColorPalette recovered, but palette alone does not establish runtime icon layer tint rules. To honor unchanged game art, original line sprite pixels are used. Source sprites include black and white variants; runtime tint appearance is not established."
   },
   "filled": [
-    273681,
     273682,
     273683,
     273684,
@@ -2446,7 +2465,6 @@
     273691,
     273692,
     273693,
-    273694,
     273695,
     273696,
     273697,
