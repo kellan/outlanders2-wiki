@@ -53422,5 +53422,179 @@
     "target": 100
    }
   ]
+ },
+ "trapping": {
+  "class": "SpawnerBehaviour / burrow WorkspotBehaviour / WorkplaceConfig.AreaOfEffect",
+  "checked_versions": [
+   "32 build 257"
+  ],
+  "research_tool": "tools/export_trapping.py",
+  "units": "days and day fractions (0 = start of the day face, 0.5 = the dial turns to night); area in squares on screen (2 grid units each)",
+  "burrows": [
+   {
+    "burrow": "CoypuBurrow",
+    "tree": "CypressTree",
+    "spawner": "Otter Spawner",
+    "max_spawned": 1,
+    "min_days": 6.0,
+    "max_days": 10.0,
+    "initial_offset_days": -8.0,
+    "valid_terrains": [
+     "sand",
+     "soil"
+    ],
+    "max_height_difference": 0.1,
+    "trap_fills_between": [
+     0.75,
+     0.95
+    ],
+    "needs_worker_to_fill": false,
+    "trapped_times_before_gone": 1,
+    "trapped_by": [
+     "HuntersHutSwamp"
+    ]
+   },
+   {
+    "burrow": "Burrow",
+    "tree": "Winter Pine",
+    "spawner": "Burrow Spawner",
+    "max_spawned": 1,
+    "min_days": 6.0,
+    "max_days": 10.0,
+    "initial_offset_days": -8.0,
+    "valid_terrains": null,
+    "max_height_difference": null,
+    "trap_fills_between": [
+     0.75,
+     0.95
+    ],
+    "needs_worker_to_fill": false,
+    "trapped_times_before_gone": 1,
+    "trapped_by": [
+     "HuntersHut"
+    ]
+   }
+  ],
+  "huts": [
+   {
+    "hut": "HuntersHut",
+    "max_workers": 3,
+    "shift": [
+     0.9,
+     0.5
+    ],
+    "area_squares": [
+     14,
+     14
+    ],
+    "area_cells": 160,
+    "area_rows": [
+     "....######....",
+     "..##########..",
+     ".############.",
+     ".############.",
+     "##############",
+     "##############",
+     "######..######",
+     "######..######",
+     "##############",
+     "##############",
+     ".############.",
+     ".############.",
+     "..##########..",
+     "....######...."
+    ],
+    "catch_inputs": [
+     {
+      "resource": "HunterTrapFull",
+      "count": 1
+     }
+    ],
+    "catch_outputs": [
+     {
+      "resource": "Meat",
+      "count": 2
+     },
+     {
+      "resource": "AnimalHide",
+      "count": 1
+     },
+     {
+      "resource": "HunterTrap",
+      "count": 1
+     }
+    ],
+    "trap_piles": [
+     {
+      "path": "HuntersHut/TrapPile",
+      "capacity": 6
+     },
+     {
+      "path": "HuntersHut/TrapPile (1)",
+      "capacity": 2
+     }
+    ]
+   },
+   {
+    "hut": "HuntersHutSwamp",
+    "max_workers": 3,
+    "shift": [
+     0.9,
+     0.5
+    ],
+    "area_squares": [
+     14,
+     14
+    ],
+    "area_cells": 160,
+    "area_rows": [
+     "....######....",
+     "..##########..",
+     ".############.",
+     ".############.",
+     "##############",
+     "##############",
+     "######..######",
+     "######..######",
+     "##############",
+     "##############",
+     ".############.",
+     ".############.",
+     "..##########..",
+     "....######...."
+    ],
+    "catch_inputs": [
+     {
+      "resource": "HuntersSwampTrapFull",
+      "count": 1
+     }
+    ],
+    "catch_outputs": [
+     {
+      "resource": "Meat",
+      "count": 2
+     },
+     {
+      "resource": "AnimalHide",
+      "count": 1
+     },
+     {
+      "resource": "HuntersSwampTrap",
+      "count": 1
+     }
+    ],
+    "trap_piles": [
+     {
+      "path": "HuntersHutSwamp/TrapPile",
+      "capacity": 6
+     },
+     {
+      "path": "HuntersHutSwamp/TrapPile (1)",
+      "capacity": 2
+     }
+    ]
+   }
+  ],
+  "notes": "A tree rolls its next burrow 6–10 days after the last roll; if its burrow is still there when the roll comes due, nothing spawns and the next roll counts from then. The first roll counts from 8 days before the map starts, so about half of the trees start with a burrow and the rest get one within 2 days. A hut only traps burrows inside its area of effect."
  }
 }

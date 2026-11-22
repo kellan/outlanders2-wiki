@@ -1,0 +1,1 @@
+New **Coypus** page under Mechanics: where coypu burrows appear on Cypress Trees and how often, how the Swamp Trappers' Hut traps them, how far a hut reaches, how many Cypress Trees give how much Meat and Animal Hide, and what the goals on Oona's levels need. The Cypress Tree page links to it. [#133]
