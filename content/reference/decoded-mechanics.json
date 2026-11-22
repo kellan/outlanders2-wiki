@@ -39855,7 +39855,9 @@
     "Campaign3_Level2C": 0.54
    },
    "evidence": "Activity.CalculateWalkSpeedMultiplier and PathfindingMaps.UpdatePathfinding (version 32 build 257); research docs/RELEASE-32-257.md"
-  }
+  },
+  "slope_cap": 0.825,
+  "slope_cap_source": "Level.MaxHeightMultiplier in all eight terrain scenes (Level, LevelSnow, LevelTropical, LevelSnowPrecipice, LevelChristmas, LevelHalloween, LevelDesert, LevelSwamp), version 32 build 257; research snapshots/macos-32-257/scene-index.json. Slope multiplier = 1 + clamp(height drop / horizontal distance, -cap, +cap) (Level.GetSlopeSpeedMultiplier, research docs/WALKING.md)."
  },
  "timing_model": {
   "about": "Copied from the research repo data/timing-model.json (tools/build_timing_model.py). Formulas: research docs/TIMING-MODEL.md. Pages compute their estimates from these constants; do not edit values here, rebuild in research and copy.",
